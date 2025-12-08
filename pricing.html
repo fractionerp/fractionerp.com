@@ -69,4 +69,5 @@ keywords: "ERP, MRP, Cloud ERP, manufacturing ERP, ERP for small business, small
   </div>
 </section>
 
-{% include testimonial.html quote=site.data.testimonials[3].quote name=site.data.testimonials[3].name title=site.data.testimonials[3].title %}
+{% assign testimonial = site.data.testimonials[3] %}
+{% include testimonial.html quote=testimonial.quote name=testimonial.name title=testimonial.title %}

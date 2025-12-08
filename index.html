@@ -79,7 +79,8 @@ keywords: ERP, MRP, Cloud ERP, manufacturing software, shopfloor data capture, e
   </div>
 </section><!-- End Customers Section -->
 
-{% include testimonial.html quote=site.data.testimonials[0].quote name=site.data.testimonials[0].name title=site.data.testimonials[0].title %}
+{% assign testimonial = site.data.testimonials[0] %}
+{% include testimonial.html quote=testimonial.quote name=testimonial.name title=testimonial.title %}
 
 <!-- ======= Our ERP Solution Section ======= -->
 <section id="services" class="services section-bg">

@@ -25,7 +25,8 @@ keywords: "fraction erp, cloud erp, manufacturing erp, manufacturing mrp"
 
 {% include team.html title="Our Team" description="Founded by three engineers passionate about manufacturing, cloud technologies and workflow design. Fraction ERP started its life as a internally developed production management tool to overcome the weaknesses of the ERP at a precision engineering company. The outstanding success of the tool led to the development of a full ERP system, specifically designed for small to medium sized engineering companies." %}
 
-{% include testimonial.html quote=site.data.testimonials[2].quote name=site.data.testimonials[2].name title=site.data.testimonials[2].title %}
+{% assign testimonial = site.data.testimonials[2] %}
+{% include testimonial.html quote=testimonial.quote name=testimonial.name title=testimonial.title %}
 
 <!-- ======= Why Fraction ERP Section ======= -->
 <section id="services" class="services section-bg">

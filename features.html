@@ -95,5 +95,6 @@ keywords: "ERP, MRP, CLOUD ERP, small business ERP, production management, bill 
     </div>
   </div>
 
-  {% include testimonial.html quote=site.data.testimonials[1].quote name=site.data.testimonials[1].name title=site.data.testimonials[1].title %}
+  {% assign testimonial = site.data.testimonials[1] %}
+  {% include testimonial.html quote=testimonial.quote name=testimonial.name title=testimonial.title %}
 </section><!-- End Features Section -->
