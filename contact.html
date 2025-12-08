@@ -1,0 +1,97 @@
+---
+layout: page
+title: Contact Us
+description: Contact Us at Fraction ERP
+keywords: "manufacturing software, ERP, MRP"
+---
+
+<section id="services" class="services">
+  <div class="container" data-aos="fade-up">
+    <div class="section-title">
+      <h2>Contact Us</h2>
+    </div>
+
+    <div class="container text-center">
+      <div class="info">
+        <div class="address">
+          <p><i class="bi bi-geo-alt"></i>
+            Unit 3 Browns Park, Newcastle, NE13 7DG, United Kingdom</p>
+        </div>
+
+        <div class="email">
+          <p><i class="bi bi-envelope"></i>
+            <a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
+        </div>
+
+        <div class="phone">
+          <p><i class="bi bi-phone"></i>
+            <a href="tel:{{ site.phone_link }}">{{ site.phone }}</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="services" class="skills-bg">
+  <div class="container" data-aos="fade-up">
+    <div class="section-title">
+      <h2>Book an Online Demo</h2>
+    </div>
+
+    <div class="container col-10 col-md-6 col-lg-4 mb-4">
+      <form action="{{ site.formspree_demo }}" method="POST">
+        <div class="form-group mb-4">
+          <label for="name">Name</label>
+          <input type="text" name="Name" class="form-control" id="name" placeholder="" required>
+        </div>
+
+        <div class="form-group mb-4">
+          <label for="email">Email address</label>
+          <input type="email" name="Email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="" required>
+          <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+        </div>
+
+        <div class="form-group mb-4">
+          <label for="telephone">Telephone</label>
+          <input type="tel" name="Telephone" class="form-control" id="telephone" placeholder="">
+        </div>
+
+        <p>How should we contact you?</p>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="Contact-me" id="contact-email" value="email" checked>
+          <label class="form-check-label" for="contact-email">Drop me an email</label>
+        </div>
+
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="Contact-me" id="contact-telephone" value="telephone">
+          <label class="form-check-label" for="contact-telephone">Give me a call</label>
+        </div>
+
+        <input type="hidden" name="_next" value="{{ site.url }}{{ site.baseurl }}/success.html">
+        <button type="submit" class="btn btn-secondary mt-5">Submit</button>
+      </form>
+    </div>
+  </div>
+</section>
+
+<section class="inner-page">
+  <section id="services" class="services">
+    <div class="container" data-aos="fade-up">
+      <div class="section-title">
+        <h2>Avoid ERP Pitfalls Before They Cost You!</h2>
+        <p>Don't let common mistakes derail your ERP project. Download our <b>FREE ERP Implementation Guide</b> today and get practical strategies to save time, cut costs, and ensure success.</p>
+      </div>
+
+      <div class="container col-md-4 mt-5">
+        <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/embed/v2.js"></script>
+        <script>
+          hbspt.forms.create({
+            portalId: "9456893",
+            formId: "945e6f95-63d2-4e29-a33f-da726f0a71c9",
+            region: "na1"
+          });
+        </script>
+      </div>
+    </div>
+  </section>
+</section>

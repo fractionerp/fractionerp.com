@@ -1,0 +1,31 @@
+# Site settings
+title: Fraction ERP
+description: "Cloud ERP for precision engineering, fabricators, manufacturers and assembly companies"
+url: "https://fractionerp.com"
+baseurl: ""
+
+# Contact info
+phone: "+44 (0)191 3001219"
+phone_link: "+441913001219"
+email: "sales@fractionerp.com"
+linkedin: "https://www.linkedin.com/company/67678664"
+support_url: "https://support.fractionerp.com"
+app_url: "https://fraction.app"
+
+# Formspree
+formspree_demo: "https://formspree.io/f/mwkzlkkz"
+formspree_contact: "https://formspree.io/f/xjvazaqk"
+
+# Google Analytics
+google_analytics: "UA-174639323-1"
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+# Exclude from build
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor

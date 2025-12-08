@@ -1,0 +1,130 @@
+plans:
+  - name: Core
+    price: 37
+    currency: "£"
+    period: per user/month
+    features:
+      - Sales Order Management
+      - Bill of Materials
+      - Parts
+      - Works Orders
+      - MRP Demand
+      - Purchasing
+      - Inventory Management
+      - Non Conformance Reports
+      - Unlimited Shop Floor Data Capture
+      - Shipping
+      - Invoicing
+      - Dashboard
+      - Reports
+      - Drag and Drop Production Scheduling
+
+  - name: Advanced
+    price: 52
+    currency: "£"
+    period: per user/month
+    features:
+      - Sales Order Management
+      - Bill of Materials
+      - Parts
+      - Works Orders
+      - MRP Demand
+      - Purchasing
+      - Inventory Management
+      - Non Conformance Reports
+      - Unlimited Shop Floor Data Capture
+      - Shipping
+      - Invoicing
+      - Dashboard
+      - Reports
+      - Drag and Drop Production Scheduling
+      - Cert. of Conformance
+      - Key Performance Indicators (KPIs)
+      - Multi-currency
+      - BOM Tooling and Jigs
+      - Task Management
+      - Subcontract Management
+      - NCR Analytics
+      - Calibration Log*
+      - Serial Traceability
+
+  - name: Pro
+    price: 75
+    currency: "£"
+    period: per user/month
+    features:
+      - Sales Order Management
+      - Bill of Materials
+      - Parts
+      - Works Orders
+      - MRP Demand
+      - Purchasing
+      - Inventory Management
+      - Non Conformance Reports
+      - Unlimited Shop Floor Data Capture
+      - Shipping
+      - Invoicing
+      - Dashboard
+      - Reports
+      - Drag and Drop Production Scheduling
+      - Cert. of Conformance
+      - Key Performance Indicators (KPIs)
+      - Multi-currency
+      - BOM Tooling and Jigs
+      - Task Management
+      - Subcontract Management
+      - NCR Analytics
+      - Calibration Log*
+      - Serial Traceability
+      - Batch Traceability
+      - After market service*
+      - RFQ's for purchasing
+      - Inspection Reports*
+      - Contract Review*
+      - API Integration*
+
+  - name: Moulding
+    price: POE
+    currency: "£"
+    period: per user/month
+    features:
+      - Sales Order Management
+      - Bill of Materials
+      - Parts
+      - Works Orders
+      - MRP Demand
+      - Purchasing
+      - Inventory Management
+      - Non Conformance Reports
+      - Unlimited Shop Floor Data Capture
+      - Shipping
+      - Invoicing
+      - Dashboard
+      - Reports
+      - Drag and Drop Production Scheduling
+      - Cert. of Conformance
+      - Key Performance Indicators (KPIs)
+      - Multi-currency
+      - BOM Tooling and Jigs
+      - Task Management
+      - Subcontract Management
+      - NCR Analytics
+      - Calibration Log*
+      - Serial Traceability
+      - Batch Traceability
+      - After market service*
+      - RFQ's for purchasing
+      - Inspection Reports*
+      - Contract Review*
+      - API Integration*
+    note: "Specifically tailored for plastic injection moulding industry. Please visit www.mouldersconsulting.co.uk"
+
+subscription_includes:
+  - Unlimited, free SFDC users
+  - Unlimited online and telephone support
+  - Automatic software updates with new features
+  - Automatic daily backup
+  - Access anywhere with any web-browser
+  - Unlimited file storage and records
+  - Accounts integration with Xero, Quickbooks Online, Sage Cloud Business Accounting
+  - Work Order integration with InTouch and Siemens Opcenter

@@ -1,0 +1,24 @@
+---
+layout: default
+---
+<main id="main">
+  <section class="inner-page">
+    <section id="services" class="services section-bg">
+      <div class="container" data-aos="fade-up">
+        <div class="section-title">
+          <h2>{{ page.page_title | default: page.title }}</h2>
+          {% if page.page_description %}
+            <p>{{ page.page_description }}</p>
+          {% endif %}
+        </div>
+
+        {{ content }}
+      </div>
+    </section>
+  </section>
+
+  {% if page.testimonial %}
+    {% assign testimonial = site.data.testimonials[page.testimonial] %}
+    {% include testimonial.html quote=testimonial.quote name=testimonial.name title=testimonial.title %}
+  {% endif %}
+</main>

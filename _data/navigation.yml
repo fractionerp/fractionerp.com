@@ -1,0 +1,80 @@
+# Main navigation
+main:
+  - title: Home
+    url: /
+  - title: Features
+    url: /features.html
+  - title: Industries
+    url: /industries.html
+  - title: Pricing
+    url: /pricing.html
+  - title: About
+    url: /about.html
+  - title: Resources
+    dropdown: true
+    items:
+      - title: Support
+        url: https://support.fractionerp.com
+        external: true
+      - title: ERP Implementation
+        url: /erp-implementation-guide.html
+      - title: ERP Workflow
+        url: /erp-manufacturing-workflow.html
+      - title: Demo Video
+        url: /simple-erp-demo-video.html
+      - title: Blog
+        url: /blog/
+  - title: Contact
+    url: /contact.html
+  - title: Book a Demo
+    url: /erp-online-demo.html
+
+# Footer navigation
+footer_product:
+  - title: MRP Software
+    url: /mrp-software.html
+  - title: MRP System
+    url: /mrp-system.html
+  - title: Cloud ERP Software
+    url: /cloud-erp-software.html
+  - title: Production Scheduling
+    url: /production-scheduling-software.html
+  - title: Purchasing and Inventory
+    url: /purchasing-inventory-software.html
+  - title: Sales Order Management
+    url: /sales-order-management-software.html
+  - title: Bill of Materials
+    url: /bill-of-materials-software.html
+  - title: Plastic Injection Moulding ERP
+    url: /plastic-injection-moulding-erp.html
+
+footer_fraction:
+  - title: Features
+    url: /features.html
+  - title: Pricing
+    url: /pricing.html
+  - title: Industries
+    url: /industries.html
+  - title: Product Updates
+    url: /product-updates.html
+
+footer_company:
+  - title: Contact
+    url: /contact.html
+  - title: About Us
+    url: /about.html
+  - title: Privacy Policy
+    url: /privacy.html
+  - title: Terms of Service
+    url: /terms.html
+
+footer_resources:
+  - title: Support
+    url: https://support.fractionerp.com
+    external: true
+  - title: Blog
+    url: /blog/
+  - title: ERP Implementation Guide
+    url: /erp-implementation-guide.html
+  - title: ERP Workflow
+    url: /erp-manufacturing-workflow.html

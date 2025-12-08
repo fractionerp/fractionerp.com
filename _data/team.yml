@@ -1,0 +1,14 @@
+- name: Patrick Chester
+  role: The Architect
+  image: assets/img/team/patrick.jpg
+  description: Designs workflow, functionality, and development plans. Runs Fraction at his own manufacturing company.
+
+- name: Junzi Sun
+  role: Chief of Technology
+  image: assets/img/team/junzi.jpg
+  description: Application development, server infrastructures, deployments, and other Fraction technologies.
+
+- name: Giles Johnston
+  role: ERP and Manufacturing Expert
+  image: assets/img/team/giles.jpg
+  description: Literally has seen it all and done it all, from simple deployments to multi-million pound ERP systems.

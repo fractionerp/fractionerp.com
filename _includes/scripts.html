@@ -1,0 +1,27 @@
+<a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+<!-- Vendor JS Files -->
+<script defer src="{{ '/assets/vendor/aos/aos.js' | relative_url }}"></script>
+<script defer src="{{ '/assets/vendor/bootstrap/js/bootstrap.bundle.min.js' | relative_url }}"></script>
+<script defer src="{{ '/assets/vendor/glightbox/js/glightbox.min.js' | relative_url }}"></script>
+<script defer src="{{ '/assets/vendor/isotope-layout/isotope.pkgd.min.js' | relative_url }}"></script>
+<script defer src="{{ '/assets/vendor/swiper/swiper-bundle.min.js' | relative_url }}"></script>
+<script defer src="{{ '/assets/vendor/waypoints/noframework.waypoints.js' | relative_url }}"></script>
+<script defer src="{{ '/assets/vendor/php-email-form/validate.js' | relative_url }}"></script>
+
+<!-- Template Main JS File -->
+<script defer src="{{ '/assets/js/main.js' | relative_url }}"></script>
+
+<!-- Fontawesome -->
+<script defer src="https://kit.fontawesome.com/ce2cdb0f36.js" crossorigin="anonymous"></script>
+
+<!-- Google Analytics -->
+{% if site.google_analytics %}
+<script defer src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', '{{ site.google_analytics }}');
+</script>
+{% endif %}

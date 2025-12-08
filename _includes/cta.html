@@ -1,0 +1,14 @@
+<!-- ======= CTA Section ======= -->
+<section id="cta" class="cta">
+  <div class="container" data-aos="zoom-in">
+    <div class="row">
+      <div class="col-lg-9 text-center text-lg-start">
+        <h3>{{ include.title | default: "Book an online demo" }}</h3>
+        <p>{{ include.text | default: "Ready to learn more about Fraction ERP and what it can do for your business? <br>The demo usually takes 45 mins to 1 hour." }}</p>
+      </div>
+      <div class="col-lg-3 cta-btn-container text-center">
+        <a class="cta-btn align-middle" href="{{ '/book-a-demo.html' | relative_url }}">{{ include.button | default: "Book a Demo" }}</a>
+      </div>
+    </div>
+  </div>
+</section><!-- End Cta Section -->

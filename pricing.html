@@ -1,0 +1,72 @@
+---
+layout: page
+title: Pricing Plans for Fraction ERP
+description: Pricing plans for Fraction ERP cloud hosted software for small business.
+keywords: "ERP, MRP, Cloud ERP, manufacturing ERP, ERP for small business, small business MRP systems"
+---
+
+<!-- ======= Pricing Section ======= -->
+<section id="pricing" class="pricing">
+  <div class="container" data-aos="fade-up">
+    <div class="section-title">
+      <h2>Pricing</h2>
+      <p>Chose one of our packages below that suits your needs. Prices are per user, per month. <br>We take care of all the updates, backups and security so you can focus on running your business.</p>
+      Shop Floor Data Capture (SFDC) users are free of charge.
+    </div>
+
+    <div class="row">
+      {% for plan in site.data.pricing.plans %}
+        <div class="col-lg-3{% unless forloop.first %} mt-4 mt-lg-0{% endunless %}" data-aos="fade-up" data-aos-delay="{{ forloop.index | times: 100 }}">
+          <div class="box featured">
+            <h3>{{ plan.name }}</h3>
+            <h4><sup>{{ plan.currency }}</sup>{{ plan.price }}<span>{{ plan.period }}</span></h4>
+            <ul>
+              {% for feature in plan.features %}
+                <li><i class="bx bx-check"></i> {{ feature }}</li>
+              {% endfor %}
+              {% if plan.note %}
+                <li><i class="bx bx-check"></i>{{ plan.note }}</li>
+              {% endif %}
+            </ul>
+          </div>
+        </div>
+      {% endfor %}
+      * Coming soon
+    </div>
+  </div>
+
+  <div class="container text-center mt-5">
+    <h3>Looking for more than 10 users?</h3>
+    <p>Talk to us about a custom price plan.</p>
+    <a class="cta-btn align-middle" href="{{ '/contact.html' | relative_url }}">Contact us</a>
+  </div>
+  <div class="container text-center mt-5">
+    Prices are in GBP and exclude VAT.<br>
+    Minimum of two standard users.<br>
+    For prices in USD, EUR, AUD, NZD please contact us.
+  </div>
+</section><!-- End Pricing Section -->
+
+<section id="subscription">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <h5>Subscriptions Include:</h5>
+        <p>
+          {% for item in site.data.pricing.subscription_includes %}
+            <i class="fa-regular fa-circle-check"></i> {{ item }}<br>
+          {% endfor %}
+        </p>
+      </div>
+      <div class="col-md-6">
+        <h5>On Site Training and Implementation</h5>
+        <p>We can provide training and implementation support at your premises for a daily rate of £600 GBP (excluding travel expenses) anywhere in the UK. For overseas on-site support please contact us to discuss.
+          <br><br>
+          Our online training and support is unlimited and free.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+{% include testimonial.html quote=site.data.testimonials[3].quote name=site.data.testimonials[3].name title=site.data.testimonials[3].title %}

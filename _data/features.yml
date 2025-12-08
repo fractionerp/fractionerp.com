@@ -1,0 +1,86 @@
+# Features organized by category
+sales_order_processing:
+  - title: Contracts
+    url: /contracts.html
+    icon: fa-regular fa-file
+    description: Manage your entire sales process with enquiries, quotes and sales order processing.
+  - title: Bill of Materials
+    url: /bill-of-materials.html
+    icon: fa fa-1x fa-list
+    description: Define part structure, operations and instructions for production and estimate production costs.
+  - title: Parts and Inventory
+    url: /parts-and-inventory.html
+    icon: fa-solid fa-gears
+    description: Define all parts, traceability, stock levels and inspection requirements.
+
+production:
+  - title: Works Orders
+    url: /works-orders.html
+    icon: fa fa-1x fa-file-lines
+    description: Take control of production requirements with our easy works order management system.
+  - title: Production Scheduling
+    url: /production-scheduling.html
+    icon: fa fa-1x fa-calendar-alt
+    description: Use rough cut weekly capacity planning, followed by daily and hourly scheduling.
+  - title: Shop Floor Data Capture
+    url: /shop-floor-data-capture.html
+    icon: fa fa-regular fa-clock
+    description: Real time data collection from production to track all processes and orders.
+  - title: MRP & Purchasing
+    url: /purchasing.html
+    icon: fa fa-1x fa-cart-shopping
+    description: Integrated with our MRP system, purchasing is a powerful tool with built in approvals.
+
+business:
+  - title: Shipping
+    url: /shipping.html
+    icon: fa fa-1x fa-truck
+    description: Ship goods to your clients, send email shipping notifications and seamlessly raise invoices.
+  - title: Invoicing
+    url: /invoicing.html
+    icon: fa fa-solid fa-money-check-dollar
+    description: Raise invoices using our invoice module, integrated directly with your accounts software.
+  - title: Quality
+    url: /quality.html
+    icon: fa fa-1x fa-magnifying-glass
+    description: Track non conformance reports and corrective actions, integrated with part records.
+  - title: Task Management
+    url: /erp-task-management.html
+    icon: fa fa-1x fa-square-check
+    description: Task management for your team for anything and everything!
+  - title: User Management
+    url: /user-management.html
+    icon: fa fa-1x fa-gauge
+    description: Easily control permissions, roles and scale your users as your business needs grow.
+  - title: ERP Integrations
+    url: /erp-integrations.html
+    icon: fa fa-1x fa-gauge
+    description: Seamless integration with best in class, cloud accounting software.
+
+company_performance:
+  - title: Dashboard
+    url: /dashboard.html
+    icon: fa fa-1x fa-gauge
+    description: See business exceptions including late deliveries and shipments. Monitor processes in real time.
+  - title: Key Performance Indicators
+    url: /erp-key-performance-indicators.html
+    icon: fa fa-1x fa-gauge
+    description: Monitor trends and performance of sales, orders and on time deliveries.
+  - title: Reports
+    url: /reports.html
+    icon: fa fa-1x fa-file-excel
+    description: Reports give you the data needed to make decisions and everything exports to excel.
+
+common_features:
+  - Export data to Excel
+  - Direct email of documents to customers and suppliers
+  - Activity logs
+  - Attach files and documents to records
+  - Manage user permissions and roles
+  - Automatic software updates with new features
+  - Automatic daily backup
+  - Access anywhere with any web-browser
+  - Multi-currency
+  - Unlimited online support
+  - Integration with Xero, Quickbooks, Sage, Intouch and Siemens Opcenter
+  - Import your data into parts, customer and suppliers

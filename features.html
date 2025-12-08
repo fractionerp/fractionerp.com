@@ -1,0 +1,99 @@
+---
+layout: page
+title: "Features: Fraction ERP System"
+description: Features of Fraction ERP / MRP System
+keywords: "ERP, MRP, CLOUD ERP, small business ERP, production management, bill of materials, inventory management"
+---
+
+<!-- ======= Features Section ======= -->
+<section id="team" class="team section-bg">
+  <div class="container" data-aos="fade-up">
+    <div class="section-title">
+      <h2>FEATURES</h2>
+      <p>Fraction ERP runs small to medium sized manufacturing companies including sales, purchasing, inventory, production management, shipping and invoicing.</p>
+    </div>
+    <br>
+
+    <h5>Sales Order Processing</h5>
+    <div class="row">
+      {% for feature in site.data.features.sales_order_processing %}
+        <div class="col-lg-4 mb-3">
+          <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="100">
+            <div><i class="{{ feature.icon }} text-secondary pr-2"></i></div>
+            <div class="member-info">
+              <a href="{{ feature.url | relative_url }}">
+                <h4>{{ feature.title }}</h4>
+              </a>
+              <p>{{ feature.description }}</p>
+            </div>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+    <br>
+
+    <h5>Production</h5>
+    <div class="row">
+      {% for feature in site.data.features.production %}
+        <div class="col-lg-4 mb-3">
+          <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="100">
+            <div><i class="{{ feature.icon }} text-secondary pr-2"></i></div>
+            <div class="member-info">
+              <a href="{{ feature.url | relative_url }}">
+                <h4>{{ feature.title }}</h4>
+              </a>
+              <p>{{ feature.description }}</p>
+            </div>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+    <br>
+
+    <h5>Business</h5>
+    <div class="row">
+      {% for feature in site.data.features.business %}
+        <div class="col-lg-4 mb-3">
+          <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="100">
+            <div><i class="{{ feature.icon }} text-secondary pr-2"></i></div>
+            <div class="member-info">
+              <a href="{{ feature.url | relative_url }}">
+                <h4>{{ feature.title }}</h4>
+              </a>
+              <p>{{ feature.description }}</p>
+            </div>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+    <br>
+
+    <h5>Company Performance</h5>
+    <div class="row">
+      {% for feature in site.data.features.company_performance %}
+        <div class="col-lg-4 mb-3">
+          <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="100">
+            <div><i class="{{ feature.icon }} text-secondary pr-2"></i></div>
+            <div class="member-info">
+              <a href="{{ feature.url | relative_url }}">
+                <h4>{{ feature.title }}</h4>
+              </a>
+              <p>{{ feature.description }}</p>
+            </div>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+
+    <div class="container mt-5 mb-5">
+      <h4>Common Features</h4>
+      <ul>
+        {% for feature in site.data.features.common_features %}
+          <li>{{ feature }}</li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+
+  {% include testimonial.html quote=site.data.testimonials[1].quote name=site.data.testimonials[1].name title=site.data.testimonials[1].title %}
+</section><!-- End Features Section -->

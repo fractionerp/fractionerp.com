@@ -1,0 +1,32 @@
+<!-- ======= Team Section ======= -->
+<section id="team" class="team section-bg">
+  <div class="container" data-aos="fade-up">
+    <div class="section-title">
+      <h2>{{ include.title | default: "The Team" }}</h2>
+      {% if include.description %}
+        <p>{{ include.description }}</p>
+      {% endif %}
+    </div>
+
+    <div class="row">
+      {% for member in site.data.team %}
+        <div class="col-lg-4{% unless forloop.first %} mt-4 mt-lg-0{% endunless %}">
+          <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="{{ forloop.index | times: 100 }}">
+            <div class="pic"><img src="{{ member.image | relative_url }}" class="img-fluid" alt="{{ member.name }}"></div>
+            <div class="member-info">
+              <h4>{{ member.name }}</h4>
+              <span>{{ member.role }}</span>
+              <p>{{ member.description }}</p>
+            </div>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+
+    {% if include.show_button %}
+      <div class="container text-center mt-4">
+        <a href="{{ '/about.html' | relative_url }}" class="btn-learn-more">More About Us</a>
+      </div>
+    {% endif %}
+  </div>
+</section><!-- End Team Section -->
