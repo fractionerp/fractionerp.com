@@ -3,7 +3,8 @@ _site/
 
 # Ruby/Bundler
 .bundle/
-vendor/
+/vendor/
+!/assets/vendor/
 .sass-cache/
 .jekyll-cache/
 .jekyll-metadata
