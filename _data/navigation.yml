@@ -3,13 +3,13 @@ main:
   - title: Home
     url: /
   - title: Features
-    url: /features.html
+    url: /features/
   - title: Industries
-    url: /industries.html
+    url: /industries/
   - title: Pricing
-    url: /pricing.html
+    url: /pricing/
   - title: About
-    url: /about.html
+    url: /about/
   - title: Resources
     dropdown: true
     items:
@@ -17,56 +17,56 @@ main:
         url: https://support.fractionerp.com
         external: true
       - title: ERP Implementation
-        url: /erp-implementation-guide.html
+        url: /erp-implementation-guide/
       - title: ERP Workflow
-        url: /erp-manufacturing-workflow.html
+        url: /erp-manufacturing-workflow/
       - title: Demo Video
-        url: /simple-erp-demo-video.html
+        url: /simple-erp-demo-video/
       - title: Blog
         url: /blog/
   - title: Contact
-    url: /contact.html
+    url: /contact/
   - title: Book a Demo
-    url: /erp-online-demo.html
+    url: /erp-online-demo/
 
 # Footer navigation
 footer_product:
   - title: MRP Software
-    url: /mrp-software.html
+    url: /mrp-software/
   - title: MRP System
-    url: /mrp-system.html
+    url: /mrp-system/
   - title: Cloud ERP Software
-    url: /cloud-erp-software.html
+    url: /cloud-erp-software/
   - title: Production Scheduling
-    url: /production-scheduling-software.html
+    url: /production-scheduling-software/
   - title: Purchasing and Inventory
-    url: /purchasing-inventory-software.html
+    url: /purchasing-inventory-software/
   - title: Sales Order Management
-    url: /sales-order-management-software.html
+    url: /sales-order-management-software/
   - title: Bill of Materials
-    url: /bill-of-materials-software.html
+    url: /bill-of-materials-software/
   - title: Plastic Injection Moulding ERP
-    url: /plastic-injection-moulding-erp.html
+    url: /plastic-injection-moulding-erp/
 
 footer_fraction:
   - title: Features
-    url: /features.html
+    url: /features/
   - title: Pricing
-    url: /pricing.html
+    url: /pricing/
   - title: Industries
-    url: /industries.html
+    url: /industries/
   - title: Product Updates
-    url: /product-updates.html
+    url: /product-updates/
 
 footer_company:
   - title: Contact
-    url: /contact.html
+    url: /contact/
   - title: About Us
-    url: /about.html
+    url: /about/
   - title: Privacy Policy
-    url: /privacy.html
+    url: /privacy/
   - title: Terms of Service
-    url: /terms.html
+    url: /terms/
 
 footer_resources:
   - title: Support
@@ -75,6 +75,6 @@ footer_resources:
   - title: Blog
     url: /blog/
   - title: ERP Implementation Guide
-    url: /erp-implementation-guide.html
+    url: /erp-implementation-guide/
   - title: ERP Workflow
-    url: /erp-manufacturing-workflow.html
+    url: /erp-manufacturing-workflow/
