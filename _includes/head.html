@@ -8,56 +8,17 @@
 <!-- Favicons -->
 <link href="{{ '/assets/img/icon.png' | relative_url }}" rel="icon">
 
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Jost:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
 <!-- Vendor CSS Files -->
 <link href="{{ '/assets/vendor/bootstrap/css/bootstrap.min.css' | relative_url }}" rel="stylesheet">
+<link href="{{ '/assets/vendor/bootstrap-icons/bootstrap-icons.css' | relative_url }}" rel="stylesheet">
+<link href="{{ '/assets/vendor/boxicons/css/boxicons.min.css' | relative_url }}" rel="stylesheet">
+<link href="{{ '/assets/vendor/remixicon/remixicon.css' | relative_url }}" rel="stylesheet">
+<link href="{{ '/assets/vendor/aos/aos.css' | relative_url }}" rel="stylesheet">
+<link href="{{ '/assets/vendor/swiper/swiper-bundle.min.css' | relative_url }}" rel="stylesheet">
+<link href="{{ '/assets/vendor/glightbox/css/glightbox.min.css' | relative_url }}" rel="stylesheet">
 
 <!-- Template Main CSS File -->
 <link href="{{ '/assets/css/style.css' | relative_url }}" rel="stylesheet">
-
-<script>
-  const styleList = [
-    {
-      href: "{{ '/assets/vendor/swiper/swiper-bundle.min.css' | relative_url }}",
-      rel: "stylesheet",
-      type: "text/css"
-    },
-    {
-      href: "{{ '/assets/vendor/aos/aos.css' | relative_url }}",
-      rel: "stylesheet",
-      type: "text/css"
-    },
-    {
-      href: "{{ '/assets/vendor/bootstrap-icons/bootstrap-icons.css' | relative_url }}",
-      rel: "stylesheet",
-      type: "text/css"
-    },
-    {
-      href: "{{ '/assets/vendor/boxicons/css/boxicons.min.css' | relative_url }}",
-      rel: "stylesheet",
-      type: "text/css"
-    },
-    {
-      href: "{{ '/assets/vendor/glightbox/css/glightbox.min.css' | relative_url }}",
-      rel: "stylesheet",
-      type: "text/css"
-    },
-    {
-      href: "{{ '/assets/vendor/remixicon/remixicon.css' | relative_url }}",
-      rel: "stylesheet",
-      type: "text/css"
-    },
-    {
-      href: "https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Jost:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i",
-      rel: "stylesheet",
-      type: "text/css"
-    },
-  ]
-
-  styleList.map(item => {
-    let currentLink = document.createElement('link');
-    currentLink.href = item.href;
-    currentLink.rel = item.rel;
-    currentLink.type = item.type;
-    document.getElementsByTagName('head')[0].appendChild(currentLink);
-  })
-</script>
