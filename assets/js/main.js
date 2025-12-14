@@ -272,11 +272,3 @@ setTimeout(() => {
   }
 }, 2000);
 
-
-// google tags
-window.dataLayer = window.dataLayer || [];
-function gtag() { dataLayer.push(arguments); }
-gtag('js', new Date());
-
-gtag('config', 'UA-174639323-1');
-

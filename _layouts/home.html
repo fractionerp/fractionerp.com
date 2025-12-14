@@ -2,19 +2,19 @@
 layout: default
 ---
 <!-- ======= Hero Section ======= -->
-<section id="hero" class="d-flex align-items-center">
+<section id="hero" class="d-flex align-items-center" aria-label="Hero section">
   <div class="container">
     <div class="row">
       <div class="col-lg-6 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1">
         <h1>GET CONTROL OF YOUR MANUFACTURING</h1>
-        <h2>We help you achieve more by integrating your business processes with cloud ERP.</h2>
-        <div class="d-flex justify-content-center justify-content-lg-start">
+        <p class="hero-subtitle">We help you achieve more by integrating your business processes with cloud ERP.</p>
+        <div class="d-flex justify-content-center justify-content-lg-start" role="group" aria-label="Call to action buttons">
           <a href="{{ '/book-a-demo/' | relative_url }}" class="btn-get-started">Book a Demo</a>
-          <a href="https://vimeo.com/909691844?share=copy" class="glightbox btn-watch-video"><i class="bi bi-play-circle"></i><span>Watch Video</span></a>
+          <a href="https://vimeo.com/909691844?share=copy" class="glightbox btn-watch-video" aria-label="Watch product demo video"><i class="bi bi-play-circle" aria-hidden="true"></i><span>Watch Video</span></a>
         </div>
       </div>
       <div class="col-lg-6 order-1 order-lg-2 hero-img">
-        <img src="{{ '/assets/img/dashboard.png' | relative_url }}" class="img-fluid animated" alt="Cloud ERP">
+        <img src="{{ '/assets/img/dashboard.png' | relative_url }}" class="img-fluid animated" alt="Fraction ERP dashboard showing real-time manufacturing metrics and KPIs" width="600" height="400" loading="eager" fetchpriority="high">
       </div>
     </div>
   </div>
@@ -24,10 +24,10 @@ layout: default
   {{ content }}
 </main>
 
-<div class="cookie-container">
-  <p>
+<div class="cookie-container" role="dialog" aria-label="Cookie consent" aria-describedby="cookie-message">
+  <p id="cookie-message">
     We use cookies in this website to give you the best experience and monitor visitors to our site.
-    To find out more, read our <a href="{{ '/privacy/' | relative_url }}">privacy policy.</a>
+    To find out more, read our <a href="{{ '/privacy/' | relative_url }}">privacy policy</a>.
   </p>
-  <button class="cookie-btn">Okay</button>
+  <button class="cookie-btn" type="button">Okay</button>
 </div>

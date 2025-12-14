@@ -1,5 +1,5 @@
 <!-- ======= Footer ======= -->
-<footer id="footer">
+<footer id="footer" role="contentinfo">
   <div class="footer-top">
     <div class="container">
       <div class="row">
@@ -8,7 +8,7 @@
           <h4>Product</h4>
           <ul>
             {% for item in site.data.navigation.footer_product %}
-              <li><i class="bx bx-chevron-right"></i> <a href="{{ item.url | relative_url }}">{{ item.title }}</a></li>
+              <li><i class="bx bx-chevron-right" aria-hidden="true"></i> <a href="{{ item.url | relative_url }}">{{ item.title }}</a></li>
             {% endfor %}
           </ul>
         </div>
@@ -17,7 +17,7 @@
           <h4>Fraction ERP</h4>
           <ul>
             {% for item in site.data.navigation.footer_fraction %}
-              <li><i class="bx bx-chevron-right"></i> <a href="{{ item.url | relative_url }}">{{ item.title }}</a></li>
+              <li><i class="bx bx-chevron-right" aria-hidden="true"></i> <a href="{{ item.url | relative_url }}">{{ item.title }}</a></li>
             {% endfor %}
           </ul>
         </div>
@@ -26,7 +26,7 @@
           <h4>Company</h4>
           <ul>
             {% for item in site.data.navigation.footer_company %}
-              <li><i class="bx bx-chevron-right"></i> <a href="{{ item.url | relative_url }}">{{ item.title }}</a></li>
+              <li><i class="bx bx-chevron-right" aria-hidden="true"></i> <a href="{{ item.url | relative_url }}">{{ item.title }}</a></li>
             {% endfor %}
           </ul>
         </div>
@@ -35,7 +35,7 @@
           <h4>Resources</h4>
           <ul>
             {% for item in site.data.navigation.footer_resources %}
-              <li><i class="bx bx-chevron-right"></i> <a href="{{ item.url | relative_url }}"{% if item.external %} target="_blank"{% endif %}>{{ item.title }}</a></li>
+              <li><i class="bx bx-chevron-right" aria-hidden="true"></i> <a href="{{ item.url | relative_url }}"{% if item.external %} target="_blank" rel="noopener noreferrer"{% endif %}>{{ item.title }}{% if item.external %}<span class="visually-hidden">(opens in new tab)</span>{% endif %}</a></li>
             {% endfor %}
           </ul>
         </div>
@@ -43,15 +43,15 @@
         <div class="col-lg-2 col-md-6 offset-lg-1 footer-links">
           <h4>Connect with Us</h4>
           <div>
-            <a href="tel:{{ site.phone_link }}">{{ site.phone }}</a><br><br>
-            <a href="mailto:{{ site.email }}">{{ site.email }}</a><br>
+            <a href="tel:{{ site.phone_link }}" aria-label="Call us at {{ site.phone }}">{{ site.phone }}</a><br><br>
+            <a href="mailto:{{ site.email }}" aria-label="Email us at {{ site.email }}">{{ site.email }}</a><br>
           </div>
           <div>
             <br>
             <a href="{{ '/book-a-demo/' | relative_url }}">Book a Demo</a>
           </div>
           <div class="social-links mt-4">
-            <a href="{{ site.linkedin }}" class="linkedin" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="{{ site.linkedin }}" class="linkedin" target="_blank" rel="noopener noreferrer" aria-label="Follow Fraction ERP on LinkedIn"><i class="fa-brands fa-linkedin-in" aria-hidden="true"></i></a>
           </div>
         </div>
 

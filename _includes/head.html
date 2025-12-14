@@ -1,24 +1,89 @@
 <meta charset="utf-8">
-<meta content="width=device-width, initial-scale=1.0" name="viewport">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#37517e">
 
 <title>{{ page.title | default: site.title }}</title>
 <meta name="description" content="{{ page.description | default: site.description }}">
 {% if page.keywords %}<meta name="keywords" content="{{ page.keywords }}">{% endif %}
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="{{ page.url | absolute_url }}">
+
+<!-- Open Graph / Facebook -->
+<meta property="og:type" content="website">
+<meta property="og:url" content="{{ page.url | absolute_url }}">
+<meta property="og:title" content="{{ page.title | default: site.title }}">
+<meta property="og:description" content="{{ page.description | default: site.description }}">
+<meta property="og:image" content="{{ '/assets/img/dashboard.png' | absolute_url }}">
+<meta property="og:site_name" content="{{ site.title }}">
+<meta property="og:locale" content="en_GB">
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{{ page.title | default: site.title }}">
+<meta name="twitter:description" content="{{ page.description | default: site.description }}">
+<meta name="twitter:image" content="{{ '/assets/img/dashboard.png' | absolute_url }}">
+
+<!-- Preconnect to external origins -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+<link rel="dns-prefetch" href="https://kit.fontawesome.com">
 
 <!-- Favicons -->
-<link href="{{ '/assets/img/icon.png' | relative_url }}" rel="icon">
+<link rel="icon" type="image/png" href="{{ '/assets/img/icon.png' | relative_url }}">
+<link rel="apple-touch-icon" href="{{ '/assets/img/icon.png' | relative_url }}">
 
-<!-- Google Fonts -->
-<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Jost:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+<!-- Preload hero image on homepage -->
+{% if page.layout == 'home' %}
+<link rel="preload" as="image" href="{{ '/assets/img/dashboard.png' | relative_url }}">
+{% endif %}
+
+<!-- Google Fonts (non-blocking) -->
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Jost:wght@400;500;600;700&family=Poppins:wght@400;500;600&display=swap" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Jost:wght@400;500;600;700&family=Poppins:wght@400;500;600&display=swap"></noscript>
+
+<!-- Critical CSS (inline for faster first paint) -->
+<style>
+body{font-family:"Open Sans",sans-serif;color:#444;margin:0}
+#header{position:fixed;top:0;left:0;right:0;z-index:997;padding:15px 0;background:rgba(40,58,90,.9)!important;transition:all .5s}
+#header .logo img{max-height:40px}
+#hero{width:100%;min-height:80vh;background:#37517e}
+.navbar ul{margin:0;padding:0;display:flex;list-style:none;align-items:center}
+.navbar a{display:flex;align-items:center;padding:10px 0 10px 30px;font-size:15px;font-weight:500;color:#fff;text-decoration:none}
+h1,h2,h3,h4,h5,h6{font-family:"Jost",sans-serif}
+.section-title h2{font-size:32px;font-weight:bold;text-transform:uppercase;position:relative;color:#37517e}
+</style>
 
 <!-- Vendor CSS Files (CDN) -->
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.css" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/npm/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
-<link href="https://cdn.jsdelivr.net/npm/remixicon@4.0.0/fonts/remixicon.css" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
-<link href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/npm/glightbox@3.2.0/dist/css/glightbox.min.css" rel="stylesheet">
 
 <!-- Template Main CSS File -->
 <link href="{{ '/assets/css/style.css' | relative_url }}" rel="stylesheet">
+
+<!-- Structured Data -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "Fraction ERP",
+  "applicationCategory": "BusinessApplication",
+  "operatingSystem": "Web Browser",
+  "description": "{{ site.description | escape }}",
+  "url": "{{ site.url }}",
+  "provider": {
+    "@type": "Organization",
+    "name": "Fraction ERP Ltd",
+    "url": "{{ site.url }}",
+    "telephone": "{{ site.phone }}",
+    "email": "{{ site.email }}",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "GB"
+    }
+  }
+}
+</script>
