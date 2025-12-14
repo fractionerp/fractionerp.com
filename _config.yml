@@ -16,8 +16,8 @@ app_url: "https://fraction.app"
 formspree_demo: "https://formspree.io/f/mwkzlkkz"
 formspree_contact: "https://formspree.io/f/xjvazaqk"
 
-# Google Analytics
-google_analytics: "UA-174639323-1"
+# Google Analytics (GA4)
+google_analytics: "G-9Y26QKV8QE"
 
 # Build settings
 markdown: kramdown
