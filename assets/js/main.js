@@ -246,9 +246,9 @@
    * Animation on scroll
    */
   window.addEventListener('load', () => {
-    AOS.init({
-      duration: 1000,
-      easing: "ease-in-out",
+  AOS.init({
+      duration: 250,
+      easing: "ease-out",
       once: true,
       mirror: false
     });

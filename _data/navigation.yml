@@ -10,6 +10,8 @@ main:
     url: /pricing/
   - title: About
     url: /about/
+  - title: Blog
+    url: /blog/
   - title: Resources
     dropdown: true
     items:
@@ -22,8 +24,6 @@ main:
         url: /erp-manufacturing-workflow/
       - title: Demo Video
         url: /simple-erp-demo-video/
-      - title: Blog
-        url: /blog/
   - title: Contact
     url: /contact/
   - title: Book a Demo
