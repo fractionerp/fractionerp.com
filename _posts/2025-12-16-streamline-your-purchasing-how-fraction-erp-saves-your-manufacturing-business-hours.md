@@ -26,7 +26,7 @@ Instead of manually drafting emails to several vendors and tracking responses in
 
 ## 2. Bulk Ordering Directly from the MRP Screen
 
-The Materials Requirements Planning (MRP) screen is the heart of production planning in Fraction ERP. It provides a real-time view of demand driven by sales orders and current stock levels. Manually translating this demand into individual purchase orders is incredibly time-consuming.
+The [Materials Requirements Planning](https://fractionerp.com/purchasing/) (MRP) screen is the heart of production planning in Fraction ERP. It provides a real-time view of demand driven by sales orders and current stock levels. Manually translating this demand into individual purchase orders is incredibly time-consuming.
 
 Fraction ERP eliminates this pain point. The MRP screen not only highlights what you need to buy but also allows you to bulk order from the MRP screen with just a few clicks. The system semi-automatically generates a consolidated list of required purchases. You simply review and select the items, and the system drafts the necessary purchase orders, saving hours of manual calculation and data entry.
 
