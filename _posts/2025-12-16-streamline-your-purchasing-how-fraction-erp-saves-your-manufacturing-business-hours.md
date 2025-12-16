@@ -32,6 +32,12 @@ Fraction ERP eliminates this pain point. The MRP screen not only highlights what
 
 ---
 
+<div class="ratio ratio-16x9 mb-4">
+  <iframe src="https://www.youtube.com/embed/CQvaU5nu0hQ" title="Fraction ERP Purchasing Features" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+---
+
 ## 3. Consolidating Demand into Fewer Purchase Orders
 
 A common inefficiency in manual systems is the creation of numerous, small, and fragmented purchase orders for the same supplier. This leads to administrative clutter and increases the complexity of goods receipt and accounts payable processes.
