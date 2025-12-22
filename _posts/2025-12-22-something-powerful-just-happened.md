@@ -29,3 +29,9 @@ This change gives us the ability to accelerate our developments and support manu
 2026 is going to be very exciting!
 
 Find out more at [www.fractionerp.com](https://fractionerp.com)
+
+---
+
+![Fraction's V2 Scheduler]({{ site.baseurl }}/assets/img/blog/fraction-v2-scheduler.png)
+
+**Fraction's V2 Scheduler**
