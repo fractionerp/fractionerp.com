@@ -8,6 +8,8 @@ author: Giles Johnston
 permalink: /blog/something-powerful-just-happened/
 ---
 
+![Fraction ERP V2 Release]({{ site.baseurl }}/assets/img/blog/v2-release.jpg)
+
 **V2 is here - and it's massive.**
 
 This release represents our biggest upgrade ever—delivering a new framework behind the app, more powerful tools, better UI, better security and we can go on!
