@@ -32,6 +32,6 @@ Find out more at [www.fractionerp.com](https://fractionerp.com)
 
 ---
 
-![Fraction's V2 Scheduler]({{ site.baseurl }}/assets/img/blog/fraction-v2-scheduler.png)
+[![Fraction's V2 Scheduler]({{ site.baseurl }}/assets/img/blog/fraction-v2-scheduler.png)](https://fractionerp.com/production-scheduling/)
 
 **Fraction's V2 Scheduler**
