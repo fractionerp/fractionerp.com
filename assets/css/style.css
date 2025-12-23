@@ -130,7 +130,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
 }
 #header .logo img {
-  max-height: 48px;
+  max-height: 53px;
 }
 
 /*--------------------------------------------------------------
@@ -1993,6 +1993,7 @@ section {
   background: linear-gradient(rgba(55, 81, 126, 0.7), rgba(55, 81, 126, 0.7)), url("../img/contact-hero-bg.jpg") center center;
   background-size: cover;
   padding: 60px 0;
+  padding-top: 100px;
   color: #fff;
 }
 
