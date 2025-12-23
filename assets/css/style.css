@@ -252,8 +252,23 @@ h1, h2, h3, h4, h5, h6 {
   transition: 0.5s;
   background: transparent;
   border: none;
+  position: relative;
 }
-.mobile-nav-toggle.bi-x {
+
+/* Show list icon by default, hide X icon */
+.mobile-nav-toggle.bi-list i.bi-list {
+  display: inline-block;
+}
+.mobile-nav-toggle.bi-list i.bi-x {
+  display: none;
+}
+
+/* Show X icon when menu is open, hide list icon */
+.mobile-nav-toggle.bi-x i.bi-list {
+  display: none;
+}
+.mobile-nav-toggle.bi-x i.bi-x {
+  display: inline-block;
   color: #fff;
 }
 
