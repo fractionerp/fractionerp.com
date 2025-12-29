@@ -8,6 +8,8 @@ author: Giles Johnston
 permalink: /blog/how-an-erp-system-can-save-you-time-to-grow-your-business/
 ---
 
+![ERP Success - Grow Your Business]({{ site.baseurl }}/assets/img/blog/erp-success.png){: .img-fluid .mb-4 }
+
 Running a business is demanding. Between managing orders, tracking inventory, coordinating production, and keeping customers happy, there never seems to be enough hours in the day.
 
 If you're still juggling spreadsheets, sticky notes, and multiple disconnected systems, you're not alone. But here's the thing: you're probably spending hours each week on admin tasks that an ERP system could handle in minutes.
