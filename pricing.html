@@ -10,7 +10,7 @@ keywords: "ERP, MRP, Cloud ERP, manufacturing ERP, ERP for small business, small
   <div class="container" data-aos="fade-up">
     <div class="section-title">
       <h2>Pricing</h2>
-      <p>Chose one of our packages below that suits your needs. Prices are per user, per month. <br>We take care of all the updates, backups and security so you can focus on running your business.</p>
+      <p>Chose one of our packages below that suits your needs. We take care of all the updates, backups and security so you can focus on running your business.</p>
       Shop Floor Data Capture (SFDC) users are free of charge.
     </div>
 
@@ -18,8 +18,10 @@ keywords: "ERP, MRP, Cloud ERP, manufacturing ERP, ERP for small business, small
       {% for plan in site.data.pricing.plans %}
         <div class="col-lg-3{% unless forloop.first %} mt-4 mt-lg-0{% endunless %}" data-aos="fade-up" data-aos-delay="{{ forloop.index | times: 100 }}">
           <div class="box featured">
-            <h3>{{ plan.name }}</h3>
-            <h4><sup>{{ plan.currency }}</sup>{{ plan.price }}<span>{{ plan.period }}</span></h4>
+            <div class="box-header">
+              <h3>{{ plan.name }}</h3>
+              <h4><sup>{{ plan.currency }}</sup>{{ plan.price }}<span>{{ plan.period }}</span></h4>
+            </div>
             <ul>
               {% for feature in plan.features %}
                 <li><i class="bx bx-check"></i> {{ feature }}</li>
