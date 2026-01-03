@@ -17,6 +17,7 @@ plans:
       - Invoicing
       - Dashboard
       - Reports
+      - Automatic Production Scheduling
       - Drag and Drop Production Scheduling
 
   - name: Advanced
@@ -37,6 +38,7 @@ plans:
       - Invoicing
       - Dashboard
       - Reports
+      - Automatic Production Scheduling
       - Drag and Drop Production Scheduling
       - Cert. of Conformance
       - Key Performance Indicators (KPIs)
@@ -45,7 +47,7 @@ plans:
       - Task Management
       - Subcontract Management
       - NCR Analytics
-      - Calibration Log*
+      - Calibration Log
       - Serial Traceability
 
   - name: Pro
@@ -66,6 +68,7 @@ plans:
       - Invoicing
       - Dashboard
       - Reports
+      - Automatic Production Scheduling
       - Drag and Drop Production Scheduling
       - Cert. of Conformance
       - Key Performance Indicators (KPIs)
@@ -74,9 +77,10 @@ plans:
       - Task Management
       - Subcontract Management
       - NCR Analytics
-      - Calibration Log*
+      - Calibration Log
       - Serial Traceability
       - Batch Traceability
+      - Standard Operating Procedures*
       - After market service*
       - RFQ's for purchasing
       - Inspection Reports*
@@ -101,6 +105,7 @@ plans:
       - Invoicing
       - Dashboard
       - Reports
+      - Automatic Production Scheduling
       - Drag and Drop Production Scheduling
       - Cert. of Conformance
       - Key Performance Indicators (KPIs)
@@ -109,9 +114,10 @@ plans:
       - Task Management
       - Subcontract Management
       - NCR Analytics
-      - Calibration Log*
+      - Calibration Log
       - Serial Traceability
       - Batch Traceability
+      - Standard Operating Procedures*
       - After market service*
       - RFQ's for purchasing
       - Inspection Reports*
