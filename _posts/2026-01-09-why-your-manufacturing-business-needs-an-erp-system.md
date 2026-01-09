@@ -8,6 +8,8 @@ author: Giles Johnston
 permalink: /blog/why-your-manufacturing-business-needs-an-erp-system/
 ---
 
+![Why your manufacturing business needs an ERP system]({{ site.baseurl }}/assets/img/blog/erp-success.png)
+
 Are you running your business on spreadsheets, sticky notes, and sheer willpower?
 
 If you're nodding your head right now, you're not alone. I've spent over 25 years working with manufacturers, and I see the same patterns everywhere: bloated order books, late deliveries, materials arriving at the wrong time, and teams that feel like they're running around like headless chickens.
