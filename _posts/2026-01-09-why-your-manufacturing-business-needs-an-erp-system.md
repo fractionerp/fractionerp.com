@@ -20,7 +20,7 @@ The truth is, most growing manufacturers hit a ceiling. That ceiling isn't about
 
 ## The Breaking Point
 
-Let me paint a picture you might recognize:
+Let me paint a picture you might recognise:
 
 - Your order book is full, but customers are calling about late deliveries
 - Materials aren't being ordered on time, causing production delays
