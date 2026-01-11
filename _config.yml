@@ -23,6 +23,11 @@ google_analytics: "G-9Y26QKV8QE"
 markdown: kramdown
 permalink: pretty
 
+# Plugins
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
 # Exclude from build
 exclude:
   - Gemfile
