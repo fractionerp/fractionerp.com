@@ -12,7 +12,7 @@
       {% for member in site.data.team %}
         <div class="col-lg-4{% unless forloop.first %} mt-4 mt-lg-0{% endunless %}">
           <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="{{ forloop.index | times: 100 }}">
-            <div class="pic"><img src="{{ member.image | relative_url }}" class="img-fluid" alt="{{ member.name }}"></div>
+            <div class="pic"><img src="{{ member.image | relative_url }}" class="img-fluid" alt="{{ member.name }}" loading="lazy" width="180" height="180"></div>
             <div class="member-info">
               <h4>{{ member.name }}</h4>
               <span>{{ member.role }}</span>
