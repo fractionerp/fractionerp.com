@@ -50,6 +50,24 @@ keywords: "ERP, MRP, CLOUD ERP, small business ERP, production management, bill 
     </div>
     <br>
 
+    <h5>Quality Management</h5>
+    <div class="row">
+      {% for feature in site.data.features.quality_management %}
+        <div class="col-lg-4 mb-3 d-flex">
+          <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="100">
+            <div><i class="{{ feature.icon }} text-secondary pr-2"></i></div>
+            <div class="member-info">
+              <a href="{{ feature.url | relative_url }}">
+                <h4>{{ feature.title }}</h4>
+              </a>
+              <p>{{ feature.description }}</p>
+            </div>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+    <br>
+
     <h5>Business</h5>
     <div class="row">
       {% for feature in site.data.features.business %}

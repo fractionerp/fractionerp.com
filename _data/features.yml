@@ -31,6 +31,16 @@ production:
     icon: fa fa-1x fa-cart-shopping
     description: Integrated with our MRP system, purchasing is a powerful tool with built in approvals.
 
+quality_management:
+  - title: Non-Conformance Reports
+    url: /non-conformance-reports/
+    icon: fa fa-1x fa-triangle-exclamation
+    description: Track and manage non-conformances with root cause analysis, corrective actions and 5 Why methodology.
+  - title: Calibration Log
+    url: /calibration-log/
+    icon: fa fa-1x fa-ruler-combined
+    description: Manage equipment calibration schedules, certificates and maintain compliance records.
+
 business:
   - title: Shipping
     url: /shipping/
@@ -40,10 +50,6 @@ business:
     url: /invoicing/
     icon: fa fa-solid fa-money-check-dollar
     description: Raise invoices using our invoice module, integrated directly with your accounts software.
-  - title: Quality
-    url: /quality/
-    icon: fa fa-1x fa-magnifying-glass
-    description: Track non conformance reports and corrective actions, integrated with part records.
   - title: Task Management
     url: /erp-task-management/
     icon: fa fa-1x fa-square-check
