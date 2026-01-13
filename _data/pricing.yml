@@ -86,7 +86,7 @@ plans:
       - RFQ's for purchasing
       - Inspection Reports*
       - Contract Review*
-      - API Integration*
+      - API Integration
 
   - name: Moulding
     price: POE
@@ -124,7 +124,7 @@ plans:
       - RFQ's for purchasing
       - Inspection Reports*
       - Contract Review*
-      - API Integration*
+      - API Integration
       - Intouch API*
     note: "Specifically tailored for plastic injection moulding industry. Please visit www.mouldersconsulting.co.uk"
 
