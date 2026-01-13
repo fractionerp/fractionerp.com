@@ -1,51 +1,91 @@
 ---
 layout: page
 title: Integrations
-description: Reports and analysis tools within Fraction MRP for small business manufacturing and engineering companies.
-keywords: erp reports, erp data, cloud erp data, business intelligence, manufacturing data collection
+description: Connect Fraction ERP to your accounting software, manufacturing systems and build custom integrations with our REST API.
+keywords: erp integrations, xero integration, quickbooks integration, sage integration, manufacturing api, erp api, rest api
 ---
 
 <section class="inner-page">
-  <section id="services" class="services">
+  <!-- Section 1: Accounts Integrations -->
+  <section id="accounts" class="services">
     <div class="container" data-aos="fade-up">
       <div class="section-title">
-        <h2>ERP Integrations</h2>
+        <h2>Accounts Integrations</h2>
         <p>
-          Connect to cloud accounting software with a few clicks from the Fraction App.<br>
+          Seamlessly connect Fraction ERP to your cloud accounting software and eliminate double entry.
         </p>
       </div>
 
+      <div class="container">
+        <div class="row justify-content-center align-items-center">
+          <div class="col-6 col-md-3 p-4 text-center">
+            <img src="{{ '/assets/img/integrate-xero.png' | relative_url }}" class="img-fluid" alt="Xero Integration" style="max-height: 60px;">
+          </div>
+          <div class="col-6 col-md-3 p-4 text-center">
+            <img src="{{ '/assets/img/integrate-sage.png' | relative_url }}" class="img-fluid" alt="Sage Business Cloud Integration" style="max-height: 60px;">
+          </div>
+          <div class="col-6 col-md-3 p-4 text-center">
+            <img src="{{ '/assets/img/integrate-qb.png' | relative_url }}" class="img-fluid" alt="QuickBooks Integration" style="max-height: 60px;">
+          </div>
+        </div>
+      </div>
+
       <div class="container mt-3">
-      <div class="row">
-        <div class="container col-6 offset-md-1 col-md-2 mt-4">
-      <img src="{{ '/assets/img/integrate-xero.png' | relative_url }}" class="img-fluid">
-        </div>
-        <div class="container col-6 col-md-2 mt-4">
-        <img src="{{ '/assets/img/integrate-sage.png' | relative_url }}" class="img-fluid">
-        </div>
-        <div class="container col-6 col-md-2  mt-4">
-        <img src="{{ '/assets/img/integrate-qb.png' | relative_url }}" class="img-fluid">
-        </div>
-        <div class="container col-6 col-md-2  mt-4">
-        <img src="{{ '/assets/img/integrate-intouch.webp' | relative_url }}" class="img-fluid">
-        </div>
-        <div class="container offset-3 col-6 offset-md-0 col-md-2  mt-4">
-        <img src="{{ '/assets/img/integrate-opcenter.png' | relative_url }}" class="img-fluid">
-        </div>
+        <p>Fraction ERP integrates with leading cloud accounting packages including Xero, QuickBooks Online and Sage Business Cloud Accounting. Post invoices, credit notes and goods received directly to your accounts software with a single click. Keep your financial records up to date without the need for manual data entry.</p>
       </div>
-      </div>
+    </div>
   </section>
 
-  <section id="skills" class="skills-bg">
-    <div class="container">
-      <h4>Connect to best in class cloud accounting software</h4>
-      <p>Xero, Quickbooks and Sage Business Cloud accounting are all supported by Fraction ERP.</p>
-      <h4>Connect to Intouch Monitoring</h4>
-      <p>Using a csv export, work orders from Fraction are easily imported to intouch monitoring.</p>
-      <h4>Connect with Siemens Opcenter</h4>
-      <p>A simple export of works orders from Fraction ERP will allow Siemens Opcenter to take over production scheduling.</p>
+  <!-- Section 2: Manufacturing Integrations -->
+  <section id="manufacturing" class="services section-bg">
+    <div class="container" data-aos="fade-up">
+      <div class="section-title">
+        <h2>Manufacturing Integrations</h2>
+        <p>
+          Connect to production control and monitoring software to extend your manufacturing capabilities.
+        </p>
+      </div>
+
+      <div class="container">
+        <div class="row justify-content-center align-items-center">
+          <div class="col-6 col-md-3 p-4 text-center">
+            <img src="{{ '/assets/img/integrate-intouch.webp' | relative_url }}" class="img-fluid" alt="Intouch Monitoring Integration" style="max-height: 60px;">
+          </div>
+        </div>
+      </div>
+
+      <div class="container mt-3">
+        <p>Integrate Fraction ERP with specialist production monitoring and control systems. Export works orders to Intouch Monitoring for real-time machine monitoring and OEE tracking. Combine the power of Fraction ERP's production management with dedicated shop floor monitoring solutions.</p>
+      </div>
     </div>
-    <div class="container text-center">
+  </section>
+
+  <!-- Section 3: Fraction API -->
+  <section id="api" class="services">
+    <div class="container" data-aos="fade-up">
+      <div class="section-title">
+        <h2>Fraction API</h2>
+        <p>
+          Build custom integrations with the Fraction ERP REST API.
+        </p>
+      </div>
+
+      <div class="container">
+        <div class="row justify-content-center align-items-center">
+          <div class="col-6 col-md-3 p-4 text-center">
+            <i class="fa-solid fa-code fa-4x" style="color: #47b2e4;"></i>
+          </div>
+        </div>
+      </div>
+
+      <div class="container mt-3">
+        <p>Fraction ERP provides a comprehensive REST API that allows you to build custom integrations with your existing business systems. Access your data programmatically, automate workflows and connect Fraction ERP to virtually any third-party application. Our API documentation provides everything you need to get started with building powerful integrations tailored to your specific requirements.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="back" class="services section-bg">
+    <div class="container text-center py-4">
       <a href="{{ '/features/' | relative_url }}"><i class="fa-solid fa-arrow-left-long"></i> Back to Features</a>
     </div>
   </section>
@@ -61,7 +101,7 @@ keywords: erp reports, erp data, cloud erp data, business intelligence, manufact
 
         <div class="col-lg-4 col-md-6 portfolio-item filter-app">
           <div class="portfolio-img"><img src="{{ '/assets/img/integration.png' | relative_url }}" class="img-fluid"
-              alt="shop floor data capture reports"></div>
+              alt="Integration dashboard"></div>
           <div class="portfolio-info">
             <h4>Integration on Dashboard</h4>
             <p>Seamless connection from the dashboard</p>
@@ -72,19 +112,18 @@ keywords: erp reports, erp data, cloud erp data, business intelligence, manufact
 
         <div class="col-lg-4 col-md-6 portfolio-item filter-web">
           <div class="portfolio-img"><img src="{{ '/assets/img/integration-1.png' | relative_url }}" class="img-fluid"
-              alt="on time delivery report"></div>
+              alt="Invoicing integration"></div>
           <div class="portfolio-info">
             <h4>Invoicing Integration</h4>
-            <p>Post all invoices to your accounts software </p>
+            <p>Post all invoices to your accounts software</p>
             <a href="{{ '/assets/img/integration-1.png' | relative_url }}" data-gallery="portfolioGallery"
               class="portfolio-lightbox preview-link" title=""><i class="bx bx-plus"></i></a>
-
           </div>
         </div>
 
         <div class="col-lg-4 col-md-6 portfolio-item filter-app">
           <div class="portfolio-img"><img src="{{ '/assets/img/integration-2.png' | relative_url }}" class="img-fluid"
-              alt="sales by customer report"></div>
+              alt="GRN integration"></div>
           <div class="portfolio-info">
             <h4>GRN Integration</h4>
             <p>Post GRNs into your accounting software</p>
