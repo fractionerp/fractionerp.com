@@ -40,6 +40,10 @@ quality_management:
     url: /calibration-log/
     icon: fa fa-1x fa-ruler-combined
     description: Manage equipment calibration schedules, certificates and maintain compliance records.
+  - title: Traceability
+    url: /traceability/
+    icon: fa fa-1x fa-barcode
+    description: Serial and batch traceability for all manufactured and bought in parts.
 
 business:
   - title: Shipping
