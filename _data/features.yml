@@ -21,7 +21,7 @@ production:
   - title: Production Scheduling
     url: /production-scheduling/
     icon: fa fa-1x fa-calendar-alt
-    description: Use rough cut weekly capacity planning, followed by daily and hourly scheduling.
+    description: Automatic or manual scheduling with drag and drop scheduling tools.
   - title: Shop Floor Data Capture
     url: /shop-floor-data-capture/
     icon: fa fa-regular fa-clock
