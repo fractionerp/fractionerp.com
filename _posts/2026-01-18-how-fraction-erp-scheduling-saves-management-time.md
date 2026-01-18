@@ -12,6 +12,8 @@ If you're a production manager or operations director in a small to medium manuf
 
 It's exhausting. And it's costing you valuable time that should be spent on strategic improvements, not firefighting.
 
+![Production manager saving time with Fraction ERP]({{ site.baseurl }}/assets/img/production-manager-saving-time.png)
+
 ## The Hidden Cost of Manual Production Tracking
 
 Most manufacturing managers don't realise how much time they lose to production tracking until they add it up. Consider a typical day:
