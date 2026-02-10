@@ -36,6 +36,8 @@ We've listened to feedback from manufacturers and engineers who told us that tim
 
 - **Guided Actions:** Helpful prompts and tooltips support users as they go, making self-learning easy.
 
+<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/1051301140?badge=0&autopause=0&player_id=0&app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Fraction ERP V3"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+
 ## Real-World Impact
 
 Teams using Fraction ERP V3 report that they're able to get started in hours, not days. Managers see fewer training requests and support queries. Most importantly, staff are more confident and productive, right from the start.
