@@ -40,6 +40,7 @@ plans:
       - Reports
       - Automatic Production Scheduling
       - Drag and Drop Production Scheduling
+      - Group Workcentres
       - Master Production Schedule
       - Cert. of Conformance
       - Key Performance Indicators (KPIs)
@@ -71,6 +72,7 @@ plans:
       - Reports
       - Automatic Production Scheduling
       - Drag and Drop Production Scheduling
+      - Group Workcentres
       - Master Production Schedule
       - Cert. of Conformance
       - Key Performance Indicators (KPIs)
@@ -110,6 +112,7 @@ plans:
       - Reports
       - Automatic Production Scheduling
       - Drag and Drop Production Scheduling
+      - Group Workcentres
       - Master Production Schedule
       - Cert. of Conformance
       - Key Performance Indicators (KPIs)
