@@ -34,6 +34,8 @@ Cloud ERP (Enterprise Resource Planning) solutions allow you to access your busi
 - **Spot issues early** with clear visual alerts and real-time updates
 - **Make informed decisions** using live data, not outdated spreadsheets
 
+<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/1051301140?badge=0&autopause=0&player_id=0&app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Fraction ERP"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+
 ## The Benefits of Fraction ERP's Cloud Solution
 
 - **Work from anywhere**—all you need is an internet connection
