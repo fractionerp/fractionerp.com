@@ -1,124 +1,591 @@
 ---
 layout: page
-title: Bill of Materials for Manufacturing
-description: Bill of Materials software
-keywords: Bill of Materials software, ERP, MRP, Manufacturing, MRP software, MRP systems, MRP manufacturing, cloud MRP, Cloud ERP
+title: "Bill of Materials (BOM) Software for Manufacturing | Fraction ERP"
+description: "Build, manage, and control multi-level BOMs with full visibility across engineering, purchasing, and production — all in one system."
+keywords: Bill of Materials software, BOM software, multi-level BOM, BOM management, MRP, manufacturing ERP, revision control, product costing, cloud ERP
 ---
 
-<section class="inner-page">
-  <!-- ======= Pricing Section ======= -->
-  <section id="pricing" class="pricing">
+<section class="inner-page" style="background: #37517e;">
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" style="background: #37517e; padding: 15px 0 80px;">
     <div class="container" data-aos="fade-up">
 
-      <div class="section-title">
-        <h2>Bill of Materials Software</h2>
-
-        <div class="container col-lg-10 lg-offset-1">
-          <p>
-            The backbone of a manufacturing company is the bill of materials:<br>
-            The list of materials, parts and operations required to make your product or provide your service.
-
-          </p>
+      <div class="section-title" style="padding-bottom: 15px;">
+        <h2 style="color: #fff;">Bill of Materials (BOM) Software for Manufacturing</h2>
+        <h3 style="color: rgba(255,255,255,0.95); font-size: 22px; font-weight: 500; margin-bottom: 20px;">Take Control of Your BOM — From Engineering to Production</h3>
+        <p style="font-size: 17px; color: rgba(255,255,255,0.8); max-width: 750px; margin: 0 auto 15px;">
+          Stop managing bills of materials in spreadsheets. With Fraction ERP, you can build, manage, and control multi-level BOMs with full visibility across engineering, purchasing, and production — all in one system.
+        </p>
+        <div>
+          <a href="{{ '/book-a-demo/' | relative_url }}" style="display: inline-block; padding: 12px 36px; background: #47b2e4; color: #fff; border-radius: 50px; font-family: 'Jost', sans-serif; font-weight: 500; font-size: 16px; transition: background 0.3s; text-decoration: none; margin: 5px;"
+             onmouseover="this.style.background='#3a9fd1'"
+             onmouseout="this.style.background='#47b2e4'">Book a Demo</a>
+          <a href="#bom-in-fraction" style="display: inline-block; padding: 12px 36px; background: transparent; color: #fff; border: 2px solid rgba(255,255,255,0.5); border-radius: 50px; font-family: 'Jost', sans-serif; font-weight: 500; font-size: 16px; transition: all 0.3s; text-decoration: none; margin: 5px;"
+             onmouseover="this.style.borderColor='#fff'"
+             onmouseout="this.style.borderColor='rgba(255,255,255,0.5)'">See BOM in Action</a>
         </div>
       </div>
 
     </div>
+
+    <div class="container" style="margin-top: 20px;">
+      <div class="row g-3 justify-content-center">
+
+        <div class="col-lg-3 col-md-6">
+          <div style="background: #fff; border-radius: 10px; padding: 15px 18px; display: flex; align-items: center; gap: 14px; border: 1px solid #d0d8e4; box-shadow: 0 8px 30px rgba(0,0,0,0.15); height: 100%;">
+            <i class="bi bi-layers" style="font-size: 28px; color: #e84d8a; flex-shrink: 0;"></i>
+            <h4 style="font-family: 'Jost', sans-serif; font-weight: 600; font-size: 15px; color: #37517e; margin: 0;">Multi-level BOMs</h4>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6">
+          <div style="background: #fff; border-radius: 10px; padding: 15px 18px; display: flex; align-items: center; gap: 14px; border: 1px solid #d0d8e4; box-shadow: 0 8px 30px rgba(0,0,0,0.15); height: 100%;">
+            <i class="bi bi-currency-pound" style="font-size: 28px; color: #f0a030; flex-shrink: 0;"></i>
+            <h4 style="font-family: 'Jost', sans-serif; font-weight: 600; font-size: 15px; color: #37517e; margin: 0;">Real-time costing</h4>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6">
+          <div style="background: #fff; border-radius: 10px; padding: 15px 18px; display: flex; align-items: center; gap: 14px; border: 1px solid #d0d8e4; box-shadow: 0 8px 30px rgba(0,0,0,0.15); height: 100%;">
+            <i class="bi bi-clock-history" style="font-size: 28px; color: #4caf50; flex-shrink: 0;"></i>
+            <h4 style="font-family: 'Jost', sans-serif; font-weight: 600; font-size: 15px; color: #37517e; margin: 0;">Revision control</h4>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6">
+          <div style="background: #fff; border-radius: 10px; padding: 15px 18px; display: flex; align-items: center; gap: 14px; border: 1px solid #d0d8e4; box-shadow: 0 8px 30px rgba(0,0,0,0.15); height: 100%;">
+            <i class="bi bi-diagram-3" style="font-size: 28px; color: #7c4dff; flex-shrink: 0;"></i>
+            <h4 style="font-family: 'Jost', sans-serif; font-weight: 600; font-size: 15px; color: #37517e; margin: 0;">Connected to MRP & production</h4>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
   </section>
 </section>
 
-<!-- ======= Skills Section 1 ======= -->
-<section id="skills" class="skills">
+<!-- ======= What is a BOM ======= -->
+<section id="what-is-bom" class="skills" style="padding-top: 40px;">
   <div class="container" data-aos="fade-up">
-    <div class="row">
-      <div class="col-lg-6 d-flex align-items-center" data-aos="fade-right" data-aos-delay="100">
-        <img src="{{ '/assets/img/BOM templates.webp' | relative_url }}" class="img-fluid p-3" alt="Bill of Materials templates">
-      </div>
-      <div class="col-lg-6 pt-4 pt-lg-0 content" data-aos="fade-left" data-aos-delay="100">
-        <h3>Easily Create, Copy and Modify Your Bill of Materials. </h3>
-        <p class="fst-italic">
-          The Bill of Materials drives your purchasing and manufacturing activities within your factory.
-          Easily managing them, modifying them and creating new BOMs is essential to customer service, accurate job costing and being ready to go into production.
+    <div class="section-title">
+      <h2>What is a Bill of Materials (BOM)?</h2>
+    </div>
+    <div class="row align-items-center">
+      <div class="col-lg-6">
+        <p style="font-size: 17px; color: #555; margin-bottom: 20px;">
+          A Bill of Materials (BOM) is the structured list of all components, materials, and sub-assemblies required to manufacture a product.
         </p>
-        <ul>
-          <i class="fa-solid fa-check"></i>Copy similar a similar BOM to a new part number<br>
-          <i class="fa-solid fa-check"></i>Use a template for family of parts<br>
-          <i class="fa-solid fa-check"></i>Built in revision control and approval process <br>
-          <i class="fa-solid fa-check"></i>Store photos, drawings and files within the BOM record<br>
-          <p>
-
-          </p>
+        <p style="font-size: 17px; color: #555; margin-bottom: 15px;">It defines:</p>
+        <ul style="font-size: 17px; color: #555; list-style: none; padding: 0; margin-bottom: 25px;">
+          <li style="padding: 5px 0;"><i class="bi bi-check-circle" style="color: #4caf50; margin-right: 10px;"></i> What you need to build a product</li>
+          <li style="padding: 5px 0;"><i class="bi bi-check-circle" style="color: #4caf50; margin-right: 10px;"></i> How those components relate to each other</li>
+          <li style="padding: 5px 0;"><i class="bi bi-check-circle" style="color: #4caf50; margin-right: 10px;"></i> The quantities required at each level</li>
         </ul>
+        <p style="font-size: 17px; color: #37517e; font-weight: 600; margin-bottom: 25px;">
+          In manufacturing, the BOM is not just a list — it's the foundation of your entire production process.
+        </p>
+        <p style="font-size: 17px; color: #555; margin-bottom: 15px;">Without accurate BOMs:</p>
+        <ul style="font-size: 17px; color: #555; list-style: none; padding: 0;">
+          <li style="padding: 5px 0;"><i class="bi bi-x-circle" style="color: #e84d8a; margin-right: 10px;"></i> Production planning breaks down</li>
+          <li style="padding: 5px 0;"><i class="bi bi-x-circle" style="color: #e84d8a; margin-right: 10px;"></i> Costs become unreliable</li>
+          <li style="padding: 5px 0;"><i class="bi bi-x-circle" style="color: #e84d8a; margin-right: 10px;"></i> Material shortages increase</li>
+          <li style="padding: 5px 0;"><i class="bi bi-x-circle" style="color: #e84d8a; margin-right: 10px;"></i> Engineering and operations fall out of sync</li>
+        </ul>
+      </div>
+      <div class="col-lg-6 d-flex align-items-center" data-aos="fade-left" data-aos-delay="100">
+        <img src="{{ '/assets/img/V3-BOM-main-screen.webp' | relative_url }}" class="img-fluid" alt="Bill of Materials main screen in Fraction ERP" style="border-radius: 12px; box-shadow: 0 12px 50px rgba(0,0,0,0.15);">
       </div>
     </div>
   </div>
 </section>
 
-<!-- ======= Skills Section 2 ======= -->
-<section id="skills" class="skills">
-  <div class="container mb-5" data-aos="fade-up">
-    <div class="row">
-      <div class="col-lg-6 pt-4 pt-lg-0 content" data-aos="fade-left" data-aos-delay="100">
-        <h3>Multi-Level Bill of Materials </h3>
-        <p class="fst-italic">
-          By creating multi-level BOMs you can nest subassemblies within the BOM which will create new sub-assembly works orders.
-
+<!-- ======= Why BOM Management Fails ======= -->
+<section id="why-bom-fails" class="skills" style="background: #f8f9fa;">
+  <div class="container" data-aos="fade-up">
+    <div class="section-title">
+      <h2>Why BOM Management Fails in Most Businesses</h2>
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-lg-10">
+        <p style="font-size: 17px; color: #555; text-align: center; margin-bottom: 30px;">
+          Many manufacturers still rely on spreadsheets or disconnected systems to manage BOMs. This leads to:
         </p>
-
-        <ul>
-          <i class="fa-solid fa-check"></i>Simplify production of sub-assemblies<br>
-          <i class="fa-solid fa-check"></i>Combine sales order demand into single works orders<br>
-          <i class="fa-solid fa-check"></i>Multi-level BOM costing to accurately determine production costs<br>
-          <i class="fa-solid fa-check"></i>Refresh part and labour costs on BOMs with a single click for up to date pricing<br>
-
-
-          <p>
-        </ul>
       </div>
-      <div class="col-lg-6 d-flex align-items-center" data-aos="fade-right" data-aos-delay="100">
-        <img src="{{ '/assets/img/V3-BOM-main-screen.webp' | relative_url }}" class="img-fluid" alt="Bill of Materials screen">
+    </div>
+    <div class="row g-4 justify-content-center">
+
+      <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+        <div style="background: #fff; border-radius: 12px; padding: 24px; border: 1px solid #c0c8d4; box-shadow: 0 8px 30px rgba(0,0,0,0.08); height: 100%;">
+          <i class="bi bi-files" style="font-size: 28px; color: #e84d8a; display: block; margin-bottom: 12px;"></i>
+          <h4 style="font-family: 'Jost', sans-serif; font-weight: 600; color: #37517e; font-size: 17px; margin-bottom: 8px;">Version Confusion</h4>
+          <p style="font-size: 15px; color: #555; margin: 0;">Teams working from outdated revisions with no single source of truth.</p>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+        <div style="background: #fff; border-radius: 12px; padding: 24px; border: 1px solid #c0c8d4; box-shadow: 0 8px 30px rgba(0,0,0,0.08); height: 100%;">
+          <i class="bi bi-calculator" style="font-size: 28px; color: #f0a030; display: block; margin-bottom: 12px;"></i>
+          <h4 style="font-family: 'Jost', sans-serif; font-weight: 600; color: #37517e; font-size: 17px; margin-bottom: 8px;">Costing Inaccuracies</h4>
+          <p style="font-size: 15px; color: #555; margin: 0;">No real-time visibility of material or labour cost changes.</p>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+        <div style="background: #fff; border-radius: 12px; padding: 24px; border: 1px solid #c0c8d4; box-shadow: 0 8px 30px rgba(0,0,0,0.08); height: 100%;">
+          <i class="bi bi-arrow-left-right" style="font-size: 28px; color: #7c4dff; display: block; margin-bottom: 12px;"></i>
+          <h4 style="font-family: 'Jost', sans-serif; font-weight: 600; color: #37517e; font-size: 17px; margin-bottom: 8px;">Engineering vs Production Disconnect</h4>
+          <p style="font-size: 15px; color: #555; margin: 0;">Changes aren't communicated effectively between teams.</p>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
+        <div style="background: #fff; border-radius: 12px; padding: 24px; border: 1px solid #c0c8d4; box-shadow: 0 8px 30px rgba(0,0,0,0.08); height: 100%;">
+          <i class="bi bi-eye-slash" style="font-size: 28px; color: #4caf50; display: block; margin-bottom: 12px;"></i>
+          <h4 style="font-family: 'Jost', sans-serif; font-weight: 600; color: #37517e; font-size: 17px; margin-bottom: 8px;">No Visibility of Sub-Assemblies</h4>
+          <p style="font-size: 15px; color: #555; margin: 0;">Complex products become impossible to manage without structure.</p>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
+        <div style="background: #fff; border-radius: 12px; padding: 24px; border: 1px solid #c0c8d4; box-shadow: 0 8px 30px rgba(0,0,0,0.08); height: 100%;">
+          <i class="bi bi-hand-index" style="font-size: 28px; color: #47b2e4; display: block; margin-bottom: 12px;"></i>
+          <h4 style="font-family: 'Jost', sans-serif; font-weight: 600; color: #37517e; font-size: 17px; margin-bottom: 8px;">Manual Processes</h4>
+          <p style="font-size: 15px; color: #555; margin: 0;">Time wasted updating, copying, and fixing BOMs by hand.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ======= What Great BOM Software Should Do ======= -->
+<section id="great-bom-software" class="skills">
+  <div class="container" data-aos="fade-up">
+    <div class="section-title">
+      <h2>What Great BOM Software Should Do</h2>
+      <p style="font-size: 17px; color: #555; max-width: 700px; margin: 0 auto;">To support real manufacturing environments, BOM software must go beyond basic lists.</p>
+    </div>
+
+    <div class="row g-4 justify-content-center">
+
+      <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+        <div style="background: #fff; border-radius: 12px; padding: 28px; border: 1px solid #c0c8d4; box-shadow: 0 8px 30px rgba(0,0,0,0.12); height: 100%;">
+          <div style="display: flex; align-items: center; gap: 14px; margin-bottom: 18px;">
+            <i class="bi bi-diagram-3" style="font-size: 28px; color: #e84d8a;"></i>
+            <h3 style="font-family: 'Jost', sans-serif; font-weight: 600; color: #37517e; margin: 0; font-size: 18px;">Handle Complex Structures</h3>
+          </div>
+          <ul style="font-size: 15px; color: #555; list-style: none; padding: 0;">
+            <li style="padding: 4px 0;"><i class="bi bi-check2" style="color: #47b2e4; margin-right: 8px;"></i> Multi-level BOMs</li>
+            <li style="padding: 4px 0;"><i class="bi bi-check2" style="color: #47b2e4; margin-right: 8px;"></i> Nested sub-assemblies</li>
+            <li style="padding: 4px 0;"><i class="bi bi-check2" style="color: #47b2e4; margin-right: 8px;"></i> Unlimited depth</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+        <div style="background: #fff; border-radius: 12px; padding: 28px; border: 1px solid #c0c8d4; box-shadow: 0 8px 30px rgba(0,0,0,0.12); height: 100%;">
+          <div style="display: flex; align-items: center; gap: 14px; margin-bottom: 18px;">
+            <i class="bi bi-shield-check" style="font-size: 28px; color: #4caf50;"></i>
+            <h3 style="font-family: 'Jost', sans-serif; font-weight: 600; color: #37517e; margin: 0; font-size: 18px;">Control Change with Precision</h3>
+          </div>
+          <ul style="font-size: 15px; color: #555; list-style: none; padding: 0;">
+            <li style="padding: 4px 0;"><i class="bi bi-check2" style="color: #47b2e4; margin-right: 8px;"></i> Revision tracking</li>
+            <li style="padding: 4px 0;"><i class="bi bi-check2" style="color: #47b2e4; margin-right: 8px;"></i> Approval workflows</li>
+            <li style="padding: 4px 0;"><i class="bi bi-check2" style="color: #47b2e4; margin-right: 8px;"></i> Full audit history</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+        <div style="background: #fff; border-radius: 12px; padding: 28px; border: 1px solid #c0c8d4; box-shadow: 0 8px 30px rgba(0,0,0,0.12); height: 100%;">
+          <div style="display: flex; align-items: center; gap: 14px; margin-bottom: 18px;">
+            <i class="bi bi-gear-wide-connected" style="font-size: 28px; color: #7c4dff;"></i>
+            <h3 style="font-family: 'Jost', sans-serif; font-weight: 600; color: #37517e; margin: 0; font-size: 18px;">Connect to Production</h3>
+          </div>
+          <ul style="font-size: 15px; color: #555; list-style: none; padding: 0;">
+            <li style="padding: 4px 0;"><i class="bi bi-check2" style="color: #47b2e4; margin-right: 8px;"></i> Integrated with MRP</li>
+            <li style="padding: 4px 0;"><i class="bi bi-check2" style="color: #47b2e4; margin-right: 8px;"></i> Links to routings and operations</li>
+            <li style="padding: 4px 0;"><i class="bi bi-check2" style="color: #47b2e4; margin-right: 8px;"></i> Drives purchasing requirements</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
+        <div style="background: #fff; border-radius: 12px; padding: 28px; border: 1px solid #c0c8d4; box-shadow: 0 8px 30px rgba(0,0,0,0.12); height: 100%;">
+          <div style="display: flex; align-items: center; gap: 14px; margin-bottom: 18px;">
+            <i class="bi bi-currency-pound" style="font-size: 28px; color: #f0a030;"></i>
+            <h3 style="font-family: 'Jost', sans-serif; font-weight: 600; color: #37517e; margin: 0; font-size: 18px;">Deliver Accurate Costing</h3>
+          </div>
+          <ul style="font-size: 15px; color: #555; list-style: none; padding: 0;">
+            <li style="padding: 4px 0;"><i class="bi bi-check2" style="color: #47b2e4; margin-right: 8px;"></i> Material costs</li>
+            <li style="padding: 4px 0;"><i class="bi bi-check2" style="color: #47b2e4; margin-right: 8px;"></i> Labour costs and overheads</li>
+            <li style="padding: 4px 0;"><i class="bi bi-check2" style="color: #47b2e4; margin-right: 8px;"></i> Real-time updates</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
+        <div style="background: #fff; border-radius: 12px; padding: 28px; border: 1px solid #c0c8d4; box-shadow: 0 8px 30px rgba(0,0,0,0.12); height: 100%;">
+          <div style="display: flex; align-items: center; gap: 14px; margin-bottom: 18px;">
+            <i class="bi bi-recycle" style="font-size: 28px; color: #47b2e4;"></i>
+            <h3 style="font-family: 'Jost', sans-serif; font-weight: 600; color: #37517e; margin: 0; font-size: 18px;">Reflect Real-World Manufacturing</h3>
+          </div>
+          <ul style="font-size: 15px; color: #555; list-style: none; padding: 0;">
+            <li style="padding: 4px 0;"><i class="bi bi-check2" style="color: #47b2e4; margin-right: 8px;"></i> Scrap and wastage</li>
+            <li style="padding: 4px 0;"><i class="bi bi-check2" style="color: #47b2e4; margin-right: 8px;"></i> Alternate components</li>
+            <li style="padding: 4px 0;"><i class="bi bi-check2" style="color: #47b2e4; margin-right: 8px;"></i> Configurable products</li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ======= BOM in Fraction ERP ======= -->
+<section id="bom-in-fraction" class="skills" style="background: #f8f9fa;">
+  <div class="container" data-aos="fade-up">
+    <div class="section-title">
+      <h2>BOM Management in Fraction ERP</h2>
+      <p style="font-size: 17px; color: #555; max-width: 700px; margin: 0 auto;">Built for Real Manufacturing — Not Just Lists of Parts</p>
+    </div>
+  </div>
+
+  <!-- Create BOMs Quickly -->
+  <div class="container" data-aos="fade-up">
+    <div class="row align-items-center mb-5">
+      <div class="col-lg-6 d-flex align-items-center mb-4 mb-lg-0" data-aos="fade-right" data-aos-delay="100">
+        <img src="{{ '/assets/img/BOM templates.webp' | relative_url }}" class="img-fluid p-3" alt="BOM templates in Fraction ERP" style="border-radius: 12px;">
+      </div>
+      <div class="col-lg-6" data-aos="fade-left" data-aos-delay="100">
+        <h3 style="font-family: 'Jost', sans-serif; font-weight: 600; color: #37517e; font-size: 22px; margin-bottom: 15px;">Create BOMs Quickly</h3>
+        <ul style="font-size: 16px; color: #555; list-style: none; padding: 0;">
+          <li style="padding: 6px 0;"><i class="bi bi-check-circle-fill" style="color: #47b2e4; margin-right: 10px;"></i> Build BOMs from scratch or templates</li>
+          <li style="padding: 6px 0;"><i class="bi bi-check-circle-fill" style="color: #47b2e4; margin-right: 10px;"></i> Copy and modify existing structures</li>
+          <li style="padding: 6px 0;"><i class="bi bi-check-circle-fill" style="color: #47b2e4; margin-right: 10px;"></i> Standardise product definitions</li>
+        </ul>
       </div>
     </div>
   </div>
-</section><!-- End shaded Section -->
 
-<!-- ======= Skills Section 1 ======= -->
-<section id="skills" class="skills">
+  <!-- Multi-Level BOMs -->
   <div class="container" data-aos="fade-up">
-    <div class="row">
-      <div class="col-lg-6 d-flex align-items-center" data-aos="fade-right" data-aos-delay="100">
-        <img src="{{ '/assets/img/BOM real time job costing.webp' | relative_url }}" class="img-fluid p-3" alt="Bill of Materials job costing">
+    <div class="row align-items-center mb-5">
+      <div class="col-lg-6 order-lg-2 d-flex align-items-center mb-4 mb-lg-0" data-aos="fade-left" data-aos-delay="100">
+        <img src="{{ '/assets/img/V3-BOM-main-screen.webp' | relative_url }}" class="img-fluid" alt="Multi-level BOM screen" style="border-radius: 12px; box-shadow: 0 12px 50px rgba(0,0,0,0.15);">
       </div>
-      <div class="col-lg-6 pt-4 pt-lg-0 content" data-aos="fade-left" data-aos-delay="100">
-        <h3>Instant Job Costing</h3>
-        <p class="fst-italic">
-          The BOM calculates all the direct costs of production and provide two methods to calculate your selling price.
-        </p>
-        <ul>
-          <i class="fa-solid fa-check"></i>Calculate selling price using gross margin<br>
-          <i class="fa-solid fa-check"></i>Calculate selling price using material markup and labour selling rate<br>
-          <i class="fa-solid fa-check"></i>Built in price break quantity calculator<br>
-          <i class="fa-solid fa-check"></i>Create a cost snapshop for any BOMs to allow tracking of price changes over time.<br>
-
-
+      <div class="col-lg-6 order-lg-1" data-aos="fade-right" data-aos-delay="100">
+        <h3 style="font-family: 'Jost', sans-serif; font-weight: 600; color: #37517e; font-size: 22px; margin-bottom: 15px;">Manage Multi-Level BOMs with Ease</h3>
+        <ul style="font-size: 16px; color: #555; list-style: none; padding: 0;">
+          <li style="padding: 6px 0;"><i class="bi bi-check-circle-fill" style="color: #47b2e4; margin-right: 10px;"></i> Full visibility of sub-assemblies</li>
+          <li style="padding: 6px 0;"><i class="bi bi-check-circle-fill" style="color: #47b2e4; margin-right: 10px;"></i> Drill down into product structures</li>
+          <li style="padding: 6px 0;"><i class="bi bi-check-circle-fill" style="color: #47b2e4; margin-right: 10px;"></i> Understand dependencies instantly</li>
         </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- Revision Control -->
+  <div class="container" data-aos="fade-up">
+    <div class="row align-items-center mb-5">
+      <div class="col-lg-6 d-flex align-items-center mb-4 mb-lg-0" data-aos="fade-right" data-aos-delay="100">
+        <img src="{{ '/assets/img/V3-BOM-Templates.webp' | relative_url }}" class="img-fluid p-3" alt="BOM revision control" style="border-radius: 12px;">
+      </div>
+      <div class="col-lg-6" data-aos="fade-left" data-aos-delay="100">
+        <h3 style="font-family: 'Jost', sans-serif; font-weight: 600; color: #37517e; font-size: 22px; margin-bottom: 15px;">Control Revisions and Engineering Changes</h3>
+        <ul style="font-size: 16px; color: #555; list-style: none; padding: 0;">
+          <li style="padding: 6px 0;"><i class="bi bi-check-circle-fill" style="color: #47b2e4; margin-right: 10px;"></i> Track all BOM revisions</li>
+          <li style="padding: 6px 0;"><i class="bi bi-check-circle-fill" style="color: #47b2e4; margin-right: 10px;"></i> Maintain a clear audit trail</li>
+          <li style="padding: 6px 0;"><i class="bi bi-check-circle-fill" style="color: #47b2e4; margin-right: 10px;"></i> BOM approvals control release of BOMs to production</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- Real-Time Costing -->
+  <div class="container" data-aos="fade-up">
+    <div class="row align-items-center">
+      <div class="col-lg-6 order-lg-2 d-flex align-items-center mb-4 mb-lg-0" data-aos="fade-left" data-aos-delay="100">
+        <img src="{{ '/assets/img/V3-BOM-job-costing.webp' | relative_url }}" class="img-fluid" alt="BOM real-time job costing" style="border-radius: 12px; box-shadow: 0 12px 50px rgba(0,0,0,0.15);">
+      </div>
+      <div class="col-lg-6 order-lg-1" data-aos="fade-right" data-aos-delay="100">
+        <h3 style="font-family: 'Jost', sans-serif; font-weight: 600; color: #37517e; font-size: 22px; margin-bottom: 15px;">Real-Time Costing</h3>
+        <ul style="font-size: 16px; color: #555; list-style: none; padding: 0;">
+          <li style="padding: 6px 0;"><i class="bi bi-check-circle-fill" style="color: #47b2e4; margin-right: 10px;"></i> Automatically calculate total product cost</li>
+          <li style="padding: 6px 0;"><i class="bi bi-check-circle-fill" style="color: #47b2e4; margin-right: 10px;"></i> See impact of material or labour changes instantly</li>
+          <li style="padding: 6px 0;"><i class="bi bi-check-circle-fill" style="color: #47b2e4; margin-right: 10px;"></i> Auto refresh costs to latest material and labour costs</li>
+          <li style="padding: 6px 0;"><i class="bi bi-check-circle-fill" style="color: #47b2e4; margin-right: 10px;"></i> Use price break quantity discounts</li>
+          <li style="padding: 6px 0;"><i class="bi bi-check-circle-fill" style="color: #47b2e4; margin-right: 10px;"></i> Improve quoting accuracy</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- Centralise Documents -->
+  <div class="container mt-5" data-aos="fade-up">
+    <div class="row justify-content-center">
+      <div class="col-lg-8 text-center">
+        <div style="background: #fff; border-radius: 12px; padding: 28px; border: 1px solid #c0c8d4; box-shadow: 0 8px 30px rgba(0,0,0,0.08);">
+          <i class="bi bi-file-earmark-richtext" style="font-size: 36px; color: #47b2e4; display: block; margin-bottom: 12px;"></i>
+          <h3 style="font-family: 'Jost', sans-serif; font-weight: 600; color: #37517e; font-size: 20px; margin-bottom: 10px;">Centralise Documents and Instructions</h3>
+          <p style="font-size: 16px; color: #555; margin: 0;">Attach drawings, specifications, and work instructions. Ensure teams always have the latest information.</p>
+        </div>
       </div>
     </div>
   </div>
 </section>
 
-<!-- ======= Cta Section ======= -->
-<section id="cta" class="cta">
+<!-- ======= Advanced BOM Capabilities ======= -->
+<section id="advanced-capabilities" class="skills">
+  <div class="container" data-aos="fade-up">
+    <div class="section-title">
+      <h2>Advanced BOM Capabilities</h2>
+      <p style="font-size: 17px; color: #555; max-width: 700px; margin: 0 auto;">Fraction ERP supports the complexity of modern manufacturing environments.</p>
+    </div>
+
+    <div class="row g-4 justify-content-center">
+
+      <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+        <div style="background: #fff; border-radius: 12px; padding: 28px; border: 1px solid #c0c8d4; box-shadow: 0 8px 30px rgba(0,0,0,0.12); height: 100%;">
+          <i class="bi bi-sliders" style="font-size: 28px; color: #7c4dff; display: block; margin-bottom: 14px;"></i>
+          <h3 style="font-family: 'Jost', sans-serif; font-weight: 600; color: #37517e; margin: 0 0 8px; font-size: 18px;">Variant BOMs</h3>
+          <p style="font-size: 15px; color: #555; margin: 0;">Handle product variations without duplicating data.</p>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+        <div style="background: #fff; border-radius: 12px; padding: 28px; border: 1px solid #c0c8d4; box-shadow: 0 8px 30px rgba(0,0,0,0.12); height: 100%;">
+          <i class="bi bi-trash3" style="font-size: 28px; color: #e84d8a; display: block; margin-bottom: 14px;"></i>
+          <h3 style="font-family: 'Jost', sans-serif; font-weight: 600; color: #37517e; margin: 0 0 8px; font-size: 18px;">Scrap & Wastage Management</h3>
+          <p style="font-size: 15px; color: #555; margin: 0;">Account for material loss directly within your BOM.</p>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+        <div style="background: #fff; border-radius: 12px; padding: 28px; border: 1px solid #c0c8d4; box-shadow: 0 8px 30px rgba(0,0,0,0.12); height: 100%;">
+          <i class="bi bi-search" style="font-size: 28px; color: #f0a030; display: block; margin-bottom: 14px;"></i>
+          <h3 style="font-family: 'Jost', sans-serif; font-weight: 600; color: #37517e; margin: 0 0 8px; font-size: 18px;">Where-Used Analysis</h3>
+          <p style="font-size: 15px; color: #555; margin: 0;">Understand where components are used across products.</p>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
+        <div style="background: #fff; border-radius: 12px; padding: 28px; border: 1px solid #c0c8d4; box-shadow: 0 8px 30px rgba(0,0,0,0.12); height: 100%;">
+          <i class="bi bi-droplet-half" style="font-size: 28px; color: #4caf50; display: block; margin-bottom: 14px;"></i>
+          <h3 style="font-family: 'Jost', sans-serif; font-weight: 600; color: #37517e; margin: 0 0 8px; font-size: 18px;">Moulding</h3>
+          <p style="font-size: 15px; color: #555; margin: 0;">Use ratios and mass to determine cost and material demand.</p>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
+        <div style="background: #fff; border-radius: 12px; padding: 28px; border: 1px solid #c0c8d4; box-shadow: 0 8px 30px rgba(0,0,0,0.12); height: 100%;">
+          <i class="bi bi-box-seam" style="font-size: 28px; color: #47b2e4; display: block; margin-bottom: 14px;"></i>
+          <h3 style="font-family: 'Jost', sans-serif; font-weight: 600; color: #37517e; margin: 0 0 8px; font-size: 18px;">Packaging Controls</h3>
+          <p style="font-size: 15px; color: #555; margin: 0;">Specify quantity per pack for accurate packaging cost and MRP demand.</p>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
+        <div style="background: #fff; border-radius: 12px; padding: 28px; border: 1px solid #c0c8d4; box-shadow: 0 8px 30px rgba(0,0,0,0.12); height: 100%;">
+          <i class="bi bi-upc-scan" style="font-size: 28px; color: #e84d8a; display: block; margin-bottom: 14px;"></i>
+          <h3 style="font-family: 'Jost', sans-serif; font-weight: 600; color: #37517e; margin: 0 0 8px; font-size: 18px;">Batch & Serial Traceability</h3>
+          <p style="font-size: 15px; color: #555; margin: 0;">Track materials and finished goods with full batch and serial number traceability.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ======= From BOM to Production ======= -->
+<section id="bom-to-production" class="skills" style="background: #f8f9fa;">
+  <div class="container" data-aos="fade-up">
+    <div class="section-title">
+      <h2>From BOM to Production — Fully Connected</h2>
+    </div>
+    <div class="row align-items-center">
+      <div class="col-lg-6" data-aos="fade-right" data-aos-delay="100">
+        <p style="font-size: 17px; color: #555; margin-bottom: 20px;">
+          Your BOM shouldn't exist in isolation. In Fraction ERP, it connects directly to:
+        </p>
+        <ul style="font-size: 17px; color: #555; list-style: none; padding: 0; margin-bottom: 25px;">
+          <li style="padding: 6px 0;"><i class="bi bi-check-circle-fill" style="color: #47b2e4; margin-right: 10px;"></i> Material Requirements Planning (MRP)</li>
+          <li style="padding: 6px 0;"><i class="bi bi-check-circle-fill" style="color: #47b2e4; margin-right: 10px;"></i> Production scheduling</li>
+          <li style="padding: 6px 0;"><i class="bi bi-check-circle-fill" style="color: #47b2e4; margin-right: 10px;"></i> Purchasing</li>
+          <li style="padding: 6px 0;"><i class="bi bi-check-circle-fill" style="color: #47b2e4; margin-right: 10px;"></i> Shop floor data capture</li>
+        </ul>
+        <p style="font-size: 17px; color: #555; margin-bottom: 10px;">This ensures:</p>
+        <ul style="font-size: 17px; color: #555; list-style: none; padding: 0;">
+          <li style="padding: 5px 0;"><i class="bi bi-arrow-right-circle" style="color: #4caf50; margin-right: 10px;"></i> Accurate material planning</li>
+          <li style="padding: 5px 0;"><i class="bi bi-arrow-right-circle" style="color: #4caf50; margin-right: 10px;"></i> Reduced shortages</li>
+          <li style="padding: 5px 0;"><i class="bi bi-arrow-right-circle" style="color: #4caf50; margin-right: 10px;"></i> Better production control</li>
+        </ul>
+      </div>
+      <div class="col-lg-6 d-flex align-items-center" data-aos="fade-left" data-aos-delay="100">
+        <img src="{{ '/assets/img/mrp.webp' | relative_url }}" class="img-fluid" alt="MRP integration with BOM" style="border-radius: 12px; box-shadow: 0 12px 50px rgba(0,0,0,0.15);">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ======= Use Cases ======= -->
+<section id="use-cases" class="skills">
+  <div class="container" data-aos="fade-up">
+    <div class="section-title">
+      <h2>Built for Manufacturing Use Cases</h2>
+    </div>
+
+    <div class="row g-4 justify-content-center">
+
+      <div class="col-lg-5 col-md-6" data-aos="fade-up" data-aos-delay="100">
+        <div style="background: #fff; border-radius: 12px; padding: 28px; border: 1px solid #c0c8d4; box-shadow: 0 8px 30px rgba(0,0,0,0.12); height: 100%;">
+          <div style="display: flex; align-items: center; gap: 14px; margin-bottom: 18px;">
+            <i class="bi bi-droplet-half" style="font-size: 28px; color: #e84d8a;"></i>
+            <h3 style="font-family: 'Jost', sans-serif; font-weight: 600; color: #37517e; margin: 0; font-size: 20px;">Injection Moulding</h3>
+          </div>
+          <ul style="font-size: 15px; color: #555; list-style: none; padding: 0;">
+            <li style="padding: 4px 0;"><i class="bi bi-check2" style="color: #47b2e4; margin-right: 8px;"></i> Manage raw materials, regrind, and scrap</li>
+            <li style="padding: 4px 0;"><i class="bi bi-check2" style="color: #47b2e4; margin-right: 8px;"></i> Control complex tooling and assemblies</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="col-lg-5 col-md-6" data-aos="fade-up" data-aos-delay="200">
+        <div style="background: #fff; border-radius: 12px; padding: 28px; border: 1px solid #c0c8d4; box-shadow: 0 8px 30px rgba(0,0,0,0.12); height: 100%;">
+          <div style="display: flex; align-items: center; gap: 14px; margin-bottom: 18px;">
+            <i class="bi bi-wrench-adjustable" style="font-size: 28px; color: #f0a030;"></i>
+            <h3 style="font-family: 'Jost', sans-serif; font-weight: 600; color: #37517e; margin: 0; font-size: 20px;">Fabrication & Engineering</h3>
+          </div>
+          <ul style="font-size: 15px; color: #555; list-style: none; padding: 0;">
+            <li style="padding: 4px 0;"><i class="bi bi-check2" style="color: #47b2e4; margin-right: 8px;"></i> Handle deep, multi-level assemblies</li>
+            <li style="padding: 4px 0;"><i class="bi bi-check2" style="color: #47b2e4; margin-right: 8px;"></i> Maintain full traceability</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="col-lg-5 col-md-6" data-aos="fade-up" data-aos-delay="300">
+        <div style="background: #fff; border-radius: 12px; padding: 28px; border: 1px solid #c0c8d4; box-shadow: 0 8px 30px rgba(0,0,0,0.12); height: 100%;">
+          <div style="display: flex; align-items: center; gap: 14px; margin-bottom: 18px;">
+            <i class="bi bi-boxes" style="font-size: 28px; color: #4caf50;"></i>
+            <h3 style="font-family: 'Jost', sans-serif; font-weight: 600; color: #37517e; margin: 0; font-size: 20px;">Assembly Manufacturing</h3>
+          </div>
+          <ul style="font-size: 15px; color: #555; list-style: none; padding: 0;">
+            <li style="padding: 4px 0;"><i class="bi bi-check2" style="color: #47b2e4; margin-right: 8px;"></i> Standardise builds</li>
+            <li style="padding: 4px 0;"><i class="bi bi-check2" style="color: #47b2e4; margin-right: 8px;"></i> Improve consistency and speed</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="col-lg-5 col-md-6" data-aos="fade-up" data-aos-delay="400">
+        <div style="background: #fff; border-radius: 12px; padding: 28px; border: 1px solid #c0c8d4; box-shadow: 0 8px 30px rgba(0,0,0,0.12); height: 100%;">
+          <div style="display: flex; align-items: center; gap: 14px; margin-bottom: 18px;">
+            <i class="bi bi-building" style="font-size: 28px; color: #7c4dff;"></i>
+            <h3 style="font-family: 'Jost', sans-serif; font-weight: 600; color: #37517e; margin: 0; font-size: 20px;">Multi-Site Operations</h3>
+          </div>
+          <ul style="font-size: 15px; color: #555; list-style: none; padding: 0;">
+            <li style="padding: 4px 0;"><i class="bi bi-check2" style="color: #47b2e4; margin-right: 8px;"></i> Share BOMs across locations</li>
+            <li style="padding: 4px 0;"><i class="bi bi-check2" style="color: #47b2e4; margin-right: 8px;"></i> Maintain control with local flexibility</li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ======= Comparison Table ======= -->
+<section id="comparison" class="skills" style="background: #f8f9fa;">
+  <div class="container" data-aos="fade-up">
+    <div class="section-title">
+      <h2>Fraction ERP vs Spreadsheets</h2>
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-lg-10">
+        <div class="table-responsive">
+          <table style="width: 100%; border-collapse: collapse; font-size: 16px;">
+            <thead>
+              <tr style="background: #37517e; color: #fff;">
+                <th style="padding: 14px 20px; text-align: left; font-family: 'Jost', sans-serif; font-weight: 600;">Spreadsheets</th>
+                <th style="padding: 14px 20px; text-align: left; font-family: 'Jost', sans-serif; font-weight: 600;">Fraction ERP</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr style="border-bottom: 1px solid #e8e8e8;">
+                <td style="padding: 14px 20px; color: #444;"><i class="bi bi-x-circle" style="color: #e84d8a; margin-right: 8px;"></i> Manual updates</td>
+                <td style="padding: 14px 20px; color: #444;"><i class="bi bi-check-circle-fill" style="color: #4caf50; margin-right: 8px;"></i> Automated BOM management</td>
+              </tr>
+              <tr style="background: #fff; border-bottom: 1px solid #e8e8e8;">
+                <td style="padding: 14px 20px; color: #444;"><i class="bi bi-x-circle" style="color: #e84d8a; margin-right: 8px;"></i> Version confusion</td>
+                <td style="padding: 14px 20px; color: #444;"><i class="bi bi-check-circle-fill" style="color: #4caf50; margin-right: 8px;"></i> Full revision control</td>
+              </tr>
+              <tr style="border-bottom: 1px solid #e8e8e8;">
+                <td style="padding: 14px 20px; color: #444;"><i class="bi bi-x-circle" style="color: #e84d8a; margin-right: 8px;"></i> No integration</td>
+                <td style="padding: 14px 20px; color: #444;"><i class="bi bi-check-circle-fill" style="color: #4caf50; margin-right: 8px;"></i> Connected to MRP & production</td>
+              </tr>
+              <tr style="background: #fff; border-bottom: 1px solid #e8e8e8;">
+                <td style="padding: 14px 20px; color: #444;"><i class="bi bi-x-circle" style="color: #e84d8a; margin-right: 8px;"></i> Limited visibility</td>
+                <td style="padding: 14px 20px; color: #444;"><i class="bi bi-check-circle-fill" style="color: #4caf50; margin-right: 8px;"></i> Multi-level structure visibility</td>
+              </tr>
+              <tr>
+                <td style="padding: 14px 20px; color: #444;"><i class="bi bi-x-circle" style="color: #e84d8a; margin-right: 8px;"></i> Error-prone</td>
+                <td style="padding: 14px 20px; color: #444;"><i class="bi bi-check-circle-fill" style="color: #4caf50; margin-right: 8px;"></i> Reliable, real-time data</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ======= FAQ Section ======= -->
+<section id="faq" class="skills">
+  <div class="container" data-aos="fade-up">
+    <div class="section-title">
+      <h2>Frequently Asked Questions</h2>
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-lg-8">
+
+        <div style="margin-bottom: 20px; background: #fff; border-radius: 12px; padding: 24px; border: 1px solid #e0e0e0;">
+          <h4 style="font-family: 'Jost', sans-serif; font-weight: 600; color: #37517e; font-size: 17px; margin-bottom: 10px;">What is a multi-level BOM?</h4>
+          <p style="font-size: 15px; color: #555; margin: 0;">A multi-level BOM includes sub-assemblies within a product, showing the full hierarchy of components required for manufacturing.</p>
+        </div>
+
+        <div style="margin-bottom: 20px; background: #fff; border-radius: 12px; padding: 24px; border: 1px solid #e0e0e0;">
+          <h4 style="font-family: 'Jost', sans-serif; font-weight: 600; color: #37517e; font-size: 17px; margin-bottom: 10px;">How do you manage BOM revisions?</h4>
+          <p style="font-size: 15px; color: #555; margin: 0;">Using controlled revision tracking, ensuring only approved versions are used in production.</p>
+        </div>
+
+        <div style="margin-bottom: 20px; background: #fff; border-radius: 12px; padding: 24px; border: 1px solid #e0e0e0;">
+          <h4 style="font-family: 'Jost', sans-serif; font-weight: 600; color: #37517e; font-size: 17px; margin-bottom: 10px;">How does a BOM affect costing?</h4>
+          <p style="font-size: 15px; color: #555; margin: 0;">The BOM defines all materials and quantities, forming the basis of accurate product costing.</p>
+        </div>
+
+        <div style="background: #fff; border-radius: 12px; padding: 24px; border: 1px solid #e0e0e0;">
+          <h4 style="font-family: 'Jost', sans-serif; font-weight: 600; color: #37517e; font-size: 17px; margin-bottom: 10px;">What is a configurable BOM?</h4>
+          <p style="font-size: 15px; color: #555; margin: 0;">A configurable BOM allows variations of a product to be managed without creating entirely separate BOMs.</p>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ======= CTA Section ======= -->
+<section id="cta" class="cta" style="background: linear-gradient(rgba(40, 58, 90, 0.85), rgba(40, 58, 90, 0.85)), url('{{ '/assets/img/BOM general view.webp' | relative_url }}') center/cover no-repeat;">
   <div class="container" data-aos="zoom-in">
-
     <div class="row">
-      <div class="col-lg-9 text-center text-lg-start">
-        <h3>Book an online demo</h3>
-        <p> Ready to learn more about Fraction ERP and what it can do for your business? <br>The demo usually takes 45 mins to 1 hour.</p>
+      <div class="col-lg-8 text-center text-lg-start">
+        <h3>Take Control of Your BOM Today</h3>
+        <p>Your Bill of Materials is the foundation of your manufacturing operation. With Fraction ERP, you can eliminate errors, improve costing accuracy, connect engineering to production, and scale with confidence.</p>
       </div>
-      <div class="col-lg-3 cta-btn-container text-center">
-        <a class="cta-btn align-middle" href="book-a-demo">Book a Demo</a>
+      <div class="col-lg-4 cta-btn-container text-center d-flex flex-column align-items-center justify-content-center gap-2">
+        <a class="cta-btn align-middle" href="{{ '/book-a-demo/' | relative_url }}">Book a Demo</a>
+        <a href="{{ '/contact/' | relative_url }}" style="color: rgba(255,255,255,0.85); font-size: 14px; text-decoration: underline;">See How It Works</a>
       </div>
     </div>
-
   </div>
-</section><!-- End Cta Section -->
+</section>
+<style>.inner-page { padding-bottom: 0 !important; margin-bottom: 0 !important; }</style>
