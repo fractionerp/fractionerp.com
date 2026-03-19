@@ -112,10 +112,10 @@ h1, h2, h3, h4, h5, h6 {
   transition: all 0.5s;
   z-index: 997;
   padding: 15px 0;
-  background-color: rgba(40, 58, 90, 0.9) !important;
+  background-color: #37517e !important;
 }
 #header.header-scrolled, #header.header-inner-pages {
-  background: rgba(40, 58, 90, 0.9);
+  background: #37517e;
 }
 #header .logo {
   font-size: 30px;
