@@ -1183,6 +1183,93 @@ section {
 }
 
 /*--------------------------------------------------------------
+# Page Hero (dark hero sections for feature/product pages)
+--------------------------------------------------------------*/
+.page-hero {
+  background: #37517e;
+  padding: 30px 0 40px;
+}
+.page-hero .section-title {
+  padding-bottom: 15px;
+}
+.page-hero .section-title h2 {
+  color: #fff;
+}
+.page-hero .section-title h2::before {
+  background: rgba(255,255,255,0.2);
+}
+.page-hero .section-title h2::after {
+  background: #47b2e4;
+}
+.page-hero .hero-subtitle {
+  color: rgba(255,255,255,0.95);
+  font-size: 22px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+.page-hero .hero-text {
+  font-size: 17px;
+  color: rgba(255,255,255,0.8);
+  max-width: 750px;
+  margin: 0 auto 15px;
+}
+.page-hero .hero-btn {
+  display: inline-block;
+  padding: 12px 36px;
+  border-radius: 50px;
+  font-family: 'Jost', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  transition: all 0.3s;
+  text-decoration: none;
+  margin: 5px;
+}
+.page-hero .hero-btn-primary {
+  background: #47b2e4;
+  color: #fff;
+}
+.page-hero .hero-btn-primary:hover {
+  background: #3a9fd1;
+}
+.page-hero .hero-btn-outline {
+  background: transparent;
+  color: #fff;
+  border: 2px solid rgba(255,255,255,0.5);
+}
+.page-hero .hero-btn-outline:hover {
+  border-color: #fff;
+}
+.page-hero .hero-cards .row {
+  padding-top: 0;
+}
+.page-hero .hero-card {
+  background: #fff;
+  border-radius: 10px;
+  padding: 15px 18px;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  border: 1px solid #d0d8e4;
+  box-shadow: 0 8px 30px rgba(0,0,0,0.15);
+  height: 100%;
+}
+.page-hero .hero-card i {
+  font-size: 28px;
+  flex-shrink: 0;
+}
+.page-hero .hero-card h4 {
+  font-family: 'Jost', sans-serif;
+  font-weight: 600;
+  font-size: 15px;
+  color: #37517e;
+  margin: 0;
+}
+.inner-page-hero {
+  background: #37517e;
+}
+.inner-page-hero + .inner-page { padding-bottom: 0 !important; }
+
+/*--------------------------------------------------------------
 # Frequently Asked Questions
 --------------------------------------------------------------*/
 .faq .faq-list {
