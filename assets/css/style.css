@@ -402,14 +402,16 @@ h1, h2, h3, h4, h5, h6 {
 }
 @media (max-width: 991px) {
   #hero {
-    height: 100vh;
+    height: auto;
     text-align: center;
+    padding-bottom: 40px;
   }
   #hero .animated {
     animation: none;
   }
   #hero .hero-img {
     text-align: center;
+    padding-top: 20px;
   }
   #hero .hero-img img {
     width: 50%;
