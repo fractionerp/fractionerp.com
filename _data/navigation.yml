@@ -33,8 +33,6 @@ main:
 footer_product:
   - title: MRP Software
     url: /mrp-software/
-  - title: MRP System
-    url: /mrp-system/
   - title: Cloud ERP Software
     url: /cloud-erp-software/
   - title: Shopfloor Data Capture Software

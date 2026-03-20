@@ -400,6 +400,12 @@ h1, h2, h3, h4, h5, h6 {
 #hero .animated {
   animation: up-down 2s ease-in-out infinite alternate-reverse both;
 }
+@media (min-width: 992px) and (max-width: 1399px) {
+  #hero .hero-img img {
+    max-width: 65%;
+    float: right;
+  }
+}
 @media (max-width: 991px) {
   #hero {
     height: auto;
