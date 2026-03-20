@@ -5,27 +5,25 @@
       <div class="row">
 
         <div class="col-lg-3 col-md-6 footer-links">
-          <h4>Product</h4>
+          <h4>ERP Software</h4>
           <ul>
-            {% for item in site.data.navigation.footer_product %}
-              <li><i class="bx bx-chevron-right" aria-hidden="true"></i> <a href="{{ item.url | relative_url }}">{{ item.title }}</a></li>
-            {% endfor %}
-          </ul>
-        </div>
-
-        <div class="col-lg-2 offset-lg col-md-6 footer-links">
-          <h4>Fraction ERP</h4>
-          <ul>
-            {% for item in site.data.navigation.footer_fraction %}
+            {% for item in site.data.navigation.footer_erp %}
               <li><i class="bx bx-chevron-right" aria-hidden="true"></i> <a href="{{ item.url | relative_url }}">{{ item.title }}</a></li>
             {% endfor %}
           </ul>
         </div>
 
         <div class="col-lg-2 col-md-6 footer-links">
-          <h4>Company</h4>
+          <h4>Solutions</h4>
           <ul>
-            {% for item in site.data.navigation.footer_company %}
+            {% for item in site.data.navigation.footer_solutions %}
+              <li><i class="bx bx-chevron-right" aria-hidden="true"></i> <a href="{{ item.url | relative_url }}">{{ item.title }}</a></li>
+            {% endfor %}
+          </ul>
+
+          <h4 class="mt-4">Industries</h4>
+          <ul>
+            {% for item in site.data.navigation.footer_industries %}
               <li><i class="bx bx-chevron-right" aria-hidden="true"></i> <a href="{{ item.url | relative_url }}">{{ item.title }}</a></li>
             {% endfor %}
           </ul>
@@ -40,6 +38,15 @@
           </ul>
         </div>
 
+        <div class="col-lg-2 col-md-6 footer-links">
+          <h4>Company</h4>
+          <ul>
+            {% for item in site.data.navigation.footer_company %}
+              <li><i class="bx bx-chevron-right" aria-hidden="true"></i> <a href="{{ item.url | relative_url }}">{{ item.title }}</a></li>
+            {% endfor %}
+          </ul>
+        </div>
+
         <div class="col-lg-2 col-md-6 offset-lg-1 footer-links">
           <h4>Connect with Us</h4>
           <div>
@@ -48,7 +55,7 @@
           </div>
           <div>
             <br>
-            <a href="{{ '/book-a-demo/' | relative_url }}">Book a Demo</a>
+            <a href="{{ '/book-a-demo/' | relative_url }}" style="display: inline-block; padding: 8px 24px; background: #47b2e4; color: #fff; border-radius: 50px; font-family: 'Jost', sans-serif; font-weight: 500; font-size: 14px; text-decoration: none;">Book a Demo</a>
           </div>
           <div class="social-links mt-4">
             <a href="{{ site.linkedin }}" class="linkedin" target="_blank" rel="noopener noreferrer" aria-label="Follow Fraction ERP on LinkedIn"><i class="fa-brands fa-linkedin-in" aria-hidden="true"></i></a>

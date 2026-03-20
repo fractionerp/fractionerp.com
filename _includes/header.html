@@ -21,6 +21,8 @@
                 {% endfor %}
               </ul>
             </li>
+          {% elsif item.cta %}
+            <li><a class="getstarted" href="{{ item.url | relative_url }}">{{ item.title }}</a></li>
           {% else %}
             <li><a class="nav-link" href="{{ item.url | relative_url }}">{{ item.title }}</a></li>
           {% endif %}

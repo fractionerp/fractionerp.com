@@ -1,80 +1,122 @@
 # Main navigation
 main:
-  - title: Home
-    url: /
-  - title: Features
-    url: /features/
+  - title: ERP Software
+    dropdown: true
+    items:
+      - title: Manufacturing ERP Software
+        url: /mrp-software/
+      - title: MRP Software
+        url: /what-is-mrp/
+      - title: Production Scheduling
+        url: /production-scheduling-software/
+      - title: Inventory & Purchasing
+        url: /purchasing-inventory-software/
+      - title: Shop Floor Data Capture
+        url: /shopfloor-data-capture-software/
+      - title: Sales Order Management
+        url: /sales-order-management-software/
+      - title: Bill of Materials
+        url: /bill-of-materials-software/
+      - title: Cloud ERP
+        url: /cloud-erp-software/
+  - title: Solutions
+    dropdown: true
+    items:
+      - title: Replace Excel in Manufacturing
+        url: /replace-excel-manufacturing/
+      - title: Improve Production Planning
+        url: /production-scheduling-software/
+      - title: Improve Inventory Control
+        url: /purchasing-inventory-software/
+      - title: Real-Time Visibility
+        url: /shopfloor-data-capture-software/
   - title: Industries
-    url: /industries/
-  - title: Pricing
-    url: /pricing/
-  - title: About
-    url: /about/
-  - title: Blog
-    url: /blog/
+    dropdown: true
+    items:
+      - title: ERP for Injection Moulding
+        url: /erp-for-injection-moulding/
+      - title: Best Manufacturing ERP UK
+        url: /best-manufacturing-erp-uk/
   - title: Resources
     dropdown: true
     items:
-      - title: Support
-        url: https://support.fractionerp.com
-        external: true
-      - title: ERP Implementation
+      - title: Features
+        url: /features/
+      - title: What is MRP?
+        url: /what-is-mrp/
+      - title: MRP vs ERP
+        url: /mrp-vs-erp/
+      - title: MRP in Excel
+        url: /mrp-in-excel/
+      - title: ERP Implementation Guide
         url: /erp-implementation-guide/
       - title: ERP Workflow
         url: /erp-manufacturing-workflow/
-      - title: Demo Video
-        url: /simple-erp-demo-video/
-  - title: Contact
-    url: /contact/
+      - title: Blog
+        url: /blog/
+      - title: Support
+        url: https://support.fractionerp.com
+        external: true
+  - title: Pricing
+    url: /pricing/
   - title: Book a Demo
-    url: /erp-online-demo/
+    url: /book-a-demo/
+    cta: true
 
 # Footer navigation
-footer_product:
-  - title: MRP Software
+footer_erp:
+  - title: Manufacturing ERP
     url: /mrp-software/
-  - title: Cloud ERP Software
-    url: /cloud-erp-software/
-  - title: Shopfloor Data Capture Software
-    url: /shopfloor-data-capture-software/
+  - title: MRP Software
+    url: /what-is-mrp/
   - title: Production Scheduling
     url: /production-scheduling-software/
-  - title: Purchasing and Inventory
+  - title: Inventory & Purchasing
     url: /purchasing-inventory-software/
+  - title: Shop Floor Data Capture
+    url: /shopfloor-data-capture-software/
   - title: Sales Order Management
     url: /sales-order-management-software/
   - title: Bill of Materials
     url: /bill-of-materials-software/
-  - title: ERP for Injection Moulding
+  - title: Cloud ERP
+    url: /cloud-erp-software/
+
+footer_solutions:
+  - title: Replace Excel
+    url: /replace-excel-manufacturing/
+  - title: Production Planning
+    url: /production-scheduling-software/
+  - title: Real-Time Visibility
+    url: /shopfloor-data-capture-software/
+  - title: Best ERP UK
+    url: /best-manufacturing-erp-uk/
+
+footer_industries:
+  - title: Injection Moulding
     url: /erp-for-injection-moulding/
 
-footer_fraction:
-  - title: Features
-    url: /features/
-  - title: Pricing
-    url: /pricing/
-  - title: Industries
-    url: /industries/
-  - title: Product Updates
-    url: /product-updates/
+footer_resources:
+  - title: What is MRP?
+    url: /what-is-mrp/
+  - title: MRP vs ERP
+    url: /mrp-vs-erp/
+  - title: MRP in Excel
+    url: /mrp-in-excel/
+  - title: Blog
+    url: /blog/
+  - title: Support
+    url: https://support.fractionerp.com
+    external: true
 
 footer_company:
-  - title: Contact
-    url: /contact/
   - title: About Us
     url: /about/
+  - title: Pricing
+    url: /pricing/
+  - title: Contact
+    url: /contact/
   - title: Privacy Policy
     url: /privacy/
   - title: Terms of Service
     url: /terms/
-
-footer_resources:
-  - title: Support
-    url: https://support.fractionerp.com
-    external: true
-  - title: Blog
-    url: /blog/
-  - title: ERP Implementation Guide
-    url: /erp-implementation-guide/
-  - title: ERP Workflow
-    url: /erp-manufacturing-workflow/
