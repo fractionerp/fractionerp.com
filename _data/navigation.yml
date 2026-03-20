@@ -35,6 +35,10 @@ main:
     items:
       - title: ERP for Injection Moulding
         url: /erp-for-injection-moulding/
+      - title: ERP for Engineering
+        url: /erp-for-engineering/
+      - title: ERP for Fabrication
+        url: /erp-for-fabrication/
       - title: Best Manufacturing ERP UK
         url: /best-manufacturing-erp-uk/
   - title: Resources
@@ -95,6 +99,10 @@ footer_solutions:
 footer_industries:
   - title: Injection Moulding
     url: /erp-for-injection-moulding/
+  - title: Engineering
+    url: /erp-for-engineering/
+  - title: Fabrication
+    url: /erp-for-fabrication/
 
 footer_resources:
   - title: What is MRP?
