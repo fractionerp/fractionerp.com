@@ -433,8 +433,15 @@ h1, h2, h3, h4, h5, h6 {
     line-height: 24px;
     margin-bottom: 30px;
   }
+  #hero .hero-subtitle {
+    font-size: 17px;
+    margin-bottom: 25px;
+  }
   #hero .hero-img img {
     width: 70%;
+  }
+  #hero .hero-checklist li {
+    font-size: 14px !important;
   }
 }
 @media (max-width: 575px) {
@@ -444,6 +451,19 @@ h1, h2, h3, h4, h5, h6 {
   #hero .btn-get-started {
     font-size: 16px;
     padding: 10px 24px 11px 24px;
+  }
+}
+@media (max-width: 480px) {
+  #hero h1 {
+    font-size: 24px;
+    line-height: 32px;
+  }
+  #hero .hero-subtitle {
+    font-size: 15px;
+    margin-bottom: 20px;
+  }
+  #hero .hero-img img {
+    width: 90%;
   }
 }
 
@@ -1276,6 +1296,158 @@ section {
   background: #37517e;
 }
 .inner-page-hero + .inner-page { padding-bottom: 0 !important; }
+
+/*--------------------------------------------------------------
+# Mobile Optimisations (Pillar Pages)
+--------------------------------------------------------------*/
+@media (max-width: 768px) {
+  /* Reduce section padding on mobile */
+  section {
+    padding: 30px 0;
+  }
+  .section-title {
+    padding-bottom: 20px;
+  }
+  .section-title h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+  }
+
+  /* Hero sections on pillar pages */
+  .pricing .section-title h2,
+  .page-hero .section-title h2 {
+    font-size: 22px;
+  }
+  .pricing .section-title h3,
+  .page-hero .hero-subtitle {
+    font-size: 17px !important;
+  }
+  .pricing .section-title p {
+    font-size: 15px !important;
+  }
+
+  /* Hero cards - stack better on mobile */
+  .pricing .row.g-3 > [class*="col-lg-"] {
+    padding-left: 6px;
+    padding-right: 6px;
+  }
+
+  /* Feature cards - reduce padding */
+  [style*="padding: 28px"],
+  [style*="padding: 32px 28px"] {
+    padding: 20px 18px !important;
+  }
+
+  /* Dark strips - reduce padding */
+  [style*="padding: 28px 16px"],
+  [style*="padding: 28px 20px"],
+  [style*="padding: 24px 12px"] {
+    padding: 18px 10px !important;
+  }
+  [style*="padding: 24px 12px"] p,
+  [style*="padding: 28px 16px"] p,
+  [style*="padding: 28px 20px"] p {
+    font-size: 12px !important;
+  }
+  [style*="padding: 24px 12px"] i,
+  [style*="padding: 28px 16px"] i,
+  [style*="padding: 28px 20px"] i {
+    font-size: 22px !important;
+  }
+
+  /* Alternating image/text sections */
+  .skills .row.align-items-center .col-lg-6 {
+    margin-bottom: 15px;
+  }
+  .skills .row.align-items-center img {
+    max-width: 100%;
+    padding: 0 !important;
+  }
+
+  /* Comparison tables - ensure readability */
+  table[style*="table-layout: fixed"] {
+    font-size: 14px !important;
+  }
+  table[style*="table-layout: fixed"] th,
+  table[style*="table-layout: fixed"] td {
+    padding: 10px 12px !important;
+  }
+
+  /* FAQ cards */
+  [style*="border: 1px solid #e0e0e0"] {
+    padding: 18px !important;
+  }
+
+  /* CTA sections */
+  .cta h3 {
+    font-size: 22px;
+  }
+  .cta p {
+    font-size: 15px;
+  }
+
+  /* Hero buttons - stack on very small */
+  .pricing .section-title > div:last-child {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+  }
+
+  /* Benefits icons row */
+  .skills .row.g-4 .col-md-6 {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  /* Reduce h3 in feature sections */
+  .skills h3[style*="font-size: 22px"] {
+    font-size: 19px !important;
+  }
+  .skills h3[style*="font-size: 20px"] {
+    font-size: 18px !important;
+  }
+
+  /* Ensure images don't overflow */
+  .img-fluid {
+    max-width: 100%;
+    height: auto;
+  }
+
+  /* Reduce margin on alternating sections */
+  .skills .mb-5 {
+    margin-bottom: 2rem !important;
+  }
+}
+
+@media (max-width: 480px) {
+  /* Extra small - tighten further */
+  section {
+    padding: 24px 0;
+  }
+  .section-title h2 {
+    font-size: 20px;
+  }
+  .pricing .section-title h2 {
+    font-size: 19px;
+  }
+
+  /* Hero cards - full width on very small */
+  .pricing .row.g-3 > [class*="col-md-6"] {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  /* Comparison tables - smaller text */
+  table[style*="table-layout: fixed"] {
+    font-size: 13px !important;
+  }
+  table[style*="table-layout: fixed"] th,
+  table[style*="table-layout: fixed"] td {
+    padding: 8px 8px !important;
+  }
+}
 
 /*--------------------------------------------------------------
 # Frequently Asked Questions
