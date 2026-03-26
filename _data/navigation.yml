@@ -30,6 +30,8 @@ main:
         url: /purchasing-inventory-software/
       - title: Real-Time Visibility
         url: /shopfloor-data-capture-software/
+      - title: Compare ERP Systems
+        url: /compare-erp/
   - title: Industries
     dropdown: true
     items:
@@ -116,6 +118,14 @@ footer_resources:
   - title: Support
     url: https://support.fractionerp.com
     external: true
+
+footer_compare:
+  - title: ERP Comparisons
+    url: /compare-erp/
+  - title: MRPeasy Alternative
+    url: /mrpeasy-alternative/
+  - title: EMAX Alternative
+    url: /emax-alternative/
 
 footer_company:
   - title: About Us

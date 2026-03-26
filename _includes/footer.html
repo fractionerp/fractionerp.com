@@ -39,7 +39,14 @@
         </div>
 
         <div class="col-lg-2 col-md-6 footer-links">
-          <h4>Company</h4>
+          <h4>Compare</h4>
+          <ul>
+            {% for item in site.data.navigation.footer_compare %}
+              <li><i class="bx bx-chevron-right" aria-hidden="true"></i> <a href="{{ item.url | relative_url }}">{{ item.title }}</a></li>
+            {% endfor %}
+          </ul>
+
+          <h4 class="mt-4">Company</h4>
           <ul>
             {% for item in site.data.navigation.footer_company %}
               <li><i class="bx bx-chevron-right" aria-hidden="true"></i> <a href="{{ item.url | relative_url }}">{{ item.title }}</a></li>
