@@ -3,7 +3,7 @@ layout: post
 title: "Stock alert function now added"
 date: 2021-04-02 14:10:19 +0000
 description: "Learn how our stock alert function works within our simplified stock management approach."
-category: erp
+category: inventory
 author: Giles Johnston
 permalink: /blog/stock-alert-function-now-added/
 ---

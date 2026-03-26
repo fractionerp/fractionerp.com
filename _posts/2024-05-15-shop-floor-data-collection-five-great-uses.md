@@ -3,7 +3,7 @@ layout: post
 title: "Shop floor data collection: five great uses"
 date: 2024-05-15 06:19:05 +0000
 description: "Shop floor data collection can bring some incredible benefits to a manufacturing business. Learn about them in this short article."
-category: general
+category: shop-floor
 author: Giles Johnston
 permalink: /blog/shop-floor-data-collection-five-great-uses/
 ---

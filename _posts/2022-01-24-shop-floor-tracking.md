@@ -3,7 +3,7 @@ layout: post
 title: "Shop floor tracking"
 date: 2022-01-24 12:06:37 +0000
 description: "Find out what you can do if you start using automated shop floor tracking tools."
-category: general
+category: shop-floor
 author: Giles Johnston
 permalink: /blog/shop-floor-tracking/
 ---

@@ -3,7 +3,7 @@ layout: post
 title: "New look 'shop floor data collection'"
 date: 2025-06-02 20:15:18 +0000
 description: "We've updated the shop floor data capture function in Fraction ERP, making it easier for the production team to log progress against orders."
-category: product-updates
+category: shop-floor
 author: Giles Johnston
 permalink: /blog/new-look-shop-floor-data-collection/
 ---

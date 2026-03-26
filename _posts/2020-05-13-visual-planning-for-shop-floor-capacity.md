@@ -3,7 +3,7 @@ layout: post
 title: "Visual planning for shop floor capacity"
 date: 2020-05-13 11:00:53 +0000
 description: ""
-category: general
+category: production-scheduling
 author: Giles Johnston
 permalink: /blog/visual-planning-for-shop-floor-capacity/
 ---

@@ -3,7 +3,7 @@ layout: post
 title: "Linking manual purchase orders to work orders"
 date: 2022-02-25 08:00:08 +0000
 description: "New update allows you to manually align your purchases with your work orders, to aid traceability."
-category: general
+category: purchasing
 author: Giles Johnston
 permalink: /blog/linking-manual-purchase-orders-to-work-orders/
 ---

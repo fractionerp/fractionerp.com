@@ -20,16 +20,15 @@ layout: default
         <div class="col-lg-8 offset-lg-2">
           <article class="blog-article">
             <header class="blog-header mb-4">
+              {% if page.category %}
+              <span class="badge mb-3" style="background: #47b2e4; font-size: 12px; font-weight: 500; padding: 5px 14px; border-radius: 50px;">{{ page.category | capitalize }}</span>
+              {% endif %}
               <h1 class="blog-title">{{ page.title }}</h1>
               <div class="blog-meta text-muted">
                 <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %d, %Y" }}</time>
                 {% if page.author %}
                   <span class="mx-2">|</span>
                   <span>By {{ page.author }}</span>
-                {% endif %}
-                {% if page.category %}
-                  <span class="mx-2">|</span>
-                  <span class="blog-category">{{ page.category | capitalize }}</span>
                 {% endif %}
               </div>
             </header>
@@ -38,7 +37,15 @@ layout: default
               {{ content }}
             </div>
 
-            <footer class="blog-footer mt-5 pt-4 border-top">
+            <!-- Mid-article CTA -->
+            <div style="background: #37517e; border-radius: 12px; padding: 28px; margin: 30px 0; text-align: center;">
+              <p style="font-size: 17px; color: #fff; margin-bottom: 15px; font-family: 'Jost', sans-serif; font-weight: 500;">See how Fraction ERP works for your business</p>
+              <a href="{{ '/book-a-demo/' | relative_url }}" style="display: inline-block; padding: 10px 28px; background: #47b2e4; color: #fff; border-radius: 50px; font-family: 'Jost', sans-serif; font-weight: 500; font-size: 14px; text-decoration: none; margin: 0 5px;">Book a Demo</a>
+              <a href="{{ '/mrp-software/' | relative_url }}" style="display: inline-block; padding: 10px 28px; background: transparent; color: #fff; border: 2px solid rgba(255,255,255,0.5); border-radius: 50px; font-family: 'Jost', sans-serif; font-weight: 500; font-size: 14px; text-decoration: none; margin: 0 5px;">Explore ERP Software</a>
+            </div>
+
+            <!-- Prev/Next Navigation -->
+            <footer class="blog-footer mt-4 pt-4 border-top">
               <div class="row">
                 <div class="col-md-6">
                   {% if page.previous.url %}
@@ -58,12 +65,57 @@ layout: default
             </footer>
           </article>
 
-          <div class="blog-cta mt-5">
-            <h4>Smash your ERP implementation with our free guide!</h4>
-            <p>Are you new to ERP systems, or want to get the most out of your existing system?<br>
-            Our step by step guide can help you get to grips with ERP selection, implementation and management.</p>
-            <a href="{{ '/erp-implementation-guide/' | relative_url }}" class="btn-get-started">Download the Guide</a>
+          <!-- Related Pages -->
+          <div style="margin-top: 40px;">
+            <h4 style="font-family: 'Jost', sans-serif; font-weight: 600; color: #37517e; font-size: 18px; margin-bottom: 20px;">Explore Fraction ERP</h4>
+            <div class="row g-3">
+              <div class="col-md-4">
+                <a href="{{ '/mrp-software/' | relative_url }}" style="text-decoration: none;">
+                  <div style="background: #f8f9fa; border-radius: 10px; padding: 18px; transition: transform 0.3s;" onmouseover="this.style.transform='translateY(-3px)'" onmouseout="this.style.transform='none'">
+                    <i class="bi bi-diagram-3" style="font-size: 20px; color: #47b2e4; display: block; margin-bottom: 8px;"></i>
+                    <span style="font-family: 'Jost', sans-serif; font-weight: 600; color: #37517e; font-size: 14px;">Manufacturing ERP</span>
+                  </div>
+                </a>
+              </div>
+              <div class="col-md-4">
+                <a href="{{ '/production-scheduling-software/' | relative_url }}" style="text-decoration: none;">
+                  <div style="background: #f8f9fa; border-radius: 10px; padding: 18px; transition: transform 0.3s;" onmouseover="this.style.transform='translateY(-3px)'" onmouseout="this.style.transform='none'">
+                    <i class="bi bi-calendar3" style="font-size: 20px; color: #4caf50; display: block; margin-bottom: 8px;"></i>
+                    <span style="font-family: 'Jost', sans-serif; font-weight: 600; color: #37517e; font-size: 14px;">Production Scheduling</span>
+                  </div>
+                </a>
+              </div>
+              <div class="col-md-4">
+                <a href="{{ '/replace-excel-manufacturing/' | relative_url }}" style="text-decoration: none;">
+                  <div style="background: #f8f9fa; border-radius: 10px; padding: 18px; transition: transform 0.3s;" onmouseover="this.style.transform='translateY(-3px)'" onmouseout="this.style.transform='none'">
+                    <i class="bi bi-file-earmark-x" style="font-size: 20px; color: #e84d8a; display: block; margin-bottom: 8px;"></i>
+                    <span style="font-family: 'Jost', sans-serif; font-weight: 600; color: #37517e; font-size: 14px;">Replace Excel</span>
+                  </div>
+                </a>
+              </div>
+            </div>
           </div>
+
+          <!-- Related Posts -->
+          {% assign related = site.posts | where: "category", page.category | where_exp: "p", "p.url != page.url" | limit: 3 %}
+          {% if related.size > 0 %}
+          <div style="margin-top: 40px;">
+            <h4 style="font-family: 'Jost', sans-serif; font-weight: 600; color: #37517e; font-size: 18px; margin-bottom: 20px;">Related Articles</h4>
+            <div class="row g-3">
+              {% for post in related %}
+              <div class="col-md-4">
+                <a href="{{ post.url | relative_url }}" style="text-decoration: none;">
+                  <div style="background: #fff; border-radius: 10px; padding: 18px; border: 1px solid #e0e0e0; height: 100%; transition: transform 0.3s;" onmouseover="this.style.transform='translateY(-3px)'" onmouseout="this.style.transform='none'">
+                    <h6 style="font-family: 'Jost', sans-serif; font-weight: 600; color: #37517e; font-size: 14px; line-height: 1.4; margin-bottom: 8px;">{{ post.title | truncate: 60 }}</h6>
+                    <span style="font-size: 12px; color: #888;">{{ post.date | date: "%B %d, %Y" }}</span>
+                  </div>
+                </a>
+              </div>
+              {% endfor %}
+            </div>
+          </div>
+          {% endif %}
+
         </div>
       </div>
     </div>

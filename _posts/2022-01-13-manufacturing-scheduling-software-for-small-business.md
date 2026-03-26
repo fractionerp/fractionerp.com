@@ -3,7 +3,7 @@ layout: post
 title: "Manufacturing scheduling software for small business"
 date: 2022-01-13 18:17:06 +0000
 description: "Effective scheduling tools are accessible for small manufacturing businesses when you use Fraction ERP."
-category: general
+category: production-scheduling
 author: Giles Johnston
 permalink: /blog/manufacturing-scheduling-software-for-small-business/
 ---

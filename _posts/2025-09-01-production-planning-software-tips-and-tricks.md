@@ -3,7 +3,7 @@ layout: post
 title: "Production planning software features to speed up your office"
 date: 2025-09-01 17:22:48 +0000
 description: "Learn how our production planning software helps speed up your factory planning activity."
-category: general
+category: production-scheduling
 author: Giles Johnston
 permalink: /blog/production-planning-software-tips-and-tricks/
 ---

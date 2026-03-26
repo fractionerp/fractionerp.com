@@ -3,7 +3,7 @@ layout: post
 title: "ERP scheduling software"
 date: 2022-12-06 20:22:33 +0000
 description: "ERP scheduling software doesn't have to be complex or expensive. Learn more here."
-category: erp
+category: production-scheduling
 author: Giles Johnston
 permalink: /blog/erp-scheduling-software/
 ---

@@ -3,7 +3,7 @@ layout: post
 title: "SFDC (Shop Floor Data Collection) comes free with Fraction ERP"
 date: 2021-09-01 11:42:42 +0000
 description: "Don't worry about paying more to track production through your shop floor."
-category: general
+category: shop-floor
 author: Giles Johnston
 permalink: /blog/sfdc-shop-floor-data-collection-comes-free-with-fraction-erp/
 ---

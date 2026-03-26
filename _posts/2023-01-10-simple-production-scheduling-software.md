@@ -3,7 +3,7 @@ layout: post
 title: "Simple production scheduling software"
 date: 2023-01-10 19:12:58 +0000
 description: "If you think ERP scheduling has to be complicated and difficult, think again! Simple production scheduling software is the way forward."
-category: erp
+category: production-scheduling
 author: Giles Johnston
 permalink: /blog/simple-production-scheduling-software/
 ---

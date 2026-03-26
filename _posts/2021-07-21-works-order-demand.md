@@ -3,7 +3,7 @@ layout: post
 title: "Speeding up purchasing activities"
 date: 2021-07-21 16:54:53 +0000
 description: "The updates to the part demand screen speeds up purchasing activities."
-category: product-updates
+category: purchasing
 author: Giles Johnston
 permalink: /blog/works-order-demand/
 ---

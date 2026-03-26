@@ -3,7 +3,7 @@ layout: post
 title: "Save time scheduling your factory with these three features"
 date: 2025-10-05 20:51:15 +0000
 description: "Learn how some of our advanced scheduling features can help save your team hours every week managing and optimising your production schedules."
-category: general
+category: production-scheduling
 author: Giles Johnston
 permalink: /blog/save-time-scheduling-your-factory-with-these-three-features/
 ---

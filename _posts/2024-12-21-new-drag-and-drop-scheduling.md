@@ -3,7 +3,7 @@ layout: post
 title: "NEW - drag and drop scheduling"
 date: 2024-12-21 17:13:48 +0000
 description: "Yes!  You can now automatically schedule your works orders and then fine tune the schedule with our drag and drop tools."
-category: product-updates
+category: production-scheduling
 author: Giles Johnston
 permalink: /blog/new-drag-and-drop-scheduling/
 ---

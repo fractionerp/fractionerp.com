@@ -3,7 +3,7 @@ layout: post
 title: "Shop Floor Data Collection - the shop floor view"
 date: 2021-02-08 09:56:13 +0000
 description: "Find out what the shop floor teams see when using Fraction ERP."
-category: erp
+category: shop-floor
 author: Giles Johnston
 permalink: /blog/shop-floor-data-collection-the-shop-floor-view/
 ---

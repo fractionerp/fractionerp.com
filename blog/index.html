@@ -1,105 +1,178 @@
 ---
 layout: default
-title: "Blog: Fraction ERP"
-description: "Insights, tips and updates about manufacturing ERP, production scheduling, and shop floor management"
-keywords: "ERP blog, manufacturing software, production scheduling tips, shop floor data collection, MRP software"
+title: "Manufacturing ERP Blog | Fraction ERP"
+description: "Insights, guides and updates about manufacturing ERP, MRP, production scheduling, and how to improve your operations."
+keywords: "ERP blog, manufacturing software blog, production scheduling tips, MRP guides, shop floor data, manufacturing insights"
 ---
 <main id="main">
-  <!-- ======= Breadcrumbs ======= -->
-  <section class="breadcrumbs">
-    <div class="container">
-      <ol>
-        <li><a href="{{ '/' | relative_url }}">Home</a></li>
-        <li>Blog</li>
-      </ol>
+
+<!-- ======= Hero ======= -->
+<section style="background: #37517e; padding: 30px 0 40px;">
+  <div class="container" data-aos="fade-up">
+    <div class="section-title" style="padding-bottom: 15px;">
+      <h2 style="color: #fff;">Manufacturing ERP Blog</h2>
+      <p style="font-size: 17px; color: rgba(255,255,255,0.8); max-width: 700px; margin: 0 auto;">
+        Insights, guides and practical advice for manufacturers — from ERP implementation to production scheduling and beyond.
+      </p>
     </div>
-  </section>
+  </div>
+</section>
 
-  <!-- ======= Blog List Section ======= -->
-  <section id="blog" class="blog-section section-bg">
-    <div class="container" data-aos="fade-up">
-      <div class="section-title">
-        <h2>Blog</h2>
-        <p>Insights and updates about manufacturing ERP, production scheduling, and how to get the most from your systems.</p>
-      </div>
-
-      <!-- Search Box -->
-      <div class="blog-search-container mb-5">
-        <div class="row justify-content-center">
-          <div class="col-lg-6 col-md-8">
-            <div class="blog-search-box">
-              <i class="bi bi-search"></i>
-              <input type="text" id="blog-search" class="form-control" placeholder="Search articles...">
-            </div>
+<!-- ======= Featured Posts ======= -->
+<section style="background: #f8f9fa; padding: 40px 0 30px;">
+  <div class="container" data-aos="fade-up">
+    <h3 style="font-family: 'Jost', sans-serif; font-weight: 600; color: #37517e; font-size: 20px; margin-bottom: 20px;">Latest Articles</h3>
+    <div class="row g-4">
+      {% assign latest = site.posts | slice: 0, 3 %}
+      {% for post in latest %}
+      <div class="col-lg-4 col-md-6">
+        <div class="card blog-card h-100" style="border: none; border-radius: 12px; box-shadow: 0 8px 30px rgba(0,0,0,0.08); overflow: hidden;">
+          {% if post.image %}
+          <img src="{{ post.image | relative_url }}" class="card-img-top" alt="{{ post.title }}" style="height: 180px; object-fit: cover;">
+          {% else %}
+          <div style="height: 8px; background: linear-gradient(90deg, #47b2e4, #37517e);"></div>
+          {% endif %}
+          <div class="card-body d-flex flex-column" style="padding: 24px;">
+            {% if post.category %}
+            <span class="badge mb-2 align-self-start" style="background: #47b2e4; font-size: 11px; font-weight: 500; padding: 5px 12px; border-radius: 50px;">{{ post.category | capitalize }}</span>
+            {% endif %}
+            <h5 class="card-title" style="font-family: 'Jost', sans-serif; font-weight: 600; color: #37517e; font-size: 17px; line-height: 1.4;">
+              <a href="{{ post.url | relative_url }}" style="text-decoration: none; color: #37517e;">{{ post.title }}</a>
+            </h5>
+            <p class="text-muted small mb-2" style="font-size: 13px;">
+              <i class="bi bi-calendar3"></i>
+              <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time>
+            </p>
+            {% if post.description and post.description != "" %}
+            <p class="card-text flex-grow-1" style="font-size: 14px; color: #555;">{{ post.description | truncate: 120 }}</p>
+            {% else %}
+            <p class="card-text flex-grow-1" style="font-size: 14px; color: #555;">{{ post.excerpt | strip_html | truncate: 120 }}</p>
+            {% endif %}
+            <a href="{{ post.url | relative_url }}" style="color: #47b2e4; font-weight: 500; font-size: 14px; margin-top: auto;">
+              Read More <i class="bi bi-arrow-right"></i>
+            </a>
           </div>
         </div>
       </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
 
-      <!-- Blog Grid -->
-      <div class="row" id="blog-grid">
-        {% assign sorted_posts = site.posts | sort: 'date' | reverse %}
-        {% for post in sorted_posts %}
-          <div class="col-lg-4 col-md-6 mb-4 blog-item" 
-               data-title="{{ post.title | downcase }}" 
-               data-description="{{ post.description | downcase }}"
-               data-category="{{ post.category | downcase }}">
-            <div class="card blog-card h-100">
-              <div class="card-body d-flex flex-column">
-                {% if post.category %}
-                  <span class="badge bg-primary mb-2 align-self-start">{{ post.category | capitalize }}</span>
-                {% endif %}
-                <h5 class="card-title">
-                  <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-                </h5>
-                <p class="card-date text-muted small mb-2">
-                  <i class="bi bi-calendar3"></i>
-                  <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time>
-                </p>
-                {% if post.description and post.description != "" %}
-                  <p class="card-text flex-grow-1">{{ post.description | truncate: 120 }}</p>
-                {% else %}
-                  <p class="card-text flex-grow-1">{{ post.excerpt | strip_html | truncate: 120 }}</p>
-                {% endif %}
-                <a href="{{ post.url | relative_url }}" class="btn-read-more mt-auto">
-                  Read More <i class="bi bi-arrow-right"></i>
-                </a>
-              </div>
-            </div>
-          </div>
-        {% endfor %}
-      </div>
+<!-- ======= Topic Filters + Search ======= -->
+<section id="blog" class="blog-section" style="padding: 40px 0;">
+  <div class="container" data-aos="fade-up">
 
-      <!-- No Results Message -->
-      <div id="no-results" class="text-center py-5" style="display: none;">
-        <i class="bi bi-search" style="font-size: 3rem; color: #ccc;"></i>
-        <h4 class="mt-3">No articles found</h4>
-        <p class="text-muted">Try a different search term</p>
+    <!-- Filter Bar -->
+    <div class="row justify-content-center mb-4">
+      <div class="col-lg-10">
+        <div style="display: flex; flex-wrap: wrap; gap: 10px; align-items: center; justify-content: center;">
+          <button class="blog-filter-btn active" data-filter="all" style="padding: 8px 20px; border-radius: 50px; border: 2px solid #37517e; background: #37517e; color: #fff; font-family: 'Jost', sans-serif; font-weight: 500; font-size: 14px; cursor: pointer; transition: all 0.3s;">All Topics</button>
+          <button class="blog-filter-btn" data-filter="erp" style="padding: 8px 20px; border-radius: 50px; border: 2px solid #c0c8d4; background: #fff; color: #37517e; font-family: 'Jost', sans-serif; font-weight: 500; font-size: 14px; cursor: pointer; transition: all 0.3s;">ERP</button>
+          <button class="blog-filter-btn" data-filter="production-scheduling" style="padding: 8px 20px; border-radius: 50px; border: 2px solid #c0c8d4; background: #fff; color: #37517e; font-family: 'Jost', sans-serif; font-weight: 500; font-size: 14px; cursor: pointer; transition: all 0.3s;">Scheduling</button>
+          <button class="blog-filter-btn" data-filter="inventory" style="padding: 8px 20px; border-radius: 50px; border: 2px solid #c0c8d4; background: #fff; color: #37517e; font-family: 'Jost', sans-serif; font-weight: 500; font-size: 14px; cursor: pointer; transition: all 0.3s;">Inventory</button>
+          <button class="blog-filter-btn" data-filter="purchasing" style="padding: 8px 20px; border-radius: 50px; border: 2px solid #c0c8d4; background: #fff; color: #37517e; font-family: 'Jost', sans-serif; font-weight: 500; font-size: 14px; cursor: pointer; transition: all 0.3s;">Purchasing</button>
+          <button class="blog-filter-btn" data-filter="shop-floor" style="padding: 8px 20px; border-radius: 50px; border: 2px solid #c0c8d4; background: #fff; color: #37517e; font-family: 'Jost', sans-serif; font-weight: 500; font-size: 14px; cursor: pointer; transition: all 0.3s;">Shop Floor</button>
+          <button class="blog-filter-btn" data-filter="management" style="padding: 8px 20px; border-radius: 50px; border: 2px solid #c0c8d4; background: #fff; color: #37517e; font-family: 'Jost', sans-serif; font-weight: 500; font-size: 14px; cursor: pointer; transition: all 0.3s;">Management</button>
+          <button class="blog-filter-btn" data-filter="product-updates" style="padding: 8px 20px; border-radius: 50px; border: 2px solid #c0c8d4; background: #fff; color: #37517e; font-family: 'Jost', sans-serif; font-weight: 500; font-size: 14px; cursor: pointer; transition: all 0.3s;">Updates</button>
+        </div>
       </div>
     </div>
-  </section>
+
+    <!-- Search -->
+    <div class="row justify-content-center mb-4">
+      <div class="col-lg-5 col-md-7">
+        <div style="position: relative;">
+          <i class="bi bi-search" style="position: absolute; left: 16px; top: 50%; transform: translateY(-50%); color: #999;"></i>
+          <input type="text" id="blog-search" class="form-control" placeholder="Search articles..." style="padding: 10px 16px 10px 42px; border-radius: 50px; border: 2px solid #e0e0e0; font-size: 14px;">
+        </div>
+      </div>
+    </div>
+
+    <!-- Blog Grid -->
+    <div class="row" id="blog-grid">
+      {% assign sorted_posts = site.posts | sort: 'date' | reverse %}
+      {% for post in sorted_posts offset:3 %}
+      <div class="col-lg-4 col-md-6 mb-4 blog-item"
+           data-title="{{ post.title | downcase }}"
+           data-description="{{ post.description | downcase }}"
+           data-category="{{ post.category | downcase }}">
+        <div class="card blog-card h-100" style="border: none; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.06); overflow: hidden; transition: transform 0.3s, box-shadow 0.3s;" onmouseover="this.style.transform='translateY(-4px)';this.style.boxShadow='0 8px 30px rgba(0,0,0,0.12)'" onmouseout="this.style.transform='none';this.style.boxShadow='0 4px 15px rgba(0,0,0,0.06)'">
+          <div style="height: 4px; background: {% cycle '#47b2e4', '#4caf50', '#e84d8a', '#f0a030', '#7c4dff' %};"></div>
+          <div class="card-body d-flex flex-column" style="padding: 22px;">
+            {% if post.category %}
+            <span class="badge mb-2 align-self-start" style="background: {% if post.category == 'erp' %}#47b2e4{% elsif post.category == 'production-scheduling' %}#4caf50{% elsif post.category == 'inventory' %}#f0a030{% elsif post.category == 'purchasing' %}#e84d8a{% elsif post.category == 'shop-floor' %}#7c4dff{% elsif post.category == 'management' %}#4caf50{% elsif post.category == 'product-updates' %}#7c4dff{% else %}#37517e{% endif %}; font-size: 11px; font-weight: 500; padding: 4px 10px; border-radius: 50px;">{% if post.category == 'production-scheduling' %}Scheduling{% elsif post.category == 'shop-floor' %}Shop Floor{% elsif post.category == 'product-updates' %}Updates{% else %}{{ post.category | capitalize }}{% endif %}</span>
+            {% endif %}
+            <h5 class="card-title" style="font-family: 'Jost', sans-serif; font-weight: 600; color: #37517e; font-size: 16px; line-height: 1.4;">
+              <a href="{{ post.url | relative_url }}" style="text-decoration: none; color: #37517e;">{{ post.title }}</a>
+            </h5>
+            <p class="text-muted small mb-2" style="font-size: 12px;">
+              <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time>
+            </p>
+            {% if post.description and post.description != "" %}
+            <p class="card-text flex-grow-1" style="font-size: 14px; color: #555;">{{ post.description | truncate: 100 }}</p>
+            {% else %}
+            <p class="card-text flex-grow-1" style="font-size: 14px; color: #555;">{{ post.excerpt | strip_html | truncate: 100 }}</p>
+            {% endif %}
+            <a href="{{ post.url | relative_url }}" style="color: #47b2e4; font-weight: 500; font-size: 13px; margin-top: auto;">
+              Read More <i class="bi bi-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+
+    <!-- No Results -->
+    <div id="no-results" class="text-center py-5" style="display: none;">
+      <i class="bi bi-search" style="font-size: 3rem; color: #ccc;"></i>
+      <h4 class="mt-3" style="color: #37517e;">No articles found</h4>
+      <p class="text-muted">Try a different search term or topic filter</p>
+    </div>
+
+  </div>
+</section>
+
+<!-- ======= CTA ======= -->
+<section id="cta" class="cta" style="background: linear-gradient(rgba(40, 58, 90, 0.85), rgba(40, 58, 90, 0.85)), url('{{ '/assets/img/V3-production-tracking.webp' | relative_url }}') center/cover no-repeat;">
+  <div class="container" data-aos="zoom-in">
+    <div class="row">
+      <div class="col-lg-8 text-center text-lg-start">
+        <h3>Ready to See Fraction ERP in Action?</h3>
+        <p>Book a demo to see how Fraction ERP can transform your manufacturing operations.</p>
+      </div>
+      <div class="col-lg-4 cta-btn-container text-center d-flex flex-column align-items-center justify-content-center gap-2">
+        <a class="cta-btn align-middle" href="{{ '/book-a-demo/' | relative_url }}">Book a Demo</a>
+        <a href="{{ '/mrp-software/' | relative_url }}" style="color: rgba(255,255,255,0.85); font-size: 14px; text-decoration: underline;">Explore Manufacturing ERP</a>
+      </div>
+    </div>
+  </div>
+</section>
+
 </main>
 
 <script>
 document.addEventListener('DOMContentLoaded', function() {
-  const searchInput = document.getElementById('blog-search');
-  const blogGrid = document.getElementById('blog-grid');
-  const blogItems = document.querySelectorAll('.blog-item');
-  const noResults = document.getElementById('no-results');
+  var searchInput = document.getElementById('blog-search');
+  var blogGrid = document.getElementById('blog-grid');
+  var blogItems = document.querySelectorAll('.blog-item');
+  var noResults = document.getElementById('no-results');
+  var filterBtns = document.querySelectorAll('.blog-filter-btn');
+  var activeFilter = 'all';
 
-  searchInput.addEventListener('input', function() {
-    const searchTerm = this.value.toLowerCase().trim();
-    let visibleCount = 0;
+  function filterAndSearch() {
+    var searchTerm = searchInput.value.toLowerCase().trim();
+    var visibleCount = 0;
 
     blogItems.forEach(function(item) {
-      const title = item.dataset.title || '';
-      const description = item.dataset.description || '';
-      const category = item.dataset.category || '';
-      
-      const matches = title.includes(searchTerm) || 
-                      description.includes(searchTerm) || 
-                      category.includes(searchTerm);
-      
-      if (searchTerm === '' || matches) {
+      var title = item.dataset.title || '';
+      var description = item.dataset.description || '';
+      var category = item.dataset.category || '';
+
+      var matchesSearch = searchTerm === '' || title.includes(searchTerm) || description.includes(searchTerm) || category.includes(searchTerm);
+      var matchesFilter = activeFilter === 'all' || category === activeFilter;
+
+      if (matchesSearch && matchesFilter) {
         item.style.display = '';
         visibleCount++;
       } else {
@@ -107,14 +180,32 @@ document.addEventListener('DOMContentLoaded', function() {
       }
     });
 
-    // Show/hide no results message
-    if (visibleCount === 0 && searchTerm !== '') {
+    if (visibleCount === 0) {
       noResults.style.display = 'block';
       blogGrid.style.display = 'none';
     } else {
       noResults.style.display = 'none';
       blogGrid.style.display = '';
     }
+  }
+
+  searchInput.addEventListener('input', filterAndSearch);
+
+  filterBtns.forEach(function(btn) {
+    btn.addEventListener('click', function() {
+      filterBtns.forEach(function(b) {
+        b.style.background = '#fff';
+        b.style.color = '#37517e';
+        b.style.borderColor = '#c0c8d4';
+        b.classList.remove('active');
+      });
+      this.style.background = '#37517e';
+      this.style.color = '#fff';
+      this.style.borderColor = '#37517e';
+      this.classList.add('active');
+      activeFilter = this.dataset.filter;
+      filterAndSearch();
+    });
   });
 });
 </script>

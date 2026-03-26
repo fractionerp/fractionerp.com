@@ -3,7 +3,7 @@ layout: post
 title: "Purchase order inventory management systems"
 date: 2022-07-02 09:25:32 +0000
 description: "Learn more about purchase order inventory management systems. Low cost and simple cloud ERP."
-category: general
+category: purchasing
 author: Giles Johnston
 permalink: /blog/purchase-order-inventory-management-systems/
 ---

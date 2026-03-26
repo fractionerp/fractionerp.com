@@ -3,7 +3,7 @@ layout: post
 title: "How Fraction ERP's Simple Scheduling System Saves Hours of Management Time"
 date: 2026-01-18 09:00:00 +0000
 description: "Stop spending hours walking the shop floor chasing updates. Fraction ERP's scheduling system gives you real-time production visibility and saves over 8 hours per week."
-category: general
+category: production-scheduling
 author: Giles Johnston
 permalink: /blog/how-fraction-erp-scheduling-saves-management-time/
 ---

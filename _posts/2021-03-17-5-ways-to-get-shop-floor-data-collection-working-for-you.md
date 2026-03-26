@@ -3,7 +3,7 @@ layout: post
 title: "5 steps to get Shop Floor Data Collection working for you"
 date: 2021-03-17 16:34:12 +0000
 description: "Shop Floor Data Collection can be a blessing, but only if you deploy it successfully!"
-category: management
+category: shop-floor
 author: Giles Johnston
 permalink: /blog/5-ways-to-get-shop-floor-data-collection-working-for-you/
 ---

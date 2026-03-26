@@ -3,7 +3,7 @@ layout: post
 title: "New batch traceability feature"
 date: 2025-06-20 18:46:59 +0000
 description: "Our new batch traceability function makes tracking production even easier."
-category: product-updates
+category: inventory
 author: Giles Johnston
 permalink: /blog/new-batch-traceability-feature/
 ---

@@ -3,7 +3,7 @@ layout: post
 title: "New SFDC live operations screen"
 date: 2024-01-19 20:47:12 +0000
 description: "Learn more about the recent change to the shop floor data capture live operations screen."
-category: product-updates
+category: shop-floor
 author: Giles Johnston
 permalink: /blog/new-sfdc-live-operations-screen/
 ---

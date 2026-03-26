@@ -3,7 +3,7 @@ layout: post
 title: "Managing operator and workcenter capacity in one go!"
 date: 2021-06-16 10:09:59 +0000
 description: "Fraction ERP will let you schedule workcenters, operatives or both! Find out more in this article."
-category: management
+category: production-scheduling
 author: Giles Johnston
 permalink: /blog/managing-operator-and-workcenter-capacity-in-one-go/
 ---

@@ -3,7 +3,7 @@ layout: post
 title: "Perpetual Inventory Systems and your peace of mind!"
 date: 2020-03-27 18:00:13 +0000
 description: "Using perpetual inventory systems can improve your overall productivity. Check it out with Fraction ERP."
-category: management
+category: inventory
 author: Giles Johnston
 permalink: /blog/perpetual-inventory-systems-and-your-peace-of-mind/
 ---

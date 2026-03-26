@@ -3,7 +3,7 @@ layout: post
 title: "The benefits of Shop Floor Data Collection (SFDC)"
 date: 2021-01-20 09:00:22 +0000
 description: "Discover the benefits of an effective SFDC system and how Fraction ERP handles this function."
-category: erp
+category: shop-floor
 author: Giles Johnston
 permalink: /blog/the-benefits-of-shop-floor-data-collection/
 ---

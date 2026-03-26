@@ -3,7 +3,7 @@ layout: post
 title: "Simple purchase order management system"
 date: 2025-08-11 07:07:51 +0000
 description: "Discover how Fraction ERP can speed up and simplify your purchasing activities."
-category: general
+category: purchasing
 author: Giles Johnston
 permalink: /blog/simple-purchase-order-management-system/
 ---

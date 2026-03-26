@@ -3,7 +3,7 @@ layout: post
 title: "Shop Floor Visual Management"
 date: 2024-07-31 06:33:16 +0000
 description: "Find out how Fraction ERP can help you to quickly see what is going on in your factory"
-category: product-updates
+category: shop-floor
 author: Giles Johnston
 permalink: /blog/shop-floor-visual-management/
 ---

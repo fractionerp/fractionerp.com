@@ -3,7 +3,7 @@ layout: post
 title: "Shop Floor Data Collection - The Production Manager's best friend!"
 date: 2021-04-17 10:29:15 +0000
 description: "Find out how Fraction cloud ERP can help you to save hours tracking down production."
-category: management
+category: shop-floor
 author: Giles Johnston
 permalink: /blog/shop-floor-data-collection-the-production-manager-s-best-friend/
 ---

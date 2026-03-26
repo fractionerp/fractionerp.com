@@ -3,7 +3,7 @@ layout: post
 title: "Perpetual inventory and Fraction ERP"
 date: 2021-04-05 11:17:36 +0000
 description: "Perpeptual Inventory approaches can help improve supply chain responsiveness as well as provide opportunity for business improvement."
-category: management
+category: inventory
 author: Giles Johnston
 permalink: /blog/perpetual-inventory-and-fraction-erp/
 ---

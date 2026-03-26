@@ -3,7 +3,7 @@ layout: post
 title: "Do you really know your manufacturing capacity?"
 date: 2020-09-08 07:42:48 +0000
 description: ""
-category: general
+category: production-scheduling
 author: Giles Johnston
 permalink: /blog/manufacturing-capacity/
 ---

@@ -3,7 +3,7 @@ layout: post
 title: "Drag and drop scheduling"
 date: 2025-04-28 06:32:29 +0000
 description: "If you aren't sure what the term 'drag and drop scheduling' means, check out this article."
-category: general
+category: production-scheduling
 author: Giles Johnston
 permalink: /blog/drag-and-drop-scheduling/
 ---

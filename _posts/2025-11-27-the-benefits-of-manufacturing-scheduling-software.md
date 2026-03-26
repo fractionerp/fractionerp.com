@@ -3,7 +3,7 @@ layout: post
 title: "The benefits of manufacturing scheduling software"
 date: 2025-11-27 06:46:25 +0000
 description: "If you are unsure why you would use manufacturing scheduling software for your factory, read this!"
-category: general
+category: production-scheduling
 author: Giles Johnston
 permalink: /blog/the-benefits-of-manufacturing-scheduling-software/
 ---

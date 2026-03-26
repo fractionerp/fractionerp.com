@@ -3,7 +3,7 @@ layout: post
 title: "Manufacturing Execution Systems - why SFDC matters"
 date: 2020-02-19 14:56:29 +0000
 description: "Get more from your manufacturing execution system when you properly deploy SFDC (Shop Floor Data Collection). Read more..."
-category: management
+category: shop-floor
 author: Giles Johnston
 permalink: /blog/manufacturing-execution-systems-why-sfdc-matters/
 ---

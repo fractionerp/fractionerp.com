@@ -3,7 +3,7 @@ layout: post
 title: "Cycle counting as an ERP stock management strategy"
 date: 2022-11-27 14:49:17 +0000
 description: "Learn what cycle counting is, how it can make your production life easier, and Fraction ERP makes it simple."
-category: management
+category: inventory
 author: Giles Johnston
 permalink: /blog/cycle-counting-as-an-erp-stock-management-strategy/
 ---

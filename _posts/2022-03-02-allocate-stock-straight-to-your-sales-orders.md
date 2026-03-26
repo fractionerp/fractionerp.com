@@ -3,7 +3,7 @@ layout: post
 title: "Allocate stock straight to your sales orders"
 date: 2022-03-02 18:35:35 +0000
 description: "If you operate a make to stock business then check out our fast workflow."
-category: general
+category: inventory
 author: Giles Johnston
 permalink: /blog/allocate-stock-straight-to-your-sales-orders/
 ---

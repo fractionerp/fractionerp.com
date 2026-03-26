@@ -3,7 +3,7 @@ layout: post
 title: "New weekly scheduling board"
 date: 2021-01-04 16:54:42 +0000
 description: "Learn what changes we've made to our weekly scheduling function. We've made it simpler and more visual."
-category: erp
+category: production-scheduling
 author: Giles Johnston
 permalink: /blog/new-weekly-scheduling-board/
 ---

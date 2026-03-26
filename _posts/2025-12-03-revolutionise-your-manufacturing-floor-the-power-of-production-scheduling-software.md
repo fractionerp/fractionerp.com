@@ -3,7 +3,7 @@ layout: post
 title: "Revolutionise Your Manufacturing Floor: The Power of Production Scheduling Software"
 date: 2025-12-03 19:13:20 +0000
 description: "Learn why so many manufacturers have adopted production scheduling software"
-category: general
+category: production-scheduling
 author: Giles Johnston
 permalink: /blog/revolutionise-your-manufacturing-floor-the-power-of-production-scheduling-software/
 ---

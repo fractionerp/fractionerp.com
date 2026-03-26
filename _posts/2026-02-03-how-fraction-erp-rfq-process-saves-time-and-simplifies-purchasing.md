@@ -3,7 +3,7 @@ layout: post
 title: "How Fraction ERP's RFQ Process Saves You Time and Simplifies Purchasing"
 date: 2026-02-03 09:00:00 +0000
 description: "Stop chasing supplier quotes through endless email threads. Fraction ERP's RFQ process centralises everything, making it easy to compare quotes and convert to purchase orders in seconds."
-category: general
+category: purchasing
 author: Giles Johnston
 permalink: /blog/how-fraction-erp-rfq-process-saves-time-and-simplifies-purchasing/
 ---

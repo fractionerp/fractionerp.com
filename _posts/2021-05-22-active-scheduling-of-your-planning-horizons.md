@@ -3,7 +3,7 @@ layout: post
 title: "Active scheduling of your planning horizons"
 date: 2021-05-22 07:52:55 +0000
 description: "Reduce time spent on scheduling production by using planning horizons"
-category: management
+category: production-scheduling
 author: Giles Johnston
 permalink: /blog/active-scheduling-of-your-planning-horizons/
 ---

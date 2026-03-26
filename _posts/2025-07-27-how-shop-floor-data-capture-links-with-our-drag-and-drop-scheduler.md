@@ -3,7 +3,7 @@ layout: post
 title: "How shop floor data capture links with our drag and drop scheduler"
 date: 2025-07-27 11:52:33 +0000
 description: "Did you know that completing operations via SFDC automatically updates our scheduler, work to list and production trackers?"
-category: general
+category: shop-floor
 author: Giles Johnston
 permalink: /blog/how-shop-floor-data-capture-links-with-our-drag-and-drop-scheduler/
 ---

@@ -3,7 +3,7 @@ layout: post
 title: "Manufacturing scheduling software for small business is the new black!"
 date: 2024-03-19 18:35:55 +0000
 description: "We've kept our scheduling tool simple so every manufacturer can effectively load their production teams. Find out more here."
-category: general
+category: production-scheduling
 author: Giles Johnston
 permalink: /blog/manufacturing-scheduling-software-for-small-business-is-the-new-black/
 ---

@@ -3,7 +3,7 @@ layout: post
 title: "Take the chaos out of goods inwards!"
 date: 2023-04-18 20:27:27 +0000
 description: "If you are getting lost with your goods inward inspection duties, check out this simple feature of Fraction ERP"
-category: general
+category: inventory
 author: Giles Johnston
 permalink: /blog/take-the-chaos-out-of-goods-inwards/
 ---

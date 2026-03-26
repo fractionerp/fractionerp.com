@@ -3,7 +3,7 @@ layout: post
 title: "Production scheduling software - the key to productivity"
 date: 2025-03-31 06:42:27 +0000
 description: "If you don't know why having a production scheduling software solution is important for your factory, read this post."
-category: general
+category: production-scheduling
 author: Giles Johnston
 permalink: /blog/production-scheduling-software-the-key-to-productivity/
 ---

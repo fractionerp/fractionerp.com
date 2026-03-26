@@ -3,7 +3,7 @@ layout: post
 title: "Shop floor tracking on your smartphone"
 date: 2021-08-19 06:57:30 +0000
 description: "Fraction ERP works great from a smartphone, laptop, tablet or PC!"
-category: general
+category: shop-floor
 author: Giles Johnston
 permalink: /blog/shop-floor-tracking-on-your-mobile-phone/
 ---

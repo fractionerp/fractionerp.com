@@ -3,7 +3,7 @@ layout: post
 title: "Shop Floor Tracking Tools"
 date: 2021-02-06 14:58:13 +0000
 description: "Discover how our shop floor and production tracking tools work."
-category: erp
+category: shop-floor
 author: Giles Johnston
 permalink: /blog/shop-floor-tracking-tools/
 ---

@@ -3,7 +3,7 @@ layout: post
 title: "Speed up your purchasing team with our RFQ process!"
 date: 2025-08-16 17:36:19 +0000
 description: "Use Fraction ERP's RFQ process to speed up  your purchasing team."
-category: general
+category: purchasing
 author: Giles Johnston
 permalink: /blog/speed-up-your-purchasing-team-with-our-rfq-process/
 ---

@@ -3,7 +3,7 @@ layout: post
 title: "Fraction ERP - purchase order inventory management system"
 date: 2025-06-09 19:40:51 +0000
 description: "Learn how Fraction ERP handles purchasing, inventory and helping you to simplify your manufacturing administration."
-category: general
+category: purchasing
 author: Giles Johnston
 permalink: /blog/fraction-erp-purchase-order-inventory-management-system/
 ---

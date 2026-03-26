@@ -3,7 +3,7 @@ layout: post
 title: "Production Scheduling Improvements"
 date: 2025-08-30 13:32:19 +0000
 description: "Learn about two of our recent improvement to our production scheduling system"
-category: product-updates
+category: production-scheduling
 author: Giles Johnston
 permalink: /blog/production-scheduling-improvements/
 ---

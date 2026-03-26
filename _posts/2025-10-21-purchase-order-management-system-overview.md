@@ -3,7 +3,7 @@ layout: post
 title: "Purchase Order Management System Overview"
 date: 2025-10-21 18:42:36 +0000
 description: "Fraction ERP is a purchase order management system; discover more here."
-category: general
+category: purchasing
 author: Giles Johnston
 permalink: /blog/purchase-order-management-system-overview/
 ---

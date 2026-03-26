@@ -3,7 +3,7 @@ layout: post
 title: "How forward scheduling works in Fraction ERP"
 date: 2023-05-23 11:25:52 +0000
 description: "Learn about ERP scheduling approaches and how we designed Fraction ERP to provide you with a simple, but effective, scheduling tool."
-category: general
+category: production-scheduling
 author: Giles Johnston
 permalink: /blog/how-forward-scheduling-works-in-fraction-erp/
 ---

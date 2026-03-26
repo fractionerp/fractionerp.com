@@ -3,7 +3,7 @@ layout: post
 title: "Shop Floor Data Collection - why you need it"
 date: 2024-01-16 19:49:49 +0000
 description: "Find out our top four reasons for using shop floor data collection (SFDC)."
-category: general
+category: shop-floor
 author: Giles Johnston
 permalink: /blog/shop-floor-data-collection-why-you-need-it/
 ---

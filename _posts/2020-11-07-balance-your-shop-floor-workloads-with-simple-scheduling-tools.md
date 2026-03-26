@@ -3,7 +3,7 @@ layout: post
 title: "Balance your shop floor workloads with simple scheduling tools"
 date: 2020-11-07 10:27:45 +0000
 description: "Discover the capacity scheduling tools we have in Fraction ERP."
-category: management
+category: production-scheduling
 author: Giles Johnston
 permalink: /blog/balance-your-shop-floor-workloads-with-simple-scheduling-tools/
 ---

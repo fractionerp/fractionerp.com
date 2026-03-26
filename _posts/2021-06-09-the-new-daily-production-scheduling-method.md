@@ -3,7 +3,7 @@ layout: post
 title: "The new daily production scheduling method"
 date: 2021-06-09 09:24:56 +0000
 description: "Find out how our daily scheduling tool works."
-category: erp
+category: production-scheduling
 author: Giles Johnston
 permalink: /blog/the-new-daily-production-scheduling-method/
 ---

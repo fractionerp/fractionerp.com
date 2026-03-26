@@ -3,7 +3,7 @@ layout: post
 title: "Simplified purchasing"
 date: 2021-03-08 10:22:45 +0000
 description: "Learn more about our simple approach to effective purchasing within ERP."
-category: erp
+category: purchasing
 author: Giles Johnston
 permalink: /blog/simplified-purchasing/
 ---

@@ -3,7 +3,7 @@ layout: post
 title: "SFDC is easy with Fraction ERP!"
 date: 2022-08-25 19:09:19 +0000
 description: "We've added a new feature to create shop floor work to lists even faster."
-category: general
+category: shop-floor
 author: Giles Johnston
 permalink: /blog/sfdc-is-easy-with-fraction-erp/
 ---

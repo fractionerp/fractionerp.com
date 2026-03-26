@@ -3,7 +3,7 @@ layout: post
 title: "Streamline Your Purchasing: How Fraction ERP Saves Your Manufacturing Business Hours"
 date: 2025-12-16 10:00:00 +0000
 description: "Discover how Fraction ERP's purchasing features save manufacturing businesses hours through automated RFQs, bulk MRP ordering, consolidated purchase orders, and direct email integration."
-category: general
+category: purchasing
 author: Giles Johnston
 permalink: /blog/streamline-your-purchasing-how-fraction-erp-saves-your-manufacturing-business-hours/
 ---
