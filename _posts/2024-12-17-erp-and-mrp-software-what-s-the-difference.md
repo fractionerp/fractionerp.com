@@ -6,6 +6,11 @@ description: "Confused about the terms ERP and MRP software? This article explai
 category: general
 author: Giles Johnston
 permalink: /blog/erp-and-mrp-software-what-s-the-difference/
+related_posts_list:
+  - /blog/erp-system-meaning/
+  - /blog/what-is-erp-mrp-software/
+  - /blog/mrp-software-for-small-business/
+  - /blog/how-to-choose-erp-software-for-your-business-without-the-pain/
 ---
 
 When people talk about MRP and ERP software they often use the terms interchangeably.
@@ -27,7 +32,7 @@ But, for those of you that are curious on the differences here is a quick explai
 
 
 
-The original part of the system (circa 1975), MRP stands for Material Requirements Planning.
+The original part of the system (circa 1975), [MRP stands for Material Requirements Planning](/what-is-mrp/).
 
 
 This 'engine' is concerned with Bills of Materials, routings, works orders, purchasing, stock control and work to lists.
@@ -64,7 +69,7 @@ A lot of businesses will work with a separate MRPII (also known as MRP 2) system
 
 
 
-Enterprise Resource Planning (ERP) appeared as a term around 1990. This is a reference to all the above, and more, being organised into one integrated system.
+[Enterprise Resource Planning (ERP)](/blog/erp-system-meaning/) appeared as a term around 1990. This is a reference to all the above, and more, being organised into one integrated system.
 
 
 The order processing and capacity planning tools are extended to include functions such as customer relationship management (CRM), enquiries, sales orders, supply chain integration, invoicing, spares, asset management etc...
@@ -99,7 +104,7 @@ In more recent times (last ten years), it seems that many more industry specific
 Our cloud ERP system is what we'd like to think of as a [**traditional manufacturing ERP system**](https://fractionerp.com/index). It covers the range of functions listed above (enquiries, sales orders, works orders, purchasing, scheduling, capacity planning, shop floor data capture, shipping and invoicing).
 
 
-We don't have an accounts function but we do integrate with cloud options (currently Sage, Xero and Quickbooks). You can find out more about our functions on our [**features pages**](https://fractionerp.com/features).
+We don't have an accounts function but we do integrate with cloud options (currently Sage, Xero and Quickbooks). You can find out more about our functions on our [**features pages**](https://fractionerp.com/features). See how [Fraction ERP compares to MRPeasy](/mrpeasy-alternative/) and other manufacturing software options.
 
 
 
@@ -112,7 +117,7 @@ We don't have an accounts function but we do integrate with cloud options (curre
 
 
 
-We also know how hard it can be to select an ERP system that is right for you. And, if you have been wrestling with the differences between ERP and MRP software, then you might be even more confused as to what you need.
+We also know how hard it can be to select an ERP system that is right for you. You can [compare ERP systems](/compare-erp/) to help narrow down your options. And, if you have been wrestling with the differences between ERP and MRP software, then you might be even more confused as to what you need.
 
 
 We offer a [**free two week trial account**](https://fractionerp.com/erp-online-demo), so you can properly evaluate Fraction ERP. There's nothing better than getting your hands on the software and trying it out. Having your team run a few orders through our system is the perfect way to find out if Fraction ERP will do what you need.

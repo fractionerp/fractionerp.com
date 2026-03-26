@@ -65,56 +65,103 @@ layout: default
             </footer>
           </article>
 
-          <!-- Related Pages -->
+          <!-- Three-column footer boxes -->
           <div style="margin-top: 40px;">
-            <h4 style="font-family: 'Jost', sans-serif; font-weight: 600; color: #37517e; font-size: 18px; margin-bottom: 20px;">Explore Fraction ERP</h4>
-            <div class="row g-3">
-              <div class="col-md-4">
-                <a href="{{ '/mrp-software/' | relative_url }}" style="text-decoration: none;">
-                  <div style="background: #f8f9fa; border-radius: 10px; padding: 18px; transition: transform 0.3s;" onmouseover="this.style.transform='translateY(-3px)'" onmouseout="this.style.transform='none'">
-                    <i class="bi bi-diagram-3" style="font-size: 20px; color: #47b2e4; display: block; margin-bottom: 8px;"></i>
-                    <span style="font-family: 'Jost', sans-serif; font-weight: 600; color: #37517e; font-size: 14px;">Manufacturing ERP</span>
-                  </div>
-                </a>
-              </div>
-              <div class="col-md-4">
-                <a href="{{ '/production-scheduling-software/' | relative_url }}" style="text-decoration: none;">
-                  <div style="background: #f8f9fa; border-radius: 10px; padding: 18px; transition: transform 0.3s;" onmouseover="this.style.transform='translateY(-3px)'" onmouseout="this.style.transform='none'">
-                    <i class="bi bi-calendar3" style="font-size: 20px; color: #4caf50; display: block; margin-bottom: 8px;"></i>
-                    <span style="font-family: 'Jost', sans-serif; font-weight: 600; color: #37517e; font-size: 14px;">Production Scheduling</span>
-                  </div>
-                </a>
-              </div>
-              <div class="col-md-4">
-                <a href="{{ '/replace-excel-manufacturing/' | relative_url }}" style="text-decoration: none;">
-                  <div style="background: #f8f9fa; border-radius: 10px; padding: 18px; transition: transform 0.3s;" onmouseover="this.style.transform='translateY(-3px)'" onmouseout="this.style.transform='none'">
-                    <i class="bi bi-file-earmark-x" style="font-size: 20px; color: #e84d8a; display: block; margin-bottom: 8px;"></i>
-                    <span style="font-family: 'Jost', sans-serif; font-weight: 600; color: #37517e; font-size: 14px;">Replace Excel</span>
-                  </div>
-                </a>
-              </div>
-            </div>
-          </div>
+            <div class="row g-4">
 
-          <!-- Related Posts -->
-          {% assign related = site.posts | where: "category", page.category | where_exp: "p", "p.url != page.url" | limit: 3 %}
-          {% if related.size > 0 %}
-          <div style="margin-top: 40px;">
-            <h4 style="font-family: 'Jost', sans-serif; font-weight: 600; color: #37517e; font-size: 18px; margin-bottom: 20px;">Related Articles</h4>
-            <div class="row g-3">
-              {% for post in related %}
+              <!-- Box 1: Compare -->
+              {% unless page.category == 'product-updates' or page.category == 'tour' %}
               <div class="col-md-4">
-                <a href="{{ post.url | relative_url }}" style="text-decoration: none;">
-                  <div style="background: #fff; border-radius: 10px; padding: 18px; border: 1px solid #e0e0e0; height: 100%; transition: transform 0.3s;" onmouseover="this.style.transform='translateY(-3px)'" onmouseout="this.style.transform='none'">
-                    <h6 style="font-family: 'Jost', sans-serif; font-weight: 600; color: #37517e; font-size: 14px; line-height: 1.4; margin-bottom: 8px;">{{ post.title | truncate: 60 }}</h6>
-                    <span style="font-size: 12px; color: #888;">{{ post.date | date: "%B %d, %Y" }}</span>
-                  </div>
-                </a>
+                <div style="background: #fff; border: 1px solid #c0c8d4; border-radius: 12px; padding: 24px; height: 100%; box-shadow: 0 4px 15px rgba(0,0,0,0.08);">
+                  <h4 style="font-family: 'Jost', sans-serif; font-weight: 600; color: #37517e; font-size: 16px; margin-bottom: 16px; padding-bottom: 12px; border-bottom: 2px solid #47b2e4;">Compare ERP Systems</h4>
+                  <ul style="list-style: none; padding: 0; margin: 0;">
+                    <li style="padding: 8px 0; border-bottom: 1px solid #f0f0f0;">
+                      <a href="{{ '/mrpeasy-alternative/' | relative_url }}" style="text-decoration: none; color: #37517e; font-size: 14px; display: flex; align-items: center; gap: 8px;">
+                        <i class="bi bi-arrow-right" style="color: #47b2e4; flex-shrink: 0;"></i> Fraction vs MRPeasy
+                      </a>
+                    </li>
+                    <li style="padding: 8px 0; border-bottom: 1px solid #f0f0f0;">
+                      <a href="{{ '/emax-alternative/' | relative_url }}" style="text-decoration: none; color: #37517e; font-size: 14px; display: flex; align-items: center; gap: 8px;">
+                        <i class="bi bi-arrow-right" style="color: #47b2e4; flex-shrink: 0;"></i> Fraction vs EMAX
+                      </a>
+                    </li>
+                    <li style="padding: 8px 0;">
+                      <a href="{{ '/compare-erp/' | relative_url }}" style="text-decoration: none; color: #37517e; font-size: 14px; display: flex; align-items: center; gap: 8px;">
+                        <i class="bi bi-arrow-right" style="color: #47b2e4; flex-shrink: 0;"></i> Compare All Systems
+                      </a>
+                    </li>
+                  </ul>
+                </div>
               </div>
-              {% endfor %}
+              {% endunless %}
+
+              <!-- Box 2: Explore -->
+              <div class="col-md-4">
+                <div style="background: #fff; border: 1px solid #c0c8d4; border-radius: 12px; padding: 24px; height: 100%; box-shadow: 0 4px 15px rgba(0,0,0,0.08);">
+                  <h4 style="font-family: 'Jost', sans-serif; font-weight: 600; color: #37517e; font-size: 16px; margin-bottom: 16px; padding-bottom: 12px; border-bottom: 2px solid #4caf50;">Explore Fraction ERP</h4>
+                  <ul style="list-style: none; padding: 0; margin: 0;">
+                    <li style="padding: 8px 0; border-bottom: 1px solid #f0f0f0;">
+                      <a href="{{ '/mrp-software/' | relative_url }}" style="text-decoration: none; color: #37517e; font-size: 14px; display: flex; align-items: center; gap: 8px;">
+                        <i class="bi bi-arrow-right" style="color: #4caf50; flex-shrink: 0;"></i> Manufacturing ERP
+                      </a>
+                    </li>
+                    <li style="padding: 8px 0; border-bottom: 1px solid #f0f0f0;">
+                      <a href="{{ '/production-scheduling-software/' | relative_url }}" style="text-decoration: none; color: #37517e; font-size: 14px; display: flex; align-items: center; gap: 8px;">
+                        <i class="bi bi-arrow-right" style="color: #4caf50; flex-shrink: 0;"></i> Production Scheduling
+                      </a>
+                    </li>
+                    <li style="padding: 8px 0; border-bottom: 1px solid #f0f0f0;">
+                      <a href="{{ '/shopfloor-data-capture-software/' | relative_url }}" style="text-decoration: none; color: #37517e; font-size: 14px; display: flex; align-items: center; gap: 8px;">
+                        <i class="bi bi-arrow-right" style="color: #4caf50; flex-shrink: 0;"></i> Shop Floor Data Capture
+                      </a>
+                    </li>
+                    <li style="padding: 8px 0;">
+                      <a href="{{ '/blog/erp-system-meaning/' | relative_url }}" style="text-decoration: none; color: #37517e; font-size: 14px; display: flex; align-items: center; gap: 8px;">
+                        <i class="bi bi-arrow-right" style="color: #4caf50; flex-shrink: 0;"></i> What is ERP?
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+              <!-- Box 3: Related Articles -->
+              {% assign excluded_cats = "product-updates,tour" | split: "," %}
+              {% unless excluded_cats contains page.category %}
+              <div class="col-md-4">
+                <div style="background: #fff; border: 1px solid #c0c8d4; border-radius: 12px; padding: 24px; height: 100%; box-shadow: 0 4px 15px rgba(0,0,0,0.08);">
+                  <h4 style="font-family: 'Jost', sans-serif; font-weight: 600; color: #37517e; font-size: 16px; margin-bottom: 16px; padding-bottom: 12px; border-bottom: 2px solid #e84d8a;">Related Articles</h4>
+                  <ul style="list-style: none; padding: 0; margin: 0;">
+                    {% if page.related_posts_list %}
+                      {% for rel_url in page.related_posts_list %}
+                        {% assign found_post = site.posts | where: "url", rel_url | first %}
+                        {% unless found_post %}
+                          {% assign found_post = site.pages | where: "url", rel_url | first %}
+                        {% endunless %}
+                        {% if found_post %}
+                        <li style="padding: 8px 0;{% unless forloop.last %} border-bottom: 1px solid #f0f0f0;{% endunless %}">
+                          <a href="{{ found_post.url | relative_url }}" style="text-decoration: none; color: #37517e; font-size: 14px; display: flex; align-items: center; gap: 8px;">
+                            <i class="bi bi-arrow-right" style="color: #e84d8a; flex-shrink: 0;"></i> {{ found_post.title | truncate: 45 }}
+                          </a>
+                        </li>
+                        {% endif %}
+                      {% endfor %}
+                    {% else %}
+                      {% assign related = site.posts | where: "category", page.category | where_exp: "p", "p.url != page.url" | limit: 4 %}
+                      {% for post in related %}
+                      <li style="padding: 8px 0;{% unless forloop.last %} border-bottom: 1px solid #f0f0f0;{% endunless %}">
+                        <a href="{{ post.url | relative_url }}" style="text-decoration: none; color: #37517e; font-size: 14px; display: flex; align-items: center; gap: 8px;">
+                          <i class="bi bi-arrow-right" style="color: #e84d8a; flex-shrink: 0;"></i> {{ post.title | truncate: 45 }}
+                        </a>
+                      </li>
+                      {% endfor %}
+                    {% endif %}
+                  </ul>
+                </div>
+              </div>
+              {% endunless %}
+
             </div>
           </div>
-          {% endif %}
 
         </div>
       </div>

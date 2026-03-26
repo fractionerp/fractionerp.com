@@ -6,6 +6,10 @@ description: "We've got a new overview video. Find out what has happened with Fr
 category: general
 author: Giles Johnston
 permalink: /blog/cloud-erp-system-overview/
+related_posts_list:
+  - /blog/erp-demo-getting-the-most-from-your-time/
+  - /blog/the-best-way-to-evaluate-an-erp-system/
+  - /blog/how-to-choose-erp-software-for-your-business-without-the-pain/
 ---
 
 The overview video for our [**cloud ERP system**](https://fractionerp.com/features) has been updated, which you can see below.

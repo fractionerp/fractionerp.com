@@ -6,9 +6,14 @@ description: "If you don't know why having a production scheduling software solu
 category: production-scheduling
 author: Giles Johnston
 permalink: /blog/production-scheduling-software-the-key-to-productivity/
+related_posts_list:
+  - /blog/simple-production-scheduling-software/
+  - /blog/erp-scheduling-software/
+  - /blog/production-planning-software-tips-and-tricks/
+  - /blog/the-benefits-of-manufacturing-scheduling-software/
 ---
 
-This key part of an ERP system can unlock a whole raft of improvements for a business. Production scheduling software is an integral part of an ERP system, ensuring that your operations are sequenced and timed for optimal productivity.
+This key part of an ERP system can unlock a whole raft of improvements for a business. [Production scheduling software](/production-scheduling-software/) is an integral part of an ERP system, ensuring that your operations are sequenced and timed for optimal productivity.
 
 
 
@@ -41,10 +46,10 @@ When your production scheduling system works, you can:
 
 
 
-We've created a simple drag and drop [**production scheduling tool**](https://fractionerp.com/production-scheduling) that is available on our [**entry level subscription level**](https://fractionerp.com/pricing).
+We've created a [simple drag and drop production scheduling tool](/blog/simple-production-scheduling-software/) that is available on our [**entry level subscription level**](https://fractionerp.com/pricing).
 
 
-As soon as you generate a works order, Fraction ERP automatically schedules the operations for the next available date. With the visual drag and drop scheduler you can fine tune the operation start dates.
+As soon as you generate a works order, Fraction ERP automatically schedules the operations for the next available date. With the visual drag and drop scheduler you can fine tune the operation start dates. See how [Fraction ERP's scheduling compares to MRPeasy](/mrpeasy-alternative/).
 
 
 ---
@@ -89,4 +94,4 @@ Check out this quick overview video, or get in touch to organise a [**free onlin
 We offer a [**free two week trial**](https://fractionerp.com/erp-online-demo) of Fraction ERP, to help you properly evaluate our ERP system. This gives your team a chance to put some test orders through our system and see if it can really do what you need an ERP system to do.
 
 
-In the meantime, if you are wondering if production scheduling software can make a difference to your manufacturing business, the short answer is yes!
+In the meantime, if you are wondering if production scheduling software can make a difference to your manufacturing business, the short answer is yes! If you're evaluating your options, [compare ERP systems](/compare-erp/) to find the right fit for your factory.

@@ -6,6 +6,11 @@ description: "If you are put off a new ERP system because of the selection and e
 category: general
 author: Giles Johnston
 permalink: /blog/how-to-choose-erp-software-for-your-business-without-the-pain/
+related_posts_list:
+  - /blog/the-best-way-to-evaluate-an-erp-system/
+  - /blog/erp-demo-how-it-works/
+  - /blog/is-it-hard-to-implement-an-erp-system/
+  - /blog/erp-system-meaning/
 ---
 
 The mere thought of selecting software, any software, can put most of us off.
@@ -45,7 +50,7 @@ The first step I am proposing is to brainstorm a list of your needs and wants. D
 Draw up a list of features and functions and then determine which items are things you really need and which ones would be 'cool if it happened'.
 
 
-The core of most ERP systems are the same. As software develops there are usually new features built and this will differentiate the systems. There could be some features that you must have. You need to be clear what the deal breakers are.
+The core of most [ERP systems]({{ site.baseurl }}/blog/erp-system-meaning/) are the same. As software develops there are usually new features built and this will differentiate the systems. There could be some features that you must have. You need to be clear what the deal breakers are.
 
 
 ---
@@ -69,7 +74,7 @@ The core of most ERP systems are the same. As software develops there are usuall
 You will most likely have a list already. This could be suggestions from businesses you know, or systems you have been made aware of via the Internet or sales calls. If you don't have a list, ask your co-workers, carry out a quick web search or check out a comparison site like [**Capterra**](https://www.capterra.co.uk/software/210069/fraction-erp).
 
 
-Draw up your list, probably with 10 to 20 options.
+Draw up your list, probably with 10 to 20 options. You can also [compare ERP systems]({{ site.baseurl }}/compare-erp/) side by side to speed up your research.
 
 
 ---
@@ -86,7 +91,7 @@ Now we need to sort the wheat from the chaff.
 Using your list of 'deal breakers', needs and wants to mark which options look like real possibilities.
 
 
-This can be as simple as pass / fail. You want to get down to 3 to 5 options at the end. If you are struggling to get down to this level, you can weight some of the critical features if you need to come up with a basic ranking.
+This can be as simple as pass / fail. You want to get down to 3 to 5 options at the end. If you are evaluating specific tools, we've put together pages comparing Fraction ERP with options like [MRPeasy]({{ site.baseurl }}/mrpeasy-alternative/) and [E-Max]({{ site.baseurl }}/emax-alternative/) to help you decide. If you are struggling to get down to this level, you can weight some of the critical features if you need to come up with a basic ranking.
 
 
 ---
@@ -100,7 +105,7 @@ This can be as simple as pass / fail. You want to get down to 3 to 5 options at 
 The next step is to have a proper look at your shortlisted options.
 
 
-Getting your hands on the software and having a play with it is usually better than just a video demo and presentation.
+Getting your hands on the software and having a play with it is usually better than just a video demo and presentation. If Fraction ERP is on your shortlist, you can [book a demo]({{ site.baseurl }}/book-a-demo/) to try it out for yourself.
 
 
 Get to grips with each piece of software and get an idea for how well the software would work for you. Ideally, process a handful of orders from start to finish through the software. Try some 'weird and wonderful' orders to make sure it can handle your requirements!

@@ -6,6 +6,11 @@ description: "Find out our top four reasons for using shop floor data collection
 category: shop-floor
 author: Giles Johnston
 permalink: /blog/shop-floor-data-collection-why-you-need-it/
+related_posts_list:
+  - /blog/shop-floor-tracking/
+  - /blog/shop-floor-data-collection-five-great-uses/
+  - /blog/shop-floor-visual-management/
+  - /blog/production-scheduling-software-the-key-to-productivity/
 ---
 
 Shop Floor Data Collection (SFDC) is a superb ERP feature that can make your life so much easier as a production manager or business owner.

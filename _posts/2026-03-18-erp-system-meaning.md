@@ -6,6 +6,11 @@ description: "What does ERP system mean? Learn what an ERP system actually does,
 category: general
 author: Giles Johnston
 permalink: /blog/erp-system-meaning/
+related_posts_list:
+  - /blog/how-an-erp-system-works/
+  - /blog/erp-system-benefits/
+  - /blog/erp-and-mrp-software-what-s-the-difference/
+  - /blog/how-to-choose-erp-software-for-your-business-without-the-pain/
 ---
 
 If you have searched for ERP system meaning, you are probably not looking for a textbook definition. You want to know what an ERP system actually does, why businesses use one, and whether it could help solve the day-to-day problems that slow your company down.
@@ -52,7 +57,7 @@ When these problems keep appearing, businesses often start exploring ERP as a wa
 
 ## What does an ERP system actually do?
 
-An ERP system helps you manage the flow of information across your business. For example, when a customer places an order, that information can move through sales, planning, purchasing, production, dispatch, and invoicing without needing to be re-entered multiple times.
+An ERP system helps you manage the flow of information across your business. If you want a deeper look at the mechanics, read more about [how an ERP system works](/blog/how-an-erp-system-works/). For example, when a customer places an order, that information can move through sales, planning, purchasing, production, dispatch, and invoicing without needing to be re-entered multiple times.
 
 That means:
 
@@ -75,7 +80,7 @@ In manufacturing, the meaning of an ERP system goes beyond administration. It be
 A manufacturing ERP system can help with:
 
 - Production planning
-- Material requirements
+- Material requirements (often called [MRP - Material Requirements Planning](/blog/erp-and-mrp-software-what-s-the-difference/))
 - Job tracking
 - Inventory control
 - Cost visibility
@@ -114,7 +119,7 @@ A well-implemented ERP system can help you:
 - Strengthen control over operations
 - Support business growth without adding unnecessary complexity
 
-For many businesses, ERP becomes the backbone of better decision-making.
+There is more detail on the [benefits of an ERP system](/blog/erp-system-benefits/) if you want to explore this further. For many businesses, ERP becomes the backbone of better decision-making.
 
 ---
 
@@ -124,7 +129,7 @@ Fraction ERP is designed to help businesses move away from disconnected systems 
 
 If you are trying to understand ERP system meaning, the simplest answer is this: it is a system that helps your business run in a more joined-up, organised, and efficient way.
 
-And if your current way of working relies on too many spreadsheets, too much chasing, and too little visibility, it may be time to look at what a modern ERP solution can do.
+And if your current way of working relies on too many spreadsheets, too much chasing, and too little visibility, it may be time to look at what a modern ERP solution can do. You can [compare ERP systems](/compare-erp/) to find the right fit for your business.
 
 ---
 
