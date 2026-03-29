@@ -50,6 +50,7 @@ plans:
       - Task Management
       - Subcontract Management
       - NCR Analytics
+      - Production KPIs
       - Calibration Log
       - Serial Traceability
 
@@ -83,6 +84,7 @@ plans:
       - Task Management
       - Subcontract Management
       - NCR Analytics
+      - Production KPIs
       - Calibration Log
       - Serial Traceability
       - Batch Traceability
@@ -125,6 +127,7 @@ plans:
       - Task Management
       - Subcontract Management
       - NCR Analytics
+      - Production KPIs
       - Calibration Log
       - Serial Traceability
       - Batch Traceability
