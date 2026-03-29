@@ -93,6 +93,7 @@ plans:
       - Inspection Reports*
       - Contract Review*
       - API Integration
+      - CRM
 
   - name: Moulding
     price: POE
@@ -134,7 +135,8 @@ plans:
       - Inspection Reports*
       - Contract Review*
       - API Integration
-      - Intouch API*
+      - CRM
+      - Intouch API
     note: "Specifically tailored for plastic injection moulding industry. Please visit www.mouldersconsulting.co.uk"
 
 subscription_includes:
