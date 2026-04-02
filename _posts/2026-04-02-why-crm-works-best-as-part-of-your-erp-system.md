@@ -8,6 +8,8 @@ author: Fraction ERP
 permalink: /blog/why-crm-works-best-as-part-of-your-erp-system/
 ---
 
+![CRM integrated with ERP system](/assets/img/blog-crm-erp.webp)
+
 For many businesses, CRM and ERP are treated as two separate systems.
 
 The CRM holds customer conversations, quotes and sales activity. The ERP manages orders, stock, purchasing, production and delivery. On paper, that split can seem sensible. In practice, it often creates gaps.
