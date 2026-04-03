@@ -1,5 +1,7 @@
 plans:
   - name: Core
+    tagline: Run your business with a complete ERP system
+    description: Everything you need to manage inventory, orders, and production in one place.
     price: 37
     currency: "£"
     period: per user/month
@@ -21,9 +23,12 @@ plans:
       - Drag and Drop Production Scheduling
 
   - name: Advanced
+    tagline: Take control of planning, operations and quality
+    description: Add production planning, scheduling, and real-time operational visibility.
     price: 52
     currency: "£"
     period: per user/month
+    popular: true
     features:
       - Sales Order Management
       - Bill of Materials
@@ -55,6 +60,8 @@ plans:
       - Serial Traceability
 
   - name: Pro
+    tagline: Drive performance and efficiency at scale with advanced tools
+    description: Advanced tools to optimise performance, improve accuracy, and scale operations.
     price: 75
     currency: "£"
     period: per user/month
@@ -97,50 +104,20 @@ plans:
       - API Integration
       - CRM
 
-  - name: Moulding
-    price: POE
-    currency: "£"
-    period: per user/month
+  - name: Moulding Edition
+    tagline: Built for plastic injection moulding manufacturers
+    description: A specialised solution designed for injection moulding operations.
+    price: custom
     features:
-      - Sales Order Management
-      - Bill of Materials
-      - Parts
-      - Works Orders
-      - MRP Demand
-      - Purchasing
-      - Inventory Management
-      - Non Conformance Reports
-      - Unlimited Shop Floor Data Capture
-      - Shipping
-      - Invoicing
-      - Dashboard
-      - Reports
-      - Automatic Production Scheduling
-      - Drag and Drop Production Scheduling
-      - Group Workcentres
-      - Master Production Schedule
-      - Cert. of Conformance
-      - Key Performance Indicators (KPIs)
-      - Multi-currency
-      - Commercial Invoices
-      - BOM Tooling and Jigs
-      - Task Management
-      - Subcontract Management
-      - NCR Analytics
-      - Production KPIs
-      - Calibration Log
-      - Serial Traceability
-      - Batch Traceability
-      - Multi-location Stock
-      - Standard Operating Procedures*
-      - After market service*
-      - RFQ's for purchasing
-      - Inspection Reports*
-      - Contract Review*
-      - API Integration
-      - CRM
-      - Intouch API
-    note: "Specifically tailored for plastic injection moulding industry. Please visit www.mouldersconsulting.co.uk"
+      - Mould & tool management
+      - BOMs defined by material content
+      - Demand calculated with scrap rates
+      - Industry-specific packaging & labelling
+      - Cavity and cycle tracking
+      - Production run visibility
+      - InTouch monitoring integration
+    positioning: Includes all Advanced capabilities, with additional tooling, process, and production features tailored to injection moulding.
+    industry: true
 
 subscription_includes:
   - Unlimited, free SFDC users

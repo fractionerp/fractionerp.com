@@ -1,77 +1,194 @@
 ---
 layout: page
-title: Pricing Plans for Fraction ERP
-description: Pricing plans for Fraction ERP cloud hosted software for small business.
-keywords: "ERP, MRP, Cloud ERP, manufacturing ERP, ERP for small business, small business MRP systems"
+title: "Pricing Plans | Fraction ERP"
+description: "Simple, scalable pricing for modern manufacturers. Start with a complete ERP system, then expand as you grow."
+keywords: "ERP pricing, manufacturing ERP cost, MRP software pricing, cloud ERP pricing, ERP for small business"
 ---
 
-<!-- ======= Pricing Section ======= -->
-<section id="pricing" class="pricing section-bg">
+<section class="inner-page" style="background: #37517e;">
+  <section id="pricing-hero" class="pricing" style="background: #37517e; padding: 30px 0 40px;">
+    <div class="container" data-aos="fade-up">
+      <div class="section-title" style="padding-bottom: 15px;">
+        <h1 style="color: #fff; font-size: 32px;">Simple, Scalable Pricing for Modern Manufacturers</h1>
+        <p style="font-size: 17px; color: rgba(255,255,255,0.8); max-width: 700px; margin: 0 auto;">
+          Start with a complete ERP system, then expand your control, performance, and industry capability as you grow.
+        </p>
+      </div>
+    </div>
+  </section>
+</section>
+
+<!-- ======= Pricing Cards ======= -->
+<section id="pricing" style="padding: 40px 0 50px; background: #f8f9fa;">
+  <div class="container" data-aos="fade-up">
+
+    <div class="row g-4 justify-content-center align-items-stretch">
+
+      {% for plan in site.data.pricing.plans %}
+      <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="{{ forloop.index | times: 100 }}">
+        <div style="background: #fff; border-radius: 16px; padding: 0; height: 100%; border: {% if plan.popular %}2px solid #47b2e4{% elsif plan.industry %}1px solid #c0c8d4{% else %}1px solid #c0c8d4{% endif %}; box-shadow: {% if plan.popular %}0 12px 40px rgba(71,178,228,0.2){% else %}0 4px 15px rgba(0,0,0,0.06){% endif %}; position: relative; display: flex; flex-direction: column; overflow: hidden;">
+
+          <!-- Top Banner -->
+          {% if plan.popular %}
+          <div style="background: #47b2e4; color: #fff; text-align: center; padding: 8px; font-family: 'Jost', sans-serif; font-weight: 600; font-size: 13px; text-transform: uppercase; letter-spacing: 1px;">Most Popular</div>
+          {% elsif plan.industry %}
+          <div style="background: #f8f9fa; color: #37517e; text-align: center; padding: 8px; font-family: 'Jost', sans-serif; font-weight: 600; font-size: 13px; text-transform: uppercase; letter-spacing: 1px; border-bottom: 1px solid #e0e0e0;">Industry Solution</div>
+          {% else %}
+          <div style="padding: 8px; font-size: 13px;">&nbsp;</div>
+          {% endif %}
+
+          <!-- Top section (fixed height) -->
+          <div style="padding: 24px 24px 0; height: 200px; display: flex; flex-direction: column;">
+            <h3 style="font-family: 'Jost', sans-serif; font-weight: 700; color: #37517e; font-size: 24px; margin-bottom: 4px;">{{ plan.name }}</h3>
+
+            {% if plan.tagline %}
+            <p style="font-size: 13px; color: #47b2e4; font-weight: 500; margin-bottom: 12px;">{{ plan.tagline }}</p>
+            {% endif %}
+
+            {% if plan.price == 'custom' %}
+            <div style="margin-bottom: 12px;">
+              <span style="font-family: 'Jost', sans-serif; font-size: 24px; font-weight: 700; color: #37517e;">Custom pricing</span>
+            </div>
+            {% else %}
+            <div style="margin-bottom: 12px;">
+              <span style="font-family: 'Jost', sans-serif; font-size: 16px; color: #888; vertical-align: top;">{{ plan.currency }}</span>
+              <span style="font-family: 'Jost', sans-serif; font-size: 42px; font-weight: 700; color: #37517e; line-height: 1;">{{ plan.price }}</span>
+              <span style="font-size: 14px; color: #888;">{{ plan.period }}</span>
+            </div>
+            {% endif %}
+
+            {% if plan.description %}
+            <p style="font-size: 13px; color: #555; margin: 0; line-height: 1.5;">{{ plan.description }}</p>
+            {% endif %}
+          </div>
+
+          <!-- Features section -->
+          <div style="padding: 0 24px 28px; flex-grow: 1; display: flex; flex-direction: column; border-top: 1px solid #f0f0f0;">
+          <ul style="list-style: none; padding: 0; margin: 16px 0 20px; flex-grow: 1;">
+            {% for feature in plan.features %}
+            <li style="padding: 5px 0; font-size: 14px; color: #444; display: flex; align-items: flex-start; gap: 8px;">
+              <i class="bi bi-check-circle-fill" style="color: {% if plan.popular %}#47b2e4{% else %}#4caf50{% endif %}; flex-shrink: 0; margin-top: 2px;"></i>
+              <span>{{ feature }}</span>
+            </li>
+            {% endfor %}
+          </ul>
+
+          {% if plan.positioning %}
+          <p style="font-size: 13px; color: #888; margin-bottom: 20px; padding-top: 15px; border-top: 1px solid #e8e8e8; line-height: 1.5;">{{ plan.positioning }}</p>
+          {% endif %}
+
+          <!-- CTA -->
+          {% if plan.industry %}
+          <div style="margin-top: auto;">
+            <a href="{{ '/book-a-demo/' | relative_url }}" style="display: block; text-align: center; padding: 12px; background: #37517e; color: #fff; border-radius: 50px; font-family: 'Jost', sans-serif; font-weight: 600; font-size: 15px; text-decoration: none; transition: background 0.3s; margin-bottom: 8px;"
+               onmouseover="this.style.background='#2a4066'"
+               onmouseout="this.style.background='#37517e'">Book a Demo</a>
+          </div>
+          {% else %}
+          <div style="margin-top: auto;">
+            <a href="{{ '/book-a-demo/' | relative_url }}" style="display: block; text-align: center; padding: 12px; background: {% if plan.popular %}#47b2e4{% else %}#37517e{% endif %}; color: #fff; border-radius: 50px; font-family: 'Jost', sans-serif; font-weight: 600; font-size: 15px; text-decoration: none; transition: background 0.3s;"
+               onmouseover="this.style.background='{% if plan.popular %}#3a9fd1{% else %}#2a4066{% endif %}'"
+               onmouseout="this.style.background='{% if plan.popular %}#47b2e4{% else %}#37517e{% endif %}'">Get Started</a>
+          </div>
+          {% endif %}
+          </div><!-- end features section -->
+        </div><!-- end card -->
+      </div>
+      {% endfor %}
+
+    </div>
+
+    <!-- Notes -->
+    <div class="text-center mt-4" style="font-size: 13px; color: #888;">
+      * Coming soon &nbsp;|&nbsp; Prices in GBP, excluding VAT &nbsp;|&nbsp; Minimum two standard users<br>
+      For prices in USD, EUR, AUD, NZD please <a href="{{ '/contact/' | relative_url }}" style="color: #47b2e4;">contact us</a>.
+    </div>
+
+  </div>
+</section>
+
+<!-- ======= Subscription Includes ======= -->
+<section id="subscription" style="padding: 50px 0; background: #fff;">
   <div class="container" data-aos="fade-up">
     <div class="section-title">
-      <h2>Pricing</h2>
-      <p>Chose one of our packages below that suits your needs.<br>We take care of all the updates, backups and security so you can focus on running your business.</p>
-      Shop Floor Data Capture (SFDC) users are free of charge.
+      <h2>What's Included with Every Plan</h2>
     </div>
-
-    <div class="row">
-      {% for plan in site.data.pricing.plans %}
-        <div class="col-lg-3{% unless forloop.first %} mt-4 mt-lg-0{% endunless %}" data-aos="fade-up" data-aos-delay="{{ forloop.index | times: 100 }}">
-          <div class="box featured">
-            <div class="box-header">
-              <h3>{{ plan.name }}</h3>
-              <h4><sup>{{ plan.currency }}</sup>{{ plan.price }}<span>{{ plan.period }}</span></h4>
-            </div>
-            <ul>
-              {% for feature in plan.features %}
-                <li><i class="bx bx-check"></i> {{ feature }}</li>
-              {% endfor %}
-              {% if plan.note %}
-                <li><i class="bx bx-check"></i>{{ plan.note }}</li>
-              {% endif %}
-            </ul>
-          </div>
-        </div>
-      {% endfor %}
-      <div class="mt-4 text-center">
-        * Coming soon<br><br>
-        Prices are in GBP and exclude VAT.<br>
-        Minimum of two standard users.<br>
-        For prices in USD, EUR, AUD, NZD please contact us.
-      </div>
-    </div>
-  </div>
-
-  <div class="pricing-jumbotron">
-    <div class="container text-center">
-      <h3>Looking for more than 10 users?</h3>
-      <p>Talk to us about a custom price plan.</p>
-      <a class="cta-btn align-middle" href="{{ '/contact/' | relative_url }}">Contact us</a>
-    </div>
-  </div>
-</section><!-- End Pricing Section -->
-
-<section id="subscription" class="section-bg">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-6">
-        <h5>Subscriptions Include:</h5>
-        <p>
+    <div class="row justify-content-center">
+      <div class="col-lg-10">
+        <div class="row g-3 justify-content-center">
           {% for item in site.data.pricing.subscription_includes %}
-            <i class="fa-regular fa-circle-check"></i> {{ item }}<br>
+          <div class="col-md-6">
+            <div style="display: flex; align-items: flex-start; gap: 10px; padding: 10px 0;">
+              <i class="bi bi-check-circle-fill" style="color: #4caf50; font-size: 18px; flex-shrink: 0; margin-top: 2px;"></i>
+              <span style="font-size: 15px; color: #444;">{{ item }}</span>
+            </div>
+          </div>
           {% endfor %}
-        </p>
+        </div>
       </div>
-      <div class="col-md-6">
-        <h5>On Site Training and Implementation</h5>
-        <p>We can provide training and implementation support at your premises for a daily rate of £600 GBP (excluding travel expenses) anywhere in the UK. For overseas on-site support please contact us to discuss.
-          <br><br>
-          Our online training and support is unlimited and free.
-        </p>
+    </div>
+
+    <!-- Testimonial -->
+    <div class="row justify-content-center mt-4">
+      <div class="col-lg-8">
+        <div style="background: #f8f9fa; border-radius: 12px; padding: 28px; border-left: 4px solid #47b2e4;">
+          <i class="bi bi-quote" style="font-size: 28px; color: #47b2e4; display: block; margin-bottom: 10px;"></i>
+          <p style="font-size: 16px; color: #555; font-style: italic; margin-bottom: 14px;">"Fraction ERP has helped us to move away from our clunky spreadsheets into a more effective way of working. Data is now at our fingertips and is presented in a very clear and visual way."</p>
+          <p style="font-size: 14px; color: #37517e; font-weight: 600; margin: 0;">Remy Medway</p>
+          <p style="font-size: 13px; color: #888; margin: 0;">RMI Fabrications</p>
+        </div>
       </div>
     </div>
   </div>
 </section>
 
-{% assign testimonial = site.data.testimonials[3] %}
-{% include testimonial.html quote=testimonial.quote name=testimonial.name title=testimonial.title %}
+<!-- ======= Supporting Text ======= -->
+<section style="padding: 40px 0; background: #f8f9fa;">
+  <div class="container" data-aos="fade-up">
+    <div class="row justify-content-center">
+      <div class="col-lg-8 text-center">
+        <p style="font-size: 17px; color: #555; margin-bottom: 15px;">Not all manufacturing operations are the same.</p>
+        <p style="font-size: 17px; color: #37517e; font-weight: 600;">Fraction ERP scales from core business management to advanced operational control, with specialised solutions for industry-specific requirements.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ======= Training ======= -->
+<section style="padding: 50px 0; background: #fff;">
+  <div class="container" data-aos="fade-up">
+    <div class="row g-4 justify-content-center">
+      <div class="col-lg-5 col-md-6">
+        <div style="background: #f8f9fa; border-radius: 12px; padding: 28px;">
+          <i class="bi bi-headset" style="font-size: 28px; color: #47b2e4; display: block; margin-bottom: 12px;"></i>
+          <h4 style="font-family: 'Jost', sans-serif; font-weight: 600; color: #37517e; font-size: 18px; margin-bottom: 10px;">Unlimited Online Support</h4>
+          <p style="font-size: 15px; color: #555; margin: 0;">Online training and telephone support is unlimited and included with every plan at no additional cost.</p>
+        </div>
+      </div>
+      <div class="col-lg-5 col-md-6">
+        <div style="background: #f8f9fa; border-radius: 12px; padding: 28px;">
+          <i class="bi bi-building" style="font-size: 28px; color: #4caf50; display: block; margin-bottom: 12px;"></i>
+          <h4 style="font-family: 'Jost', sans-serif; font-weight: 600; color: #37517e; font-size: 18px; margin-bottom: 10px;">On-Site Training</h4>
+          <p style="font-size: 15px; color: #555; margin: 0;">We can provide training and implementation support at your premises for a daily rate of &pound;600 GBP (excluding travel) anywhere in the UK.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ======= Bottom CTA ======= -->
+<section id="cta" class="cta" style="background: linear-gradient(rgba(40, 58, 90, 0.85), rgba(40, 58, 90, 0.85)), url('{{ '/assets/img/V3-production-tracking.webp' | relative_url }}') center/cover no-repeat;">
+  <div class="container" data-aos="zoom-in">
+    <div class="row">
+      <div class="col-lg-8 text-center text-lg-start">
+        <h3>Not Sure Which Option Is Right for You?</h3>
+        <p>Our team can help you choose the right setup based on your production processes and growth plans.</p>
+      </div>
+      <div class="col-lg-4 cta-btn-container text-center d-flex flex-column align-items-center justify-content-center gap-2">
+        <a class="cta-btn align-middle" href="{{ '/book-a-demo/' | relative_url }}">Book a Demo</a>
+        <a href="{{ '/contact/' | relative_url }}" style="color: rgba(255,255,255,0.85); font-size: 14px; text-decoration: underline;">Contact Sales</a>
+      </div>
+    </div>
+  </div>
+</section>
+<style>.inner-page { padding-bottom: 0 !important; margin-bottom: 0 !important; }</style>
