@@ -1,19 +1,23 @@
 # Features organized by category
 sales_order_processing:
+  - title: CRM
+    url: /crm/
+    icon: fa-solid fa-users
+    description: Manage customer relationships, track interactions and grow your sales pipeline.
   - title: Contracts
     url: /contracts/
     icon: fa-regular fa-file
     description: Manage your entire sales process with enquiries, quotes and sales order processing.
-  - title: Bill of Materials
-    url: /bill-of-materials/
-    icon: fa fa-1x fa-list
-    description: Define part structure, operations and instructions for production and estimate production costs.
   - title: Parts and Inventory
     url: /parts-and-inventory/
     icon: fa-solid fa-gears
     description: Define all parts, traceability, stock levels and inspection requirements.
 
 production:
+  - title: Bill of Materials
+    url: /bill-of-materials/
+    icon: fa fa-1x fa-list
+    description: Define part structure, operations and instructions for production and estimate production costs.
   - title: Works Orders
     url: /works-orders/
     icon: fa fa-1x fa-file-lines
