@@ -22,6 +22,17 @@ keywords: "ERP pricing, manufacturing ERP cost, MRP software pricing, cloud ERP 
 <section id="pricing" style="padding: 40px 0 50px; background: #f8f9fa;">
   <div class="container" data-aos="fade-up">
 
+    <!-- Currency Selector -->
+    <div class="text-center mb-4">
+      <div style="display: inline-flex; background: #fff; border-radius: 50px; padding: 4px; box-shadow: 0 2px 8px rgba(0,0,0,0.08); border: 1px solid #e0e0e0;">
+        <button class="currency-btn active" data-currency="GBP" data-symbol="£" data-rate="1" style="border: none; background: #37517e; color: #fff; padding: 8px 20px; border-radius: 50px; font-family: 'Jost', sans-serif; font-weight: 600; font-size: 14px; cursor: pointer; transition: all 0.3s;">GBP</button>
+        <button class="currency-btn" data-currency="EUR" data-symbol="€" data-rate="1.146" style="border: none; background: transparent; color: #555; padding: 8px 20px; border-radius: 50px; font-family: 'Jost', sans-serif; font-weight: 600; font-size: 14px; cursor: pointer; transition: all 0.3s;">EUR</button>
+        <button class="currency-btn" data-currency="USD" data-symbol="$" data-rate="1.320" style="border: none; background: transparent; color: #555; padding: 8px 20px; border-radius: 50px; font-family: 'Jost', sans-serif; font-weight: 600; font-size: 14px; cursor: pointer; transition: all 0.3s;">USD</button>
+        <button class="currency-btn" data-currency="AUD" data-symbol="A$" data-rate="1.915" style="border: none; background: transparent; color: #555; padding: 8px 20px; border-radius: 50px; font-family: 'Jost', sans-serif; font-weight: 600; font-size: 14px; cursor: pointer; transition: all 0.3s;">AUD</button>
+        <button class="currency-btn" data-currency="NZD" data-symbol="NZ$" data-rate="2.319" style="border: none; background: transparent; color: #555; padding: 8px 20px; border-radius: 50px; font-family: 'Jost', sans-serif; font-weight: 600; font-size: 14px; cursor: pointer; transition: all 0.3s;">NZD</button>
+      </div>
+    </div>
+
     <div class="row g-4 justify-content-center align-items-stretch">
 
       {% for plan in site.data.pricing.plans %}
@@ -51,8 +62,8 @@ keywords: "ERP pricing, manufacturing ERP cost, MRP software pricing, cloud ERP 
             </div>
             {% else %}
             <div style="margin-bottom: 12px;">
-              <span style="font-family: 'Jost', sans-serif; font-size: 16px; color: #888; vertical-align: top;">{{ plan.currency }}</span>
-              <span style="font-family: 'Jost', sans-serif; font-size: 42px; font-weight: 700; color: #37517e; line-height: 1;">{{ plan.price }}</span>
+              <span class="plan-currency" style="font-family: 'Jost', sans-serif; font-size: 16px; color: #888; vertical-align: top;">{{ plan.currency }}</span>
+              <span class="plan-price" data-base-price="{{ plan.price }}" style="font-family: 'Jost', sans-serif; font-size: 42px; font-weight: 700; color: #37517e; line-height: 1;">{{ plan.price }}</span>
               <span style="font-size: 14px; color: #888;">{{ plan.period }}</span>
             </div>
             {% endif %}
@@ -100,9 +111,32 @@ keywords: "ERP pricing, manufacturing ERP cost, MRP software pricing, cloud ERP 
 
     <!-- Notes -->
     <div class="text-center mt-4" style="font-size: 13px; color: #888;">
-      * Coming soon &nbsp;|&nbsp; Prices in GBP, excluding VAT &nbsp;|&nbsp; Minimum two standard users<br>
-      For prices in USD, EUR, AUD, NZD please <a href="{{ '/contact/' | relative_url }}" style="color: #47b2e4;">contact us</a>.
+      * Coming soon &nbsp;|&nbsp; UK Sales Subject to VAT &nbsp;|&nbsp; Minimum two standard users
     </div>
+
+    <script>
+    document.querySelectorAll('.currency-btn').forEach(function(btn) {
+      btn.addEventListener('click', function() {
+        var rate = parseFloat(this.dataset.rate);
+        var symbol = this.dataset.symbol;
+        document.querySelectorAll('.currency-btn').forEach(function(b) {
+          b.style.background = 'transparent';
+          b.style.color = '#555';
+          b.classList.remove('active');
+        });
+        this.style.background = '#37517e';
+        this.style.color = '#fff';
+        this.classList.add('active');
+        document.querySelectorAll('.plan-price').forEach(function(el) {
+          var base = parseFloat(el.dataset.basePrice);
+          el.textContent = Math.ceil(base * rate);
+        });
+        document.querySelectorAll('.plan-currency').forEach(function(el) {
+          el.textContent = symbol;
+        });
+      });
+    });
+    </script>
 
   </div>
 </section>
