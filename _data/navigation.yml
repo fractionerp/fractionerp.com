@@ -63,6 +63,15 @@ main:
       - title: Support
         url: https://support.fractionerp.com
         external: true
+  - title: Integrations
+    dropdown: true
+    items:
+      - title: Accounting — Xero, Sage, QuickBooks
+        url: /integrations/#accounting
+      - title: Manufacturing — Intouch Monitoring
+        url: /integrations/#manufacturing
+      - title: API & Data — Power BI, Zapier, Excel, Python
+        url: /integrations/#api
   - title: Pricing
     url: /pricing/
   - title: Book a Demo

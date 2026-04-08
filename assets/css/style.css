@@ -130,7 +130,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
 }
 #header .logo img {
-  max-height: 64px;
+  max-height: 77px;
 }
 
 /*--------------------------------------------------------------
@@ -157,7 +157,7 @@ h1, h2, h3, h4, h5, h6 {
   align-items: center;
   justify-content: space-between;
   padding: 10px 0 10px 30px;
-  font-size: 15px;
+  font-size: 13px;
   font-weight: 500;
   color: #fff;
   white-space: nowrap;
@@ -172,17 +172,29 @@ h1, h2, h3, h4, h5, h6 {
   color: #47b2e4;
 }
 .navbar .getstarted, .navbar .getstarted:focus {
-  padding: 8px 20px;
+  padding: 6px 16px;
   margin-left: 30px;
   border-radius: 50px;
   color: #fff;
-  font-size: 14px;
+  font-size: 13px;
   border: 2px solid #47b2e4;
   font-weight: 600;
 }
 .navbar .getstarted:hover, .navbar .getstarted:focus:hover {
   color: #fff;
   background: #31a9e1;
+}
+.navbar .login-link, .navbar .login-link:focus {
+  border: none;
+  padding: 6px 16px;
+  margin-left: 15px;
+  color: rgba(255,255,255,0.8);
+  font-size: 13px;
+  font-weight: 500;
+}
+.navbar .login-link:hover {
+  color: #47b2e4;
+  background: transparent;
 }
 .navbar .dropdown ul {
   display: block;

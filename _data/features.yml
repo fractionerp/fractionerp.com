@@ -67,7 +67,7 @@ business:
     icon: fa fa-1x fa-gauge
     description: Easily control permissions, roles and scale your users as your business needs grow.
   - title: ERP Integrations
-    url: /erp-integrations/
+    url: /integrations/
     icon: fa fa-1x fa-gauge
     description: Seamless integration with best in class, cloud accounting software.
 
