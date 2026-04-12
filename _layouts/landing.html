@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ page.title | default: site.title }}</title>
+  <meta name="description" content="{{ page.description | default: site.description }}">
+  {% if page.noindex %}<meta name="robots" content="noindex, nofollow">{% endif %}
+  <link rel="canonical" href="{{ page.url | absolute_url }}">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="{{ page.url | absolute_url }}">
+  <meta property="og:title" content="{{ page.title | default: site.title }}">
+  <meta property="og:description" content="{{ page.description | default: site.description }}">
+  <meta property="og:image" content="{{ page.og_image | default: '/assets/img/dashboard.png' | absolute_url }}">
+  <meta property="og:site_name" content="{{ site.title }}">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="{{ page.title | default: site.title }}">
+  <meta name="twitter:description" content="{{ page.description | default: site.description }}">
+  <meta name="twitter:image" content="{{ page.og_image | default: '/assets/img/dashboard.png' | absolute_url }}">
+
+  <!-- Favicons -->
+  <link rel="icon" type="image/png" href="{{ '/assets/img/icon.png' | relative_url }}">
+  <link rel="apple-touch-icon" href="{{ '/assets/img/icon.png' | relative_url }}">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Jost:wght@400;500;600;700&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --ink: #0f1117;
+      --steel: #1c2333;
+      --slate: #2a3347;
+      --mid: #4a5568;
+      --muted: #718096;
+      --rule: #2d3748;
+      --accent: #47b2e4;
+      --accent2: #f0a500;
+      --cream: #f7f4ef;
+      --white: #ffffff;
+      --mono: 'Poppins', sans-serif;
+      --serif: 'Jost', sans-serif;
+      --sans: 'Open Sans', sans-serif;
+    }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      font-family: var(--sans);
+      background: var(--ink);
+      color: var(--cream);
+      line-height: 1.6;
+      overflow-x: hidden;
+    }
+
+    /* NAV */
+    .lp-nav {
+      position: fixed;
+      top: 0; left: 0; right: 0;
+      z-index: 100;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0.75rem 2.5rem;
+      min-height: 56px;
+      background: rgba(15,17,23,0.92);
+      backdrop-filter: blur(12px);
+      border-bottom: 1px solid var(--rule);
+    }
+
+    .lp-nav .logo-link {
+      display: flex;
+      align-items: center;
+    }
+
+    .lp-nav .logo-link img {
+      height: 29px;
+      width: auto;
+    }
+
+    .lp-nav-links {
+      display: flex;
+      gap: 2rem;
+      align-items: center;
+    }
+
+    .lp-nav-links a {
+      font-size: 0.85rem;
+      color: var(--muted);
+      text-decoration: none;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      transition: color 0.2s;
+    }
+
+    .lp-nav-links a:hover {
+      color: var(--cream);
+    }
+
+    .nav-cta {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.4rem;
+      background: var(--accent);
+      color: var(--white);
+      padding: 0.5rem 1.25rem;
+      border-radius: 2px;
+      font-weight: 600;
+      font-size: 0.88rem;
+      text-decoration: none;
+      border: none;
+      cursor: pointer;
+      font-family: var(--sans);
+      transition: background 0.2s;
+    }
+
+    .nav-cta:hover { background: #3a9bc8; }
+
+    /* BUTTONS */
+    .btn-primary {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.6rem;
+      background: var(--accent);
+      color: var(--white);
+      font-family: var(--sans);
+      font-size: 0.95rem;
+      font-weight: 600;
+      padding: 0.9rem 2rem;
+      border: none;
+      border-radius: 2px;
+      cursor: pointer;
+      text-decoration: none;
+      transition: background 0.2s, transform 0.15s;
+      letter-spacing: 0.01em;
+    }
+
+    .btn-primary:hover { background: #3a9bc8; transform: translateY(-1px); }
+
+    .btn-secondary {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      background: transparent;
+      color: var(--cream);
+      font-family: var(--sans);
+      font-size: 0.95rem;
+      font-weight: 500;
+      padding: 0.9rem 1.5rem;
+      border: 1px solid var(--rule);
+      border-radius: 2px;
+      cursor: pointer;
+      text-decoration: none;
+      transition: border-color 0.2s, color 0.2s;
+    }
+
+    .btn-secondary:hover { border-color: var(--muted); color: var(--white); }
+
+    /* SECTIONS */
+    .section { padding: 6rem 2.5rem; max-width: 1200px; margin: 0 auto; }
+
+    .section-label {
+      font-family: var(--mono);
+      font-size: 0.9rem;
+      font-weight: 600;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--accent);
+      margin-bottom: 1rem;
+    }
+
+    h2 {
+      font-family: var(--serif);
+      font-size: clamp(2rem, 4vw, 3rem);
+      line-height: 1.1;
+      color: var(--white);
+      margin-bottom: 1.25rem;
+    }
+
+    .section-intro {
+      font-size: 1.05rem;
+      color: var(--muted);
+      max-width: 600px;
+      line-height: 1.75;
+      margin-bottom: 3rem;
+    }
+
+    /* MODAL */
+    .modal-overlay {
+      display: none;
+      position: fixed;
+      inset: 0;
+      background: rgba(0,0,0,0.75);
+      z-index: 200;
+      align-items: center;
+      justify-content: center;
+      padding: 1.5rem;
+    }
+
+    .modal-overlay.open { display: flex; }
+
+    .modal {
+      background: var(--ink);
+      border: 1px solid var(--rule);
+      border-radius: 4px;
+      width: 100%;
+      max-width: 480px;
+      overflow: hidden;
+      animation: modal-in 0.25s ease;
+    }
+
+    @keyframes modal-in {
+      from { transform: translateY(16px); opacity: 0; }
+      to { transform: translateY(0); opacity: 1; }
+    }
+
+    .modal-header {
+      background: #e8531a;
+      padding: 1.5rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+    }
+
+    .modal-header h3 {
+      font-family: var(--serif);
+      font-size: 1.4rem;
+      color: var(--white);
+      line-height: 1.2;
+    }
+
+    .modal-close {
+      background: transparent;
+      border: none;
+      color: rgba(255,255,255,0.6);
+      font-size: 1.2rem;
+      cursor: pointer;
+      line-height: 1;
+      margin-top: -2px;
+    }
+
+    .modal-close:hover { color: white; }
+
+    .modal-body { padding: 1.75rem; }
+
+    .modal-body p {
+      font-size: 0.88rem;
+      color: var(--muted);
+      margin-bottom: 1.5rem;
+      line-height: 1.65;
+    }
+
+    .form-group { margin-bottom: 1rem; }
+
+    .form-group label {
+      display: block;
+      font-size: 0.78rem;
+      font-weight: 600;
+      color: var(--cream);
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      margin-bottom: 0.4rem;
+    }
+
+    .form-group input,
+    .form-group select {
+      width: 100%;
+      background: var(--steel);
+      border: 1px solid var(--rule);
+      border-radius: 2px;
+      padding: 0.65rem 0.85rem;
+      color: var(--cream);
+      font-family: var(--sans);
+      font-size: 0.9rem;
+      transition: border-color 0.2s;
+      outline: none;
+    }
+
+    .form-group input:focus,
+    .form-group select:focus {
+      border-color: #e8531a;
+    }
+
+    .form-group select option { background: var(--steel); }
+
+    .form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 0.75rem; }
+
+    .modal-submit {
+      width: 100%;
+      margin-top: 0.5rem;
+      justify-content: center;
+      background: #e8531a;
+    }
+
+    .modal-submit:hover {
+      background: #d4481a;
+    }
+
+    .modal-fine {
+      font-size: 0.72rem;
+      color: var(--mid);
+      text-align: center;
+      margin-top: 0.75rem;
+      line-height: 1.5;
+    }
+
+    /* FOOTER */
+    .lp-footer {
+      background: var(--ink);
+      border-top: 1px solid var(--rule);
+      padding: 2.5rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 0.8rem;
+      color: var(--muted);
+    }
+
+    .lp-footer a { color: var(--muted); text-decoration: none; }
+    .lp-footer a:hover { color: var(--cream); }
+
+    /* RESPONSIVE */
+    @media (max-width: 768px) {
+      .lp-nav { padding: 0.75rem 1.25rem; }
+      .lp-nav-links { display: none; }
+      .section { padding: 3.5rem 1.25rem; }
+      .lp-footer { padding: 1.5rem 1.25rem; flex-direction: column; gap: 0.5rem; text-align: center; }
+    }
+  </style>
+
+  {{ page.extra_css }}
+
+  {% if site.google_analytics %}
+  <!-- Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', '{{ site.google_analytics }}');
+  </script>
+  {% endif %}
+</head>
+<body>
+  <!-- Nav -->
+  <nav class="lp-nav">
+    <a href="{{ '/' | relative_url }}" class="logo-link" aria-label="Fraction ERP Home">
+      <img src="{{ '/assets/img/logo.png' | relative_url }}" alt="Fraction ERP" width="150" height="40">
+    </a>
+    <div class="lp-nav-links">
+      {% if page.nav_links %}
+        {% for link in page.nav_links %}
+        <a href="{{ link.url }}">{{ link.title }}</a>
+        {% endfor %}
+      {% endif %}
+      {% if page.nav_cta_text and page.nav_cta_text != "" %}
+      <button class="nav-cta" onclick="openModal()">{{ page.nav_cta_text }}</button>
+      {% endif %}
+    </div>
+  </nav>
+
+  {{ content }}
+
+  <!-- Footer -->
+  <footer class="lp-footer">
+    <span>&copy; {{ 'now' | date: '%Y' }} Fraction ERP Ltd. All rights reserved.</span>
+    <span><a href="{{ '/privacy/' | relative_url }}">Privacy Policy</a> &middot; <a href="{{ '/terms/' | relative_url }}">Terms</a></span>
+  </footer>
+
+  <!-- Modal -->
+  <div class="modal-overlay" id="downloadModal">
+    <div class="modal">
+      <div class="modal-header">
+        <h3>{{ page.modal_title | default: "Get Your Free Guide" }}</h3>
+        <button class="modal-close" onclick="closeModal()" aria-label="Close">&times;</button>
+      </div>
+      <div class="modal-body">
+        <p>{{ page.modal_description | default: "Enter your details and we'll send the guide straight to your inbox." }}</p>
+        <form action="{{ page.formspree_endpoint }}" method="POST">
+          <input type="hidden" name="_next" value="{{ page.success_url | default: '/lp/success/' | absolute_url }}">
+          <input type="hidden" name="_subject" value="{{ page.form_subject | default: 'New guide download request' }}">
+          <div class="form-row">
+            <div class="form-group">
+              <label for="first_name">First Name</label>
+              <input type="text" id="first_name" name="first_name" required placeholder="Jane">
+            </div>
+            <div class="form-group">
+              <label for="last_name">Last Name</label>
+              <input type="text" id="last_name" name="last_name" required placeholder="Smith">
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="email">Work Email</label>
+            <input type="email" id="email" name="email" required placeholder="jane@company.com">
+          </div>
+          <div class="form-group">
+            <label for="company">Company</label>
+            <input type="text" id="company" name="company" required placeholder="Acme Manufacturing">
+          </div>
+          <div class="form-group">
+            <label for="company_size">Company Size</label>
+            <select id="company_size" name="company_size" required>
+              <option value="" disabled selected>Select team size</option>
+              <option value="1-10">1 – 10 employees</option>
+              <option value="11-50">11 – 50 employees</option>
+              <option value="51-200">51 – 200 employees</option>
+              <option value="200+">200+ employees</option>
+            </select>
+          </div>
+          <button type="submit" class="btn-primary modal-submit">Send Me the Guide &rarr;</button>
+          <p class="modal-fine">No spam. Unsubscribe any time. We respect your privacy.</p>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    function openModal() {
+      document.getElementById('downloadModal').classList.add('open');
+      document.body.style.overflow = 'hidden';
+    }
+    function closeModal() {
+      document.getElementById('downloadModal').classList.remove('open');
+      document.body.style.overflow = '';
+    }
+    document.getElementById('downloadModal').addEventListener('click', function(e) {
+      if (e.target === this) closeModal();
+    });
+    document.addEventListener('keydown', function(e) {
+      if (e.key === 'Escape') closeModal();
+    });
+  </script>
+</body>
+</html>

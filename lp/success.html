@@ -1,0 +1,174 @@
+---
+layout: landing
+title: "Your Guide Is On Its Way — FractionERP"
+description: "Thank you for downloading the Spreadsheets to ERP implementation guide."
+noindex: true
+permalink: /lp/success/
+extra_css: |
+  <style>
+    .success-page {
+      min-height: calc(100vh - 120px);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 8rem 2.5rem 5rem;
+    }
+
+    .success-card {
+      max-width: 560px;
+      text-align: center;
+    }
+
+    .success-icon {
+      width: 64px;
+      height: 64px;
+      background: rgba(232,83,26,0.12);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 28px;
+      margin: 0 auto 2rem;
+      color: var(--accent);
+    }
+
+    .success-card h1 {
+      font-family: var(--serif);
+      font-size: clamp(2rem, 4vw, 3rem);
+      color: var(--white);
+      margin-bottom: 1rem;
+      letter-spacing: -0.02em;
+    }
+
+    .success-card .lead {
+      font-size: 1.1rem;
+      color: var(--muted);
+      line-height: 1.75;
+      margin-bottom: 2.5rem;
+    }
+
+    .success-card .lead strong {
+      color: var(--cream);
+      font-weight: 500;
+    }
+
+    .success-steps {
+      text-align: left;
+      background: var(--steel);
+      border: 1px solid var(--rule);
+      border-radius: 4px;
+      padding: 1.75rem;
+      margin-bottom: 2.5rem;
+    }
+
+    .success-steps h3 {
+      font-family: var(--sans);
+      font-size: 0.85rem;
+      font-weight: 600;
+      color: var(--cream);
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      margin-bottom: 1.25rem;
+    }
+
+    .success-step {
+      display: flex;
+      align-items: flex-start;
+      gap: 0.75rem;
+      padding: 0.6rem 0;
+      font-size: 0.9rem;
+      color: var(--muted);
+      border-bottom: 1px solid rgba(255,255,255,0.05);
+    }
+
+    .success-step:last-child { border-bottom: none; }
+
+    .success-step-num {
+      font-family: var(--mono);
+      font-size: 0.72rem;
+      color: var(--accent);
+      min-width: 20px;
+      padding-top: 2px;
+    }
+
+    .success-ctas {
+      display: flex;
+      gap: 1rem;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    .btn-primary {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.6rem;
+      background: var(--accent);
+      color: var(--white);
+      font-family: var(--sans);
+      font-size: 0.95rem;
+      font-weight: 600;
+      padding: 0.9rem 2rem;
+      border: none;
+      border-radius: 2px;
+      cursor: pointer;
+      text-decoration: none;
+      transition: background 0.2s, transform 0.15s;
+    }
+
+    .btn-primary:hover { background: #d4481a; transform: translateY(-1px); }
+
+    .btn-secondary {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      background: transparent;
+      color: var(--cream);
+      font-family: var(--sans);
+      font-size: 0.95rem;
+      font-weight: 500;
+      padding: 0.9rem 1.5rem;
+      border: 1px solid var(--rule);
+      border-radius: 2px;
+      text-decoration: none;
+      transition: border-color 0.2s, color 0.2s;
+    }
+
+    .btn-secondary:hover { border-color: var(--muted); color: var(--white); }
+
+    @media (max-width: 768px) {
+      .success-page { padding: 6rem 1.25rem 3rem; }
+      .success-ctas { flex-direction: column; }
+    }
+  </style>
+---
+
+<section class="success-page">
+  <div class="success-card">
+    <div class="success-icon">&#10003;</div>
+    <h1>Your Guide Is On Its Way</h1>
+    <p class="lead">
+      Thank you! Check your inbox for the <strong>Spreadsheets to ERP in 30 Days</strong> implementation guide. It should arrive within a few minutes.
+    </p>
+
+    <div class="success-steps">
+      <h3>What happens next</h3>
+      <div class="success-step">
+        <span class="success-step-num">01</span>
+        <span>Check your email for the guide (including your spam folder, just in case)</span>
+      </div>
+      <div class="success-step">
+        <span class="success-step-num">02</span>
+        <span>Read through the 30-day roadmap and identify your starting point</span>
+      </div>
+      <div class="success-step">
+        <span class="success-step-num">03</span>
+        <span>Sign up for a free trial of Fraction ERP to follow along</span>
+      </div>
+    </div>
+
+    <div class="success-ctas">
+      <a href="https://fraction.app" class="btn-primary">Start Your Free Trial &rarr;</a>
+      <a href="{{ '/book-a-demo/' | relative_url }}" class="btn-secondary">Book a Demo</a>
+    </div>
+  </div>
+</section>
