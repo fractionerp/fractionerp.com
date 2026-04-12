@@ -2,6 +2,7 @@
 layout: page
 title: Thanks for your request!
 description: Your demo request has been received
+noindex: true
 ---
 
 <section id="services" class="services">
@@ -10,9 +11,39 @@ description: Your demo request has been received
       <h2>Thanks for your request!</h2>
     </div>
 
-    <div class="container text-center">
-      <p>We have received your request and will be in touch shortly.</p>
-      <a href="{{ '/' | relative_url }}" class="btn btn-primary mt-3">Return to Home</a>
+    <div class="container text-center col-lg-6">
+      <p style="font-size: 17px; color: #555; margin-bottom: 30px;">We have received your request and will be in touch shortly to arrange your demo.</p>
+
+      <h4 style="font-family: 'Jost', sans-serif; font-weight: 600; color: #37517e; font-size: 20px; margin-bottom: 20px;">While You Wait</h4>
+
+      <div class="row text-start" style="margin-bottom: 30px;">
+        <div class="col-md-4 mb-3">
+          <div style="background: #f8f9fa; border: 1px solid #e0e0e0; border-radius: 12px; padding: 20px; height: 100%;">
+            <i class="bi bi-play-circle" style="font-size: 24px; color: #47b2e4; display: block; margin-bottom: 8px;"></i>
+            <h5 style="font-family: 'Jost', sans-serif; font-weight: 600; color: #37517e; font-size: 15px; margin-bottom: 6px;">Watch a Quick Demo</h5>
+            <p style="font-size: 13px; color: #555; margin-bottom: 10px;">See Fraction ERP in action in under 20 minutes.</p>
+            <a href="{{ '/simple-erp-demo-video/' | relative_url }}" style="font-size: 13px; color: #47b2e4; font-weight: 500;">Watch now &rarr;</a>
+          </div>
+        </div>
+        <div class="col-md-4 mb-3">
+          <div style="background: #f8f9fa; border: 1px solid #e0e0e0; border-radius: 12px; padding: 20px; height: 100%;">
+            <i class="bi bi-download" style="font-size: 24px; color: #47b2e4; display: block; margin-bottom: 8px;"></i>
+            <h5 style="font-family: 'Jost', sans-serif; font-weight: 600; color: #37517e; font-size: 15px; margin-bottom: 6px;">Implementation Guide</h5>
+            <p style="font-size: 13px; color: #555; margin-bottom: 10px;">Get the free 30-day roadmap for going live.</p>
+            <a href="{{ '/lp/spreadsheet-to-erp/' | relative_url }}" style="font-size: 13px; color: #47b2e4; font-weight: 500;">Download free &rarr;</a>
+          </div>
+        </div>
+        <div class="col-md-4 mb-3">
+          <div style="background: #f8f9fa; border: 1px solid #e0e0e0; border-radius: 12px; padding: 20px; height: 100%;">
+            <i class="bi bi-grid" style="font-size: 24px; color: #47b2e4; display: block; margin-bottom: 8px;"></i>
+            <h5 style="font-family: 'Jost', sans-serif; font-weight: 600; color: #37517e; font-size: 15px; margin-bottom: 6px;">Explore Features</h5>
+            <p style="font-size: 13px; color: #555; margin-bottom: 10px;">Browse what Fraction ERP can do for your business.</p>
+            <a href="{{ '/features/' | relative_url }}" style="font-size: 13px; color: #47b2e4; font-weight: 500;">View features &rarr;</a>
+          </div>
+        </div>
+      </div>
+
+      <a href="{{ '/' | relative_url }}" style="color: #37517e; font-size: 14px; text-decoration: underline;">Return to Home</a>
     </div>
   </div>
 </section>
