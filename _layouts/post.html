@@ -135,7 +135,7 @@ layout: default
                   <h4 style="font-family: 'Jost', sans-serif; font-weight: 600; color: #37517e; font-size: 16px; margin-bottom: 16px; padding-bottom: 12px; border-bottom: 2px solid #e84d8a;">Related Articles</h4>
                   <ul style="list-style: none; padding: 0; margin: 0;">
                     {% if page.related_posts_list %}
-                      {% for rel_url in page.related_posts_list %}
+                      {% for rel_url in page.related_posts_list limit: 5 %}
                         {% assign found_post = site.posts | where: "url", rel_url | first %}
                         {% unless found_post %}
                           {% assign found_post = site.pages | where: "url", rel_url | first %}
@@ -149,7 +149,18 @@ layout: default
                         {% endif %}
                       {% endfor %}
                     {% else %}
-                      {% assign related = site.posts | where: "category", page.category | where_exp: "p", "p.url != page.url" | limit: 4 %}
+                      {% assign related_all = site.posts | where: "category", page.category | where_exp: "p", "p.url != page.url" %}
+                      {% assign total_related = related_all.size %}
+                      {% assign offset = 0 %}
+                      {% if total_related > 5 %}
+                        {% assign offset = page.date | date: "%s" | modulo: total_related %}
+                      {% endif %}
+                      {% assign related = related_all | slice: offset, 5 %}
+                      {% if related.size < 5 and total_related >= 5 %}
+                        {% assign wrap_needed = 5 | minus: related.size %}
+                        {% assign related_wrap = related_all | slice: 0, wrap_needed %}
+                        {% assign related = related | concat: related_wrap %}
+                      {% endif %}
                       {% for post in related %}
                       <li style="padding: 8px 0;{% unless forloop.last %} border-bottom: 1px solid #f0f0f0;{% endunless %}">
                         <a href="{{ post.url | relative_url }}" style="text-decoration: none; color: #37517e; font-size: 14px; display: flex; align-items: center; gap: 8px;">
