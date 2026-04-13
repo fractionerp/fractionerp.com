@@ -58,7 +58,7 @@ The company is UK-based (Newcastle, United Kingdom) and founder-led. Patrick, th
 
 ## Case Study
 
-- [Oiltech Bearings Case Study](https://fractionerp.com/case-study-oiltech/): Real-world deployment at a precision engineering company
+- [Oiltech Bearings Case Study](https://fractionerp.com/case-studies/oiltech/): Real-world deployment at a precision engineering company
 
 ## Support and Documentation
 
