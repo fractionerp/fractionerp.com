@@ -49,6 +49,11 @@ The result is simple: you win more of the work that already exists inside your a
 
 But most businesses struggle with on-time delivery for the same reason: they don't have a clean, real-time view of what's actually happening on the shop floor.
 
+<figure style="margin: 32px 0; text-align: center;">
+  <img src="{{ '/assets/img/blog-scheduling.webp' | relative_url }}" alt="Simple visual scheduling in Fraction ERP" loading="lazy" style="max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 15px rgba(0,0,0,0.08);">
+  <figcaption style="font-size: 14px; color: #718096; margin-top: 10px; font-style: italic;">Simple visual scheduling in Fraction ERP</figcaption>
+</figure>
+
 ## Transparency beats perfection: how you handle "Where's my order?" matters
 
 Even the best-run operations hit surprises: machine breakdowns, supplier delays, rework, urgent jobs.
