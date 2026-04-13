@@ -1,0 +1,83 @@
+---
+layout: null
+permalink: /llms.txt
+sitemap: false
+---
+# Fraction ERP
+
+> Cloud ERP software for small to medium-sized precision engineering, manufacturing, fabrication, and assembly companies. Fraction ERP helps businesses move from spreadsheets to a fully operational ERP system, covering sales, purchasing, inventory, production scheduling, shop floor data capture, quality, shipping, and invoicing.
+
+Fraction ERP is built for manufacturing SMEs who have outgrown spreadsheets but don't need the complexity or cost of enterprise systems. It is designed to be implemented in 30 days without expensive consultants, with transparent per-user pricing and no hidden fees.
+
+The company is UK-based (Newcastle, United Kingdom) and founder-led. Patrick, the founder, is also managing director of a precision engineering company (Oiltech Bearings) where Fraction ERP is used daily — so the product is shaped by real operational experience.
+
+## Core Pages
+
+- [Home](https://fractionerp.com/): Overview of Fraction ERP for manufacturers
+- [Features](https://fractionerp.com/features/): Full feature list across sales, production, quality, and business
+- [Pricing](https://fractionerp.com/pricing/): Transparent per-user pricing, no contracts
+- [Book a Demo](https://fractionerp.com/book-a-demo/): Schedule a live product demo
+- [Book a Free ERP Strategy Call](https://fractionerp.com/lp/erp-strategy-call/): 30-minute advisory session with the founder — practical, no-pressure advice on whether ERP is right for your business
+- [About](https://fractionerp.com/about/): Company story, team, and mission
+- [Contact](https://fractionerp.com/contact/): Get in touch
+
+## Product / Feature Pages
+
+- [Manufacturing ERP Software](https://fractionerp.com/mrp-software/): Core MRP and manufacturing ERP capabilities
+- [Production Scheduling Software](https://fractionerp.com/production-scheduling-software/): Drag-and-drop scheduling with workcentre and operator capacity
+- [Shop Floor Data Capture](https://fractionerp.com/shopfloor-data-capture-software/): Real-time tracking of production on the shop floor
+- [Bill of Materials Software](https://fractionerp.com/bill-of-materials-software/): BOM creation, templating, and version management
+- [Sales Order Management](https://fractionerp.com/sales-order-management-software/): Quote-to-invoice workflow
+- [Purchasing and Inventory](https://fractionerp.com/purchasing-inventory-software/): Purchase orders, stock control, reorder points
+- [Cloud ERP Software](https://fractionerp.com/cloud-erp-software/): Cloud deployment and mobility
+- [CRM](https://fractionerp.com/crm/): Customer relationship management within ERP
+- [Integrations](https://fractionerp.com/erp-integrations/): Xero, Sage, QuickBooks, REST API
+
+## Industries
+
+- [Industries Overview](https://fractionerp.com/industries/): Industries Fraction ERP serves
+- [ERP for Precision Engineering](https://fractionerp.com/erp-for-engineering/): Job costing, BOMs, scheduling for engineering companies
+- [ERP for Injection Moulding](https://fractionerp.com/erp-for-injection-moulding/): Mould tracking, materials, production for moulders
+- [ERP for Fabrication](https://fractionerp.com/erp-for-fabrication/): Multi-job fabrication workflow management
+
+## Comparisons
+
+- [Compare ERP Systems](https://fractionerp.com/compare-erp/): Fraction ERP vs other manufacturing ERP systems
+- [Fraction ERP vs MRPeasy](https://fractionerp.com/mrpeasy-alternative/): MRPeasy alternative comparison
+- [Fraction ERP vs EMAX](https://fractionerp.com/emax-alternative/): EMAX Systems alternative comparison
+
+## Educational Resources
+
+- [What is MRP?](https://fractionerp.com/what-is-mrp/): Introduction to MRP concepts
+- [MRP vs ERP](https://fractionerp.com/mrp-vs-erp/): Differences between MRP and ERP
+- [MRP in Excel](https://fractionerp.com/mrp-in-excel/): Why spreadsheets hit a ceiling for MRP
+- [Replacing Excel for Manufacturing](https://fractionerp.com/replace-excel-manufacturing/): How to transition off spreadsheets
+- [ERP Implementation Guide](https://fractionerp.com/erp-implementation-guide/): Practical guide to implementing ERP
+- [Spreadsheets to ERP in 30 Days](https://fractionerp.com/lp/spreadsheet-to-erp/): Free downloadable 30-day implementation roadmap
+- [Blog](https://fractionerp.com/blog/): Articles on manufacturing, ERP, production management
+
+## Case Study
+
+- [Oiltech Bearings Case Study](https://fractionerp.com/case-study-oiltech/): Real-world deployment at a precision engineering company
+
+## Support and Documentation
+
+- [Support Portal](https://support.fractionerp.com/): Help articles, guides, and API documentation
+- [API Documentation](https://support.fractionerp.com/api): REST API reference
+
+## Company Information
+
+- **Company**: Fraction ERP Ltd
+- **Location**: Unit 3 Browns Park, Newcastle, NE13 7DG, United Kingdom
+- **Email**: sales@fractionerp.com
+- **Phone**: +44 (0)191 3001219
+- **LinkedIn**: https://www.linkedin.com/company/67678664
+- **Application URL**: https://fraction.app
+
+## Key Positioning
+
+- Built for manufacturing — not retrofitted from accounting software
+- Go-live in 30 days — no 12-month implementation projects
+- No consultants required — self-service setup with guided support
+- Transparent per-user pricing — no module add-ons, no contracts
+- Founder-led — not a sales team; product manager is a daily ERP user
