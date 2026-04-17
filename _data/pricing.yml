@@ -58,6 +58,7 @@ plans:
       - Production KPIs
       - Calibration Log
       - Serial Traceability
+      - Leave Management|new
 
   - name: Pro
     tagline: Drive performance and efficiency at scale with advanced tools
@@ -103,6 +104,7 @@ plans:
       - Contract Review*
       - API Integration
       - CRM
+      - Leave Management|new
 
   - name: Moulding Edition
     tagline: Built for plastic injection moulding manufacturers

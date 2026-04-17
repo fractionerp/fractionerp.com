@@ -79,9 +79,10 @@ redirect_from:
           <div style="padding: 0 24px 28px; flex-grow: 1; display: flex; flex-direction: column; border-top: 1px solid #f0f0f0;">
           <ul style="list-style: none; padding: 0; margin: 16px 0 20px; flex-grow: 1;">
             {% for feature in plan.features %}
+            {% assign feature_parts = feature | split: "|" %}
             <li style="padding: 5px 0; font-size: 14px; color: #444; display: flex; align-items: flex-start; gap: 8px;">
               <i class="bi bi-check-circle-fill" style="color: {% if plan.popular %}#47b2e4{% else %}#4caf50{% endif %}; flex-shrink: 0; margin-top: 2px;"></i>
-              <span>{{ feature }}</span>
+              <span>{{ feature_parts[0] }}{% if feature_parts[1] %} <span style="display: inline-block; background: #ff6b35; color: #fff; font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.5px; padding: 2px 6px; border-radius: 10px; vertical-align: middle; margin-left: 2px;">{{ feature_parts[1] }}</span>{% endif %}</span>
             </li>
             {% endfor %}
           </ul>
