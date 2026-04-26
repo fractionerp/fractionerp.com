@@ -36,6 +36,10 @@ production:
     description: Integrated with our MRP system, purchasing is a powerful tool with built in approvals.
 
 quality_management:
+  - title: Standard Operating Procedures
+    url: /sop-software/
+    icon: fa fa-1x fa-list-ol
+    description: Digital SOPs with step-by-step content, revision control, training assignments and ISO 9001-ready audit trail.
   - title: Non-Conformance Reports
     url: /non-conformance-reports/
     icon: fa fa-1x fa-triangle-exclamation

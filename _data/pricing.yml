@@ -96,7 +96,7 @@ plans:
       - Calibration Log
       - Serial Traceability
       - Batch Traceability
-      - Standard Operating Procedures*
+      - Standard Operating Procedures|new
       - After market service*
       - RFQ's for purchasing
       - Inspection Reports*
