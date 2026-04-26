@@ -19,18 +19,11 @@
     return match ? match[2] : null;
   }
 
-  function loadGoogleAnalytics() {
-    if (!window.gaTrackingId) return;
-
-    var script = document.createElement('script');
-    script.async = true;
-    script.src = 'https://www.googletagmanager.com/gtag/js?id=' + window.gaTrackingId;
-    document.head.appendChild(script);
-
-    window.dataLayer = window.dataLayer || [];
-    function gtag() { window.dataLayer.push(arguments); }
-    gtag('js', new Date());
-    gtag('config', window.gaTrackingId, { anonymize_ip: true });
+  function grantAnalyticsConsent() {
+    if (typeof window.gtag !== 'function') return;
+    window.gtag('consent', 'update', {
+      'analytics_storage': 'granted'
+    });
   }
 
   function showBanner() {
@@ -56,13 +49,13 @@
   function init() {
     var consent = getCookie(COOKIE_NAME);
 
-    // If already consented, load GA
+    // If already consented, upgrade GA consent state
     if (consent === 'accepted') {
-      loadGoogleAnalytics();
+      grantAnalyticsConsent();
       return;
     }
 
-    // If already rejected, do nothing
+    // If already rejected, GA stays in cookieless/denied mode (Consent Mode default)
     if (consent === 'rejected') {
       return;
     }
@@ -76,7 +69,7 @@
     if (acceptBtn) {
       acceptBtn.addEventListener('click', function () {
         setCookie(COOKIE_NAME, 'accepted', COOKIE_DAYS);
-        loadGoogleAnalytics();
+        grantAnalyticsConsent();
         hideBanner();
       });
     }

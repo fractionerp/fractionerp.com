@@ -19,10 +19,22 @@
 <!-- Fontawesome (deferred) -->
 <script src="https://kit.fontawesome.com/ce2cdb0f36.js" crossorigin="anonymous" defer></script>
 
-<!-- Google Analytics - loaded only after cookie consent -->
+<!-- Google Analytics with Consent Mode v2 — fires immediately in denied state, upgraded on consent -->
 {% if site.google_analytics %}
+<script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
 <script>
   window.gaTrackingId = '{{ site.google_analytics }}';
+  window.dataLayer = window.dataLayer || [];
+  window.gtag = function gtag(){ window.dataLayer.push(arguments); };
+  window.gtag('consent', 'default', {
+    'ad_storage': 'denied',
+    'ad_user_data': 'denied',
+    'ad_personalization': 'denied',
+    'analytics_storage': 'denied',
+    'wait_for_update': 500
+  });
+  window.gtag('js', new Date());
+  window.gtag('config', window.gaTrackingId, { anonymize_ip: true });
 </script>
 {% endif %}
 
