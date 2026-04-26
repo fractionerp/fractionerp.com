@@ -1,12 +1,12 @@
 <!-- ======= CTA Section ======= -->
-<section id="cta" class="cta">
+<section id="cta" class="cta" style="background: linear-gradient(rgba(40, 58, 90, 0.85), rgba(40, 58, 90, 0.85)), url('{{ include.image | default: "/assets/img/V3-production-tracking.webp" | relative_url }}') center/cover no-repeat;">
   <div class="container" data-aos="zoom-in">
     <div class="row">
-      <div class="col-lg-9 text-center text-lg-start">
-        <h3>{{ include.title | default: "Book an online demo" }}</h3>
-        <p>{{ include.text | default: "Ready to learn more about Fraction ERP and what it can do for your business? <br>The demo usually takes 45 mins to 1 hour." }}</p>
+      <div class="col-lg-8 text-center text-lg-start">
+        <h3>{{ include.title | default: "Ready to See Fraction ERP in Action?" }}</h3>
+        <p>{{ include.text | default: "Book a personalised demo and see how Fraction ERP can help your manufacturing business run smoother." }}</p>
       </div>
-      <div class="col-lg-3 cta-btn-container text-center d-flex flex-column align-items-center justify-content-center gap-2">
+      <div class="col-lg-4 cta-btn-container text-center d-flex flex-column align-items-center justify-content-center gap-2">
         <a class="cta-btn align-middle" href="{{ '/book-a-demo/' | relative_url }}">{{ include.button | default: "Book a Demo" }}</a>
         {% unless include.hide_strategy_call %}
         <a href="{{ '/lp/erp-strategy-call/' | relative_url }}" style="color: rgba(255,255,255,0.85); font-size: 13px; text-decoration: none;">Not ready for a demo? <span style="text-decoration: underline;">Book a free strategy call</span></a>
@@ -15,3 +15,4 @@
     </div>
   </div>
 </section><!-- End Cta Section -->
+<style>.inner-page { padding-bottom: 0 !important; margin-bottom: 0 !important; }</style>
