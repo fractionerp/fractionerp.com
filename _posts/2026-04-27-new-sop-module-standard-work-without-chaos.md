@@ -82,6 +82,11 @@ Here's what well-managed SOPs typically deliver:
 
 And importantly: SOPs reduce the risk that your business performance depends on one or two key people being present.
 
+<figure style="margin: 30px 0;">
+  <img src="{{ '/assets/img/sop-manager.webp' | relative_url }}" alt="SOP Manager screen in Fraction ERP showing the list of standard operating procedures" style="width: 100%; border-radius: 12px; box-shadow: 0 12px 50px rgba(0,0,0,0.15);">
+  <figcaption style="text-align: center; font-size: 14px; color: #888; margin-top: 10px; font-style: italic;">Manage your SOPs quickly and effectively with Fraction ERP</figcaption>
+</figure>
+
 ## Where this fits in a practical improvement system
 
 SOPs work best when they're part of a wider routine:
