@@ -1,24 +1,124 @@
 ---
 layout: default
 ---
-<main id="main">
-  <section class="inner-page">
-    <section id="services" class="services section-bg">
-      <div class="container" data-aos="fade-up">
-        <div class="section-title">
-          <h2>{{ page.page_title | default: page.title }}</h2>
-          {% if page.page_description %}
-            <p>{{ page.page_description }}</p>
+{% assign feature = site.data.feature_pages[page.feature_key] %}
+{% assign hero_image = feature.hero_image | default: feature.screenshots[0].image %}
+
+<main id="main" class="feature-page">
+  <section class="feature-hero">
+    <div class="container">
+      <div class="feature-hero-grid">
+        <div class="feature-hero-copy" data-aos="fade-up">
+          <h1>{{ feature.h1 }}</h1>
+          <p>{{ feature.intro }}</p>
+          {% if feature.bullets %}
+          <ul class="feature-hero-list">
+            {% for item in feature.bullets %}
+            <li><i class="bi bi-check-circle-fill" aria-hidden="true"></i><span>{{ item }}</span></li>
+            {% endfor %}
+          </ul>
           {% endif %}
+          <div class="feature-hero-actions">
+            <a class="feature-primary-btn" href="{{ '/book-a-demo/' | relative_url }}">Book a Demo</a>
+            {% if feature.video %}
+            <a class="feature-secondary-btn" href="#feature-demo"><i class="bi bi-play-circle" aria-hidden="true"></i><span>Watch Demo</span></a>
+            {% else %}
+            <a class="feature-secondary-btn" href="{{ '/pricing/' | relative_url }}">View Pricing</a>
+            {% endif %}
+          </div>
         </div>
 
-        {{ content }}
+        <div class="feature-hero-media" data-aos="fade-up" data-aos-delay="100">
+          {% if hero_image %}
+          <img src="{{ hero_image | relative_url }}" alt="{{ feature.hero_alt | default: feature.h1 }}" loading="eager">
+          {% else %}
+          <div class="feature-hero-panel">
+            <h2>{{ feature.panel_title | default: "What this helps you control" }}</h2>
+            <ul>
+              {% for item in feature.bullets %}
+              <li>{{ item }}</li>
+              {% endfor %}
+            </ul>
+          </div>
+          {% endif %}
+        </div>
       </div>
-    </section>
+    </div>
   </section>
 
-  {% if page.testimonial %}
-    {% assign testimonial = site.data.testimonials[page.testimonial] %}
-    {% include testimonial.html quote=testimonial.quote name=testimonial.name title=testimonial.title %}
+  {% if feature.sections %}
+  <section class="feature-section">
+    <div class="container">
+      <div class="feature-section-heading" data-aos="fade-up">
+        <h2>{{ feature.sections_title | default: "What You Can Do" }}</h2>
+        <p>{{ feature.sections_intro | default: "Practical tools for running manufacturing workflows without disconnected spreadsheets or duplicate data entry." }}</p>
+      </div>
+      <div class="feature-card-grid">
+        {% for section in feature.sections %}
+        <article class="feature-info-card" {% if section.id %}id="{{ section.id }}"{% endif %} data-aos="fade-up" data-aos-delay="{{ forloop.index | times: 60 }}">
+          <h3>{{ section.title }}</h3>
+          <p>{{ section.text }}</p>
+        </article>
+        {% endfor %}
+      </div>
+    </div>
+  </section>
   {% endif %}
+
+  {% if feature.video %}
+  <section id="feature-demo" class="feature-demo-section">
+    <div class="container">
+      <div class="feature-demo-grid" data-aos="fade-up">
+        <div>
+          <h2>See the Workflow</h2>
+          <p>{{ feature.video_text | default: "Watch a short walkthrough of the feature, then book a demo to see how it would work with your own products and processes." }}</p>
+        </div>
+        <div class="feature-video-frame">
+          <iframe src="{{ feature.video.src }}" title="{{ feature.video.title | default: feature.h1 }}" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+  {% endif %}
+
+  {% if feature.screenshots %}
+  <section id="screenshots" class="feature-section feature-screenshots-section">
+    <div class="container">
+      <div class="feature-section-heading" data-aos="fade-up">
+        <h2>{{ feature.screenshots_title | default: "Screenshots" }}</h2>
+        <p>{{ feature.screenshots_intro | default: "A closer look at the screens your team will use day to day." }}</p>
+      </div>
+      <div class="feature-screenshot-grid">
+        {% for shot in feature.screenshots %}
+        <article class="feature-screenshot-card" data-aos="fade-up" data-aos-delay="{{ forloop.index | times: 60 }}">
+          <a href="{{ shot.image | relative_url }}" data-gallery="portfolioGallery" class="portfolio-lightbox">
+            <img src="{{ shot.image | relative_url }}" alt="{{ shot.alt | default: shot.title }}" loading="lazy">
+          </a>
+          <div>
+            <h3>{{ shot.title }}</h3>
+            <p>{{ shot.text }}</p>
+          </div>
+        </article>
+        {% endfor %}
+      </div>
+    </div>
+  </section>
+  {% endif %}
+
+  {% if feature.related %}
+  <section class="feature-related-section">
+    <div class="container">
+      <div class="feature-related">
+        <h2>Related Manufacturing ERP Features</h2>
+        <div class="feature-related-links">
+          {% for item in feature.related %}
+          <a href="{{ item.url | relative_url }}">{{ item.title }} <i class="bi bi-arrow-right" aria-hidden="true"></i></a>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </section>
+  {% endif %}
+
+  {% include cta.html title=feature.cta_title text=feature.cta_text image=feature.cta_image %}
 </main>

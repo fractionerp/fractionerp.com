@@ -1,0 +1,881 @@
+---
+crm:
+  h1: Manufacturing CRM Built into Your ERP
+  intro: Track customers, opportunities and follow-ups alongside live sales and production
+    data, so your team can manage relationships without a separate CRM system.
+  bullets:
+  - Keep customer records, notes and activity in one place
+  - Track enquiries and opportunities through the sales pipeline
+  - Connect sales activity to quotes, orders and production demand
+  video:
+    src: https://player.vimeo.com/video/1180073836?badge=0&autopause=0&player_id=0&app_id=58479
+    title: Fraction ERP CRM demo
+  sections:
+  - title: Central customer records
+    text: Store company details, contacts, notes and activity history so everyone
+      works from the same customer record.
+  - title: Follow up sales opportunities
+    text: Track opportunities and actions before they become quotes or contracts,
+      reducing missed follow-ups.
+  - title: Connect CRM to operations
+    text: Move from customer conversation to enquiry, quote and order without re-keying
+      information.
+  - title: Manufacturing context
+    text: Give sales teams visibility of the operational information they need before
+      promising dates or chasing work.
+  screenshots:
+  - image: "/assets/img/CRM-customer-record.webp"
+    title: Customer record
+    text: Keep customer details and activity together.
+  - image: "/assets/img/CRM-log-event.webp"
+    title: Log activity
+    text: Record calls, emails and follow-up notes.
+  - image: "/assets/img/CRM-track-tasks.webp"
+    title: Track tasks
+    text: Keep sales actions visible to the team.
+  related:
+  - title: Sales Orders
+    url: "/contracts/"
+  - title: Dashboard
+    url: "/dashboard/"
+  - title: Task Management
+    url: "/erp-task-management/"
+  cta_title: Grow Sales with a CRM Built for Manufacturers
+  cta_text: Track customer relationships and sales opportunities alongside your live
+    production data.
+contracts:
+  h1: Enquiries, Quotes and Sales Orders in One Place
+  intro: Control the full customer order journey from first enquiry through quote,
+    order confirmation and production demand.
+  bullets:
+  - Convert enquiries into quotes and sales orders
+  - Keep commercial and production teams aligned
+  - Reduce duplicate entry across the sales process
+  video:
+    src: https://player.vimeo.com/video/519886128?h=5b864a9d0b&badge=0&autopause=0&player_id=0&app_id=58479
+    title: Fraction ERP contracts demo
+  sections:
+  - title: Capture every enquiry
+    text: Record customer requirements and commercial details before they become quotes
+      or live orders.
+  - title: Create professional quotes
+    text: Prepare and send quotations using the same product and customer data used
+      by the rest of the ERP.
+  - title: Move cleanly into sales orders
+    text: Turn accepted work into managed contracts without losing the original quote
+      context.
+  - title: Feed production demand
+    text: Sales orders connect into MRP, purchasing and works orders so demand is
+      visible early.
+  screenshots:
+  - image: "/assets/img/Contracts-V3.webp"
+    title: Contract register
+    text: View customer orders in one place.
+  - image: "/assets/img/Quote-V3.webp"
+    title: Quote management
+    text: Prepare quotes from structured customer data.
+  - image: "/assets/img/Email-quote-V3.webp"
+    title: Email quotes
+    text: Send quote documents directly from Fraction ERP.
+  related:
+  - title: CRM
+    url: "/crm/"
+  - title: MRP & Purchasing
+    url: "/purchasing/"
+  - title: Works Orders
+    url: "/works-orders/"
+  cta_title: Win More Quotes and Streamline Sales
+  cta_text: Manage enquiries, quotes and sales orders in one connected workflow without
+    losing track of a single deal.
+parts-and-inventory:
+  h1: Parts and Inventory Management for Manufacturers
+  intro: Manage part data, stock levels, transactions and traceability in one place
+    so production and purchasing always work from accurate inventory data.
+  bullets:
+  - Control part records, stock levels and reorder rules
+  - Track goods received, issues, transfers and adjustments
+  - Support batch and serial traceability where required
+  video:
+    src: https://player.vimeo.com/video/532582153?h=21f581079f&badge=0&autopause=0&player_id=0&app_id=58479
+    title: Fraction ERP inventory demo
+  sections:
+  - title: Define parts properly
+    text: Store the purchasing, planning, traceability and document information each
+      part needs.
+  - title: Control stock levels
+    text: Use minimum levels, locations and transaction history to keep inventory
+      accurate.
+  - title: Support purchasing and planning
+    text: Give MRP and purchasing the data they need for lead times, pack sizes and
+      stock decisions.
+  - title: Attach files and drawings
+    text: Keep drawings, certificates and supporting documents available where your
+      team needs them.
+  screenshots:
+  - image: "/assets/img/V3-parts-register.webp"
+    title: Parts register
+    text: Manage all parts from one screen.
+  - image: "/assets/img/V3-stock-alert.webp"
+    title: Stock alerts
+    text: See parts that need attention.
+  - image: "/assets/img/V3-manage-stock.webp"
+    title: Stock management
+    text: Adjust and review inventory records.
+  related:
+  - title: MRP & Purchasing
+    url: "/purchasing/"
+  - title: Traceability
+    url: "/traceability/"
+  - title: Bill of Materials
+    url: "/bill-of-materials/"
+  cta_title: Take Control of Your Parts and Inventory
+  cta_text: Track stock levels, manage parts data and eliminate spreadsheet juggling.
+bill-of-materials:
+  h1: Bill of Materials Software for Manufacturing
+  intro: Create structured BOMs with operations, instructions and costing so engineering
+    data flows cleanly into production.
+  bullets:
+  - Build multi-level BOMs and production routings
+  - Capture operations, workcentres and instructions
+  - Estimate and review production costs
+  video:
+    src: https://player.vimeo.com/video/519885601?h=c39e47436a&badge=0&autopause=0&player_id=0&app_id=58479
+    title: Fraction ERP BOM demo
+  sections:
+  - title: Define product structure
+    text: Create the parts, quantities and relationships needed to manufacture each
+      product.
+  - title: Map operations and routing
+    text: Add workcentres, operation times and process steps so production knows what
+      to do.
+  - title: Use templates
+    text: Speed up repeat work by reusing BOM templates and standard production structures.
+  - title: Support costing
+    text: Understand material and labour assumptions before work reaches the shop
+      floor.
+  screenshots:
+  - image: "/assets/img/V3-BOM-main-screen.webp"
+    title: BOM structure
+    text: Manage product structure and routing.
+  - image: "/assets/img/V3-BOM-job-costing.webp"
+    title: Job costing
+    text: Review production cost assumptions.
+  - image: "/assets/img/V3-BOM-Templates.webp"
+    title: BOM templates
+    text: Reuse standard product structures.
+  related:
+  - title: Works Orders
+    url: "/works-orders/"
+  - title: Production Scheduling
+    url: "/production-scheduling/"
+  - title: Parts and Inventory
+    url: "/parts-and-inventory/"
+  cta_title: Take Control of Your Bill of Materials
+  cta_text: Eliminate BOM errors, capture accurate job costing and connect engineering
+    to production with Fraction ERP.
+  cta_image: "/assets/img/BOM general view.webp"
+works-orders:
+  h1: Works Orders for Make-to-Order and Make-to-Stock
+  intro: Plan, release and track production orders from demand through completion,
+    whether you build to customer order or replenish stock.
+  bullets:
+  - Create works orders from sales demand or stock requirements
+  - Track production status and overdue work
+  - Support route cards, files and serial traceability
+  video:
+    src: https://player.vimeo.com/video/704839160?h=8e66bfcf4b&badge=0&autopause=0&player_id=0&app_id=58479
+    title: Fraction ERP works orders demo
+  sections:
+  - title: Manage production demand
+    text: See what needs to be made, when it is due and which jobs need attention.
+  - title: Track works order status
+    text: Move orders through planning, production and completion with clear status
+      visibility.
+  - title: Support real-world changes
+    text: Adjust quantities, dates, files and operations when production changes mid-flow.
+  - title: Use online or printed route cards
+    text: Run digitally on the shop floor or print travellers when paper still fits
+      the process.
+  screenshots:
+  - image: "/assets/img/V3-Works-Order-register.webp"
+    title: Works order register
+    text: Control all production orders in one place.
+  - image: "/assets/img/V3-Works-Order-detail.webp"
+    title: Works order detail
+    text: Review quantities, dates and linked records.
+  - image: "/assets/img/V3-Works-Order-edit-route.webp"
+    title: Edit routing
+    text: Adjust operations and instructions.
+  related:
+  - title: Bill of Materials
+    url: "/bill-of-materials/"
+  - title: Shop Floor Data Capture
+    url: "/shop-floor-data-capture/"
+  - title: Production Scheduling
+    url: "/production-scheduling/"
+  cta_title: Run Production with Confidence
+  cta_text: 'Make-to-order or make-to-stock: Fraction ERP keeps your works orders
+    on track and on time.'
+production-scheduling:
+  h1: Production Scheduling Software for Manufacturers
+  intro: Schedule production with clearer visibility of capacity, priorities and dates,
+    using automatic planning and drag-and-drop control.
+  bullets:
+  - Schedule works orders against capacity
+  - Use drag-and-drop tools to adjust plans
+  - Spot late work and overloaded workcentres earlier
+  video:
+    src: https://player.vimeo.com/video/519886396?h=bed134b712&badge=0&autopause=0&player_id=0&app_id=58479
+    title: Fraction ERP production scheduling demo
+  sections:
+  - title: Plan around capacity
+    text: Understand workcentre loading and make scheduling decisions with live production
+      data.
+  - title: Drag and drop jobs
+    text: Move work visually when priorities change and keep the schedule understandable.
+  - title: Connect to works orders
+    text: Schedule from the same works order data your production team already uses.
+  - title: Improve delivery confidence
+    text: Use clearer production dates to support customer promises and internal planning.
+  screenshots:
+  - image: "/assets/img/V3-Works-Order-register.webp"
+    title: Works order book
+    text: See production demand ready to schedule.
+  - image: "/assets/img/V3-Scheduling.webp"
+    title: Scheduling board
+    text: Plan work visually across capacity.
+  - image: "/assets/img/V3-Workcentre-Capacity.webp"
+    title: Capacity view
+    text: Review loading by workcentre.
+  related:
+  - title: Works Orders
+    url: "/works-orders/"
+  - title: Shop Floor Data Capture
+    url: "/shop-floor-data-capture/"
+  - title: Dashboard
+    url: "/dashboard/"
+  cta_title: Schedule Production with Confidence
+  cta_text: Visual planning, drag-and-drop scheduling and capacity management built
+    for manufacturers.
+shop-floor-data-capture:
+  h1: Shop Floor Data Capture with Unlimited Free Users
+  intro: Give operators a simple way to log time, progress and activity so production
+    status is visible in real time.
+  bullets:
+  - Unlimited free shop floor data capture users
+  - Log operation progress and actual times
+  - See active shop floor work from live data
+  video:
+    src: https://player.vimeo.com/video/519886045?h=309ab75750&badge=0&autopause=0&player_id=0&app_id=58479
+    title: Fraction ERP shop floor data capture demo
+  sections:
+  - title: Track production live
+    text: Operators update progress as work happens, giving supervisors a current
+      view of the shop floor.
+  - title: Capture actual times
+    text: Record operation times against works orders to compare planned and actual
+      performance.
+  - title: Keep licence costs simple
+    text: Add as many shop floor data capture users as required without paying for
+      every operator.
+  - title: Support supervisors
+    text: See who is working on what and which jobs are currently active.
+  screenshots:
+  - image: "/assets/img/V3-production-tracking.webp"
+    title: Production tracking
+    text: Monitor works order progress.
+  - image: "/assets/img/V3-SFDC.webp"
+    title: Launch SFDC
+    text: Operators clock onto work quickly.
+  - image: "/assets/img/V3-SFDC-list.webp"
+    title: Active jobs
+    text: View live shop floor activity.
+  related:
+  - title: Works Orders
+    url: "/works-orders/"
+  - title: Production Scheduling
+    url: "/production-scheduling/"
+  - title: KPIs
+    url: "/erp-key-performance-indicators/"
+  cta_title: Real-Time Visibility on the Shop Floor
+  cta_text: Unlimited free SFDC users mean every operator can clock on and off without
+    licence headaches.
+purchasing:
+  h1: MRP and Purchasing Software for Manufacturers
+  intro: Let real demand drive purchasing, supplier management and goods received
+    workflows so the right parts arrive at the right time.
+  bullets:
+  - Generate purchasing demand from MRP
+  - Control purchase orders and approvals
+  - Manage supplier returns and goods received records
+  video:
+    src: https://player.vimeo.com/video/519932353?h=1f3bbad13c&badge=0&autopause=0&player_id=0&app_id=58479
+    title: Fraction ERP purchasing demo
+  sections:
+  - title: Make demand clear
+    text: Use MRP output to decide what to buy, when to buy it and which orders need
+      action.
+  - title: Control purchase approvals
+    text: Use approval workflows and spend limits so only authorised purchase orders
+      are placed.
+  - title: Manage supplier details
+    text: Store contacts, currencies and supplier information needed for day-to-day
+      buying.
+  - title: Handle return to vendor
+    text: Link faulty or incorrect supplied materials to return workflows and purchasing
+      records.
+  screenshots:
+  - image: "/assets/img/V3-MRP-screen.webp"
+    title: MRP demand
+    text: Know what to buy and when.
+  - image: "/assets/img/V3-Purchase-Order.webp"
+    title: Purchase orders
+    text: Create and approve supplier orders.
+  - image: "/assets/img/V3-Email-Purchase-Order.webp"
+    title: Email POs
+    text: Send purchase orders directly.
+  related:
+  - title: Parts and Inventory
+    url: "/parts-and-inventory/"
+  - title: Customer Returns
+    url: "/customer-returns/"
+  - title: Dashboard
+    url: "/dashboard/"
+  cta_title: Buy the Right Parts at the Right Time
+  cta_text: Let MRP demand drive your purchasing with fewer stockouts and surprise
+    overstocks.
+sop-software:
+  h1: Standard Operating Procedure Software for Manufacturers
+  intro: Replace paper procedures and uncontrolled PDFs with digital SOPs that manage
+    revisions, training and audit records inside your ERP.
+  bullets:
+  - Create controlled digital SOPs and work instructions
+  - Manage revisions, approvals and training assignments
+  - Keep evidence ready for ISO 9001 audits
+  video:
+    src: https://player.vimeo.com/video/1186849878?badge=0&autopause=0&player_id=0&app_id=58479
+    title: Fraction ERP SOP demo
+  sections:
+  - title: Build clear procedures
+    text: Create SOPs with step-by-step content, supporting documents and controlled
+      instructions.
+  - title: Control revisions
+    text: Manage versions and approvals so teams always work from the current procedure.
+  - title: Assign training
+    text: Link SOPs to users and roles so training requirements are visible and auditable.
+  - title: Support compliance
+    text: Keep the records needed to prove procedures are controlled and understood.
+  screenshots:
+  - image: "/assets/img/sop-manager.webp"
+    title: SOP builder
+    text: Create structured digital procedures.
+  - image: "/assets/img/sop-manager.webp"
+    title: Training records
+    text: Track who has been assigned and trained.
+  - image: "/assets/img/sop-manager.webp"
+    title: Revision control
+    text: Maintain controlled procedure versions.
+  related:
+  - title: Non-Conformance Reports
+    url: "/non-conformance-reports/"
+  - title: User Management
+    url: "/user-management/"
+  - title: Traceability
+    url: "/traceability/"
+  cta_title: Bring Your Procedures Into the 21st Century
+  cta_text: Replace paper folders, PDF binders and missed training with a digital
+    SOP system that proves your quality every day.
+  cta_image: "/assets/img/V3-production-tracking.webp"
+non-conformance-reports:
+  h1: Non-Conformance Reports and Corrective Actions
+  intro: Manage quality issues from capture through root cause, corrective action
+    and closure with full traceability.
+  bullets:
+  - Raise and track NCRs in one register
+  - Capture root cause, costs and corrective actions
+  - Connect supplier quality and returns records
+  video:
+    src: https://player.vimeo.com/video/1168402749?badge=0&autopause=0&player_id=0&app_id=58479
+    title: Fraction ERP NCR demo
+  sections:
+  - title: Complete NCR management
+    text: Raise, assign, monitor and close quality issues from one controlled process.
+  - title: Root cause analysis
+    text: Use structured investigation methods such as 5 Why to identify the real
+      cause.
+  - title: Corrective action tracking
+    text: Assign actions, record evidence and maintain accountability through closure.
+  - title: Quality cost visibility
+    text: Capture scrap, rework, replacement parts, subcontract costs and transport
+      impact.
+  screenshots:
+  - image: "/assets/img/ncr-register.webp"
+    title: NCR register
+    text: Manage all NCRs in one place.
+  - image: "/assets/img/ncr-form.webp"
+    title: NCR form
+    text: Capture root causes and costs.
+  - image: "/assets/img/ncr-analytics.webp"
+    title: NCR analytics
+    text: Identify trends and recurring issues.
+  related:
+  - title: Customer Returns
+    url: "/customer-returns/"
+  - title: SOP Software
+    url: "/sop-software/"
+  - title: Calibration Log
+    url: "/calibration-log/"
+  cta_title: Stop Quality Issues Before They Repeat
+  cta_text: Track non-conformances, root causes and corrective actions in one connected
+    workflow.
+calibration-log:
+  h1: Calibration Management for ISO 9001 Compliance
+  intro: Keep equipment calibration schedules, records and certificates controlled
+    so audit evidence is ready when you need it.
+  bullets:
+  - Track equipment calibration due dates
+  - Store certificates and calibration records
+  - Import and manage calibration history
+  video:
+    src: https://player.vimeo.com/video/1168446282?badge=0&autopause=0&player_id=0&app_id=58479
+    title: Fraction ERP calibration demo
+  sections:
+  - title: Control equipment records
+    text: Maintain calibration details for gauges, equipment and measuring devices.
+  - title: Avoid missed calibration
+    text: See what is due and manage calibration schedules before equipment falls
+      overdue.
+  - title: Store certificates
+    text: Attach calibration certificates and supporting evidence to each equipment
+      record.
+  - title: Support audit readiness
+    text: Keep calibration evidence accessible for ISO 9001 and customer audits.
+  screenshots:
+  - image: "/assets/img/calibration-register.webp"
+    title: Calibration register
+    text: See equipment and due dates.
+  - image: "/assets/img/calibration-record.webp"
+    title: Calibration record
+    text: Store certificate and equipment details.
+  - image: "/assets/img/import-calibration-records.webp"
+    title: Import records
+    text: Bring existing calibration data into Fraction ERP.
+  related:
+  - title: Non-Conformance Reports
+    url: "/non-conformance-reports/"
+  - title: SOP Software
+    url: "/sop-software/"
+  - title: Reports
+    url: "/reports/"
+  cta_title: Stay Audit-Ready with Calibration Management
+  cta_text: Track equipment calibration schedules, certificates and ISO 9001 compliance
+    in one place.
+traceability:
+  h1: Serial and Batch Traceability for Manufacturing
+  intro: Trace manufactured and purchased parts from goods received through production,
+    shipment and returns.
+  bullets:
+  - Track serial numbers, batches and supplier lots
+  - Connect production usage to finished goods
+  - Support recalls, audits and customer enquiries
+  sections:
+  - title: Serial number tracking
+    text: Track individual items with unique serial numbers throughout purchasing,
+      production and shipment.
+  - title: Batch and lot traceability
+    text: Manage lot-controlled inventory and keep batch records connected to stock
+      movements.
+  - title: Supplier traceability
+    text: Link purchased parts back to suppliers, batches and quality records when
+      issues arise.
+  - title: Customer shipment records
+    text: Know which serials and batches were shipped to each customer.
+  screenshots:
+  - image: "/assets/img/V3-manage-stock.webp"
+    title: Stock transactions
+    text: Trace movement through inventory.
+  - image: "/assets/img/V3-Works-Order-detail.webp"
+    title: Production links
+    text: Connect traceability to works orders.
+  - image: "/assets/img/V3-Shipments.webp"
+    title: Shipment records
+    text: Link batches and serials to customers.
+  related:
+  - title: Parts and Inventory
+    url: "/parts-and-inventory/"
+  - title: Customer Returns
+    url: "/customer-returns/"
+  - title: Works Orders
+    url: "/works-orders/"
+  cta_title: Full Traceability for Every Part
+  cta_text: Serial and batch traceability for manufactured and bought-in parts, ready
+    for ISO 9001 audits.
+shipping:
+  h1: Shipping and Despatch for Manufacturers
+  intro: Create shipments, notify customers, print labels and raise invoices from
+    one connected ERP workflow.
+  bullets:
+  - Create shipments from customer orders
+  - Email despatch notifications and print labels
+  - Raise invoices and certificates of conformance
+  video:
+    src: https://player.vimeo.com/video/532607112?h=f66460e797&badge=0&autopause=0&player_id=0&app_id=58479
+    title: Fraction ERP shipping demo
+  sections:
+  - title: Create shipments quickly
+    text: Convert orders into shipments without re-entering customer and product details.
+  - title: Notify customers
+    text: Send despatch emails directly from Fraction ERP and keep communication consistent.
+  - title: Print delivery documents
+    text: Generate delivery notes, labels and certificates of conformance when goods
+      leave.
+  - title: Manage returns after despatch
+    text: Connect customer returns back to shipments, stock and quality records.
+  screenshots:
+  - image: "/assets/img/V3-Shipments.webp"
+    title: Shipments due
+    text: See what is ready to ship.
+  - image: "/assets/img/V3-Create-Shipments.webp"
+    title: Create shipments
+    text: Capture key shipping information.
+  - image: "/assets/img/V3-Email-Shipments.webp"
+    title: Email notifications
+    text: Send despatch updates to customers.
+  related:
+  - title: Invoicing
+    url: "/invoicing/"
+  - title: Customer Returns
+    url: "/customer-returns/"
+  - title: Traceability
+    url: "/traceability/"
+  cta_title: Ship Faster, Track Everything
+  cta_text: Connected shipping, stock and invoicing in one workflow with no manual
+    handoffs.
+customer-returns:
+  h1: Customer Returns, Return to Vendor and Material Return Authorisation
+  intro: Manage customer returns, supplier returns, RTVs and material return authorisations
+    in one traceable ERP workflow.
+  bullets:
+  - Control customer returns from request to resolution
+  - Return faulty or incorrect materials to vendors
+  - Trace returns back to batches, serials and shipments
+  sections:
+  - title: Control customer returns
+    text: Capture returned goods, reasons and follow-up actions so returns do not
+      disappear into emails.
+  - title: Return to vendor
+    text: Manage supplier returns when purchased parts are damaged, incorrect or fail
+      inspection.
+  - title: Authorise material movement
+    text: Create a clear process before stock is moved, replaced or credited.
+  - title: Connect to quality records
+    text: Link returns to NCRs and corrective actions when the return points to a
+      wider quality issue.
+  screenshots:
+  - image: "/assets/img/V3-manage-stock.webp"
+    title: Stock context
+    text: Keep returns linked to inventory records.
+  - image: "/assets/img/ncr-register.webp"
+    title: Quality links
+    text: Connect returns to quality issues.
+  - image: "/assets/img/V3-Shipments.webp"
+    title: Shipment links
+    text: Trace returns back to customer despatches.
+  related:
+  - title: Shipping
+    url: "/shipping/"
+  - title: Purchasing
+    url: "/purchasing/"
+  - title: Non-Conformance Reports
+    url: "/non-conformance-reports/"
+  cta_title: Manage Returns Without Losing Traceability
+  cta_text: Customer returns, supplier returns and material return authorisations
+    connected to your stock, purchasing and quality records.
+invoicing:
+  h1: Manufacturing Invoicing with Xero, Sage and QuickBooks
+  intro: Raise invoices from connected shipping and order data, then push information
+    to your accounting system without double entry.
+  bullets:
+  - Create invoices from shipments
+  - Connect to Xero, Sage and QuickBooks
+  - Reduce duplicate accounting data entry
+  video:
+    src: https://player.vimeo.com/video/532613354?h=2070b2c6b8&badge=0&autopause=0&player_id=0&app_id=58479
+    title: Fraction ERP invoicing demo
+  sections:
+  - title: Invoice from shipments
+    text: Raise invoices from shipment data rather than re-keying customer and order
+      information.
+  - title: Connect accounts
+    text: Push invoice information to supported cloud accounting platforms.
+  - title: Keep operations aligned
+    text: Make invoicing part of the same sales, shipping and stock workflow.
+  - title: Reduce admin time
+    text: Remove repetitive invoice entry and keep records consistent across systems.
+  screenshots:
+  - image: "/assets/img/Invoice accounts integration.webp"
+    title: Accounts integration
+    text: Connect invoices to accounting software.
+  - image: "/assets/img/Invoice from shipments.webp"
+    title: Invoice from shipment
+    text: Raise invoices from despatch data.
+  - image: "/assets/img/Invoice web accounts.webp"
+    title: Cloud accounting
+    text: Reduce duplicate entry into accounts.
+  related:
+  - title: Shipping
+    url: "/shipping/"
+  - title: Sales Orders
+    url: "/contracts/"
+  - title: Integrations
+    url: "/integrations/"
+  cta_title: Invoice Faster, Reconcile Cleaner
+  cta_text: Connect Fraction ERP to Xero, Sage or QuickBooks and end the double data
+    entry.
+erp-task-management:
+  h1: Task Management for Manufacturing Teams
+  intro: Capture the actions that keep production moving, assign owners and track
+    completion inside the same ERP your team already uses.
+  bullets:
+  - Assign actions from daily production meetings
+  - Track ownership, due dates and completion
+  - Keep tasks connected to ERP context
+  video:
+    src: https://player.vimeo.com/video/886592483?badge=0&autopause=0&quality_selector=1&player_id=0&app_id=58479
+    title: Fraction ERP task management demo
+  sections:
+  - title: Run better production meetings
+    text: Use live ERP information to capture actions and follow-up from daily meetings.
+  - title: Assign clear ownership
+    text: Give each task an owner and deadline so actions do not get lost.
+  - title: Track completion
+    text: Monitor open and completed actions across the team.
+  - title: Connect work to operations
+    text: Keep task management close to production, quality and commercial records.
+  screenshots:
+  - image: "/assets/img/tasks-1.png"
+    title: Task list
+    text: Manage team actions in one view.
+  - image: "/assets/img/blog/7c44e86fd17faa6a48d8e0175aeeaa24/CreateNewTasks.jpg"
+    title: Daily meeting
+    text: Capture actions from production reviews.
+  - image: "/assets/img/blog/7c44e86fd17faa6a48d8e0175aeeaa24/DashboardTasks.jpg"
+    title: Task visibility
+    text: See what needs attention.
+  related:
+  - title: Dashboard
+    url: "/dashboard/"
+  - title: User Management
+    url: "/user-management/"
+  - title: Non-Conformance Reports
+    url: "/non-conformance-reports/"
+  cta_title: Keep Manufacturing Actions Moving
+  cta_text: Assign, track and complete the tasks that drive your production team.
+user-management:
+  h1: Role-Based User Management for ERP
+  intro: Control who can access each part of your ERP, who can approve key records
+    and how shop floor users interact with production data.
+  bullets:
+  - Set module-level permissions
+  - Control approval roles and spend limits
+  - Use unlimited free shop floor data capture users
+  video:
+    src: https://player.vimeo.com/video/1167434174?badge=0&autopause=0&player_id=0&app_id=58479
+    title: Fraction ERP user management demo
+  sections:
+  - title: Scale users as you grow
+    text: Add and manage users as your business changes without losing permission
+      control.
+  - title: Module permissions
+    text: Choose which modules each user can access with clear role-based settings.
+  - title: Approval control
+    text: Set who can approve BOMs, purchase orders and spending decisions.
+  - title: Shop floor access
+    text: Give operators the access they need without exposing broader ERP administration.
+  screenshots:
+  - image: "/assets/img/users.webp"
+    title: User management
+    text: Manage users in one place.
+  - image: "/assets/img/user-2.webp"
+    title: Permissions
+    text: Set module and role access.
+  - image: "/assets/img/user-capacity.webp"
+    title: User capacity
+    text: Plan capacity for key users.
+  related:
+  - title: Shop Floor Data Capture
+    url: "/shop-floor-data-capture/"
+  - title: SOP Software
+    url: "/sop-software/"
+  - title: Purchasing
+    url: "/purchasing/"
+  cta_title: Give Every Team the Right Access
+  cta_text: Role-based permissions, module-level access and unlimited free shop floor
+    users in Fraction ERP.
+integrations:
+  h1: ERP Integrations for Manufacturing Systems
+  intro: Connect Fraction ERP to accounting, manufacturing, reporting and automation
+    tools so data moves without manual re-entry.
+  bullets:
+  - Integrate with Xero, Sage and QuickBooks
+  - Connect manufacturing and monitoring systems
+  - Use API access for reporting and automation
+  sections:
+  - id: accounting
+    title: Accounting integrations
+    text: Connect to Xero, Sage and QuickBooks to reduce duplicate accounts entry
+      and keep invoice data moving.
+  - id: manufacturing
+    title: Manufacturing integrations
+    text: Connect operational systems such as Intouch Monitoring where shop floor
+      or machine data needs to support ERP decisions.
+  - id: api
+    title: API and data integrations
+    text: Use the Fraction REST API with Power BI, Zapier, Excel and Python for reporting,
+      automation and custom workflows.
+  - title: Reduce disconnected admin
+    text: Keep your ERP as the operational source of truth while still working with
+      best-in-class external tools.
+  screenshots:
+  - image: "/assets/img/dashboard.png"
+    title: Connected data
+    text: Keep ERP data available for reporting.
+  - image: "/assets/img/Invoice accounts integration.webp"
+    title: Accounts integration
+    text: Push finance data to accounts platforms.
+  - image: "/assets/img/dashboard-overview.webp"
+    title: Operational visibility
+    text: Connect data back to business decisions.
+  related:
+  - title: Invoicing
+    url: "/invoicing/"
+  - title: Dashboard
+    url: "/dashboard/"
+  - title: Reports
+    url: "/reports/"
+  cta_title: Connect ERP to the Tools You Already Use
+  cta_text: Accounting, reporting, automation and manufacturing integrations built
+    around your operational data.
+dashboard:
+  h1: Manufacturing ERP Dashboards and Live KPIs
+  intro: See the exceptions, alerts and performance signals that need management attention
+    as soon as you open Fraction ERP.
+  bullets:
+  - Monitor business performance at a glance
+  - Drill into late orders, stock alerts and quality issues
+  - Use live ERP data in daily production meetings
+  video:
+    src: https://player.vimeo.com/video/532622231?h=3ca956dc5d&badge=0&autopause=0&player_id=0&app_id=58479
+    title: Fraction ERP dashboard demo
+  sections:
+  - title: Exception reporting
+    text: Highlight overdue work, stock issues, quality tasks and other items that
+      need action.
+  - title: Decision shortcuts
+    text: Click dashboard tiles to drill straight into the records behind each alert.
+  - title: Daily production meetings
+    text: Use live dashboard data to structure daily reviews and keep teams focused.
+  - title: Cloud visibility
+    text: Access manufacturing performance from anywhere with a web browser.
+  screenshots:
+  - image: "/assets/img/dashboard-overview.webp"
+    title: Dashboard overview
+    text: View key business areas at a glance.
+  - image: "/assets/img/dashboard-stock-alert.webp"
+    title: Stock alerts
+    text: See parts below minimum levels.
+  - image: "/assets/img/dashboard-search.webp"
+    title: Global search
+    text: Find parts, contracts and purchase orders.
+  related:
+  - title: KPIs
+    url: "/erp-key-performance-indicators/"
+  - title: Reports
+    url: "/reports/"
+  - title: Task Management
+    url: "/erp-task-management/"
+  cta_title: See Your Whole Business at a Glance
+  cta_text: Real-time dashboards turn shop floor data into the metrics that matter.
+erp-key-performance-indicators:
+  h1: Manufacturing KPIs and Performance Reporting
+  intro: Turn shop floor and business data into KPIs your team can act on, from on-time
+    delivery to productivity and quality trends.
+  bullets:
+  - Track performance from live ERP data
+  - Monitor delivery, quality and productivity metrics
+  - Use reports to identify improvement opportunities
+  video:
+    src: https://player.vimeo.com/video/888615572?badge=0&autopause=0&player_id=0&app_id=58479
+    title: Fraction ERP KPI demo
+  sections:
+  - title: On-time delivery
+    text: Monitor trends that show whether production and shipping are meeting customer
+      commitments.
+  - title: Quality metrics
+    text: Track NCRs, corrective actions and recurring quality issues using ERP records.
+  - title: Production performance
+    text: Use captured shop floor data to understand actual performance against expectations.
+  - title: Management visibility
+    text: Give leaders the data they need without relying on manual spreadsheet reporting.
+  screenshots:
+  - image: "/assets/img/kpi-1.webp"
+    title: KPI dashboard
+    text: Review business performance metrics.
+  - image: "/assets/img/kpi-2.webp"
+    title: Performance trends
+    text: Spot changes over time.
+  - image: "/assets/img/kpi-3.webp"
+    title: Operational KPIs
+    text: Use ERP data for decision making.
+  related:
+  - title: Dashboard
+    url: "/dashboard/"
+  - title: Reports
+    url: "/reports/"
+  - title: Shop Floor Data Capture
+    url: "/shop-floor-data-capture/"
+  cta_title: Track the KPIs That Drive Your Business
+  cta_text: 'On-time delivery, NCR rates and productivity: Fraction ERP makes the
+    metrics that matter visible in real time.'
+reports:
+  h1: Manufacturing Reports and Business Intelligence
+  intro: Drill into the data behind your manufacturing operation and export the information
+    needed to make better decisions.
+  bullets:
+  - Review production, sales and quality data
+  - Export report data to Excel
+  - Identify trends and improvement opportunities
+  video:
+    src: https://player.vimeo.com/video/888219378?badge=0&autopause=0&quality_selector=1&player_id=0&app_id=58479
+    title: Fraction ERP reports demo
+  sections:
+  - title: Production reporting
+    text: Review works order performance, operation statistics and production outcomes.
+  - title: Sales reporting
+    text: Analyse customer, quote, contract and sales order data from the same ERP
+      system.
+  - title: Quality reporting
+    text: Use NCR and operational data to find repeat issues and improvement priorities.
+  - title: Excel exports
+    text: Export report data when your team needs spreadsheet analysis or external
+      sharing.
+  screenshots:
+  - image: "/assets/img/sfdc-report.webp"
+    title: SFDC report
+    text: Review captured shop floor data.
+  - image: "/assets/img/works-order-stats.webp"
+    title: Works order stats
+    text: Analyse production performance.
+  - image: "/assets/img/sales-report.webp"
+    title: Sales report
+    text: Review sales and contract data.
+  related:
+  - title: Dashboard
+    url: "/dashboard/"
+  - title: KPIs
+    url: "/erp-key-performance-indicators/"
+  - title: Shop Floor Data Capture
+    url: "/shop-floor-data-capture/"
+  cta_title: Turn Manufacturing Data into Decisions
+  cta_text: Drill into your data and find the opportunities your spreadsheets are
+    hiding.
