@@ -1799,14 +1799,25 @@ section {
 }
 @media (max-width: 768px) {
   .cookie-consent-inner {
+    align-items: stretch;
     flex-direction: column;
-    text-align: center;
-    padding: 16px 20px;
-    gap: 14px;
+    text-align: left;
+    padding: 10px 12px;
+    gap: 8px;
+  }
+  .cookie-consent-inner p {
+    font-size: 12px;
+    line-height: 1.35;
   }
   .cookie-consent-actions {
     width: 100%;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px;
+  }
+  .cookie-consent-btn {
+    padding: 8px 10px;
+    font-size: 13px;
   }
 }
 
