@@ -58,6 +58,10 @@ business:
     url: /shipping/
     icon: fa fa-1x fa-truck
     description: Ship goods to your clients, send email shipping notifications and seamlessly raise invoices.
+  - title: Customer Returns
+    url: /customer-returns/
+    icon: fa fa-1x fa-rotate-left
+    description: Manage customer returns, return to vendor workflows and material return authorisations with full traceability.
   - title: Invoicing
     url: /invoicing/
     icon: fa fa-solid fa-money-check-dollar

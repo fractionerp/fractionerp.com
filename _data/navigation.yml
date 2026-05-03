@@ -98,6 +98,8 @@ footer_erp:
     url: /bill-of-materials-software/
   - title: SOP Software
     url: /sop-software/
+  - title: Customer Returns
+    url: /customer-returns/
   - title: Cloud ERP
     url: /cloud-erp-software/
 
