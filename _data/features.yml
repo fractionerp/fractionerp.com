@@ -176,7 +176,7 @@ workflow_stages:
       - title: ERP Integrations
         url: /integrations/
   - number: "06"
-    title: Improve
+    title: Continuous Improvement
     outcome: Use live dashboards, KPIs and reports to drive better decisions.
     image: /assets/img/dashboard-overview.webp
     features:
