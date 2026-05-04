@@ -1,132 +1,145 @@
 ---
 layout: page
-title: "Features: Fraction ERP System"
-description: Features of Fraction ERP / MRP System
-keywords: "ERP, MRP, CLOUD ERP, small business ERP, production management, bill of materials, inventory management"
+title: "Manufacturing ERP Features | Fraction ERP"
+description: "Explore Fraction ERP features as a connected manufacturing workflow covering sales, MRP, purchasing, production, quality, shipping, invoicing, dashboards and reporting."
+keywords: "manufacturing ERP features, MRP features, production management software, manufacturing workflow, ERP modules, shop floor data capture, quality management ERP"
 redirect_from:
   - /erp-key-performance-indicators/features/
   - /reports/features/
 ---
 
-<!-- ======= Features Section ======= -->
-<section id="team" class="team section-bg">
+<section class="features-map-hero">
+  <div class="container">
+    <div class="features-map-hero-grid" data-aos="fade-up">
+      <div>
+        <h1>One Connected Manufacturing Control System</h1>
+        <p>Fraction ERP is not a bag of separate modules. It is a connected operating system for manufacturers, linking the journey from enquiry and planning through production, quality, shipping, invoicing and performance improvement.</p>
+        <div class="features-map-actions">
+          <a href="{{ '/book-a-demo/' | relative_url }}" class="features-map-primary">Book a Demo</a>
+          <a href="#control-map" class="features-map-secondary"><i class="bi bi-diagram-3" aria-hidden="true"></i><span>Explore the Map</span></a>
+        </div>
+      </div>
+      <div class="features-map-panel" aria-label="Manufacturing workflow summary">
+        <div class="features-map-panel-line">
+          <span>Enquiry</span>
+          <span>BOM</span>
+          <span>MRP</span>
+          <span>Works Order</span>
+          <span>Quality</span>
+          <span>Invoice</span>
+        </div>
+        <img src="{{ '/assets/img/erp-dashboard-hero.webp' | relative_url }}" alt="Fraction ERP manufacturing dashboard" loading="eager">
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="control-map" class="features-control-map">
+  <div class="container">
+    <div class="features-map-heading" data-aos="fade-up">
+      <h2>The Manufacturing Control Map</h2>
+      <p>Follow the flow of work through the business. Each stage connects to the features that support that part of the operation.</p>
+    </div>
+
+    <div class="features-stage-grid">
+      {% for stage in site.data.features.workflow_stages %}
+      <article class="features-stage-card" data-aos="fade-up" data-aos-delay="{{ forloop.index | times: 70 }}">
+        <div class="features-stage-media">
+          <img src="{{ stage.image | relative_url }}" alt="{{ stage.title }} in Fraction ERP" loading="lazy">
+          <span>{{ stage.number }}</span>
+        </div>
+        <div class="features-stage-body">
+          <h3>{{ stage.title }}</h3>
+          <p>{{ stage.outcome }}</p>
+          <div class="features-stage-tags">
+            {% for feature in stage.features %}
+            <span>{{ feature }}</span>
+            {% endfor %}
+          </div>
+          <div class="features-stage-links">
+            {% for link in stage.links %}
+            <a href="{{ link.url | relative_url }}">{{ link.title }} <i class="bi bi-arrow-right" aria-hidden="true"></i></a>
+            {% endfor %}
+          </div>
+        </div>
+      </article>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="features-operating-rhythm">
+  <div class="container">
+    <div class="features-rhythm-grid" data-aos="fade-up">
+      <div>
+        <h2>From Transaction Data to Daily Control</h2>
+        <p>The value is not just having a CRM, a BOM screen or a scheduling board. The value is that every department updates the same operational picture, so management can see what needs attention without waiting for spreadsheets to catch up.</p>
+      </div>
+      <div class="features-rhythm-list">
+        <div><strong>Sales</strong><span>Customer demand becomes planned work.</span></div>
+        <div><strong>Stores</strong><span>Stock movements feed purchasing and traceability.</span></div>
+        <div><strong>Production</strong><span>Progress updates dashboards and KPIs.</span></div>
+        <div><strong>Quality</strong><span>Issues, procedures and returns stay connected.</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="features-directory-section">
   <div class="container" data-aos="fade-up">
-    <div class="section-title">
-      <h1>Manufacturing ERP Features for Sales, Production &amp; Quality</h1>
-      <p>Fraction ERP runs small to medium sized manufacturing companies including sales, purchasing, inventory, production management, shipping and invoicing.</p>
+    <div class="features-map-heading">
+      <h2>All Manufacturing ERP Features</h2>
+      <p>Prefer the full feature list? Use this directory to jump straight into each area of Fraction ERP.</p>
     </div>
-    <br>
 
-    <h5>Sales</h5>
-    <div class="row">
-      {% for feature in site.data.features.sales_order_processing %}
-        <div class="col-lg-4 mb-3 d-flex">
-          <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="100">
-            <div><i class="{{ feature.icon }} text-secondary pr-2"></i></div>
-            <div class="member-info">
-              <a href="{{ feature.url | relative_url }}">
-                <h4>{{ feature.title }}</h4>
-              </a>
-              <p>{{ feature.description }}</p>
-            </div>
-          </div>
+    {% assign groups = "sales_order_processing:Sales,production:Production,quality_management:Quality Management,business:Business,company_performance:Company Performance" | split: "," %}
+    {% for group in groups %}
+      {% assign group_parts = group | split: ":" %}
+      {% assign group_key = group_parts[0] %}
+      {% assign group_title = group_parts[1] %}
+      <div class="features-directory-group">
+        <h3>{{ group_title }}</h3>
+        <div class="features-directory-grid">
+          {% for feature in site.data.features[group_key] %}
+          <a class="features-directory-card" href="{{ feature.url | relative_url }}">
+            <i class="{{ feature.icon }}" aria-hidden="true"></i>
+            <span>
+              <strong>{{ feature.title }}</strong>
+              <small>{{ feature.description }}</small>
+            </span>
+          </a>
+          {% endfor %}
         </div>
-      {% endfor %}
-    </div>
-    <br>
+      </div>
+    {% endfor %}
+  </div>
+</section>
 
-    <h5>Production</h5>
-    <div class="row">
-      {% for feature in site.data.features.production %}
-        <div class="col-lg-4 mb-3 d-flex">
-          <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="100">
-            <div><i class="{{ feature.icon }} text-secondary pr-2"></i></div>
-            <div class="member-info">
-              <a href="{{ feature.url | relative_url }}">
-                <h4>{{ feature.title }}</h4>
-              </a>
-              <p>{{ feature.description }}</p>
-            </div>
-          </div>
-        </div>
-      {% endfor %}
-    </div>
-    <br>
-
-    <h5>Quality Management</h5>
-    <div class="row">
-      {% for feature in site.data.features.quality_management %}
-        <div class="col-lg-4 mb-3 d-flex">
-          <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="100">
-            <div><i class="{{ feature.icon }} text-secondary pr-2"></i></div>
-            <div class="member-info">
-              <a href="{{ feature.url | relative_url }}">
-                <h4>{{ feature.title }}</h4>
-              </a>
-              <p>{{ feature.description }}</p>
-            </div>
-          </div>
-        </div>
-      {% endfor %}
-    </div>
-    <br>
-
-    <h5>Business</h5>
-    <div class="row">
-      {% for feature in site.data.features.business %}
-        <div class="col-lg-4 mb-3 d-flex">
-          <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="100">
-            <div><i class="{{ feature.icon }} text-secondary pr-2"></i></div>
-            <div class="member-info">
-              <a href="{{ feature.url | relative_url }}">
-                <h4>{{ feature.title }}</h4>
-              </a>
-              <p>{{ feature.description }}</p>
-            </div>
-          </div>
-        </div>
-      {% endfor %}
-    </div>
-    <br>
-
-    <h5>Company Performance</h5>
-    <div class="row">
-      {% for feature in site.data.features.company_performance %}
-        <div class="col-lg-4 mb-3 d-flex">
-          <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="100">
-            <div><i class="{{ feature.icon }} text-secondary pr-2"></i></div>
-            <div class="member-info">
-              <a href="{{ feature.url | relative_url }}">
-                <h4>{{ feature.title }}</h4>
-              </a>
-              <p>{{ feature.description }}</p>
-            </div>
-          </div>
-        </div>
-      {% endfor %}
-    </div>
-
-    <div class="container mt-5 mb-5">
-      <h4>Common Features</h4>
+<section class="features-platform-section">
+  <div class="container">
+    <div class="features-platform-grid" data-aos="fade-up">
+      <div>
+        <h2>Platform Capabilities Included Across the System</h2>
+        <p>These shared capabilities support the workflows above, keeping the system practical for everyday manufacturing operations.</p>
+      </div>
       <ul>
         {% for feature in site.data.features.common_features %}
-          <li>{{ feature }}</li>
+        <li><i class="bi bi-check-circle-fill" aria-hidden="true"></i><span>{{ feature }}</span></li>
         {% endfor %}
       </ul>
     </div>
   </div>
+</section>
 
-  {% assign testimonial = site.data.testimonials[1] %}
-  {% include testimonial.html quote=testimonial.quote name=testimonial.name title=testimonial.title %}
-</section><!-- End Features Section -->
+{% assign testimonial = site.data.testimonials[1] %}
+{% include testimonial.html quote=testimonial.quote name=testimonial.name title=testimonial.title %}
 
-<!-- ======= CTA Section ======= -->
 <section id="cta" class="cta" style="background: linear-gradient(rgba(40, 58, 90, 0.85), rgba(40, 58, 90, 0.85)), url('{{ '/assets/img/V3-production-tracking.webp' | relative_url }}') center/cover no-repeat;">
   <div class="container" data-aos="zoom-in">
     <div class="row">
       <div class="col-lg-8 text-center text-lg-start">
-        <h3>See These Features in Action</h3>
-        <p>The best way to evaluate Fraction ERP is to see it working with your own processes and data.</p>
+        <h3>See the Control Map in Action</h3>
+        <p>The best way to evaluate Fraction ERP is to see how the workflow connects around your own products, people and production constraints.</p>
       </div>
       <div class="col-lg-4 cta-btn-container text-center d-flex flex-column align-items-center justify-content-center gap-2">
         <a class="cta-btn align-middle" href="{{ '/book-a-demo/' | relative_url }}">Book a Demo</a>

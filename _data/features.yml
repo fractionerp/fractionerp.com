@@ -93,6 +93,107 @@ company_performance:
     icon: fa fa-1x fa-file-excel
     description: Reports give you the data needed to make decisions and everything exports to excel.
 
+workflow_stages:
+  - number: "01"
+    title: Win Work
+    outcome: Convert enquiries into controlled customer demand.
+    image: /assets/img/Contracts-V3.webp
+    features:
+      - CRM
+      - Contracts
+      - Dashboard
+    links:
+      - title: CRM
+        url: /crm/
+      - title: Quotes & Sales Orders
+        url: /contracts/
+      - title: Dashboard
+        url: /dashboard/
+  - number: "02"
+    title: Engineer & Plan
+    outcome: Turn demand into BOMs, routings, stock requirements and production plans.
+    image: /assets/img/V3-BOM-main-screen.webp
+    features:
+      - Bill of Materials
+      - MRP & Purchasing
+      - Production Scheduling
+    links:
+      - title: Bill of Materials
+        url: /bill-of-materials/
+      - title: MRP & Purchasing
+        url: /purchasing/
+      - title: Production Scheduling
+        url: /production-scheduling/
+  - number: "03"
+    title: Make
+    outcome: Release works orders and capture live progress from the shop floor.
+    image: /assets/img/V3-production-tracking.webp
+    features:
+      - Works Orders
+      - Shop Floor Data Capture
+      - User Management
+    links:
+      - title: Works Orders
+        url: /works-orders/
+      - title: Shop Floor Data Capture
+        url: /shop-floor-data-capture/
+      - title: User Management
+        url: /user-management/
+  - number: "04"
+    title: Control Quality
+    outcome: Keep procedures, NCRs, calibration and traceability connected to the work.
+    image: /assets/img/ncr-register.webp
+    features:
+      - SOP Software
+      - Non-Conformance Reports
+      - Calibration Log
+      - Traceability
+    links:
+      - title: SOP Software
+        url: /sop-software/
+      - title: Non-Conformance Reports
+        url: /non-conformance-reports/
+      - title: Calibration Log
+        url: /calibration-log/
+      - title: Traceability
+        url: /traceability/
+  - number: "05"
+    title: Fulfil & Invoice
+    outcome: Ship goods, manage returns and keep invoicing tied to operations.
+    image: /assets/img/V3-Shipments.webp
+    features:
+      - Shipping
+      - Customer Returns
+      - Invoicing
+      - ERP Integrations
+    links:
+      - title: Shipping
+        url: /shipping/
+      - title: Customer Returns
+        url: /customer-returns/
+      - title: Invoicing
+        url: /invoicing/
+      - title: ERP Integrations
+        url: /integrations/
+  - number: "06"
+    title: Improve
+    outcome: Use live dashboards, KPIs and reports to drive better decisions.
+    image: /assets/img/dashboard-overview.webp
+    features:
+      - Dashboard
+      - Key Performance Indicators
+      - Reports
+      - Task Management
+    links:
+      - title: Dashboard
+        url: /dashboard/
+      - title: KPIs
+        url: /erp-key-performance-indicators/
+      - title: Reports
+        url: /reports/
+      - title: Task Management
+        url: /erp-task-management/
+
 common_features:
   - Export data to Excel
   - Direct email of documents to customers and suppliers
