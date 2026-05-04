@@ -85,9 +85,6 @@ redirect_from:
   </div>
 </section>
 
-{% assign testimonial = site.data.testimonials[1] %}
-{% include testimonial.html quote=testimonial.quote name=testimonial.name title=testimonial.title %}
-
 <section id="cta" class="cta" style="background: linear-gradient(rgba(40, 58, 90, 0.85), rgba(40, 58, 90, 0.85)), url('{{ '/assets/img/V3-production-tracking.webp' | relative_url }}') center/cover no-repeat;">
   <div class="container" data-aos="zoom-in">
     <div class="row">
@@ -148,4 +145,7 @@ redirect_from:
     </div>
   </div>
 </section>
+
+{% assign testimonial = site.data.testimonials[1] %}
+{% include testimonial.html quote=testimonial.quote name=testimonial.name title=testimonial.title %}
 <style>.inner-page { padding-bottom: 0 !important; margin-bottom: 0 !important; }</style>
