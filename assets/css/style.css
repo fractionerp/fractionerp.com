@@ -1947,14 +1947,14 @@ section {
 .features-stage-grid {
   display: grid;
   gap: 22px;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-template-columns: 1fr;
 }
 .features-stage-card {
   background: #fff;
   border: 1px solid #d7dee9;
   border-radius: 10px;
   display: grid;
-  grid-template-columns: minmax(180px, 0.75fr) minmax(0, 1fr);
+  grid-template-columns: minmax(320px, 0.65fr) minmax(0, 1fr);
   overflow: hidden;
 }
 .features-stage-media {
@@ -2139,9 +2139,6 @@ section {
   .features-stage-grid,
   .features-directory-grid {
     grid-template-columns: 1fr;
-  }
-  .features-stage-card {
-    grid-template-columns: minmax(170px, 0.55fr) minmax(0, 1fr);
   }
 }
 @media (max-width: 640px) {
