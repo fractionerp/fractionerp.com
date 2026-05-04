@@ -85,6 +85,24 @@ redirect_from:
   </div>
 </section>
 
+{% assign testimonial = site.data.testimonials[1] %}
+{% include testimonial.html quote=testimonial.quote name=testimonial.name title=testimonial.title %}
+
+<section id="cta" class="cta" style="background: linear-gradient(rgba(40, 58, 90, 0.85), rgba(40, 58, 90, 0.85)), url('{{ '/assets/img/V3-production-tracking.webp' | relative_url }}') center/cover no-repeat;">
+  <div class="container" data-aos="zoom-in">
+    <div class="row">
+      <div class="col-lg-8 text-center text-lg-start">
+        <h3>See the Control Map in Action</h3>
+        <p>The best way to evaluate Fraction ERP is to see how the workflow connects around your own products, people and production constraints.</p>
+      </div>
+      <div class="col-lg-4 cta-btn-container text-center d-flex flex-column align-items-center justify-content-center gap-2">
+        <a class="cta-btn align-middle" href="{{ '/book-a-demo/' | relative_url }}">Book a Demo</a>
+        <a href="{{ '/lp/erp-strategy-call/' | relative_url }}" style="color: rgba(255,255,255,0.7); font-size: 13px; text-decoration: none; margin-top: 4px;">Not sure where to start? <span style="text-decoration: underline;">Book a free strategy call</span></a>
+      </div>
+    </div>
+  </div>
+</section>
+
 <section class="features-directory-section">
   <div class="container" data-aos="fade-up">
     <div class="features-map-heading">
@@ -127,24 +145,6 @@ redirect_from:
         <li><i class="bi bi-check-circle-fill" aria-hidden="true"></i><span>{{ feature }}</span></li>
         {% endfor %}
       </ul>
-    </div>
-  </div>
-</section>
-
-{% assign testimonial = site.data.testimonials[1] %}
-{% include testimonial.html quote=testimonial.quote name=testimonial.name title=testimonial.title %}
-
-<section id="cta" class="cta" style="background: linear-gradient(rgba(40, 58, 90, 0.85), rgba(40, 58, 90, 0.85)), url('{{ '/assets/img/V3-production-tracking.webp' | relative_url }}') center/cover no-repeat;">
-  <div class="container" data-aos="zoom-in">
-    <div class="row">
-      <div class="col-lg-8 text-center text-lg-start">
-        <h3>See the Control Map in Action</h3>
-        <p>The best way to evaluate Fraction ERP is to see how the workflow connects around your own products, people and production constraints.</p>
-      </div>
-      <div class="col-lg-4 cta-btn-container text-center d-flex flex-column align-items-center justify-content-center gap-2">
-        <a class="cta-btn align-middle" href="{{ '/book-a-demo/' | relative_url }}">Book a Demo</a>
-        <a href="{{ '/lp/erp-strategy-call/' | relative_url }}" style="color: rgba(255,255,255,0.7); font-size: 13px; text-decoration: none; margin-top: 4px;">Not sure where to start? <span style="text-decoration: underline;">Book a free strategy call</span></a>
-      </div>
     </div>
   </div>
 </section>
