@@ -1895,23 +1895,6 @@ section {
   overflow: hidden;
   padding: 16px;
 }
-.features-map-panel-line {
-  display: grid;
-  gap: 6px;
-  grid-template-columns: repeat(6, 1fr);
-  margin-bottom: 12px;
-}
-.features-map-panel-line span {
-  background: rgba(255,255,255,0.1);
-  border: 1px solid rgba(255,255,255,0.12);
-  border-radius: 6px;
-  color: rgba(255,255,255,0.86);
-  font-family: "Jost", sans-serif;
-  font-size: 12px;
-  font-weight: 600;
-  padding: 8px 4px;
-  text-align: center;
-}
 .features-map-panel img {
   border-radius: 9px;
   display: block;
@@ -2150,9 +2133,6 @@ section {
   }
   .features-map-actions a {
     width: 100%;
-  }
-  .features-map-panel-line {
-    grid-template-columns: repeat(3, 1fr);
   }
   .features-stage-card {
     grid-template-columns: 1fr;
