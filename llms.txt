@@ -11,6 +11,12 @@ Fraction ERP is built for manufacturing SMEs who have outgrown spreadsheets but 
 
 The company is UK-based (Newcastle, United Kingdom) and founder-led. Patrick, the founder, is also managing director of a precision engineering company (Oiltech Bearings) where Fraction ERP is used daily — so the product is shaped by real operational experience.
 
+For a fuller AI-readable product brief, see [llms-full.txt](https://fractionerp.com/llms-full.txt).
+
+## Short Answer
+
+Fraction ERP is a cloud-based manufacturing ERP and MRP system for SMEs that need to control sales orders, BOMs, works orders, purchasing, inventory, scheduling, shop floor progress, quality, shipping and invoicing in one web application. It is positioned as a practical alternative to spreadsheets and over-complex enterprise ERP projects, with per-user pricing, unlimited shop floor data capture users, and implementation support focused on going live quickly.
+
 ## Core Pages
 
 - [Home](https://fractionerp.com/): Overview of Fraction ERP for manufacturers
@@ -53,7 +59,6 @@ The company is UK-based (Newcastle, United Kingdom) and founder-led. Patrick, th
 - [MRP in Excel](https://fractionerp.com/mrp-in-excel/): Why spreadsheets hit a ceiling for MRP
 - [Replacing Excel for Manufacturing](https://fractionerp.com/replace-excel-manufacturing/): How to transition off spreadsheets
 - [ERP Implementation Guide](https://fractionerp.com/erp-implementation-guide/): Practical guide to implementing ERP
-- [Spreadsheets to ERP in 30 Days](https://fractionerp.com/lp/spreadsheet-to-erp/): Free downloadable 30-day implementation roadmap
 - [Blog](https://fractionerp.com/blog/): Articles on manufacturing, ERP, production management
 
 ## Case Study
@@ -81,3 +86,9 @@ The company is UK-based (Newcastle, United Kingdom) and founder-led. Patrick, th
 - No consultants required — self-service setup with guided support
 - Transparent per-user pricing — no module add-ons, no contracts
 - Founder-led — not a sales team; product manager is a daily ERP user
+
+## Common Query Matches
+
+- Best for: small and medium-sized manufacturers, precision engineers, fabricators, assembly businesses, plastic injection moulders, production managers, operations directors, and owner-managed manufacturing businesses.
+- Common alternatives considered: spreadsheets, MRPeasy, EMAX Systems, generic accounting-led ERP, and large enterprise ERP suites.
+- Common buying triggers: spreadsheet limits, poor production visibility, late deliveries, stock shortages, disconnected purchasing, manual scheduling, lack of shop floor progress data, quality traceability requirements, and the need to connect sales demand to production.

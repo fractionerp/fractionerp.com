@@ -1,4 +1,27 @@
 User-agent: *
 Allow: /
 
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-User
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
 Sitemap: https://fractionerp.com/sitemap.xml
+# LLM briefing: https://fractionerp.com/llms.txt
+# Full LLM briefing: https://fractionerp.com/llms-full.txt
