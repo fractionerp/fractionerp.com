@@ -1,7 +1,7 @@
 ---
 layout: landing
 title: "FractionERP — From Spreadsheets to ERP in 30 Days"
-description: "Free implementation guide for small manufacturers. The step-by-step process to move from spreadsheets to a fully operational ERP in 30 days, without disruption."
+description: "Free implementation guide for small manufacturers. Move from spreadsheets to a fully operational ERP in 30 days without shutting down production."
 modal_title: "Get Your Free Guide"
 modal_description: "Enter your details and we'll send the complete 30-day implementation guide straight to your inbox."
 nav_links:
@@ -9,8 +9,6 @@ nav_links:
     url: "#problem"
   - title: "The Guide"
     url: "#guide"
-  - title: "Why Fraction ERP"
-    url: "#features"
 formspree_endpoint: "https://formspree.io/f/xgegpdra"
 form_subject: "New guide download — Spreadsheets to ERP"
 permalink: /lp/spreadsheet-to-erp/
@@ -399,6 +397,11 @@ extra_css: |
     /* TESTIMONIALS */
     .testimonials { display: grid; grid-template-columns: repeat(3,1fr); gap: 1.5rem; margin-top: 3rem; }
 
+    .testimonials.single {
+      grid-template-columns: minmax(0, 720px);
+      justify-content: center;
+    }
+
     .testimonial {
       background: var(--steel);
       border: 1px solid var(--rule);
@@ -487,7 +490,7 @@ extra_css: |
     <div class="hero-tag">Free Implementation Guide</div>
     <h1>From Spreadsheets to ERP in <em>30 Days</em></h1>
     <p class="hero-sub">
-      The step-by-step implementation guide that helps <strong>small manufacturers</strong> transition from spreadsheets to a fully operational ERP &mdash; without disrupting production.
+      A step-by-step implementation guide for <strong>small manufacturers</strong> &mdash; get fully operational without shutting down production.
     </p>
     <div class="hero-ctas">
       <button class="btn-primary btn-download" onclick="openModal()">Get the Free Guide &rarr;</button>
@@ -498,7 +501,7 @@ extra_css: |
   <div class="hero-right">
     <div class="guide-card">
       <div class="guide-card-header">
-        <div class="guide-badge">Free Guide</div>
+        <div class="guide-badge">Implementation Guide</div>
         <h3>Spreadsheets to ERP in 30 Days</h3>
       </div>
       <div class="guide-card-body">
@@ -521,7 +524,7 @@ extra_css: |
       </div>
       <div class="guide-card-footer">
         <button class="btn-primary btn-download" onclick="openModal()">Download Free &rarr;</button>
-        <div class="guide-lock">&#128274; No credit card required</div>
+        <div class="guide-lock">&#128231; Sent to your inbox immediately</div>
       </div>
     </div>
   </div>
@@ -530,8 +533,7 @@ extra_css: |
 <!-- PAIN POINTS -->
 <section class="section" id="problem">
   <div class="section-label">The Problem</div>
-  <h2>Still Running Your Factory<br>on Spreadsheets?</h2>
-  <p class="section-intro">You're not alone. Most small manufacturers start with spreadsheets. But as you grow, they become the bottleneck.</p>
+  <h2>If Any of These Sound Familiar, You've Probably Outgrown Your Spreadsheets</h2>
 
   <div class="pain-grid">
     <div class="pain-item">
@@ -603,14 +605,11 @@ extra_css: |
           <h4>Move your operations across, module by module</h4>
           <div class="steps-list">
             <div class="step"><span class="step-num">06</span> Import inventory and set opening stock levels</div>
-            <div class="step"><span class="step-num">07</span> <span class="step-locked">Build your first sales order and test the full order-to-invoice flow</span></div>
-            <div class="step"><span class="step-num">08</span> <span class="step-locked">Set up production workflows, work orders, and routing templates</span></div>
-            <div class="step"><span class="step-num">09</span> <span class="step-locked">Configure purchasing rules, reorder points, and supplier lead times</span></div>
-            <div class="step"><span class="step-num">10</span> <span class="step-locked">Run parallel operations — spreadsheet alongside ERP — for one week</span></div>
+            <div class="step"><span class="step-num">07–10</span> Steps 7–10 are included in the full guide, covering order flow, production setup, purchasing rules and parallel running.</div>
           </div>
           <div class="phase-locked-banner">
-            <span>Download the guide to unlock all steps</span>
-            <button onclick="openModal()">Unlock</button>
+            <span>Steps 7–10 are in the full guide</span>
+            <button onclick="openModal()">Get the Free Guide</button>
           </div>
         </div>
       </div>
@@ -623,49 +622,15 @@ extra_css: |
         </div>
         <div class="phase-content">
           <h4>Switch over and close out the spreadsheets</h4>
-          <div class="steps-list step-locked">
-            <div class="step"><span class="step-num">11</span> Finalise data validation and resolve any discrepancies</div>
-            <div class="step"><span class="step-num">12</span> Train your team on daily workflows and reporting</div>
-            <div class="step"><span class="step-num">13</span> Switch to ERP-only operations for all new orders</div>
-            <div class="step"><span class="step-num">14</span> Set up automated reports and dashboards for management</div>
-            <div class="step"><span class="step-num">15</span> Archive spreadsheets and celebrate your new workflow</div>
+          <div class="steps-list">
+            <div class="step"><span class="step-num">11–15</span> Steps 11–15 are included in the full guide, covering validation, team training, ERP-only operations, reporting and spreadsheet close-out.</div>
           </div>
           <div class="phase-locked-banner">
-            <span>Download the guide to unlock all steps</span>
-            <button onclick="openModal()">Unlock</button>
+            <span>Steps 11–15 are in the full guide</span>
+            <button onclick="openModal()">Get the Free Guide</button>
           </div>
         </div>
       </div>
-    </div>
-  </div>
-</section>
-
-<!-- WHY FRACTIONERP -->
-<section class="section" id="features">
-  <div class="section-label">Why Fraction ERP</div>
-  <h2>Built for Manufacturers<br>Who've Outgrown Spreadsheets</h2>
-  <p class="section-intro">Not another bloated enterprise system. Fraction ERP is designed specifically for small manufacturers who need to get up and running fast.</p>
-
-  <div class="features-grid">
-    <div class="feature">
-      <div class="feature-icon">&#9881;</div>
-      <h4>Built for Manufacturing</h4>
-      <p>Bills of materials, work orders, production scheduling, and shop floor tracking — all designed for how manufacturers actually work, not retrofitted from accounting software.</p>
-    </div>
-    <div class="feature">
-      <div class="feature-icon">&#9889;</div>
-      <h4>Go Live in 30 Days</h4>
-      <p>No 12-month implementation projects. Our guided setup and import tools mean you can be running production through Fraction ERP within a month.</p>
-    </div>
-    <div class="feature">
-      <div class="feature-icon">&#128101;</div>
-      <h4>No Consultants Required</h4>
-      <p>Set up and configure everything yourself with our step-by-step guides and support team. No expensive implementation partners needed.</p>
-    </div>
-    <div class="feature">
-      <div class="feature-icon">&#163;</div>
-      <h4>Transparent Pricing</h4>
-      <p>Simple per-user pricing with no hidden fees, no module add-ons, and no contracts. Cancel any time. All features included from day one.</p>
     </div>
   </div>
 </section>
@@ -673,29 +638,9 @@ extra_css: |
 <!-- TESTIMONIALS -->
 <section class="section">
   <div class="section-label">From the Shop Floor</div>
-  <h2>What Manufacturers Say</h2>
+  <h2>One Manufacturer's Spreadsheet Move</h2>
 
-  <div class="testimonials">
-    <div class="testimonial">
-      <p>"We no longer struggle with spreadsheets since implementing Fraction ERP. We spend much less time on admin and chasing information. It has helped us maintain control of production and keep an eye on the business, with everything in one place."</p>
-      <div class="testimonial-meta">
-        <div class="tav">DC</div>
-        <div>
-          <div class="tav-name">Dave Crossman</div>
-          <div class="tav-title">Managing Director, Black Hills Products</div>
-        </div>
-      </div>
-    </div>
-    <div class="testimonial">
-      <p>"The impact of using Fraction ERP? Dramatically improved staff productivity and a noticeable drop in office frustration. Fraction ERP hasn't just improved our workflow — it's transformed the way we work."</p>
-      <div class="testimonial-meta">
-        <div class="tav">CB</div>
-        <div>
-          <div class="tav-name">Carl Buckley</div>
-          <div class="tav-title">Managing Director, Trinity Precision Engineering</div>
-        </div>
-      </div>
-    </div>
+  <div class="testimonials single">
     <div class="testimonial">
       <p>"Fraction ERP has helped us to move away from our clunky spreadsheets into a more effective way of working. Data is now at our fingertips and is presented in a very clear and visual way. The system is easy to learn and we were able to implement Fraction a bit at a time."</p>
       <div class="testimonial-meta">
@@ -711,7 +656,7 @@ extra_css: |
 
 <!-- CTA STRIP -->
 <section class="cta-strip">
-  <h2>Ready to Ditch the Spreadsheets?</h2>
-  <p>Download the free guide and follow the same 30-day roadmap that hundreds of manufacturers have used to make the switch.</p>
+  <h2>Get the 30-Day Roadmap — Free</h2>
+  <p>The same step-by-step guide used by manufacturers who've already made the switch. Enter your details and it's in your inbox immediately.</p>
   <button class="btn-primary btn-download" onclick="openModal()">Get the Free Guide &rarr;</button>
 </section>
