@@ -51,7 +51,9 @@ layout: default
     <div class="container">
       <div class="feature-section-heading" data-aos="fade-up">
         <h2>{{ feature.sections_title | default: "What You Can Do" }}</h2>
+        {% unless feature.sections_intro == false %}
         <p>{{ feature.sections_intro | default: "Practical tools for running manufacturing workflows without disconnected spreadsheets or duplicate data entry." }}</p>
+        {% endunless %}
       </div>
       <div class="feature-card-grid">
         {% for section in feature.sections %}
@@ -70,7 +72,7 @@ layout: default
     <div class="container">
       <div class="feature-demo-grid" data-aos="fade-up">
         <div>
-          <h2>See the Workflow</h2>
+          <h2>{{ feature.video_heading | default: "See the Workflow" }}</h2>
           <p>{{ feature.video_text | default: "Watch a short walkthrough of the feature, then book a demo to see how it would work with your own products and processes." }}</p>
         </div>
         <div class="feature-video-frame">
@@ -109,7 +111,7 @@ layout: default
   <section class="feature-related-section">
     <div class="container">
       <div class="feature-related">
-        <h2>Related Manufacturing ERP Features</h2>
+        <h2>{{ feature.related_title | default: "Related Manufacturing ERP Features" }}</h2>
         <div class="feature-related-links">
           {% for item in feature.related %}
           <a href="{{ item.url | relative_url }}">{{ item.title }} <i class="bi bi-arrow-right" aria-hidden="true"></i></a>
@@ -120,5 +122,5 @@ layout: default
   </section>
   {% endif %}
 
-  {% include cta.html title=feature.cta_title text=feature.cta_text image=feature.cta_image %}
+  {% include cta.html title=feature.cta_title text=feature.cta_text image=feature.cta_image hide_strategy_call=feature.cta_hide_strategy_call %}
 </main>

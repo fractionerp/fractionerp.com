@@ -37,7 +37,7 @@ crm:
   - title: Sales Orders
     url: "/contracts/"
   - title: Dashboard
-    url: "/dashboard/"
+    url: "/erp-dashboard/"
   - title: Task Management
     url: "/erp-task-management/"
   cta_title: Grow Sales with a CRM Built for Manufacturers
@@ -253,7 +253,7 @@ production-scheduling:
   - title: Shop Floor Data Capture
     url: "/shop-floor-data-capture/"
   - title: Dashboard
-    url: "/dashboard/"
+    url: "/erp-dashboard/"
   cta_title: Schedule Production with Confidence
   cta_text: Visual planning, drag-and-drop scheduling and capacity management built
     for manufacturers.
@@ -340,7 +340,7 @@ purchasing:
   - title: Customer Returns
     url: "/customer-returns/"
   - title: Dashboard
-    url: "/dashboard/"
+    url: "/erp-dashboard/"
   cta_title: Buy the Right Parts at the Right Time
   cta_text: Let MRP demand drive your purchasing with fewer stockouts and surprise
     overstocks.
@@ -664,7 +664,7 @@ erp-task-management:
     text: See what needs attention.
   related:
   - title: Dashboard
-    url: "/dashboard/"
+    url: "/erp-dashboard/"
   - title: User Management
     url: "/user-management/"
   - title: Non-Conformance Reports
@@ -750,52 +750,64 @@ integrations:
   - title: Invoicing
     url: "/invoicing/"
   - title: Dashboard
-    url: "/dashboard/"
+    url: "/erp-dashboard/"
   - title: Reports
     url: "/reports/"
   cta_title: Connect ERP to the Tools You Already Use
   cta_text: Accounting, reporting, automation and manufacturing integrations built
     around your operational data.
 dashboard:
-  h1: Manufacturing ERP Dashboards and Live KPIs
-  intro: See the exceptions, alerts and performance signals that need management attention
-    as soon as you open Fraction ERP.
+  h1: Manufacturing ERP Dashboard
+  intro: See every exception, alert and overdue item that needs attention — the moment
+    you open Fraction ERP.
   bullets:
-  - Monitor business performance at a glance
-  - Drill into late orders, stock alerts and quality issues
-  - Use live ERP data in daily production meetings
+  - Late orders, stock alerts and quality issues surfaced automatically
+  - Drill from any tile directly into the records behind it
+  - Built for daily production meetings — open it, work through it, done
   video:
     src: https://player.vimeo.com/video/532622231?h=3ca956dc5d&badge=0&autopause=0&player_id=0&app_id=58479
     title: Fraction ERP dashboard demo
+  sections_intro: false
   sections:
   - title: Exception reporting
-    text: Highlight overdue work, stock issues, quality tasks and other items that
-      need action.
-  - title: Decision shortcuts
-    text: Click dashboard tiles to drill straight into the records behind each alert.
+    text: Overdue jobs, low stock, quality flags and outstanding tasks surfaced in
+      one view — nothing buried in a report.
+  - title: Drill-down from any tile
+    text: Click any dashboard tile to go straight to the records behind it, without
+      navigating menus.
   - title: Daily production meetings
-    text: Use live dashboard data to structure daily reviews and keep teams focused.
-  - title: Cloud visibility
-    text: Access manufacturing performance from anywhere with a web browser.
+    text: Open the dashboard, work through the exceptions as a team, close it. That's
+      the whole meeting.
+  - title: Access from anywhere
+    text: Browser-based, so your operations manager can check the same live data from
+      the office, the shop floor or off-site.
+  video_heading: Watch the Dashboard in Action
+  video_text: A short walkthrough of how the exception tiles, drill-downs and daily
+    meeting view work in practice.
   screenshots:
   - image: "/assets/img/dashboard-overview.webp"
     title: Dashboard overview
-    text: View key business areas at a glance.
+    text: 'The exception tiles your team opens every morning: late jobs, stock alerts,
+      outstanding POs and quality tasks.'
   - image: "/assets/img/dashboard-stock-alert.webp"
     title: Stock alerts
-    text: See parts below minimum levels.
+    text: Parts below minimum level, with a direct link to the purchase order screen.
   - image: "/assets/img/dashboard-search.webp"
     title: Global search
-    text: Find parts, contracts and purchase orders.
+    text: Find any part, contract or order from anywhere in the system without navigating
+      menus.
+  related_title: Also in Fraction ERP
   related:
-  - title: KPIs
+  - title: KPIs and Performance Tracking
     url: "/erp-key-performance-indicators/"
   - title: Reports
     url: "/reports/"
   - title: Task Management
     url: "/erp-task-management/"
-  cta_title: See Your Whole Business at a Glance
-  cta_text: Real-time dashboards turn shop floor data into the metrics that matter.
+  cta_title: Want to See the Dashboard with Your Own Data?
+  cta_text: Book a demo and we'll walk through how exception reporting and daily meeting
+    views would work for your operation.
+  cta_hide_strategy_call: true
 erp-key-performance-indicators:
   h1: Manufacturing KPIs and Performance Reporting
   intro: Turn shop floor and business data into KPIs your team can act on, from on-time
@@ -829,7 +841,7 @@ erp-key-performance-indicators:
     text: Use ERP data for decision making.
   related:
   - title: Dashboard
-    url: "/dashboard/"
+    url: "/erp-dashboard/"
   - title: Reports
     url: "/reports/"
   - title: Shop Floor Data Capture
@@ -871,7 +883,7 @@ reports:
     text: Review sales and contract data.
   related:
   - title: Dashboard
-    url: "/dashboard/"
+    url: "/erp-dashboard/"
   - title: KPIs
     url: "/erp-key-performance-indicators/"
   - title: Shop Floor Data Capture

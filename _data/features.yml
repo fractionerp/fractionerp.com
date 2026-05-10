@@ -81,7 +81,7 @@ business:
 
 company_performance:
   - title: Dashboard
-    url: /dashboard/
+    url: /erp-dashboard/
     icon: fa fa-1x fa-gauge
     description: See business exceptions including late deliveries and shipments. Monitor processes in real time.
   - title: Key Performance Indicators
@@ -108,7 +108,7 @@ workflow_stages:
       - title: Quotes & Sales Orders
         url: /contracts/
       - title: Dashboard
-        url: /dashboard/
+        url: /erp-dashboard/
   - number: "02"
     title: Engineer & Plan
     outcome: Turn demand into BOMs, routings, stock requirements and production plans.
@@ -186,7 +186,7 @@ workflow_stages:
       - Task Management
     links:
       - title: Dashboard
-        url: /dashboard/
+        url: /erp-dashboard/
       - title: KPIs
         url: /erp-key-performance-indicators/
       - title: Reports
