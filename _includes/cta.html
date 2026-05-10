@@ -3,13 +3,13 @@
   <div class="container" data-aos="zoom-in">
     <div class="row">
       <div class="col-lg-8 text-center text-lg-start">
-        <h3>{{ include.title | default: "Ready to See Fraction ERP in Action?" }}</h3>
-        <p>{{ include.text | default: "Book a personalised demo and see how Fraction ERP can help your manufacturing business run smoother." }}</p>
+        <h3>{{ include.title | default: "See Fraction ERP with Your Own Workflow" }}</h3>
+        <p>{{ include.text | default: "Book a demo and we'll walk through the parts of the system that match your orders, stock, production and reporting." }}</p>
       </div>
       <div class="col-lg-4 cta-btn-container text-center d-flex flex-column align-items-center justify-content-center gap-2">
         <a class="cta-btn align-middle" href="{{ '/book-a-demo/' | relative_url }}">{{ include.button | default: "Book a Demo" }}</a>
         {% unless include.hide_strategy_call %}
-        <a href="{{ '/lp/erp-strategy-call/' | relative_url }}" style="color: rgba(255,255,255,0.85); font-size: 13px; text-decoration: none;">Not ready for a demo? <span style="text-decoration: underline;">Book a free strategy call</span></a>
+        <a href="{{ '/lp/erp-strategy-call/' | relative_url }}" style="color: rgba(255,255,255,0.85); font-size: 13px; text-decoration: none;">Want advice first? <span style="text-decoration: underline;">Talk to the team</span></a>
         {% endunless %}
         <a href="{{ '/pricing/' | relative_url }}" style="color: rgba(255,255,255,0.7); font-size: 13px; text-decoration: underline;">View pricing</a>
       </div>

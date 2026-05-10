@@ -3,11 +3,11 @@ sales_order_processing:
   - title: CRM
     url: /crm/
     icon: fa-solid fa-users
-    description: Manage customer relationships, track interactions and grow your sales pipeline.
+    description: Track customer relationships, sales actions and follow-ups alongside your ERP data.
   - title: Contracts
     url: /contracts/
     icon: fa-regular fa-file
-    description: Manage your entire sales process with enquiries, quotes and sales order processing.
+    description: Manage enquiries, quotes and sales orders from the same customer record.
   - title: Parts and Inventory
     url: /parts-and-inventory/
     icon: fa-solid fa-gears
@@ -21,7 +21,7 @@ production:
   - title: Works Orders
     url: /works-orders/
     icon: fa fa-1x fa-file-lines
-    description: Take control of production requirements with our easy works order management system.
+    description: Create, release and track production orders from demand through completion.
   - title: Production Scheduling
     url: /production-scheduling/
     icon: fa fa-1x fa-calendar-alt
@@ -33,7 +33,7 @@ production:
   - title: MRP & Purchasing
     url: /purchasing/
     icon: fa fa-1x fa-cart-shopping
-    description: Integrated with our MRP system, purchasing is a powerful tool with built in approvals.
+    description: Use MRP demand to create purchase requirements, approvals and supplier orders.
 
 quality_management:
   - title: Standard Operating Procedures
@@ -57,7 +57,7 @@ business:
   - title: Shipping
     url: /shipping/
     icon: fa fa-1x fa-truck
-    description: Ship goods to your clients, send email shipping notifications and seamlessly raise invoices.
+    description: Create shipments, send customer notifications and raise invoices from despatch data.
   - title: Customer Returns
     url: /customer-returns/
     icon: fa fa-1x fa-rotate-left
@@ -65,19 +65,19 @@ business:
   - title: Invoicing
     url: /invoicing/
     icon: fa fa-solid fa-money-check-dollar
-    description: Raise invoices using our invoice module, integrated directly with your accounts software.
+    description: Raise invoices from shipment data and push them to your accounting software.
   - title: Task Management
     url: /erp-task-management/
     icon: fa fa-1x fa-square-check
-    description: Task management for your team for anything and everything!
+    description: Assign production, quality and admin actions with owners and due dates.
   - title: User Management
     url: /user-management/
     icon: fa fa-1x fa-gauge
-    description: Easily control permissions, roles and scale your users as your business needs grow.
+    description: Set user roles, module permissions and approval access by team.
   - title: ERP Integrations
     url: /integrations/
     icon: fa fa-1x fa-gauge
-    description: Seamless integration with best in class, cloud accounting software.
+    description: Connect Fraction ERP with accounting, reporting and manufacturing systems.
 
 company_performance:
   - title: Dashboard
@@ -91,7 +91,7 @@ company_performance:
   - title: Reports
     url: /reports/
     icon: fa fa-1x fa-file-excel
-    description: Reports give you the data needed to make decisions and everything exports to excel.
+    description: Review ERP data in reports and export it to Excel when needed.
 
 workflow_stages:
   - number: "01"

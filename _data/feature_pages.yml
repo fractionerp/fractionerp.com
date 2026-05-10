@@ -40,7 +40,7 @@ crm:
     url: "/erp-dashboard/"
   - title: Task Management
     url: "/erp-task-management/"
-  cta_title: Grow Sales with a CRM Built for Manufacturers
+  cta_title: Manage Sales Activity Inside Your ERP
   cta_text: Track customer relationships and sales opportunities alongside your live
     production data.
 contracts:
@@ -84,9 +84,9 @@ contracts:
     url: "/purchasing/"
   - title: Works Orders
     url: "/works-orders/"
-  cta_title: Win More Quotes and Streamline Sales
-  cta_text: Manage enquiries, quotes and sales orders in one connected workflow without
-    losing track of a single deal.
+  cta_title: Manage Enquiries, Quotes and Orders Together
+  cta_text: Keep enquiry details, quote history and accepted orders connected as work
+    moves toward production.
 parts-and-inventory:
   h1: Parts and Inventory Management for Manufacturers
   intro: Manage part data, stock levels, transactions and traceability in one place
@@ -128,8 +128,9 @@ parts-and-inventory:
     url: "/traceability/"
   - title: Bill of Materials
     url: "/bill-of-materials/"
-  cta_title: Take Control of Your Parts and Inventory
-  cta_text: Track stock levels, manage parts data and eliminate spreadsheet juggling.
+  cta_title: Keep Parts and Stock Records Accurate
+  cta_text: Manage part records, stock levels and traceability without separate stock
+    spreadsheets.
 bill-of-materials:
   h1: Bill of Materials Software for Manufacturing
   intro: Create structured BOMs with operations, instructions and costing so engineering
@@ -170,9 +171,9 @@ bill-of-materials:
     url: "/production-scheduling/"
   - title: Parts and Inventory
     url: "/parts-and-inventory/"
-  cta_title: Take Control of Your Bill of Materials
-  cta_text: Eliminate BOM errors, capture accurate job costing and connect engineering
-    to production with Fraction ERP.
+  cta_title: Build BOMs Your Production Team Can Use
+  cta_text: Define product structure, routing and cost assumptions before work reaches
+    the shop floor.
   cta_image: "/assets/img/BOM general view.webp"
 works-orders:
   h1: Works Orders for Make-to-Order and Make-to-Stock
@@ -213,9 +214,9 @@ works-orders:
     url: "/shop-floor-data-capture/"
   - title: Production Scheduling
     url: "/production-scheduling/"
-  cta_title: Run Production with Confidence
-  cta_text: 'Make-to-order or make-to-stock: Fraction ERP keeps your works orders
-    on track and on time.'
+  cta_title: See How Works Orders Run in Fraction ERP
+  cta_text: 'Make-to-order or make-to-stock: create production orders, track status
+    and keep linked records together.'
 production-scheduling:
   h1: Production Scheduling Software for Manufacturers
   intro: Schedule production with clearer visibility of capacity, priorities and dates,
@@ -254,9 +255,9 @@ production-scheduling:
     url: "/shop-floor-data-capture/"
   - title: Dashboard
     url: "/erp-dashboard/"
-  cta_title: Schedule Production with Confidence
-  cta_text: Visual planning, drag-and-drop scheduling and capacity management built
-    for manufacturers.
+  cta_title: Plan Production Against Real Capacity
+  cta_text: Use works order demand, workcentre loading and drag-and-drop changes to
+    keep the schedule current.
 shop-floor-data-capture:
   h1: Shop Floor Data Capture with Unlimited Free Users
   intro: Give operators a simple way to log time, progress and activity so production
@@ -297,9 +298,9 @@ shop-floor-data-capture:
     url: "/production-scheduling/"
   - title: KPIs
     url: "/erp-key-performance-indicators/"
-  cta_title: Real-Time Visibility on the Shop Floor
-  cta_text: Unlimited free SFDC users mean every operator can clock on and off without
-    licence headaches.
+  cta_title: Capture Shop Floor Progress as It Happens
+  cta_text: Let operators record progress and actual times without adding licence
+    cost for every shop floor user.
 purchasing:
   h1: MRP and Purchasing Software for Manufacturers
   intro: Let real demand drive purchasing, supplier management and goods received
@@ -382,9 +383,9 @@ sop-software:
     url: "/user-management/"
   - title: Traceability
     url: "/traceability/"
-  cta_title: Bring Your Procedures Into the 21st Century
-  cta_text: Replace paper folders, PDF binders and missed training with a digital
-    SOP system that proves your quality every day.
+  cta_title: Manage SOPs Inside Your ERP
+  cta_text: Keep procedures, revisions and training records controlled in the same
+    system your team already uses.
   cta_image: "/assets/img/V3-production-tracking.webp"
 non-conformance-reports:
   h1: Non-Conformance Reports and Corrective Actions
@@ -425,7 +426,7 @@ non-conformance-reports:
     url: "/sop-software/"
   - title: Calibration Log
     url: "/calibration-log/"
-  cta_title: Stop Quality Issues Before They Repeat
+  cta_title: Track NCRs Through to Corrective Action
   cta_text: Track non-conformances, root causes and corrective actions in one connected
     workflow.
 calibration-log:
@@ -507,9 +508,9 @@ traceability:
     url: "/customer-returns/"
   - title: Works Orders
     url: "/works-orders/"
-  cta_title: Full Traceability for Every Part
-  cta_text: Serial and batch traceability for manufactured and bought-in parts, ready
-    for ISO 9001 audits.
+  cta_title: Trace Parts From Receipt to Delivery
+  cta_text: Connect serial and batch records to purchasing, production, shipment and
+    return history.
 shipping:
   h1: Shipping and Despatch for Manufacturers
   intro: Create shipments, notify customers, print labels and raise invoices from
@@ -548,9 +549,9 @@ shipping:
     url: "/customer-returns/"
   - title: Traceability
     url: "/traceability/"
-  cta_title: Ship Faster, Track Everything
-  cta_text: Connected shipping, stock and invoicing in one workflow with no manual
-    handoffs.
+  cta_title: Connect Despatch, Stock and Invoicing
+  cta_text: Create shipments, update stock records and raise invoices from the same
+    despatch workflow.
 customer-returns:
   h1: Customer Returns, Return to Vendor and Material Return Authorisation
   intro: Manage customer returns, supplier returns, RTVs and material return authorisations
@@ -629,9 +630,8 @@ invoicing:
     url: "/contracts/"
   - title: Integrations
     url: "/integrations/"
-  cta_title: Invoice Faster, Reconcile Cleaner
-  cta_text: Connect Fraction ERP to Xero, Sage or QuickBooks and end the double data
-    entry.
+  cta_title: Raise Invoices From Shipping Data
+  cta_text: Create invoices from despatch records and send them to Xero, Sage or QuickBooks.
 erp-task-management:
   h1: Task Management for Manufacturing Teams
   intro: Capture the actions that keep production moving, assign owners and track
@@ -669,8 +669,9 @@ erp-task-management:
     url: "/user-management/"
   - title: Non-Conformance Reports
     url: "/non-conformance-reports/"
-  cta_title: Keep Manufacturing Actions Moving
-  cta_text: Assign, track and complete the tasks that drive your production team.
+  cta_title: Keep Production Actions Visible
+  cta_text: Assign owners, due dates and follow-up actions from production, quality
+    and daily meeting work.
 user-management:
   h1: Role-Based User Management for ERP
   intro: Control who can access each part of your ERP, who can approve key records
@@ -753,9 +754,9 @@ integrations:
     url: "/erp-dashboard/"
   - title: Reports
     url: "/reports/"
-  cta_title: Connect ERP to the Tools You Already Use
-  cta_text: Accounting, reporting, automation and manufacturing integrations built
-    around your operational data.
+  cta_title: Connect ERP Data to the Tools You Use
+  cta_text: Link accounting, reporting, automation and manufacturing systems to the
+    operational data in Fraction ERP.
 dashboard:
   h1: Manufacturing ERP Dashboard
   intro: See every exception, alert and overdue item that needs attention — the moment
@@ -846,9 +847,9 @@ erp-key-performance-indicators:
     url: "/reports/"
   - title: Shop Floor Data Capture
     url: "/shop-floor-data-capture/"
-  cta_title: Track the KPIs That Drive Your Business
-  cta_text: 'On-time delivery, NCR rates and productivity: Fraction ERP makes the
-    metrics that matter visible in real time.'
+  cta_title: Track Delivery, Quality and Productivity
+  cta_text: 'Use live ERP data to monitor on-time delivery, NCR rates and production
+    performance.'
 reports:
   h1: Manufacturing Reports and Business Intelligence
   intro: Drill into the data behind your manufacturing operation and export the information
@@ -888,6 +889,6 @@ reports:
     url: "/erp-key-performance-indicators/"
   - title: Shop Floor Data Capture
     url: "/shop-floor-data-capture/"
-  cta_title: Turn Manufacturing Data into Decisions
-  cta_text: Drill into your data and find the opportunities your spreadsheets are
-    hiding.
+  cta_title: Review Manufacturing Data Without Rebuilding Reports
+  cta_text: Drill into production, sales and quality records, then export the data
+    when you need it.
