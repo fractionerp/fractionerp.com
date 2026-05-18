@@ -58,9 +58,6 @@ plans:
       - Production KPIs
       - Calibration Log
       - Serial Traceability
-      - Leave Management|*
-      - Risk Assessments|*
-      - COSHH Register|*
 
   - name: Pro
     tagline: Drive performance and efficiency at scale with advanced tools
@@ -106,6 +103,8 @@ plans:
       - API Integration
       - CRM
       - Leave Management|*
+      - Risk Assessments|*
+      - COSHH Register|*
 
   - name: Moulding Edition
     tagline: Built for plastic injection moulding manufacturers
