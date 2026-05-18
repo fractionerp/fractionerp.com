@@ -59,6 +59,8 @@ plans:
       - Calibration Log
       - Serial Traceability
       - Leave Management|new
+      - Risk Assessments|*
+      - COSHH Register|*
 
   - name: Pro
     tagline: Drive performance and efficiency at scale with advanced tools
