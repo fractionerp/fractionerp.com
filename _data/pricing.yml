@@ -98,8 +98,8 @@ plans:
       - SOPs|new
       - Customer Returns
       - RFQ's for purchasing
-      - Inspection Reports
-      - Contract Review
+      - Inspection Reports|*
+      - Contract Review|*
       - API Integration
       - CRM
       - Leave Management|*
