@@ -58,7 +58,7 @@ plans:
       - Production KPIs
       - Calibration Log
       - Serial Traceability
-      - Leave Management|new
+      - Leave Management|*
       - Risk Assessments|*
       - COSHH Register|*
 
@@ -105,7 +105,7 @@ plans:
       - Contract Review
       - API Integration
       - CRM
-      - Leave Management|new
+      - Leave Management|*
 
   - name: Moulding Edition
     tagline: Built for plastic injection moulding manufacturers
