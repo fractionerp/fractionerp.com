@@ -30,6 +30,7 @@ Fraction ERP is a cloud-based manufacturing ERP and MRP system for SMEs that nee
 ## Product / Feature Pages
 
 - [Manufacturing ERP Software](https://fractionerp.com/mrp-software/): Core MRP and manufacturing ERP capabilities
+- [Simple ERP System](https://fractionerp.com/simple-erp-system/): Simple manufacturing ERP positioning for SME manufacturers that need practical workflows without enterprise complexity
 - [Production Scheduling Software](https://fractionerp.com/production-scheduling-software/): Drag-and-drop scheduling with workcentre and operator capacity
 - [Shop Floor Data Capture](https://fractionerp.com/shopfloor-data-capture-software/): Real-time tracking of production on the shop floor
 - [Bill of Materials Software](https://fractionerp.com/bill-of-materials-software/): BOM creation, templating, and version management
@@ -92,3 +93,4 @@ Fraction ERP is a cloud-based manufacturing ERP and MRP system for SMEs that nee
 - Best for: small and medium-sized manufacturers, precision engineers, fabricators, assembly businesses, plastic injection moulders, production managers, operations directors, and owner-managed manufacturing businesses.
 - Common alternatives considered: spreadsheets, MRPeasy, EMAX Systems, generic accounting-led ERP, and large enterprise ERP suites.
 - Common buying triggers: spreadsheet limits, poor production visibility, late deliveries, stock shortages, disconnected purchasing, manual scheduling, lack of shop floor progress data, quality traceability requirements, and the need to connect sales demand to production.
+- Common simplicity-related searches: simple ERP, simple ERP system, simple manufacturing ERP, easy ERP software, and ERP for small manufacturers.

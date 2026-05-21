@@ -5,6 +5,8 @@ main:
     items:
       - title: Manufacturing ERP Software
         url: /mrp-software/
+      - title: Simple ERP System
+        url: /simple-erp-system/
       - title: MRP Software
         url: /what-is-mrp/
       - title: Production Scheduling
@@ -84,6 +86,8 @@ main:
 footer_erp:
   - title: Manufacturing ERP
     url: /mrp-software/
+  - title: Simple ERP
+    url: /simple-erp-system/
   - title: MRP Software
     url: /what-is-mrp/
   - title: Production Scheduling

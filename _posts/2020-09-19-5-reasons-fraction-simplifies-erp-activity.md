@@ -14,7 +14,7 @@ How simple is your current business system to use? If you have an existing ERP s
 Like all technology, ERP systems should help your organisation to become more productive. It should not be a burden that requires you to increase your administration budgets just to adopt the software.
 
 
-When we designed and developed Fraction ERP, this was one of our goals; develop a simple ERP system that cut out the learning curve and complexity.
+When we designed and developed Fraction ERP, this was one of our goals; develop a [simple ERP system](https://fractionerp.com/simple-erp-system/) that cut out the learning curve and complexity.
 
 
 There are lots of reasons that we could give you as to why Fraction ERP can simplify ERP activity, but here are five to get you started!

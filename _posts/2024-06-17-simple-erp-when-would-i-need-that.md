@@ -8,7 +8,7 @@ author: Giles Johnston
 permalink: /blog/simple-erp-when-would-i-need-that/
 ---
 
-[**Simple ERP**](https://fractionerp.com/erp-manufacturing-workflow.php) is a term used more commonly nowadays.
+[**Simple ERP**](https://fractionerp.com/simple-erp-system/) is a term used more commonly nowadays.
 
 
 When ERP started off in the early 1990s it was a complex piece of software. For many businesses looking into this, the price tag was certainly proportional to the complexity!

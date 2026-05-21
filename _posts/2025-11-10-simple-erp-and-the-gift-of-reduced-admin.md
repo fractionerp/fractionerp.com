@@ -14,7 +14,7 @@ Do you wish that you could reduce the amount of administrative work your team ha
 Who doesn't?
 
 
-That's why we focused Fraction ERP on being a [**simple ERP system**](https://fractionerp.com/).
+That's why we focused Fraction ERP on being a [**simple ERP system**](https://fractionerp.com/simple-erp-system/).
 
 
 
