@@ -40,7 +40,7 @@ plans:
       - Non Conformance Reports
       - Unlimited Shop Floor Data Capture
       - Shipping
-      - Invoicing
+      - Invoicing + Proforma Invoicing
       - Dashboard
       - Reports
       - Automatic Production Scheduling
@@ -76,7 +76,7 @@ plans:
       - Non Conformance Reports
       - Unlimited Shop Floor Data Capture
       - Shipping
-      - Invoicing
+      - Invoicing + Proforma Invoicing
       - Dashboard
       - Reports
       - Automatic Production Scheduling
