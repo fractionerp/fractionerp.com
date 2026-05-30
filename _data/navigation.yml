@@ -71,11 +71,13 @@ main:
     dropdown: true
     items:
       - title: Accounting — Xero, Sage, QuickBooks
-        url: /integrations/#accounting
+        url: /accounting-integrations/
+      - title: Ecommerce — Bluepark
+        url: /ecommerce-integrations/
       - title: Manufacturing — Intouch Monitoring
-        url: /integrations/#manufacturing
+        url: /manufacturing-integrations/
       - title: API & Data — Power BI, Zapier, Excel, Python
-        url: /integrations/#api
+        url: /api-integrations/
   - title: Pricing
     url: /pricing/
   - title: Book a Demo

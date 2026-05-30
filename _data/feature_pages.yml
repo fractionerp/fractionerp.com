@@ -714,29 +714,36 @@ user-management:
   cta_text: Role-based permissions, module-level access and unlimited free shop floor
     users in Fraction ERP.
 integrations:
-  h1: ERP Integrations for Manufacturing Systems
-  intro: Connect Fraction ERP to accounting, manufacturing, reporting and automation
-    tools so data moves without manual re-entry.
+  h1: ERP Integrations for Manufacturing and Ecommerce
+  intro: Connect Fraction ERP to the systems your business already uses, from accounts
+    and ecommerce to shop floor monitoring, reporting and custom API workflows.
   bullets:
-  - Integrate with Xero, Sage and QuickBooks
-  - Connect manufacturing and monitoring systems
-  - Use API access for reporting and automation
+  - Move invoice and purchase data into Xero, Sage and QuickBooks
+  - Bring ecommerce orders into ERP for spare parts and custom parts sales
+  - Connect manufacturing, reporting and automation workflows through API access
+  sections_title: Integration Categories
+  sections_intro: Choose the integration route that matches the data you need to move.
   sections:
   - id: accounting
     title: Accounting integrations
-    text: Connect to Xero, Sage and QuickBooks to reduce duplicate accounts entry
-      and keep invoice data moving.
+    text: Connect Fraction ERP to Xero, Sage and QuickBooks so invoices, purchase
+      data and accounts records do not have to be re-keyed. <a href="https://fractionerp.com/accounting-integrations/">View accounting integrations</a>.
   - id: manufacturing
     title: Manufacturing integrations
-    text: Connect operational systems such as Intouch Monitoring where shop floor
-      or machine data needs to support ERP decisions.
+    text: Connect operational systems such as Intouch Monitoring and Siemens Opcenter
+      where shop floor or machine data needs to support ERP decisions. <a href="https://fractionerp.com/manufacturing-integrations/">View manufacturing integrations</a>.
+  - id: ecommerce
+    title: Ecommerce integrations
+    text: Bring webstore orders into Fraction ERP for engineering and manufacturing
+      businesses selling spare parts, replacement parts or custom parts online. <a href="https://fractionerp.com/ecommerce-integrations/">View ecommerce integrations</a>.
   - id: api
     title: API and data integrations
     text: Use the Fraction REST API with Power BI, Zapier, Excel and Python for reporting,
-      automation and custom workflows.
-  - title: Reduce disconnected admin
-    text: Keep your ERP as the operational source of truth while still working with
-      best-in-class external tools.
+      automation and custom workflows. <a href="https://fractionerp.com/api-integrations/">View API and data integrations</a>.
+  - id: request-integration
+    title: Request an integration
+    text: Need another ecommerce, accounts, reporting or manufacturing integration?
+      Tell us what system you use and what data needs to move between platforms. <a href="https://fractionerp.com/contact/">Request an integration</a>.
   screenshots:
   - image: "/assets/img/dashboard.png"
     title: Connected data
@@ -748,15 +755,155 @@ integrations:
     title: Operational visibility
     text: Connect data back to business decisions.
   related:
-  - title: Invoicing
-    url: "/invoicing/"
-  - title: Dashboard
-    url: "/erp-dashboard/"
-  - title: Reports
-    url: "/reports/"
+  - title: Accounting Integrations
+    url: "/accounting-integrations/"
+  - title: Ecommerce Integrations
+    url: "/ecommerce-integrations/"
+  - title: API and Data Integrations
+    url: "/api-integrations/"
   cta_title: Connect ERP Data to the Tools You Use
   cta_text: Link accounting, reporting, automation and manufacturing systems to the
     operational data in Fraction ERP.
+accounting-integrations:
+  h1: Accounting ERP Integrations
+  intro: Connect Fraction ERP to Xero, Sage and QuickBooks so commercial data can
+    move from manufacturing operations into your accounts software without duplicate
+    entry.
+  bullets:
+  - Push invoices from despatch and sales order data
+  - Keep purchase and accounts data aligned
+  - Reduce re-keying between ERP and finance systems
+  sections_title: What Accounting Integrations Help With
+  sections_intro: Accounts integrations keep Fraction ERP focused on operations while
+    your finance system remains the accounting record.
+  sections:
+  - title: Invoice data
+    text: Raise invoices from shipment and order data in Fraction ERP, then send the
+      relevant information to your connected accounts package.
+  - title: Purchase records
+    text: Keep purchasing activity connected to finance processes without asking
+      teams to type the same supplier and order data twice.
+  - title: Supported accounts platforms
+    text: Fraction ERP supports cloud accounting integrations with Xero, Sage Business
+      Cloud Accounting and QuickBooks Online.
+  - title: Cleaner handover to finance
+    text: Operations can work from sales, stock and despatch data while finance keeps
+      control of accounting, tax and reporting in the accounts system.
+  related:
+  - title: Invoicing
+    url: "/invoicing/"
+  - title: Sales Order Management
+    url: "/sales-order-management-software/"
+  - title: Purchasing
+    url: "/purchasing-inventory-software/"
+  cta_title: Connect ERP and Accounts
+  cta_text: See how Fraction ERP can move invoice and purchase data into your accounting
+    workflow.
+manufacturing-integrations:
+  h1: Manufacturing ERP Integrations
+  intro: Connect Fraction ERP to operational systems where machine, shop floor or
+    production data needs to support planning and delivery decisions.
+  bullets:
+  - Connect work order workflows with manufacturing systems
+  - Support production decisions with operational data
+  - Keep ERP as the source of truth for orders, stock and jobs
+  sections_title: Manufacturing Integration Use Cases
+  sections_intro: Manufacturing integrations are most useful where another system
+    captures operational data that should feed back into ERP decisions.
+  sections:
+  - title: Intouch Monitoring
+    text: Use Intouch Monitoring integration where production or monitoring data needs
+      to support works order visibility and operational decisions in Fraction ERP.
+  - title: Siemens Opcenter
+    text: Fraction ERP can support work order integration workflows with Siemens Opcenter
+      where scheduled jobs need to move between systems.
+  - title: Shop floor and machine data
+    text: Bring useful operational signals back into the ERP context instead of leaving
+      them isolated in a separate production system.
+  - title: Request a manufacturing integration
+    text: If your operation uses another shop floor, monitoring or production system,
+      talk to us about the data you need to exchange.
+  related:
+  - title: Shop Floor Data Capture
+    url: "/shopfloor-data-capture-software/"
+  - title: Production Scheduling
+    url: "/production-scheduling-software/"
+  - title: Works Orders
+    url: "/works-orders/"
+  cta_title: Connect Manufacturing Systems
+  cta_text: Talk to us about the production, monitoring or shop floor system you need
+    to connect.
+ecommerce-integrations:
+  h1: Ecommerce ERP Integration for Manufacturers
+  intro: Connect ecommerce orders to Fraction ERP for engineering and manufacturing
+    businesses selling spare parts, replacement parts and custom parts online.
+  bullets:
+  - Bring webstore orders into your ERP workflow
+  - Manage online parts sales alongside stock, purchasing and production
+  - Request ecommerce integrations where your webstore needs ERP data
+  sections_title: Ecommerce Integration Use Cases
+  sections_intro: Ecommerce integration is useful when online sales need to become
+    controlled ERP demand rather than a separate admin process.
+  sections:
+  - title: Bluepark ecommerce integration
+    text: Fraction ERP now integrates with Bluepark, a UK ecommerce platform. Use
+      it to bring online orders into your ERP workflow for spare parts, replacement
+      parts or custom manufactured parts. See <a href="https://www.bluepark.co.uk/" target="_blank" rel="noopener">Bluepark</a>,
+      <a href="https://www.bluepark.co.uk/features.html" target="_blank" rel="noopener">Bluepark features</a>
+      and <a href="https://www.bluepark.co.uk/api.html" target="_blank" rel="noopener">Bluepark API</a>.
+  - title: Spare parts and replacement parts
+    text: Engineering and manufacturing businesses can sell repeat parts online while
+      keeping stock, order and purchasing data connected inside ERP.
+  - title: Custom parts sold online
+    text: Where a webstore is used for configured or custom parts, ERP integration
+      helps turn the online order into a controlled internal workflow.
+  - title: Request an ecommerce integration
+    text: Use another ecommerce platform? Tell us which webstore you use and what
+      order, stock or customer data needs to move. <a href="https://fractionerp.com/contact/">Request an integration</a>.
+  related:
+  - title: Sales Order Management
+    url: "/sales-order-management-software/"
+  - title: Inventory & Purchasing
+    url: "/purchasing-inventory-software/"
+  - title: Bill of Materials
+    url: "/bill-of-materials-software/"
+  cta_title: Connect Your Webstore to ERP
+  cta_text: Talk to us about ecommerce orders, spare parts, custom parts and the ERP
+    workflow behind them.
+api-integrations:
+  h1: ERP API and Data Integrations
+  intro: Use Fraction ERP data with reporting, automation and custom workflows through
+    API and data integration routes.
+  bullets:
+  - Connect ERP data to Power BI dashboards and reports
+  - Use Zapier, Excel or Python where a lightweight workflow is enough
+  - Build custom integrations around your operational data
+  sections_title: API and Data Integration Options
+  sections_intro: API and data integrations are best when you need reporting, automation
+    or a custom workflow that goes beyond a standard connector.
+  sections:
+  - title: Power BI reporting
+    text: Use ERP data in Power BI where management reporting, operational dashboards
+      or analysis needs to sit outside the ERP interface.
+  - title: Zapier automation
+    text: Use Zapier for simpler workflow automation where a lightweight connection
+      between business tools is enough.
+  - title: Excel and Python
+    text: Export, analyse or automate ERP data using familiar tools where your team
+      has an existing reporting or scripting workflow.
+  - title: REST API access
+    text: Use the Fraction REST API for custom integrations where another system
+      needs controlled access to ERP records and workflows.
+  related:
+  - title: Reports
+    url: "/reports/"
+  - title: Dashboard
+    url: "/erp-dashboard/"
+  - title: ERP Integrations
+    url: "/integrations/"
+  cta_title: Build Around Your ERP Data
+  cta_text: Talk to us about the reporting, automation or API workflow you need to
+    connect.
 dashboard:
   h1: Manufacturing ERP Dashboard
   intro: See every exception, alert and overdue item that needs attention — the moment
