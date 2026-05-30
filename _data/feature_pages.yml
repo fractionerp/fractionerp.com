@@ -746,6 +746,16 @@ integrations:
     text: Need another ecommerce, accounts, reporting or manufacturing integration?
       Tell us what system you use and what data needs to move between platforms.
       <a href="https://fractionerp.com/contact/">Request an integration</a>.
+  screenshots:
+  - image: "/assets/img/dashboard.png"
+    title: Connected data
+    text: Keep ERP data available for reporting.
+  - image: "/assets/img/Invoice accounts integration.webp"
+    title: Accounts integration
+    text: Push finance data to accounts platforms.
+  - image: "/assets/img/dashboard-overview.webp"
+    title: Operational visibility
+    text: Connect data back to business decisions.
   related:
   - title: Sales Order Management
     url: "/sales-order-management-software/"
