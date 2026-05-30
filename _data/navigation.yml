@@ -136,9 +136,6 @@ footer_resources:
     url: /case-studies/oiltech/
   - title: Blog
     url: /blog/
-  - title: Support
-    url: https://support.fractionerp.com
-    external: true
 
 footer_compare:
   - title: ERP Comparisons
