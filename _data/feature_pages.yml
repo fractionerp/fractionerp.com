@@ -714,32 +714,18 @@ user-management:
   cta_text: Role-based permissions, module-level access and unlimited free shop floor
     users in Fraction ERP.
 integrations:
-  h1: ERP Integrations for Manufacturing and Ecommerce
-  intro: Connect Fraction ERP to ecommerce, accounting, manufacturing, reporting and
-    automation tools so data moves without manual re-entry.
+  h1: ERP Integrations for Manufacturing Systems
+  intro: Connect Fraction ERP to accounting, manufacturing, reporting and automation
+    tools so data moves without manual re-entry.
   bullets:
   - Integrate with Xero, Sage and QuickBooks
-  - Connect ecommerce orders from Bluepark
   - Connect manufacturing and monitoring systems
   - Use API access for reporting and automation
-  sections_title: Integration Categories
   sections:
   - id: accounting
     title: Accounting integrations
     text: Connect to Xero, Sage and QuickBooks to reduce duplicate accounts entry
       and keep invoice data moving.
-  - id: ecommerce
-    title: Ecommerce integrations
-    text: Connect webstore orders into Fraction ERP for engineering and manufacturing
-      businesses selling spare parts, replacement parts or custom parts online.
-  - id: bluepark
-    title: Bluepark ecommerce integration
-    text: Fraction ERP now integrates with Bluepark, a UK ecommerce platform. Use
-      it to bring online orders into your ERP workflow so parts sold through your
-      webstore can be managed alongside sales, stock, purchasing and production.
-      See <a href="https://www.bluepark.co.uk/" target="_blank" rel="noopener">Bluepark</a>,
-      <a href="https://www.bluepark.co.uk/features.html" target="_blank" rel="noopener">Bluepark features</a>
-      and <a href="https://www.bluepark.co.uk/api.html" target="_blank" rel="noopener">Bluepark API</a>.
   - id: manufacturing
     title: Manufacturing integrations
     text: Connect operational systems such as Intouch Monitoring where shop floor
@@ -748,11 +734,6 @@ integrations:
     title: API and data integrations
     text: Use the Fraction REST API with Power BI, Zapier, Excel and Python for reporting,
       automation and custom workflows.
-  - id: request-integration
-    title: Request an integration
-    text: Need another ecommerce, accounts, reporting or manufacturing integration?
-      Tell us what system you use and what data needs to move between platforms.
-      <a href="https://fractionerp.com/contact/">Request an integration</a>.
   - title: Reduce disconnected admin
     text: Keep your ERP as the operational source of truth while still working with
       best-in-class external tools.
@@ -767,17 +748,15 @@ integrations:
     title: Operational visibility
     text: Connect data back to business decisions.
   related:
-  - title: Sales Order Management
-    url: "/sales-order-management-software/"
-  - title: Inventory & Purchasing
-    url: "/purchasing-inventory-software/"
   - title: Invoicing
     url: "/invoicing/"
   - title: Dashboard
     url: "/erp-dashboard/"
-  cta_title: Connect Ecommerce and ERP Data
-  cta_text: Link ecommerce, accounting, reporting, automation and manufacturing systems
-    to the operational data in Fraction ERP.
+  - title: Reports
+    url: "/reports/"
+  cta_title: Connect ERP Data to the Tools You Use
+  cta_text: Link accounting, reporting, automation and manufacturing systems to the
+    operational data in Fraction ERP.
 dashboard:
   h1: Manufacturing ERP Dashboard
   intro: See every exception, alert and overdue item that needs attention — the moment

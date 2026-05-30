@@ -72,8 +72,6 @@ main:
     items:
       - title: Accounting — Xero, Sage, QuickBooks
         url: /integrations/#accounting
-      - title: Ecommerce — Bluepark
-        url: /integrations/#ecommerce
       - title: Manufacturing — Intouch Monitoring
         url: /integrations/#manufacturing
       - title: API & Data — Power BI, Zapier, Excel, Python
