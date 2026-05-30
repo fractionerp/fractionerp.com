@@ -740,22 +740,12 @@ integrations:
       See <a href="https://www.bluepark.co.uk/" target="_blank" rel="noopener">Bluepark</a>,
       <a href="https://www.bluepark.co.uk/features.html" target="_blank" rel="noopener">Bluepark features</a>
       and <a href="https://www.bluepark.co.uk/api.html" target="_blank" rel="noopener">Bluepark API</a>.
-  - id: manufacturing
-    title: Manufacturing integrations
-    text: Connect operational systems such as Intouch Monitoring where shop floor
-      or machine data needs to support ERP decisions.
-  - id: api
-    title: API and data integrations
-    text: Use the Fraction REST API with Power BI, Zapier, Excel and Python for reporting,
-      automation and custom workflows.
   - id: request-integration
     title: Request an integration
+    wide: true
     text: Need another ecommerce, accounts, reporting or manufacturing integration?
       Tell us what system you use and what data needs to move between platforms.
       <a href="https://fractionerp.com/contact/">Request an integration</a>.
-  - title: Reduce disconnected admin
-    text: Keep your ERP as the operational source of truth while still working with
-      best-in-class external tools.
   screenshots:
   - image: "/assets/img/dashboard.png"
     title: Connected data

@@ -57,7 +57,7 @@ layout: default
       </div>
       <div class="feature-card-grid">
         {% for section in feature.sections %}
-        <article class="feature-info-card" {% if section.id %}id="{{ section.id }}"{% endif %} data-aos="fade-up" data-aos-delay="{{ forloop.index | times: 60 }}">
+        <article class="feature-info-card{% if section.wide %} feature-info-card-wide{% endif %}" {% if section.id %}id="{{ section.id }}"{% endif %} data-aos="fade-up" data-aos-delay="{{ forloop.index | times: 60 }}">
           <h3>{{ section.title }}</h3>
           <p>{{ section.text }}</p>
         </article>
