@@ -2284,9 +2284,6 @@ section {
   border-radius: 8px;
   padding: 24px;
 }
-.feature-info-card-wide {
-  grid-column: 1 / -1;
-}
 .feature-info-card h3,
 .feature-screenshot-card h3 {
   color: #37517e;
