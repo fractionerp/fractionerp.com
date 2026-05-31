@@ -411,10 +411,10 @@ health-safety-software:
     text: See who still needs to review or acknowledge assigned safety records.
   - label: Compliance score
     value: Live
-    text: Track completion across assigned health and safety records.
-  - label: Re-training count
+    text: Track completion, acknowledgement and re-training triggered by expired records.
+  - label: Expired risk assessments
     value: Due
-    text: Identify users who need refresher training after safety records change.
+    text: Identify risk assessments past their review date so they can be updated and reassigned.
   sections_title: Health and Safety Inside Your ERP
   sections_intro: Dedicated EHS platforms can be too broad for smaller manufacturers.
     Fraction ERP focuses on the safety records that need to sit alongside day-to-day
@@ -470,10 +470,10 @@ risk-assessment-software:
     text: See who still needs to review or acknowledge assigned risk assessments.
   - label: Compliance score
     value: Live
-    text: Track assessment completion and acknowledgement across your team.
-  - label: Re-training count
+    text: Track completion, acknowledgement and re-training triggered by expired assessments.
+  - label: Expired risk assessments
     value: Due
-    text: Identify users who need refresher training after a risk assessment changes.
+    text: Identify assessments past their review date so they can be updated and reassigned.
   sections_title: What the Risk Assessment Module Covers
   sections_intro: The first health and safety module in Fraction ERP focuses on the
     records manufacturers need to keep workplace risk assessments controlled.
