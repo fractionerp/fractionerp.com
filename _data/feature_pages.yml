@@ -353,6 +353,16 @@ sop-software:
   - Create controlled digital SOPs and work instructions
   - Manage revisions, approvals and training assignments
   - Keep evidence ready for ISO 9001 audits
+  metric_cards:
+  - label: Outstanding training
+    value: Open
+    text: See which users still need to review and sign off assigned SOPs.
+  - label: Compliance score
+    value: Live
+    text: Track completion across assigned procedures and training records.
+  - label: Re-training count
+    value: Due
+    text: Identify users who need refresher training when records change.
   video:
     src: https://player.vimeo.com/video/1186849878?badge=0&autopause=0&player_id=0&app_id=58479
     title: Fraction ERP SOP demo
@@ -395,6 +405,16 @@ health-safety-software:
   - Create and maintain workplace risk assessments
   - Keep safety records close to people, processes and operations
   - COSHH register support is planned as the next health and safety module
+  metric_cards:
+  - label: Outstanding training
+    value: Open
+    text: See who still needs to review or acknowledge assigned safety records.
+  - label: Compliance score
+    value: Live
+    text: Track completion across assigned health and safety records.
+  - label: Re-training count
+    value: Due
+    text: Identify users who need refresher training after safety records change.
   sections_title: Health and Safety Inside Your ERP
   sections_intro: Dedicated EHS platforms can be too broad for smaller manufacturers.
     Fraction ERP focuses on the safety records that need to sit alongside day-to-day
@@ -444,6 +464,16 @@ risk-assessment-software:
   - Record workplace hazards, risks and control measures
   - Keep review dates and ownership visible
   - Reduce reliance on scattered documents and spreadsheets
+  metric_cards:
+  - label: Outstanding training
+    value: Open
+    text: See who still needs to review or acknowledge assigned risk assessments.
+  - label: Compliance score
+    value: Live
+    text: Track assessment completion and acknowledgement across your team.
+  - label: Re-training count
+    value: Due
+    text: Identify users who need refresher training after a risk assessment changes.
   sections_title: What the Risk Assessment Module Covers
   sections_intro: The first health and safety module in Fraction ERP focuses on the
     records manufacturers need to keep workplace risk assessments controlled.

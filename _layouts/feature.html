@@ -46,6 +46,22 @@ layout: default
     </div>
   </section>
 
+  {% if feature.metric_cards %}
+  <section class="feature-metrics-section">
+    <div class="container">
+      <div class="feature-metrics-grid" data-aos="fade-up">
+        {% for card in feature.metric_cards %}
+        <article class="feature-metric-card">
+          <span>{{ card.label }}</span>
+          <strong>{{ card.value }}</strong>
+          <p>{{ card.text }}</p>
+        </article>
+        {% endfor %}
+      </div>
+    </div>
+  </section>
+  {% endif %}
+
   {% if feature.sections %}
   <section class="feature-section">
     <div class="container">
