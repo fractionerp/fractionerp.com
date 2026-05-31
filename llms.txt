@@ -34,6 +34,8 @@ Fraction ERP is a cloud-based manufacturing ERP and MRP system for SMEs that nee
 - [Production Scheduling Software](https://fractionerp.com/production-scheduling-software/): Drag-and-drop scheduling with workcentre and operator capacity
 - [Shop Floor Data Capture](https://fractionerp.com/shopfloor-data-capture-software/): Real-time tracking of production on the shop floor
 - [Bill of Materials Software](https://fractionerp.com/bill-of-materials-software/): BOM creation, templating, and version management
+- [Health and Safety Software](https://fractionerp.com/health-safety-software/): Health and safety records inside manufacturing ERP, starting with workplace risk assessments
+- [Risk Assessment Software](https://fractionerp.com/risk-assessment-software/): Workplace risk assessments for manufacturers, with COSHH register support planned
 - [Sales Order Management](https://fractionerp.com/sales-order-management-software/): Quote-to-invoice workflow
 - [Purchasing and Inventory](https://fractionerp.com/purchasing-inventory-software/): Purchase orders, stock control, reorder points
 - [Cloud ERP Software](https://fractionerp.com/cloud-erp-software/): Cloud deployment and mobility

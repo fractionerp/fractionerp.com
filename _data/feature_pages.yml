@@ -387,6 +387,99 @@ sop-software:
   cta_text: Keep procedures, revisions and training records controlled in the same
     system your team already uses.
   cta_image: "/assets/img/V3-production-tracking.webp"
+health-safety-software:
+  h1: Health and Safety Software for Manufacturing ERP
+  intro: Manage practical health and safety records inside Fraction ERP, starting
+    with workplace risk assessments for SME manufacturing teams.
+  bullets:
+  - Create and maintain workplace risk assessments
+  - Keep safety records close to people, processes and operations
+  - COSHH register support is planned as the next health and safety module
+  sections_title: Health and Safety Inside Your ERP
+  sections_intro: Dedicated EHS platforms can be too broad for smaller manufacturers.
+    Fraction ERP focuses on the safety records that need to sit alongside day-to-day
+    manufacturing control.
+  sections:
+  - id: risk-assessments
+    title: Workplace risk assessments
+    text: Record hazards, risks, control measures and review information in the same
+      system your team uses for production, quality and operational control.
+  - title: Connected manufacturing context
+    text: Keep risk assessment records close to departments, processes, roles and
+      the people responsible for keeping work controlled.
+  - id: coshh-register
+    title: COSHH register
+    text: COSHH register support is coming soon, giving manufacturers a place to
+      organise substance records and chemical safety information alongside operational
+      ERP data.
+  - title: A practical SME approach
+    text: This is not positioned as a full enterprise EHS suite. It is a practical
+      health and safety layer for manufacturers who want fewer spreadsheets and
+      better control.
+  screenshots:
+  - image: "/assets/img/dashboard-overview.webp"
+    title: Safety records in context
+    text: Keep safety activity visible alongside operational data.
+  - image: "/assets/img/sop-manager.webp"
+    title: Controlled records
+    text: Manage documents and records in a structured system.
+  - image: "/assets/img/V3-production-tracking.webp"
+    title: Manufacturing context
+    text: Connect health and safety records to real production activity.
+  related:
+  - title: Risk Assessment Software
+    url: "/risk-assessment-software/"
+  - title: SOP Software
+    url: "/sop-software/"
+  - title: User Management
+    url: "/user-management/"
+  cta_title: Bring Health and Safety Records Into ERP
+  cta_text: See how Fraction ERP can support risk assessments and future COSHH records
+    alongside your manufacturing workflows.
+risk-assessment-software:
+  h1: Workplace Risk Assessment Software for Manufacturers
+  intro: Create and manage workplace risk assessments inside Fraction ERP so safety
+    records are controlled alongside your manufacturing operation.
+  bullets:
+  - Record workplace hazards, risks and control measures
+  - Keep review dates and ownership visible
+  - Reduce reliance on scattered documents and spreadsheets
+  sections_title: What the Risk Assessment Module Covers
+  sections_intro: The first health and safety module in Fraction ERP focuses on the
+    records manufacturers need to keep workplace risk assessments controlled.
+  sections:
+  - title: Hazard and risk records
+    text: Capture the hazard, affected people, risk context and control measures
+      in one structured record.
+  - title: Review and ownership
+    text: Keep responsibility and review information visible so assessments are not
+      forgotten after they are created.
+  - title: Manufacturing workplace use
+    text: Use risk assessments for shop floor areas, stores, production activities,
+      maintenance tasks and other workplace processes.
+  - title: Part of a wider safety category
+    text: Risk assessments are the first module in the Health and Safety category,
+      with COSHH register support planned next.
+  screenshots:
+  - image: "/assets/img/dashboard-overview.webp"
+    title: Risk visibility
+    text: Keep safety records visible inside the ERP environment.
+  - image: "/assets/img/V3-production-tracking.webp"
+    title: Shop floor context
+    text: Manage workplace safety records around real operational activity.
+  - image: "/assets/img/sop-manager.webp"
+    title: Controlled documentation
+    text: Keep structured records instead of scattered files.
+  related:
+  - title: Health and Safety Software
+    url: "/health-safety-software/"
+  - title: SOP Software
+    url: "/sop-software/"
+  - title: Non-Conformance Reports
+    url: "/non-conformance-reports/"
+  cta_title: Manage Workplace Risk Assessments in ERP
+  cta_text: Book a demo and we will show how risk assessments fit into the wider
+    Fraction ERP workflow.
 non-conformance-reports:
   h1: Non-Conformance Reports and Corrective Actions
   intro: Manage quality issues from capture through root cause, corrective action

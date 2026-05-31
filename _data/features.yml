@@ -53,6 +53,20 @@ quality_management:
     icon: fa fa-1x fa-barcode
     description: Serial and batch traceability for all manufactured and bought in parts.
 
+health_safety:
+  - title: Health and Safety
+    url: /health-safety-software/
+    icon: fa fa-1x fa-shield-halved
+    description: Manage practical health and safety records inside your manufacturing ERP.
+  - title: Risk Assessments
+    url: /risk-assessment-software/
+    icon: fa fa-1x fa-triangle-exclamation
+    description: Create and maintain workplace risk assessments with hazards, controls and review information.
+  - title: COSHH Register
+    url: /health-safety-software/#coshh-register
+    icon: fa fa-1x fa-flask
+    description: Coming soon - organise COSHH substance records alongside operational ERP data.
+
 business:
   - title: Shipping
     url: /shipping/
@@ -140,12 +154,13 @@ workflow_stages:
       - title: User Management
         url: /user-management/
   - number: "04"
-    title: Control Quality
-    outcome: Keep procedures, NCRs, calibration and traceability connected to the work.
+    title: Control Quality & Safety
+    outcome: Keep procedures, NCRs, risk assessments, calibration and traceability connected to the work.
     image: /assets/img/ncr-register.webp
     features:
       - SOP Software
       - Non-Conformance Reports
+      - Risk Assessments
       - Calibration Log
       - Traceability
     links:
@@ -153,6 +168,8 @@ workflow_stages:
         url: /sop-software/
       - title: Non-Conformance Reports
         url: /non-conformance-reports/
+      - title: Risk Assessments
+        url: /risk-assessment-software/
       - title: Calibration Log
         url: /calibration-log/
       - title: Traceability

@@ -104,7 +104,7 @@ plans:
       - CRM
       - Training Log
       - Leave Management|*
-      - Risk Assessments|*
+      - Risk Assessments|new
       - COSHH Register|*
 
   - name: Moulding Edition

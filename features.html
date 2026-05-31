@@ -99,7 +99,7 @@ redirect_from:
       <p>Prefer the full feature list? Use this directory to jump straight into each area of Fraction ERP.</p>
     </div>
 
-    {% assign groups = "sales_order_processing:Sales,production:Production,quality_management:Quality Management,business:Business,company_performance:Company Performance" | split: "," %}
+    {% assign groups = "sales_order_processing:Sales,production:Production,quality_management:Quality Management,health_safety:Health & Safety,business:Business,company_performance:Company Performance" | split: "," %}
     {% for group in groups %}
       {% assign group_parts = group | split: ":" %}
       {% assign group_key = group_parts[0] %}
