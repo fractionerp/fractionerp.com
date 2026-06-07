@@ -28,6 +28,14 @@ Standard Operating Procedures are the fix. You get the knowledge out of people's
 
 The catch? Most businesses either don't have SOPs at all, or they have them buried in a shared drive that nobody opens. A Word document sitting in a folder is not a working SOP. It's a good intention that never made it to the shop floor.
 
+<div style="padding:56.25% 0 0 0;position:relative;border-radius:12px;overflow:hidden;box-shadow:0 12px 50px rgba(0,0,0,0.15);margin:30px 0;">
+  <iframe src="https://player.vimeo.com/video/1186849878?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+    frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen
+    style="position:absolute;top:0;left:0;width:100%;height:100%;"
+    title="Fraction ERP - Standard Operating Procedures"></iframe>
+</div>
+<script src="https://player.vimeo.com/api/player.js"></script>
+
 ## SOPs That Actually Work in Practice
 
 Fraction ERP has SOP functionality built in &mdash; not bolted on as an afterthought, but integrated into the way work flows through the system. Here's how it works in practice.
