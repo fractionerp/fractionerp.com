@@ -969,11 +969,10 @@ ecommerce-integrations:
     controlled ERP demand rather than a separate admin process.
   sections:
   - title: Bluepark ecommerce integration
-    text: Fraction ERP now integrates with Bluepark, a UK ecommerce platform. Use
-      it to bring online orders into your ERP workflow for spare parts, replacement
-      parts or custom manufactured parts. See <a href="https://www.bluepark.co.uk/" target="_blank" rel="noopener">Bluepark</a>,
-      <a href="https://www.bluepark.co.uk/features.html" target="_blank" rel="noopener">Bluepark features</a>
-      and <a href="https://www.bluepark.co.uk/api.html" target="_blank" rel="noopener">Bluepark API</a>.
+    text: Fraction ERP now integrates with Bluepark, an all-in-one ecommerce platform
+      designed for UK businesses. Sync your Bluepark orders to streamline your ERP
+      workflow for spare parts, replacement parts or custom manufactured parts.
+      <a href="https://www.bluepark.co.uk/" target="_blank" rel="noopener">Try Bluepark for free</a>.
   - title: Spare parts and replacement parts
     text: Engineering and manufacturing businesses can sell repeat parts online while
       keeping stock, order and purchasing data connected inside ERP.
