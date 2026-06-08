@@ -969,6 +969,8 @@ ecommerce-integrations:
     controlled ERP demand rather than a separate admin process.
   sections:
   - title: Bluepark ecommerce integration
+    logo: "/assets/img/bluepark-main-logo.svg"
+    logo_alt: "Bluepark ecommerce platform logo"
     text: Fraction ERP now integrates with Bluepark, an all-in-one ecommerce platform
       designed for UK businesses. Sync your Bluepark orders to streamline your ERP
       workflow for spare parts, replacement parts or custom manufactured parts.

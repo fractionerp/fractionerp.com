@@ -2324,6 +2324,24 @@ section {
   border-radius: 8px;
   padding: 24px;
 }
+.feature-info-logo {
+  align-items: center;
+  background: #fff;
+  border: 1px solid #e7ecf3;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  margin: 0 0 16px;
+  min-height: 86px;
+  padding: 18px;
+}
+.feature-info-logo img {
+  display: block;
+  height: auto;
+  max-height: 58px;
+  max-width: 230px;
+  width: 100%;
+}
 .feature-info-card h3,
 .feature-screenshot-card h3 {
   color: #37517e;

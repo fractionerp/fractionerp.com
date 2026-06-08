@@ -74,6 +74,11 @@ layout: default
       <div class="feature-card-grid">
         {% for section in feature.sections %}
         <article class="feature-info-card" {% if section.id %}id="{{ section.id }}"{% endif %} data-aos="fade-up" data-aos-delay="{{ forloop.index | times: 60 }}">
+          {% if section.logo %}
+          <div class="feature-info-logo">
+            <img src="{{ section.logo | relative_url }}" alt="{{ section.logo_alt | default: section.title }}" loading="lazy">
+          </div>
+          {% endif %}
           <h3>{{ section.title }}</h3>
           <p>{{ section.text }}</p>
         </article>
