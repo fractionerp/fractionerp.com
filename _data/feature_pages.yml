@@ -676,25 +676,29 @@ shipping:
   cta_text: Create shipments, update stock records and raise invoices from the same
     despatch workflow.
 customer-returns:
-  h1: Customer Returns, Return to Vendor and Material Return Authorisation
-  intro: Manage customer returns, supplier returns, RTVs and material return authorisations
-    in one traceable ERP workflow.
+  h1: Customer Returns Authorisation for Manufacturers
+  intro: Create return authorisations for products sent back by customers and keep
+    each return linked to the original customer order or sales order.
   bullets:
-  - Control customer returns from request to resolution
-  - Return faulty or incorrect materials to vendors
-  - Trace returns back to batches, serials and shipments
+  - Link returned products back to the customer order or sales order
+  - Track the reason for return, rectification route and follow-up actions
+  - Control re-shipping of replacement or re-worked parts after rectification
   sections:
-  - title: Control customer returns
-    text: Capture returned goods, reasons and follow-up actions so returns do not
-      disappear into emails.
-  - title: Return to vendor
-    text: Manage supplier returns when purchased parts are damaged, incorrect or fail
-      inspection.
-  - title: Authorise material movement
-    text: Create a clear process before stock is moved, replaced or credited.
+  - title: Authorise customer returns
+    text: Create a controlled return record before products come back into the business,
+      with the customer, product and order context kept together.
+  - title: Link back to sales orders
+    text: Connect the return to the original customer order or sales order so the
+      team can see what was supplied, when it shipped and why it came back.
+  - title: Track reason and rectification
+    text: Record the reason for the return, what needs to happen next and whether
+      the part will be inspected, re-worked, replaced or credited.
+  - title: Manage replacement shipment
+    text: Keep visibility of any replacement or re-worked parts that need re-shipping
+      after rectification, instead of handling the follow-up in emails.
   - title: Connect to quality records
-    text: Link returns to NCRs and corrective actions when the return points to a
-      wider quality issue.
+    text: Link customer returns to NCRs, corrective actions and traceability records
+      when the return points to a wider quality issue.
   screenshots:
   - image: "/assets/img/V3-manage-stock.webp"
     title: Stock context
@@ -708,13 +712,13 @@ customer-returns:
   related:
   - title: Shipping
     url: "/shipping/"
-  - title: Purchasing
-    url: "/purchasing/"
   - title: Non-Conformance Reports
     url: "/non-conformance-reports/"
+  - title: Traceability
+    url: "/traceability/"
   cta_title: Manage Returns Without Losing Traceability
-  cta_text: Customer returns, supplier returns and material return authorisations
-    connected to your stock, purchasing and quality records.
+  cta_text: Keep return authorisations linked to customer orders, quality records
+    and replacement shipment activity.
 invoicing:
   h1: Manufacturing Invoicing with Xero, Sage and QuickBooks
   intro: Raise invoices from connected shipping and order data, then push information

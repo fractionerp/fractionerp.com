@@ -48,6 +48,10 @@ quality_management:
     url: /calibration-log/
     icon: fa fa-1x fa-ruler-combined
     description: Manage equipment calibration schedules, certificates and maintain compliance records.
+  - title: Customer Returns
+    url: /customer-returns/
+    icon: fa fa-1x fa-rotate-left
+    description: Authorise returned products, link them to customer orders and track reason, rectification and replacement shipment.
   - title: Traceability
     url: /traceability/
     icon: fa fa-1x fa-barcode
@@ -72,10 +76,6 @@ business:
     url: /shipping/
     icon: fa fa-1x fa-truck
     description: Create shipments, send customer notifications and raise invoices from despatch data.
-  - title: Customer Returns
-    url: /customer-returns/
-    icon: fa fa-1x fa-rotate-left
-    description: Manage customer returns, return to vendor workflows and material return authorisations with full traceability.
   - title: Invoicing
     url: /invoicing/
     icon: fa fa-solid fa-money-check-dollar
