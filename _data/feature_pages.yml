@@ -594,6 +594,58 @@ calibration-log:
   cta_title: Stay Audit-Ready with Calibration Management
   cta_text: Track equipment calibration schedules, certificates and ISO 9001 compliance
     in one place.
+inspection-data:
+  h1: Inspection Data Collection for Manufacturing
+  intro: Create inspection routines that can be applied to bills of materials and
+    rolled out to operators through the SFDC inspection tab during production.
+  bullets:
+  - Apply default inspection routines to a bill of materials and customise them per BOM
+  - Capture text, measured sizes, photos and dropdown selections during production
+  - Use tolerance limits, threshold values and sampling rules to control pass/fail checks
+  sections:
+  - title: Build reusable inspection routines
+    text: Define default inspection structures for products and processes, then apply
+      those routines to a bill of materials so inspection requirements are ready
+      before production starts.
+  - title: Customise checks on the BOM
+    text: Adjust the inspection routine on each BOM with the specific text fields,
+      size measurements, photo evidence and dropdown selections needed for that job.
+  - title: Control tolerance and threshold limits
+    text: Set tolerance limits or threshold values for measured inspection data so
+      operators can see whether each captured result is within the expected pass
+      range.
+  - title: Capture data through SFDC
+    text: Roll inspection requirements out to production through the SFDC page, where
+      operators use the inspection tab to log results while they are working on the
+      order.
+  - title: Choose inspection frequency
+    text: Apply each inspection item once per batch, once per part or at a defined
+      sampling rate so checks match the level of control needed for the process.
+  - title: Produce work order inspection reports
+    text: Create a final inspection report for each work order, combining all captured
+      inspection data and photos into one production quality record.
+  screenshots:
+  - image: "/assets/img/V3-BOM-main-screen.webp"
+    title: BOM inspection routines
+    text: Apply and adjust inspection requirements on the BOM.
+  - image: "/assets/img/V3-SFDC.webp"
+    title: SFDC inspection capture
+    text: Operators record inspection data during production.
+  - image: "/assets/img/V3-production-tracking.webp"
+    title: Production quality record
+    text: Keep captured checks connected to the work order.
+  related:
+  - title: Bill of Materials
+    url: "/bill-of-materials/"
+  - title: Shop Floor Data Capture
+    url: "/shop-floor-data-capture/"
+  - title: Non-Conformance Reports
+    url: "/non-conformance-reports/"
+  - title: Traceability
+    url: "/traceability/"
+  cta_title: Capture Inspection Data During Production
+  cta_text: See how Fraction ERP can turn BOM inspection routines into controlled
+    shop floor checks and final work order reports.
 traceability:
   h1: Serial and Batch Traceability for Manufacturing
   intro: Trace manufactured and purchased parts from goods received through production,

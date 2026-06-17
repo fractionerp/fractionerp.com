@@ -48,6 +48,10 @@ quality_management:
     url: /calibration-log/
     icon: fa fa-1x fa-ruler-combined
     description: Manage equipment calibration schedules, certificates and maintain compliance records.
+  - title: Inspection Data
+    url: /inspection-data/
+    icon: fa fa-1x fa-clipboard-check
+    description: Create BOM inspection routines for text, sizes, photos, dropdowns and tolerance-based production checks.
   - title: Customer Returns
     url: /customer-returns/
     icon: fa fa-1x fa-rotate-left
