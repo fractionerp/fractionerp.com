@@ -771,6 +771,47 @@ customer-returns:
   cta_title: Manage Returns Without Losing Traceability
   cta_text: Keep return authorisations linked to customer orders, quality records
     and replacement shipment activity.
+training-log:
+  h1: Training Log Software for Manufacturing Teams
+  intro: Quickly log operators' training records and approve completion so training
+    evidence stays connected to the people doing the work.
+  bullets:
+  - Log operator training against people, roles or activities
+  - Approve training completion once the operator has been signed off
+  - Keep training evidence available for supervisors, quality teams and audits
+  sections:
+  - title: Record operator training
+    text: Add a quick training log when an operator has completed training for a
+      process, task, procedure or area of responsibility.
+  - title: Approve completion
+    text: Let authorised users approve the training completion record so the business
+      has a clear sign-off trail instead of relying on informal notes.
+  - title: Keep training evidence together
+    text: Keep operator training history in the same ERP environment as procedures,
+      production and quality records.
+  - title: Support shop floor control
+    text: Give supervisors a practical record of who has been trained, what has been
+      approved and where gaps still need attention.
+  screenshots:
+  - image: "/assets/img/users.webp"
+    title: People records
+    text: Keep training records close to user and operator information.
+  - image: "/assets/img/sop-manager.webp"
+    title: Procedure context
+    text: Connect training evidence to controlled procedures and work instructions.
+  - image: "/assets/img/V3-production-tracking.webp"
+    title: Shop floor context
+    text: Support production control with approved operator training records.
+  related:
+  - title: SOP Software
+    url: "/sop-software/"
+  - title: User Management
+    url: "/user-management/"
+  - title: Shop Floor Data Capture
+    url: "/shop-floor-data-capture/"
+  cta_title: Keep Operator Training Records Under Control
+  cta_text: See how Fraction ERP can help you log operator training and approve
+    completion without relying on scattered spreadsheets.
 invoicing:
   h1: Manufacturing Invoicing with Xero, Sage and QuickBooks
   intro: Raise invoices from connected shipping and order data, then push information

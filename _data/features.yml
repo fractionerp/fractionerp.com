@@ -97,6 +97,20 @@ business:
     icon: fa fa-1x fa-gauge
     description: Connect Fraction ERP with accounting, reporting and manufacturing systems.
 
+people:
+  - title: Training Log
+    url: /training-log/
+    icon: fa fa-1x fa-clipboard-user
+    description: Log operator training, approval and completion records in one controlled place.
+  - title: Time and Attendance
+    icon: fa fa-1x fa-business-time
+    coming_soon: true
+    description: Coming soon - capture attendance records alongside production and operator activity.
+  - title: Operator Performance
+    icon: fa fa-1x fa-chart-line
+    coming_soon: true
+    description: Coming soon - review operator activity and performance trends from live production data.
+
 company_performance:
   - title: Dashboard
     url: /erp-dashboard/

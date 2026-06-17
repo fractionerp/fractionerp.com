@@ -2071,6 +2071,17 @@ section {
   box-shadow: 0 10px 24px rgba(55,81,126,0.1);
   transform: translateY(-2px);
 }
+.features-directory-card-placeholder {
+  background: #f8f9fa;
+  border-style: dashed;
+  color: #6d7784;
+  cursor: default;
+}
+.features-directory-card-placeholder:hover {
+  border-color: #d7dee9;
+  box-shadow: none;
+  transform: none;
+}
 .features-directory-card i {
   color: #6d7784;
   flex-shrink: 0;
@@ -2092,6 +2103,16 @@ section {
   display: block;
   font-size: 14px;
   line-height: 1.45;
+}
+.features-directory-card em {
+  color: #6d7784;
+  display: inline-block;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  margin-bottom: 8px;
+  text-transform: uppercase;
 }
 .features-platform-grid ul {
   display: grid;

@@ -99,7 +99,7 @@ redirect_from:
       <p>Prefer the full feature list? Use this directory to jump straight into each area of Fraction ERP.</p>
     </div>
 
-    {% assign groups = "sales_order_processing:Sales,production:Production,quality_management:Quality Management,health_safety:Health & Safety,business:Business,company_performance:Company Performance" | split: "," %}
+    {% assign groups = "sales_order_processing:Sales,production:Production,quality_management:Quality Management,health_safety:Health & Safety,business:Business,people:People,company_performance:Company Performance" | split: "," %}
     {% for group in groups %}
       {% assign group_parts = group | split: ":" %}
       {% assign group_key = group_parts[0] %}
@@ -108,6 +108,16 @@ redirect_from:
         <h3>{{ group_title }}</h3>
         <div class="features-directory-grid">
           {% for feature in site.data.features[group_key] %}
+          {% if feature.coming_soon %}
+          <div class="features-directory-card features-directory-card-placeholder" aria-label="{{ feature.title }} coming soon">
+            <i class="{{ feature.icon }}" aria-hidden="true"></i>
+            <span>
+              <strong>{{ feature.title }}</strong>
+              <em>Coming soon</em>
+              <small>{{ feature.description }}</small>
+            </span>
+          </div>
+          {% else %}
           <a class="features-directory-card" href="{{ feature.url | relative_url }}">
             <i class="{{ feature.icon }}" aria-hidden="true"></i>
             <span>
@@ -115,6 +125,7 @@ redirect_from:
               <small>{{ feature.description }}</small>
             </span>
           </a>
+          {% endif %}
           {% endfor %}
         </div>
       </div>
