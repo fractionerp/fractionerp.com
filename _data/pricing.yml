@@ -33,7 +33,7 @@ plans:
     popular: true
     inherits_label: "All core features plus:"
     features:
-      - MRP Demand + Projection
+      - MRP Demand + Forecast
       - Proforma Invoicing
       - Group Workcentres
       - Master Production Schedule
