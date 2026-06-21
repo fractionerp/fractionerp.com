@@ -31,7 +31,7 @@ plans:
     currency: "£"
     period: per user/month
     popular: true
-    inherits_label: "all features of core plan, plus:"
+    inherits_label: "All core features plus:"
     features:
       - MRP Demand + Projection
       - Proforma Invoicing
@@ -55,7 +55,7 @@ plans:
     price: 75
     currency: "£"
     period: per user/month
-    inherits_label: "all features of advanced plan, plus:"
+    inherits_label: "All advanced features plus:"
     features:
       - Batch Traceability
       - SOPs
@@ -75,7 +75,7 @@ plans:
     tagline: Built for plastic injection moulding manufacturers
     description: A specialised solution designed specifically for the needs of injection moulding operations.
     price: custom
-    inherits_label: "all features of pro plan, plus:"
+    inherits_label: "All pro features plus:"
     features:
       - Mould & tool management
       - BOMs defined by material content
