@@ -303,19 +303,20 @@ shop-floor-data-capture:
     cost for every shop floor user.
 purchasing:
   h1: MRP and Purchasing Software for Manufacturers
-  intro: Let real demand drive purchasing, supplier management and goods received
-    workflows so the right parts arrive at the right time.
+  intro: Forecast inventory requirements by consolidating sales orders, works orders
+    and stock requirements into one MRP forecast page per part, so purchasing can
+    see what is needed and when.
   bullets:
-  - Generate purchasing demand from MRP
+  - Consolidate all requirements into one MRP forecast per part
   - Control purchase orders and approvals
   - Manage supplier returns and goods received records
   video:
     src: https://player.vimeo.com/video/519932353?h=1f3bbad13c&badge=0&autopause=0&player_id=0&app_id=58479
     title: Fraction ERP purchasing demo
   sections:
-  - title: Make demand clear
-    text: Use MRP output to decide what to buy, when to buy it and which orders need
-      action.
+  - title: Forecast inventory by part
+    text: Use the MRP forecast page to bring every requirement for a part together,
+      then decide what to buy, when to buy it and which orders need action.
   - title: Control purchase approvals
     text: Use approval workflows and spend limits so only authorised purchase orders
       are placed.
@@ -327,8 +328,8 @@ purchasing:
       records.
   screenshots:
   - image: "/assets/img/V3-MRP-screen.webp"
-    title: MRP demand
-    text: Know what to buy and when.
+    title: MRP forecast
+    text: Review consolidated requirements per part.
   - image: "/assets/img/V3-Purchase-Order.webp"
     title: Purchase orders
     text: Create and approve supplier orders.
@@ -343,8 +344,8 @@ purchasing:
   - title: Dashboard
     url: "/erp-dashboard/"
   cta_title: Buy the Right Parts at the Right Time
-  cta_text: Let MRP demand drive your purchasing with fewer stockouts and surprise
-    overstocks.
+  cta_text: Let one consolidated MRP forecast per part drive purchasing with fewer
+    stockouts and surprise overstocks.
 sop-software:
   h1: Standard Operating Procedure Software for Manufacturers
   intro: Replace paper procedures and uncontrolled PDFs with digital SOPs that manage
