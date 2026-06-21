@@ -5,6 +5,7 @@ plans:
     price: 37
     currency: "£"
     period: per user/month
+    inherits_label: "Core Features"
     features:
       - Sales Order Management
       - Bill of Materials
