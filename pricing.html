@@ -84,6 +84,11 @@ redirect_from:
           <!-- Features section -->
           <div style="padding: 0 24px 28px; flex-grow: 1; display: flex; flex-direction: column; border-top: 1px solid #f0f0f0;">
           <ul style="list-style: none; padding: 0; margin: 16px 0 20px; flex-grow: 1;">
+            {% if plan.inherits_label %}
+            <li style="padding: 0 0 8px; font-size: 13px; color: #37517e; font-weight: 600; line-height: 1.4;">
+              {{ plan.inherits_label }}
+            </li>
+            {% endif %}
             {% for feature in plan.features %}
             {% assign feature_parts = feature | split: "|" %}
             <li style="padding: 5px 0; font-size: 14px; color: #444; display: flex; align-items: flex-start; gap: 8px;">

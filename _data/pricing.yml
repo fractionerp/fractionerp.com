@@ -29,22 +29,10 @@ plans:
     currency: "£"
     period: per user/month
     popular: true
+    inherits_label: "all features of core plan, plus:"
     features:
-      - Sales Order Management
-      - Bill of Materials
-      - Parts
-      - Works Orders
-      - MRP Demand
-      - Purchasing
-      - Inventory Management
-      - Non Conformance Reports
-      - Unlimited Shop Floor Data Capture
-      - Shipping
+      - MRP Demand + Projection
       - Invoicing + Proforma Invoicing
-      - Dashboard
-      - Reports
-      - Automatic Production Scheduling
-      - Drag and Drop Production Scheduling
       - Group Workcentres
       - Master Production Schedule
       - Cert. of Conformance
@@ -65,35 +53,8 @@ plans:
     price: 75
     currency: "£"
     period: per user/month
+    inherits_label: "all features of advanced plan, plus:"
     features:
-      - Sales Order Management
-      - Bill of Materials
-      - Parts
-      - Works Orders
-      - MRP Demand
-      - Purchasing
-      - Inventory Management
-      - Non Conformance Reports
-      - Unlimited Shop Floor Data Capture
-      - Shipping
-      - Invoicing + Proforma Invoicing
-      - Dashboard
-      - Reports
-      - Automatic Production Scheduling
-      - Drag and Drop Production Scheduling
-      - Group Workcentres
-      - Master Production Schedule
-      - Cert. of Conformance
-      - Key Performance Indicators (KPIs)
-      - Multi-currency
-      - Commercial Invoices
-      - BOM Tooling and Jigs
-      - Task Management
-      - Subcontract Management
-      - NCR Analytics
-      - Production KPIs
-      - Calibration Log
-      - Serial Traceability
       - Batch Traceability
       - SOPs|new
       - Customer Returns
