@@ -12,7 +12,7 @@ plans:
       - Works Orders
       - MRP Demand
       - Purchasing
-      - Inventory Management
+      - Multi-stock Locations
       - Non Conformance Reports
       - Unlimited Shop Floor Data Capture
       - Shipping
@@ -59,7 +59,7 @@ plans:
       - SOPs
       - Customer Returns
       - RFQ's for purchasing
-      - Inspection Reports|*
+      - Inspection Reports
       - Contract Review|*
       - API Integration
       - CRM
