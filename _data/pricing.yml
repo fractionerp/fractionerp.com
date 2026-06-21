@@ -84,7 +84,6 @@ plans:
       - Cavity and cycle tracking
       - Production run visibility
       - InTouch monitoring integration
-    positioning: Additional tooling, process, and production features tailored to injection moulding.
     industry: true
 
 subscription_includes:
