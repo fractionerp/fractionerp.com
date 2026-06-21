@@ -72,6 +72,7 @@ plans:
     tagline: Built for plastic injection moulding manufacturers
     description: A specialised solution designed for injection moulding operations.
     price: custom
+    inherits_label: "all features of pro plan, plus:"
     features:
       - Mould & tool management
       - BOMs defined by material content
@@ -80,7 +81,7 @@ plans:
       - Cavity and cycle tracking
       - Production run visibility
       - InTouch monitoring integration
-    positioning: Includes all Pro capabilities, with additional tooling, process, and production features tailored to injection moulding.
+    positioning: Additional tooling, process, and production features tailored to injection moulding.
     industry: true
 
 subscription_includes:
