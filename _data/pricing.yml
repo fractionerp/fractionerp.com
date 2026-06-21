@@ -70,7 +70,7 @@ plans:
 
   - name: Moulding Edition
     tagline: Built for plastic injection moulding manufacturers
-    description: A specialised solution designed for injection moulding operations.
+    description: A specialised solution designed specifically for the needs of injection moulding operations.
     price: custom
     inherits_label: "all features of pro plan, plus:"
     features:
