@@ -56,7 +56,7 @@ plans:
     inherits_label: "all features of advanced plan, plus:"
     features:
       - Batch Traceability
-      - SOPs|new
+      - SOPs
       - Customer Returns
       - RFQ's for purchasing
       - Inspection Reports|*
@@ -65,7 +65,7 @@ plans:
       - CRM
       - Training Log
       - Leave Management|*
-      - Risk Assessments|new
+      - Risk Assessments
       - COSHH Register|*
 
   - name: Moulding Edition
