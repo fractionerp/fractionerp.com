@@ -32,7 +32,7 @@ plans:
     inherits_label: "all features of core plan, plus:"
     features:
       - MRP Demand + Projection
-      - Invoicing + Proforma Invoicing
+      - Proforma Invoicing
       - Group Workcentres
       - Master Production Schedule
       - Cert. of Conformance
