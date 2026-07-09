@@ -40,8 +40,8 @@ Fraction ERP is a cloud-based manufacturing ERP and MRP system for SMEs that nee
 - [Purchasing and Inventory](https://fractionerp.com/purchasing-inventory-software/): Purchase orders, stock control, reorder points
 - [Cloud ERP Software](https://fractionerp.com/cloud-erp-software/): Cloud deployment and mobility
 - [CRM](https://fractionerp.com/crm/): Customer relationship management within ERP
-- [Integrations](https://fractionerp.com/erp-integrations/): Accounting, ecommerce, manufacturing, API and data integrations
-- [Accounting Integrations](https://fractionerp.com/accounting-integrations/): Xero, Sage and QuickBooks integrations
+- [Integrations](https://fractionerp.com/erp-integrations/): Accounting, accounts payable, ecommerce, manufacturing, API and data integrations
+- [Accounting Integrations](https://fractionerp.com/accounting-integrations/): Xero, Sage, QuickBooks and Lightyear integrations
 - [Ecommerce Integrations](https://fractionerp.com/ecommerce-integrations/): Ecommerce and Bluepark integration for spare parts and custom parts sales
 - [API and Data Integrations](https://fractionerp.com/api-integrations/): Power BI, Zapier, Excel, Python and REST API workflows
 

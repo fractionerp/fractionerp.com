@@ -939,7 +939,7 @@ integrations:
   intro: Connect Fraction ERP to the systems your business already uses, from accounts
     and ecommerce to shop floor monitoring, reporting and custom API workflows.
   bullets:
-  - Move invoice and purchase data into Xero, Sage and QuickBooks
+  - Move invoice, purchase and accounts payable data into connected finance tools
   - Bring ecommerce orders into ERP for spare parts and custom parts sales
   - Connect manufacturing, reporting and automation workflows through API access
   sections_title: Integration Categories
@@ -947,8 +947,9 @@ integrations:
   sections:
   - id: accounting
     title: Accounting integrations
-    text: Connect Fraction ERP to Xero, Sage and QuickBooks so invoices, purchase
-      data and accounts records do not have to be re-keyed. <a href="https://fractionerp.com/accounting-integrations/">View accounting integrations</a>.
+    text: Connect Fraction ERP to Xero, Sage, QuickBooks and accounts payable
+      workflows such as Lightyear so invoices, purchase data and accounts records
+      do not have to be re-keyed. <a href="https://fractionerp.com/accounting-integrations/">View accounting integrations</a>.
   - id: manufacturing
     title: Manufacturing integrations
     text: Connect operational systems such as Intouch Monitoring and Siemens Opcenter
@@ -987,12 +988,13 @@ integrations:
     operational data in Fraction ERP.
 accounting-integrations:
   h1: Accounting ERP Integrations
-  intro: Connect Fraction ERP to Xero, Sage and QuickBooks so commercial data can
-    move from manufacturing operations into your accounts software without duplicate
-    entry.
+  intro: Connect Fraction ERP to Xero, Sage, QuickBooks and accounts payable tools
+    such as Lightyear so commercial data can move from manufacturing operations into
+    finance workflows without duplicate entry.
   bullets:
   - Push invoices from despatch and sales order data
   - Keep purchase and accounts data aligned
+  - Support accounts payable workflows such as invoice capture and approval
   - Reduce re-keying between ERP and finance systems
   sections_title: What Accounting Integrations Help With
   sections_intro: Accounts integrations keep Fraction ERP focused on operations while
@@ -1007,6 +1009,10 @@ accounting-integrations:
   - title: Supported accounts platforms
     text: Fraction ERP supports cloud accounting integrations with Xero, Sage Business
       Cloud Accounting and QuickBooks Online.
+  - title: Lightyear accounts payable
+    text: Lightyear is available for accounts payable workflows where supplier invoices,
+      purchase orders, approvals and invoice matching need to be captured before
+      the final finance handover.
   - title: Cleaner handover to finance
     text: Operations can work from sales, stock and despatch data while finance keeps
       control of accounting, tax and reporting in the accounts system.
