@@ -1006,9 +1006,21 @@ accounting-integrations:
   - title: Purchase records
     text: Keep purchasing activity connected to finance processes without asking
       teams to type the same supplier and order data twice.
-  - title: Supported accounts platforms
-    text: Fraction ERP supports cloud accounting integrations with Xero, Sage Business
-      Cloud Accounting and QuickBooks Online.
+  - title: Xero
+    logo: "/assets/img/integrate-xero.png"
+    logo_alt: "Xero logo"
+    text: Send invoice and purchasing data from Fraction ERP into Xero so operational
+      records and finance records stay aligned without duplicate entry.
+  - title: Sage Business Cloud Accounting
+    logo: "/assets/img/integrate-sage.png"
+    logo_alt: "Sage Business Cloud Accounting logo"
+    text: Connect Fraction ERP with Sage Business Cloud Accounting to keep sales,
+      purchase and accounts handover data moving cleanly into finance.
+  - title: QuickBooks Online
+    logo: "/assets/img/integrate-qb.png"
+    logo_alt: "QuickBooks logo"
+    text: Use the QuickBooks Online integration to pass manufacturing invoice and
+      purchasing information from Fraction ERP into your accounting workflow.
   - title: Lightyear accounts payable
     text: Lightyear is available for accounts payable workflows where supplier invoices,
       purchase orders, approvals and invoice matching need to be captured before
