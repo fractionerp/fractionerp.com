@@ -4,6 +4,8 @@ permalink: /mobile-erp/
 title: "Mobile ERP App for Manufacturing | Fraction ERP"
 description: "Use Fraction ERP Mobile on iOS and Android for live stock checks, shop floor data capture, SOPs, production status and connected task management."
 keywords: "mobile ERP, ERP mobile app, manufacturing mobile app, mobile inventory management, mobile shop floor data capture, ERP app iOS Android"
+image: /assets/img/fraction-erp-mobile-app.webp
+last_modified_at: 2026-07-10
 ---
 
 <main id="main" class="mobile-erp-page">
@@ -250,3 +252,87 @@ keywords: "mobile ERP, ERP mobile app, manufacturing mobile app, mobile inventor
     </div>
   </section>
 </main>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "MobileApplication",
+      "@id": "{{ '/mobile-erp/' | absolute_url }}#mobile-application",
+      "name": "Fraction ERP Mobile",
+      "alternateName": "Fraction ERP App",
+      "url": "{{ '/mobile-erp/' | absolute_url }}",
+      "description": "{{ page.description | escape }}",
+      "applicationCategory": "BusinessApplication",
+      "applicationSubCategory": "Manufacturing ERP mobile app",
+      "operatingSystem": "iOS, Android",
+      "isPartOf": {
+        "@id": "{{ site.url }}/#software"
+      },
+      "provider": {
+        "@id": "{{ site.url }}/#organization"
+      },
+      "downloadUrl": [
+        "https://apps.apple.com/gb/app/fraction-erp/id6781279300",
+        "https://play.google.com/store/apps/details?id=com.fraction.erp&hl=en"
+      ],
+      "screenshot": [
+        "{{ '/assets/img/mobile-erp-inventory.webp' | absolute_url }}",
+        "{{ '/assets/img/mobile-erp-sfdc.webp' | absolute_url }}",
+        "{{ '/assets/img/mobile-erp-sop.webp' | absolute_url }}",
+        "{{ '/assets/img/mobile-erp-live-status.webp' | absolute_url }}"
+      ],
+      "featureList": [
+        "Real-time inventory and stock checks",
+        "Mobile shop floor data capture",
+        "SOP review and sign-off",
+        "Live production status",
+        "Connected ERP task management"
+      ],
+      "audience": {
+        "@type": "BusinessAudience",
+        "audienceType": "Manufacturing and operations teams"
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "{{ '/mobile-erp/' | absolute_url }}#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Is Fraction ERP Mobile a separate system from Fraction ERP?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. The mobile app provides access to connected Fraction ERP workflows and records, so teams are not maintaining a second source of data."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which phones support Fraction ERP Mobile?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Fraction ERP Mobile is available for iOS and Android devices."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can every mobile user see every ERP module?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. User roles and module permissions let administrators control access according to each person's responsibilities."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does Fraction ERP Mobile work offline?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. Fraction ERP Mobile uses live ERP data and requires an active internet or mobile-data connection."
+          }
+        }
+      ]
+    }
+  ]
+}
+</script>

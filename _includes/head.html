@@ -13,11 +13,12 @@
 <link rel="alternate" type="text/plain" title="Fraction ERP full LLM briefing" href="{{ '/llms-full.txt' | absolute_url }}">
 
 <!-- Open Graph / Facebook -->
+{% assign social_image = page.image | default: '/assets/img/dashboard.png' %}
 <meta property="og:type" content="website">
 <meta property="og:url" content="{{ page.url | absolute_url }}">
 <meta property="og:title" content="{{ page.title | default: site.title }}">
 <meta property="og:description" content="{{ page.description | default: site.description }}">
-<meta property="og:image" content="{{ '/assets/img/dashboard.png' | absolute_url }}">
+<meta property="og:image" content="{{ social_image | absolute_url }}">
 <meta property="og:site_name" content="{{ site.title }}">
 <meta property="og:locale" content="en_GB">
 
@@ -25,7 +26,7 @@
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="{{ page.title | default: site.title }}">
 <meta name="twitter:description" content="{{ page.description | default: site.description }}">
-<meta name="twitter:image" content="{{ '/assets/img/dashboard.png' | absolute_url }}">
+<meta name="twitter:image" content="{{ social_image | absolute_url }}">
 
 <!-- Preconnect to external origins -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -234,6 +235,10 @@ img{max-width:100%;height:auto}
       "url": "{{ page.url | absolute_url }}",
       "name": "{{ page.title | default: site.title | escape }}",
       "description": "{{ page.description | default: site.description | escape }}",
+      {% if page.image %}"primaryImageOfPage": {
+        "@type": "ImageObject",
+        "url": "{{ page.image | absolute_url }}"
+      },{% endif %}
       "isPartOf": {
         "@id": "{{ site.url }}/#website"
       },
