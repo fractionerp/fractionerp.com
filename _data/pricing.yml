@@ -70,7 +70,7 @@ plans:
       - Visitor Registration & Kiosk
       - Leave Management|*
       - Risk Assessments
-      - COSHH Register|*
+      - COSHH Register
 
   - name: Moulding Edition
     tagline: Built for plastic injection moulding manufacturers
