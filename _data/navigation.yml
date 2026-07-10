@@ -27,6 +27,8 @@ main:
         url: /risk-assessment-software/
       - title: Cloud ERP
         url: /cloud-erp-software/
+      - title: Mobile ERP
+        url: /mobile-erp/
   - title: Solutions
     dropdown: true
     items:
@@ -116,6 +118,8 @@ footer_erp:
     url: /customer-returns/
   - title: Cloud ERP
     url: /cloud-erp-software/
+  - title: Mobile ERP
+    url: /mobile-erp/
 
 footer_solutions:
   - title: Replace Excel
