@@ -2,7 +2,11 @@
 layout: default
 ---
 {% assign feature = site.data.feature_pages[page.feature_key] %}
+{% if feature.hero_panel %}
+{% assign hero_image = false %}
+{% else %}
 {% assign hero_image = feature.hero_image | default: feature.screenshots[0].image %}
+{% endif %}
 
 <main id="main" class="feature-page">
   <section class="feature-hero">

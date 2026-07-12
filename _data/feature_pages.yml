@@ -517,6 +517,7 @@ visitor-kiosk:
   h1: Visitor Registration for Safer, Simpler Site Sign-In
   intro: Turn a tablet or desktop into a self-service visitor kiosk without exposing
     an ERP user account, while keeping everyone on site visible to your team.
+  hero_panel: true
   bullets:
   - Let visitors register and clock out without an ERP login
   - Require visitors to accept your own declarations
@@ -558,6 +559,22 @@ visitor-kiosk:
   - title: Dashboard and host notifications
     text: Show current visitors through the ERP dashboard and automatically email
       the relevant host when their visitor arrives.
+  screenshots_title: Visitor Registration Screens
+  screenshots_intro: Follow the visitor journey from self-service registration to
+    badge printing and live on-site visibility.
+  screenshots:
+  - image: /assets/img/visitor-registration-sign-in.webp
+    title: Self-service visitor registration
+    alt: Fraction ERP visitor registration kiosk with visitor details and declaration confirmation
+    text: Visitors enter their details, select who they are visiting and accept your declaration before registering.
+  - image: /assets/img/visitor-registration-badge.webp
+    title: Visitor badge printing
+    alt: Fraction ERP printable visitor badge showing visitor, company, host, arrival time and vehicle
+    text: Create a clear visitor badge containing the details your team needs for on-site identification.
+  - image: /assets/img/visitor-registration-dashboard.webp
+    title: Live visitors on the ERP dashboard
+    alt: Fraction ERP dashboard showing a live Visitors On Site panel
+    text: See who is currently on site directly from the ERP dashboard without checking a separate system.
   related:
   - title: Health and Safety Software
     url: /health-safety-software/
