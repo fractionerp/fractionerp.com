@@ -934,6 +934,61 @@ user-management:
   cta_title: Give Every Team the Right Access
   cta_text: Role-based permissions, module-level access and unlimited free shop floor
     users in Fraction ERP.
+time-and-attendance:
+  h1: Time and Attendance for Manufacturing Teams
+  intro: Manage leave, holidays and sickness in the same system that plans your
+    production, so supervisors can see who is available before work is scheduled.
+  bullets:
+  - Manage employee leave requests and balances
+  - Route requests through controlled approval workflows
+  - Track sickness and Bradford Factor scores
+  - Feed staff availability into production scheduling
+  secondary_url: "#time-attendance-pricing"
+  secondary_label: View Add-on Pricing
+  panel_title: One View of People and Production
+  metric_anchor: time-attendance-pricing
+  metric_cards:
+  - label: Add-on price
+    value: £30
+    text: Per company per month, in addition to your Fraction ERP subscription.
+  - label: Included users
+    value: Unlimited
+    text: No per-user charge for employees or managers using Time and Attendance.
+  - label: Scheduling connection
+    value: Live availability
+    text: Use approved absence records when planning people against production work.
+  sections_title: Time and Attendance Features
+  sections_intro: Keep absence administration controlled while giving production
+    planners a more realistic view of staff capacity.
+  sections:
+  - title: Leave management
+    text: Record leave allowances, requests and approved absence in one place so
+      employees and managers have a clear view of time off.
+  - title: Approval workflows
+    text: Route leave requests to the appropriate manager, keep decisions visible
+      and prevent informal approvals from being lost in email or conversation.
+  - title: Company holidays
+    text: Maintain company-wide holidays and shutdown days once, then reflect them
+      consistently across employee availability and planning.
+  - title: Sick leave and Bradford Factor
+    text: Record sickness instances and duration, with Bradford Factor scores to
+      help managers identify absence patterns and apply a consistent review process.
+  - title: Production scheduling availability
+    text: Bring approved leave, company holidays and sickness into the production
+      scheduling picture so work is not planned against unavailable staff.
+  - title: Unlimited users
+    text: Give employees and managers access without adding a per-user attendance
+      charge. The module is a fixed £30 per company per month add-on.
+  related:
+  - title: Production Scheduling
+    url: /production-scheduling/
+  - title: User Management
+    url: /user-management/
+  - title: Training Log
+    url: /training-log/
+  cta_title: Connect Staff Availability to Production Planning
+  cta_text: Add Time and Attendance to Fraction ERP for £30 per company per month,
+    with unlimited users included.
 integrations:
   h1: ERP Integrations for Manufacturing and Ecommerce
   intro: Connect Fraction ERP to the systems your business already uses, from accounts

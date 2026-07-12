@@ -23,7 +23,11 @@ layout: default
             {% if feature.video %}
             <a class="feature-secondary-btn" href="#feature-demo"><i class="bi bi-play-circle" aria-hidden="true"></i><span>Watch Demo</span></a>
             {% else %}
-            <a class="feature-secondary-btn" href="{{ '/pricing/' | relative_url }}">View Pricing</a>
+              {% if feature.secondary_url %}
+              <a class="feature-secondary-btn" href="{{ feature.secondary_url }}">{{ feature.secondary_label | default: "Learn More" }}</a>
+              {% else %}
+              <a class="feature-secondary-btn" href="{{ '/pricing/' | relative_url }}">View Pricing</a>
+              {% endif %}
             {% endif %}
           </div>
         </div>
@@ -47,7 +51,7 @@ layout: default
   </section>
 
   {% if feature.metric_cards %}
-  <section class="feature-metrics-section">
+  <section{% if feature.metric_anchor %} id="{{ feature.metric_anchor }}"{% endif %} class="feature-metrics-section">
     <div class="container">
       <div class="feature-metrics-grid" data-aos="fade-up">
         {% for card in feature.metric_cards %}

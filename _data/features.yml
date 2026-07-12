@@ -103,9 +103,9 @@ people:
     icon: fa fa-1x fa-clipboard-user
     description: Log operator training, approval and completion records in one controlled place.
   - title: Time and Attendance
+    url: /time-and-attendance/
     icon: fa fa-1x fa-business-time
-    coming_soon: true
-    description: Coming soon - capture attendance records alongside production and operator activity.
+    description: Manage leave, holidays and sickness, then use staff availability in production scheduling.
   - title: Operator Performance
     icon: fa fa-1x fa-chart-line
     coming_soon: true
