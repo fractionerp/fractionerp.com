@@ -927,8 +927,8 @@ h1, h2, h3, h4, h5, h6 {
   text-align: center;
 }
 .mobile-erp-phone-frame {
-  width: min(100%, 315px);
-  height: 590px;
+  width: min(100%, 268px);
+  height: 502px;
   margin: 0 auto;
   overflow: hidden;
   border: 10px solid #17202d;
@@ -1212,8 +1212,8 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 27px;
   }
   .mobile-erp-phone-frame {
-    width: min(100%, 290px);
-    height: 545px;
+    width: min(100%, 247px);
+    height: 463px;
   }
   .mobile-erp-supporting-capability {
     padding: 26px 22px;
