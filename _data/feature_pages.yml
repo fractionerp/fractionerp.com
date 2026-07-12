@@ -450,6 +450,8 @@ health-safety-software:
   related:
   - title: Risk Assessment Software
     url: "/risk-assessment-software/"
+  - title: Visitor Kiosk
+    url: "/visitor-kiosk/"
   - title: SOP Software
     url: "/sop-software/"
   - title: User Management
@@ -511,6 +513,61 @@ risk-assessment-software:
   cta_title: Manage Workplace Risk Assessments in ERP
   cta_text: Book a demo and we will show how risk assessments fit into the wider
     Fraction ERP workflow.
+visitor-kiosk:
+  h1: Visitor Kiosk for Safer, Simpler Site Sign-In
+  intro: Turn a tablet or desktop into a self-service visitor kiosk without exposing
+    an ERP user account, while keeping everyone on site visible to your team.
+  bullets:
+  - Let visitors register and clock out without an ERP login
+  - Require visitors to accept your own declarations
+  - Print visitor badges as part of sign-in
+  - Notify the relevant host when their visitor arrives
+  secondary_url: "#visitor-kiosk-overview"
+  secondary_label: See Kiosk Benefits
+  panel_title: From Arrival to Clock-Out
+  metric_anchor: visitor-kiosk-overview
+  metric_cards:
+  - label: Kiosk access
+    value: No ERP login
+    text: Visitors use a dedicated sign-in experience without access to your ERP account.
+  - label: On-site visibility
+    value: Live
+    text: See the visitors currently on site through the Fraction ERP dashboard.
+  - label: Arrival notification
+    value: Automatic
+    text: Email the relevant host as soon as their visitor completes registration.
+  sections_title: Visitor Kiosk Features
+  sections_intro: Give visitors a straightforward arrival process while maintaining
+    the declarations, identification and live records your site requires.
+  sections:
+  - title: Tablet or desktop kiosk
+    text: Use a suitable tablet or desktop as a dedicated reception or entrance kiosk,
+      without leaving a normal Fraction ERP user account signed in.
+  - title: Self-service registration
+    text: Visitors enter their own details when they arrive, reducing reception admin
+      and creating a consistent sign-in record.
+  - title: Configurable declarations
+    text: Present the declarations your business requires and ask each visitor to
+      confirm them before completing sign-in.
+  - title: Visitor badge printing
+    text: Print a badge after registration so visitors can be identified while they
+      are moving around your site.
+  - title: Clock-out records
+    text: Visitors clock themselves out at the kiosk when leaving, keeping the live
+      on-site list accurate.
+  - title: Dashboard and host notifications
+    text: Show current visitors through the ERP dashboard and automatically email
+      the relevant host when their visitor arrives.
+  related:
+  - title: Health and Safety Software
+    url: /health-safety-software/
+  - title: ERP Dashboard
+    url: /erp-dashboard/
+  - title: User Management
+    url: /user-management/
+  cta_title: See the Visitor Kiosk Workflow
+  cta_text: See how self-service sign-in, declarations, badges, live visitor status
+    and host notifications work inside Fraction ERP.
 non-conformance-reports:
   h1: Non-Conformance Reports and Corrective Actions
   intro: Manage quality issues from capture through root cause, corrective action

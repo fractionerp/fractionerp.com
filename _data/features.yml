@@ -70,6 +70,10 @@ health_safety:
     url: /risk-assessment-software/
     icon: fa fa-1x fa-triangle-exclamation
     description: Create and maintain workplace risk assessments with hazards, controls and review information.
+  - title: Visitor Kiosk
+    url: /visitor-kiosk/
+    icon: fa fa-1x fa-id-badge
+    description: Let visitors sign in, complete declarations, print badges and notify their host without an ERP user account.
   - title: COSHH Register
     url: /health-safety-software/#coshh-register
     icon: fa fa-1x fa-flask
