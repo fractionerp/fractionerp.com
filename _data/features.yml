@@ -106,10 +106,10 @@ people:
     url: /training-log/
     icon: fa fa-1x fa-clipboard-user
     description: Log operator training, approval and completion records in one controlled place.
-  - title: Time and Attendance
+  - title: Time & Attendance
     url: /time-and-attendance/
     icon: fa fa-1x fa-business-time
-    description: Manage leave, holidays and sickness, then use staff availability in production scheduling.
+    description: Connect clocking, leave, sickness and staff availability directly to production scheduling.
   - title: Operator Performance
     icon: fa fa-1x fa-chart-line
     coming_soon: true
