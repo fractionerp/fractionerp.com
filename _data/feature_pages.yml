@@ -450,7 +450,7 @@ health-safety-software:
   related:
   - title: Risk Assessment Software
     url: "/risk-assessment-software/"
-  - title: Visitor Kiosk
+  - title: Visitor Registration
     url: "/visitor-kiosk/"
   - title: SOP Software
     url: "/sop-software/"
@@ -514,7 +514,7 @@ risk-assessment-software:
   cta_text: Book a demo and we will show how risk assessments fit into the wider
     Fraction ERP workflow.
 visitor-kiosk:
-  h1: Visitor Kiosk for Safer, Simpler Site Sign-In
+  h1: Visitor Registration for Safer, Simpler Site Sign-In
   intro: Turn a tablet or desktop into a self-service visitor kiosk without exposing
     an ERP user account, while keeping everyone on site visible to your team.
   bullets:
@@ -536,7 +536,7 @@ visitor-kiosk:
   - label: Arrival notification
     value: Automatic
     text: Email the relevant host as soon as their visitor completes registration.
-  sections_title: Visitor Kiosk Features
+  sections_title: Visitor Registration Features
   sections_intro: Give visitors a straightforward arrival process while maintaining
     the declarations, identification and live records your site requires.
   sections:
@@ -565,7 +565,7 @@ visitor-kiosk:
     url: /erp-dashboard/
   - title: User Management
     url: /user-management/
-  cta_title: See the Visitor Kiosk Workflow
+  cta_title: See the Visitor Registration Workflow
   cta_text: See how self-service sign-in, declarations, badges, live visitor status
     and host notifications work inside Fraction ERP.
 non-conformance-reports:

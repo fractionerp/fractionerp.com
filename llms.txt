@@ -36,7 +36,7 @@ Fraction ERP is a cloud-based manufacturing ERP and MRP system for SMEs that nee
 - [Bill of Materials Software](https://fractionerp.com/bill-of-materials-software/): BOM creation, templating, and version management
 - [Health and Safety Software](https://fractionerp.com/health-safety-software/): Health and safety records inside manufacturing ERP, starting with workplace risk assessments
 - [Risk Assessment Software](https://fractionerp.com/risk-assessment-software/): Workplace risk assessments for manufacturers, with COSHH register support planned
-- [Visitor Kiosk](https://fractionerp.com/visitor-kiosk/): Account-free tablet or desktop visitor sign-in with custom declarations, badge printing, clock-out, live dashboard visibility and host arrival emails
+- [Visitor Registration](https://fractionerp.com/visitor-kiosk/): Account-free tablet or desktop visitor sign-in with custom declarations, badge printing, clock-out, live dashboard visibility and host arrival emails
 - [Sales Order Management](https://fractionerp.com/sales-order-management-software/): Quote-to-invoice workflow
 - [Purchasing and Inventory](https://fractionerp.com/purchasing-inventory-software/): Purchase orders, stock control, reorder points
 - [Cloud ERP Software](https://fractionerp.com/cloud-erp-software/): Cloud deployment and mobility
