@@ -8,7 +8,7 @@ author: Giles Johnston
 permalink: /blog/what-order-management-software-do-you-use/
 ---
 
-Many people reach out to us when they realise that they need an [**order management software**](https://fractionerp.com/contracts) solution.
+Many people reach out to us when they realise that they need an [**order management software**](https://fractionerp.com/contracts/) solution.
 
 
 Order management is at the core of Fraction ERP.
@@ -106,7 +106,7 @@ There are a number of benefits using an ERP system can bring to a business. Spec
 If you have gone past handling a handful of orders per month, the answer is 'no'!
 
 
-We understand the concern that many people have. If you are thinking seriously about ERP then we urge you to [**download our free ERP implementation guide**](https://fractionerp.com/erp-implementation-guide). This should address any concerns you have and make the whole process of selecting, implementing and running an ERP system less daunting.
+We understand the concern that many people have. If you are thinking seriously about ERP then we urge you to [**download our free ERP implementation guide**](https://fractionerp.com/erp-implementation-guide/). This should address any concerns you have and make the whole process of selecting, implementing and running an ERP system less daunting.
 
 
 If you choose the right system, an ERP system will simplify order management for you. We've designed Fraction ERP to be a flexible tool for your business. Use the modules that will help you today and ignore the rest until later.
@@ -123,9 +123,9 @@ If you choose the right system, an ERP system will simplify order management for
 To help you understand if [**Fraction ERP**](https://fractionerp.com/index) might be a good order management software solution for your business there are a few things you can do:
 
 
-- [**Arrange a free demo with us**](https://fractionerp.com/book-a-demo), so we can show you the system. If you like what you see, you can have a two week free trial period. During this time you can properly test it out with your own information.
+- [**Arrange a free demo with us**](https://fractionerp.com/book-a-demo/), so we can show you the system. If you like what you see, you can have a two week free trial period. During this time you can properly test it out with your own information.
 - You can check out our [**video walkthroughs**](https://vimeo.com/showcase/8283119).
-- The [**features pages**](https://fractionerp.com/features) of our website have more information about what Fraction ERP can do.
+- The [**features pages**](https://fractionerp.com/features/) of our website have more information about what Fraction ERP can do.
 - The [**support pages**](https://support.fractionerp.com/) can give you a better idea of how various modules work.
 
 

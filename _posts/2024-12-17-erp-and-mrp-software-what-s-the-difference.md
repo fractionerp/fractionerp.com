@@ -104,7 +104,7 @@ In more recent times (last ten years), it seems that many more industry specific
 Our cloud ERP system is what we'd like to think of as a [**traditional manufacturing ERP system**](https://fractionerp.com/index). It covers the range of functions listed above (enquiries, sales orders, works orders, purchasing, scheduling, capacity planning, shop floor data capture, shipping and invoicing).
 
 
-We don't have an accounts function but we do integrate with cloud options (currently Sage, Xero and Quickbooks). You can find out more about our functions on our [**features pages**](https://fractionerp.com/features). See how [Fraction ERP compares to MRPeasy](/mrpeasy-alternative/) and other manufacturing software options.
+We don't have an accounts function but we do integrate with cloud options (currently Sage, Xero and Quickbooks). You can find out more about our functions on our [**features pages**](https://fractionerp.com/features/). See how [Fraction ERP compares to MRPeasy](/mrpeasy-alternative/) and other manufacturing software options.
 
 
 
@@ -120,13 +120,13 @@ We don't have an accounts function but we do integrate with cloud options (curre
 We also know how hard it can be to select an ERP system that is right for you. You can [compare ERP systems](/compare-erp/) to help narrow down your options. And, if you have been wrestling with the differences between ERP and MRP software, then you might be even more confused as to what you need.
 
 
-We offer a [**free two week trial account**](https://fractionerp.com/erp-online-demo), so you can properly evaluate Fraction ERP. There's nothing better than getting your hands on the software and trying it out. Having your team run a few orders through our system is the perfect way to find out if Fraction ERP will do what you need.
+We offer a [**free two week trial account**](https://fractionerp.com/erp-online-demo/), so you can properly evaluate Fraction ERP. There's nothing better than getting your hands on the software and trying it out. Having your team run a few orders through our system is the perfect way to find out if Fraction ERP will do what you need.
 
 
 Also, you can be inputting orders in a matter of minutes. Our [**support pages**](https://support.fractionerp.com/) provide step by step instruction and setup can only take a few minutes.
 
 
-To organise your [**free trial account**](https://fractionerp.com/erp-online-demo), fill in the form below.
+To organise your [**free trial account**](https://fractionerp.com/erp-online-demo/), fill in the form below.
 
 
 

@@ -28,4 +28,4 @@ You can override the start date, so if you want to schedule it for another time,
 This is just [**one of our recent updates**](https://fractionerp.com/blog/february-2022-updates), you can read about other updates here.
 
 
-If you want to find out more about Fraction ERP, then [**check out our video walkthroughs**](https://fractionerp.com/blog/walkthrough-videos), or sign up for a free demo using the form below.
+If you want to find out more about Fraction ERP, then [**check out our video walkthroughs**](https://fractionerp.com/blog/walkthrough-videos/), or sign up for a free demo using the form below.

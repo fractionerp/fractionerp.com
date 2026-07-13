@@ -14,7 +14,7 @@ Let's face it, ERP demos can take time.
 If you are busy running a business, it can feel like this is time you don't have.
 
 
-In this short article we will share with you how you can get the most from an ERP demo, especially the [**demos delivered by Fraction ERP**](https://fractionerp.com/erp-online-demo)!
+In this short article we will share with you how you can get the most from an ERP demo, especially the [**demos delivered by Fraction ERP**](https://fractionerp.com/erp-online-demo/)!
 
 
 If you get your approach to ERP demos right, you can save a whole load of time and find the right system at the same time!

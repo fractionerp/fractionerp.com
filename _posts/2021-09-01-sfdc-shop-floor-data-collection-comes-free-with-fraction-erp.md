@@ -18,7 +18,7 @@ Yes!!!
 
 
 
-When we built the first version of [**Fraction ERP**](https://fractionerp.com/features) we didn't want people to overthink moving to us. We didn't want people having to make a decision between opting for SFDC, or not.
+When we built the first version of [**Fraction ERP**](https://fractionerp.com/features/) we didn't want people to overthink moving to us. We didn't want people having to make a decision between opting for SFDC, or not.
 
 
 
@@ -55,7 +55,7 @@ The two videos below provide more detail on this. The first video provides an ov
 
 
 
-If you want to find out what the rest of our cloud ERP system can do for your business, [**sign up for a free demo**](https://fractionerp.com/contact) using the form below. If you aren't quite ready to get in touch, then [**check out our video overviews here**](https://fractionerp.com/blog/walkthrough-videos).
+If you want to find out what the rest of our cloud ERP system can do for your business, [**sign up for a free demo**](https://fractionerp.com/contact/) using the form below. If you aren't quite ready to get in touch, then [**check out our video overviews here**](https://fractionerp.com/blog/walkthrough-videos/).
 
 
 

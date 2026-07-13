@@ -11,7 +11,7 @@ permalink: /blog/managing-operator-and-workcenter-capacity-in-one-go/
 What do you do if you have certain operations that can only be carried out by skilled operatives?
 
 
-In [**Fraction ERP**](https://fractionerp.com/features) we provide the option to schedule against workcenters and operators. You can do both at the same time, if you choose.
+In [**Fraction ERP**](https://fractionerp.com/features/) we provide the option to schedule against workcenters and operators. You can do both at the same time, if you choose.
 
 
 Providing these options allows you to manage key constraints. As you can see in the image below, you can do this during scheduling. You can define both the operator and the workcenter.
@@ -71,4 +71,4 @@ The image below shows a screenhot from an operator's work to list.
 You can use Fraction ERP with flexibility. If you want to schedule your work via skilled operators, you can. If you want to use traditional workcenters, you can. If you want to use a hybrid approach, you can!
 
 
-If you want to [**find out more about Fraction ERP**](https://fractionerp.com/blog/walkthrough-videos), and how it can help your business, then sign up for a demo. You can use the form below to get in touch.
+If you want to [**find out more about Fraction ERP**](https://fractionerp.com/blog/walkthrough-videos/), and how it can help your business, then sign up for a demo. You can use the form below to get in touch.

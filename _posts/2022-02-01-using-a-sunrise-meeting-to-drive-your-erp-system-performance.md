@@ -8,7 +8,7 @@ author: Giles Johnston
 permalink: /blog/using-a-sunrise-meeting-to-drive-your-erp-system-performance/
 ---
 
-We all know that [**implementing an ERP system**](https://fractionerp.com/features) isn't a magic pill to cure your business' operational woes.
+We all know that [**implementing an ERP system**](https://fractionerp.com/features/) isn't a magic pill to cure your business' operational woes.
 
 
 Well, most of us know this.
@@ -66,7 +66,7 @@ Fundamentally, a Sunrise Meeting is focused on keeping your business processes o
 No more waiting weeks (or months!) to find yourself off track. No more Herculean efforts to get your business back in order. Small corrections, as they happen, is the mantra of the Sunrise Meeting. Every day is focused on being in control and on track.
 
 
-Using your [**ERP system to execute your business processes**](https://fractionerp.com/features), in a controlled manner, is one of the ways you get the most out of your ERP system. The Sunrise Meeting checks that this is happening and is effective.
+Using your [**ERP system to execute your business processes**](https://fractionerp.com/features/), in a controlled manner, is one of the ways you get the most out of your ERP system. The Sunrise Meeting checks that this is happening and is effective.
 
 
 
@@ -105,7 +105,7 @@ Some questions may take a bit of thinking about how to answer the question. The 
 We know what it is like to try and run a Sunrise Meeting without the information at your fingertips. It is near impossible.
 
 
-When we built the first version of [**Fraction ERP**](https://fractionerp.com/features), we included our business dashboard because we wanted to be able to drill right down to the key questions as fast as possible.
+When we built the first version of [**Fraction ERP**](https://fractionerp.com/features/), we included our business dashboard because we wanted to be able to drill right down to the key questions as fast as possible.
 
 
 If you look at the image below, you will be able to see the purchasing late line items, late works orders and overdue operations.

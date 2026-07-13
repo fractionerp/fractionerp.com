@@ -8,7 +8,7 @@ author: Giles Johnston
 permalink: /blog/adapting-to-the-change-that-erp-brings/
 ---
 
-Let me make this clear. For many businesses, introducing an [**ERP system**](https://fractionerp.com/features) requires a change in approach.
+Let me make this clear. For many businesses, introducing an [**ERP system**](https://fractionerp.com/features/) requires a change in approach.
 
 
 I don't want to sugar coat this. It is the same for any new system, it often gets harder before it gets easier.
@@ -84,10 +84,10 @@ If you have specified an ERP system that meets your business' needs then getting
 
 
 
-If you are currently researching ERP systems then [**download a copy of our free guide**](https://fractionerp.com/blog/free-erp-systems-guide). It isn't based around Fraction ERP, we wrote it to help people to find, deploy and run a system that delivers results.
+If you are currently researching ERP systems then [**download a copy of our free guide**](https://fractionerp.com/blog/free-erp-systems-guide/). It isn't based around Fraction ERP, we wrote it to help people to find, deploy and run a system that delivers results.
 
 
-To learn more about our system, check out our [**video walkthroughs**](https://fractionerp.com/blog/walkthrough-videos) or [**sign up for a free demo**](https://fractionerp.com/contact) using the form below.
+To learn more about our system, check out our [**video walkthroughs**](https://fractionerp.com/blog/walkthrough-videos/) or [**sign up for a free demo**](https://fractionerp.com/contact/) using the form below.
 
 
 Otherwise, embrace the dip and keep your focus. Work towards the higher levels of business performance that await you!

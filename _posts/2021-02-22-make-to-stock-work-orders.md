@@ -14,7 +14,7 @@ If you operate in a make to stock environment, or a hybrid of make to stock and 
 In the walkthrough video below, we show you how the make to stock work orders function operates.
 
 
-As with everything else we have in the system, [**we have strived for simplicity and effectiveness**](https://fractionerp.com/features).
+As with everything else we have in the system, [**we have strived for simplicity and effectiveness**](https://fractionerp.com/features/).
 
 
 <div class="video-embed"><iframe src="https://player.vimeo.com/video/519885476" frameborder="0" allowfullscreen></iframe></div>

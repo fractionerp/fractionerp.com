@@ -11,7 +11,7 @@ permalink: /blog/using-kanban-with-your-erp-system/
 Whenever I used to discuss Kanban with consulting clients as part of a discussion on Lean Manufacturing their eyes would light up. For many people that I spoke with, Kanban was a standard to reach and most of them wanted it there and then.
 
 
-Unfortunately it takes time to organise your manufacturing operation so that you can operate a true Kanban. Combine this with the fact that many businesses have invested so heavily into their [**ERP system**](https://fractionerp.com/features) you can understand why so many businesses fail to deploy Kanbans effectively.
+Unfortunately it takes time to organise your manufacturing operation so that you can operate a true Kanban. Combine this with the fact that many businesses have invested so heavily into their [**ERP system**](https://fractionerp.com/features/) you can understand why so many businesses fail to deploy Kanbans effectively.
 
 
 Before I go into two specific ways that you can use Fraction ERP with Kanbans (yes, they don't have to be mutually exclusive!) let me give you a quick recap on what a Kanban is and how they are designed to be used. I should stress here that I am going to talk about the physical Kanbans used in manufacturing environments and not their digital equivalents used in software development.
@@ -45,7 +45,7 @@ And here is the real conflict. Kanbans are a pull production system. MRP systems
 
 
 
-Your ERP system should produce a [**simple work to list**](https://fractionerp.com/features) that your production teams can follow. Normally, as with any push system, you would complete one operation / works order that is loaded on your work to list and then move to the next works order in the list. This pattern would be repeated indefinitely. Whatever is happening downstream is of no concern to you.
+Your ERP system should produce a [**simple work to list**](https://fractionerp.com/features/) that your production teams can follow. Normally, as with any push system, you would complete one operation / works order that is loaded on your work to list and then move to the next works order in the list. This pattern would be repeated indefinitely. Whatever is happening downstream is of no concern to you.
 
 
 Linking this with a Kanban means that you wouldn't start another item on your work to list until your Kanban signal told you to do so. Whether this is a square on the floor, a traffic light system or something that is coordinated by your production control team it does not matter. No production signal means no production.
@@ -68,4 +68,4 @@ If you have repeating products this can be an option for your business. If it is
 Some businesses will be better off with a forecasting and push production method. Some businesses will need to adopt a mass customisation strategy and many other will need some form of hybrid approach. Kanbans offer a great way to reduce overproduction and inventory wastes building in your business. I hope this article gives you some inspiration that your Lean strategy and your ERP strategy don't have to be separate items. In many ways, a simple way to think of this is that Lean is about boosting productivity and reducing waste and ERP is about efficiently keeping a grip on your customer orders. You can combine these two approaches and integrate your ERP system with pull production methods.
 
 
-[**Fraction ERP**](https://fractionerp.com/) allows you to have simple work to lists and use re-order levels. Fraction is a simple way to control your production orders and push towards a Lean organisation. If you are ready to start your Lean ERP journey today, and want a system that will help you to deploy Kanbans, then [**get in touch today for your free demo**](https://fractionerp.com/contact).
+[**Fraction ERP**](https://fractionerp.com/) allows you to have simple work to lists and use re-order levels. Fraction is a simple way to control your production orders and push towards a Lean organisation. If you are ready to start your Lean ERP journey today, and want a system that will help you to deploy Kanbans, then [**get in touch today for your free demo**](https://fractionerp.com/contact/).

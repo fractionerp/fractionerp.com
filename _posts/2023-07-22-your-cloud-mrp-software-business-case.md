@@ -8,7 +8,7 @@ author: Giles Johnston
 permalink: /blog/your-cloud-mrp-software-business-case/
 ---
 
-Choosing to use an MRP system for the first time, or moving to a new system, isn't a small decision. From our point of view, knowing the business case is as important as the [**software's functions**](https://fractionerp.com/features).
+Choosing to use an MRP system for the first time, or moving to a new system, isn't a small decision. From our point of view, knowing the business case is as important as the [**software's functions**](https://fractionerp.com/features/).
 
 
 In this article I want to share with you some basic ideas to help you bring your business case together. If you have not created a business case before it is thankfully simple. In essence you are determining if the benefits outweigh the costs.
@@ -130,7 +130,7 @@ MRP systems should help you to leverage your staff's time. For example, Fraction
 They can then spend their time on higher level business activities. When you do this, you build the business and there should be a cash benefit to this.
 
 
-As an additional note - Fraction ERP includes [**free shop floor data capture licenses **](https://fractionerp.com/shop-floor-data-capture)when you take out a paid subscription. You can get your whole shop floor team recording time and tracking progress at no extra cost!
+As an additional note - Fraction ERP includes [**free shop floor data capture licenses **](https://fractionerp.com/shop-floor-data-capture/)when you take out a paid subscription. You can get your whole shop floor team recording time and tracking progress at no extra cost!
 
 
 ---
@@ -182,13 +182,13 @@ On the opposite side, too often there is a lack of thought about capturing the b
 So, benefits - costs = profit / loss.
 
 
-That's it. If you want to discuss your business case with us then please [**get in touch via the contact us page**](https://fractionerp.com/contact).
+That's it. If you want to discuss your business case with us then please [**get in touch via the contact us page**](https://fractionerp.com/contact/).
 
 
-If you think that Fraction ERP might be a good fit then [**click here to organise your demo and free trial**](https://fractionerp.com/book-a-demo). We offer a two week trial period to help you play and evaluate our software.
+If you think that Fraction ERP might be a good fit then [**click here to organise your demo and free trial**](https://fractionerp.com/book-a-demo/). We offer a two week trial period to help you play and evaluate our software.
 
 
-Finally, if you want some ideas on how to go about evaluating MRP / ERP software, download our [**free implementation guide**](https://fractionerp.com/erp-implementation-guide). You can get your copy here and it will also help you get the most out of the system you choose (even if it isn't us!).
+Finally, if you want some ideas on how to go about evaluating MRP / ERP software, download our [**free implementation guide**](https://fractionerp.com/erp-implementation-guide/). You can get your copy here and it will also help you get the most out of the system you choose (even if it isn't us!).
 
 
 ---

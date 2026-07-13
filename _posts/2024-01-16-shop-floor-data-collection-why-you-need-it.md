@@ -108,7 +108,7 @@ If you plan for 100% utilisation and you only have 75%, your production schedule
 
 
 
-I hope these four points convince you of the benefits of using [**Shop Floor Data Collection**](https://fractionerp.com/shop-floor-data-capture). The reason we include it as part of our standard subscription is that we didn't want any of our customers to have to decide if they wanted to pay for it. We know that it is vital for a manufacturing business if they want to get the most out of their ERP system, hence our decision.
+I hope these four points convince you of the benefits of using [**Shop Floor Data Collection**](https://fractionerp.com/shop-floor-data-capture/). The reason we include it as part of our standard subscription is that we didn't want any of our customers to have to decide if they wanted to pay for it. We know that it is vital for a manufacturing business if they want to get the most out of their ERP system, hence our decision.
 
 
 
@@ -117,4 +117,4 @@ I hope these four points convince you of the benefits of using [**Shop Floor Dat
 
 
 
-If you want to learn more about Fraction ERP, then [**check out our features page**](https://fractionerp.com/features) or [**sign up for a free demo**](https://fractionerp.com/erp-online-demo) using the form below. We also offer a free trial account so that you can really test out Fraction ERP and see if it is a good fit for your business.
+If you want to learn more about Fraction ERP, then [**check out our features page**](https://fractionerp.com/features/) or [**sign up for a free demo**](https://fractionerp.com/erp-online-demo/) using the form below. We also offer a free trial account so that you can really test out Fraction ERP and see if it is a good fit for your business.

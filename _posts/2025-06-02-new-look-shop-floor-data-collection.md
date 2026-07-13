@@ -8,7 +8,7 @@ author: Giles Johnston
 permalink: /blog/new-look-shop-floor-data-collection/
 ---
 
-We've just updated the SFDC ([**shop floor data collection**](https://fractionerp.com/shop-floor-data-capture)) function within Fraction ERP.
+We've just updated the SFDC ([**shop floor data collection**](https://fractionerp.com/shop-floor-data-capture/)) function within Fraction ERP.
 
 
 As well as simplifying the appearance, making it easier for tablet users, we've added a notes function.
@@ -63,7 +63,7 @@ If you have never used shop floor data capture before, it can save managers hour
 
 
 
-If you want to learn more about Fraction ERP, [**sign up for our free demo**](https://fractionerp.com/erp-online-demo).
+If you want to learn more about Fraction ERP, [**sign up for our free demo**](https://fractionerp.com/erp-online-demo/).
 
 
 If you like what you see on the demo, you can have your own Fraction ERP account free for two weeks.

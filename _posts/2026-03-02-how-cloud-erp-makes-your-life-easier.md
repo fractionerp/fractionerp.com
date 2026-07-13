@@ -48,4 +48,4 @@ Switching to a cloud ERP like Fraction ERP isn't just about technology—it's ab
 
 ---
 
-Discover how Fraction ERP's cloud ERP features can transform your operations today. [Get in touch]({{ site.baseurl }}/contact) for a demo or [book a trial]({{ site.baseurl }}/book-a-demo).
+Discover how Fraction ERP's cloud ERP features can transform your operations today. [Get in touch]({{ site.baseurl }}/contact/) for a demo or [book a trial]({{ site.baseurl }}/book-a-demo/).

@@ -42,7 +42,7 @@ The video below shows you how the work to list appears to the shop floor teams.
 
 
 
-And, if you want to know how we re-schedule within [**Fraction ERP**](https://fractionerp.com/features) then check out this video walkthrough. This is vital to keep your work to list being effective.
+And, if you want to know how we re-schedule within [**Fraction ERP**](https://fractionerp.com/features/) then check out this video walkthrough. This is vital to keep your work to list being effective.
 
 
 <div class="video-embed"><iframe src="https://player.vimeo.com/video/519886501" frameborder="0" allowfullscreen></iframe></div>

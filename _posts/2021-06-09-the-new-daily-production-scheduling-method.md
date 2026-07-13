@@ -17,7 +17,7 @@ We have taken the approach of layering the scheduling function. This means that 
 Using the scheduling horizons approach, we have adopted a sequential scheduling process. The weekly buckets get scheduled first (aka rough cut planning) and then daily scheduling can be carried out closer to the time.
 
 
-If you haven't seen this approach before, [**check out this article**](https://fractionerp.com/blog/active-scheduling-of-your-planning-horizons).
+If you haven't seen this approach before, [**check out this article**](https://fractionerp.com/blog/active-scheduling-of-your-planning-horizons/).
 
 
 The daily scheduling screen follows the same visual approach we took for the weekly scheduling system. As you can see in the screenshot below, the allocated capacity is shown visually within the scheduling tiles.

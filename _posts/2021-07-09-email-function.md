@@ -8,7 +8,7 @@ author: Giles Johnston
 permalink: /blog/email-function/
 ---
 
-One of the improvements we have made to our [**cloud ERP system**](https://fractionerp.com/features) is automated emails. These are now in effect for both the quote and purchase order functions.
+One of the improvements we have made to our [**cloud ERP system**](https://fractionerp.com/features/) is automated emails. These are now in effect for both the quote and purchase order functions.
 
 
 Information from your quote / purchase order are now taken across to a pre-filled email. You can edit this email prior to sending.
@@ -23,4 +23,4 @@ The short video below shows you this in action.
 
 
 
-If you would like to learn more about Fraction ERP, then [**view our walkthrough videos**](https://fractionerp.com/blog/walkthrough-videos) or sign up for a free demo using the form below.
+If you would like to learn more about Fraction ERP, then [**view our walkthrough videos**](https://fractionerp.com/blog/walkthrough-videos/) or sign up for a free demo using the form below.

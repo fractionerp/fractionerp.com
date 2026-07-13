@@ -16,7 +16,7 @@ When we designed Fraction ERP, we wanted all of our modules to be easy to use an
 - filtering / searching functions.
 
 
-To learn more about our simple and effective [**contracts management module**](https://fractionerp.com/features), check out this walk through video:
+To learn more about our simple and effective [**contracts management module**](https://fractionerp.com/features/), check out this walk through video:
 
 
 

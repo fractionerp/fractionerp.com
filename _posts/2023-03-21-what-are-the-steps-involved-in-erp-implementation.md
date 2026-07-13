@@ -18,7 +18,7 @@ There are too many stories on the Internet of difficult ERP implementations. Imp
 
 
 
-It doesn't have to be this way. In this article we'll outline the basics of an [**ERP implementation**](https://fractionerp.com/erp-implementation-guide) so that you can plan your implementation effectively. There are [**lots of benefits to introducing an ERP system**](https://fractionerp.com/blog/erp-system-benefits), but you can't get them if you can't get through the implementation phase.
+It doesn't have to be this way. In this article we'll outline the basics of an [**ERP implementation**](https://fractionerp.com/erp-implementation-guide/) so that you can plan your implementation effectively. There are [**lots of benefits to introducing an ERP system**](https://fractionerp.com/blog/erp-system-benefits/), but you can't get them if you can't get through the implementation phase.
 
 
 
@@ -92,7 +92,7 @@ Speak to the staff at the vendor company, especially their support team. Being a
 Before you can implement the ERP system, it is important that your team is prepared to use the software. This means having a clear understanding of how the software works and how it can be used effectively to improve business processes or create new ones. Training should be provided for all members of staff who will interact with the system.
 
 
-We offer a [**free two week trial**](https://fractionerp.com/book-a-demo) of our ERP system for this very reason. Thankfully, purchasing ERP systems from short PowerPoint presentations and limited experience with a system is largely in the past. We want our users to have played with Fraction, to understand how it can work in their business.
+We offer a [**free two week trial**](https://fractionerp.com/book-a-demo/) of our ERP system for this very reason. Thankfully, purchasing ERP systems from short PowerPoint presentations and limited experience with a system is largely in the past. We want our users to have played with Fraction, to understand how it can work in their business.
 
 
 We don't like surprises and we're sure you don't either. Getting your team ready is part of that equation.
@@ -105,7 +105,7 @@ Our full support site is available to help you with your onboarding, including o
 
 ---
 
-[![Free ERP system trial]({{ site.baseurl }}/assets/img/blog/36fc52a32ba2308aeb878588dacf7795/Fourteendayfreetrial.png)](https://fractionerp.com/book-a-demo)
+[![Free ERP system trial]({{ site.baseurl }}/assets/img/blog/36fc52a32ba2308aeb878588dacf7795/Fourteendayfreetrial.png)](https://fractionerp.com/book-a-demo/)
 
 ---
 
@@ -156,7 +156,7 @@ By following these steps, you can ensure that your ERP implementation is success
 
 
 
-We've written an [**ERP implementation guide**](https://fractionerp.com/erp-implementation-guide) that you can download for free to help you to select, implement and get the most from your ERP system. We've included more information than is contained in this article. It has been written to help you get the results you want from an ERP system, not just Fraction ERP.
+We've written an [**ERP implementation guide**](https://fractionerp.com/erp-implementation-guide/) that you can download for free to help you to select, implement and get the most from your ERP system. We've included more information than is contained in this article. It has been written to help you get the results you want from an ERP system, not just Fraction ERP.
 
 
 

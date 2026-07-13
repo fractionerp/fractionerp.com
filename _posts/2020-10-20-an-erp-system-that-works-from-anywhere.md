@@ -84,7 +84,7 @@ Management can still manage, using their dashboards and filtered information.
 Working in the cloud offers flexibility and advantages that server based options just can't.
 
 
-(If you want to know about some other reasons that using a cloud ERP system makes sense, then [check out this article](https://fractionerp.com/blog/5-reasons-cloud-erp-makes-sense).)
+(If you want to know about some other reasons that using a cloud ERP system makes sense, then [check out this article](https://fractionerp.com/blog/5-reasons-cloud-erp-makes-sense/).)
 
 
 

@@ -81,7 +81,7 @@ When you work with your shop floor team to capture information about progress ma
 Fraction ERP has a number of shop floor tracking options. These include the high level works order view and the detailed SFDC screen (which shows you who is on what operation and how much time they have left).
 
 
-We've [**taken SFDC a step further**](https://fractionerp.com/shop-floor-data-capture) in our subscriptions too. SFDC users are free with our paid subscriptions, so you don't have to worry about an expanding shop floor team when you sign up with Fraction ERP.
+We've [**taken SFDC a step further**](https://fractionerp.com/shop-floor-data-capture/) in our subscriptions too. SFDC users are free with our paid subscriptions, so you don't have to worry about an expanding shop floor team when you sign up with Fraction ERP.
 
 
 ---
@@ -133,7 +133,7 @@ A short Sunrise Meeting (less than ten minutes) can be worth its weight in gold 
 
 
 
-Tying in with the Sunrise Meeting approach, and general management, our [**task management tool**](https://fractionerp.com/erp-task-management) can help take the guesswork out of running your business.
+Tying in with the Sunrise Meeting approach, and general management, our [**task management tool**](https://fractionerp.com/erp-task-management/) can help take the guesswork out of running your business.
 
 
 We've made the tool flexible so you can use it across your business. Capturing key tasks, that will prevent problems in the future, is a brilliant way to save time from your working day.
@@ -187,7 +187,7 @@ Saving time doesn't have to be a huge project, or require a massive shift in foc
 To help you evaluate Fraction ERP we offer a free two week trial.
 
 
-We recommend that you get in touch to arrange a [**free online demo**](https://fractionerp.com/erp-online-demo), so we can show you the basics of our cloud ERP system and then you can take it from there. Putting a few orders through an ERP system is one of the best ways to work out if it is going to be a good fit for your business.
+We recommend that you get in touch to arrange a [**free online demo**](https://fractionerp.com/erp-online-demo/), so we can show you the basics of our cloud ERP system and then you can take it from there. Putting a few orders through an ERP system is one of the best ways to work out if it is going to be a good fit for your business.
 
 
 To arrange your free demo, simply fill in the form below.

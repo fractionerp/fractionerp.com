@@ -98,7 +98,7 @@ A [**good ERP dashboard**](https://fractionerp.com/dashboard) should help you to
 Or, if they have time, get it back on track before the meeting!
 
 
-We've also built in a [**task management function**](https://fractionerp.com/erp-task-management) into Fraction ERP. This means that during your daily sunrise / production meeting you can capture any tasks from the meeting, to review at the next meeting (or later that day, depending on how pressing the actions are). You can use the task management function to capture all of your different business action, split down by category, not just the sunrise meeting.
+We've also built in a [**task management function**](https://fractionerp.com/erp-task-management/) into Fraction ERP. This means that during your daily sunrise / production meeting you can capture any tasks from the meeting, to review at the next meeting (or later that day, depending on how pressing the actions are). You can use the task management function to capture all of your different business action, split down by category, not just the sunrise meeting.
 
 
 
@@ -113,7 +113,7 @@ We've also built in a [**task management function**](https://fractionerp.com/erp
 
 
 
-If you are looking for a simple and straightforward ERP system, with a dashboard that can help you to drive the performance of your manufacturing business, [**get in touch**](https://fractionerp.com/erp-online-demo).
+If you are looking for a simple and straightforward ERP system, with a dashboard that can help you to drive the performance of your manufacturing business, [**get in touch**](https://fractionerp.com/erp-online-demo/).
 
 
 We recommend an online demo so that we can show you how to get the best out of the system for your business. From there we can setup a free two week trial with your own instance of Fraction ERP. You can put your own products and orders through the system, to see how it would really work for you.

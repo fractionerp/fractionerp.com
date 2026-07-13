@@ -61,4 +61,4 @@ By adopting a robust system like Fraction ERP, manufacturers can leave behind th
 
 
 
-See the difference for yourself and experience the benefits of smart, intuitive scheduling. Start your journey to a more efficient shop floor today with a **[free two-week trial of Fraction ERP](https://fractionerp.com/erp-online-demo).**
+See the difference for yourself and experience the benefits of smart, intuitive scheduling. Start your journey to a more efficient shop floor today with a **[free two-week trial of Fraction ERP](https://fractionerp.com/erp-online-demo/).**

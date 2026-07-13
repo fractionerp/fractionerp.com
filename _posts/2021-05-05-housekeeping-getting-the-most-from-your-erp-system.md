@@ -68,7 +68,7 @@ Items you could include in your housekeeping routine:
 A little bit of housekeeping each week makes this a manageable task. Keeping on top of your data makes the ERP system effective. Making the system effective helps you to streamline your operations. Streamlined operations allow you to direct your resources to the right priorities. The right priorities will help you achieve the goals you have for your business.
 
 
-Choosing a simplified and low cost ERP system, such as [**Fraction ERP**](https://fractionerp.com/features), is another way avoid these issues. Quick to learn software and streamlined processes reduce the need for housekeeping.
+Choosing a simplified and low cost ERP system, such as [**Fraction ERP**](https://fractionerp.com/features/), is another way avoid these issues. Quick to learn software and streamlined processes reduce the need for housekeeping.
 
 
-If you want to learn more about Fraction ERP then [**sign up for a free demo **](https://fractionerp.com/contact)using the form below. You can also [**view our walkthrough videos here**](https://fractionerp.com/blog/walkthrough-videos).
+If you want to learn more about Fraction ERP then [**sign up for a free demo **](https://fractionerp.com/contact/)using the form below. You can also [**view our walkthrough videos here**](https://fractionerp.com/blog/walkthrough-videos/).

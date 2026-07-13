@@ -28,7 +28,7 @@ Below are a series of screenshots, taken from a smartphone and a desktop PC. Hop
 
 
 
-The first page you come to within Fraction ERP, the dashboard, allows you to manage your business by exception reporting. Sunrise meetings / production meetings can be really easy to run, especially when you use our [**task management module**](https://fractionerp.com/erp-task-management).
+The first page you come to within Fraction ERP, the dashboard, allows you to manage your business by exception reporting. Sunrise meetings / production meetings can be really easy to run, especially when you use our [**task management module**](https://fractionerp.com/erp-task-management/).
 
 
 ![]({{ site.baseurl }}/assets/img/blog/0845a0dd1582639fc9af845405082481/FractionERPmobile-dashboard.jpg)
@@ -135,4 +135,4 @@ Despatching product can also be carried out via a smartphone. As you can see fro
 I hope this article has given you a better insight into how Fraction ERP works on a mobile device. Whatever device you prefer to work from, Fraction ERP gives you the flexibility to work how you want, when you want, from where you want.
 
 
-If you want to find out more about our cloud based ERP system, then [**check out our features page**](https://fractionerp.com/features), or [**sign up for a demo**](https://fractionerp.com/erp-online-demo) using the form below. If you like what you see, we can offer you a free two week trial to let you fully put Fraction ERP through its paces with your data.
+If you want to find out more about our cloud based ERP system, then [**check out our features page**](https://fractionerp.com/features/), or [**sign up for a demo**](https://fractionerp.com/erp-online-demo/) using the form below. If you like what you see, we can offer you a free two week trial to let you fully put Fraction ERP through its paces with your data.

@@ -8,7 +8,7 @@ author: Giles Johnston
 permalink: /blog/growing-your-business-with-an-erp-system/
 ---
 
-Many growing businesses use an [**ERP system**](https://fractionerp.com/features) to help them achieve their growth. There are a lot of bad news stories about ERP systems and how the opposite happens.
+Many growing businesses use an [**ERP system**](https://fractionerp.com/features/) to help them achieve their growth. There are a lot of bad news stories about ERP systems and how the opposite happens.
 
 
 In this article I will share some of the common concerns around using ERP systems to help grow a business. I will also share some of the key benefits, the results many businesses want from their ERP system.
@@ -31,7 +31,7 @@ For many businesses, moving to an ERP system is considered a big jump. When you 
 If you deploy your ERP system in a staged manner, it doesn't have to be a big jump. In fact, it can be very controlled and practical. Planning is the key to avoid having to go for a big jump.
 
 
-Big jumps often derail / hinder ERP system deployments. If you want to see how Fraction ERP deploys in a step by step manner, [**check out this article**](https://fractionerp.com/blog/taking-baby-steps-when-moving-to-an-erp-system).
+Big jumps often derail / hinder ERP system deployments. If you want to see how Fraction ERP deploys in a step by step manner, [**check out this article**](https://fractionerp.com/blog/taking-baby-steps-when-moving-to-an-erp-system/).
 
 
 ### Sucking away resources
@@ -134,7 +134,7 @@ One person can now handle more management tasks because of this efficiency. This
 
 
 
-There are many other reasons why an ERP system can help you to grow your business. These three are some of the common ones we hear when [**speaking to prospective customers**](https://fractionerp.com/blog/what-happens-during-a-free-demonstration).
+There are many other reasons why an ERP system can help you to grow your business. These three are some of the common ones we hear when [**speaking to prospective customers**](https://fractionerp.com/blog/what-happens-during-a-free-demonstration/).
 
 
 If you have some concerns about moving to an ERP system then let us know. If you drop us a line using the contact form below we will talk you through how you can mitigate these concerns.
@@ -143,4 +143,4 @@ If you have some concerns about moving to an ERP system then let us know. If you
 (And, if we can't, we'll tell you!)
 
 
-If you want to [**find out more about how Fraction ERP can help your business**](https://fractionerp.com/features), then sign up for a demo using the form below.
+If you want to [**find out more about how Fraction ERP can help your business**](https://fractionerp.com/features/), then sign up for a demo using the form below.

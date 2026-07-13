@@ -35,4 +35,4 @@ Fraction ERP takes a very simple stance on this. We provide a very easy to use s
 ![]({{ site.baseurl }}/assets/img/blog/autosave-2d68795b13e252eec56f1015d066dbeb/PICounting.jpg)
 
 
-If you are fed up of messy stock takes and difficult ERP systems then try out Fraction ERP today. You can access the free demo by [clicking here](https://fractionerp.com/contact).
+If you are fed up of messy stock takes and difficult ERP systems then try out Fraction ERP today. You can access the free demo by [clicking here](https://fractionerp.com/contact/).

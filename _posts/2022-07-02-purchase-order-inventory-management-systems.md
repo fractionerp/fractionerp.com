@@ -8,7 +8,7 @@ author: Giles Johnston
 permalink: /blog/purchase-order-inventory-management-systems/
 ---
 
-We're often asked if an ERP system is a [**purchase order inventory management system**](https://fractionerp.com/purchasing). This is a common question that comes up during demos.
+We're often asked if an ERP system is a [**purchase order inventory management system**](https://fractionerp.com/purchasing/). This is a common question that comes up during demos.
 
 
 Depending on the ERP system you opt for, a purchase order inventory management system could be part of the wider ERP system. In Fraction ERP, we include this functionality as part of our standard subscription.
@@ -159,13 +159,13 @@ Sometimes you need to adjust stock levels manually. This could be for damage, no
 To help you determine if Fraction ERP is a good fit for your business, we offer two things:
 
 
-1. A free online demo, so you can get a better feel for how Fraction ERP can work for your business. You can also [**check out our other videos here**](https://fractionerp.com/blog/walkthrough-videos).
+1. A free online demo, so you can get a better feel for how Fraction ERP can work for your business. You can also [**check out our other videos here**](https://fractionerp.com/blog/walkthrough-videos/).
 
 
 2. A free two week trial. This allows you and your team to poke, prod and play with Fraction ERP to test out the functionality. You get a chance to see if Fraction really would be a good fit for your business.
 
 
-If you want to explore Fraction ERP further, just [**fill in our contact form**](https://fractionerp.com/contact).
+If you want to explore Fraction ERP further, just [**fill in our contact form**](https://fractionerp.com/contact/).
 
 
 I hope that you now have a better understanding of Fraction ERP and how it also performs as a  purchase order inventory management system.

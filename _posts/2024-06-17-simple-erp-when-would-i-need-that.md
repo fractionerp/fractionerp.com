@@ -89,7 +89,7 @@ If you want to see the workflow, and the main functions of Fraction ERP, then [*
 
 
 
-If you want to see how simple Fraction ERP is, then [**sign up for an online demo **](https://fractionerp.com/erp-online-demo)using the form below.
+If you want to see how simple Fraction ERP is, then [**sign up for an online demo **](https://fractionerp.com/erp-online-demo/)using the form below.
 
 
 If you like what you see in the demo, we can set you up with an account for two weeks, for free. You can test run your orders through our ERP system and see how well it works for you.

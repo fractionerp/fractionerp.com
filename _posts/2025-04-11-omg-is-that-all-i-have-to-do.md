@@ -14,7 +14,7 @@ This was a near verbatim 'testimonial' from one of our new clients last week.
 It was from an office administrator that has recently started using Fraction ERP at one of our clients. They were used to having to jump between several screens with their previous ERP system; time consuming.
 
 
-I (Giles) was asked to show them the part of the system they would use to process quotes, [**sales orders**](https://fractionerp.com/contracts), despatch and [**raising invoices**](https://fractionerp.com/invoicing).
+I (Giles) was asked to show them the part of the system they would use to process quotes, [**sales orders**](https://fractionerp.com/contracts/), despatch and [**raising invoices**](https://fractionerp.com/invoicing/).
 
 
 It only took a few minutes to show them their part within Fraction ERP and this was their response:

@@ -54,7 +54,7 @@ The schedule should feed your capacity management reports, that may force either
 
 
 
-The output of the schedule creates work to lists for your teams to follow. This, in turn, provides the basis for [**work tracking**](https://fractionerp.com/shop-floor-data-capture) which can save hours of management time every day.
+The output of the schedule creates work to lists for your teams to follow. This, in turn, provides the basis for [**work tracking**](https://fractionerp.com/shop-floor-data-capture/) which can save hours of management time every day.
 
 
 I hope you can see that the scheduling function is essential to drive so many other important activities within the ERP system that ultimately lead to higher levels of productivity and profitability.
@@ -114,7 +114,7 @@ Each business has preferences in terms of how they schedule. Some want to start 
 We've opted for 'forward / finite' as our scheduling option.
 
 
-If you look at our mission on our [**About Us**](https://fractionerp.com/about) page, you will understand why we have taken this stance:
+If you look at our mission on our [**About Us**](https://fractionerp.com/about/) page, you will understand why we have taken this stance:
 
 
 ***"To put low cost and simple ERP into the hands of every manufacturing SME at a time when they are fed up of broken spreadsheets, whiteboards and paper based systems."***
@@ -172,7 +172,7 @@ Many businesses waste enormous hours on producing detailed schedules for their e
 To help prospective customers learn how Fraction ERP works, we offer a free trial. The trial is for two weeks and allows you to input your data into Fraction ERP and see if it can help your business to unlock the benefits of ERP.
 
 
-To help you better understand how Fraction ERP works, we recommend you [**organise an online demo**](https://fractionerp.com/book-a-demo) with us. This takes around one hour and helps us to show you the features that will help your particular business and give you a good overview of the system.
+To help you better understand how Fraction ERP works, we recommend you [**organise an online demo**](https://fractionerp.com/book-a-demo/) with us. This takes around one hour and helps us to show you the features that will help your particular business and give you a good overview of the system.
 
 
 If you would like to organise your demo and free trial, fill in the form below.

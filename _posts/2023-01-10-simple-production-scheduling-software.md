@@ -81,7 +81,7 @@ If you are currently scheduling your production on whiteboards and on spreadshee
 If you want to find out more, use these links:
 
 
-- **[Sign up for a free demo](https://fractionerp.com/book-a-demo)**.
-- [**Check out the features of Fraction ERP**](https://fractionerp.com/features).
-- [**Download our free ERP implementation guide**](https://fractionerp.com/erp-implementation-guide).
-- [**View our walkthrough videos**](https://fractionerp.com/blog/walkthrough-videos).
+- **[Sign up for a free demo](https://fractionerp.com/book-a-demo/)**.
+- [**Check out the features of Fraction ERP**](https://fractionerp.com/features/).
+- [**Download our free ERP implementation guide**](https://fractionerp.com/erp-implementation-guide/).
+- [**View our walkthrough videos**](https://fractionerp.com/blog/walkthrough-videos/).

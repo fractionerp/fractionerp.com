@@ -33,4 +33,4 @@ By cutting out manual tasks and centralising all your purchasing communications,
 
 Ready to simplify your buying process and save time on every order? Take a closer look at Fraction ERP's RFQ tools and see how easy purchasing can be.
 
-[**Book a demo**]({{ site.baseurl }}/book-a-demo) to see our RFQ process in action, or [**start your free trial**]({{ site.baseurl }}/contact) and experience the time savings yourself.
+[**Book a demo**]({{ site.baseurl }}/book-a-demo/) to see our RFQ process in action, or [**start your free trial**]({{ site.baseurl }}/contact/) and experience the time savings yourself.

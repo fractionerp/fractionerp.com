@@ -8,7 +8,7 @@ author: Giles Johnston
 permalink: /blog/works-order-demand/
 ---
 
-One of the recent changes we have made to [**Fraction ERP**](https://fractionerp.com/features) speeds up purchasing activities. The change is located on the Part Demand screen.
+One of the recent changes we have made to [**Fraction ERP**](https://fractionerp.com/features/) speeds up purchasing activities. The change is located on the Part Demand screen.
 
 
 The supplier information associated with the purchasing records now pulls through to this screen. You can see this in the image below, third column from the right.

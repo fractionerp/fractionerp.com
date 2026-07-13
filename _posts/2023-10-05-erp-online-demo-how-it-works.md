@@ -25,7 +25,7 @@ The reason that we offer a demo, before the free trial, is to save you time. We 
 
 
 
-To request a demo, just visit this page: [**https://fractionerp.com/book-a-demo**](https://fractionerp.com/book-a-demo)
+To request a demo, just visit this page: [**https://fractionerp.com/book-a-demo**](https://fractionerp.com/book-a-demo/)
 
 
 ## What happens before the demo
@@ -77,7 +77,7 @@ If this is the first time that you have visited the Fraction ERP site, then don'
 [**Our free ERP implementation guide**](https://fractionerp.com/erp-implementation-guide.php). This is great if you are trying to select an ERP system, or get the most out of one (even if it isn't Fraction ERP).
 
 
-[**Our features page**](https://fractionerp.com/features). Find out all of the features that our system includes.
+[**Our features page**](https://fractionerp.com/features/). Find out all of the features that our system includes.
 
 
 [**Our support site**](https://support.fractionerp.com/). Learn how easy it is to setup and use Fraction ERP.

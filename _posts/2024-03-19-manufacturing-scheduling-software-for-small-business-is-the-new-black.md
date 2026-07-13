@@ -90,10 +90,10 @@ We all know that production orders can move back and forward. Why waste time mov
 
 
 
-If you want to run some of your orders through a [**Fraction ERP test account**](https://fractionerp.com/blog/erp-demo-just-show-me-the-system), let us know.
+If you want to run some of your orders through a [**Fraction ERP test account**](https://fractionerp.com/blog/erp-demo-just-show-me-the-system/), let us know.
 
 
-We can organise a [**free ERP demo**](https://fractionerp.com/erp-online-demo) to help you get a better idea of how Fraction works and then you input some of your own data into your own account.
+We can organise a [**free ERP demo**](https://fractionerp.com/erp-online-demo/) to help you get a better idea of how Fraction works and then you input some of your own data into your own account.
 
 
 If you like it, you can start a subscription and go from there.

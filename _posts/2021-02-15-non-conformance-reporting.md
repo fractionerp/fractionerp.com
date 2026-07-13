@@ -11,7 +11,7 @@ permalink: /blog/non-conformance-reporting/
 Having a simple and fast way to effectively manage your manufacturing non-conformities is vital to any business that wants to be known for quality. Even better, if you operate an ISO 9001 Quality Management System, then this functionality is essential.
 
 
-[**Fraction ERP**](https://fractionerp.com/features) has a very simple, but effective, workflow for handling non-conformances and NCRs (Non Conformance Reports).
+[**Fraction ERP**](https://fractionerp.com/features/) has a very simple, but effective, workflow for handling non-conformances and NCRs (Non Conformance Reports).
 
 
 The video below shows this function in operation and covers the corrective actions management function.

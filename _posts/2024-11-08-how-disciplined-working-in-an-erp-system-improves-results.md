@@ -75,7 +75,7 @@ Use the ERP's way of working and find ways to get the most out of it. Create rou
 Making a change to work in line with an ERP system's processes can bring some notable benefits.
 
 
-[**Decreased admin**](https://fractionerp.com/features) is one of them. Removing the work content around the organising, scheduling and controlling of production orders doesn't just save time, it can reduce mistakes!
+[**Decreased admin**](https://fractionerp.com/features/) is one of them. Removing the work content around the organising, scheduling and controlling of production orders doesn't just save time, it can reduce mistakes!
 
 
 This saved time can then be re-directed. Management time can be spent on strategic projects and improvement activities. Bigger business goals can be realised and the cost of your ERP system saved many times over.
@@ -123,7 +123,7 @@ Flexible enough to let you choose a path through the system but rigid enough so 
 To help you understand if [**Fraction ERP**](https://fractionerp.com/) is a good fit for your business, we offer a free two week trial.
 
 
-Get in touch using the form below and we can [**organise a short online demo**](https://fractionerp.com/erp-online-demo) and then give you the keys to Fraction ERP. Put some orders through the system and see if it works the way that you need a system to work.
+Get in touch using the form below and we can [**organise a short online demo**](https://fractionerp.com/erp-online-demo/) and then give you the keys to Fraction ERP. Put some orders through the system and see if it works the way that you need a system to work.
 
 
 Let your staff play with the modules and get their feedback.

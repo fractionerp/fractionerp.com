@@ -17,7 +17,7 @@ When Shop Floor Data Collection is working properly it has some obvious benefits
 - Feedback about your planning accuracy.
 
 
-However, many businesses deploy [**Shop Floor Data Collection**](https://fractionerp.com/features) and fail to get the results they want and expect. The following five points can help you to roll out, and embed, this approach in your business.
+However, many businesses deploy [**Shop Floor Data Collection**](https://fractionerp.com/features/) and fail to get the results they want and expect. The following five points can help you to roll out, and embed, this approach in your business.
 
 
 

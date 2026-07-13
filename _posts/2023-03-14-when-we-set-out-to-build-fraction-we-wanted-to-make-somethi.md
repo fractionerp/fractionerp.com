@@ -120,7 +120,7 @@ At Fraction we offer a free online demo so that you can learn more about how the
 To help you test drive Fraction ERP, we also offer a free two week trial. We will provide you with your own instance of Fraction that you can use in with your data. This is secure and only you can see your data. If you like the system, start a subscription and keep going. If it isn't for you, we're just pleased that we helped you on your journey.
 
 
-To organise your free demo, [**use the form below**](https://fractionerp.com/book-a-demo).
+To organise your free demo, [**use the form below**](https://fractionerp.com/book-a-demo/).
 
 
 ERP has always been a great tool for manufacturers. Having a cloud based ERP system just means that even small manufacturers can take advantage of these tools without having to break the bank.

@@ -55,7 +55,7 @@ We've pulled a lot of these general questions together and compiled them into ou
 If you avoid the pitfalls laid out in the guide, you should find yourself having an easier time getting the most from an ERP system (whether it is Fraction ERP or another system).
 
 
-You can [**get hold of a copy here**](https://fractionerp.com/erp-implementation-guide), or by filling in the form below.
+You can [**get hold of a copy here**](https://fractionerp.com/erp-implementation-guide/), or by filling in the form below.
 
 
 ---
@@ -85,4 +85,4 @@ I hope you find the guide useful. ERP should be a friend to your business, not a
 Implementing an ERP system isn't hard if you find a system that you think will help, that appears easy to learn and will genuinely help your team members. If it looks like it will help, you don't have to push people to use it (as much!).
 
 
-If you want to find out what Fraction ERP looks like and how it works, then check out our [**overview videos**](https://fractionerp.com/blog/walkthrough-videos) or sign up for a free demo using the form below.
+If you want to find out what Fraction ERP looks like and how it works, then check out our [**overview videos**](https://fractionerp.com/blog/walkthrough-videos/) or sign up for a free demo using the form below.

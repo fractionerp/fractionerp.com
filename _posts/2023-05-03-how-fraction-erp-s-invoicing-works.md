@@ -14,7 +14,7 @@ One of the challenges our modern age brings us is the sheer number of apps we no
 Yes, Fraction ERP is clearly another app. We have built it as a modern ERP system to help cover a wide range of activities, hopefully minimising the number of other apps you require to run your business.
 
 
-One of the regular questions we get is around [**ERP invoicing**](https://fractionerp.com/invoicing). This post aims to give you a better idea of how it works within Fraction ERP and how our links to online accounting software should save you some more apps!
+One of the regular questions we get is around [**ERP invoicing**](https://fractionerp.com/invoicing/). This post aims to give you a better idea of how it works within Fraction ERP and how our links to online accounting software should save you some more apps!
 
 
 
@@ -158,7 +158,7 @@ If you thought ERP invoicing was going to be complicated, hopefully you see it d
 We've aimed to keep the whole ERP system simple like this. **This is great if you have had enough of complicated ERP systems and want something more usable, or if you are considering ERP for the first time.**
 
 
-If you want to learn how our system can help your business to grow, without an admin burden, [**sign up for an online demo**](https://fractionerp.com/book-a-demo).
+If you want to learn how our system can help your business to grow, without an admin burden, [**sign up for an online demo**](https://fractionerp.com/book-a-demo/).
 
 
 If you like what you see, you can then test out our system with your own data with our free two week trial.

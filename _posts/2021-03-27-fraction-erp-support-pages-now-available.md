@@ -8,7 +8,7 @@ author: Giles Johnston
 permalink: /blog/fraction-erp-support-pages-now-available/
 ---
 
-At [**Fraction ERP**](https://fractionerp.com/features), we pride ourselves on having designed and developed a simple cloud based ERP system. We haven't skimped on the functionality, but we have ensured that the system is as quick as possible to pick up and master.
+At [**Fraction ERP**](https://fractionerp.com/features/), we pride ourselves on having designed and developed a simple cloud based ERP system. We haven't skimped on the functionality, but we have ensured that the system is as quick as possible to pick up and master.
 
 
 We know that when you starting using a software app, the learning curve is a key consideration.

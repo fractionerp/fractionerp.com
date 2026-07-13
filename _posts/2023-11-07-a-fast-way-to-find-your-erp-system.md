@@ -114,4 +114,4 @@ There are many ways to search for and locate ERP software for your business but 
 
 
 
-If you are a manufacturer looking for your first ERP system and you'd like to learn more about Fraction ERP, please [**sign up for a free demo**](https://fractionerp.com/erp-online-demo) and trial account using the form below.
+If you are a manufacturer looking for your first ERP system and you'd like to learn more about Fraction ERP, please [**sign up for a free demo**](https://fractionerp.com/erp-online-demo/) and trial account using the form below.

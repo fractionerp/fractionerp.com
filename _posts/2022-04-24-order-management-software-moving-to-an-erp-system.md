@@ -116,10 +116,10 @@ Fraction ERP is fully cloud based, so you can work when you want, how you want.
 
 
 
-If you are looking for a new [**order management software**](https://fractionerp.com/features) option for your business, then check out Fraction ERP today.
+If you are looking for a new [**order management software**](https://fractionerp.com/features/) option for your business, then check out Fraction ERP today.
 
 
-You can [**request a free online demo**](https://fractionerp.com/contact) by using the form below, or view our [**walkthrough videos here**](https://fractionerp.com/blog/walkthrough-videos).
+You can [**request a free online demo**](https://fractionerp.com/contact/) by using the form below, or view our [**walkthrough videos here**](https://fractionerp.com/blog/walkthrough-videos/).
 
 
 If you like what you see, you can then take advantage of our free fourteen day trial.

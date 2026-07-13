@@ -11,10 +11,10 @@ permalink: /blog/erp-demo-feel-the-fear-and-do-it-anyway/
 Are you looking for a new [**ERP system**](https://fractionerp.com/) and are wary of engaging with a company to have a demo?
 
 
-An [**ERP demo**](https://fractionerp.com/erp-online-demo) is a critical part of the assessment, for a number of reasons that I'll go into in a moment.
+An [**ERP demo**](https://fractionerp.com/erp-online-demo/) is a critical part of the assessment, for a number of reasons that I'll go into in a moment.
 
 
-This short article aims to do two things. Firstly, go over the benefits of getting your sleeves rolled up when it comes to an ERP demo. Secondly, why the team at Fraction ERP are [**nice people**](https://fractionerp.com/about) and how we barely do sales(!).
+This short article aims to do two things. Firstly, go over the benefits of getting your sleeves rolled up when it comes to an ERP demo. Secondly, why the team at Fraction ERP are [**nice people**](https://fractionerp.com/about/) and how we barely do sales(!).
 
 
 
@@ -42,7 +42,7 @@ This short article aims to do two things. Firstly, go over the benefits of getti
 
 
 
-Hopefully you've got a good idea of the [**features of an ERP system**](https://fractionerp.com/features) from their website (ours included!).
+Hopefully you've got a good idea of the [**features of an ERP system**](https://fractionerp.com/features/) from their website (ours included!).
 
 
 What if you haven't seen some of the really cool things that makes an ERP system stand out from the crowd?
@@ -164,7 +164,7 @@ This gives you an even deeper experience of Fraction and should help to answer y
 So, if you have been thinking to yourself that you could side step the ERP demo and the trial phase, I ask you to reconsider. Plus, if there isn't a trial phase I suggest you find out why. This, after all, is one of the great things about the cloud computing era we are in.
 
 
-If you want to [**organise a demo**](https://fractionerp.com/erp-online-demo) call for Fraction ERP, fill in the form below.
+If you want to [**organise a demo**](https://fractionerp.com/erp-online-demo/) call for Fraction ERP, fill in the form below.
 
 
 

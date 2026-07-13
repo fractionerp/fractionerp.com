@@ -8,7 +8,7 @@ author: Giles Johnston
 permalink: /blog/shop-floor-visual-management/
 ---
 
-[**Our recent update**](https://fractionerp.com/product-updates) has brought with it an upgrade to our [**Shop Floor Data Collection**](https://fractionerp.com/shop-floor-data-capture) (SFDC) tracking screens.
+[**Our recent update**](https://fractionerp.com/product-updates/) has brought with it an upgrade to our [**Shop Floor Data Collection**](https://fractionerp.com/shop-floor-data-capture/) (SFDC) tracking screens.
 
 
 You can now see, at a glance, which workcentres are operating, along with which team members are clocked onto a job.
@@ -148,4 +148,4 @@ To help you understand if Fraction ERP is a good fit for your business, we offer
 This gives you time to put a few orders through your own account and test out the rest of the system.
 
 
-To organise your free trial, fill in the form below. We also offer a [**quick online demo**](https://fractionerp.com/erp-online-demo) to give you a good feel for how Fraction ERP works and then let you loose.
+To organise your free trial, fill in the form below. We also offer a [**quick online demo**](https://fractionerp.com/erp-online-demo/) to give you a good feel for how Fraction ERP works and then let you loose.

@@ -126,4 +126,4 @@ This means that your IT staff can go about helping your business to be more prod
 Fraction ERP is a cloud based system for these reasons and more. If you are currently tied to a server based installation, that isn't scratching your itch for controlling your business operations, then check out Fraction ERP.
 
 
-You can learn more by [**clicking on the link above**](https://fractionerp.com/features), or request a free tour of the system by filling in the form below.
+You can learn more by [**clicking on the link above**](https://fractionerp.com/features/), or request a free tour of the system by filling in the form below.

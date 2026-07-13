@@ -48,4 +48,4 @@ A simpler user interface isn't just a design choice—it's a productivity tool. 
 
 ---
 
-Interested in seeing how Fraction ERP V3 could save your team time? [Get in touch]({{ site.baseurl }}/contact) for a demo or [book a trial]({{ site.baseurl }}/book-a-demo) today.
+Interested in seeing how Fraction ERP V3 could save your team time? [Get in touch]({{ site.baseurl }}/contact/) for a demo or [book a trial]({{ site.baseurl }}/book-a-demo/) today.

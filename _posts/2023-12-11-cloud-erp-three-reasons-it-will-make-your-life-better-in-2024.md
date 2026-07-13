@@ -60,10 +60,10 @@ This really ties in with point 1, lower costs. Automatic updates reduce your cos
 
 
 
-I said three reasons in the introduction, but this is a bonus fourth point just for Fraction ERP (I can't speak for other systems). We've spent a lot of time stripping back ERP functionality, to get back to something simple enough to learn and complex enough to help you run your factory. ([**You can see the features of our cloud ERP system here**](https://fractionerp.com/features).)
+I said three reasons in the introduction, but this is a bonus fourth point just for Fraction ERP (I can't speak for other systems). We've spent a lot of time stripping back ERP functionality, to get back to something simple enough to learn and complex enough to help you run your factory. ([**You can see the features of our cloud ERP system here**](https://fractionerp.com/features/).)
 
 
 We believe that Fraction ERP will help with lowering your costs and improving your profits. Less admin to carry out your office tasks. Better data to make better decisions. More time working on the business and less time hunting around your business trying to find where your production orders have got up to.
 
 
-If you'd like to learn more about Fraction ERP, please fill in the form below and we'll get in touch to [**organise a demo**](https://fractionerp.com/erp-online-demo) and free trial account.
+If you'd like to learn more about Fraction ERP, please fill in the form below and we'll get in touch to [**organise a demo**](https://fractionerp.com/erp-online-demo/) and free trial account.

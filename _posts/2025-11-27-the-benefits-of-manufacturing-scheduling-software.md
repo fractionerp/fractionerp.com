@@ -53,7 +53,7 @@ This visualisation helps you to speed up the scheduling process, especially when
 
 
 
-[**Creating work to lists**](https://fractionerp.com/shop-floor-data-capture) for your teams to follow is another chore that manufacturing scheduling software can take in its stride.
+[**Creating work to lists**](https://fractionerp.com/shop-floor-data-capture/) for your teams to follow is another chore that manufacturing scheduling software can take in its stride.
 
 
 In most scheduling tools, when you change a sequence of operations, the work to list is updated. The work to list is the natural output of the scheduler. If you write out manual work to lists, this could be eliminated if you used a scheduling tool for your factory.
@@ -117,7 +117,7 @@ The one at a time schedule works with the same logic as auto schedule but you ge
 Auto schedule can be used periodically to reset your schedule if you have notable problems with projects / breakdowns etc... We also have the ability to pin operations, if certain works orders cannot be moved around but others can.
 
 
-And, to save time making minor tweaks to your schedule when things slip, we've included a shunting function. This 'shoves' the schedule along the timeline if operations aren't being completed on time, until they are booked off by the shop floor staff. [**Shop floor user accounts are free in Fraction ERP!**](https://fractionerp.com/shop-floor-data-capture)
+And, to save time making minor tweaks to your schedule when things slip, we've included a shunting function. This 'shoves' the schedule along the timeline if operations aren't being completed on time, until they are booked off by the shop floor staff. [**Shop floor user accounts are free in Fraction ERP!**](https://fractionerp.com/shop-floor-data-capture/)
 
 
 

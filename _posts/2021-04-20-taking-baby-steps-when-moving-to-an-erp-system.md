@@ -76,7 +76,7 @@ You can create simple manufacturing orders with Fraction ERP, without [**creatin
 By creating a basic manufacturing route, with even a single operation (e.g. manufacture product), a works order can be created. This links a sales contract to production demand; telling production the part numbers, qty and delivery dates. This can run along side your current process, making sure nothing gets missed.
 
 
-If you make to stock, you can also start [**raising stock work orders**](https://fractionerp.com/blog/make-to-stock-work-orders).
+If you make to stock, you can also start [**raising stock work orders**](https://fractionerp.com/blog/make-to-stock-work-orders/).
 
 
 Later on, when you are ready, parts and detail routings can added to the BOMs. This will enable the job costing functionality within the BOM module.
@@ -86,7 +86,7 @@ Later on, when you are ready, parts and detail routings can added to the BOMs. T
 
 
 
-The [**purchasing function**](https://fractionerp.com/blog/simplified-purchasing) can be used at any time. Start by raising your purchase orders in Fraction to control expenditure and [**manage inventory**](https://fractionerp.com/blog/perpetual-inventory-and-fraction-erp). The [**stock alert function**](https://fractionerp.com/blog/stock-alert-function-now-added) will keep inventory under control from now on.
+The [**purchasing function**](https://fractionerp.com/blog/simplified-purchasing/) can be used at any time. Start by raising your purchase orders in Fraction to control expenditure and [**manage inventory**](https://fractionerp.com/blog/perpetual-inventory-and-fraction-erp/). The [**stock alert function**](https://fractionerp.com/blog/stock-alert-function-now-added/) will keep inventory under control from now on.
 
 
 Once you start creating works orders with part requirements, you can use the part demand function to process purchase orders. Parts can be aggregated and scheduled so you can start reducing expenditure.
@@ -99,14 +99,14 @@ Once you start creating works orders with part requirements, you can use the par
 As the BOM detail increases, you can unleash production scheduling tools to create meaningful '[**work to lists**](https://vimeo.com/519886045)' for your production operators.
 
 
-As more data enters Fraction ERP, you can manage capacity for each work center. [**Effective capacity management**](https://fractionerp.com/blog/balance-your-shop-floor-workloads-with-simple-scheduling-tools) boosts utilisation and on time delivery.
+As more data enters Fraction ERP, you can manage capacity for each work center. [**Effective capacity management**](https://fractionerp.com/blog/balance-your-shop-floor-workloads-with-simple-scheduling-tools/) boosts utilisation and on time delivery.
 
 
 ### Production tracking
 
 
 
-Using the building blocks you have already implemented, [**works order tracking**](https://fractionerp.com/blog/shop-floor-tracking-tools) and [**shop floor data capture**](https://fractionerp.com/blog/shop-floor-data-collection-the-shop-floor-view) can be deployed.
+Using the building blocks you have already implemented, [**works order tracking**](https://fractionerp.com/blog/shop-floor-tracking-tools/) and [**shop floor data capture**](https://fractionerp.com/blog/shop-floor-data-collection-the-shop-floor-view/) can be deployed.
 
 
 When a customer calls about an order, you can now look up in real time where the order is in production, even if you are sitting at the kitchen table!
@@ -139,7 +139,7 @@ You can take our ERP system and roll it out in controlled steps. Train your team
 You only move on to the next step of the implementation plan when you are ready to do so. It can be really useful to agree in advance what results you want to see / experience to confirm that you are ready to move to the next step.
 
 
-It is possible to migrate from non-ERP systems to an ERP system without the business keeling over or the team mutinying at the same time. If you want to discuss how you can deploy Fraction ERP in your business then [**get in touch using the contact form below**](https://fractionerp.com/contact).
+It is possible to migrate from non-ERP systems to an ERP system without the business keeling over or the team mutinying at the same time. If you want to discuss how you can deploy Fraction ERP in your business then [**get in touch using the contact form below**](https://fractionerp.com/contact/).
 
 
 We'll be happy to discuss your own particular challenges!
@@ -148,4 +148,4 @@ We'll be happy to discuss your own particular challenges!
 We hope that your transition to an ERP system is smooth and (relatively) pain free.
 
 
-P.S. If you want to know more about what happens during a [**free demo session, click here**](https://fractionerp.com/blog/what-happens-during-a-free-demonstration).
+P.S. If you want to know more about what happens during a [**free demo session, click here**](https://fractionerp.com/blog/what-happens-during-a-free-demonstration/).

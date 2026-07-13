@@ -21,6 +21,7 @@ google_analytics: "G-9Y26QKV8QE"
 
 # Build settings
 markdown: kramdown
+# Jekyll's "pretty" format emits directory URLs such as /pricing/.
 permalink: pretty
 
 # Plugins

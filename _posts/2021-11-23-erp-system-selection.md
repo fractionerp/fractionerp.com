@@ -8,7 +8,7 @@ author: Giles Johnston
 permalink: /blog/erp-system-selection/
 ---
 
-Choosing an ERP system can be an onerous task. If you have been given the task of [**system selection**](https://fractionerp.com/features), then we understand that you may be feeling anxious.
+Choosing an ERP system can be an onerous task. If you have been given the task of [**system selection**](https://fractionerp.com/features/), then we understand that you may be feeling anxious.
 
 
 At Fraction ERP we wanted to help anyone with this predicament. If you are looking for an Enterprise Resource Planning system, we have a handy guide that can help you. To get hold of your free copy, just fill in your details below.
@@ -43,7 +43,7 @@ Here are a few points that are worth considering when you are going through an E
 
 - Choose a range of software vendors to speak with.
 - Be clear about which of your business processes are essential. This is critical when it comes to system functionality. These are known as critical success factors and each one must feature in your chosen system.
-- Consider the business requirements, [**the features**](https://fractionerp.com/features), that an ideal ERP system must deliver. This should help complement your evaluation of the critical success factors.
+- Consider the business requirements, [**the features**](https://fractionerp.com/features/), that an ideal ERP system must deliver. This should help complement your evaluation of the critical success factors.
 - Find out the implementation process that your vendors propose. Some approaches may be a better fit for your business than others.
 - Customer service levels from the vendor can make or break an implementation. This includes during the implementation and when you have gone live. Don't underestimate this as part of your system selection process.
 - Determine if the system can generate cost savings for your business. Capture the full implementation cost and see if you can determine a return on investment.
@@ -54,7 +54,7 @@ Here are a few points that are worth considering when you are going through an E
 ERP implementations run more smoothly when you have answered the above questions.
 
 
-To help with the [**software selection process**](https://fractionerp.com/contact), we offer a free demo and free fourteen day trial. We designed the demo to help you get a feel for how our software works and meet our team. We want to ensure that you have a smooth implementation experience. Speaking to us can help you get a feel for this.
+To help with the [**software selection process**](https://fractionerp.com/contact/), we offer a free demo and free fourteen day trial. We designed the demo to help you get a feel for how our software works and meet our team. We want to ensure that you have a smooth implementation experience. Speaking to us can help you get a feel for this.
 
 
 We are keen to understand your critical business processes. Importantly, we need to find out if our software is going to be a good fit for your business. When you undertake the two week trial, use your selection criteria. This will establish how good a fit we are for your business.

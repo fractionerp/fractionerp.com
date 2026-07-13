@@ -64,4 +64,4 @@ You can see the BOM walkthrough in this video:
 
 
 
-For more information about Fraction ERP, view our [**video walkthroughs here**](https://fractionerp.com/blog/walkthrough-videos). Or, if you are ready to see more, sign up for a free demo using the form below.
+For more information about Fraction ERP, view our [**video walkthroughs here**](https://fractionerp.com/blog/walkthrough-videos/). Or, if you are ready to see more, sign up for a free demo using the form below.

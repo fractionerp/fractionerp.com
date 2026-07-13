@@ -89,7 +89,7 @@ So, what are you waiting for?
 If you need to sort out your capacity plan then draw up an improvement plan and get to it.
 
 
-And, if you just don't have a system to do this - [sign up for a free demo of Fraction ERP today](https://fractionerp.com/contact).
+And, if you just don't have a system to do this - [sign up for a free demo of Fraction ERP today](https://fractionerp.com/contact/).
 
 
 Having a simple and effective capacity planning tool makes all of the difference to decision making and delivering on time efficiently.

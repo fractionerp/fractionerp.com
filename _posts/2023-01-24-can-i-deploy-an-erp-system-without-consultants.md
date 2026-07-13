@@ -54,7 +54,7 @@ We promote a self-onboarding approach to our new clients, which works well.
 We have a separate [**support site**](https://support.fractionerp.com/), which includes step by step walkthrough videos. [**You can see them here**](https://support.fractionerp.com/).
 
 
-If you want to see how easy it is, in operation, then drop us a line to [**organise a free demo**](https://fractionerp.com/book-a-demo) and we'll walk you through the system ourselves.
+If you want to see how easy it is, in operation, then drop us a line to [**organise a free demo**](https://fractionerp.com/book-a-demo/) and we'll walk you through the system ourselves.
 
 
 Plus, after the demo you can have access to Fraction ERP for two weeks to help you with your evaluation. You can see how easy it is to use for yourself.
@@ -64,7 +64,7 @@ And, if you are new to ERP systems, there are two resources that can really help
 
 
 1. [**A high level workflow, explaining how the modules of Fraction ERP work**](https://support.fractionerp.com/assets/workflow.pdf).
-2. [**A free downloadable guide on selecting, deploying and managing an ERP system**](https://fractionerp.com/erp-implementation-guide).
+2. [**A free downloadable guide on selecting, deploying and managing an ERP system**](https://fractionerp.com/erp-implementation-guide/).
 
 
 
@@ -126,9 +126,9 @@ We think the answer is yes. If you can operate a device with a web browser and a
 If you want learn more, you can:
 
 
-- [**Get in touch to organise a free demo and trial period**](https://fractionerp.com/book-a-demo).
-- [**Watch the feature overview videos**](https://fractionerp.com/blog/walkthrough-videos).
-- [**Read about our features**](https://fractionerp.com/features).
+- [**Get in touch to organise a free demo and trial period**](https://fractionerp.com/book-a-demo/).
+- [**Watch the feature overview videos**](https://fractionerp.com/blog/walkthrough-videos/).
+- [**Read about our features**](https://fractionerp.com/features/).
 - [**Review our pricing**](https://fractionerp.com/pricing/).
 
 

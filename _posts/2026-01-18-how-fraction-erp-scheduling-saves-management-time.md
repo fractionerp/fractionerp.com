@@ -94,6 +94,6 @@ Our scheduling system integrates seamlessly with sales order management, invento
 
 If you're tired of spending hours tracking production instead of improving it, it's time to see how Fraction ERP's scheduling system works for your business.
 
-[**Book a demo**]({{ site.baseurl }}/book-a-demo) to see real-time scheduling in action, or [**start your free trial**]({{ site.baseurl }}/contact) and experience the time savings yourself.
+[**Book a demo**]({{ site.baseurl }}/book-a-demo/) to see real-time scheduling in action, or [**start your free trial**]({{ site.baseurl }}/contact/) and experience the time savings yourself.
 
 Because your time is too valuable to waste on manual tracking. It's time to get back to leading your business forward.

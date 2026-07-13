@@ -32,10 +32,10 @@ In this article we are going to provide you with a basic understanding of how mo
 Most ERP system have a series of interconnected modules. We will list out the most common modules in a rough sequence of how they work together.
 
 
-Each heading has been linked to our [**features page**](https://fractionerp.com/features). If you want more information about what our module do / comprise of, click the link.
+Each heading has been linked to our [**features page**](https://fractionerp.com/features/). If you want more information about what our module do / comprise of, click the link.
 
 
-### [Parts](https://fractionerp.com/parts-and-inventory)
+### [Parts](https://fractionerp.com/parts-and-inventory/)
 
 
 
@@ -59,7 +59,7 @@ Most ERP systems will allow you to defined parameters for your parts. These incl
 
 
 
-### [Bill of Materials (BoM) / Routing](https://fractionerp.com/bill-of-materials)
+### [Bill of Materials (BoM) / Routing](https://fractionerp.com/bill-of-materials/)
 
 
 
@@ -69,7 +69,7 @@ Once you have parts in your system, you create structures and manufacturing rout
 Fraction ERP has the product structure and operations combined in one screen. This allows for instant job costing to take place as you build your BoM and route.
 
 
-### [Quotes](https://fractionerp.com/contracts)
+### [Quotes](https://fractionerp.com/contracts/)
 
 
 
@@ -79,7 +79,7 @@ Now you have 'products' and parts in your ERP system you can quote. This allows 
 We've built in direct email quotes to Fraction ERP. Our system also has the ability to adjust your quotes without losing the history.
 
 
-### [Sales Orders](https://fractionerp.com/contracts)
+### [Sales Orders](https://fractionerp.com/contracts/)
 
 
 
@@ -103,7 +103,7 @@ This 'something' might be shipping from stock, buying materials or producing a w
 
 
 
-### [Demand (MRP)](https://fractionerp.com/purchasing)
+### [Demand (MRP)](https://fractionerp.com/purchasing/)
 
 
 
@@ -113,7 +113,7 @@ Leading on from the last point, you often manage demand in an ERP system via an 
 Fraction's MRP screen shows you what you need to purchase and manufacture. Bulk operations can take place here to save time.
 
 
-### [Works Orders](https://fractionerp.com/works-orders)
+### [Works Orders](https://fractionerp.com/works-orders/)
 
 
 
@@ -147,7 +147,7 @@ Fraction ERP uses a visual scheduling board to allow you to drop your operations
 
 
 
-### [Purchase Orders](https://fractionerp.com/purchasing)
+### [Purchase Orders](https://fractionerp.com/purchasing/)
 
 
 
@@ -157,7 +157,7 @@ Once you know when you are going to make your production order, you'll know when
 Fraction ERP has built in email functionality for this activity. You can send purchase orders straight to your suppliers.
 
 
-### [Shop Floor Data Collection (SFDC)](https://fractionerp.com/shop-floor-data-capture)
+### [Shop Floor Data Collection (SFDC)](https://fractionerp.com/shop-floor-data-capture/)
 
 
 
@@ -181,7 +181,7 @@ Fraction ERP has made SFDC users free when you take out a subscription. SFDC sho
 
 
 
-### [Inventory](https://fractionerp.com/parts-and-inventory)
+### [Inventory](https://fractionerp.com/parts-and-inventory/)
 
 
 
@@ -191,14 +191,14 @@ When you complete a works order your inventories should update. Raw material sto
 We've opted for backflushing within Fraction ERP. We've also included a simple stock adjustment process to help with your stock control.
 
 
-### [Shipping / Despatch](https://fractionerp.com/shipping)
+### [Shipping / Despatch](https://fractionerp.com/shipping/)
 
 
 
 After manufacturing has concluded you're ready to despatch. Completing your sales order removes finished products from inventory. This then allows you to create delivery notes and despatch your orders.
 
 
-### [Invoicing](https://fractionerp.com/invoicing)
+### [Invoicing](https://fractionerp.com/invoicing/)
 
 
 
@@ -260,4 +260,4 @@ If you'd like to learn more about Fraction ERP then sign up for a free demo. We'
 If you like the look of Fraction, you can then have full access to our ERP system for two weeks at no cost. From there you can start a subscription, if our system looks like a good fit. [**You can view our pricing information here**](https://fractionerp.com/pricing/).
 
 
-We hope this article has given you a better insight into how an ERP system works. If you have any questions, [**feel free to reach ou**](https://fractionerp.com/contact)t.
+We hope this article has given you a better insight into how an ERP system works. If you have any questions, [**feel free to reach ou**](https://fractionerp.com/contact/)t.

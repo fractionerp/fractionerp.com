@@ -42,4 +42,4 @@ Of course, having a simple SFDC system built into your Manufacturing Execution S
 ![]({{ site.baseurl }}/assets/img/blog/af51f61eef07fa7f5860c4c38f0aaa0d/SFDCTracking.jpg)
 
 
-If you want to explore a simpler ERP system and a simpler SFDC tool then book a demo with Fraction ERP today. [You can click here to get started](https://fractionerp.com/contact).
+If you want to explore a simpler ERP system and a simpler SFDC tool then book a demo with Fraction ERP today. [You can click here to get started](https://fractionerp.com/contact/).

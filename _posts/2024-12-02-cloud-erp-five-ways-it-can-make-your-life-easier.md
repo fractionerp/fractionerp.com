@@ -149,7 +149,7 @@ The best way to evaluate software is by using it. Another benefit of cloud ERP i
 Get your team involved, play with all of the functions and see how it fits with your way of working. Once you've put a few dummy orders through the system you will be in a better place to make a decision about what option would work best for you.
 
 
-If you want to see Fraction in action, [**sign up for a free demo**](https://fractionerp.com/erp-online-demo) using the form below or by [**following this link**](https://fractionerp.com/erp-online-demo).
+If you want to see Fraction in action, [**sign up for a free demo**](https://fractionerp.com/erp-online-demo/) using the form below or by [**following this link**](https://fractionerp.com/erp-online-demo/).
 
 
 ---

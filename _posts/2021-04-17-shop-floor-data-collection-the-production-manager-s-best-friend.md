@@ -8,7 +8,7 @@ author: Giles Johnston
 permalink: /blog/shop-floor-data-collection-the-production-manager-s-best-friend/
 ---
 
-One of the challenges we wanted to overcome when we designed [**Fraction ERP**](https://fractionerp.com/features) was a typical one of many production managers and production supervisors....
+One of the challenges we wanted to overcome when we designed [**Fraction ERP**](https://fractionerp.com/features/) was a typical one of many production managers and production supervisors....
 
 
 ## **"Where is my production?"**
@@ -18,7 +18,7 @@ One of the challenges we wanted to overcome when we designed [**Fraction ERP**](
 The amount of times I (Giles) have had to walk around a factory looking for the order that a client had just phoned about is too many to admit. I think that anyone that works in a non-automated production environment knows this pain!
 
 
-A common solution to this is to deploy shop floor data collection (also known as SFDC). Whilst this can take some effort  to get shop floor data collection working properly (check out the blog post "**[5 steps to get Shop Floor Data Collection working for you](https://fractionerp.com/blog/5-ways-to-get-shop-floor-data-collection-working-for-you)**" if you want some ideas), it is worth the effort.
+A common solution to this is to deploy shop floor data collection (also known as SFDC). Whilst this can take some effort  to get shop floor data collection working properly (check out the blog post "**[5 steps to get Shop Floor Data Collection working for you](https://fractionerp.com/blog/5-ways-to-get-shop-floor-data-collection-working-for-you/)**" if you want some ideas), it is worth the effort.
 
 
 ## An example of the benefits of shop floor data collection
@@ -64,10 +64,10 @@ Long story short, our on time delivery performance soared from the low 20s to hi
 I really can't stress how important shop floor data collection was to make this journey a reality.
 
 
-**[Some of my key 'lessons learned' are in the blog post I shared earlier](https://fractionerp.com/blog/5-ways-to-get-shop-floor-data-collection-working-for-you)**, but having a simple to operate shop floor data collection system makes the whole journey easier. This takes us back to the design challenge we took on when designing [**Fraction ERP**](https://fractionerp.com/features).
+**[Some of my key 'lessons learned' are in the blog post I shared earlier](https://fractionerp.com/blog/5-ways-to-get-shop-floor-data-collection-working-for-you/)**, but having a simple to operate shop floor data collection system makes the whole journey easier. This takes us back to the design challenge we took on when designing [**Fraction ERP**](https://fractionerp.com/features/).
 
 
-There are two videos below. The first one shows you what our [**shop floor data collection system**](https://fractionerp.com/features) looks like, from a shop floor user's perspective. This video also includes the work to list feature.
+There are two videos below. The first one shows you what our [**shop floor data collection system**](https://fractionerp.com/features/) looks like, from a shop floor user's perspective. This video also includes the work to list feature.
 
 
 The second video provides an overview of the shop floor tracking tools. These are the tools that I wished I had at the outset of the above production management role!
@@ -88,7 +88,7 @@ The second video provides an overview of the shop floor tracking tools. These ar
 I hope you'll agree that these tools can save hours of walking around a factory, just trying to find out what is going on.
 
 
-If you want to find out more about Fraction ERP, then [**view our walkthrough videos**](https://fractionerp.com/blog/walkthrough-videos), or sign up for a free demo using the form below.
+If you want to find out more about Fraction ERP, then [**view our walkthrough videos**](https://fractionerp.com/blog/walkthrough-videos/), or sign up for a free demo using the form below.
 
 
 Shop floor data collection transformed my view of what was possible with running a factory and allowed me to move onto exception reporting and an easier life at work!

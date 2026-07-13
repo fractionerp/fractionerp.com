@@ -31,13 +31,13 @@ The new support site is now live, which you can view here: **[https://support.fr
 No extensive manuals that require a PhD to understand!
 
 
-Simple walkthrough videos that can help you to get up and running in minutes. That's [**what we're all about**](https://fractionerp.com/about), here at Fraction. Fast, simple, straightforward processes.
+Simple walkthrough videos that can help you to get up and running in minutes. That's [**what we're all about**](https://fractionerp.com/about/), here at Fraction. Fast, simple, straightforward processes.
 
 
 Our quick tutorials are easy to absorb and you can undertake them as you need them. You don't have to view every single video to get Fraction ERP working for you. As you expand, and use more of Fraction's functions, then you can watch the next video.
 
 
-If a straightforward, low cost, cloud ERP system is something that you are looking for then [**sign up for a free demo today**](https://fractionerp.com/book-a-demo).
+If a straightforward, low cost, cloud ERP system is something that you are looking for then [**sign up for a free demo today**](https://fractionerp.com/book-a-demo/).
 
 
 Our online demo will give you a guided tour of how Fraction ERP works. If you like what you see then you can try the full system out for 14 days and see if it is a good fit for your business.

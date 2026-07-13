@@ -73,7 +73,7 @@ Although this function can tie in with the Sunrise Meeting approach, it can be u
 Capturing and managing tasks can be an artform but it is easier when it is built directly into your ERP system.
 
 
-Our [**task system**](https://fractionerp.com/erp-task-management) is quick to use, ties in with your dashboard and can be used to track ongoing business activities such as health and safety, maintenance and continuous improvement. In fact, if you can think of a meeting category, you can create it!
+Our [**task system**](https://fractionerp.com/erp-task-management/) is quick to use, ties in with your dashboard and can be used to track ongoing business activities such as health and safety, maintenance and continuous improvement. In fact, if you can think of a meeting category, you can create it!
 
 
 ![]({{ site.baseurl }}/assets/img/blog/9efabde8d6a1399ea8748321ba33a874/TaskManagement.png)
@@ -107,7 +107,7 @@ Also, this data ties in beautifully with the exception reporting that comes from
 
 
 
-I could have picked more than five items, but the [**Shop Floor Data Collection**](https://fractionerp.com/shop-floor-data-capture) (SFDC) overview page is another one of my highlights. On this screen I can see who is working on what, and whether they have gone over their allocated time (or not).
+I could have picked more than five items, but the [**Shop Floor Data Collection**](https://fractionerp.com/shop-floor-data-capture/) (SFDC) overview page is another one of my highlights. On this screen I can see who is working on what, and whether they have gone over their allocated time (or not).
 
 
 The SFDC report pages are great to interrogate the plan versus actual data, but if you need to nudge the right production orders to keep everything on track this highly visual screen is a god send.
@@ -122,4 +122,4 @@ The SFDC report pages are great to interrogate the plan versus actual data, but 
 
 
 
-If you'd like to learn more about Fraction ERP then don't forget to [**check out our features pages**](https://fractionerp.com/features), or [**request a free online demo**](https://fractionerp.com/erp-online-demo) using the form below.
+If you'd like to learn more about Fraction ERP then don't forget to [**check out our features pages**](https://fractionerp.com/features/), or [**request a free online demo**](https://fractionerp.com/erp-online-demo/) using the form below.

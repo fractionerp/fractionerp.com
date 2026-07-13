@@ -13,7 +13,7 @@ When you think of non conformance reporting, it isn't often that you think of ER
 
 
 
-At Fraction ERP we have integrated [**non conformance reporting**](https://fractionerp.com/features) within the system. This is to help streamline both production management and quality management. The interface for non conformance reporting is available throughout. You can raise non conformances from the works order screen. You can manage all the non conformances centrally via our web app.
+At Fraction ERP we have integrated [**non conformance reporting**](https://fractionerp.com/features/) within the system. This is to help streamline both production management and quality management. The interface for non conformance reporting is available throughout. You can raise non conformances from the works order screen. You can manage all the non conformances centrally via our web app.
 
 
 
@@ -38,7 +38,7 @@ You can record corrective actions and preventive actions within these screens. B
 
 
 
-Daily team meetings supplement [**good production management**](https://fractionerp.com/about). For this reason, we have integrated non conformance reporting into our dashboard. Our dashboard helps you move to an exception reporting approach. Exception reporting focuses on the few items that are going to cause you a problem. This frees up time to ignore everything else that is fine as it is).
+Daily team meetings supplement [**good production management**](https://fractionerp.com/about/). For this reason, we have integrated non conformance reporting into our dashboard. Our dashboard helps you move to an exception reporting approach. Exception reporting focuses on the few items that are going to cause you a problem. This frees up time to ignore everything else that is fine as it is).
 
 
 
@@ -73,7 +73,7 @@ To learn more about this new feature, check out the video below.
 
 
 
-If you want to find out even more, then [**sign up for a free demo**](https://fractionerp.com/contact) using the form at the bottom of this page.
+If you want to find out even more, then [**sign up for a free demo**](https://fractionerp.com/contact/) using the form at the bottom of this page.
 
 
 

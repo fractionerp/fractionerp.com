@@ -39,4 +39,4 @@ One option you can take immediately is to determine the simplest / 'one best way
 Fraction ERP is designed to be simple. After years of being dissatisfied with the systems we have had to use we built our own. We took out all of the unnecessary elements and left in a streamlined and modern process that helps businesses to focus on their money making activities and not 'stoking the machine'!
 
 
-If you want a simpler ERP option for your business then [sign up for your demo today](https://fractionerp.com/contact).
+If you want a simpler ERP option for your business then [sign up for your demo today](https://fractionerp.com/contact/).

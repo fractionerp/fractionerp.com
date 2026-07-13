@@ -8,7 +8,7 @@ author: Giles Johnston
 permalink: /blog/take-the-chaos-out-of-goods-inwards/
 ---
 
-Do you have a nightmare with your [**goods inward activity**](https://fractionerp.com/purchasing)?
+Do you have a nightmare with your [**goods inward activity**](https://fractionerp.com/purchasing/)?
 
 
 If you have an ERP system in place and have already dealt with this issue, this article isn't for you.
@@ -27,7 +27,7 @@ Some items wouldn't get checked, others would sit in queues for ages and hold up
 
 
 
-This was one of the first things we wanted to solve with Fraction ERP, making running a factory simpler and visible. This is an essential element of a [**purchase order inventory management system**](https://fractionerp.com/purchasing).
+This was one of the first things we wanted to solve with Fraction ERP, making running a factory simpler and visible. This is an essential element of a [**purchase order inventory management system**](https://fractionerp.com/purchasing/).
 
 
 To deal with the challenge of goods inward in Fraction ERP it is incredibly simple. Mark an item as requiring a goods inward inspection and it will appear in your inspection queue upon arrival.
@@ -96,7 +96,7 @@ You can see the length of the queue and access this information directly from th
 If you run a daily production meeting, you can see this all at the touch of a button. It really can be this simple.
 
 
-So, if you're having a headache with your goods in process and want a modern, simple (and let's not forget cost effective!) solution then [**check out the other features of Fraction ERP**](https://fractionerp.com/features).
+So, if you're having a headache with your goods in process and want a modern, simple (and let's not forget cost effective!) solution then [**check out the other features of Fraction ERP**](https://fractionerp.com/features/).
 
 
 ---

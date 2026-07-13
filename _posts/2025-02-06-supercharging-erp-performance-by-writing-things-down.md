@@ -31,7 +31,7 @@ There are always other things you need to do around ERP, including the physical 
 When these tasks come up, some people write them down and some don't. There is a big difference between the two and you can usually see this a mile off in terms of an individual's effectiveness.
 
 
-We build a [**task management tool**](https://fractionerp.com/erp-task-management) directly into Fraction ERP to help you with this challenge.
+We build a [**task management tool**](https://fractionerp.com/erp-task-management/) directly into Fraction ERP to help you with this challenge.
 
 
 
@@ -60,7 +60,7 @@ We build a [**task management tool**](https://fractionerp.com/erp-task-managemen
 We've made Fraction ERP as simple and effective as possible. We want users to be able to intuitively pick up the system and start working with it. In just a few hours you can be set up and working, gaining confidence with the system as you go.
 
 
-The [**Task Management**](https://fractionerp.com/erp-task-management) module fits in beautifully with the [**dashboard**](https://fractionerp.com/dashboard), showing you and your team what tasks are overdue / allocated to you. If you run some form of daily production meeting, or a Sunrise meeting, this tool can help you to capture the actions there and then, and subsequently manage them via following meetings.
+The [**Task Management**](https://fractionerp.com/erp-task-management/) module fits in beautifully with the [**dashboard**](https://fractionerp.com/dashboard), showing you and your team what tasks are overdue / allocated to you. If you run some form of daily production meeting, or a Sunrise meeting, this tool can help you to capture the actions there and then, and subsequently manage them via following meetings.
 
 
 
@@ -76,7 +76,7 @@ The [**Task Management**](https://fractionerp.com/erp-task-management) module fi
 To help you find out if Fraction ERP would be a good fit for your business, we offer a two week trial free of charge.
 
 
-This is a good window of time to let your team place some orders through our system, create some parts, track the production activity and test it out generally. We recommend an [**online demo**](https://fractionerp.com/erp-online-demo) with us first, to answer any questions you have about our system but you can dive into a trial by [**filling in the form below**](https://fractionerp.com/erp-online-demo).
+This is a good window of time to let your team place some orders through our system, create some parts, track the production activity and test it out generally. We recommend an [**online demo**](https://fractionerp.com/erp-online-demo/) with us first, to answer any questions you have about our system but you can dive into a trial by [**filling in the form below**](https://fractionerp.com/erp-online-demo/).
 
 
 We also have a [**video demo**](https://fractionerp.com/erp-demo-video.php) run through available here, which can be viewed in less than forty minutes.

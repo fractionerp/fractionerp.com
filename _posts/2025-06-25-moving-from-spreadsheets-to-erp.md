@@ -173,10 +173,10 @@ Do not miss this step. You want to ensure that you are in a better position now 
 The best way to evaluate an ERP system, and see if you can move away from your spreadsheets to it, is to try it out.
 
 
-At Fraction ERP, we offer a [**free two week trial**](https://fractionerp.com/erp-online-demo) so that you can let your team play with our system and put some test orders through it. There is nothing comparable to a test drive. It works for buying a car and it works for an ERP system.
+At Fraction ERP, we offer a [**free two week trial**](https://fractionerp.com/erp-online-demo/) so that you can let your team play with our system and put some test orders through it. There is nothing comparable to a test drive. It works for buying a car and it works for an ERP system.
 
 
-If this is of interest to you, we recommend that you [**join us for a quick online demo**](https://fractionerp.com/erp-online-demo) before getting the keys. Alternatively, you can [**watch the full walkthrough video here**](https://fractionerp.com/simple-erp-demo-video.php).
+If this is of interest to you, we recommend that you [**join us for a quick online demo**](https://fractionerp.com/erp-online-demo/) before getting the keys. Alternatively, you can [**watch the full walkthrough video here**](https://fractionerp.com/simple-erp-demo-video.php).
 
 
 If you find yourself with struggling to move away from your spreadsheets to an ERP system, we hope that the above steps give you some ideas to help you make the change.

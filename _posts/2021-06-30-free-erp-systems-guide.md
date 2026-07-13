@@ -46,7 +46,7 @@ To get hold of your copy of **Looking Before You Leap**, just fill in the form b
 
 
 
-To find out more about Fraction ERP, view our overview video below or [**take the video tour**](https://fractionerp.com/blog/walkthrough-videos).
+To find out more about Fraction ERP, view our overview video below or [**take the video tour**](https://fractionerp.com/blog/walkthrough-videos/).
 
 
 

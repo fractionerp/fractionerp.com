@@ -119,4 +119,4 @@ Press the clear schedule button (there is a clarification step before it does th
 We have made Fraction ERP to be flexible to help you schedule in a way that makes sense to you.
 
 
-And, if you want a deeper dive into how Fraction ERP can help you to save time running your growing factory, please get in touch for a [**free online demo**](https://fractionerp.com/erp-online-demo).
+And, if you want a deeper dive into how Fraction ERP can help you to save time running your growing factory, please get in touch for a [**free online demo**](https://fractionerp.com/erp-online-demo/).

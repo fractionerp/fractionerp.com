@@ -32,7 +32,7 @@ We took an iterative approach. Rough schedule the weeks and then finite plan the
 Once the schedule is fixed, the work to lists and the shop floor data collection all come to life! This approach is a great way to save hours each day from the scheduling and monitoring that many supervisors and managers find themselves stuck with.
 
 
-If you want to learn more about Fraction ERP, and how it can help you to schedule your manufacturing workloads (plus make you more productive generally), then [**sign up for our free demo**](https://fractionerp.com/contact). If you like what you see, you can evaluate our software with a free fourteen day trial of our cloud based ERP system.
+If you want to learn more about Fraction ERP, and how it can help you to schedule your manufacturing workloads (plus make you more productive generally), then [**sign up for our free demo**](https://fractionerp.com/contact/). If you like what you see, you can evaluate our software with a free fourteen day trial of our cloud based ERP system.
 
 
 Scheduling has never been so easy, or accessible, for small manufacturing businesses.

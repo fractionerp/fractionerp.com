@@ -8,7 +8,7 @@ author: Giles Johnston
 permalink: /blog/erp-scheduling-software/
 ---
 
-Many people search the Internet to look for [**ERP scheduling software**](https://fractionerp.com/production-scheduling/). Perhaps this is how you have ended up on this article. This is a [**key function of ERP systems**](https://fractionerp.com/features) and seen as a silver bullet to many. Especially those that are new to ERP.
+Many people search the Internet to look for [**ERP scheduling software**](https://fractionerp.com/production-scheduling/). Perhaps this is how you have ended up on this article. This is a [**key function of ERP systems**](https://fractionerp.com/features/) and seen as a silver bullet to many. Especially those that are new to ERP.
 
 
 Using the right scheduling software can make a massive difference to a business. From improving machine and labour utilisation, to driving productivity. Getting your resources working on the right work at the right time is key for all.
@@ -110,7 +110,7 @@ We really have tried to make ERP scheduling as simple as possible.
 
 
 
-To help you find out if moving to Fraction ERP makes sense, [**we offer a free demo and trial**](https://fractionerp.com/contact). During the demo we'll show you the features that can help your business to grow in a controlled manner.
+To help you find out if moving to Fraction ERP makes sense, [**we offer a free demo and trial**](https://fractionerp.com/contact/). During the demo we'll show you the features that can help your business to grow in a controlled manner.
 
 
 If you like what you see during the demo, you can use Fraction ERP free for two weeks. Play with it. Input your data. See how it works and find out if it is a solution that can help you move your business forward.

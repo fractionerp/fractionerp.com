@@ -35,4 +35,4 @@ This doesn't have to take long to organise and manage either. The key point is t
 Of course, there is another consideration - having an ERP system that is easy to use in the first place! If your ERP system doesn't fit this bill then let us know and access a free (no obligation) demo of Fraction ERP. We built it to avoid the frustrations of unnecessarily complicated business processes.
 
 
-[You can access the demo here](https://fractionerp.com/contact).
+[You can access the demo here](https://fractionerp.com/contact/).

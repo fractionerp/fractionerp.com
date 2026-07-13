@@ -64,4 +64,4 @@ There is little point spending time scheduling to the nth degree, to re-do it ei
 Is your business is spending a lot of time scheduling and re-scheduling? If so, try out the horizons approach.
 
 
-If you want to try a streamlined approach to scheduling, then [**sign up for a demo**](https://fractionerp.com/contact). You can request a demo using the form below, or [**view our walkthrough videos here**](https://fractionerp.com/blog/walkthrough-videos).
+If you want to try a streamlined approach to scheduling, then [**sign up for a demo**](https://fractionerp.com/contact/). You can request a demo using the form below, or [**view our walkthrough videos here**](https://fractionerp.com/blog/walkthrough-videos/).

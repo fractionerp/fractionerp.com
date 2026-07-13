@@ -25,4 +25,4 @@ You can see what this looks like in this short video:
 We made SFDC users free within our paid subscriptions. If you are a production manager, this feature could save you hours per day.
 
 
-To find out more about Fraction ERP, [**check out our features page**](https://fractionerp.com/features) or sign up for a demo using the form below.
+To find out more about Fraction ERP, [**check out our features page**](https://fractionerp.com/features/) or sign up for a demo using the form below.

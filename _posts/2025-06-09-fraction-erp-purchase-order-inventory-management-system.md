@@ -11,7 +11,7 @@ permalink: /blog/fraction-erp-purchase-order-inventory-management-system/
 A common question we hear is:
 
 
-Is Fraction ERP a [**purchase order inventory management system**](https://fractionerp.com/purchasing)?
+Is Fraction ERP a [**purchase order inventory management system**](https://fractionerp.com/purchasing/)?
 
 
 In short, yes!
@@ -30,7 +30,7 @@ This article runs through key areas of how Fraction ERP addresses this question
 
 
 
-MRP, or [**Materials Requirements Planning**](https://fractionerp.com/purchasing), links demand with supply.
+MRP, or [**Materials Requirements Planning**](https://fractionerp.com/purchasing/), links demand with supply.
 
 
 In short, if you need to buy something, you'll find it in this module.
@@ -44,7 +44,7 @@ In short, if you need to buy something, you'll find it in this module.
 
 
 
-To define the list of materials, components and sub-assemblies required for your production orders, our [**Bill of Materials**](https://fractionerp.com/bill-of-materials) module deals with this.
+To define the list of materials, components and sub-assemblies required for your production orders, our [**Bill of Materials**](https://fractionerp.com/bill-of-materials/) module deals with this.
 
 
 Fraction ERP provides the option to create templates, carry out job costing and capture snapshots of costs.
@@ -108,7 +108,7 @@ As well as opting to use traceability with your raw materials / components, you 
 
 
 
-We have kept [**stock management**](https://fractionerp.com/parts-and-inventory) simple within Fraction ERP.
+We have kept [**stock management**](https://fractionerp.com/parts-and-inventory/) simple within Fraction ERP.
 
 
 Cycle counting is quick to perform, to keep your stock levels right.
@@ -137,4 +137,4 @@ We offer a number of on screen reports and filters. However, if you prefer to an
 We hope this short article gives you a better idea of how Fraction ERP handles purchasing and inventory management.
 
 
-If you want to learn more about Fraction ERP, check out our [**full video walkthrough**](https://fractionerp.com/erp-demo-video.php) or view our [**features page**](https://fractionerp.com/features).
+If you want to learn more about Fraction ERP, check out our [**full video walkthrough**](https://fractionerp.com/erp-demo-video.php) or view our [**features page**](https://fractionerp.com/features/).

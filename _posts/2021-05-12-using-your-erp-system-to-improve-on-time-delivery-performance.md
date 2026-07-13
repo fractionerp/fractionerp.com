@@ -34,7 +34,7 @@ Reversing the errors is usually enough to remedy these types of issue. The tell 
 Now that you have digital processes, an ERP system doesn't excuse you from managing them. I have seen this too many times. The processes can lose a degree of visibility once they move from a whiteboard to a computer. Loss of visibility is a sure fire way to witness standards degrading.
 
 
-A simple remedy for this is to introduce a process based Sunrise meeting. [**You can read more about Sunrise meetings in this article**](https://fractionerp.com/blog/using-a-sunrise-meeting-to-drive-your-erp-system-performance).
+A simple remedy for this is to introduce a process based Sunrise meeting. [**You can read more about Sunrise meetings in this article**](https://fractionerp.com/blog/using-a-sunrise-meeting-to-drive-your-erp-system-performance/).
 
 
 ## Commit to using the system
@@ -74,7 +74,7 @@ Many businesses only focus on delivery performance when they near the finish lin
 Overloading resources is a key failure point for on-time delivery performance. Knowing that you have stretched the business means that you can do something about it. Not knowing can lead to disaster.
 
 
-[**Configuring your workcentres**](https://fractionerp.com/blog/manufacturing-capacity) with an appropriate level of accuracy is essential. Be realistic about your constraints and then improve from there. Release the natural capacity of your business through improvement projects. Reflect this improvement in your ERP system and improve your on-time delivery rates.
+[**Configuring your workcentres**](https://fractionerp.com/blog/manufacturing-capacity/) with an appropriate level of accuracy is essential. Be realistic about your constraints and then improve from there. Release the natural capacity of your business through improvement projects. Reflect this improvement in your ERP system and improve your on-time delivery rates.
 
 
 <div class="video-embed"><iframe src="https://player.vimeo.com/video/519886248" frameborder="0" allowfullscreen></iframe></div>
@@ -118,4 +118,4 @@ To use these tools you need to:
 Apply the above steps toward your on-time delivery concerns. This will link back to your ERP (at some point) and help improve delivery performance.
 
 
-Deploying an ERP system can improve on time delivery performance, when mastered. If you want to learn more about [**Fraction ERP**](https://fractionerp.com/features) then sign up for a free demo using the form below.
+Deploying an ERP system can improve on time delivery performance, when mastered. If you want to learn more about [**Fraction ERP**](https://fractionerp.com/features/) then sign up for a free demo using the form below.

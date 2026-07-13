@@ -8,7 +8,7 @@ author: Giles Johnston
 permalink: /blog/stock-alert-function-now-added/
 ---
 
-Our new stock alert function is now available within[** Fraction ERP**](https://fractionerp.com/features).
+Our new stock alert function is now available within[** Fraction ERP**](https://fractionerp.com/features/).
 
 
 Any part showing a current stock level lower than the pre-defined minimum stock quantity will now trigger a stock alert.

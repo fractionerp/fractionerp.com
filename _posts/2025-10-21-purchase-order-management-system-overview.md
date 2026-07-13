@@ -8,7 +8,7 @@ author: Giles Johnston
 permalink: /blog/purchase-order-management-system-overview/
 ---
 
-We often get asked if Fraction ERP is a [**purchase order management system**](https://fractionerp.com/purchasing). The short answer is "yes!". Purchasing is at the core of our cloud ERP system, an overview of this can be seen in this short video:
+We often get asked if Fraction ERP is a [**purchase order management system**](https://fractionerp.com/purchasing/). The short answer is "yes!". Purchasing is at the core of our cloud ERP system, an overview of this can be seen in this short video:
 
 
 ---
@@ -27,7 +27,7 @@ We often get asked if Fraction ERP is a [**purchase order management system**](h
 
 
 
-Most of the purchasing demand is handled by our customers via the [**MRP page**](https://fractionerp.com/purchasing). This allows material demand to be reviewed and converted into purchase orders.
+Most of the purchasing demand is handled by our customers via the [**MRP page**](https://fractionerp.com/purchasing/). This allows material demand to be reviewed and converted into purchase orders.
 
 
 We also provide the option to group demand, to reduce the number of order lines generated, or to generate an 'RFQ'.

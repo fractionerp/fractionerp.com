@@ -96,13 +96,13 @@ Most of our customers are moving to their first ERP system. They're moving away 
 We know how much disruption a traditional ERP system can cause to a business during implementation. We also know how costs can rack up.
 
 
-So, as part of [**our mission**](https://fractionerp.com/about), we want to ensure that Fraction ERP can help to minimise disruption, keep costs transparent and allow you to maximise your productivity and results.
+So, as part of [**our mission**](https://fractionerp.com/about/), we want to ensure that Fraction ERP can help to minimise disruption, keep costs transparent and allow you to maximise your productivity and results.
 
 
 We know that you need to focus on running (and growing) your business, not mucking about with an ERP system implementation that is dragging on and on.
 
 
-We have a [**full range of features**](https://fractionerp.com/features) but don't give you thirty three ways to carry out the same operation.
+We have a [**full range of features**](https://fractionerp.com/features/) but don't give you thirty three ways to carry out the same operation.
 
 
 We allow you to work flexibly within the system, you can use the functions and modules that you need to now and expand later on (as your confidence with the system grows).
@@ -132,7 +132,7 @@ Our [**pricing is visible here**](https://fractionerp.com/pricing/). As we are c
 Seeing is believing and you can see for yourself how Fraction ERP works when you take our free two week trial.
 
 
-We recommend that you organise a [**free online demo**](https://fractionerp.com/book-a-demo) from us first, so that you can get the most out of your trial. You can organise this by completing the form at the bottom of this page.
+We recommend that you organise a [**free online demo**](https://fractionerp.com/book-a-demo/) from us first, so that you can get the most out of your trial. You can organise this by completing the form at the bottom of this page.
 
 
 In the demo we'll show you the parts of the system that should give you the greatest benefit, as well as a brief overview of the rest of the system. From there, you can put your data into your own secure Fraction ERP account.
@@ -163,7 +163,7 @@ Deciding what to leave out, and what to significantly cut back, hasn't always be
 The joining up of data, the automation, the ease of access to your data and the saving of time are all good reasons to embark on an ERP implementation.
 
 
-If you want some guidance with looking for an ERP system, and getting the most out of one when you have deployed, then download our free [**ERP implementation guide**](https://fractionerp.com/erp-implementation-guide).
+If you want some guidance with looking for an ERP system, and getting the most out of one when you have deployed, then download our free [**ERP implementation guide**](https://fractionerp.com/erp-implementation-guide/).
 
 
 

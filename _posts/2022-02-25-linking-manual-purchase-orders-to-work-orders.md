@@ -8,7 +8,7 @@ author: Giles Johnston
 permalink: /blog/linking-manual-purchase-orders-to-work-orders/
 ---
 
-Fraction ERP allows you to work flexibly; this is one of the [**features **](https://fractionerp.com/features)that our customers love.
+Fraction ERP allows you to work flexibly; this is one of the [**features **](https://fractionerp.com/features/)that our customers love.
 
 
 Like many other ERP systems, you can raise purchase orders without looking at the manufacturing demand (but most of the time we recommend you do!). But, one of the issues some of our customers have had is assigning their supply with the demand, so that they can keep of top of their ordering and traceability / future 'drill down' of information around orders.
@@ -38,4 +38,4 @@ During our latest release we have added the option to manually 'tag' a purchase 
 That's it. You can do the same in reverse too. You can view a purchase order and re-assign it to a work order. This way, if you have changed the deliveries with your supplier you can update your arrangements in the ERP system too.
 
 
-If you want to find out more about Fraction ERP then check out our [**feature overview videos**](https://fractionerp.com/blog/walkthrough-videos), or sign up for a free online demo using the form below.
+If you want to find out more about Fraction ERP then check out our [**feature overview videos**](https://fractionerp.com/blog/walkthrough-videos/), or sign up for a free online demo using the form below.

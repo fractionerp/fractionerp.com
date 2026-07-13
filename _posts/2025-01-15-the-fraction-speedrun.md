@@ -51,7 +51,7 @@ So, we're not sure just what the world record for doing this in Fraction ERP is,
 
 
 
-We regularly keep in touch with our clients to see how they are getting on and if they are getting to grips with the latest [**features in our ERP system**](https://fractionerp.com/features).
+We regularly keep in touch with our clients to see how they are getting on and if they are getting to grips with the latest [**features in our ERP system**](https://fractionerp.com/features/).
 
 
 Not only do we enjoy reading feedback like the note above, but it helps to dispel the myth that ERP systems are slow and clunky.
@@ -81,13 +81,13 @@ We've spent a lot of time and effort to streamline and simplify how Fraction ERP
 
 
 
-Our [**online demos**](https://fractionerp.com/erp-online-demo) take around forty five minutes to an hour to deliver. We don't complete every task in the system (so no speedrun claims!) but it should give you a really good idea if Fraction ERP would be a good fit for your business.
+Our [**online demos**](https://fractionerp.com/erp-online-demo/) take around forty five minutes to an hour to deliver. We don't complete every task in the system (so no speedrun claims!) but it should give you a really good idea if Fraction ERP would be a good fit for your business.
 
 
 If you like what you see in the demo, you can take Fraction ERP for a test run in your business for two weeks. We would set up a cloud account for you and your team and they can input some real orders into the system and you can see how it responds to how you want to work.
 
 
-If you want to [**organise a demo**](https://fractionerp.com/erp-online-demo) (which we recommend, before diving into the free trial), simply fill in the form below.
+If you want to [**organise a demo**](https://fractionerp.com/erp-online-demo/) (which we recommend, before diving into the free trial), simply fill in the form below.
 
 
 How fast can you put an order into our system?

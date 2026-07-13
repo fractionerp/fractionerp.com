@@ -8,7 +8,7 @@ author: Giles Johnston
 permalink: /blog/walkthrough-videos/
 ---
 
-To find out more about [**Fraction ERP**](https://fractionerp.com/features), please view the walkthrough videos below.
+To find out more about [**Fraction ERP**](https://fractionerp.com/features/), please view the walkthrough videos below.
 
 
 Our cloud ERP system is designed to be a digital replica of your factory.

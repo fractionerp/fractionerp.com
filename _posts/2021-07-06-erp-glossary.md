@@ -137,4 +137,4 @@ Once you have completed production, it is time to despatch the item and ship it 
 Raising an invoice and getting paid by your customer is the final step in this ERP overview. Many ERP systems allow you to raise invoices with a few clicks. Others integrate with financial packages, allowing you to complete the sales order.
 
 
-There is more to an ERP system than just purchasing software and logging in. If you want to find out more then [**download our free guide**](https://fractionerp.com/blog/free-erp-systems-guide). Or, if you want to find out how Fraction ERP can help you to become more productive, sign up for a free demo below.
+There is more to an ERP system than just purchasing software and logging in. If you want to find out more then [**download our free guide**](https://fractionerp.com/blog/free-erp-systems-guide/). Or, if you want to find out how Fraction ERP can help you to become more productive, sign up for a free demo below.

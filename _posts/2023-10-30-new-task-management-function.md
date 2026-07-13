@@ -39,4 +39,4 @@ The video below provides an overview of the task management module.
 
 
 
-To find out more about Fraction ERP, check out our [**features page**](https://fractionerp.com/features), or request a demo using the form below.
+To find out more about Fraction ERP, check out our [**features page**](https://fractionerp.com/features/), or request a demo using the form below.

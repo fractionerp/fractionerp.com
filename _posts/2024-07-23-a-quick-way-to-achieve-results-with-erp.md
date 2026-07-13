@@ -42,7 +42,7 @@ When you aren't in this state, things can feel foggy.
 We've designed Fraction ERP to make a factory manager's life easier, not harder.
 
 
-Two functions of our cloud ERP system help this directly; the [**dashboard **](https://fractionerp.com/dashboard)and our [**task management**](https://fractionerp.com/erp-task-management) tool.
+Two functions of our cloud ERP system help this directly; the [**dashboard **](https://fractionerp.com/dashboard)and our [**task management**](https://fractionerp.com/erp-task-management/) tool.
 
 
 The dashboard allows you to quickly review the status of various parts of your business process and identify the actions you need to take to keep on course.
@@ -104,10 +104,10 @@ As Fraction ERP is cloud based, this means that you can view the dashboard on a 
 
 
 
-To help you find out if Fraction ERP would be a good fit for your business, we offer a [**free two week trial**](https://fractionerp.com/erp-online-demo).
+To help you find out if Fraction ERP would be a good fit for your business, we offer a [**free two week trial**](https://fractionerp.com/erp-online-demo/).
 
 
-Just fill in the form below and we'll get in touch to give you a [**short online demo**](https://fractionerp.com/erp-online-demo) and then we can set up your free two week trial. This is a great way for you and your team to put some real parts and orders through Fraction ERP and give it a proper test drive.
+Just fill in the form below and we'll get in touch to give you a [**short online demo**](https://fractionerp.com/erp-online-demo/) and then we can set up your free two week trial. This is a great way for you and your team to put some real parts and orders through Fraction ERP and give it a proper test drive.
 
 
 In the meantime, make sure your team are writing down their actions before they leave your meetings!

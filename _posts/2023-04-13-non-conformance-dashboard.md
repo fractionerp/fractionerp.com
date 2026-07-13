@@ -8,7 +8,7 @@ author: Giles Johnston
 permalink: /blog/non-conformance-dashboard/
 ---
 
-[**Non conformance dashboards**](https://fractionerp.com/quality) can really help a manufacturing team to improve and develop their processes. At the heart of every quality management system, non conformances can revolutionise the results you can achieve.
+[**Non conformance dashboards**](https://fractionerp.com/quality/) can really help a manufacturing team to improve and develop their processes. At the heart of every quality management system, non conformances can revolutionise the results you can achieve.
 
 
 There are some common issues around non conformances and non conformance dashboards that we think we have addressed in Fraction ERP.
@@ -50,7 +50,7 @@ Not here at Fraction ERP! We've built non conformance reporting (NCR) directly i
 In Fraction ERP you can raise NCRs from different places, reducing the need to hunt down a form when you need it!
 
 
-In the screenshots below you can see how NCRs are raised from [**works orders**](https://fractionerp.com/works-orders) and via the [**production tracking**](https://fractionerp.com/shop-floor-data-capture) screen.
+In the screenshots below you can see how NCRs are raised from [**works orders**](https://fractionerp.com/works-orders/) and via the [**production tracking**](https://fractionerp.com/shop-floor-data-capture/) screen.
 
 
 

@@ -8,7 +8,7 @@ author: Giles Johnston
 permalink: /blog/take-control-of-your-boms/
 ---
 
-One of the first features we built in [**Fraction ERP**](https://fractionerp.com/features) was the Bill of Materials (BOM) workflow.
+One of the first features we built in [**Fraction ERP**](https://fractionerp.com/features/) was the Bill of Materials (BOM) workflow.
 
 
 We wanted to make the process straightforward, and that is why we have the simple workflow button in the top right hand corner of the BOM screen. In the image below the BOM has been checked and now it is ready to be approved (and used in production).
@@ -20,7 +20,7 @@ We wanted to make the process straightforward, and that is why we have the simpl
 This is a vital step to make sure that the engineering changes you are making don't spill into production accidentally. Proper engineering change controls are essential to avoid delivering the wrong product to your client and dodging stock obsolescence.
 
 
-Deciding who gets to check and approve BOMs is controlled by the privileges within our [**cloud ERP system**](https://fractionerp.com/features). As you can see in the screenshot below, setting up the access rights for an individual is straightforward.
+Deciding who gets to check and approve BOMs is controlled by the privileges within our [**cloud ERP system**](https://fractionerp.com/features/). As you can see in the screenshot below, setting up the access rights for an individual is straightforward.
 
 
 ![]({{ site.baseurl }}/assets/img/blog/a52fec2482191d0566786f85ec192c5f/bommanagers.jpg)

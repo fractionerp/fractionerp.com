@@ -8,7 +8,7 @@ author: Giles Johnston
 permalink: /blog/cloud-mrp-software-what-is-it/
 ---
 
-[**Cloud MRP software**](https://fractionerp.com/features) is a term that is used pretty regularly nowadays. But what is it?
+[**Cloud MRP software**](https://fractionerp.com/features/) is a term that is used pretty regularly nowadays. But what is it?
 
 
 We get many enquiries from people that have heard the phrase but still aren't sure what it means.
@@ -65,7 +65,7 @@ All the functionality of a normal MRP system is there in our cloud version, incl
 If you want to find out more:
 
 
-- [**View our features pages and learn more about how Fraction ERP works**](https://fractionerp.com/features).
-- [**Watch our walkthrough videos here**](https://fractionerp.com/blog/walkthrough-videos).
-- [**Sign up for an online demo and free two week trial period**](https://fractionerp.com/book-a-demo).
-- [**Download our free ERP Implementation guide**](https://fractionerp.com/erp-implementation-guide). In the guide we share approaches to help you select an ERP system that suits your business and how to get the most out of it.
+- [**View our features pages and learn more about how Fraction ERP works**](https://fractionerp.com/features/).
+- [**Watch our walkthrough videos here**](https://fractionerp.com/blog/walkthrough-videos/).
+- [**Sign up for an online demo and free two week trial period**](https://fractionerp.com/book-a-demo/).
+- [**Download our free ERP Implementation guide**](https://fractionerp.com/erp-implementation-guide/). In the guide we share approaches to help you select an ERP system that suits your business and how to get the most out of it.

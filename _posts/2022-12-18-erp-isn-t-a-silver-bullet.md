@@ -91,10 +91,10 @@ To put this article into context with Fraction ERP, we offer a few solutions to 
 
 1. The system is designed for self onboarding. We've simplified ERP as much as possible to make this possible. This reduces your costs and makes the training elements flexible for your team.
 2. Unlimited support is included in subscriptions. If you do need to speak to us about getting Fraction ERP working for you, it is included in our [**monthly subscription cost**](https://fractionerp.com/pricing/).
-3. We wrote a free guide to help you plan out your implementation. It includes many of the points included on the timeline graphic and [**you can download your copy here**](https://fractionerp.com/erp-implementation-guide).
+3. We wrote a free guide to help you plan out your implementation. It includes many of the points included on the timeline graphic and [**you can download your copy here**](https://fractionerp.com/erp-implementation-guide/).
 
 
-[**Our mission is to make life easier for people moving to ERP**](https://fractionerp.com/about). We've spent years stripping back the complexity of ERP so that it is easier to deploy and use. By moving to a quick to learn and easy to use ERP system you can realise the benefits of ERP in your business
+[**Our mission is to make life easier for people moving to ERP**](https://fractionerp.com/about/). We've spent years stripping back the complexity of ERP so that it is easier to deploy and use. By moving to a quick to learn and easy to use ERP system you can realise the benefits of ERP in your business
 
 
 ---
@@ -105,7 +105,7 @@ To put this article into context with Fraction ERP, we offer a few solutions to 
 
 
 
-If you are ready to look at Fraction ERP, request our [**free demo using the form below**](https://fractionerp.com/book-a-demo).
+If you are ready to look at Fraction ERP, request our [**free demo using the form below**](https://fractionerp.com/book-a-demo/).
 
 
 During the demo we'll guide you through our cloud based ERP system and show you how it can help your business. If you like what you see in the demo, you can access our system for free for two weeks to continue your evaluation.

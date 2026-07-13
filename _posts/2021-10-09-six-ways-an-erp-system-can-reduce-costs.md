@@ -47,7 +47,7 @@ Does your ERP system give you real time visibility of demand and available capac
 Why spend more time on admin activities than you have to?
 
 
-Moving to an ERP system should do precisely this; [**reduce the amount of time spent on admin**](https://fractionerp.com/features). Many businesses experience the opposite of this. They install an ERP system poorly and then need more people to handle the admin to run production and often with bespoke spreadsheets attempting to fill the gaps!
+Moving to an ERP system should do precisely this; [**reduce the amount of time spent on admin**](https://fractionerp.com/features/). Many businesses experience the opposite of this. They install an ERP system poorly and then need more people to handle the admin to run production and often with bespoke spreadsheets attempting to fill the gaps!
 
 
 Find the double handling of information, slow repetitive processes, and eradicate them. Most admin 'bloating' stems from not deciding how to reduce admin as you deploy your ERP system. Another benefit of integrated administration is reduction of human errors and typos that can be very costly for business.
@@ -187,7 +187,7 @@ It has fast access, from any device. It has fast searches and you can search thr
 In short, we have built an ERP system that helps manufacturing businesses to save money. Our belief in it is so great that we use it in one of our own manufacturing businesses.
 
 
-Below is an overview video. If you want to find out more, then [**sign up for a free demo using the form below**](https://fractionerp.com/contact). If you like the demo, you can then join us for a free 14 day trial.
+Below is an overview video. If you want to find out more, then [**sign up for a free demo using the form below**](https://fractionerp.com/contact/). If you like the demo, you can then join us for a free 14 day trial.
 
 
 <div class="video-embed"><iframe src="https://player.vimeo.com/video/533087357" frameborder="0" allowfullscreen></iframe></div>

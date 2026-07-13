@@ -23,7 +23,7 @@ If you have wondered what happens when you sign up for a free demo with us, let 
 
 
 
-# [![cloud erp system]({{ site.baseurl }}/assets/img/blog/5ba7119ca506d597d1ccb20ba96e33eb/fraction_demo.jpg)](https://fractionerp.com/features)
+# [![cloud erp system]({{ site.baseurl }}/assets/img/blog/5ba7119ca506d597d1ccb20ba96e33eb/fraction_demo.jpg)](https://fractionerp.com/features/)
 
 
 

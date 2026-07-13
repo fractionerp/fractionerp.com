@@ -87,7 +87,7 @@ You might find that some of the features of an ERP system look like they will ta
 This brings us to the importance of having good demos and trialling the software. One of the reasons we made [**Fraction ERP**](https://www.fractionerp.com) a cloud based system was for this reason. We want you to find out if Fraction is going to help your business.
 
 
-It should help you to speed up your processes, but only you can determine this. If you want to find out more, [**fill in the form**](https://fractionerp.com/contact) at the end of this article.
+It should help you to speed up your processes, but only you can determine this. If you want to find out more, [**fill in the form**](https://fractionerp.com/contact/) at the end of this article.
 
 
 ![]({{ site.baseurl }}/assets/img/blog/2417dee1dc4167f27e1b8239a750ff78/ShopFloorTracking.png)

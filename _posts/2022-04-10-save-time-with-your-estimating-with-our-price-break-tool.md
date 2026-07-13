@@ -8,7 +8,7 @@ author: Giles Johnston
 permalink: /blog/save-time-with-your-estimating-with-our-price-break-tool/
 ---
 
-If you have customers that need price breaks as part of their quotes, [**Fraction ERP**](https://fractionerp.com/features) can help. We know that it takes time to calculate the price breaks. We also know that this information can help your customers to decide what order quantity to place. Our price break tool can help speed up the process and save you time.
+If you have customers that need price breaks as part of their quotes, [**Fraction ERP**](https://fractionerp.com/features/) can help. We know that it takes time to calculate the price breaks. We also know that this information can help your customers to decide what order quantity to place. Our price break tool can help speed up the process and save you time.
 
 
 ---
@@ -64,4 +64,4 @@ Using the snapshots function really speeds up the quote process when you want to
 
 
 
-If you're spending time going back and forward to your customers with alternative price breaks then Fraction ERP can help you and your team save time. If you want to find out more then [**check out our walkthrough videos**](https://fractionerp.com/blog/walkthrough-videos), or let us show you how the system can make your business more productive via a free online demo. You can sign up below.
+If you're spending time going back and forward to your customers with alternative price breaks then Fraction ERP can help you and your team save time. If you want to find out more then [**check out our walkthrough videos**](https://fractionerp.com/blog/walkthrough-videos/), or let us show you how the system can make your business more productive via a free online demo. You can sign up below.

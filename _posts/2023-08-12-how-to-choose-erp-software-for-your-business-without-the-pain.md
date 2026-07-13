@@ -139,7 +139,7 @@ The simplest option I can point you in the direction of is this. Score each soft
 - Ease of implementation (downtime, speed to learn the system and any upheaval moving across to the new system).
 
 
-The highest score wins! If this is too basic an approach, you can use decision matrices to be more definitive, but try this first. If you want to learn more about decision matrices and ERP evaluation, [**check out our free guide**](https://fractionerp.com/erp-implementation-guide).
+The highest score wins! If this is too basic an approach, you can use decision matrices to be more definitive, but try this first. If you want to learn more about decision matrices and ERP evaluation, [**check out our free guide**](https://fractionerp.com/erp-implementation-guide/).
 
 
 Make sure that your winner feels right too. Don't ignore your gut feeling in all of this!
@@ -156,7 +156,7 @@ Make sure that your winner feels right too. Don't ignore your gut feeling in all
 Once you have a clear winner, it is time to get going. You will want an implementation plan, possibly with support from your chosen ERP supplier. You will need some time for learning and training. You will need to input your data and possibly change some of your business processes to fit with the software.
 
 
-You need to come up with a plan that works for you and your team. Again, if you want some ideas [**check out our free guide**](https://fractionerp.com/erp-implementation-guide).
+You need to come up with a plan that works for you and your team. Again, if you want some ideas [**check out our free guide**](https://fractionerp.com/erp-implementation-guide/).
 
 
 ---
@@ -167,13 +167,13 @@ You need to come up with a plan that works for you and your team. Again, if you 
 
 
 
-We've been through many ERP implementations ourselves, that's how we ended up building [**Fraction ERP**](https://fractionerp.com/features).
+We've been through many ERP implementations ourselves, that's how we ended up building [**Fraction ERP**](https://fractionerp.com/features/).
 
 
-**Our software isn't for everyone**. We've aimed it at people that are either new to ERP or want a simpler system than their existing system. We've got some [**cool features**](https://fractionerp.com/features), including the costing snapshots, free shop floor accounts and visual scheduling boards.
+**Our software isn't for everyone**. We've aimed it at people that are either new to ERP or want a simpler system than their existing system. We've got some [**cool features**](https://fractionerp.com/features/), including the costing snapshots, free shop floor accounts and visual scheduling boards.
 
 
-We offer a [**free trial**](https://fractionerp.com/book-a-demo) period so you can properly test out the software. We recommend a demo first, which you can organise at the bottom of this page.
+We offer a [**free trial**](https://fractionerp.com/book-a-demo/) period so you can properly test out the software. We recommend a demo first, which you can organise at the bottom of this page.
 
 
 ---

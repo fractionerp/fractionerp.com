@@ -36,7 +36,7 @@ Now, unless you have done this, this might seem a little odd to say this. After 
 Well, you'd be surprised at how many people we've spoken to over the years have selected an ERP system purely because someone else is using it! Word of mouth is great but at least evaluate the software yourself, against your own criteria.
 
 
-This is one of the reasons that we offer a [**free two week trial**](https://fractionerp.com/erp-online-demo), so your team can properly play with it and see if the fit is good.
+This is one of the reasons that we offer a [**free two week trial**](https://fractionerp.com/erp-online-demo/), so your team can properly play with it and see if the fit is good.
 
 
 Don't go with the crowd. Get recommendations and then test them with the way that you work.
@@ -182,10 +182,10 @@ Again, choosing an ERP system that is a good fit for you is the best strategy in
 
 
 
-If you've read this article and found yourself nodding, then it might be time to drop us a line (using the form below) to [**organise a free online demo**](https://fractionerp.com/erp-online-demo). In the demo we'll show you around Fraction ERP and help you understand if it can help your business to streamline and grow.
+If you've read this article and found yourself nodding, then it might be time to drop us a line (using the form below) to [**organise a free online demo**](https://fractionerp.com/erp-online-demo/). In the demo we'll show you around Fraction ERP and help you understand if it can help your business to streamline and grow.
 
 
-If you like what you see in the demo, we offer a free two week trial. This gives you and your team a chance to play with Fraction ERP and see if it truly is a good fit. We don't think there is a better way to [**test an ERP system**](https://fractionerp.com/erp-online-demo).
+If you like what you see in the demo, we offer a free two week trial. This gives you and your team a chance to play with Fraction ERP and see if it truly is a good fit. We don't think there is a better way to [**test an ERP system**](https://fractionerp.com/erp-online-demo/).
 
 
 And, then, hopefully you'll be able to avoid the traps we've listed in this article so that you can have a great ERP experience.

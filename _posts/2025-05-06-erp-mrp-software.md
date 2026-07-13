@@ -27,10 +27,10 @@ But, if you are curious let us explain the differences in this short article.
 
 
 
-MRP ([**Material Requirements Planning**](https://fractionerp.com/purchasing)) and ERP (Enterprise Resource Planning) are both systems that are used to manage resources within a business, but they serve different purposes and scopes.
+MRP ([**Material Requirements Planning**](https://fractionerp.com/purchasing/)) and ERP (Enterprise Resource Planning) are both systems that are used to manage resources within a business, but they serve different purposes and scopes.
 
 
-MRP is primarily focused on the planning of inventory for manufacturing operations. It attempts to balance the demands of production with the supply of materials and manufacturing activity. [**Bills of materials**](https://fractionerp.com/bill-of-materials), routes and work orders all sit comfortably in the MRP camp.
+MRP is primarily focused on the planning of inventory for manufacturing operations. It attempts to balance the demands of production with the supply of materials and manufacturing activity. [**Bills of materials**](https://fractionerp.com/bill-of-materials/), routes and work orders all sit comfortably in the MRP camp.
 
 
 ERP is a comprehensive business management software that typically includes the MRP functionality. The extended functions include quotations, sales order management, finance and customer relationship management.
@@ -83,7 +83,7 @@ To put all of the above into the context of time:
 1990 - ERP
 
 
-The features that have been developed over the past couple of decades have primarily focused on integration between systems, [**moving to the cloud**](https://fractionerp.com/features) and reducing costs.
+The features that have been developed over the past couple of decades have primarily focused on integration between systems, [**moving to the cloud**](https://fractionerp.com/features/) and reducing costs.
 
 
 
@@ -99,13 +99,13 @@ The features that have been developed over the past couple of decades have prima
 We believe this is the next evolution. Simple ERP software that is quick to learn, easy to use and low cost.
 
 
-This is the mission Fraction ERP has been on for the past five years. In terms of [**ERP MRP software**](https://fractionerp.com/features), Fraction sits right in the middle of the ERP offerings, but without the cost.
+This is the mission Fraction ERP has been on for the past five years. In terms of [**ERP MRP software**](https://fractionerp.com/features/), Fraction sits right in the middle of the ERP offerings, but without the cost.
 
 
 We believe that you should be able to try out ERP software before you buy. This is why we offer a free two week trial to help you get to grips with the system and put some test orders through the system.
 
 
-If you are ready to look at Fraction ERP in more detail, please fill in the form below or [**use this link**](https://fractionerp.com/erp-online-demo).
+If you are ready to look at Fraction ERP in more detail, please fill in the form below or [**use this link**](https://fractionerp.com/erp-online-demo/).
 
 
 ---

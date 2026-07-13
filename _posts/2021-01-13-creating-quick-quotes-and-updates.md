@@ -8,7 +8,7 @@ author: Giles Johnston
 permalink: /blog/creating-quick-quotes-and-updates/
 ---
 
-One of the features that we are proud of with [**Fraction ERP**](https://fractionerp.com/features) is the ability to create quick quotes, update them and manage the sales order book / enquiry book quickly.
+One of the features that we are proud of with [**Fraction ERP**](https://fractionerp.com/features/) is the ability to create quick quotes, update them and manage the sales order book / enquiry book quickly.
 
 
 Creating a quote is really simple. Click on the NEW CONTRACT button and enter in the header information for the quote.
@@ -51,11 +51,11 @@ Managing your quote status done through a simple drop down option and the entire
 
 
 
-Once you have won your order you can then schedule the production activities using our fast [**visual scheduling tool**](https://fractionerp.com/blog/the-digital-factory).
+Once you have won your order you can then schedule the production activities using our fast [**visual scheduling tool**](https://fractionerp.com/blog/the-digital-factory/).
 
 
 
 
 
 
-If you want to learn more about [**Fraction ERP**](https://fractionerp.com/features) and how it can help your business to become more productive then sign up for a free demonstration using the form below.
+If you want to learn more about [**Fraction ERP**](https://fractionerp.com/features/) and how it can help your business to become more productive then sign up for a free demonstration using the form below.

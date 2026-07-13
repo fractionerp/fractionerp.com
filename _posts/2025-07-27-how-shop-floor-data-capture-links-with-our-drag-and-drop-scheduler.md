@@ -11,7 +11,7 @@ permalink: /blog/how-shop-floor-data-capture-links-with-our-drag-and-drop-schedu
 One of the benefits of a [**cloud ERP system**](https://fractionerp.com/) like Fraction ERP is that is can save you a lot of time when it comes to tracking orders in your factory.
 
 
-If you have already seen our [**pricing page**](https://fractionerp.com/pricing/), you'll know that we include the [**shop floor data capture**](https://fractionerp.com/shop-floor-data-capture) (typically abbreviated as SFDC) licenses free with paid office user licenses. The benefits of having your shop floor team logging onto Fraction include:
+If you have already seen our [**pricing page**](https://fractionerp.com/pricing/), you'll know that we include the [**shop floor data capture**](https://fractionerp.com/shop-floor-data-capture/) (typically abbreviated as SFDC) licenses free with paid office user licenses. The benefits of having your shop floor team logging onto Fraction include:
 
 
 - Automated tracking of production progress.
@@ -139,7 +139,7 @@ So, if you have ever wondered how shop floor data capture linked back to Fractio
 
 
 
-If you want to find out more about Fraction ERP, [**check out our features pages**](https://fractionerp.com/features) or [**sign up for a free online demo**](https://fractionerp.com/erp-online-demo) of the full system.
+If you want to find out more about Fraction ERP, [**check out our features pages**](https://fractionerp.com/features/) or [**sign up for a free online demo**](https://fractionerp.com/erp-online-demo/) of the full system.
 
 
 

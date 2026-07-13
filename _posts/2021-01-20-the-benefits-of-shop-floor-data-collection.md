@@ -77,7 +77,7 @@ You can become more economical with your time and put your energy to greater use
 Following on from the remarks made at the start of this article, in the past I have been able to either reduce my time from hours per day to minutes, or removed the need to hunt down production orders at all, all because of SFDC. Do not underestimate how powerful this information can be!
  ![]({{ site.baseurl }}/assets/img/blog/235fff3cc7e835f7b93f780b4dcec28f/wo_tracking.jpg)
 
-[**Fraction ERP**](https://fractionerp.com/features) offers high level production tracking
+[**Fraction ERP**](https://fractionerp.com/features/) offers high level production tracking
 
 
  ![]({{ site.baseurl }}/assets/img/blog/235fff3cc7e835f7b93f780b4dcec28f/wo_tracking_2.jpg)
@@ -91,7 +91,7 @@ A low level works order tracking screen, incorporating SFDC
 
 
 
-If you have a daily team meeting ([**and if you don't, why not?**](https://fractionerp.com/blog/using-a-sunrise-meeting-to-drive-your-erp-system-performance)), using the SFDC exception data will help you to streamline your meeting and focus on those few items that need to be focused on. A daily production meeting can be a really useful team function. If you have to review every production order, just to get through the meeting and be thorough, it can take a long time.
+If you have a daily team meeting ([**and if you don't, why not?**](https://fractionerp.com/blog/using-a-sunrise-meeting-to-drive-your-erp-system-performance/)), using the SFDC exception data will help you to streamline your meeting and focus on those few items that need to be focused on. A daily production meeting can be a really useful team function. If you have to review every production order, just to get through the meeting and be thorough, it can take a long time.
 
 
 SFDC can help accelerate decision making and reduce the amount of time needed by the team to reach agreement.

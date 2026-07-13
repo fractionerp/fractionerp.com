@@ -109,7 +109,7 @@ In Fraction ERP we have deployed the [**visual scheduler**](https://fractionerp.
 The more time it takes to get your orders through the office and onto the shop floor, the less time you have available in production. Ensuring that your order handling processes are as slick and as short as possible are key here.
 
 
-At Fraction we have worked hard to ensure that you have to input the least amount of information to process your orders. From converting your quotes into sales orders, through to generating works orders and scheduling their operations, through to [**purchasing the required materials**](https://fractionerp.com/purchasing).
+At Fraction we have worked hard to ensure that you have to input the least amount of information to process your orders. From converting your quotes into sales orders, through to generating works orders and scheduling their operations, through to [**purchasing the required materials**](https://fractionerp.com/purchasing/).
 
 
 
@@ -125,7 +125,7 @@ At Fraction we have worked hard to ensure that you have to input the least amoun
 If you have to track everything in your factory manually, you won't have time to focus on other management tasks and improving your operation. Exception reporting is the ability to know the few things that need to be dealt with and (effectively) ignoring anything else.
 
 
-Giles and Patrick have both spent enough time walking around factories to know that there can be better uses of time. When we developed the [**production tracking screen**](https://fractionerp.com/shop-floor-data-capture) in Fraction ERP, we were keen to help Production Managers know exactly what they need to focus on. Late operations are just a click away from the dashboard, and combining the two approaches together is a great way to keep on top of the progress of your production orders.
+Giles and Patrick have both spent enough time walking around factories to know that there can be better uses of time. When we developed the [**production tracking screen**](https://fractionerp.com/shop-floor-data-capture/) in Fraction ERP, we were keen to help Production Managers know exactly what they need to focus on. Late operations are just a click away from the dashboard, and combining the two approaches together is a great way to keep on top of the progress of your production orders.
 
 
 ---
@@ -178,7 +178,7 @@ Keeping it short is key to making it effective and having data at your finger ti
 
 
 
-I hope you see that Fraction is built by people who understand the day to day pressures of running a factory. If you'd like to find out more about Fraction ERP and how it can help your business to deliver on time then please [**get in touch**](https://fractionerp.com/contact) using the form below.
+I hope you see that Fraction is built by people who understand the day to day pressures of running a factory. If you'd like to find out more about Fraction ERP and how it can help your business to deliver on time then please [**get in touch**](https://fractionerp.com/contact/) using the form below.
 
 
 We offer a free online demo so you can get a feel for us and the software. If you like what you see in the demo then you can take advantage of our free fourteen day trial, to see if it will work well for your business.

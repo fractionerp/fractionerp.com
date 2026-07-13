@@ -14,7 +14,7 @@ If you are looking to save some time with your production planning tasks, then F
 This short article shares a few of the features of our cloud ERP system that can save you and your team hours every week.
 
 
-And, for clarification we're using the old fashioned description of production planning as being Bills of Materials (BOM) and Production Routes (the what and the how). If you are interested in the scheduling side of things (the when), [check out this recent article](https://fractionerp.com/blog/production-scheduling-improvements).
+And, for clarification we're using the old fashioned description of production planning as being Bills of Materials (BOM) and Production Routes (the what and the how). If you are interested in the scheduling side of things (the when), [check out this recent article](https://fractionerp.com/blog/production-scheduling-improvements/).
 
 
 
@@ -23,7 +23,7 @@ And, for clarification we're using the old fashioned description of production p
 
 
 
-Being able to quickly build a [**Bill of Materials**](https://fractionerp.com/bill-of-materials) record is key to streamlining your production planning activities.
+Being able to quickly build a [**Bill of Materials**](https://fractionerp.com/bill-of-materials/) record is key to streamlining your production planning activities.
 
 
 We've tied the manufacturing route and the list of materials into one screen, to help with this process.
@@ -94,7 +94,7 @@ Creating templates takes just a few clicks and applying it the same.
 
 
 
-The last feature I want to share with you is the MRP screen. This is a common feature in many ERP systems and it stands for [**Materials Requirements Planning**](https://fractionerp.com/purchasing).
+The last feature I want to share with you is the MRP screen. This is a common feature in many ERP systems and it stands for [**Materials Requirements Planning**](https://fractionerp.com/purchasing/).
 
 
 As an aid to speeding up your production planning, this part of the system helps you to work out what you need to produce, how many and when for.
@@ -118,7 +118,7 @@ Either way, Fraction ERP can help you build your works order book fast.
 
 
 
-If you want to find out more about Fraction ERP and how it can help your business to streamline its production planning tasks, [**get in touch with us**](https://fractionerp.com/contact).
+If you want to find out more about Fraction ERP and how it can help your business to streamline its production planning tasks, [**get in touch with us**](https://fractionerp.com/contact/).
 
 
 We offer a quick online demo (about forty five minutes) and a free two week trial. If you like what you see in the demo, you can have your own account for two weeks to properly try out our system. Let your team put some orders through the system and see if Fraction will help your business. This really is the best way to test out an ERP system.

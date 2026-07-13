@@ -34,7 +34,7 @@ Firstly, let me say that many people complain about their ERP system without add
 If an ERP system is setup incorrectly, or used poorly, then it might well not be the ERP systems 'fault'.
 
 
-Should you feel that you might be in this camp, then check out the article "**[Five common errors to avoid with your ERP system implementation](https://fractionerp.com/blog/five-common-errors-to-avoid-with-your-erp-system-implementation)**".
+Should you feel that you might be in this camp, then check out the article "**[Five common errors to avoid with your ERP system implementation](https://fractionerp.com/blog/five-common-errors-to-avoid-with-your-erp-system-implementation/)**".
 
 
 But, what are the potential ERP system benefits if you do change systems?
@@ -84,7 +84,7 @@ Key benefits of moving to your first ERP system include:
 Dropping the reliance on people having to update manual systems (that fall over as soon as people are sick or take holidays) is one of the big, overarching, ERP system benefits.
 
 
-If the thought of moving from a paper based system to an ERP system feels daunting, then check out our article "[**Taking baby steps when moving to an ERP system**](https://fractionerp.com/blog/taking-baby-steps-when-moving-to-an-erp-system)". It doesn't have to be that way!
+If the thought of moving from a paper based system to an ERP system feels daunting, then check out our article "[**Taking baby steps when moving to an ERP system**](https://fractionerp.com/blog/taking-baby-steps-when-moving-to-an-erp-system/)". It doesn't have to be that way!
 
 
 ## What's your conclusion?
@@ -100,7 +100,7 @@ On a personal note, I (Giles) would not have been able to streamline production 
 Converting the costs and benefits into a currency value often makes this analysis easier. Any time saved from changing systems can then be equated into cash, to compare against any changes to the system costs.
 
 
-If you want to learn more about Fraction ERP, check out our [**video walkthroughs**](https://fractionerp.com/blog/walkthrough-videos), or [**sign up for a free demo**](https://fractionerp.com/contact) using the form below.
+If you want to learn more about Fraction ERP, check out our [**video walkthroughs**](https://fractionerp.com/blog/walkthrough-videos/), or [**sign up for a free demo**](https://fractionerp.com/contact/) using the form below.
 
 
 ERP system benefits are certainly worth the effort!

@@ -24,7 +24,7 @@ We've designed Fraction ERP to take away one of these major concerns; the initia
 
 
 
-One of the key benefits of an ERP system is improved efficiency and productivity. By streamlining processes and integrating different departments within your organisation, an ERP system can [eliminate manual data entry](https://fractionerp.com/contracts), reduce errors, and improve collaboration among team members. This can save your business time and money by increasing productivity and allowing employees to focus on more strategic tasks.
+One of the key benefits of an ERP system is improved efficiency and productivity. By streamlining processes and integrating different departments within your organisation, an ERP system can [eliminate manual data entry](https://fractionerp.com/contracts/), reduce errors, and improve collaboration among team members. This can save your business time and money by increasing productivity and allowing employees to focus on more strategic tasks.
 
 
 ---
@@ -58,7 +58,7 @@ ERP systems provide [real-time data](https://fractionerp.com/dashboard) and anal
 
 
 
-ERP systems can help businesses reduce costs in several ways. By automating processes and eliminating manual tasks, businesses can save on staff costs. Additionally, by optimising [inventory management](https://fractionerp.com/parts-and-inventory) and supply chain processes, businesses can reduce excess inventory, minimise stockouts, and lower storage costs. ERP systems can also help businesses to identify areas of inefficiency and waste, allowing them to make strategic decisions to further reduce costs.
+ERP systems can help businesses reduce costs in several ways. By automating processes and eliminating manual tasks, businesses can save on staff costs. Additionally, by optimising [inventory management](https://fractionerp.com/parts-and-inventory/) and supply chain processes, businesses can reduce excess inventory, minimise stockouts, and lower storage costs. ERP systems can also help businesses to identify areas of inefficiency and waste, allowing them to make strategic decisions to further reduce costs.
 
 
 

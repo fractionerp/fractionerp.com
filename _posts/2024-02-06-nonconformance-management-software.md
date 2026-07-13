@@ -8,7 +8,7 @@ author: Giles Johnston
 permalink: /blog/nonconformance-management-software/
 ---
 
-One of the features of Fraction ERP is the [**nonconformance management software**](https://fractionerp.com/quality) module.
+One of the features of Fraction ERP is the [**nonconformance management software**](https://fractionerp.com/quality/) module.
 
 
 We realised that having your nonconformances within your ERP system is a lot more convenient than trying to juggle a second system.
@@ -76,4 +76,4 @@ Let us show you this through series of screenshots:
 
 
 
-If you want to learn more about Fraction ERP, [**sign up for a demo**](https://fractionerp.com/erp-online-demo) and a free two week trial. You can use the form below to request the demo.
+If you want to learn more about Fraction ERP, [**sign up for a demo**](https://fractionerp.com/erp-online-demo/) and a free two week trial. You can use the form below to request the demo.

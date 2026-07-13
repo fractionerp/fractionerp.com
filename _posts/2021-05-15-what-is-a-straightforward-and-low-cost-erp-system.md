@@ -60,7 +60,7 @@ Support comes with the price too.
 To cap it off, shop floor data collection (SFDC) users are free with a subscription. We didn't want you to have to decide between the two.
 
 
-SFDC invigorates your system with data. This data [**helps you to make better and faster decisions**](https://fractionerp.com/blog/shop-floor-tracking-tools) when managing production.
+SFDC invigorates your system with data. This data [**helps you to make better and faster decisions**](https://fractionerp.com/blog/shop-floor-tracking-tools/) when managing production.
 
 
 <div class="video-embed"><iframe src="https://player.vimeo.com/video/519886248" frameborder="0" allowfullscreen></iframe></div>
@@ -70,4 +70,4 @@ SFDC invigorates your system with data. This data [**helps you to make better an
 If you have been looking for an ERP system that is straightforward and low cost then I am pleased you are here.
 
 
-To find out more, please watch our [**walkthrough videos**](https://fractionerp.com/blog/walkthrough-videos) or sign up for a free demo. To arrange your demo, fill in the form below.
+To find out more, please watch our [**walkthrough videos**](https://fractionerp.com/blog/walkthrough-videos/) or sign up for a free demo. To arrange your demo, fill in the form below.

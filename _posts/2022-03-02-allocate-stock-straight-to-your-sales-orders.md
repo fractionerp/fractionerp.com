@@ -33,4 +33,4 @@ To make life simpler, we also have a make to stock work order function. Yes, you
 The sequence is simple. Create a sales order (or convert from a quote). Allocate your stock (see image above). Ship it and invoice it.
 
 
-If you want to find out more about Fraction ERP, and how it can help your business to become more productive, then [**check out our overview videos**](https://fractionerp.com/blog/walkthrough-videos) or sign up for a free demo using the form below.
+If you want to find out more about Fraction ERP, and how it can help your business to become more productive, then [**check out our overview videos**](https://fractionerp.com/blog/walkthrough-videos/) or sign up for a free demo using the form below.

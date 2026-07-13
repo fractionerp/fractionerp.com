@@ -116,7 +116,7 @@ To understand how our scheduling tool works, check out this short video:
 To help you get a better feel for Fraction ERP,  you can organise a free two week trial of our software.
 
 
-Simply [**get in touch**](https://fractionerp.com/erp-online-demo) and we can take you through a short online demo and then set you up with a free account for a couple of weeks.
+Simply [**get in touch**](https://fractionerp.com/erp-online-demo/) and we can take you through a short online demo and then set you up with a free account for a couple of weeks.
 
 
 Or, if you have seen our [**full walk through video **](https://fractionerp.com/erp-demo-video.php)and just want to dive into a trial period, let us know.

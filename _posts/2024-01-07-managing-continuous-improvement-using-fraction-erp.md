@@ -8,7 +8,7 @@ author: Giles Johnston
 permalink: /blog/managing-continuous-improvement-using-fraction-erp/
 ---
 
-One of the brilliant features of Fraction ERP is our simple [**task management tool**](https://fractionerp.com/erp-task-management). It can help you get the most out of your team management, directly supporting your production output, but it can also help you with your continuous improvement projects.
+One of the brilliant features of Fraction ERP is our simple [**task management tool**](https://fractionerp.com/erp-task-management/). It can help you get the most out of your team management, directly supporting your production output, but it can also help you with your continuous improvement projects.
 
 
 We built the tool originally to help manage the actions that come out from a [**daily production meeting**](https://fractionerp.com/dashboard). Maximising visibility of tasks and removing the need for another app to capture your tasks outside of your [**ERP system**](https://fractionerp.com/index). But, as you can create categories to suit your business, you can create them for your continuous improvement projects too.

@@ -17,7 +17,7 @@ Are you ready for a change?
 (Honestly, we think its overdue anyway)
 
 
-[![]({{ site.baseurl }}/assets/img/blog/abb484708bcf82038faf941dfe333d07/fasterp.jpg)](https://fractionerp.com/contact)
+[![]({{ site.baseurl }}/assets/img/blog/abb484708bcf82038faf941dfe333d07/fasterp.jpg)](https://fractionerp.com/contact/)
 
 
 In its day, Sage 50 Manufacturing was great system for small manufactures and it easily integrated with the very popular Sage accounts. Times have changed; high speed internet, mobile devices and cloud technologies have leapt forward since the hay-days of Sage and installing software from a CD-Rom.
@@ -26,7 +26,7 @@ In its day, Sage 50 Manufacturing was great system for small manufactures and it
 From ordering pizza to running manufacturing companies, cloud software is faster, highly reliable, available anywhere and enables functionality that we could only have dreamed of 15 years ago – including tracking your pizza on touch screen mobile.
 
 
-If you are still using Sage Manufacturing, we think its time you embraced the now and moved to [**Fraction ERP**](https://fractionerp.com/features).
+If you are still using Sage Manufacturing, we think its time you embraced the now and moved to [**Fraction ERP**](https://fractionerp.com/features/).
 
 
 

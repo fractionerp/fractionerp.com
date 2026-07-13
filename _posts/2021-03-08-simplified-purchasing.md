@@ -20,7 +20,7 @@ We've actually spoke with other companies over the years that have ditched their
 I (Giles) come from a background where embracing this data is really useful. I have also seen what happens when you don't use it properly.
 
 
-When we designed Fraction ERP we wanted to make sure that the [**interface was simple and effective**](https://fractionerp.com/features). The video walkthrough below shows you what we came up with. Hopefully you will agree that this simple approach is effective and fast to use.
+When we designed Fraction ERP we wanted to make sure that the [**interface was simple and effective**](https://fractionerp.com/features/). The video walkthrough below shows you what we came up with. Hopefully you will agree that this simple approach is effective and fast to use.
 
 
 <div class="video-embed"><iframe src="https://player.vimeo.com/video/519932353" frameborder="0" allowfullscreen></iframe></div>

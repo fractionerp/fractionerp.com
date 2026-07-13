@@ -8,7 +8,7 @@ author: Giles Johnston
 permalink: /blog/simple-purchase-order-management-system/
 ---
 
-When we're organising demos with prospective customers, we often get asked if Fraction ERP is a [**purchase order system**](https://fractionerp.com/purchasing) and is it simple.
+When we're organising demos with prospective customers, we often get asked if Fraction ERP is a [**purchase order system**](https://fractionerp.com/purchasing/) and is it simple.
 
 
 In both cases, yes!
@@ -27,7 +27,7 @@ In both cases, yes!
 As you'd expect from an ERP system, Fraction ERP will allow you to raise purchase orders based on the demand from your work orders.
 
 
-Our [**MRP screen**](https://fractionerp.com/purchasing) has a number of easy to apply filters to help you speed up the purchasing process.
+Our [**MRP screen**](https://fractionerp.com/purchasing/) has a number of easy to apply filters to help you speed up the purchasing process.
 
 
 We also have the option to group demand, so if you get a discount on certain purchasing quantities, you can ensure that your purchase orders are consolidated.
@@ -59,7 +59,7 @@ If you repeat buy a component / material from a specific supplier you can set th
 If you want the buy without using the MRP screen, perhaps for an ad-hoc purchase, you can do this too.
 
 
-If the item later appears in the [**bill of materials**](https://fractionerp.com/bill-of-materials) for the work order, you can link them back up manually.
+If the item later appears in the [**bill of materials**](https://fractionerp.com/bill-of-materials/) for the work order, you can link them back up manually.
 
 
 Fraction ERP allows you to create items 'on the fly', again speeding up the process of raising purchase orders.
@@ -149,7 +149,7 @@ The order can be downloaded as a PDF document and emailed that way, if you prefe
 
 
 
-When the order arrives at your business, our goods received function allows you to [**bring the stock into Fraction ERP**](https://fractionerp.com/parts-and-inventory) and then allow it to be allocated to the order you need it for.
+When the order arrives at your business, our goods received function allows you to [**bring the stock into Fraction ERP**](https://fractionerp.com/parts-and-inventory/) and then allow it to be allocated to the order you need it for.
 
 
 If you select for the item to be inspected when it arrives, that can be triggered at this stage.

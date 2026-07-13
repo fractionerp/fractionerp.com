@@ -73,7 +73,7 @@ As soon as you generate a works order, Fraction ERP automatically schedules the 
 
 
 
-Check out this quick overview video, or get in touch to organise a [**free online demo**](https://fractionerp.com/erp-online-demo) if you want to see it in more detail.
+Check out this quick overview video, or get in touch to organise a [**free online demo**](https://fractionerp.com/erp-online-demo/) if you want to see it in more detail.
 
 
 ---
@@ -91,7 +91,7 @@ Check out this quick overview video, or get in touch to organise a [**free onlin
 
 
 
-We offer a [**free two week trial**](https://fractionerp.com/erp-online-demo) of Fraction ERP, to help you properly evaluate our ERP system. This gives your team a chance to put some test orders through our system and see if it can really do what you need an ERP system to do.
+We offer a [**free two week trial**](https://fractionerp.com/erp-online-demo/) of Fraction ERP, to help you properly evaluate our ERP system. This gives your team a chance to put some test orders through our system and see if it can really do what you need an ERP system to do.
 
 
 In the meantime, if you are wondering if production scheduling software can make a difference to your manufacturing business, the short answer is yes! If you're evaluating your options, [compare ERP systems](/compare-erp/) to find the right fit for your factory.

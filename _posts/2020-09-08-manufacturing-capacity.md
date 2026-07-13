@@ -129,7 +129,7 @@ These are the same principles that we have built in to [**Fraction ERP**](https:
 If you are ready to leave behind an overly complicated ERP system, or want to upgrade from your whiteboards and your spreadsheets, then request your free demo account today.
 
 
-Just [get in touch](https://fractionerp.com/contact) and we'll provide you with a no obligation demo so that you can see just how powerful Fraction ERP is (but without the unnecessary complexity of many ERP systems out there).
+Just [get in touch](https://fractionerp.com/contact/) and we'll provide you with a no obligation demo so that you can see just how powerful Fraction ERP is (but without the unnecessary complexity of many ERP systems out there).
 
 
-To arrange your demonstration - [**click here**](https://fractionerp.com/contact).
+To arrange your demonstration - [**click here**](https://fractionerp.com/contact/).

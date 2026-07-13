@@ -8,7 +8,7 @@ author: Giles Johnston
 permalink: /blog/erp-demo-just-show-me-the-system/
 ---
 
-One of the concerns many people have, when looking for a new ERP system is the painful sales process they may have to go through. We understand that most of you don't want 'the dance' and just want a [**demo**](https://fractionerp.com/erp-online-demo).
+One of the concerns many people have, when looking for a new ERP system is the painful sales process they may have to go through. We understand that most of you don't want 'the dance' and just want a [**demo**](https://fractionerp.com/erp-online-demo/).
 
 
 It's easy for us to say that you won't have this experience with us but let me try to explain why this is the case.
@@ -118,11 +118,11 @@ We're not focused on applying the latest sales techniques...
 If you want to see why we're on this mission and want to see Fraction ERP in action, we recommend the following:
 
 
-- [**Check out our features pages**](https://fractionerp.com/features). They have overview videos that should give you a good feel for the software's look and feel.
+- [**Check out our features pages**](https://fractionerp.com/features/). They have overview videos that should give you a good feel for the software's look and feel.
 - [**Look at our support pages**](https://support.fractionerp.com/). They'll take you through our processes, step by step, so you can see how they fit with what you are using currently.
 - [**Download our workflow document**](https://fractionerp.com/erp-manufacturing-workflow/) and presentation. See how Fraction ERP stitches the entire manufacturing operation together.
-- Sign up for an [**ERP demo**](https://fractionerp.com/erp-online-demo). The best way to find out is for us to give you the royal tour.
+- Sign up for an [**ERP demo**](https://fractionerp.com/erp-online-demo/). The best way to find out is for us to give you the royal tour.
 - Take the free two week trial. Put an order or two through the system and let your team have a play with our ERP system.
 
 
-And, if you do take our free [**ERP demo**](https://fractionerp.com/erp-online-demo) offer up, please feel free to give us some sales tips!
+And, if you do take our free [**ERP demo**](https://fractionerp.com/erp-online-demo/) offer up, please feel free to give us some sales tips!

@@ -26,4 +26,4 @@ This especially ties in with make to stock situations. You can see a walkthrough
 
 
 
-To find out more about Fraction ERP, check out our other [**walkthrough videos here**](https://fractionerp.com/blog/walkthrough-videos). You can also organise a free demo by submitting the form below.
+To find out more about Fraction ERP, check out our other [**walkthrough videos here**](https://fractionerp.com/blog/walkthrough-videos/). You can also organise a free demo by submitting the form below.

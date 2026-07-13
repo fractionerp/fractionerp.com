@@ -102,7 +102,7 @@ When you are clear about the costs and benefits of both staying and moving, the 
 I hope this article has given you some food for thought. It is this dilemma that drove us to develop Fraction ERP. We wanted to build something that was ridiculously fast to use. It is fast to learn and as it is cloud based, you can access it anywhere!
 
 
-If you want to learn more about [**Fraction ERP**](https://fractionerp.com/), then watch our [**walkthrough videos**](https://fractionerp.com/blog/walkthrough-videos) or sign up for a free demo using the form below.
+If you want to learn more about [**Fraction ERP**](https://fractionerp.com/), then watch our [**walkthrough videos**](https://fractionerp.com/blog/walkthrough-videos/) or sign up for a free demo using the form below.
 
 
 From looking further on this site I hope that you will see that have attempted to address as many concerns about moving to an ERP system. This includes [**transparent pricing**](https://fractionerp.com/pricing/) and a [**full onboarding site**](https://fractionerp.com/support/).

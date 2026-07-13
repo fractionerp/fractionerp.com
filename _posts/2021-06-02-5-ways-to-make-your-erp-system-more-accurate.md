@@ -27,7 +27,7 @@ Sure! This article shares five simple things you can do to make your ERP system 
 This has got to be our number one item to start with. In short, if you don't train your staff then you run a high risk of the data going into your ERP system being rubbish. The programmer's acronym GIGO - Garbage In, Garbage Out, stands true here.
 
 
-There are two obvious sub-points here. One, ensure that the ERP system you choose is [**easy to learn**](https://fractionerp.com/blog/fraction-erp-support-pages-now-available). Two, capture the 'one best way' that works for your business as a Standard Operating Procedure (SOP).
+There are two obvious sub-points here. One, ensure that the ERP system you choose is [**easy to learn**](https://fractionerp.com/blog/fraction-erp-support-pages-now-available/). Two, capture the 'one best way' that works for your business as a Standard Operating Procedure (SOP).
 
 
 We designed Fraction ERP so that it is as easy to use as possible. We have seen our users pick up the system in just a couple of hours (for the whole system!). Mastery takes longer, that's true. But, there is no need to have spend weeks / months trying to figure out how the system works.
@@ -116,7 +116,7 @@ As you make improvements in your business you should find your capacity rising. 
 By making any of these improvements you will raise capacity. Your ERP system needs to reflect the output of your changes.
 
 
-Some businesses plan on the assumption that they won't lose any time during the working day. During an eight hour shift they expect to get eight hours of production. In some cases you will be able to get close to this, but only if a lot of improvement activity has taken place. For the rest of us, we need to include a utilisation factor. If you want to read more about how to calculate true capacity levels then [**check out this blog post**](https://fractionerp.com/blog/manufacturing-capacity).
+Some businesses plan on the assumption that they won't lose any time during the working day. During an eight hour shift they expect to get eight hours of production. In some cases you will be able to get close to this, but only if a lot of improvement activity has taken place. For the rest of us, we need to include a utilisation factor. If you want to read more about how to calculate true capacity levels then [**check out this blog post**](https://fractionerp.com/blog/manufacturing-capacity/).
 
 
 Being realistic about your capacity is the first step towards effective scheduling. Effective scheduling helps to achieve high on time delivery performance. Be aware as your capacity levels increase (through improvement, more staff or machines). Every time your capacity increases, update your ERP system.
@@ -189,7 +189,7 @@ If you want to be able to use your ERP system to help you drive your business yo
 A housekeeping routine does not need to be a difficult task. Little and often is the chosen route of many. Spending ten minutes a week tidying up your sales order book is palatable. Spending two or three days unclogging the mess isn't.
 
 
-If you don't already have a housekeeping routine for your ERP system then [**check out this article**](https://fractionerp.com/blog/housekeeping-getting-the-most-from-your-erp-system).
+If you don't already have a housekeeping routine for your ERP system then [**check out this article**](https://fractionerp.com/blog/housekeeping-getting-the-most-from-your-erp-system/).
 
 
 The fast editing within Fraction ERP means keeping your system clean and tidy is quick to do. We don't want you to spend unecessary time cleaning your system. We'd rather you you spend it managing and growing your business!
@@ -205,4 +205,4 @@ Of course, the better your training is (point 1), the less time you would expect
 These five points aren't the only ways you can improve your ERP system accuracy. We recommend starting here and then progressing on your own continuous improvement journey. Better data leads to faster, effective, decision making.
 
 
-[**If you are looking for a new ERP system**](https://fractionerp.com/features) and want something that is low cost and straightforward, then sign up for a demo. You can sign up using the form below.
+[**If you are looking for a new ERP system**](https://fractionerp.com/features/) and want something that is low cost and straightforward, then sign up for a demo. You can sign up using the form below.

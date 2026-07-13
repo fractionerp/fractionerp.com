@@ -29,7 +29,7 @@ If you are keen to see a walkthrough of Fraction ERP, you can now do so via this
 This should give you a good feel for the system. It is a little more in depth than our overview videos.
 
 
-If you want more information, don't forget to [**check out our support site**](https://support.fractionerp.com/) or to [**request a live online demo**](https://fractionerp.com/erp-online-demo). In a live demo, we can answer your specific questions and show you some of the [**features **](https://fractionerp.com/features)in more detail.
+If you want more information, don't forget to [**check out our support site**](https://support.fractionerp.com/) or to [**request a live online demo**](https://fractionerp.com/erp-online-demo/). In a live demo, we can answer your specific questions and show you some of the [**features **](https://fractionerp.com/features/)in more detail.
 
 
 Also, once you have had the demo, you can have your own Fraction ERP account for a couple of weeks, **for free**, to properly evaluate our system. This gives your team a chance to put some test orders through our cloud ERP software and find out for yourselves if this would be a good solution for you.

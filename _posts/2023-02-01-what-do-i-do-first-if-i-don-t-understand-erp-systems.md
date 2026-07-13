@@ -63,20 +63,20 @@ If you are new to ERP systems and just aren't sure where to start, let us make s
 
 
 
-We've written a free guide that you can [**download here**](https://fractionerp.com/erp-implementation-guide). The team here at Fraction have been through enough painful selection and implementation projects to know what needs to change in the ERP marketplace. We've designed Fraction ERP to be different and our guide is aimed at helping you avoid the common mistakes with ERP implementations.
+We've written a free guide that you can [**download here**](https://fractionerp.com/erp-implementation-guide/). The team here at Fraction have been through enough painful selection and implementation projects to know what needs to change in the ERP marketplace. We've designed Fraction ERP to be different and our guide is aimed at helping you avoid the common mistakes with ERP implementations.
 
 
-Implementing an ERP system is an activity that should bring your business serious benefits. If there wasn't a business case for ERP systems then there wouldn't be such a big market. If you're new to ERP systems, please [**download our free guide**](https://fractionerp.com/erp-implementation-guide). Even if you don't select us, please have a look and get the most from your new system.
+Implementing an ERP system is an activity that should bring your business serious benefits. If there wasn't a business case for ERP systems then there wouldn't be such a big market. If you're new to ERP systems, please [**download our free guide**](https://fractionerp.com/erp-implementation-guide/). Even if you don't select us, please have a look and get the most from your new system.
 
 
-The ERP implementation guide page is here: **[https://fractionerp.com/erp-implementation-guide](https://fractionerp.com/erp-implementation-guide)**
+The ERP implementation guide page is here: **[https://fractionerp.com/erp-implementation-guide](https://fractionerp.com/erp-implementation-guide/)**
 
 
 ---
 
 
 
-[**![ERP implementation guide]({{ site.baseurl }}/assets/img/blog/ed33785171f19385f2742856c0d1ce2e/ERPImplementationGuidecover.jpg)**](https://fractionerp.com/erp-implementation-guide)
+[**![ERP implementation guide]({{ site.baseurl }}/assets/img/blog/ed33785171f19385f2742856c0d1ce2e/ERPImplementationGuidecover.jpg)**](https://fractionerp.com/erp-implementation-guide/)
 
 
 **Our free ERP implementation guide**
@@ -154,7 +154,7 @@ During the demo we'll show you how our ERP system can help your business to save
 I hope this article has given you some ideas of what to do if you are new to ERP systems and just aren't sure where to start.
 
 
-If you have some specific questions we'll gladly do our best to answer them. Just drop us a line on our [**contact page**](https://fractionerp.com/contact).
+If you have some specific questions we'll gladly do our best to answer them. Just drop us a line on our [**contact page**](https://fractionerp.com/contact/).
 
 
 Otherwise, we hope you find the resources useful. Good luck with your ERP journey.

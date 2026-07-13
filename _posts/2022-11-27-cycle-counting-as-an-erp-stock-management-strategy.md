@@ -8,7 +8,7 @@ author: Giles Johnston
 permalink: /blog/cycle-counting-as-an-erp-stock-management-strategy/
 ---
 
-For many businesses, keeping on top of [**stock levels**](https://fractionerp.com/parts-and-inventory) can take the stress out of the working day. Well managed stock levels can help you to:
+For many businesses, keeping on top of [**stock levels**](https://fractionerp.com/parts-and-inventory/) can take the stress out of the working day. Well managed stock levels can help you to:
 
 
 - Deliver on time.
@@ -81,7 +81,7 @@ The re-order level provides a trigger to tell you to replenish. The re-order qua
 The first approach is to create a stock counting schedule. Download your stock information into a spreadsheet and rank your stock. Allocate responsibilities and schedule time for your team to check the stock values.
 
 
-The second approach is to count [**items that drop below a certain stock level**](https://fractionerp.com/blog/stock-alert-function-now-added). This might be the re-order point. Checking at this point ensures stock accuracy, so you can manage the remaining stock. You may have more or less stock. Keeping it accurate is key.
+The second approach is to count [**items that drop below a certain stock level**](https://fractionerp.com/blog/stock-alert-function-now-added/). This might be the re-order point. Checking at this point ensures stock accuracy, so you can manage the remaining stock. You may have more or less stock. Keeping it accurate is key.
 
 
 ![ERP System - part selection]({{ site.baseurl }}/assets/img/blog/44a783d4e6c63d8993351ada4fc93351/FractionERPpartselection.jpg)
@@ -121,7 +121,7 @@ You can also add in a reason for updating the stock. This could range from 'cycl
 If your business runs out of stock on a regular basis then consider a cycle counting approach. If it isn't stock accuracy then consider updating your part data. Tweak your re-order levels and re-order quantities and monitor.
 
 
-If you'd like to learn more about Fraction ERP's easy to use interface, [**we offer a free online demo**](https://fractionerp.com/blog/what-happens-during-a-free-demonstration).
+If you'd like to learn more about Fraction ERP's easy to use interface, [**we offer a free online demo**](https://fractionerp.com/blog/what-happens-during-a-free-demonstration/).
 
 
 If you like what you see in the demo then you can access Fraction ERP for two weeks, on your own account, for free. This should give you enough time to evaluate the system and see if it can help your business to thrive and grow.

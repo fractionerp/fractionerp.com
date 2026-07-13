@@ -55,4 +55,4 @@ Taking this approach can slash the time it takes to find out where production is
 We've taken this exact approach into the design of Fraction ERP.
 
 
-To [**learn more about Fraction ERP**](https://fractionerp.com/blog/walkthrough-videos), and how it can help your business to become more productive, sign up for free demo using the form below.
+To [**learn more about Fraction ERP**](https://fractionerp.com/blog/walkthrough-videos/), and how it can help your business to become more productive, sign up for free demo using the form below.

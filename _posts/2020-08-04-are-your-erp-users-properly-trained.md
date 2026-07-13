@@ -49,4 +49,4 @@ And finally,
 
 
 
-If you want a simpler ERP system then check out our free demo. [You can sign up for it using the form  below](https://fractionerp.com/contact).
+If you want a simpler ERP system then check out our free demo. [You can sign up for it using the form  below](https://fractionerp.com/contact/).

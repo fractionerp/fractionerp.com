@@ -117,7 +117,7 @@ With increasing on time delivery performance, better customer satisfaction and i
 Being under control like this can feel like you have an extra gear in the business.
 
 
-Continuous improvement. Maintenance programmes. Strategic planning. All of these activities become easier to do when you achieve a certain level of streamlining and stability that the [**shop floor data collection**](https://fractionerp.com/shop-floor-data-capture) function of Fraction ERP can help you to achieve.
+Continuous improvement. Maintenance programmes. Strategic planning. All of these activities become easier to do when you achieve a certain level of streamlining and stability that the [**shop floor data collection**](https://fractionerp.com/shop-floor-data-capture/) function of Fraction ERP can help you to achieve.
 
 
 
@@ -148,7 +148,7 @@ If you have plans for your shop floor team to engage with other routine activiti
 We hope this article has given you some ideas on how you could use shop floor data collection effectively within your business.
 
 
-If you'd like to learn more about Fraction ERP, [**check out our features pages**](https://fractionerp.com/features) and [**sign up for a free online demo**](https://fractionerp.com/erp-online-demo).
+If you'd like to learn more about Fraction ERP, [**check out our features pages**](https://fractionerp.com/features/) and [**sign up for a free online demo**](https://fractionerp.com/erp-online-demo/).
 
 
 If you like what you see in the demo, you can access Fraction ERP free of charge for two weeks to carry out a full review of our system to see if it would be a good fit for your business.

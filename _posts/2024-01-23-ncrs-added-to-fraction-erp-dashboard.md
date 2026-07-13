@@ -8,7 +8,7 @@ author: Giles Johnston
 permalink: /blog/ncrs-added-to-fraction-erp-dashboard/
 ---
 
-Many businesses have a love / hate relationship with their NCRs ([**Non Conformance Reports**](https://fractionerp.com/quality)). They know they need to do them (if they want to avoid repeating the same mistakes time and time again) but juggling them with everything else is a challenge.
+Many businesses have a love / hate relationship with their NCRs ([**Non Conformance Reports**](https://fractionerp.com/quality/)). They know they need to do them (if they want to avoid repeating the same mistakes time and time again) but juggling them with everything else is a challenge.
 
 
 Fraction ERP has, for quite some time, had an NCR function built directly into it. Now, you can manage NCRs directly from your [**dashboard**](https://fractionerp.com/dashboard). One system, one place to review, [**one place to manage your business operations**](https://fractionerp.com/index).
@@ -89,4 +89,4 @@ If you use a 'Sunrise meeting' approach, or a more traditional daily production 
 And, let's not forget, dealing with NCRs in the manner that they are intended means that you build a better business.
 
 
-If you want to find out more about the features of Fraction ERP, [**check out our features pages**](https://fractionerp.com/features) or [**sign up for a demo**](https://fractionerp.com/erp-online-demo) and free two week trial using the form below.
+If you want to find out more about the features of Fraction ERP, [**check out our features pages**](https://fractionerp.com/features/) or [**sign up for a demo**](https://fractionerp.com/erp-online-demo/) and free two week trial using the form below.

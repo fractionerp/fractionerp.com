@@ -74,9 +74,9 @@ Most businesses don't get the most out of having a routine. Routines are often a
 From an ERP perspective, the following items work well when added to your weekly routine:
 
 
-- Chasing up outstanding quotes (and tidying the [**contracts module**](https://fractionerp.com/blog/contracts-management-module-video)).
+- Chasing up outstanding quotes (and tidying the [**contracts module**](https://fractionerp.com/blog/contracts-management-module-video/)).
 - Reviewing jobs that are on hold due to changing customer requirement / technical issues
-- [**Looking at your capacity levels**](https://fractionerp.com/blog/new-weekly-scheduling-board) from different horizons
+- [**Looking at your capacity levels**](https://fractionerp.com/blog/new-weekly-scheduling-board/) from different horizons
 - Low level works order scheduling
 - Reviewing stock / perpetual inventory
 - Expediting purchase orders

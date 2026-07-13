@@ -12,7 +12,7 @@ related_posts_list:
   - /blog/how-to-choose-erp-software-for-your-business-without-the-pain/
 ---
 
-The overview video for our [**cloud ERP system**](https://fractionerp.com/features) has been updated, which you can see below.
+The overview video for our [**cloud ERP system**](https://fractionerp.com/features/) has been updated, which you can see below.
 
 
 
@@ -23,10 +23,10 @@ The overview video for our [**cloud ERP system**](https://fractionerp.com/featur
 
 
 
-If you haven't been keeping up with the development of [**Fraction ERP**](https://fractionerp.com/features), recent changes to the system include:
+If you haven't been keeping up with the development of [**Fraction ERP**](https://fractionerp.com/features/), recent changes to the system include:
 
 
-- [**Stock alerts**](https://fractionerp.com/blog/stock-alert-function-now-added)
+- [**Stock alerts**](https://fractionerp.com/blog/stock-alert-function-now-added/)
 - Daily scheduling
 - Print PDFs for quotes, acknowledgements, purchase orders, invoices and delivery notes
 - Export to Excel function for purchase orders and invoices

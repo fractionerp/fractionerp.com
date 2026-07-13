@@ -85,7 +85,7 @@ Patrick and Giles are advocates of the Lean manufacturing approach; minimising w
 If we can find a way to reduce the number of clicks, we'll do it. If we can reduce the number of ways something can be done (to reduce confusion), we'll do it also.
 
 
-Fraction ERP was designed to be [**quick to learn**](https://support.fractionerp.com/) and easy to use. We may have dropped a few features from our ERP system to make this happen but that is for the greater good. If you need some specific features that we don't have, then we're probably not the ERP system for you. If you need everything else but want to deploy fast and want to be up and running quickly then [**we probably are the ERP system you have been looking for**](https://fractionerp.com/features)!
+Fraction ERP was designed to be [**quick to learn**](https://support.fractionerp.com/) and easy to use. We may have dropped a few features from our ERP system to make this happen but that is for the greater good. If you need some specific features that we don't have, then we're probably not the ERP system for you. If you need everything else but want to deploy fast and want to be up and running quickly then [**we probably are the ERP system you have been looking for**](https://fractionerp.com/features/)!
 
 
 ---
@@ -139,16 +139,16 @@ As the customer quote says on our [**home page**](https://fractionerp.com/):
 Giles has spent a lot of time with companies that have done the 'big bang' ERP implementation. If it goes well, great. If it doesn't go so well... that's where Giles get’s  called in.
 
 
-Fraction ERP allows you to use the parts of the system that you need the most.  If you are only ready to use the contracts module (**[quotes and sales orders](https://fractionerp.com/contracts)**), then you can use just that module. If you are ready to use the [**purchasing** **function**](https://fractionerp.com/purchasing), you can use that when you are ready.
+Fraction ERP allows you to use the parts of the system that you need the most.  If you are only ready to use the contracts module (**[quotes and sales orders](https://fractionerp.com/contracts/)**), then you can use just that module. If you are ready to use the [**purchasing** **function**](https://fractionerp.com/purchasing/), you can use that when you are ready.
 
 
-The same goes for [**inventory management**](https://fractionerp.com/parts-and-inventory), [**works orders**](https://fractionerp.com/works-orders), [**scheduling**](https://fractionerp.com/production-scheduling/), [**shop floor data collection**](https://fractionerp.com/shop-floor-data-capture) and so on.
+The same goes for [**inventory management**](https://fractionerp.com/parts-and-inventory/), [**works orders**](https://fractionerp.com/works-orders/), [**scheduling**](https://fractionerp.com/production-scheduling/), [**shop floor data collection**](https://fractionerp.com/shop-floor-data-capture/) and so on.
 
 
 You can get as sophisticated as you want to, or leave it simple. Whatever works for your business. This is how Fraction ERP is designed and how ERP should be.
 
 
-If you want to learn more about ERP implementations, then [**check out our free guide here**](https://fractionerp.com/erp-implementation-guide).
+If you want to learn more about ERP implementations, then [**check out our free guide here**](https://fractionerp.com/erp-implementation-guide/).
 
 
 
@@ -195,7 +195,7 @@ We don't want cost to be a show stopper for businesses moving to an ERP system. 
 
 
 
-We hope that this article has given you a better insight into [**how we tick at Fraction ERP**](https://fractionerp.com/about).
+We hope that this article has given you a better insight into [**how we tick at Fraction ERP**](https://fractionerp.com/about/).
 
 
 If you want to find out more about an ERP system that has a different background, check out our features page here.

@@ -160,4 +160,4 @@ The real question is: how much longer can you afford to wait?
 
 The right system, implemented properly, could be the difference between constantly firefighting and confidently growing. Take the first step today by downloading our [**ERP Implementation Guide**](https://fractionerp.com/erp-implementation-guide/).
 
-To organise your [**free demo**](https://fractionerp.com/contact) and trial, get in touch with us today.
+To organise your [**free demo**](https://fractionerp.com/contact/) and trial, get in touch with us today.

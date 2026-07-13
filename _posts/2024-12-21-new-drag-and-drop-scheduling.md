@@ -58,7 +58,7 @@ As you can see from the image below, visualising the production schedule is clea
 Any changes to the schedule immediately reflect in the work to lists, ready for your teams to log on and record time / quantities against.
 
 
-This works great too because our [**shop floor data capture**](https://fractionerp.com/shop-floor-data-capture) licenses come free when you have a paid subscription for your office staff!
+This works great too because our [**shop floor data capture**](https://fractionerp.com/shop-floor-data-capture/) licenses come free when you have a paid subscription for your office staff!
 
 
 ---
@@ -76,7 +76,7 @@ This works great too because our [**shop floor data capture**](https://fractione
 
 
 
-If you'd like to find out more, [**sign up for a free demo**](https://fractionerp.com/erp-online-demo) using the form below.
+If you'd like to find out more, [**sign up for a free demo**](https://fractionerp.com/erp-online-demo/) using the form below.
 
 
 If you like what you see in the rest of the system, you can take our cloud ERP system for a two week trial. We recommend that prospective users test it out by putting some of their own orders through the system and see how well it works for them.

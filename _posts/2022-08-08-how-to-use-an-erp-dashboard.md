@@ -8,7 +8,7 @@ author: Giles Johnston
 permalink: /blog/how-to-use-an-erp-dashboard/
 ---
 
-A dashboard is a key part of any modern ERP system. [**Fraction ERP**](https://fractionerp.com/features) is no different but how you use it makes all the difference. In this article we are going to share with a few ideas to get the most out of this tool.
+A dashboard is a key part of any modern ERP system. [**Fraction ERP**](https://fractionerp.com/features/) is no different but how you use it makes all the difference. In this article we are going to share with a few ideas to get the most out of this tool.
 
 
 ---
@@ -155,7 +155,7 @@ A short sunrise meeting can keep your whole team on track and is a great way to 
 
 
 
-Fraction's dashboard is simple to use and you can find out more with a free two week trial. To learn more about our system please [**check out our features section**](https://fractionerp.com/features).
+Fraction's dashboard is simple to use and you can find out more with a free two week trial. To learn more about our system please [**check out our features section**](https://fractionerp.com/features/).
 
 
-To organise your [**free demo**](https://fractionerp.com/contact) and trial, fill in the form below.
+To organise your [**free demo**](https://fractionerp.com/contact/) and trial, fill in the form below.

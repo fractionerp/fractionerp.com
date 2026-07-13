@@ -138,7 +138,7 @@ We designed Fraction ERP because we were frustrated with expensive, complicated,
 You can access a free demo to see it in action and see if it is something that would work for your business.
 
 
-To access the free demo, [**drop us a line using this link**](https://fractionerp.com/contact), or use the form below.
+To access the free demo, [**drop us a line using this link**](https://fractionerp.com/contact/), or use the form below.
 
 
 

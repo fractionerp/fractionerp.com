@@ -27,7 +27,7 @@ In this blog post I want share a couple of the features that make scheduling so 
 Imagine that you have an order in progress on your shop floor. Let's say it is a batch of 25. You complete the first few and realise that the cycle times you have planned aren't accurate enough.
 
 
-When you now double click on the operation on our [**Works Order **](https://fractionerp.com/works-orders)view, you can edit the operation (making it longer or shorter). However, we realise that you might already have something scheduled after the operation in question, so click on the 'check schedule conflicts' button and see what it says.
+When you now double click on the operation on our [**Works Order **](https://fractionerp.com/works-orders/)view, you can edit the operation (making it longer or shorter). However, we realise that you might already have something scheduled after the operation in question, so click on the 'check schedule conflicts' button and see what it says.
 
 
 If the check gives you the all clear, save the changes. If it gives you a warning, you can re-shuffle the sub-sequent operations to make some space. Then, you can amend and save.
@@ -87,4 +87,4 @@ If you combine this step with the previous one (updating scheduled operations), 
 We've enjoyed developing our scheduler. Seeing it grow from a basic function to something that can quickly and accurately [**schedule your shop floor**](https://fractionerp.com/production-scheduling/) has been great to watch and even better to use.
 
 
-If you want to learn more about our scheduler, and all of the other functions of our cloud based ERP system, then reach out today for a [**short online demo**](https://fractionerp.com/erp-online-demo). The demo takes around forty five minutes and if you like what you see then you are welcome to take our free two week trial. This is your account, with no one else's data in it. Run a few test orders through our system and let your team put Fraction ERP through its paces, it is the best way to test an ERP system to see if it is a good fit for your business.
+If you want to learn more about our scheduler, and all of the other functions of our cloud based ERP system, then reach out today for a [**short online demo**](https://fractionerp.com/erp-online-demo/). The demo takes around forty five minutes and if you like what you see then you are welcome to take our free two week trial. This is your account, with no one else's data in it. Run a few test orders through our system and let your team put Fraction ERP through its paces, it is the best way to test an ERP system to see if it is a good fit for your business.
