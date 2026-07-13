@@ -11,7 +11,7 @@ permalink: /blog/our-new-support-site-is-live/
 One of [**Fraction ERP**](https://fractionerp.com/index)'s key features is that it is easy to learn. Fast to pick up. Quick to get results from.
 
 
-Our user onboarding is largely self-service, which helps us to [**keep our prices low**](https://fractionerp.com/pricing).
+Our user onboarding is largely self-service, which helps us to [**keep our prices low**](https://fractionerp.com/pricing/).
 
 
 The new support site is now live, which you can view here: **[https://support.fractionerp.com/](https://support.fractionerp.com/)**
@@ -43,4 +43,4 @@ If a straightforward, low cost, cloud ERP system is something that you are looki
 Our online demo will give you a guided tour of how Fraction ERP works. If you like what you see then you can try the full system out for 14 days and see if it is a good fit for your business.
 
 
-If the two week trial looks good to you, then you can start your subscription in a way that suits you. [**You can see our pricing information here**](https://fractionerp.com/pricing).
+If the two week trial looks good to you, then you can start your subscription in a way that suits you. [**You can see our pricing information here**](https://fractionerp.com/pricing/).

@@ -14,7 +14,7 @@ You've probably heard of shop floor data collection in ERP systems. This is the 
 We know the value of using a system like this. In this short article we'll share with you five great reasons to use shop floor data in this way.
 
 
-In fact, we think it is so important to an ERP system that we offer if for no extra charge with our subscriptions (you can [**find out more on our pricing page**](https://fractionerp.com/pricing)).
+In fact, we think it is so important to an ERP system that we offer if for no extra charge with our subscriptions (you can [**find out more on our pricing page**](https://fractionerp.com/pricing/)).
 
 
 

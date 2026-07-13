@@ -131,7 +131,7 @@ As our ERP system allows you to monitor both operatives and workcentres at the s
 We don't want our new customers to worry about the cost of adding SFDC users (normally shop floor staff) to their ERP subscription. So, we made this user group free as long as their is a paid subscription for two main users.
 
 
-[**You can see full details on our pricing page**](https://fractionerp.com/pricing).
+[**You can see full details on our pricing page**](https://fractionerp.com/pricing/).
 
 
 ---

@@ -170,13 +170,13 @@ In fact, there is one item that I want to draw your attention to: **Unlimited S
 We've seen a lot of ERP system that charge for this separately. This has been a deciding factor for many businesses that have either had tight budgets or weren't not sure about the potential of this feature.
 
 
-We didn't want our customers to choose, so we made it part of the [**basic package**](https://fractionerp.com/pricing).
+We didn't want our customers to choose, so we made it part of the [**basic package**](https://fractionerp.com/pricing/).
 
 
 Shop floor data collection can save hours of time every day with keeping on top of where your production orders are in the process (Giles used to be a Production Manager, he knows!). Plus, the data can help you to improve your future production runs by providing invaluable information about the time it takes to complete your manufacturing operations.
 
 
-We don't want cost to be a show stopper for businesses moving to an ERP system. [**You can see our pricing information on this page**](https://fractionerp.com/pricing).
+We don't want cost to be a show stopper for businesses moving to an ERP system. [**You can see our pricing information on this page**](https://fractionerp.com/pricing/).
 
 
 

@@ -68,7 +68,7 @@ There are many clear benefits from having a simple production scheduling softwar
 As you'd expect, the work to lists feed our shop floor data capture function*. This then drives the visual works order tracking screens. These screens can save production supervisors hours every day!
 
 
-* We include shop floor data capture for [**free within our pricing model**](https://fractionerp.com/pricing).
+* We include shop floor data capture for [**free within our pricing model**](https://fractionerp.com/pricing/).
 
 
 If you are currently scheduling your production on whiteboards and on spreadsheets, stop! Simple production scheduling software is the way forward. The time you can save from scheduling inside Fraction ERP can pay for several monthly Fraction licenses alone!

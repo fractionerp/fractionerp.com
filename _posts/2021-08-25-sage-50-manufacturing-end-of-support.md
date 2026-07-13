@@ -40,7 +40,7 @@ If you are still using Sage Manufacturing, we think its time you embraced the no
 **Take advantage of our free 14 day trial to experience Fraction ERP for your business. **
 
 
-Fraction ERP works on any desktop, tablet or smartphone browser. With a [**simple monthly subscription plan**](https://fractionerp.com/pricing) you can scale up as your business grows.
+Fraction ERP works on any desktop, tablet or smartphone browser. With a [**simple monthly subscription plan**](https://fractionerp.com/pricing/) you can scale up as your business grows.
 
 
 Sign up for a free demo by using the contact form at the bottom of the page.

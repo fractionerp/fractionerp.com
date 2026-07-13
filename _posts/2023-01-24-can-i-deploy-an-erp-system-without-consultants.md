@@ -129,7 +129,7 @@ If you want learn more, you can:
 - [**Get in touch to organise a free demo and trial period**](https://fractionerp.com/book-a-demo).
 - [**Watch the feature overview videos**](https://fractionerp.com/blog/walkthrough-videos).
 - [**Read about our features**](https://fractionerp.com/features).
-- [**Review our pricing**](https://fractionerp.com/pricing).
+- [**Review our pricing**](https://fractionerp.com/pricing/).
 
 
 If you have been concerned about the costs of an ERP implementation spiralling, we hope this article has given you some assurance that this doesn't have to be the case.

@@ -46,7 +46,7 @@ When your production scheduling system works, you can:
 
 
 
-We've created a [simple drag and drop production scheduling tool](/blog/simple-production-scheduling-software/) that is available on our [**entry level subscription level**](https://fractionerp.com/pricing).
+We've created a [simple drag and drop production scheduling tool](/blog/simple-production-scheduling-software/) that is available on our [**entry level subscription level**](https://fractionerp.com/pricing/).
 
 
 As soon as you generate a works order, Fraction ERP automatically schedules the operations for the next available date. With the visual drag and drop scheduler you can fine tune the operation start dates. See how [Fraction ERP's scheduling compares to MRPeasy](/mrpeasy-alternative/).

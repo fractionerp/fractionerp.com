@@ -49,7 +49,7 @@ Using the time frames has less to do with durations and more to do with the appr
 ![]({{ site.baseurl }}/assets/img/blog/345ea20eeb4b709456c80da0794d38c7/Schedulingandtime.jpg)
 
 
-Fraction ERP has taken this approach on board. The Core package has weekly scheduling buckets to keep this process simple. The [**Advanced and Pro options**](https://fractionerp.com/pricing) have daily and hourly scheduling options.
+Fraction ERP has taken this approach on board. The Core package has weekly scheduling buckets to keep this process simple. The [**Advanced and Pro options**](https://fractionerp.com/pricing/) have daily and hourly scheduling options.
 
 
 Following the time periods above, you can use Fraction ERP to reduce scheduling time. Orders for later periods can be rough scheduled using the weekly buckets. You can schedule imminent periods using the daily or hourly tools.

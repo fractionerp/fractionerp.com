@@ -82,7 +82,7 @@ The work to lists for your business are automatically updated, saving time updat
 
 
 
-We have made Fraction ERP's drag and drop scheduling tool part of the **[standard subscription (Core)](https://fractionerp.com/pricing)** as we believe it is an essential part of an ERP system in today's world.
+We have made Fraction ERP's drag and drop scheduling tool part of the **[standard subscription (Core)](https://fractionerp.com/pricing/)** as we believe it is an essential part of an ERP system in today's world.
 
 
 To understand how our scheduling tool works, check out this short video:

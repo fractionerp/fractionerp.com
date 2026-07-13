@@ -86,7 +86,7 @@ If the ERP system is easy to learn, quick to deploy and fast to use (and make de
 
 
 
-A really strong point is that simple ERP systems often have fewer features and as a result cost lest. We've taken this stance. We've left out features that only certain businesses need from an ERP system. We've kept our development costs lower and that means we can pass that reduced cost on to our customers. You can [**check out our pricing page here**](https://fractionerp.com/pricing) for more information.
+A really strong point is that simple ERP systems often have fewer features and as a result cost lest. We've taken this stance. We've left out features that only certain businesses need from an ERP system. We've kept our development costs lower and that means we can pass that reduced cost on to our customers. You can [**check out our pricing page here**](https://fractionerp.com/pricing/) for more information.
 
 
 ---

@@ -11,7 +11,7 @@ permalink: /blog/sfdc-is-easy-with-fraction-erp/
 SFDC stands for [**Shop Floor Data Collection**](https://fractionerp.com/shop-floor-data-capture). It is a function of most ERP systems that allows you to track time and progress on your production orders.
 
 
-We include it for [**free with our paid subscriptions**](https://fractionerp.com/pricing) and we've made our shop floor tools even better. We made it free so you don't have to decide whether you want it or not and potentially miss out!
+We include it for [**free with our paid subscriptions**](https://fractionerp.com/pricing/) and we've made our shop floor tools even better. We made it free so you don't have to decide whether you want it or not and potentially miss out!
 
 
 Our operations screen now has a 'ready' filter. This screen, which provides the 'work to list', now shows the live queue of operations.

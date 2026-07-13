@@ -28,7 +28,7 @@ SFDC stands for Shop Floor Data Collection and makes an ERP system come to life.
 
 
 
-Many ERP companies charge an extra amount each month for each shop floor user that you add to your ERP system. For some businesses this changes the decision to proceed with an ERP system. As we said earlier, we didn't want this to be a consideration to wrestle over. So, we included it with our [**subscription packages**](https://fractionerp.com/pricing).
+Many ERP companies charge an extra amount each month for each shop floor user that you add to your ERP system. For some businesses this changes the decision to proceed with an ERP system. As we said earlier, we didn't want this to be a consideration to wrestle over. So, we included it with our [**subscription packages**](https://fractionerp.com/pricing/).
 
 
 

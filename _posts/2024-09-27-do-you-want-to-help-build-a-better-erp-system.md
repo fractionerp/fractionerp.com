@@ -49,7 +49,7 @@ From the feedback we get, it looks like we doing a good job of it but we are alw
 To get started with Fraction ERP we recommend an online demo. We can tailor the demo to suit your business' needs and from there we can give you a free two week trial of our system.
 
 
-Once you have looked at it with your team and put a few orders through Fraction, that's when a [**subscription **](https://fractionerp.com/pricing)would start.
+Once you have looked at it with your team and put a few orders through Fraction, that's when a [**subscription **](https://fractionerp.com/pricing/)would start.
 
 
 After you have fully got to grips with Fraction, we have a feature inside our app to request a new feature.

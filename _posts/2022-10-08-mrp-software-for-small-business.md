@@ -55,7 +55,7 @@ Selecting MRP software should be a bespoke affair for your business. However, th
 If you want some ideas to help you with your own MRP / ERP software selection, [**download our free guide here**](https://fractionerp.com/erp-implementation-guide). The guide will also share with you ideas and approaches to get the most out of a system once you have purchased the software.
 
 
-You won't be surprised to learn that we have built Fraction ERP to allow new ERP users to adopt our system easily. We have addressed the above points which you can see via [**our online support pages**](https://support.fractionerp.com/) and [**simple pricing model**](https://fractionerp.com/pricing).
+You won't be surprised to learn that we have built Fraction ERP to allow new ERP users to adopt our system easily. We have addressed the above points which you can see via [**our online support pages**](https://support.fractionerp.com/) and [**simple pricing model**](https://fractionerp.com/pricing/).
 
 
 

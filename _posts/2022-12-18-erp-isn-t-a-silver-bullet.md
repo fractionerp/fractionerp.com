@@ -90,7 +90,7 @@ To put this article into context with Fraction ERP, we offer a few solutions to 
 
 
 1. The system is designed for self onboarding. We've simplified ERP as much as possible to make this possible. This reduces your costs and makes the training elements flexible for your team.
-2. Unlimited support is included in subscriptions. If you do need to speak to us about getting Fraction ERP working for you, it is included in our [**monthly subscription cost**](https://fractionerp.com/pricing).
+2. Unlimited support is included in subscriptions. If you do need to speak to us about getting Fraction ERP working for you, it is included in our [**monthly subscription cost**](https://fractionerp.com/pricing/).
 3. We wrote a free guide to help you plan out your implementation. It includes many of the points included on the timeline graphic and [**you can download your copy here**](https://fractionerp.com/erp-implementation-guide).
 
 

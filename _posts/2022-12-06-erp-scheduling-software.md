@@ -17,7 +17,7 @@ Using the right scheduling software can make a massive difference to a business.
 Many of our users are trying to schedule their production with Excel or a whiteboard when we meet them. Often they have found that this task has become too complex. What worked when they were a smaller business is clunky now that they have grown.
 
 
-If you are reading this you might be wondering if Fraction ERP is a [**cost effective**](https://fractionerp.com/pricing) scheduling solution. Let me tell you about some of our scheduling features.
+If you are reading this you might be wondering if Fraction ERP is a [**cost effective**](https://fractionerp.com/pricing/) scheduling solution. Let me tell you about some of our scheduling features.
 
 
 ---
@@ -31,10 +31,10 @@ If you are reading this you might be wondering if Fraction ERP is a [**cost effe
 First off, ERP isn't always complicated. Patrick, Junzi and myself (Giles) have spent years working with complicated software. We know what to avoid!
 
 
-When it came to the ERP scheduling software part of Fraction ERP, we wanted to make it as simple as possible. Once you have created your works order, choose when you want to make it. We have three options (linked to our [**pricing plans**](https://fractionerp.com/pricing)) to schedule. They are weekly buckets, daily buckets or hourly buckets. That's it.
+When it came to the ERP scheduling software part of Fraction ERP, we wanted to make it as simple as possible. Once you have created your works order, choose when you want to make it. We have three options (linked to our [**pricing plans**](https://fractionerp.com/pricing/)) to schedule. They are weekly buckets, daily buckets or hourly buckets. That's it.
 
 
-For many businesses, weekly is accurate enough. If you don't need the precision of daily or hourly, then [**why pay more?**](https://fractionerp.com/pricing)
+For many businesses, weekly is accurate enough. If you don't need the precision of daily or hourly, then [**why pay more?**](https://fractionerp.com/pricing/)
 
 
 ---
@@ -119,4 +119,4 @@ If you like what you see during the demo, you can use Fraction ERP free for two 
 To organise your demo, fill in the form below.
 
 
-I hope this article has given you some food for thought. Scheduling resources effectively can make all the difference to your performance. Fraction ERP is a simple, [**low cost**](https://fractionerp.com/pricing), scheduling software solution. I hope we can share it with you soon!
+I hope this article has given you some food for thought. Scheduling resources effectively can make all the difference to your performance. Fraction ERP is a simple, [**low cost**](https://fractionerp.com/pricing/), scheduling software solution. I hope we can share it with you soon!

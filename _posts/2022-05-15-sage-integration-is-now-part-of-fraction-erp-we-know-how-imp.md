@@ -39,7 +39,7 @@ This means that your finance team can get information faster and not have to key
 
 
 
-To integrate your [**Fraction subscription**](https://fractionerp.com/pricing) with one of these online accounting packages is simple. Click on the dashboard link for the appropriate package and follow the on screen instructions.
+To integrate your [**Fraction subscription**](https://fractionerp.com/pricing/) with one of these online accounting packages is simple. Click on the dashboard link for the appropriate package and follow the on screen instructions.
 
 
 Once you authorise the connection, you can pass data straight through.

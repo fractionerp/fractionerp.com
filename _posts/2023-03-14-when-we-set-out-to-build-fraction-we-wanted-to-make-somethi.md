@@ -98,7 +98,7 @@ All in all, cloud MRP software offers numerous advantages for businesses looking
 We are using the terms ERP and MRP interchangeably. They actually refer to different parts of a manufacturing software solution. MRP deals with the core of manufacturing and production. ERP covers the rest of the business - quoting, shipping and invoicing (amongst other things).
 
 
-With Fraction ERP you can access all of the features of a normal MRP solution (Bills of Materials, Purchasing, Works Orders) with the additional ERP features (scheduling, shipping, capacity management and more). We have included Shop Floor Data Collection (SFDC) for free with all of our [**subscription levels**](https://fractionerp.com/pricing).
+With Fraction ERP you can access all of the features of a normal MRP solution (Bills of Materials, Purchasing, Works Orders) with the additional ERP features (scheduling, shipping, capacity management and more). We have included Shop Floor Data Collection (SFDC) for free with all of our [**subscription levels**](https://fractionerp.com/pricing/).
 
 
 

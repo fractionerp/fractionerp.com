@@ -135,7 +135,7 @@ It has fast access, from any device. It has fast searches and you can search thr
 In short, we have built an ERP system that helps manufacturing businesses to achieve higher levels of profit. Our belief in it is so great that we use it in one of our own manufacturing businesses.
 
 
-Below is an overview video. If you want to find out more, then sign up for a free demo using the form below. If you like the demo, you can then have a [**free 14 day trial**](https://fractionerp.com/pricing).
+Below is an overview video. If you want to find out more, then sign up for a free demo using the form below. If you like the demo, you can then have a [**free 14 day trial**](https://fractionerp.com/pricing/).
 
 
 

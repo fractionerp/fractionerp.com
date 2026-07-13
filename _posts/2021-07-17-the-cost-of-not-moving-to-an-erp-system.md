@@ -105,4 +105,4 @@ I hope this article has given you some food for thought. It is this dilemma that
 If you want to learn more about [**Fraction ERP**](https://fractionerp.com/), then watch our [**walkthrough videos**](https://fractionerp.com/blog/walkthrough-videos) or sign up for a free demo using the form below.
 
 
-From looking further on this site I hope that you will see that have attempted to address as many concerns about moving to an ERP system. This includes [**transparent pricing**](https://fractionerp.com/pricing) and a [**full onboarding site**](https://fractionerp.com/support/).
+From looking further on this site I hope that you will see that have attempted to address as many concerns about moving to an ERP system. This includes [**transparent pricing**](https://fractionerp.com/pricing/) and a [**full onboarding site**](https://fractionerp.com/support/).

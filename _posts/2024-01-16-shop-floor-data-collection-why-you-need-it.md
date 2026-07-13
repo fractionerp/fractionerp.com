@@ -16,7 +16,7 @@ related_posts_list:
 Shop Floor Data Collection (SFDC) is a superb ERP feature that can make your life so much easier as a production manager or business owner.
 
 
-Fraction ERP offers free Shop Floor Data Collection because we think it is so important for manufacturing business to embrace. But, what is it? In short it allows your production staff to log onto production orders and capture both time and quantities completed. Many ERP systems charge for these licenses, we include them with our standard subscriptions (you can [**check out our pricing page**](https://fractionerp.com/pricing) to learn more).
+Fraction ERP offers free Shop Floor Data Collection because we think it is so important for manufacturing business to embrace. But, what is it? In short it allows your production staff to log onto production orders and capture both time and quantities completed. Many ERP systems charge for these licenses, we include them with our standard subscriptions (you can [**check out our pricing page**](https://fractionerp.com/pricing/) to learn more).
 
 
 Let us share with you four reasons why your business needs this tool.

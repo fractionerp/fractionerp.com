@@ -237,7 +237,7 @@ To help explain how this all works together in Fraction ERP we have a simple dia
 Adopting an ERP system isn't meant to be difficult. We have stripped back the complexity of an ERP system to create Fraction ERP. As a result we have a [**self-onboarding process, which is available via our support website**](https://support.fractionerp.com/).
 
 
-We offer online support as part of the [**monthly subscription fee**](https://fractionerp.com/pricing). However, most of our users find that this resource is enough.
+We offer online support as part of the [**monthly subscription fee**](https://fractionerp.com/pricing/). However, most of our users find that this resource is enough.
 
 
 Another key feature of Fraction ERP is that you can use only the modules that you want to use. If you aren't ready for scheduling then you can skip that step until you are ready. If you want to purchase without using the MRP screen, you can do that too, for example.
@@ -257,7 +257,7 @@ We wanted to take the pain and effort out of moving from spreadsheets to ERP. Ho
 If you'd like to learn more about Fraction ERP then sign up for a free demo. We'll give you a guided tour of the system and show you how it could work for the way you run your business.
 
 
-If you like the look of Fraction, you can then have full access to our ERP system for two weeks at no cost. From there you can start a subscription, if our system looks like a good fit. [**You can view our pricing information here**](https://fractionerp.com/pricing).
+If you like the look of Fraction, you can then have full access to our ERP system for two weeks at no cost. From there you can start a subscription, if our system looks like a good fit. [**You can view our pricing information here**](https://fractionerp.com/pricing/).
 
 
 We hope this article has given you a better insight into how an ERP system works. If you have any questions, [**feel free to reach ou**](https://fractionerp.com/contact)t.

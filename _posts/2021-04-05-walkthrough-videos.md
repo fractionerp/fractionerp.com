@@ -67,7 +67,7 @@ Spending hours each day walking the shop floor to find out the status of your pr
 
 
 
-Shop Floor Data Capture (SFDC) is a simple way to capture production times and real time production updates. Our SFDC module is easy to use and [**SFDC users are free with a Fraction ERP subscription**](https://fractionerp.com/pricing)!
+Shop Floor Data Capture (SFDC) is a simple way to capture production times and real time production updates. Our SFDC module is easy to use and [**SFDC users are free with a Fraction ERP subscription**](https://fractionerp.com/pricing/)!
 
 
 <div class="video-embed"><iframe src="https://player.vimeo.com/video/519886045" frameborder="0" allowfullscreen></iframe></div>

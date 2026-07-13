@@ -44,7 +44,7 @@ We want you to replicate / improve what you are already doing with the least eff
 The other key factor we wanted to offer was being low cost.
 
 
-If you have seen our [**pricing structure**](https://fractionerp.com/pricing) then I hope you agree.
+If you have seen our [**pricing structure**](https://fractionerp.com/pricing/) then I hope you agree.
 
 
 ## Practical, low cost, pricing

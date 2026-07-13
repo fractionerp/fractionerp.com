@@ -30,7 +30,7 @@ Below, I will share with you some of the normal concerns people have with changi
 
 
 
-Fraction ERP isn't free, but it isn't expensive either. There should always be a business case for investing in software, especially order management software. [**We have a clear pricing arrangement, which you can see here**](https://fractionerp.com/pricing). From working with our current customers we know that by using Fraction ERP you can save time on the administration that surrounds production. This freed up time can be used for more productive tasks in your business, which will help you to generate more profit.
+Fraction ERP isn't free, but it isn't expensive either. There should always be a business case for investing in software, especially order management software. [**We have a clear pricing arrangement, which you can see here**](https://fractionerp.com/pricing/). From working with our current customers we know that by using Fraction ERP you can save time on the administration that surrounds production. This freed up time can be used for more productive tasks in your business, which will help you to generate more profit.
 
 
 When you take the total cost into account, Fraction ERP is not expensive.

@@ -47,7 +47,7 @@ When you take a paid subscription with Fraction ERP, you can have as many shop f
 We decided that we didn't want our customers to have to wrestle with an additional cost for tracking shop floor activity effectively, so we included it in the office users' subscription.
 
 
-For more information on our pricing, [**check out this page**](https://fractionerp.com/pricing).
+For more information on our pricing, [**check out this page**](https://fractionerp.com/pricing/).
 
 
 If you have never used shop floor data capture before, it can save managers hours every day from walking around and trying to find out where production orders are.

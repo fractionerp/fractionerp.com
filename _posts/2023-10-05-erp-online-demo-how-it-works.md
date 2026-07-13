@@ -60,7 +60,7 @@ If you think Fraction ERP could be a good fit for your business (both us as a bu
 
 
 
-If you like what you see, then you can keep your account and [**start a subscription**](https://fractionerp.com/pricing).
+If you like what you see, then you can keep your account and [**start a subscription**](https://fractionerp.com/pricing/).
 
 
 If it isn't for you, then we simply close down the trial account and wish you success with your ongoing search for an ERP system.

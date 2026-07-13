@@ -33,7 +33,7 @@ The first step in ERP implementation is to clearly define your goals and objecti
 There are lots of ERP systems available to you. Some will have specific features that are better for certain types of business / sectors. Get clear on this to make your life easier when selecting an ERP system.
 
 
-For example, we've designed Fraction ERP to be [**low cost**](https://fractionerp.com/pricing) and straightforward. This is ideal for first time ERP users but perhaps not for seasoned ERP users with very specific ERP functionality requirements.
+For example, we've designed Fraction ERP to be [**low cost**](https://fractionerp.com/pricing/) and straightforward. This is ideal for first time ERP users but perhaps not for seasoned ERP users with very specific ERP functionality requirements.
 
 
 ---

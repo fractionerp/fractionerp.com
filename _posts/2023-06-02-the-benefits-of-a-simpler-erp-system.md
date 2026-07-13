@@ -108,7 +108,7 @@ We have a [**full range of features**](https://fractionerp.com/features) but don
 We allow you to work flexibly within the system, you can use the functions and modules that you need to now and expand later on (as your confidence with the system grows).
 
 
-Our [**pricing is visible here**](https://fractionerp.com/pricing). As we are cloud based, backups and updates are automatic. All you need is a web browser and you're away.
+Our [**pricing is visible here**](https://fractionerp.com/pricing/). As we are cloud based, backups and updates are automatic. All you need is a web browser and you're away.
 
 
 

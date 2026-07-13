@@ -39,7 +39,7 @@ Let's start with the negative side of this equation.
 This might be a monthly subscription payment. Or, this could be an annual payment. There may be separate support costs and implementation costs. Whatever the costs are, you need to be clear about it.
 
 
-At Fraction ERP we have a clear [**monthly subscription**](https://fractionerp.com/pricing) approach. You can find out more on our [**pricing page**](https://fractionerp.com/pricing).
+At Fraction ERP we have a clear [**monthly subscription**](https://fractionerp.com/pricing/) approach. You can find out more on our [**pricing page**](https://fractionerp.com/pricing/).
 
 
 ---
