@@ -8,7 +8,7 @@ author: Giles Johnston
 permalink: /blog/production-scheduling-improvements/
 ---
 
-We've made a lot of changes to our [**production scheduling system**](https://fractionerp.com/production-scheduling) over the past few months.
+We've made a lot of changes to our [**production scheduling system**](https://fractionerp.com/production-scheduling/) over the past few months.
 
 
 In this blog post I want share a couple of the features that make scheduling so much easier compared to our previous versions.
@@ -84,7 +84,7 @@ If you combine this step with the previous one (updating scheduled operations), 
 
 
 
-We've enjoyed developing our scheduler. Seeing it grow from a basic function to something that can quickly and accurately [**schedule your shop floor**](https://fractionerp.com/production-scheduling) has been great to watch and even better to use.
+We've enjoyed developing our scheduler. Seeing it grow from a basic function to something that can quickly and accurately [**schedule your shop floor**](https://fractionerp.com/production-scheduling/) has been great to watch and even better to use.
 
 
 If you want to learn more about our scheduler, and all of the other functions of our cloud based ERP system, then reach out today for a [**short online demo**](https://fractionerp.com/erp-online-demo). The demo takes around forty five minutes and if you like what you see then you are welcome to take our free two week trial. This is your account, with no one else's data in it. Run a few test orders through our system and let your team put Fraction ERP through its paces, it is the best way to test an ERP system to see if it is a good fit for your business.

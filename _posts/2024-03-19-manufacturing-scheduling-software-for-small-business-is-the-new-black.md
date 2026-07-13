@@ -30,7 +30,7 @@ Like fashion, we think that scheduling software for manufacturers should be back
 
 
 
-Our [**visual scheduling boards**](https://fractionerp.com/production-scheduling) require a few clicks and you're done.
+Our [**visual scheduling boards**](https://fractionerp.com/production-scheduling/) require a few clicks and you're done.
 
 
 There's nothing complex to organise and you can keep it as simple as you want it. We have weekly, daily and hourly scheduling options.

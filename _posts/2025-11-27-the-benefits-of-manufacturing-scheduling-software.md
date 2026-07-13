@@ -11,7 +11,7 @@ permalink: /blog/the-benefits-of-manufacturing-scheduling-software/
 Despite having ERP systems installed, many manufacturing businesses still schedule their operations outside of ERP. What seems quicker to do for many people we speak to, using an ERP system for your manufacturing scheduling is often better in the long run.
 
 
-In this short article we'll run through some of benefits of using [**manufacturing scheduling software**](https://fractionerp.com/production-scheduling) and how Fraction ERP has addressed some of the related challenges that businesses face.
+In this short article we'll run through some of benefits of using [**manufacturing scheduling software**](https://fractionerp.com/production-scheduling/) and how Fraction ERP has addressed some of the related challenges that businesses face.
 
 
 
@@ -27,7 +27,7 @@ In this short article we'll run through some of benefits of using [**manufacturi
 Although this can be achieved through other means, an ERP's scheduling tool can produce visual outputs that make it easy to see how the queue of operations will run through your factory.
 
 
-Mentally juggling the queues of work and the sequence of activities is enough to fry most people's brains. We've also built a feature into our [**drag and drop scheduler**](https://fractionerp.com/production-scheduling) that allows you to see all the related operations when you click on an operation.
+Mentally juggling the queues of work and the sequence of activities is enough to fry most people's brains. We've also built a feature into our [**drag and drop scheduler**](https://fractionerp.com/production-scheduling/) that allows you to see all the related operations when you click on an operation.
 
 
 This visualisation helps you to speed up the scheduling process, especially when compared to many manual methods of scheduling.

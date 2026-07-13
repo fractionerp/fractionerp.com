@@ -8,7 +8,7 @@ author: Giles Johnston
 permalink: /blog/manufacturing-scheduling-software-for-small-business/
 ---
 
-It's a real challenge. Most ERP systems that provide [**effective scheduling tools**](https://fractionerp.com/feature/production-scheduling.html) are way too expensive for small businesses.
+It's a real challenge. Most ERP systems that provide [**effective scheduling tools**](https://fractionerp.com/production-scheduling/) are way too expensive for small businesses.
 
 
 When we started out with Fraction ERP, this is something we wanted to resolve. Low cost ERP with great tools that are simple to use.

@@ -53,7 +53,7 @@ I would have loved have this data at my fingertips, rather than spending hours t
 Being able to consider committed capacity when loading your production orders is critical for high, consistent, on time delivery performance.
 
 
-The [**visual scheduling**](https://fractionerp.com/production-scheduling) boards in Fraction do just this. I can see at a glance how busy a particular resource is and the best way to schedule it. We've also built this tool so it can be used iteratively. Load up the schedule with weekly buckets for items that are in the future. As you get closer, you can schedule them more accurately using the daily scheduling tool. This can save hours if your customers move their order book around.
+The [**visual scheduling**](https://fractionerp.com/production-scheduling/) boards in Fraction do just this. I can see at a glance how busy a particular resource is and the best way to schedule it. We've also built this tool so it can be used iteratively. Load up the schedule with weekly buckets for items that are in the future. As you get closer, you can schedule them more accurately using the daily scheduling tool. This can save hours if your customers move their order book around.
 
 
 ![]({{ site.baseurl }}/assets/img/blog/9efabde8d6a1399ea8748321ba33a874/planningpage.png)
@@ -93,7 +93,7 @@ This tool would have saved me hours every day, in my production management days.
 I particularly like this screen due to the visual progress bar. This bar allows you to determine if any jobs are not progressing. It isn't a precise science but a great way to keep your finger on the pulse.
 
 
-Also, this data ties in beautifully with the exception reporting that comes from the dashboard and the information held in the [**work to lists**](https://fractionerp.com/production-scheduling).
+Also, this data ties in beautifully with the exception reporting that comes from the dashboard and the information held in the [**work to lists**](https://fractionerp.com/production-scheduling/).
 
 
 ![]({{ site.baseurl }}/assets/img/blog/9efabde8d6a1399ea8748321ba33a874/WorksOrderTracking.png)

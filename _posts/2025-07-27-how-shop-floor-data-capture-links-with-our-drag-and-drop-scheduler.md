@@ -58,7 +58,7 @@ To help you understand how Fraction ERP works, at a high level, with this part o
 If you are used to walking around your shop floor to find out where your production orders are, using Fraction ERP could save you a notable amount of time every day.
 
 
-Loading a works order into Fraction allows you to [**schedule the operations**](https://fractionerp.com/production-scheduling). If you have set up the workcentres correctly, this could be the end of the scheduling story. Realistically, you may want to move the operations around and further optimise your production schedule.
+Loading a works order into Fraction allows you to [**schedule the operations**](https://fractionerp.com/production-scheduling/). If you have set up the workcentres correctly, this could be the end of the scheduling story. Realistically, you may want to move the operations around and further optimise your production schedule.
 
 
 Our drag and drop scheduler allows you to simply move the operations on the screen and tweak the sequence.

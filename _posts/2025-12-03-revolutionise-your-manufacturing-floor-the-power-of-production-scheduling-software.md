@@ -45,7 +45,7 @@ The benefits are extensive, impacting everything from lead times to employee mor
 While many software options exist, platforms like [**Fraction ERP**](https://fractionerp.com/) are designed with specific, user-friendly features that dramatically simplify scheduling.
 
 
-- Intuitive Drag-and-Drop Scheduling: Manually moving tasks on a physical calendar, spreadsheet or whiteboard is a thing of the past. Fraction ERP's [**drag-and-drop interface**](https://fractionerp.com/production-scheduling) makes rescheduling jobs instant and visually intuitive, allowing planners to adapt to changes in real-time.
+- Intuitive Drag-and-Drop Scheduling: Manually moving tasks on a physical calendar, spreadsheet or whiteboard is a thing of the past. Fraction ERP's [**drag-and-drop interface**](https://fractionerp.com/production-scheduling/) makes rescheduling jobs instant and visually intuitive, allowing planners to adapt to changes in real-time.
 - Live Work-to-Lists: Empower your floor staff with up-to-the-minute, prioritised work queues. Live work-to-lists ensure everyone knows exactly what needs to be done next, eliminating confusion and wasted time.
 - Free Shop Floor Data Capture (SFDC) Licenses: A significant cost for many businesses is licensing every user. Fraction ERP includes free SFDC licenses, allowing you to track real-time progress and labour costs directly from the shop floor without extra charges, providing accurate, instantaneous production tracking.
 

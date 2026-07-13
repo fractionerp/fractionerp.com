@@ -120,7 +120,7 @@ If you want to see why we're on this mission and want to see Fraction ERP in act
 
 - [**Check out our features pages**](https://fractionerp.com/features). They have overview videos that should give you a good feel for the software's look and feel.
 - [**Look at our support pages**](https://support.fractionerp.com/). They'll take you through our processes, step by step, so you can see how they fit with what you are using currently.
-- [**Download our workflow document**](https://fractionerp.com/erp-manufacturing-workflow.php) and presentation. See how Fraction ERP stitches the entire manufacturing operation together.
+- [**Download our workflow document**](https://fractionerp.com/erp-manufacturing-workflow/) and presentation. See how Fraction ERP stitches the entire manufacturing operation together.
 - Sign up for an [**ERP demo**](https://fractionerp.com/erp-online-demo). The best way to find out is for us to give you the royal tour.
 - Take the free two week trial. Put an order or two through the system and let your team have a play with our ERP system.
 

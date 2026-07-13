@@ -66,7 +66,7 @@ Whilst there is no definitive answer to this question, we made Fraction ERP with
 And, being simple doesn't just mean less functionality. It takes time to look at the sequence of actions and finding ways to remove clicks so that you can spend more time managing and less time administrating.
 
 
-If you want to see the workflow, and the main functions of Fraction ERP, then [**download a copy of our workflow here**](https://fractionerp.com/erp-manufacturing-workflow.php).
+If you want to see the workflow, and the main functions of Fraction ERP, then [**download a copy of our workflow here**](https://fractionerp.com/erp-manufacturing-workflow/).
 
 
 

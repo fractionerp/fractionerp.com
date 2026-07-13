@@ -123,7 +123,7 @@ Works orders are your instructions to the shop floor. It should tell them what t
 From here, your ERP system will most likely have a work to list function, that tells them when to perform the operations. See next point.
 
 
-### [Scheduling ](https://fractionerp.com/production-scheduling)
+### [Scheduling ](https://fractionerp.com/production-scheduling/)
 
 
 

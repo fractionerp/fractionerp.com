@@ -8,7 +8,7 @@ author: Giles Johnston
 permalink: /blog/how-forward-scheduling-works-in-fraction-erp/
 ---
 
-[**Work order scheduling software**](https://fractionerp.com/production-scheduling) is a hot topic when you search ERP on the Internet.
+[**Work order scheduling software**](https://fractionerp.com/production-scheduling/) is a hot topic when you search ERP on the Internet.
 
 
 At Fraction ERP we understand how important it is to get this topic right.
@@ -135,7 +135,7 @@ We've left you in control of your operations and given you a helping hand with a
 If you are wondering why we haven't gone for the backwards method (producing as late as possible) it is because we know what happens when you have time left and then an unexpected order comes in, making it too late to start your original order and handle the new one. Front loading has helped our scheduling issues and hopefully it will help yours too.
 
 
-To make the process of scheduling easier, we built the [**visual scheduling board**](https://fractionerp.com/production-scheduling), which you can see in the image below. You simply click on the tiles to schedule your operations, noting any capacity hot spots as you do so.
+To make the process of scheduling easier, we built the [**visual scheduling board**](https://fractionerp.com/production-scheduling/), which you can see in the image below. You simply click on the tiles to schedule your operations, noting any capacity hot spots as you do so.
 
 
 

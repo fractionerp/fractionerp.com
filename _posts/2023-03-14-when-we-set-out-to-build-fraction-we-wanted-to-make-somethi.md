@@ -19,7 +19,7 @@ When we set out to build Fraction, we wanted to make something that was low cost
 
 
 
-Cloud MRP software is designed to take the hassle out of [**managing production needs**](https://fractionerp.com/production-scheduling). It is a cloud-based solution that allows businesses to store all data related to the manufacturing process in a secure server, and access it from anywhere with an internet connection.
+Cloud MRP software is designed to take the hassle out of [**managing production needs**](https://fractionerp.com/production-scheduling/). It is a cloud-based solution that allows businesses to store all data related to the manufacturing process in a secure server, and access it from anywhere with an internet connection.
 
 
 We've designed Fraction so that you can access it from your smartphone, if you are on the go. Most users will access the data from an Internet browser on their PC or laptop. But, with cloud technologies, any screen is viable.

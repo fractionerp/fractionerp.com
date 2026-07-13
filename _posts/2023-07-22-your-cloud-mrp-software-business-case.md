@@ -124,7 +124,7 @@ If you are double handling data, e.g.  whiteboards and spreadsheets, you risk m
 
 
 
-MRP systems should help you to leverage your staff's time. For example, Fraction ERP's [**operations tracking feature**](https://fractionerp.com/production-scheduling) can do this. Your production staff should spend less time tracking down orders on the shop floor.
+MRP systems should help you to leverage your staff's time. For example, Fraction ERP's [**operations tracking feature**](https://fractionerp.com/production-scheduling/) can do this. Your production staff should spend less time tracking down orders on the shop floor.
 
 
 They can then spend their time on higher level business activities. When you do this, you build the business and there should be a cash benefit to this.

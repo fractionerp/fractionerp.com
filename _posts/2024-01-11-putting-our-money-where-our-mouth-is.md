@@ -21,7 +21,7 @@ Drum roll please...
 
 
 1. [**Faster enquiry**](https://fractionerp.com/contracts) turn around times.
-2. Reducing the [**order processing**](https://fractionerp.com/works-orders) lead time, moving into [**purchasing **](https://fractionerp.com/purchasing)and [**production **](https://fractionerp.com/production-scheduling)more quickly.
+2. Reducing the [**order processing**](https://fractionerp.com/works-orders) lead time, moving into [**purchasing **](https://fractionerp.com/purchasing)and [**production **](https://fractionerp.com/production-scheduling/)more quickly.
 3. [**Controlling the sales price**](https://fractionerp.com/bill-of-materials), when materials and labour rates change.
 
 

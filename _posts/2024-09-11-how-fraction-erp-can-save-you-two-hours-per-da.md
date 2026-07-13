@@ -49,7 +49,7 @@ This can save a lot of time and reduce errors.
 If you spend a lot of your time moving your production orders around (on a spreadsheet or an existing ERP system) this can really drain your time and energy.
 
 
-We've adopted a two stage [**scheduling process**](https://fractionerp.com/production-scheduling) in Fraction ERP. First you carry out rough cut planning, dumping your production operations into week sized buckets. As you get closer to your production window, you can firm up when exactly you will undertake the operations.
+We've adopted a two stage [**scheduling process**](https://fractionerp.com/production-scheduling/) in Fraction ERP. First you carry out rough cut planning, dumping your production operations into week sized buckets. As you get closer to your production window, you can firm up when exactly you will undertake the operations.
 
 
 Instead of moving your orders around repeatedly, you can carry out your scheduling in two slick moves. I know from personal experience that this can save a lot of time.

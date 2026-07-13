@@ -54,7 +54,7 @@ A simpler ERP system is:
 
 
 
-[![]({{ site.baseurl }}/assets/img/blog/c767372a9dd9b1c76b6f7ce26c49fb0d/FractionERP-VisualScheduler.png)](https://fractionerp.com/production-scheduling)
+[![]({{ site.baseurl }}/assets/img/blog/c767372a9dd9b1c76b6f7ce26c49fb0d/FractionERP-VisualScheduler.png)](https://fractionerp.com/production-scheduling/)
 
 
 **Clean, simple, visual scheduling screens are present in Fraction ERP**

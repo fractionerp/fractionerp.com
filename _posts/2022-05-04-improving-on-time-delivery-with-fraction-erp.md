@@ -86,7 +86,7 @@ There are practical actions you can take to improve on time delivery. Here we wi
 Getting a realistic grip on your capacity when loading your business is critical. Not being aware of exactly how busy you are at certain times is a recipe for disaster. Most businesses will overload their teams and find it difficult to catch up. This ongoing stress in the business really doesn't help to achieve a steady, high, on time delivery performance.
 
 
-In Fraction ERP we have deployed the [**visual scheduler**](https://fractionerp.com/production-scheduling) and capacity planning screens. The visual scheduler also provides a capacity snapshot of your workcentres before you commit your operations.
+In Fraction ERP we have deployed the [**visual scheduler**](https://fractionerp.com/production-scheduling/) and capacity planning screens. The visual scheduler also provides a capacity snapshot of your workcentres before you commit your operations.
 
 
 ---

@@ -8,7 +8,7 @@ author: Giles Johnston
 permalink: /blog/simple-production-scheduling-software/
 ---
 
-We get lots of the queries from people looking for [**simple production scheduling software**](https://fractionerp.com/production-scheduling-software).
+We get lots of the queries from people looking for [**simple production scheduling software**](https://fractionerp.com/production-scheduling-software/).
 
 
 We understand that many ERP users find complicated scheduling frustrating. It is time consuming too. When we set out to build Fraction ERP we wanted simple scheduling.

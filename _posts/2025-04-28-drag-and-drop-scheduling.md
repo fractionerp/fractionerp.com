@@ -8,7 +8,7 @@ author: Giles Johnston
 permalink: /blog/drag-and-drop-scheduling/
 ---
 
-[**Drag and drop scheduling**](https://fractionerp.com/production-scheduling) was an advanced feature in ERP systems years ago.
+[**Drag and drop scheduling**](https://fractionerp.com/production-scheduling/) was an advanced feature in ERP systems years ago.
 
 
 With the reduction in computer processing costs and the general advance of cloud software, this isn't the case anymore.

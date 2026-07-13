@@ -142,7 +142,7 @@ Giles has spent a lot of time with companies that have done the 'big bang' ERP i
 Fraction ERP allows you to use the parts of the system that you need the most.  If you are only ready to use the contracts module (**[quotes and sales orders](https://fractionerp.com/contracts)**), then you can use just that module. If you are ready to use the [**purchasing** **function**](https://fractionerp.com/purchasing), you can use that when you are ready.
 
 
-The same goes for [**inventory management**](https://fractionerp.com/parts-and-inventory), [**works orders**](https://fractionerp.com/works-orders), [**scheduling**](https://fractionerp.com/production-scheduling), [**shop floor data collection**](https://fractionerp.com/shop-floor-data-capture) and so on.
+The same goes for [**inventory management**](https://fractionerp.com/parts-and-inventory), [**works orders**](https://fractionerp.com/works-orders), [**scheduling**](https://fractionerp.com/production-scheduling/), [**shop floor data collection**](https://fractionerp.com/shop-floor-data-capture) and so on.
 
 
 You can get as sophisticated as you want to, or leave it simple. Whatever works for your business. This is how Fraction ERP is designed and how ERP should be.
