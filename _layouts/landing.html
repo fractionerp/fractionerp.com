@@ -335,6 +335,8 @@
     }
   </style>
 
+  <link rel="stylesheet" href="{{ '/assets/css/forms.css' | relative_url }}">
+
   {{ page.extra_css }}
 
   {% if site.google_analytics %}
@@ -412,5 +414,6 @@
     });
   </script>
   {% endif %}
+  <script src="{{ '/assets/js/hubspot-forms.js' | relative_url }}" defer></script>
 </body>
 </html>

@@ -1,0 +1,188 @@
+.fraction-hubspot-form {
+  --fraction-form-accent: #47b2e4;
+  --fraction-form-dark: #37517e;
+  --fraction-form-border: #cfd8e4;
+  --fraction-form-text: #3f4854;
+  position: relative;
+  color: var(--fraction-form-text);
+  font-family: "Open Sans", sans-serif;
+  text-align: left;
+}
+
+.fraction-form-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 14px;
+}
+
+.fraction-form-field {
+  margin-bottom: 16px;
+}
+
+.fraction-form-field label,
+.fraction-form-fieldset legend {
+  display: block;
+  margin-bottom: 6px;
+  color: #34445f;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.4;
+}
+
+.fraction-form-field input[type="text"],
+.fraction-form-field input[type="email"],
+.fraction-form-field input[type="tel"],
+.fraction-form-field select,
+.fraction-form-field textarea {
+  display: block;
+  width: 100%;
+  min-height: 46px;
+  padding: 10px 13px;
+  border: 1px solid var(--fraction-form-border);
+  border-radius: 8px;
+  background: #fff;
+  color: #283544;
+  font: inherit;
+  line-height: 1.4;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.fraction-form-field textarea {
+  min-height: 112px;
+  resize: vertical;
+}
+
+.fraction-form-field input:focus,
+.fraction-form-field select:focus,
+.fraction-form-field textarea:focus {
+  border-color: var(--fraction-form-accent);
+  outline: 0;
+  box-shadow: 0 0 0 3px rgba(71, 178, 228, 0.2);
+}
+
+.fraction-form-field small,
+.fraction-form-optional {
+  color: #6c7682;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.fraction-form-field small {
+  display: block;
+  margin-top: 5px;
+}
+
+.fraction-form-fieldset {
+  padding: 0;
+  border: 0;
+}
+
+.fraction-form-options {
+  display: flex;
+  gap: 18px;
+  flex-wrap: wrap;
+}
+
+.fraction-form-options label {
+  display: inline-flex;
+  gap: 7px;
+  align-items: center;
+  margin: 0;
+  color: var(--fraction-form-text);
+  font-weight: 400;
+  cursor: pointer;
+}
+
+.fraction-form-options input {
+  width: 17px;
+  height: 17px;
+  margin: 0;
+  accent-color: var(--fraction-form-accent);
+}
+
+.fraction-form-submit {
+  display: block;
+  width: 100%;
+  padding: 13px 24px;
+  border: 0;
+  border-radius: 50px;
+  background: var(--fraction-form-accent);
+  color: #fff;
+  font-family: "Jost", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.4;
+  cursor: pointer;
+  transition: background 0.2s ease, transform 0.2s ease;
+}
+
+.fraction-form-submit:hover:not(:disabled) {
+  background: #329dcc;
+  transform: translateY(-1px);
+}
+
+.fraction-form-submit:focus-visible {
+  outline: 3px solid rgba(71, 178, 228, 0.35);
+  outline-offset: 3px;
+}
+
+.fraction-form-submit:disabled {
+  cursor: wait;
+  opacity: 0.72;
+}
+
+.fraction-form-privacy {
+  margin: 4px 0 12px;
+  color: #6c7682;
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+.fraction-form-privacy a {
+  color: var(--fraction-form-dark);
+  text-decoration: underline;
+}
+
+.fraction-form-status {
+  min-height: 0;
+  margin: 0;
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+.fraction-form-status:not(:empty) {
+  margin: 0 0 12px;
+  padding: 10px 12px;
+  border-radius: 7px;
+}
+
+.fraction-form-status.is-error {
+  background: #fff0f0;
+  color: #9f2929;
+}
+
+.fraction-form-status.is-success {
+  background: #edf8f1;
+  color: #246b3a;
+}
+
+.fraction-form-honeypot {
+  position: absolute !important;
+  left: -10000px !important;
+  width: 1px !important;
+  height: 1px !important;
+  overflow: hidden !important;
+}
+
+.fraction-hubspot-form--newsletter {
+  max-width: 560px;
+  margin: 0 auto;
+}
+
+@media (max-width: 575px) {
+  .fraction-form-grid {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+}

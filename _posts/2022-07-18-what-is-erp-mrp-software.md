@@ -33,7 +33,7 @@ MRP II (2) appeared in the late 1970s and stands for Manufacturing Resource Plan
 ![erp mrp software]({{ site.baseurl }}/assets/img/blog/58effacae1437815142fd92801c696ca/ERPImplementationGuidecover.jpg)
 
 
-[**Download your free guide here**](https://share.hsforms.com/1SkMqexbCRzSKIDwrSvdCRg5mozh)
+[**Download your free guide here**]({{ '/erp-implementation-guide/' | relative_url }})
 
 
 ---

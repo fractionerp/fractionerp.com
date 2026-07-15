@@ -47,6 +47,7 @@ redirect_from:
       <div class="container col-10 col-md-6 col-lg-4 mb-4">
 
         {% include forms/hubspot-content.html
+          form_type="demo"
           target="video-demo-request-form"
           form_id="072de23b-0398-4bb2-85b6-c88115fe276b"
           lead_source_detail="Full ERP Demo Video page"
@@ -62,14 +63,14 @@ redirect_from:
           <h2>Subscribe for Updates</h2>
         </div>
 
-        <div class="container col-md-4  mt-5">
-          <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/embed/v2.js"></script>
-          <script>
-            hbspt.forms.create({
-              region: "na1",
-              portalId: "9456893",
-              formId: "63ddf8b0-3b4f-49a7-8ed2-d457c2f07ace"
-            });
-          </script>
+        <div class="container col-md-4 mt-5">
+          {% include forms/hubspot-content.html
+            form_type="newsletter"
+            target="demo-video-newsletter-form"
+            form_id="63ddf8b0-3b4f-49a7-8ed2-d457c2f07ace"
+            lead_source_detail="Subscribed: ERP Demo Video updates"
+            success_message="Thanks — you're subscribed to Fraction ERP updates."
+            submit_text="Subscribe"
+          %}
         </div>
 </section>

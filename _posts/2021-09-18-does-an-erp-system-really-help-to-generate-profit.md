@@ -113,7 +113,7 @@ When you perform better, you produce better results. This can translate across t
 
 
 
-So, can an ERP system help you to improve the profit levels of your business? Yes it can, if you use it as a tool to help you release the profit from your business. All the points made above only happen if you [**use an ERP system in the right way**](https://share.hsforms.com/1SkMqexbCRzSKIDwrSvdCRg5mozh).
+So, can an ERP system help you to improve the profit levels of your business? Yes it can, if you use it as a tool to help you release the profit from your business. All the points made above only happen if you [**use an ERP system in the right way**]({{ '/erp-implementation-guide/' | relative_url }}).
 
 
 Another point that we need to make here is around having easy access to your data. The decisions that you need to make for the above points requires accessible data. This means that the data is both available for you to interrogate and on a device when you need it.

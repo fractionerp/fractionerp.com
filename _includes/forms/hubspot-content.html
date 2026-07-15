@@ -1,20 +1,103 @@
-{% assign hubspot_target = include.target | default: "hubspot-content-form" %}
-{% assign hubspot_redirect_url = include.redirect_url | absolute_url %}
-<div id="{{ hubspot_target }}"></div>
-<script charset="utf-8" type="text/javascript" src="https://js.hsforms.net/forms/embed/v2.js"></script>
-<script>
-  hbspt.forms.create({
-    region: "na1",
-    portalId: "9456893",
-    formId: "{{ include.form_id }}",
-    target: "#{{ hubspot_target }}",
-    {% if include.submit_text %}submitText: {{ include.submit_text | jsonify }},{% endif %}
-    {% if include.redirect_url %}redirectUrl: {{ hubspot_redirect_url | jsonify }},{% endif %}
-    onFormReady: function ($form) {
-      var sourceField = $form.find('[name="lead_source_detail"]');
-      if (sourceField.length) {
-        sourceField.val({{ include.lead_source_detail | jsonify }}).trigger('change');
-      }
-    }
-  });
-</script>
+{% assign form_type = include.form_type | default: "lead-magnet" %}
+{% assign form_target = include.target | default: "hubspot-api-form" %}
+{% assign form_redirect_url = include.redirect_url | absolute_url %}
+{% assign is_tier_two = false %}
+{% if form_type == "demo" or form_type == "strategy" %}{% assign is_tier_two = true %}{% endif %}
+{% if include.submit_text %}
+  {% assign submit_text = include.submit_text %}
+{% elsif form_type == "demo" %}
+  {% assign submit_text = "Request My Demo" %}
+{% elsif form_type == "strategy" %}
+  {% assign submit_text = "Request My Free Call" %}
+{% elsif form_type == "newsletter" %}
+  {% assign submit_text = "Subscribe" %}
+{% else %}
+  {% assign submit_text = "Get the Free Resource" %}
+{% endif %}
+
+<form
+  id="{{ form_target | escape }}"
+  class="fraction-hubspot-form fraction-hubspot-form--{{ form_type | escape }}"
+  data-hubspot-api-form
+  data-portal-id="9456893"
+  data-form-id="{{ include.form_id | escape }}"
+  data-redirect-url="{% if include.redirect_url %}{{ form_redirect_url | escape }}{% endif %}"
+  data-success-message="{{ include.success_message | default: 'Thanks — your details have been received.' | escape }}"
+>
+  <div class="fraction-form-honeypot" aria-hidden="true">
+    <label for="{{ form_target }}-website">Website</label>
+    <input type="text" id="{{ form_target }}-website" name="website" tabindex="-1" autocomplete="off">
+  </div>
+
+  {% unless form_type == "newsletter" %}
+  <div class="fraction-form-grid">
+    <div class="fraction-form-field">
+      <label for="{{ form_target }}-firstname">First Name <span aria-hidden="true">*</span></label>
+      <input type="text" id="{{ form_target }}-firstname" name="firstname" autocomplete="given-name" required>
+    </div>
+    <div class="fraction-form-field">
+      <label for="{{ form_target }}-lastname">Last Name <span aria-hidden="true">*</span></label>
+      <input type="text" id="{{ form_target }}-lastname" name="lastname" autocomplete="family-name" required>
+    </div>
+  </div>
+  {% endunless %}
+
+  <div class="fraction-form-field">
+    <label for="{{ form_target }}-email">{% if form_type == "newsletter" %}Email Address{% else %}Work Email{% endif %} <span aria-hidden="true">*</span></label>
+    <input type="email" id="{{ form_target }}-email" name="email" autocomplete="email" required>
+  </div>
+
+  {% unless form_type == "newsletter" %}
+  <div class="fraction-form-field">
+    <label for="{{ form_target }}-company">Company Name <span aria-hidden="true">*</span></label>
+    <input type="text" id="{{ form_target }}-company" name="company" autocomplete="organization" required>
+  </div>
+  {% endunless %}
+
+  {% if is_tier_two %}
+  <div class="fraction-form-grid">
+    <div class="fraction-form-field">
+      <label for="{{ form_target }}-phone">Telephone</label>
+      <input type="tel" id="{{ form_target }}-phone" name="phone" autocomplete="tel" aria-describedby="{{ form_target }}-phone-help">
+      <small id="{{ form_target }}-phone-help">Required if you prefer a telephone call.</small>
+    </div>
+    <div class="fraction-form-field">
+      <label for="{{ form_target }}-company-size">Company Size <span class="fraction-form-optional">(optional)</span></label>
+      <select id="{{ form_target }}-company-size" name="company_size">
+        <option value="">Select team size</option>
+        <option value="1-10">1–10 employees</option>
+        <option value="11-50">11–50 employees</option>
+        <option value="51-200">51–200 employees</option>
+        <option value="200+">200+ employees</option>
+      </select>
+    </div>
+  </div>
+
+  <fieldset class="fraction-form-field fraction-form-fieldset">
+    <legend>How would you prefer us to contact you? <span aria-hidden="true">*</span></legend>
+    <div class="fraction-form-options">
+      <label for="{{ form_target }}-contact-email">
+        <input type="radio" id="{{ form_target }}-contact-email" name="preferred_contact_method" value="Email" required checked>
+        <span>Email</span>
+      </label>
+      <label for="{{ form_target }}-contact-phone">
+        <input type="radio" id="{{ form_target }}-contact-phone" name="preferred_contact_method" value="Telephone" required>
+        <span>Telephone</span>
+      </label>
+    </div>
+  </fieldset>
+
+  <div class="fraction-form-field">
+    <label for="{{ form_target }}-message">What would you like to see or discuss? <span class="fraction-form-optional">(optional)</span></label>
+    <textarea id="{{ form_target }}-message" name="message" rows="4"></textarea>
+  </div>
+  {% endif %}
+
+  {% if include.lead_source_detail %}
+  <input type="hidden" name="lead_source_detail" value="{{ include.lead_source_detail | escape }}">
+  {% endif %}
+
+  <p class="fraction-form-privacy">By submitting this form, you agree to our <a href="{{ '/privacy/' | relative_url }}">Privacy Policy</a>.</p>
+  <div class="fraction-form-status" role="status" aria-live="polite"></div>
+  <button type="submit" class="fraction-form-submit">{{ submit_text }}</button>
+</form>
