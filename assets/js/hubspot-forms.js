@@ -45,11 +45,13 @@
   function updatePhoneRequirement(form) {
     var phone = form.querySelector("input[name='phone']");
     var preference = form.querySelector("input[name='preferred_contact_method']:checked");
+    var requirement = form.querySelector(".fraction-phone-requirement");
     if (!phone || !preference) return;
 
     var required = preference.value === "Telephone";
     phone.required = required;
     phone.setAttribute("aria-required", required ? "true" : "false");
+    if (requirement) requirement.textContent = required ? "(required for telephone contact)" : "(optional)";
   }
 
   function completeSubmission(form) {

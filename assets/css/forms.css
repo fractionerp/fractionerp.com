@@ -180,6 +180,34 @@
   margin: 0 auto;
 }
 
+.fraction-hubspot-form--demo .fraction-form-grid,
+.fraction-hubspot-form--strategy .fraction-form-grid {
+  gap: 12px;
+}
+
+.fraction-hubspot-form--demo .fraction-form-field,
+.fraction-hubspot-form--strategy .fraction-form-field {
+  margin-bottom: 12px;
+}
+
+.fraction-hubspot-form--demo .fraction-form-field input[type="text"],
+.fraction-hubspot-form--demo .fraction-form-field input[type="email"],
+.fraction-hubspot-form--demo .fraction-form-field input[type="tel"],
+.fraction-hubspot-form--demo .fraction-form-field select,
+.fraction-hubspot-form--strategy .fraction-form-field input[type="text"],
+.fraction-hubspot-form--strategy .fraction-form-field input[type="email"],
+.fraction-hubspot-form--strategy .fraction-form-field input[type="tel"],
+.fraction-hubspot-form--strategy .fraction-form-field select {
+  min-height: 42px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.fraction-hubspot-form--demo .fraction-form-field textarea,
+.fraction-hubspot-form--strategy .fraction-form-field textarea {
+  min-height: 78px;
+}
+
 @media (max-width: 575px) {
   .fraction-form-grid {
     grid-template-columns: 1fr;
