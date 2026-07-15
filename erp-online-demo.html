@@ -12,39 +12,12 @@ keywords: "ERP, MRP, Manufacturing, Cloud ERP"
     </div>
 
     <div class="container col-10 col-md-6 col-lg-4 mb-4">
-      <form action="{{ site.formspree_demo }}" method="POST">
-        <div class="form-group mb-4">
-          <label for="name">Name</label>
-          <input type="text" name="Name" class="form-control" id="name" placeholder="" required>
-        </div>
-        <div class="form-group mb-4">
-          <label for="email">Email address</label>
-          <input type="email" name="Email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="" required>
-          <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-        </div>
-        <div class="form-group mb-4">
-          <label for="telephone">Telephone</label>
-          <input type="tel" name="Telephone" class="form-control" id="telephone" placeholder="">
-        </div>
-
-        <p>How should we contact you?</p>
-        <div class="form-check">
-          <input class="form-check-input" type="radio" name="Contact-me" id="contact-email" value="email" checked>
-          <label class="form-check-label" for="contact-email">
-            Drop me an email
-          </label>
-        </div>
-
-        <div class="form-check">
-          <input class="form-check-input" type="radio" name="Contact-me" id="contact-telephone" value="telephone">
-          <label class="form-check-label" for="contact-telephone">
-            Give me a call
-          </label>
-        </div>
-
-        <input type="hidden" name="_next" value="{{ site.url }}{{ site.baseurl }}/success.html">
-        <button type="submit" class="btn btn-secondary mt-5">Submit</button>
-      </form>
+      {% include forms/hubspot-content.html
+        target="online-demo-form"
+        form_id="072de23b-0398-4bb2-85b6-c88115fe276b"
+        lead_source_detail="Online Demo page"
+        redirect_url="/success/"
+      %}
     </div>
   </div>
 </section>

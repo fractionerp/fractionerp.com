@@ -1,0 +1,20 @@
+{% assign hubspot_target = include.target | default: "hubspot-content-form" %}
+{% assign hubspot_redirect_url = include.redirect_url | absolute_url %}
+<div id="{{ hubspot_target }}"></div>
+<script charset="utf-8" type="text/javascript" src="https://js.hsforms.net/forms/embed/v2.js"></script>
+<script>
+  hbspt.forms.create({
+    region: "na1",
+    portalId: "9456893",
+    formId: "{{ include.form_id }}",
+    target: "#{{ hubspot_target }}",
+    {% if include.submit_text %}submitText: {{ include.submit_text | jsonify }},{% endif %}
+    {% if include.redirect_url %}redirectUrl: {{ hubspot_redirect_url | jsonify }},{% endif %}
+    onFormReady: function ($form) {
+      var sourceField = $form.find('[name="lead_source_detail"]');
+      if (sourceField.length) {
+        sourceField.val({{ include.lead_source_detail | jsonify }}).trigger('change');
+      }
+    }
+  });
+</script>

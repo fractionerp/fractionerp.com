@@ -167,11 +167,12 @@ To get hold of your free ERP implementation guide, fill in the form below:
 ---
 
 
-  hbspt.forms.create({
-    region: "na1",
-    portalId: "9456893",
-    formId: "4a432a7b-16c2-4734-8a20-3c2b4af74246"
-  });
+{% include forms/hubspot-content.html
+  target="implementation-steps-guide-form"
+  form_id="4a432a7b-16c2-4734-8a20-3c2b4af74246"
+  lead_source_detail="Downloaded: ERP Implementation Guide - Implementation steps article"
+  redirect_url="/lead-magnet-success/"
+%}
 
 
 ---

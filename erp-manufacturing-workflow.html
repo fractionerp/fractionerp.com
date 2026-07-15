@@ -29,17 +29,12 @@ redirect_from:
 
   </div>
   <div class="col-md-6 offset-md-3 mt-5">
-    <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/embed/v2.js"></script>
-    <script>
-      document.addEventListener("DOMContentLoaded", function () {
-        hbspt.forms.create({
-          region: "na1",
-          portalId: "9456893",
-          formId: "62895e64-92ee-49af-9cf0-8a491fc47e1f",
-          version: "V2_PRERELEASE"
-        });
-      });
-    </script>
+    {% include forms/hubspot-content.html
+      target="manufacturing-workflow-form"
+      form_id="62895e64-92ee-49af-9cf0-8a491fc47e1f"
+      lead_source_detail="Downloaded: ERP Manufacturing Workflow"
+      redirect_url="/lead-magnet-success/"
+    %}
   </div>
   </div>
   </div>

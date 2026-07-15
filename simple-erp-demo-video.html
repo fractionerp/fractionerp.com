@@ -26,9 +26,7 @@ Below is a walk through for Fraction ERP (approximately 18 minutes); watch how t
 A simple ERP system reduces the implementation time, saves on training costs, reduces mistakes and gets you up and running quicker.</p>
           </div>
           
-          <div class="container mt-3">
-          <h2>Video</h2>
-          <BR>
+          <div class="container mt-3" id="simple-erp-demo-video">
             <div style="padding:56.25% 0 0 0;position:relative;">
             <iframe
             src="https://player.vimeo.com/video/1051301140?=5b864a9d0b&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
@@ -52,42 +50,12 @@ A simple ERP system reduces the implementation time, saves on training costs, re
 
       <div class="container col-10 col-md-6 col-lg-4 mb-4">
 
-        <form action="https://formspree.io/f/mwkzlkkz" method="POST">
-          <div class="form-group mb-4">
-            <label for="exampleInputPassword1">Name</label>
-            <input type="name" name="Name" class="form-control" id="name" placeholder="">
-          </div>
-
-          <div class="form-group mb-4">
-            <label for="exampleInputEmail1">Email address</label>
-            <input type="email" name="Email" class="form-control" id="exampleInputEmail1"
-              aria-describedby="emailHelp" placeholder="">
-            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
-              else.</small>
-          </div>
-
-          <div class="form-group mb-4">
-            <label for="exampleInputPassword1">Telephone</label>
-            <input type="Telephone" name="Telephone" class="form-control" id="exampleInputPassword1" placeholder="">
-          </div>
-
-          <p>How should we contact you?</p>
-          <div class="form-check">
-            <input class="form-check-input" type="radio" name="Contact-me" id="email" value="email" checked>
-            <label class="form-check-label" for="email">
-              Drop me an email
-            </label>
-          </div>
-
-          <div class="form-check">
-            <input class="form-check-input" type="radio" name="Contact-me" id="telephone" value="telephone">
-            <label class="form-check-label" for="telephone">
-              Give me a call
-            </label>
-          </div>
-
-          <button type="submit" class="btn btn-secondary mt-5">Submit</button>
-        </form>
+        {% include forms/hubspot-content.html
+          target="simple-video-demo-request-form"
+          form_id="072de23b-0398-4bb2-85b6-c88115fe276b"
+          lead_source_detail="Simple ERP Demo Video page"
+          redirect_url="/success/"
+        %}
       </div>
   </section>
 
@@ -102,13 +70,11 @@ A simple ERP system reduces the implementation time, saves on training costs, re
 
         <div class="container col-md-4  mt-5">
                         
-          <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/embed/v2.js"></script>
-<script>
-  hbspt.forms.create({
-    portalId: "9456893",
-    formId: "945e6f95-63d2-4e29-a33f-da726f0a71c9",
-    region: "na1"
-  });
-</script>
+          {% include forms/hubspot-content.html
+            target="simple-video-implementation-guide-form"
+            form_id="4a432a7b-16c2-4734-8a20-3c2b4af74246"
+            lead_source_detail="Downloaded: ERP Implementation Guide - Simple demo video page"
+            redirect_url="/lead-magnet-success/"
+          %}
         </div>
 </section>

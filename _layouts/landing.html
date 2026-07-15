@@ -374,7 +374,8 @@
     <span><a href="{{ '/privacy/' | relative_url }}">Privacy Policy</a> &middot; <a href="{{ '/terms/' | relative_url }}">Terms</a></span>
   </footer>
 
-  <!-- Modal -->
+  {% if page.hubspot_form_id %}
+  <!-- Lead magnet modal -->
   <div class="modal-overlay" id="downloadModal">
     <div class="modal">
       <div class="modal-header">
@@ -383,40 +384,13 @@
       </div>
       <div class="modal-body">
         <p>{{ page.modal_description | default: "Enter your details and we'll send the guide straight to your inbox." }}</p>
-        <form action="{{ page.formspree_endpoint }}" method="POST">
-          <input type="hidden" name="_next" value="{{ page.success_url | default: '/lp/success/' | absolute_url }}">
-          <input type="hidden" name="_subject" value="{{ page.form_subject | default: 'New guide download request' }}">
-          <div class="form-row">
-            <div class="form-group">
-              <label for="first_name">First Name</label>
-              <input type="text" id="first_name" name="first_name" required placeholder="Jane">
-            </div>
-            <div class="form-group">
-              <label for="last_name">Last Name</label>
-              <input type="text" id="last_name" name="last_name" required placeholder="Smith">
-            </div>
-          </div>
-          <div class="form-group">
-            <label for="email">Work Email</label>
-            <input type="email" id="email" name="email" required placeholder="jane@company.com">
-          </div>
-          <div class="form-group">
-            <label for="company">Company</label>
-            <input type="text" id="company" name="company" required placeholder="Acme Manufacturing">
-          </div>
-          <div class="form-group">
-            <label for="company_size">Company Size</label>
-            <select id="company_size" name="company_size" required>
-              <option value="" disabled selected>Select team size</option>
-              <option value="1-10">1 – 10 employees</option>
-              <option value="11-50">11 – 50 employees</option>
-              <option value="51-200">51 – 200 employees</option>
-              <option value="200+">200+ employees</option>
-            </select>
-          </div>
-          <button type="submit" class="btn-primary modal-submit">Send Me the Guide &rarr;</button>
-          <p class="modal-fine">No spam. Unsubscribe any time. We respect your privacy.</p>
-        </form>
+        {% include forms/hubspot-content.html
+          target="landing-lead-magnet-form"
+          form_id=page.hubspot_form_id
+          lead_source_detail=page.lead_source_detail
+          redirect_url=page.form_redirect_url
+          submit_text=page.form_submit_text
+        %}
       </div>
     </div>
   </div>
@@ -437,5 +411,6 @@
       if (e.key === 'Escape') closeModal();
     });
   </script>
+  {% endif %}
 </body>
 </html>

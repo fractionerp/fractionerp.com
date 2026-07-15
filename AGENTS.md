@@ -152,8 +152,12 @@ docker logs websites_jekyll --tail 50
 3. Hard refresh browser (Ctrl+Shift+R)
 
 ## Forms
-- Demo requests: Formspree (`formspree_demo`)
-- Contact form: Formspree (`formspree_contact`)
+- ERP Implementation Guide: HubSpot (`4a432a7b-16c2-4734-8a20-3c2b4af74246`)
+- ERP Manufacturing Workflow: HubSpot (`62895e64-92ee-49af-9cf0-8a491fc47e1f`)
+- Spreadsheet Readiness Checklist: HubSpot (`f80f4546-168f-478a-83e3-d8515921d53a`)
+- ERP Warning Signs Checklist: HubSpot (`74d026e0-338e-494a-bd6a-2c3f8c7b59cf`)
+- ERP Strategy Call: HubSpot (`efc11f49-51aa-4312-bbef-4945ae45aeae`)
+- Demo requests: HubSpot (`072de23b-0398-4bb2-85b6-c88115fe276b`)
 
 ## Production Deployment
 Auto-deploys via GitHub Pages when pushing to main branch. Uses `_config.yml` (not `_config_dev.yml`).

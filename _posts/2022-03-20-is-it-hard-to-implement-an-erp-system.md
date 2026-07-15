@@ -63,11 +63,12 @@ You can [**get hold of a copy here**](https://fractionerp.com/erp-implementation
 
 
 
-  hbspt.forms.create({
-	region: "na1",
-	portalId: "9456893",
-	formId: "4a432a7b-16c2-4734-8a20-3c2b4af74246"
-});
+{% include forms/hubspot-content.html
+  target="hard-to-implement-guide-form"
+  form_id="4a432a7b-16c2-4734-8a20-3c2b4af74246"
+  lead_source_detail="Downloaded: ERP Implementation Guide - ERP implementation article"
+  redirect_url="/lead-magnet-success/"
+%}
 
 
 

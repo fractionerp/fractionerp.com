@@ -70,6 +70,10 @@ main:
         url: /erp-implementation-guide/
       - title: ERP Workflow
         url: /erp-manufacturing-workflow/
+      - title: Spreadsheet Readiness Checklist
+        url: /spreadsheet-readiness-checklist/
+      - title: ERP Warning Signs Checklist
+        url: /erp-failing-signs-checklist/
       - title: Blog
         url: /blog/
       - title: Support
@@ -144,6 +148,10 @@ footer_industries:
     url: /erp-for-fabrication/
 
 footer_resources:
+  - title: Spreadsheet Checklist
+    url: /spreadsheet-readiness-checklist/
+  - title: ERP Warning Signs
+    url: /erp-failing-signs-checklist/
   - title: What is MRP?
     url: /what-is-mrp/
   - title: MRP vs ERP

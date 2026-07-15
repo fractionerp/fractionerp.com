@@ -21,11 +21,12 @@ At Fraction ERP we wanted to help anyone with this predicament. If you are looki
  ![]({{ site.baseurl }}/assets/img/blog/d4b7b332f59fc16473c4d9c6b898f21b/ERPImplementationGuidecover.jpg)
 
 
-  hbspt.forms.create({
-	region: "na1",
-	portalId: "9456893",
-	formId: "4a432a7b-16c2-4734-8a20-3c2b4af74246"
-});
+{% include forms/hubspot-content.html
+  target="erp-selection-guide-form"
+  form_id="4a432a7b-16c2-4734-8a20-3c2b4af74246"
+  lead_source_detail="Downloaded: ERP Implementation Guide - ERP system selection article"
+  redirect_url="/lead-magnet-success/"
+%}
 
 
 

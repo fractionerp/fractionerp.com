@@ -36,46 +36,12 @@ redirect_from:
         <div class="col-lg-5 offset-lg-1">
           <div style="background: #fff; border-radius: 16px; padding: 32px; box-shadow: 0 12px 40px rgba(0,0,0,0.2);">
             <h3 style="font-family: 'Jost', sans-serif; font-weight: 600; color: #37517e; font-size: 20px; margin-bottom: 20px;">Book Your Demo</h3>
-            <form action="{{ site.formspree_demo }}" method="POST">
-              <div class="mb-3">
-                <label for="name" style="font-size: 14px; font-weight: 500; color: #444; margin-bottom: 4px;">Name *</label>
-                <input type="text" name="Name" class="form-control" id="name" required style="border-radius: 8px; padding: 10px 14px; border: 1px solid #d0d8e4;">
-              </div>
-              <div class="mb-3">
-                <label for="email" style="font-size: 14px; font-weight: 500; color: #444; margin-bottom: 4px;">Work Email *</label>
-                <input type="email" name="Email" class="form-control" id="email" required style="border-radius: 8px; padding: 10px 14px; border: 1px solid #d0d8e4;">
-              </div>
-              <div class="mb-3">
-                <label for="telephone" style="font-size: 14px; font-weight: 500; color: #444; margin-bottom: 4px;">Telephone</label>
-                <input type="tel" name="Telephone" class="form-control" id="telephone" autocomplete="tel" aria-describedby="telephone-help" style="border-radius: 8px; padding: 10px 14px; border: 1px solid #d0d8e4;">
-                <p id="telephone-help" style="font-size: 12px; color: #666; margin: 5px 0 0;">Required if you prefer us to call you.</p>
-              </div>
-              <div class="mb-3">
-                <label for="company" style="font-size: 14px; font-weight: 500; color: #444; margin-bottom: 4px;">Company Name *</label>
-                <input type="text" name="Company" class="form-control" id="company" required style="border-radius: 8px; padding: 10px 14px; border: 1px solid #d0d8e4;">
-              </div>
-              <fieldset class="mb-3" style="border: 0; padding: 0; margin: 0 0 1rem;">
-                <legend style="font-size: 14px; font-weight: 500; color: #444; margin-bottom: 8px;">How would you prefer us to contact you? *</legend>
-                <div style="display: flex; gap: 18px; flex-wrap: wrap;">
-                  <label for="contact-email" style="display: inline-flex; align-items: center; gap: 7px; font-size: 14px; color: #444; margin: 0;">
-                    <input type="radio" name="Preferred contact method" id="contact-email" value="Email" required checked>
-                    Email
-                  </label>
-                  <label for="contact-telephone" style="display: inline-flex; align-items: center; gap: 7px; font-size: 14px; color: #444; margin: 0;">
-                    <input type="radio" name="Preferred contact method" id="contact-telephone" value="Telephone" required>
-                    Telephone
-                  </label>
-                </div>
-              </fieldset>
-              <div class="mb-3">
-                <label for="message" style="font-size: 14px; font-weight: 500; color: #444; margin-bottom: 4px;">What would you like to see? (optional)</label>
-                <textarea name="Message" class="form-control" id="message" rows="3" style="border-radius: 8px; padding: 10px 14px; border: 1px solid #d0d8e4;"></textarea>
-              </div>
-              <input type="hidden" name="_next" value="{{ site.url }}{{ site.baseurl }}/success.html">
-              <button type="submit" style="display: block; width: 100%; padding: 14px; background: #47b2e4; color: #fff; border: none; border-radius: 50px; font-family: 'Jost', sans-serif; font-weight: 600; font-size: 16px; cursor: pointer; transition: background 0.3s;"
-                      onmouseover="this.style.background='#3a9fd1'"
-                      onmouseout="this.style.background='#47b2e4'">Book My Demo</button>
-            </form>
+            {% include forms/hubspot-content.html
+              target="book-demo-form"
+              form_id="072de23b-0398-4bb2-85b6-c88115fe276b"
+              lead_source_detail="Book a Demo"
+              redirect_url="/success/"
+            %}
           </div>
         </div>
 
@@ -270,20 +236,3 @@ redirect_from:
   </div>
 </section>
 <style>.inner-page { padding-bottom: 0 !important; margin-bottom: 0 !important; }</style>
-<script>
-  document.addEventListener('DOMContentLoaded', function () {
-    var phoneInput = document.getElementById('telephone');
-    var contactOptions = document.querySelectorAll('input[name="Preferred contact method"]');
-
-    function updatePhoneRequirement() {
-      var prefersTelephone = document.getElementById('contact-telephone').checked;
-      phoneInput.required = prefersTelephone;
-    }
-
-    contactOptions.forEach(function (option) {
-      option.addEventListener('change', updatePhoneRequirement);
-    });
-
-    updatePhoneRequirement();
-  });
-</script>

@@ -74,11 +74,12 @@ We've written a free guide to help you navigate this journey. To get your free c
 
 
 
-  hbspt.forms.create({
-    region: "na1",
-    portalId: "9456893",
-    formId: "4a432a7b-16c2-4734-8a20-3c2b4af74246"
-  });
+{% include forms/hubspot-content.html
+  target="what-is-erp-guide-form"
+  form_id="4a432a7b-16c2-4734-8a20-3c2b4af74246"
+  lead_source_detail="Downloaded: ERP Implementation Guide - What is ERP article"
+  redirect_url="/lead-magnet-success/"
+%}
 
 
 

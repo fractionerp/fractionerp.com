@@ -541,17 +541,17 @@ extra_css: |
       font-size: 1.05rem;
     }
 
-    .calendar-section {
+    .strategy-form-section {
       max-width: 900px;
       margin: 0 auto;
       padding: 0 2.5rem;
     }
 
-    .calendly-placeholder {
+    .strategy-form-container {
       background: var(--white);
       border-radius: 4px;
-      min-height: 700px;
-      overflow: hidden;
+      padding: 2rem;
+      color: var(--ink);
     }
 
     /* STICKY CTA */
@@ -604,7 +604,8 @@ extra_css: |
       .who-inner, .steps-inner { padding: 0 1.25rem; }
       .call-card { width: 100%; max-width: 320px; }
       .cta-strip { padding: 3.5rem 1.25rem; }
-      .calendar-section { padding: 0 1.25rem; }
+      .strategy-form-section { padding: 0 1.25rem; }
+      .strategy-form-container { padding: 1.25rem; }
       .sticky-cta { padding: 0.75rem 1.25rem; }
       .sticky-cta p { display: none; }
     }
@@ -657,8 +658,8 @@ extra_css: |
         </div>
       </div>
       <div class="call-card-footer">
-        <a href="#book" class="btn-primary btn-download">View Available Times &rarr;</a>
-        <div class="call-card-note">&#128197; Confirmation sent instantly</div>
+        <a href="#book" class="btn-primary btn-download">Request Your Free Call &rarr;</a>
+        <div class="call-card-note">&#128197; We'll follow up to arrange a suitable time</div>
       </div>
     </div>
   </div>
@@ -744,8 +745,8 @@ extra_css: |
     <div class="steps-grid">
       <div class="step-item">
         <div class="step-number">01</div>
-        <h4>Pick a Slot</h4>
-        <p>Choose a time from the calendar below.</p>
+        <h4>Request the Call</h4>
+        <p>Tell us about your business using the form below.</p>
       </div>
       <div class="step-item">
         <div class="step-number">02</div>
@@ -826,17 +827,20 @@ extra_css: |
   </div>
 </section>
 
-<!-- FINAL CTA + CALENDAR -->
+<!-- FINAL CTA + STRATEGY FORM -->
 <section class="cta-strip" id="book">
   <h2>Book Your Free ERP Strategy Call</h2>
-  <p>30 minutes. A straight answer. No commitment. Book a time below and we'll talk through your situation &mdash; what's working, what isn't, and what to do next.</p>
+  <p>30 minutes. A straight answer. No commitment. Complete the form below and we'll arrange a suitable time to talk through your situation &mdash; what's working, what isn't, and what to do next.</p>
 </section>
 <section class="section">
-  <div class="calendar-section">
-    <div class="calendly-placeholder">
-      <!-- Replace YOUR-CALENDLY-URL with your actual Calendly link -->
-      <div class="calendly-inline-widget" data-url="https://calendly.com/patrick-fractionerp/30min" style="min-width:320px;height:700px;"></div>
-      <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
+  <div class="strategy-form-section">
+    <div class="strategy-form-container">
+      {% include forms/hubspot-content.html
+        target="strategy-call-form"
+        form_id="efc11f49-51aa-4312-bbef-4945ae45aeae"
+        lead_source_detail="Book an ERP Strategy Call"
+        redirect_url="/strategy-call-success/"
+      %}
     </div>
   </div>
 </section>
@@ -844,7 +848,7 @@ extra_css: |
 <!-- STICKY CTA BAR -->
 <div class="sticky-cta" id="stickyCta">
   <p>Book your free 30-minute ERP strategy call</p>
-  <a href="#book" class="btn-primary btn-download">View Available Times &rarr;</a>
+  <a href="#book" class="btn-primary btn-download">Request Your Free Call &rarr;</a>
 </div>
 
 <script>

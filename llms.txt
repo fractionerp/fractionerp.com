@@ -69,6 +69,8 @@ Fraction ERP is a cloud-based manufacturing ERP and MRP system for SMEs that nee
 - [MRP in Excel](https://fractionerp.com/mrp-in-excel/): Why spreadsheets hit a ceiling for MRP
 - [Replacing Excel for Manufacturing](https://fractionerp.com/replace-excel-manufacturing/): How to transition off spreadsheets
 - [ERP Implementation Guide](https://fractionerp.com/erp-implementation-guide/): Practical guide to implementing ERP
+- [Spreadsheet Readiness Checklist](https://fractionerp.com/spreadsheet-readiness-checklist/): Free 12-point assessment for manufacturers deciding whether they have outgrown spreadsheets
+- [5 Signs Your ERP Is Failing You](https://fractionerp.com/erp-failing-signs-checklist/): Free checklist for manufacturers assessing whether an existing ERP system is holding them back
 - [Blog](https://fractionerp.com/blog/): Articles on manufacturing, ERP, production management
 
 ## Case Study

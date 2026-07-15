@@ -39,37 +39,12 @@ keywords: "contact fraction erp, manufacturing erp uk, erp support, book erp dem
     </div>
 
     <div class="container col-10 col-md-6 col-lg-4 mb-4">
-      <form action="{{ site.formspree_demo }}" method="POST">
-        <div class="form-group mb-4">
-          <label for="name">Name</label>
-          <input type="text" name="Name" class="form-control" id="name" placeholder="" required>
-        </div>
-
-        <div class="form-group mb-4">
-          <label for="email">Email address</label>
-          <input type="email" name="Email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="" required>
-          <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-        </div>
-
-        <div class="form-group mb-4">
-          <label for="telephone">Telephone</label>
-          <input type="tel" name="Telephone" class="form-control" id="telephone" placeholder="">
-        </div>
-
-        <p>How should we contact you?</p>
-        <div class="form-check">
-          <input class="form-check-input" type="radio" name="Contact-me" id="contact-email" value="email" checked>
-          <label class="form-check-label" for="contact-email">Drop me an email</label>
-        </div>
-
-        <div class="form-check">
-          <input class="form-check-input" type="radio" name="Contact-me" id="contact-telephone" value="telephone">
-          <label class="form-check-label" for="contact-telephone">Give me a call</label>
-        </div>
-
-        <input type="hidden" name="_next" value="{{ site.url }}{{ site.baseurl }}/success.html">
-        <button type="submit" class="btn btn-secondary mt-5">Submit</button>
-      </form>
+      {% include forms/hubspot-content.html
+        target="contact-demo-form"
+        form_id="072de23b-0398-4bb2-85b6-c88115fe276b"
+        lead_source_detail="Contact page demo"
+        redirect_url="/success/"
+      %}
 
       <div class="text-center mt-4">
         <a href="{{ '/lp/erp-strategy-call/' | relative_url }}" style="color: #37517e; font-size: 14px; text-decoration: none;">Not ready for a demo? <span style="text-decoration: underline;">Book a free strategy call</span> with the founder</a>
@@ -87,14 +62,12 @@ keywords: "contact fraction erp, manufacturing erp uk, erp support, book erp dem
         <h3 style="font-family: 'Jost', sans-serif; font-weight: 600; color: #37517e; font-size: 22px; margin-bottom: 10px;">Avoid ERP Pitfalls Before They Cost You</h3>
         <p style="font-size: 15px; color: #555; margin-bottom: 24px;">Download our free ERP Implementation Guide — practical strategies to save time, cut costs, and ensure a successful rollout.</p>
         <div class="container col-md-8">
-          <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/embed/v2.js"></script>
-          <script>
-            hbspt.forms.create({
-              portalId: "9456893",
-              formId: "945e6f95-63d2-4e29-a33f-da726f0a71c9",
-              region: "na1"
-            });
-          </script>
+          {% include forms/hubspot-content.html
+            target="contact-implementation-guide-form"
+            form_id="4a432a7b-16c2-4734-8a20-3c2b4af74246"
+            lead_source_detail="Downloaded: ERP Implementation Guide - Contact page"
+            redirect_url="/lead-magnet-success/"
+          %}
         </div>
       </div>
     </div>

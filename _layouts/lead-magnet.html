@@ -1,0 +1,56 @@
+---
+layout: default
+---
+<main id="main" class="lead-magnet-page">
+  <section class="lead-magnet-hero">
+    <div class="container">
+      <div class="lead-magnet-grid">
+        <div class="lead-magnet-copy" data-aos="fade-up">
+          <p class="lead-magnet-eyebrow">{{ page.eyebrow }}</p>
+          <h1>{{ page.heading }}</h1>
+          <p class="lead-magnet-subhead">{{ page.subhead }}</p>
+          <p class="lead-magnet-intro">{{ page.intro }}</p>
+
+          <div class="lead-magnet-includes">
+            <h2>What's inside</h2>
+            <ul>
+              {% for item in page.checklist_items %}
+              <li><i class="bi bi-check-circle-fill" aria-hidden="true"></i><span>{{ item }}</span></li>
+              {% endfor %}
+            </ul>
+          </div>
+        </div>
+
+        <aside class="lead-magnet-form-card" aria-label="Download the free checklist" data-aos="fade-up" data-aos-delay="100">
+          <p class="lead-magnet-form-label">Free download</p>
+          <h2>Get the free checklist</h2>
+          {% include forms/hubspot-content.html
+            target=page.form_target
+            form_id=page.form_id
+            lead_source_detail=page.lead_source_detail
+            redirect_url="/lead-magnet-success/"
+            submit_text="Get the Free Checklist"
+          %}
+          <p class="lead-magnet-trust"><i class="bi bi-shield-check" aria-hidden="true"></i>{{ page.trust_line }}</p>
+        </aside>
+      </div>
+    </div>
+  </section>
+
+  <section class="lead-magnet-proof">
+    <div class="container">
+      <blockquote>
+        <p>&ldquo;{{ page.quote }}&rdquo;</p>
+        <cite>&mdash; {{ page.quote_author }}</cite>
+      </blockquote>
+    </div>
+  </section>
+
+  <section class="lead-magnet-close">
+    <div class="container">
+      <div class="lead-magnet-close-inner">
+        {{ content }}
+      </div>
+    </div>
+  </section>
+</main>

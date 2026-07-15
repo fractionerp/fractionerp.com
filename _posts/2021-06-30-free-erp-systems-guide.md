@@ -36,11 +36,12 @@ To get hold of your copy of **Looking Before You Leap**, just fill in the form b
 
 
 
-  hbspt.forms.create({
-	region: "na1",
-	portalId: "9456893",
-	formId: "4a432a7b-16c2-4734-8a20-3c2b4af74246"
-});
+{% include forms/hubspot-content.html
+  target="free-erp-systems-guide-form"
+  form_id="4a432a7b-16c2-4734-8a20-3c2b4af74246"
+  lead_source_detail="Downloaded: ERP Implementation Guide - Free ERP systems article"
+  redirect_url="/lead-magnet-success/"
+%}
 
 
 
