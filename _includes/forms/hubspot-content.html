@@ -98,7 +98,16 @@
   <input type="hidden" name="lead_source_detail" value="{{ include.lead_source_detail | escape }}">
   {% endif %}
 
-  <p class="fraction-form-privacy">By submitting this form, you agree to our <a href="{{ '/privacy/' | relative_url }}">Privacy Policy</a>.</p>
+  <p class="fraction-form-privacy">
+    {% if form_type == "newsletter" %}
+      We’ll use your email to send Fraction ERP product updates. You can unsubscribe at any time.
+    {% elsif is_tier_two %}
+      We’ll use your details to respond to your enquiry and contact you about Fraction ERP.
+    {% else %}
+      We’ll use your details to send the requested resource and contact you about relevant Fraction ERP services. You can unsubscribe at any time.
+    {% endif %}
+    See our <a href="{{ '/privacy/' | relative_url }}">Privacy Policy</a>.
+  </p>
   <div class="fraction-form-status" role="status" aria-live="polite"></div>
   <button type="submit" class="fraction-form-submit">{{ submit_text }}</button>
 </form>
