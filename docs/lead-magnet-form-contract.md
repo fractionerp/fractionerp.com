@@ -28,7 +28,7 @@ Current HubSpot form mapping:
 | ERP Implementation Guide | `4a432a7b-16c2-4734-8a20-3c2b4af74246` | `Downloaded: ERP Implementation Guide` plus placement suffixes |
 | ERP Manufacturing Workflow | `62895e64-92ee-49af-9cf0-8a491fc47e1f` | `Downloaded: ERP Manufacturing Workflow` |
 | Spreadsheet Readiness Checklist | `f80f4546-168f-478a-83e3-d8515921d53a` | `spreadsheet-readiness-checklist` |
-| 5 Signs Your ERP Is Failing You | `74d026e0-338e-494a-bd6a-2c3f8c7b59cf` | `erp-failing-signs-checklist` |
+| 5 Signs Your ERP Is Failing You | `35b77591-64ce-417f-9ce9-2c0e5af30419` | `erp-failing-signs-checklist` |
 
 Configure HubSpot delivery and nurture workflows to branch on `lead_source_detail`. HubSpot rejects unknown fields, so this property and every other submitted property must be included in the corresponding published HubSpot form with exactly the internal names listed here.
 
