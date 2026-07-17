@@ -10,7 +10,9 @@
   {{ content }}
 
   {% include footer.html %}
-  {% include cookie-consent.html %}
+  {% unless page.hide_cookie_consent %}
+    {% include cookie-consent.html %}
+  {% endunless %}
   {% include scripts.html %}
 </body>
 </html>
