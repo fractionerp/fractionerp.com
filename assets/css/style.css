@@ -489,6 +489,96 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /*--------------------------------------------------------------
+# Homepage Lead Magnets
+--------------------------------------------------------------*/
+.lead-magnets {
+  padding: 80px 0;
+  background: #f8f9fa;
+}
+.lead-magnets .section-title {
+  max-width: 850px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.lead-magnets .section-title p {
+  color: #555;
+  font-size: 17px;
+  line-height: 1.7;
+}
+.lead-magnet-card {
+  position: relative;
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 34px;
+  overflow: hidden;
+  border: 1px solid #cdd7e3;
+  border-radius: 14px;
+  background: #fff;
+  box-shadow: 0 8px 28px rgba(40, 58, 90, 0.08);
+  transition: border-color 0.25s ease, box-shadow 0.25s ease, transform 0.25s ease;
+}
+.lead-magnet-card:hover {
+  border-color: rgba(71, 178, 228, 0.75);
+  box-shadow: 0 14px 38px rgba(40, 58, 90, 0.14);
+  transform: translateY(-4px);
+}
+.lead-magnet-icon {
+  display: inline-flex;
+  width: 52px;
+  height: 52px;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  border-radius: 12px;
+  background: rgba(71, 178, 228, 0.12);
+  color: #2b91c1;
+  font-size: 25px;
+}
+.lead-magnet-label {
+  margin: 0 0 8px;
+  color: #2b91c1;
+  font-family: "Jost", sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+.lead-magnet-card h3 {
+  margin: 0 0 12px;
+  color: #37517e;
+  font-size: 23px;
+  font-weight: 650;
+  line-height: 1.25;
+}
+.lead-magnet-card > p:not(.lead-magnet-label) {
+  margin: 0 0 22px;
+  color: #555;
+  font-size: 15px;
+  line-height: 1.65;
+}
+.lead-magnet-card > a {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  margin-top: auto;
+  color: #2b91c1;
+  font-family: "Jost", sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+}
+.lead-magnet-card > a:hover {
+  color: #37517e;
+}
+.lead-magnet-card > a i {
+  transition: transform 0.2s ease;
+}
+.lead-magnet-card > a:hover i {
+  transform: translateX(3px);
+}
+
+/*--------------------------------------------------------------
 # Mobile App Launch
 --------------------------------------------------------------*/
 .mobile-app-launch {
