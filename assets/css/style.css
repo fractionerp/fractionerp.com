@@ -4863,32 +4863,3 @@ section {
     text-align: center;
   }
 }
-
-/*--------------------------------------------------------------
-# Terms pages
---------------------------------------------------------------*/
-.terms-page h1 {
-  font-size: 32px;
-}
-
-.terms-page h2 {
-  font-size: 24px;
-}
-
-.terms-page h3 {
-  font-size: 20px;
-}
-
-@media (max-width: 600px) {
-  .terms-page h1 {
-    font-size: 28px;
-  }
-
-  .terms-page h2 {
-    font-size: 22px;
-  }
-
-  .terms-page h3 {
-    font-size: 18px;
-  }
-}
