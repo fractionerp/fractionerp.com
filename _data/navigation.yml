@@ -76,9 +76,6 @@ main:
         url: /erp-failing-signs-checklist/
       - title: Blog
         url: /blog/
-      - title: Support
-        url: https://support.fractionerp.com
-        external: true
   - title: Integrations
     dropdown: true
     items:
