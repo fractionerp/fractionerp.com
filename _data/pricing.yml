@@ -62,7 +62,7 @@ plans:
       - Customer Returns
       - RFQ's for purchasing
       - Inspection Reports
-      - Contract Review|*
+      - Contract Review
       - API Integration
       - Bluepark E-commerce Integration
       - CRM
