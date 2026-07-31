@@ -2,7 +2,7 @@
 layout: post
 title: "Do you have your finger on the pulse of your NCRs?"
 date: 2024-01-23 08:28:37 +0000
-description: ""
+description: "See how Fraction ERP brings non-conformance reports onto the dashboard so manufacturers can review and manage quality issues."
 category: general
 author: Giles Johnston
 permalink: /blog/ncrs-added-to-fraction-erp-dashboard/

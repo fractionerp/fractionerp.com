@@ -148,7 +148,7 @@ Giles and Patrick have both spent enough time walking around factories to know t
 This speaks for itself; you can't produce if you don't have materials to work on. Keeping on top of your inventory levels is a good practice and moving to perpetual inventory counting is an excellent strategy.
 
 
-Within Fraction ERP we have a simple stock updating function that can allow for perpetual inventory counting. We also have a simple to use [**stock alerts function**](https://fractionerp.com/part-and-inventory), that can tell you when specified items are running low.
+Within Fraction ERP we have a simple stock updating function that can allow for perpetual inventory counting. We also have a simple to use [**stock alerts function**]({{ site.baseurl }}/parts-and-inventory/), that can tell you when specified items are running low.
 
 
 

@@ -2,7 +2,7 @@
 layout: post
 title: "Does your skills matrix tie in with your ERP system?"
 date: 2020-04-14 09:00:21 +0000
-description: ""
+description: "Learn how connecting your skills matrix to ERP user roles can shorten training, strengthen adoption and reduce operational knowledge gaps."
 category: management
 author: Giles Johnston
 permalink: /blog/does-your-skills-matrix-tie-in-with-your-erp-system/

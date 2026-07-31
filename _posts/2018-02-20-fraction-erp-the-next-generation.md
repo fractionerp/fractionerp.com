@@ -2,7 +2,7 @@
 layout: post
 title: "Fraction ERP - the next generation"
 date: 2018-02-20 14:00:19 +0000
-description: ""
+description: "See how Fraction ERP evolved with simpler capacity planning, scheduling, bills of materials and shop floor data collection."
 category: general
 author: Giles Johnston
 permalink: /blog/fraction-erp-the-next-generation/

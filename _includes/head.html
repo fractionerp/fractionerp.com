@@ -8,7 +8,7 @@
 {% if page.keywords %}<meta name="keywords" content="{{ page.keywords }}">{% endif %}
 <meta name="author" content="Fraction ERP Ltd">
 <meta name="application-name" content="Fraction ERP">
-{% if page.category == 'product-updates' or page.category == 'tour' or page.noindex %}<meta name="robots" content="noindex, nofollow">{% else %}<meta name="robots" content="index, follow">{% endif %}
+{% if page.robots %}<meta name="robots" content="{{ page.robots }}">{% elsif page.category == 'product-updates' or page.category == 'tour' or page.noindex %}<meta name="robots" content="noindex, nofollow">{% else %}<meta name="robots" content="index, follow">{% endif %}
 <link rel="canonical" href="{{ page.url | absolute_url }}">
 <link rel="alternate" type="text/plain" title="Fraction ERP LLM summary" href="{{ '/llms.txt' | absolute_url }}">
 <link rel="alternate" type="text/plain" title="Fraction ERP full LLM briefing" href="{{ '/llms-full.txt' | absolute_url }}">

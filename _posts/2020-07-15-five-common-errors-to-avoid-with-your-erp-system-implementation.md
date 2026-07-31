@@ -2,7 +2,7 @@
 layout: post
 title: "Five common errors to avoid with your ERP system implementation"
 date: 2020-07-15 09:56:40 +0000
-description: ""
+description: "Avoid common ERP implementation mistakes involving capacity, scheduling, data accuracy, training and process discipline."
 category: general
 author: Giles Johnston
 permalink: /blog/five-common-errors-to-avoid-with-your-erp-system-implementation/

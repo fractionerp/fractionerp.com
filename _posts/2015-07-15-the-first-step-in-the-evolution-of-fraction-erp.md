@@ -2,7 +2,7 @@
 layout: post
 title: "The first step in the evolution of Fraction ERP"
 date: 2015-07-15 10:00:49 +0000
-description: ""
+description: "Read how Fraction ERP began as a simpler manufacturing system for quotations, sales orders, works orders, purchasing and despatch."
 category: general
 author: Giles Johnston
 permalink: /blog/the-first-step-in-the-evolution-of-fraction-erp/
