@@ -1,6 +1,9 @@
 # Jekyll build output
 _site/
 
+# Node asset build dependencies
+node_modules/
+
 # Ruby/Bundler
 .bundle/
 vendor/

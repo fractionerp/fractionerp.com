@@ -1,0 +1,11 @@
+{
+  "name": "fractionerp-marketing-site",
+  "private": true,
+  "scripts": {
+    "build:assets": "cleancss -o assets/css/style.min.css assets/css/style.css && cleancss -o assets/css/forms.min.css assets/css/forms.css && terser assets/js/main.js --compress --mangle --output assets/js/main.min.js && terser assets/js/hubspot-forms.js --compress --mangle --output assets/js/hubspot-forms.min.js && terser assets/js/cookie-consent.js --compress --mangle --output assets/js/cookie-consent.min.js"
+  },
+  "devDependencies": {
+    "clean-css-cli": "^5.6.3",
+    "terser": "^5.49.0"
+  }
+}

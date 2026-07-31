@@ -108,9 +108,9 @@ img{max-width:100%;height:auto}
 
 <!-- Template Main CSS File (deferred) -->
 {% assign css_version = site.time | date: '%s' %}
-<link rel="preload" href="{{ '/assets/css/style.css' | relative_url }}?v={{ css_version }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
-<noscript><link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}?v={{ css_version }}"></noscript>
-<link rel="stylesheet" href="{{ '/assets/css/forms.css' | relative_url }}?v={{ css_version }}">
+<link rel="preload" href="{{ '/assets/css/style.min.css' | relative_url }}?v={{ css_version }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="{{ '/assets/css/style.min.css' | relative_url }}?v={{ css_version }}"></noscript>
+<link rel="stylesheet" href="{{ '/assets/css/forms.min.css' | relative_url }}?v={{ css_version }}">
 
 <!-- Structured Data -->
 <script type="application/ld+json">
