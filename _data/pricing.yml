@@ -13,6 +13,7 @@ plans:
       - Works Orders
       - MRP Demand
       - Purchasing
+      - Kitting Lists
       - Multi-stock Locations
       - Non Conformance Reports
       - Shopfloor Data Capture
