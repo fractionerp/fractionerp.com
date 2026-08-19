@@ -62,10 +62,6 @@ quality_management:
     description: Serial and batch traceability for all manufactured and bought in parts.
 
 health_safety:
-  - title: Health and Safety
-    url: /health-safety-software/
-    icon: fa fa-1x fa-shield-halved
-    description: Manage practical health and safety records inside your manufacturing ERP.
   - title: Risk Assessments
     url: /risk-assessment-software/
     icon: fa fa-1x fa-triangle-exclamation
@@ -110,10 +106,6 @@ people:
     url: /time-and-attendance/
     icon: fa fa-1x fa-business-time
     description: Connect clocking, leave, sickness and staff availability directly to production scheduling.
-  - title: Operator Performance
-    icon: fa fa-1x fa-chart-line
-    coming_soon: true
-    description: Coming soon - review operator activity and performance trends from live production data.
 
 company_performance:
   - title: Dashboard
