@@ -12,6 +12,8 @@ An ERP system is designed to help you run your business. But, when our performan
 
 If we want the results that our business can deliver, we need to focus on the key information, however bad it is currently, and persist whilst taking the right actions. The Fraction ERP dashboard is one great way to do this.
 
+![Fraction ERP dashboard showing sales, purchasing, production, quality and task indicators]({{ '/assets/img/fraction-erp-dashboard-results.png' | relative_url }})
+
 ## Make the best decisions possible
 
 Seeing the real, and current, status of key processes and activities in a business is paramount if we want to make the best decisions possible. Leadership is all about making decisions, ideally good ones. That’s why we developed the dashboard element of Fraction ERP the way we did.
