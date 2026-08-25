@@ -1,6 +1,12 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+:root {
+  --fraction-final-cta-gradient:
+    radial-gradient(circle at 50% 0, rgba(71, 178, 228, 0.2), transparent 34%),
+    linear-gradient(135deg, #223a5a, #37517e);
+}
+
 body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
@@ -1189,7 +1195,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .mobile-erp-final-cta {
   padding: 80px 0;
-  background: linear-gradient(135deg, #263f63, #37517e);
+  background: var(--fraction-final-cta-gradient);
   color: #fff;
 }
 .mobile-erp-final-grid h2 {
@@ -1664,7 +1670,7 @@ section {
 # Cta
 --------------------------------------------------------------*/
 .cta {
-  background: linear-gradient(rgba(40, 58, 90, 0.9), rgba(40, 58, 90, 0.9)), url("../img/cta-bg.webp") fixed center center;
+  background: var(--fraction-final-cta-gradient) !important;
   background-size: cover;
   padding: 120px 0;
 }
@@ -3923,7 +3929,7 @@ section {
 }
 .ta-final-cta {
   padding: 82px 0;
-  background: linear-gradient(135deg, #263f63 0%, #37517e 100%);
+  background: var(--fraction-final-cta-gradient);
   text-align: center;
   color: #fff;
 }
@@ -5599,9 +5605,7 @@ section {
 
 .ic-final-cta {
   padding: 84px 0;
-  background:
-    radial-gradient(circle at 50% 0, rgba(71, 178, 228, 0.2), transparent 34%),
-    linear-gradient(135deg, #223a5a, #37517e);
+  background: var(--fraction-final-cta-gradient);
   color: #fff;
   text-align: center;
 }
