@@ -17,6 +17,8 @@ main:
         url: /shopfloor-data-capture-software/
       - title: Time & Attendance
         url: /time-and-attendance/
+      - title: ERP Intelligence Centre
+        url: /ai-in-erp/
       - title: Sales Order Management
         url: /sales-order-management-software/
       - title: Bill of Materials
@@ -111,6 +113,8 @@ footer_erp:
     url: /shopfloor-data-capture-software/
   - title: Time & Attendance
     url: /time-and-attendance/
+  - title: ERP Intelligence Centre
+    url: /ai-in-erp/
   - title: Sales Order Management
     url: /sales-order-management-software/
   - title: Bill of Materials

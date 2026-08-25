@@ -108,6 +108,10 @@ people:
     description: Connect clocking, leave, sickness and staff availability directly to production scheduling.
 
 company_performance:
+  - title: Intelligence Centre
+    url: /ai-in-erp/
+    icon: fa fa-1x fa-magnifying-glass-chart
+    description: Turn live ERP data into a ranked, rules-based decision queue with evidence linked to every finding.
   - title: Dashboard
     url: /erp-dashboard/
     icon: fa fa-1x fa-gauge
@@ -211,11 +215,14 @@ workflow_stages:
     outcome: Use live dashboards, KPIs and reports to drive better decisions.
     image: /assets/img/dashboard-overview.webp
     features:
+      - Intelligence Centre
       - Dashboard
       - Key Performance Indicators
       - Reports
       - Task Management
     links:
+      - title: Intelligence Centre
+        url: /ai-in-erp/
       - title: Dashboard
         url: /erp-dashboard/
       - title: KPIs
