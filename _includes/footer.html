@@ -4,10 +4,19 @@
     <div class="container">
       <div class="row">
 
-        <div class="col-lg-3 col-md-6 footer-links">
-          <h4>ERP Software</h4>
+        <div class="col-lg-2 col-md-6 footer-links">
+          <h4>Core ERP</h4>
           <ul>
-            {% for item in site.data.navigation.footer_erp %}
+            {% for item in site.data.navigation.footer_erp_core %}
+              <li><i class="bx bx-chevron-right" aria-hidden="true"></i> <a href="{{ item.url | relative_url }}">{{ item.title }}</a></li>
+            {% endfor %}
+          </ul>
+        </div>
+
+        <div class="col-lg-2 col-md-6 footer-links">
+          <h4>Features &amp; Add-ons</h4>
+          <ul>
+            {% for item in site.data.navigation.footer_erp_specialist %}
               <li><i class="bx bx-chevron-right" aria-hidden="true"></i> <a href="{{ item.url | relative_url }}">{{ item.title }}</a></li>
             {% endfor %}
           </ul>
@@ -54,7 +63,7 @@
           </ul>
         </div>
 
-        <div class="col-lg-2 col-md-6 offset-lg-1 footer-links">
+        <div class="col-lg-2 col-md-6 footer-links">
           <h4>Connect with Us</h4>
           <div>
             <a href="tel:{{ site.phone_link }}" aria-label="Call us at {{ site.phone }}">{{ site.phone }}</a><br><br>

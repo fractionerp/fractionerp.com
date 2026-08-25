@@ -4140,7 +4140,7 @@ section {
   color: #fff;
   transition: 0.3s;
   display: inline-block;
-  line-height: 1;
+  line-height: 1.35;
 }
 #footer .footer-top .footer-links ul a:hover {
   text-decoration: none;
