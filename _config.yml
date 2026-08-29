@@ -28,7 +28,14 @@ plugins:
 
 # Exclude from build
 exclude:
+  # Repository-only instructions and development metadata must never be copied
+  # into the public GitHub Pages artifact.
+  - AGENTS.md
+  - CLAUDE.md
   - Gemfile
   - Gemfile.lock
+  - docs
   - node_modules
+  - package.json
+  - package-lock.json
   - vendor
