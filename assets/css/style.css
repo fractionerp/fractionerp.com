@@ -124,6 +124,7 @@ h1, h2, h3, h4, h5, h6 {
   background: #37517e;
 }
 #header .logo {
+  flex: 0 0 auto;
   font-size: 30px;
   margin: 0;
   padding: 0;
@@ -136,7 +137,9 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
 }
 #header .logo img {
-  max-height: 77px;
+  width: 150px;
+  height: auto;
+  max-height: 40px;
 }
 
 /*--------------------------------------------------------------
@@ -255,6 +258,18 @@ h1, h2, h3, h4, h5, h6 {
   }
   .navbar .dropdown .dropdown:hover > ul {
     left: -100%;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .navbar a, .navbar a:focus {
+    padding-left: 20px;
+  }
+  .navbar .getstarted, .navbar .getstarted:focus {
+    margin-left: 20px;
+  }
+  .navbar .login-link, .navbar .login-link:focus {
+    margin-left: 10px;
   }
 }
 

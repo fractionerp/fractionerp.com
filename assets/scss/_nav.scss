@@ -130,6 +130,24 @@
 
 }
 
+// Keep the full desktop navigation at the large breakpoint without
+// allowing it to compress the header logo.
+@media (min-width: 992px) and (max-width: 1199px) {
+  .navbar {
+    a, a:focus {
+      padding-left: 20px;
+    }
+
+    .getstarted, .getstarted:focus {
+      margin-left: 20px;
+    }
+
+    .login-link, .login-link:focus {
+      margin-left: 10px;
+    }
+  }
+}
+
 /**
 * Mobile Navigation 
 */
