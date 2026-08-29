@@ -6,6 +6,7 @@ description: "Watch our long form video demo and take a guided tour of Fraction 
 category: tour
 author: Giles Johnston
 permalink: /blog/video-demo-now-available/
+sitemap: false
 ---
 
 If you are keen to see a walkthrough of Fraction ERP, you can now do so via this video:

@@ -6,6 +6,7 @@ description: "Don't ruin your ERP implementation! Avoid these five traps."
 category: general
 author: Giles Johnston
 permalink: /blog/five-traps-to-avoid-that-kill-erp-implementations/
+image: /assets/img/blog/31c692a345f5cc9cd96c89e70bf8918d/contractdetail.png
 ---
 
 If you have been through a failed [**ERP implementation**](https://fractionerp.com/erp-implementation-guide.php), or have heard some of the 'horror' stories then read this article.
@@ -59,7 +60,7 @@ So, two main options exist here:
 
 
 1. Suck it up and ensure that you have a budget for training and the time put to one side.
-2. Find a [**simple ERP system **](https://fractionerp.com/index)that doesn't need as much training.
+2. Find a [**simple ERP system **](https://fractionerp.com/)that doesn't need as much training.
 
 
 We've developed Fraction ERP to fall into the second camp - a system that needs very little training.
@@ -132,7 +133,7 @@ When you first get your ERP system it is clean, neat and a dream (if you pick th
 Too much of this and your team might try to find alternative ways of working (spreadsheets, apps etc...).
 
 
-This ties in with having a [**simple to use ERP system**](https://fractionerp.com/index) but defining your housekeeping routine is easily one of the least sexy things you can talk about when it comes to ERP systems. However, it is also one of the most useful things to talk about if you want an efficient and effective ERP system.
+This ties in with having a [**simple to use ERP system**](https://fractionerp.com/) but defining your housekeeping routine is easily one of the least sexy things you can talk about when it comes to ERP systems. However, it is also one of the most useful things to talk about if you want an efficient and effective ERP system.
 
 
 So, figure out who needs to look after which bit of your system and keep it clean and tidy.

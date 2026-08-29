@@ -6,6 +6,7 @@ description: "If you don't know where to start with your  MRP / ERP business cas
 category: general
 author: Giles Johnston
 permalink: /blog/your-cloud-mrp-software-business-case/
+image: /assets/img/blog/6eb34f872ce5b6e64ed7efd27fef1647/SupportSite.jpg
 ---
 
 Choosing to use an MRP system for the first time, or moving to a new system, isn't a small decision. From our point of view, knowing the business case is as important as the [**software's functions**](https://fractionerp.com/features/).
@@ -124,20 +125,20 @@ If you are double handling data, e.g.  whiteboards and spreadsheets, you risk m
 
 
 
-MRP systems should help you to leverage your staff's time. For example, Fraction ERP's [**operations tracking feature**](https://fractionerp.com/production-scheduling/) can do this. Your production staff should spend less time tracking down orders on the shop floor.
+MRP systems should help you to leverage your staff's time. For example, Fraction ERP's [**operations tracking feature**](https://fractionerp.com/production-scheduling-software/) can do this. Your production staff should spend less time tracking down orders on the shop floor.
 
 
 They can then spend their time on higher level business activities. When you do this, you build the business and there should be a cash benefit to this.
 
 
-As an additional note - Fraction ERP includes [**free shop floor data capture licenses **](https://fractionerp.com/shop-floor-data-capture/)when you take out a paid subscription. You can get your whole shop floor team recording time and tracking progress at no extra cost!
+As an additional note - Fraction ERP includes [**free shop floor data capture licenses **](https://fractionerp.com/shopfloor-data-capture-software/)when you take out a paid subscription. You can get your whole shop floor team recording time and tracking progress at no extra cost!
 
 
 ---
 
 
 
-![]({{ site.baseurl }}/assets/img/blog/6eb34f872ce5b6e64ed7efd27fef1647/ShopFloorDataCapture.jpg)
+![Shop Floor Data Capture in Fraction ERP]({{ site.baseurl }}/assets/img/blog/6eb34f872ce5b6e64ed7efd27fef1647/ShopFloorDataCapture.jpg)
 
 
 **Fraction ERP's visual tracking screen**

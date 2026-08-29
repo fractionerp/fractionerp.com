@@ -6,6 +6,7 @@ description: "Get the most out of your ERP system with our free guide 'Looking B
 category: management
 author: Giles Johnston
 permalink: /blog/free-erp-systems-guide/
+image: /assets/img/blog/2fc6022e92b33e13d4b752ce4fd8f16d/LookingBeforeYouLeap-cover.jpg
 ---
 
 Are you looking for a new ERP system?
@@ -14,7 +15,7 @@ Are you looking for a new ERP system?
 Are you wanting to get the most out of your existing system?
 
 
-![]({{ site.baseurl }}/assets/img/blog/2fc6022e92b33e13d4b752ce4fd8f16d/LookingBeforeYouLeap-cover.jpg)
+![Looking Before You Leap cover in Fraction ERP]({{ site.baseurl }}/assets/img/blog/2fc6022e92b33e13d4b752ce4fd8f16d/LookingBeforeYouLeap-cover.jpg)
 
 
 We have just published our free guide '**Looking Before You Leap**'. The guide covers the areas of:

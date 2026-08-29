@@ -6,6 +6,7 @@ description: "Yes!  You can now automatically schedule your works orders and the
 category: production-scheduling
 author: Giles Johnston
 permalink: /blog/new-drag-and-drop-scheduling/
+image: /assets/img/blog/2145fd88219ad99d091779e324f5dbc8/Schedulerdraganddrop.png
 ---
 
 This week we have launched a new feature for [**Fraction ERP**](https://fractionerp.com/), our drag and drop scheduler!
@@ -58,7 +59,7 @@ As you can see from the image below, visualising the production schedule is clea
 Any changes to the schedule immediately reflect in the work to lists, ready for your teams to log on and record time / quantities against.
 
 
-This works great too because our [**shop floor data capture**](https://fractionerp.com/shop-floor-data-capture/) licenses come free when you have a paid subscription for your office staff!
+This works great too because our [**shop floor data capture**](https://fractionerp.com/shopfloor-data-capture-software/) licenses come free when you have a paid subscription for your office staff!
 
 
 ---

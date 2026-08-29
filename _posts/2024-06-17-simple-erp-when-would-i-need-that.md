@@ -6,6 +6,7 @@ description: "Find out more about what a simple ERP system is and who it is idea
 category: general
 author: Giles Johnston
 permalink: /blog/simple-erp-when-would-i-need-that/
+image: /assets/img/blog/627f1ad5d2269e102df424e1be80268f/planningpage.png
 ---
 
 [**Simple ERP**](https://fractionerp.com/simple-erp-system/) is a term used more commonly nowadays.

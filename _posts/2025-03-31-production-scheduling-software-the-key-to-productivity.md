@@ -11,6 +11,7 @@ related_posts_list:
   - /blog/erp-scheduling-software/
   - /blog/production-planning-software-tips-and-tricks/
   - /blog/the-benefits-of-manufacturing-scheduling-software/
+image: /assets/img/blog/2465c67f37e0a0801fac3ff980e8c29f/Schedulerdraganddrop.png
 ---
 
 This key part of an ERP system can unlock a whole raft of improvements for a business. [Production scheduling software](/production-scheduling-software/) is an integral part of an ERP system, ensuring that your operations are sequenced and timed for optimal productivity.

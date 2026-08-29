@@ -6,6 +6,7 @@ description: "Fraction ERP's new SOP module helps manufacturers create, control 
 category: general
 author: Fraction ERP
 permalink: /blog/new-sop-module-standard-work-without-chaos/
+image: /assets/img/sop-manager.webp
 ---
 
 Standard Operating Procedures (SOPs) are one of those "boring" tools that quietly make everything else work. When they're missing, you get variation, rework, and endless questions. When they're in place, you get consistency, faster training, and fewer surprises.

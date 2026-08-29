@@ -6,6 +6,7 @@ description: "Are you thinking about moving to a cloud solution for your ERP sys
 category: erp
 author: Giles Johnston
 permalink: /blog/5-reasons-cloud-erp-makes-sense/
+image: /assets/img/blog/autosave-b6aaf0c0a080a1f3b5326cdde60ffb71/top5reasonsclouderp.jpg
 ---
 
 Many software packages have moved onto the cloud, I sure that you have seen this transformation personally.
@@ -37,7 +38,7 @@ Fraction ERP doesn't require installation and no time on site; cloud ERP solutio
 
 
 
-![]({{ site.baseurl }}/assets/img/blog/autosave-b6aaf0c0a080a1f3b5326cdde60ffb71/top5reasonsclouderp.jpg)
+![top5reasonsclouderp in Fraction ERP]({{ site.baseurl }}/assets/img/blog/autosave-b6aaf0c0a080a1f3b5326cdde60ffb71/top5reasonsclouderp.jpg)
 
 
 

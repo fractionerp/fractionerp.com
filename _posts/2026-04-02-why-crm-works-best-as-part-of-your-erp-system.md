@@ -6,6 +6,7 @@ description: "Discover why having CRM built into your ERP system reduces duplica
 category: erp
 author: Fraction ERP
 permalink: /blog/why-crm-works-best-as-part-of-your-erp-system/
+image: /assets/img/blog-crm-erp.webp
 ---
 
 ![CRM integrated with ERP system](/assets/img/blog-crm-erp.webp)

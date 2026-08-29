@@ -6,6 +6,7 @@ description: "Learn how Fraction ERP works as nonconformance management software
 category: general
 author: Giles Johnston
 permalink: /blog/nonconformance-management-software/
+image: /assets/img/blog/e80cdb388b8980248b1ec02161b4c8a4/nonconformancefromworksorder.jpg
 ---
 
 One of the features of Fraction ERP is the [**nonconformance management software**](https://fractionerp.com/quality/) module.
@@ -34,7 +35,7 @@ Let us show you this through series of screenshots:
 
 
 
-![]({{ site.baseurl }}/assets/img/blog/e80cdb388b8980248b1ec02161b4c8a4/nonconformancefromworksorder.jpg)
+![nonconformancefromworksorder in Fraction ERP]({{ site.baseurl }}/assets/img/blog/e80cdb388b8980248b1ec02161b4c8a4/nonconformancefromworksorder.jpg)
 
 
 **Create a nonconformance record directly from the works order screen**
@@ -44,7 +45,7 @@ Let us show you this through series of screenshots:
 
 
 
-![]({{ site.baseurl }}/assets/img/blog/e80cdb388b8980248b1ec02161b4c8a4/nonconformanceinputpage.jpg)
+![nonconformanceinputpage in Fraction ERP]({{ site.baseurl }}/assets/img/blog/e80cdb388b8980248b1ec02161b4c8a4/nonconformanceinputpage.jpg)
 
 
 **Capture the root cause (red), action (green) and costs (blue)**
@@ -54,7 +55,7 @@ Let us show you this through series of screenshots:
 
 
 
-![]({{ site.baseurl }}/assets/img/blog/e80cdb388b8980248b1ec02161b4c8a4/nonconformancemanagementsoftware.jpg)
+![nonconformancemanagementsoftware in Fraction ERP]({{ site.baseurl }}/assets/img/blog/e80cdb388b8980248b1ec02161b4c8a4/nonconformancemanagementsoftware.jpg)
 
 
 **Manage corrective actions in one place**
@@ -64,7 +65,7 @@ Let us show you this through series of screenshots:
 
 
 
-**![]({{ site.baseurl }}/assets/img/blog/e80cdb388b8980248b1ec02161b4c8a4/nonconformancedashboard.jpg)**
+**![nonconformancedashboard in Fraction ERP]({{ site.baseurl }}/assets/img/blog/e80cdb388b8980248b1ec02161b4c8a4/nonconformancedashboard.jpg)**
 
 
 **Check on the number of open nonconformances via Fraction ERP's dashboard**

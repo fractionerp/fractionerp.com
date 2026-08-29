@@ -6,6 +6,7 @@ description: "Read how Fraction ERP began as a simpler manufacturing system for 
 category: general
 author: Giles Johnston
 permalink: /blog/the-first-step-in-the-evolution-of-fraction-erp/
+image: /assets/img/blog/855fe6836b333bd0b10d13f578502884/2020-07-22.png
 ---
 
 Well, we've made a start!
@@ -17,7 +18,7 @@ We've thrown out the previous ERP system; its complexity was bogging us down and
 The basic order management functions are all present. Quotations, sales order processing, works orders, purchasing and despatch. You can see these laid out on the screenshot below:
 
 
-![]({{ site.baseurl }}/assets/img/blog/855fe6836b333bd0b10d13f578502884/2020-07-22.png)
+![2020 07 22 in Fraction ERP]({{ site.baseurl }}/assets/img/blog/855fe6836b333bd0b10d13f578502884/2020-07-22.png)
 
 
 This meets the needs of the business' operations and whilst we realise that this doesn't cover the full range of an ERP system this has been a useful experiment.

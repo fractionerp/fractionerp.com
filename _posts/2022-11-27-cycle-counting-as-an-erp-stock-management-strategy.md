@@ -6,6 +6,7 @@ description: "Learn what cycle counting is, how it can make your production life
 category: inventory
 author: Giles Johnston
 permalink: /blog/cycle-counting-as-an-erp-stock-management-strategy/
+image: /assets/img/blog/44a783d4e6c63d8993351ada4fc93351/FractionERPpartconfiguration.jpg
 ---
 
 For many businesses, keeping on top of [**stock levels**](https://fractionerp.com/parts-and-inventory/) can take the stress out of the working day. Well managed stock levels can help you to:
@@ -55,7 +56,7 @@ You should come up with your own approach that suits your business. The key is l
 
 
 
-Before I share two simple approaches, configuring your stock parts is key. In [**Fraction ERP**](https://fractionerp.com/index) we offer a simple way to set up your parts.
+Before I share two simple approaches, configuring your stock parts is key. In [**Fraction ERP**](https://fractionerp.com/) we offer a simple way to set up your parts.
 
 
 Two important items to consider are the re-order level and the re-order quantity.

@@ -6,6 +6,7 @@ description: "Thinking of skipping the ERP demo and letting your team take the s
 category: general
 author: Giles Johnston
 permalink: /blog/erp-demo-feel-the-fear-and-do-it-anyway/
+image: /assets/img/blog/8312682b955af724618192d3b7afe70e/ERPdemoFractionERP.jpg
 ---
 
 Are you looking for a new [**ERP system**](https://fractionerp.com/) and are wary of engaging with a company to have a demo?

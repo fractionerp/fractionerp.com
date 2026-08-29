@@ -6,6 +6,7 @@ description: "Get the most out of ERP demos with this guide to spending your tim
 category: general
 author: Giles Johnston
 permalink: /blog/erp-demo-getting-the-most-from-your-time/
+image: /assets/img/blog/84436e1ee2e912ae307455731148c22d/IMG_1937.jpg
 ---
 
 Let's face it, ERP demos can take time.
@@ -73,7 +74,7 @@ Be aware of this fact and be clear as to what you need, what you will compromise
 This makes having an ERP demo more focused and helps streamline your evaluation process.
 
 
-![]({{ site.baseurl }}/assets/img/blog/84436e1ee2e912ae307455731148c22d/IMG_1937.jpg)
+![ERP demo - getting the most from your time screenshot]({{ site.baseurl }}/assets/img/blog/84436e1ee2e912ae307455731148c22d/IMG_1937.jpg)
 
 
 **Fraction ERP, in use with Oiltech Bearings**

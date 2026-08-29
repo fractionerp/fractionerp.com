@@ -6,6 +6,7 @@ description: "Learn more about purchase order inventory management systems. Low 
 category: purchasing
 author: Giles Johnston
 permalink: /blog/purchase-order-inventory-management-systems/
+image: /assets/img/blog/61e385a5c6def84bc5c3000f187c4417/partdemand.jpg
 ---
 
 We're often asked if an ERP system is a [**purchase order inventory management system**](https://fractionerp.com/purchasing/). This is a common question that comes up during demos.

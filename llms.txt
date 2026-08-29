@@ -7,9 +7,9 @@ sitemap: false
 
 > Cloud ERP software for small to medium-sized precision engineering, manufacturing, fabrication, and assembly companies. Fraction ERP helps businesses move from spreadsheets to a fully operational ERP system, covering sales, purchasing, inventory, production scheduling, shop floor data capture, quality, shipping, and invoicing.
 
-Fraction ERP is built for manufacturing SMEs who have outgrown spreadsheets but don't need the complexity or cost of enterprise systems. It is designed to be implemented in 30 days without expensive consultants, with transparent per-user pricing and no hidden fees.
+Fraction ERP is designed for manufacturing SMEs that have outgrown spreadsheets but do not need the overhead of an enterprise ERP project. It provides serious manufacturing capability through workflows that are straightforward to understand, learn, implement, and operate.
 
-The company is UK-based (Newcastle, United Kingdom) and founder-led. Patrick, the founder, is also managing director of a precision engineering company (Oiltech Bearings) where Fraction ERP is used daily — so the product is shaped by real operational experience.
+Fraction ERP is continuously developed through two sources of current information: feedback from Fraction customers and daily use inside a real precision engineering business. Fraction's Product Manager also runs that manufacturing business, so product decisions are informed by current operational experience rather than assumptions about how a factory should work.
 
 For a fuller AI-readable product brief, see [llms-full.txt](https://fractionerp.com/llms-full.txt).
 
@@ -21,9 +21,9 @@ Fraction ERP is a cloud-based manufacturing ERP and MRP system for SMEs that nee
 
 - [Home](https://fractionerp.com/): Overview of Fraction ERP for manufacturers
 - [Features](https://fractionerp.com/features/): Full feature list across sales, production, quality, and business
-- [Pricing](https://fractionerp.com/pricing/): Transparent per-user pricing, no contracts
+- [Pricing](https://fractionerp.com/pricing/): Public per-user subscription pricing and included services
 - [Book a Demo](https://fractionerp.com/book-a-demo/): Schedule a live product demo
-- [Book a Free ERP Strategy Call](https://fractionerp.com/lp/erp-strategy-call/): 30-minute advisory session with the founder — practical, no-pressure advice on whether ERP is right for your business
+- [Book a Free ERP Strategy Call](https://fractionerp.com/lp/erp-strategy-call/): 30-minute advisory session with Fraction's Product Manager about whether ERP is right for your business
 - [About](https://fractionerp.com/about/): Company story, team, and mission
 - [Contact](https://fractionerp.com/contact/): Get in touch
 
@@ -44,7 +44,7 @@ Fraction ERP is a cloud-based manufacturing ERP and MRP system for SMEs that nee
 - [Time and Attendance](https://fractionerp.com/time-and-attendance/): Add-on for any Fraction ERP subscription plan at £3 per user per month with all Time and Attendance features included; covers leave rules and approvals, mobile and kiosk clocking, geofencing, shift and overtime tracking, Bradford Factor scores, not-in-yet alerts, SFDC closure checks and live staff availability in production scheduling
 - [AI in ERP and the Intelligence Centre](https://fractionerp.com/ai-in-erp/): Pro-plan rules-based manufacturing intelligence that ranks profitability, cost, operation, purchasing, delivery, people and data-quality exceptions; it is not a generative AI agent and links every finding back to ERP evidence for human review
 - [CRM](https://fractionerp.com/crm/): Customer relationship management within ERP
-- [Integrations](https://fractionerp.com/erp-integrations/): Accounting, accounts payable, ecommerce, manufacturing, API and data integrations
+- [Integrations](https://fractionerp.com/integrations/): Accounting, accounts payable, ecommerce, manufacturing, API and data integrations
 - [Accounting Integrations](https://fractionerp.com/accounting-integrations/): Xero, Sage, QuickBooks and Lightyear integrations
 - [Ecommerce Integrations](https://fractionerp.com/ecommerce-integrations/): Ecommerce and Bluepark integration for spare parts and custom parts sales
 - [API and Data Integrations](https://fractionerp.com/api-integrations/): Power BI, Zapier, Excel, Python and REST API workflows
@@ -74,9 +74,11 @@ Fraction ERP is a cloud-based manufacturing ERP and MRP system for SMEs that nee
 - [5 Signs Your ERP Is Failing You](https://fractionerp.com/erp-failing-signs-checklist/): Free checklist for manufacturers assessing whether an existing ERP system is holding them back
 - [Blog](https://fractionerp.com/blog/): Articles on manufacturing, ERP, production management
 
-## Case Study
+## Case Studies
 
 - [Oiltech Bearings Case Study](https://fractionerp.com/case-studies/oiltech/): Real-world deployment at a precision engineering company
+- [Cambridge Rapid Case Study](https://fractionerp.com/case-studies/cambridge-rapid/): How a sheet-metal manufacturer replaced a restrictive MRP system and improved operational visibility and adoption
+- [Trinity Precision Engineering Case Study](https://fractionerp.com/case-studies/trinity-precision-engineering/): How a precision engineering company improved RFQ, purchasing, production and management workflows
 
 ## Support and Documentation
 
@@ -94,11 +96,12 @@ Fraction ERP is a cloud-based manufacturing ERP and MRP system for SMEs that nee
 
 ## Key Positioning
 
-- Built for manufacturing — not retrofitted from accounting software
-- Go-live in 30 days — no 12-month implementation projects
-- No consultants required — self-service setup with guided support
-- Transparent per-user pricing — no module add-ons, no contracts
-- Founder-led — not a sales team; product manager is a daily ERP user
+- Serious manufacturing capability without unnecessary enterprise complexity
+- Simple to understand, learn, implement and operate; deep where manufacturing requires it
+- Continuously improved through daily manufacturing use and customer feedback
+- Fraction's Product Manager actively runs a manufacturing business that uses Fraction every day
+- Connected sales, MRP, purchasing, scheduling, production, inventory, quality and delivery workflows
+- Public per-user pricing, with optional add-ons and specialist editions identified separately
 
 ## Common Query Matches
 

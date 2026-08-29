@@ -6,6 +6,7 @@ description: "Learn how our production planning software helps speed up your fac
 category: production-scheduling
 author: Giles Johnston
 permalink: /blog/production-planning-software-tips-and-tricks/
+image: /assets/img/blog/031a6b5c7e9cd4ab556d084e56381811/BOMnewpart.jpg
 ---
 
 If you are looking to save some time with your production planning tasks, then Fraction ERP can help.
@@ -23,7 +24,7 @@ And, for clarification we're using the old fashioned description of production p
 
 
 
-Being able to quickly build a [**Bill of Materials**](https://fractionerp.com/bill-of-materials/) record is key to streamlining your production planning activities.
+Being able to quickly build a [**Bill of Materials**](https://fractionerp.com/bill-of-materials-software/) record is key to streamlining your production planning activities.
 
 
 We've tied the manufacturing route and the list of materials into one screen, to help with this process.
@@ -59,7 +60,7 @@ In short, Fraction ERP has a simple approval process. The people allowed to appr
 If a (junior) member of the team accidentally changes something on a BOM it cannot then go into production until someone reviews it and approves it.
 
 
-![]({{ site.baseurl }}/assets/img/blog/031a6b5c7e9cd4ab556d084e56381811/BOMapproval.jpg)
+![BOMapproval in Fraction ERP]({{ site.baseurl }}/assets/img/blog/031a6b5c7e9cd4ab556d084e56381811/BOMapproval.jpg)
 
 
 **Controlling who can approve BOMs is just a couple of clicks in Fraction ERP**

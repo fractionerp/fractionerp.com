@@ -6,6 +6,7 @@ description: "If you have heard the term Cloud MRP Software but aren't sure what
 category: erp
 author: Giles Johnston
 permalink: /blog/cloud-mrp-software-what-is-it/
+image: /assets/img/blog/2d0ba2d38a7691cbe0928620b3b7847f/FractionERP-VisualScheduler.png
 ---
 
 [**Cloud MRP software**](https://fractionerp.com/features/) is a term that is used pretty regularly nowadays. But what is it?
@@ -34,7 +35,7 @@ When we started on the Fraction ERP journey, we wanted it to be simple to use an
 
 
 
-![]({{ site.baseurl }}/assets/img/blog/2d0ba2d38a7691cbe0928620b3b7847f/FractionERP-VisualScheduler.png)
+![Fraction ERP Visual Scheduler in Fraction ERP]({{ site.baseurl }}/assets/img/blog/2d0ba2d38a7691cbe0928620b3b7847f/FractionERP-VisualScheduler.png)
 
 
 **Fraction ERP's visual scheduling screen**

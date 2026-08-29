@@ -6,6 +6,7 @@ description: "Find out how the BOM approval system works within Fraction ERP."
 category: erp
 author: Giles Johnston
 permalink: /blog/the-bom-approval-process-in-fraction-erp-is-straightforward/
+image: /assets/img/blog/bf892b40a8096ea51bc1d79f007961c1/BOM_1.png
 ---
 
 The BOM approval process in Fraction ERP is straightforward. When you change the operations, or the part structure, the status reverts to draft.
@@ -15,7 +16,7 @@ The BOM approval process in Fraction ERP is straightforward. When you change the
 
 
 
-![]({{ site.baseurl }}/assets/img/blog/bf892b40a8096ea51bc1d79f007961c1/BOM_1.png)
+![BOM 1 in Fraction ERP]({{ site.baseurl }}/assets/img/blog/bf892b40a8096ea51bc1d79f007961c1/BOM_1.png)
 
 
 **The BOM showing the 'CHECK' button, ready for approval**
@@ -32,7 +33,7 @@ As you can see from the screenshots, we have a simple workflow to control BOM ch
 
 
 
-![]({{ site.baseurl }}/assets/img/blog/bf892b40a8096ea51bc1d79f007961c1/BOM_2.png)
+![BOM 2 in Fraction ERP]({{ site.baseurl }}/assets/img/blog/bf892b40a8096ea51bc1d79f007961c1/BOM_2.png)
 
 
 **Once checked, the 'APPROVE' button appears**
@@ -42,7 +43,7 @@ As you can see from the screenshots, we have a simple workflow to control BOM ch
 
 
 
-![]({{ site.baseurl }}/assets/img/blog/bf892b40a8096ea51bc1d79f007961c1/BOM_3.png)
+![BOM 3 in Fraction ERP]({{ site.baseurl }}/assets/img/blog/bf892b40a8096ea51bc1d79f007961c1/BOM_3.png)
 
 
 **After approval, the status (left hand side) shows as 'Approved'**

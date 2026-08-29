@@ -6,9 +6,11 @@ description: "Our new support website is live. Check out our simple tutorials to
 category: product-updates
 author: Giles Johnston
 permalink: /blog/our-new-support-site-is-live/
+sitemap: false
+image: /assets/img/blog/7bd92e8b29548beb9f61c5e7e3deda5d/FractionERPSupportSite.jpg
 ---
 
-One of [**Fraction ERP**](https://fractionerp.com/index)'s key features is that it is easy to learn. Fast to pick up. Quick to get results from.
+One of [**Fraction ERP**](https://fractionerp.com/)'s key features is that it is easy to learn. Fast to pick up. Quick to get results from.
 
 
 Our user onboarding is largely self-service, which helps us to [**keep our prices low**](https://fractionerp.com/pricing/).

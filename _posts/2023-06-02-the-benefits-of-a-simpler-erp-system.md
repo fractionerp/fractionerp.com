@@ -6,6 +6,7 @@ description: "'Simpler' doesn't mean 'lacking'! Learn why Fraction ERP is proud 
 category: general
 author: Giles Johnston
 permalink: /blog/the-benefits-of-a-simpler-erp-system/
+image: /assets/img/blog/c767372a9dd9b1c76b6f7ce26c49fb0d/FractionERP-VisualScheduler.png
 ---
 
 When you search for an ERP system it can be frightening just how many options there are available today.
@@ -14,10 +15,10 @@ When you search for an ERP system it can be frightening just how many options th
 So many variations... So many features... We recognise that this can cause more problems than it solves.
 
 
-We intentionally made [**Fraction ERP**](https://fractionerp.com/index) a stripped back ERP system. We don't hide the fact that our system doesn't do some of the things that larger (and more expensive) systems can do.
+We intentionally made [**Fraction ERP**](https://fractionerp.com/) a stripped back ERP system. We don't hide the fact that our system doesn't do some of the things that larger (and more expensive) systems can do.
 
 
-We also don't hide the fact that our software is aimed at businesses that are looking for their [**first ERP system**](https://fractionerp.com/index), or need a simpler alternative to what they have already.
+We also don't hide the fact that our software is aimed at businesses that are looking for their [**first ERP system**](https://fractionerp.com/), or need a simpler alternative to what they have already.
 
 
 This article will look at pros and cons of a simplified ERP system and why we pushed our system in this direction.
@@ -54,7 +55,7 @@ A simpler ERP system is:
 
 
 
-[![]({{ site.baseurl }}/assets/img/blog/c767372a9dd9b1c76b6f7ce26c49fb0d/FractionERP-VisualScheduler.png)](https://fractionerp.com/production-scheduling/)
+[![Fraction ERP Visual Scheduler in Fraction ERP]({{ site.baseurl }}/assets/img/blog/c767372a9dd9b1c76b6f7ce26c49fb0d/FractionERP-VisualScheduler.png)](https://fractionerp.com/production-scheduling-software/)
 
 
 **Clean, simple, visual scheduling screens are present in Fraction ERP**

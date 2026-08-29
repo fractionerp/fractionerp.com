@@ -6,6 +6,7 @@ description: "Reduce time spent on scheduling production by using planning horiz
 category: production-scheduling
 author: Giles Johnston
 permalink: /blog/active-scheduling-of-your-planning-horizons/
+image: /assets/img/blog/345ea20eeb4b709456c80da0794d38c7/schedulinghorizons.jpg
 ---
 
 Scheduling and re-scheduling... the cause of much frustration within most manufacturing businesses. When you spend a good chunk of time on this activity, to stay still, you can understand why it is frustrating.
@@ -28,7 +29,7 @@ Firstly, it is typical to have three horizons.
 
 
 
-![]({{ site.baseurl }}/assets/img/blog/345ea20eeb4b709456c80da0794d38c7/schedulinghorizons.jpg)
+![schedulinghorizons in Fraction ERP]({{ site.baseurl }}/assets/img/blog/345ea20eeb4b709456c80da0794d38c7/schedulinghorizons.jpg)
 
 
 The short term. In this period, you fix work order operation dates and schedule / plan the work with precision.
@@ -46,7 +47,7 @@ The time periods referenced above will need to be appropriate to your business. 
 Using the time frames has less to do with durations and more to do with the approach. Many businesses try to schedule everything as though it had to be perfect. The reality is that the orders in several weeks / months time might need to be approximately right. The turbulence in the order book may cause orders to be re-scheduled several more times before you produce them.
 
 
-![]({{ site.baseurl }}/assets/img/blog/345ea20eeb4b709456c80da0794d38c7/Schedulingandtime.jpg)
+![Schedulingandtime in Fraction ERP]({{ site.baseurl }}/assets/img/blog/345ea20eeb4b709456c80da0794d38c7/Schedulingandtime.jpg)
 
 
 Fraction ERP has taken this approach on board. The Core package has weekly scheduling buckets to keep this process simple. The [**Advanced and Pro options**](https://fractionerp.com/pricing/) have daily and hourly scheduling options.
@@ -58,7 +59,7 @@ Following the time periods above, you can use Fraction ERP to reduce scheduling 
 There is little point spending time scheduling to the nth degree, to re-do it eight more times.
 
 
-![]({{ site.baseurl }}/assets/img/blog/345ea20eeb4b709456c80da0794d38c7/daily_weekly.jpg)
+![daily weekly in Fraction ERP]({{ site.baseurl }}/assets/img/blog/345ea20eeb4b709456c80da0794d38c7/daily_weekly.jpg)
 
 
 Is your business is spending a lot of time scheduling and re-scheduling? If so, try out the horizons approach.

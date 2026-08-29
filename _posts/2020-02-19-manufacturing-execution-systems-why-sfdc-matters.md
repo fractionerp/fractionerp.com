@@ -6,6 +6,7 @@ description: "Get more from your manufacturing execution system when you properl
 category: shop-floor
 author: Giles Johnston
 permalink: /blog/manufacturing-execution-systems-why-sfdc-matters/
+image: /assets/img/blog/af51f61eef07fa7f5860c4c38f0aaa0d/manufacturingexecutionsystems.png
 ---
 
 The first time I saw the Manufacturing Execution System part of an ERP system was over twenty years ago. I remember seeing the dummy terminals being installed into the factory and the look on the faces of my team. I ran a loss making business unit in this factory, it wasn't the greatest period in my working life at the time. We installed the systems and I rolled out the training. Overnight things changed. I no longer had to run around the factory wondering where everything was. Shop Floor Data Collection (SFDC) was making its mark!
@@ -17,7 +18,7 @@ Sure, it wasn't perfect on day one. I now knew where most of my production order
 The time I use to spend running around the shop floor trying to locate production orders in order to satisfy customer queries was now being invested into continuous improvement. The Manufacturing Execution System was delivering me a benefit that I had not anticipated - time! Through the combination of improved communication, continuous improvement, effective SFDC inputs and ongoing ERP development the team and I moved our on time delivery performance from the low 50% mark up to a consistent 98% +. Our profitability returned too as we were also able to increase our output with no additional staff costs. Eventually this loss making business unit brought the entire division into profit and my life became a whole load easier.
 
 
-![]({{ site.baseurl }}/assets/img/blog/af51f61eef07fa7f5860c4c38f0aaa0d/manufacturingexecutionsystems.png)
+![manufacturingexecutionsystems in Fraction ERP]({{ site.baseurl }}/assets/img/blog/af51f61eef07fa7f5860c4c38f0aaa0d/manufacturingexecutionsystems.png)
 
 
 SFDC works but why do so many people still not embrace it fully. I think that there are two simple parts to this answer.
@@ -39,7 +40,7 @@ Secondly, there are many schedulers and planners out there that are scared of th
 Of course, having a simple SFDC system built into your Manufacturing Execution System is another route to take. If it is easy to use then you will get better uptake. This is the approach that we opted for at Fraction. You will still need to manage points 1 and 2 above, but they will be less difficult to embrace with a simple SFDC tool. You can see from the screenshot below that it produces a very simple tracking tool.
 
 
-![]({{ site.baseurl }}/assets/img/blog/af51f61eef07fa7f5860c4c38f0aaa0d/SFDCTracking.jpg)
+![SFDCTracking in Fraction ERP]({{ site.baseurl }}/assets/img/blog/af51f61eef07fa7f5860c4c38f0aaa0d/SFDCTracking.jpg)
 
 
 If you want to explore a simpler ERP system and a simpler SFDC tool then book a demo with Fraction ERP today. [You can click here to get started](https://fractionerp.com/contact/).

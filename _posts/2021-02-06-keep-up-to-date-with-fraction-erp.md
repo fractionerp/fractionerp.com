@@ -6,12 +6,13 @@ description: "Find the best channel to keep up to date with Fraction ERP"
 category: general
 author: Giles Johnston
 permalink: /blog/keep-up-to-date-with-fraction-erp/
+image: /assets/img/blog/d7eb9638bcfe5ce2ed750e6e325dc778/WhatsAppImage2021-02-03at06.36.27.jpeg
 ---
 
 As Fraction ERP is a cloud based system, we are constantly rolling out updates and features.
 
 
-![]({{ site.baseurl }}/assets/img/blog/d7eb9638bcfe5ce2ed750e6e325dc778/WhatsAppImage2021-02-03at06.36.27.jpeg)
+![Whats App Image2021 02 03at06.36.27 in Fraction ERP]({{ site.baseurl }}/assets/img/blog/d7eb9638bcfe5ce2ed750e6e325dc778/WhatsAppImage2021-02-03at06.36.27.jpeg)
 
 
 There are few ways to keep up to date with our changes and find out about the features of our system:

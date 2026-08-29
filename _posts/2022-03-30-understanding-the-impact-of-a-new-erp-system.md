@@ -6,6 +6,7 @@ description: "You need to consider the impact an ERP system will have on your re
 category: general
 author: Giles Johnston
 permalink: /blog/understanding-the-impact-of-a-new-erp-system/
+image: /assets/img/blog/2417dee1dc4167f27e1b8239a750ff78/implementation-guide.png
 ---
 
 It can be daunting considering a move to a new ERP system. Whilst the current ways of working may not be great, getting past the familiarity is a challenge. You know what you are doing at present. A new system... well, will it be OK?
@@ -18,7 +19,7 @@ The short answer should be a resounding 'yes!'. This article's intention is to b
 
 
 
-![]({{ site.baseurl }}/assets/img/blog/2417dee1dc4167f27e1b8239a750ff78/implementation-guide.png)
+![implementation guide in Fraction ERP]({{ site.baseurl }}/assets/img/blog/2417dee1dc4167f27e1b8239a750ff78/implementation-guide.png)
 
 
 
@@ -37,7 +38,7 @@ Before you start looking at other systems, getting your head around this is key.
 There may be some processes (or steps) that are / could be bottlenecks. Identify these and make these central to your ERP evaluations. Make sure that you are improving the bottlenecks, or at least not making them worse.
 
 
-![]({{ site.baseurl }}/assets/img/blog/2417dee1dc4167f27e1b8239a750ff78/ContractRevisions.png)
+![Contract Revisions in Fraction ERP]({{ site.baseurl }}/assets/img/blog/2417dee1dc4167f27e1b8239a750ff78/ContractRevisions.png)
 
 
 **Our quick quote revision tool speeds up sales activities**
@@ -70,7 +71,7 @@ Some of your processes will be OK to change and there is a good chance that adop
 You might find that some of the features of an ERP system look like they will take longer than your current method to complete. There is a good chance that spending more time on a certain process will help you somewhere else. Yet, you need to find this out. Don't leave this to chance, know where the gains are coming from.
 
 
-![]({{ site.baseurl }}/assets/img/blog/2417dee1dc4167f27e1b8239a750ff78/Visualscheduling.png)
+![Visualscheduling in Fraction ERP]({{ site.baseurl }}/assets/img/blog/2417dee1dc4167f27e1b8239a750ff78/Visualscheduling.png)
 
 
 **Fast visual production scheduling; available with all subscriptions**
@@ -90,7 +91,7 @@ This brings us to the importance of having good demos and trialling the software
 It should help you to speed up your processes, but only you can determine this. If you want to find out more, [**fill in the form**](https://fractionerp.com/contact/) at the end of this article.
 
 
-![]({{ site.baseurl }}/assets/img/blog/2417dee1dc4167f27e1b8239a750ff78/ShopFloorTracking.png)
+![Shop Floor Tracking in Fraction ERP]({{ site.baseurl }}/assets/img/blog/2417dee1dc4167f27e1b8239a750ff78/ShopFloorTracking.png)
 
 
 **Save time hunting around the shop floor with our high level production tracker**

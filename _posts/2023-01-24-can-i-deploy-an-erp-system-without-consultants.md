@@ -6,6 +6,7 @@ description: "If you are concerned that the cost of an ERP system deployment can
 category: erp
 author: Giles Johnston
 permalink: /blog/can-i-deploy-an-erp-system-without-consultants/
+image: /assets/img/blog/b4f82e68113fb09aa39519ef13a7c492/FractionERP-VisualScheduler.png
 ---
 
 The short answer is "yes!".

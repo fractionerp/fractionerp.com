@@ -6,6 +6,7 @@ description: "View the Fraction ERP walkthrough videos and find out more about o
 category: tour
 author: Giles Johnston
 permalink: /blog/walkthrough-videos/
+sitemap: false
 ---
 
 To find out more about [**Fraction ERP**](https://fractionerp.com/features/), please view the walkthrough videos below.

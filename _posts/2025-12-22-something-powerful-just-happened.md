@@ -6,6 +6,7 @@ description: "V2 is here - Fraction ERP's biggest upgrade ever, delivering a new
 category: general
 author: Giles Johnston
 permalink: /blog/something-powerful-just-happened/
+image: /assets/img/blog/v2-release.jpg
 ---
 
 ![Fraction ERP V2 Release]({{ site.baseurl }}/assets/img/blog/v2-release.jpg)
@@ -32,6 +33,6 @@ Find out more at [www.fractionerp.com](https://fractionerp.com)
 
 ---
 
-[![Fraction's V2 Scheduler]({{ site.baseurl }}/assets/img/blog/fraction-v2-scheduler.png)](https://fractionerp.com/production-scheduling/)
+[![Fraction's V2 Scheduler]({{ site.baseurl }}/assets/img/blog/fraction-v2-scheduler.png)](https://fractionerp.com/production-scheduling-software/)
 
 **Fraction's V2 Scheduler**

@@ -6,6 +6,7 @@ description: "Covid-19 isn't helping businesses to run as usual. A cloud ERP sys
 category: erp
 author: Giles Johnston
 permalink: /blog/an-erp-system-that-works-from-anywhere/
+image: /assets/img/blog/f3aa946036fe822bcc67fe9d62d13ca3/WO_tracking_20201010.jpg
 ---
 
 How has working during lockdown affected you and your team?
@@ -89,7 +90,7 @@ Working in the cloud offers flexibility and advantages that server based options
 
 
 
-![]({{ site.baseurl }}/assets/img/blog/f3aa946036fe822bcc67fe9d62d13ca3/login.jpg)
+![login in Fraction ERP]({{ site.baseurl }}/assets/img/blog/f3aa946036fe822bcc67fe9d62d13ca3/login.jpg)
 
 
 *Cloud ERP - just open an Internet browser and get going!*

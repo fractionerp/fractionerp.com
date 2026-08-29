@@ -6,6 +6,7 @@ description: "Find out what you can do if you start using automated shop floor t
 category: shop-floor
 author: Giles Johnston
 permalink: /blog/shop-floor-tracking/
+image: /assets/img/blog/43bc5c302004b7e3d6707d4f96e218d5/shopfloortracking.jpg
 ---
 
 One of the repeat questions we hear during demos is 'why should I use the shop floor tracking tools?'.

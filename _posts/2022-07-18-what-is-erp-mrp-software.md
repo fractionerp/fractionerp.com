@@ -6,6 +6,7 @@ description: "Find out the difference between the commonly used erp / mrp terms 
 category: general
 author: Giles Johnston
 permalink: /blog/what-is-erp-mrp-software/
+image: /assets/img/blog/58effacae1437815142fd92801c696ca/ERPImplementationGuidecover.jpg
 ---
 
 If you are new to [**erp software**](https://fractionerp.com/) you might find some of the terms confusing.

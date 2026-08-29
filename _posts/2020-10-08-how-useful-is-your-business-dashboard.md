@@ -6,6 +6,7 @@ description: "Does your ERP dashboard help you to make good decisions faster?"
 category: erp
 author: Giles Johnston
 permalink: /blog/how-useful-is-your-business-dashboard/
+image: /assets/img/blog/4973782d0d5d5a626c84372e9c9ed0b0/dashboard.jpg
 ---
 
 Dashboards, they're all the rage aren't they? It is very common that you find management teams talking about dashboards.
@@ -133,7 +134,7 @@ You can see a screenshot of our dashboard below:
 
 
 
-![]({{ site.baseurl }}/assets/img/blog/4973782d0d5d5a626c84372e9c9ed0b0/dashboard.jpg)
+![dashboard in Fraction ERP]({{ site.baseurl }}/assets/img/blog/4973782d0d5d5a626c84372e9c9ed0b0/dashboard.jpg)
 
 
 

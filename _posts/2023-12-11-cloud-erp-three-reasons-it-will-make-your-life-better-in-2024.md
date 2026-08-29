@@ -6,6 +6,7 @@ description: "Discover three really good reasons to use a cloud ERP system"
 category: general
 author: Giles Johnston
 permalink: /blog/cloud-erp-three-reasons-it-will-make-your-life-better-in-2024/
+image: /assets/img/blog/d55dec74915bb0721759a7bda55324f2/IMG_1942.jpg
 ---
 
 As we're nearing the end of the year, I thought I'd write this post for all the manufacturers who aren't sure if a [**cloud ERP**](https://fractionerp.com/) system could make a difference to their business.

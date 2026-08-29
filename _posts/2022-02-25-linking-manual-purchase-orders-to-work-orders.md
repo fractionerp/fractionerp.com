@@ -6,6 +6,7 @@ description: "New update allows you to manually align your purchases with your w
 category: purchasing
 author: Giles Johnston
 permalink: /blog/linking-manual-purchase-orders-to-work-orders/
+image: /assets/img/blog/015b736c9ffb7c7d75194f53bf3350fa/potag1.jpg
 ---
 
 Fraction ERP allows you to work flexibly; this is one of the [**features **](https://fractionerp.com/features/)that our customers love.
@@ -19,7 +20,7 @@ During our latest release we have added the option to manually 'tag' a purchase 
 
 
 
-![]({{ site.baseurl }}/assets/img/blog/015b736c9ffb7c7d75194f53bf3350fa/potag1.jpg)
+![potag1 in Fraction ERP]({{ site.baseurl }}/assets/img/blog/015b736c9ffb7c7d75194f53bf3350fa/potag1.jpg)
 
 
 1. Select the work order you want to assign a purchase order to, click on the corresponding '+ LINK PO' button.
@@ -27,7 +28,7 @@ During our latest release we have added the option to manually 'tag' a purchase 
 
 
 
-![]({{ site.baseurl }}/assets/img/blog/015b736c9ffb7c7d75194f53bf3350fa/potag2.jpg)
+![potag2 in Fraction ERP]({{ site.baseurl }}/assets/img/blog/015b736c9ffb7c7d75194f53bf3350fa/potag2.jpg)
 
 
 2. Select the appropriate purchase order from the list and click on the 'SAVE' button.

@@ -6,6 +6,7 @@ description: "If you want to learn a faster way to manage your business with ERP
 category: erp
 author: Giles Johnston
 permalink: /blog/erp-systems-don-t-get-you-off-the-hook-with-management/
+image: /assets/img/blog/72950b0cac9eed4de67fe6b708d9bfff/FE_capacity.png
 ---
 
 Do you work in a business that hoped that deploying an ERP system would solve most management challenges?
@@ -157,7 +158,7 @@ Let me give you some quick examples.
 If you want to see if your manufacturing capacity is overloaded, it just takes one quick glance. From here you can move your production orders, or flex your capacity, to manage this situation.
 
 
-![]({{ site.baseurl }}/assets/img/blog/72950b0cac9eed4de67fe6b708d9bfff/FE_capacity.png)
+![FE capacity in Fraction ERP]({{ site.baseurl }}/assets/img/blog/72950b0cac9eed4de67fe6b708d9bfff/FE_capacity.png)
 
 
 
@@ -165,7 +166,7 @@ If you want to see if your manufacturing capacity is overloaded, it just takes o
 Checking on overdue manufacturing operations is, again, just a couple of clicks to review. From here you can reschedule, or organise overtime. It takes just a couple of clicks to determine and this is a good example of the information that might need to be shared with your colleagues during a daily production meeting.
 
 
-![]({{ site.baseurl }}/assets/img/blog/72950b0cac9eed4de67fe6b708d9bfff/FE_operations.png)
+![FE operations in Fraction ERP]({{ site.baseurl }}/assets/img/blog/72950b0cac9eed4de67fe6b708d9bfff/FE_operations.png)
 
 
 
@@ -173,7 +174,7 @@ Checking on overdue manufacturing operations is, again, just a couple of clicks 
 Keeping a track on 'open' quotes is a simple way to assess whether you need to chase up customers for decisions or whether you can leave it a little longer. Either way, this can help you to keep your order book tidy and well managed.
 
 
-![]({{ site.baseurl }}/assets/img/blog/72950b0cac9eed4de67fe6b708d9bfff/FE_quotes.png)
+![FE quotes in Fraction ERP]({{ site.baseurl }}/assets/img/blog/72950b0cac9eed4de67fe6b708d9bfff/FE_quotes.png)
 
 
 
@@ -181,7 +182,7 @@ Keeping a track on 'open' quotes is a simple way to assess whether you need to c
 The same goes for purchase orders. "What is overdue?" is a good question to ask, and in Fraction it is just another click away. From here, effective expediting can take place.
 
 
-![]({{ site.baseurl }}/assets/img/blog/72950b0cac9eed4de67fe6b708d9bfff/FE_purchasing.png)
+![FE purchasing in Fraction ERP]({{ site.baseurl }}/assets/img/blog/72950b0cac9eed4de67fe6b708d9bfff/FE_purchasing.png)
 
 
 

@@ -6,6 +6,7 @@ description: "A simple ERP system should allow you to re-direct your admin resou
 category: general
 author: Giles Johnston
 permalink: /blog/simple-erp-and-the-gift-of-reduced-admin/
+image: /assets/img/blog/1ad23da900a2c78c469520d7846fe699/contractview.png
 ---
 
 Do you wish that you could reduce the amount of administrative work your team have to do, to get production out of the door?

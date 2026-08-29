@@ -6,6 +6,7 @@ description: "Cloud ERP can bring numerous benefits to you and your business, in
 category: general
 author: Giles Johnston
 permalink: /blog/cloud-erp-five-ways-it-can-make-your-life-easier/
+image: /assets/img/blog/94948a23fd87d17bf0f4ebfe9c7bb72e/IMG_1937.jpg
 ---
 
 There are many good reasons why using a cloud ERP system makes sense. This short articles looks at five of our favourite.

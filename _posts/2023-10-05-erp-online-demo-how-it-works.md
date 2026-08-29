@@ -18,7 +18,7 @@ This short article is to help clarify the process we go through, so there are no
 
 
 
-The reason that we offer a demo, before the free trial, is to save you time. We don't want you wasting your trial time trying to understand how to use [**Fraction ERP**](https://fractionerp.com/index) when we can simply show you how it works in just a few minutes.
+The reason that we offer a demo, before the free trial, is to save you time. We don't want you wasting your trial time trying to understand how to use [**Fraction ERP**](https://fractionerp.com/) when we can simply show you how it works in just a few minutes.
 
 
 ## How to book your demo

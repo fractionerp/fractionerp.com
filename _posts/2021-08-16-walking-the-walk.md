@@ -6,12 +6,13 @@ description: "We put our money where our mouth is by using Fraction ERP in one o
 category: general
 author: Giles Johnston
 permalink: /blog/walking-the-walk/
+image: /assets/img/blog/7e5335df84411681a6b49ae4377e6530/WhatsAppImage2021-08-12at17.11.56.jpeg
 ---
 
 It's one thing to create a piece of software, it is another to use it in your own business...
 
 
-![]({{ site.baseurl }}/assets/img/blog/7e5335df84411681a6b49ae4377e6530/WhatsAppImage2021-08-12at17.11.56.jpeg)
+![Whats App Image2021 08 12at17.11.56 in Fraction ERP]({{ site.baseurl }}/assets/img/blog/7e5335df84411681a6b49ae4377e6530/WhatsAppImage2021-08-12at17.11.56.jpeg)
 
 
 We're proud to tell you that we use [**Fraction ERP**](http://www.fractionerp.com) to run one of our manufacturing businesses. This is more than just being a guinea pig, this is about helping to drive up the productivity of the business. It's win-win!

@@ -6,6 +6,7 @@ description: "Discover how you can save time in your working day using Fraction 
 category: general
 author: Giles Johnston
 permalink: /blog/how-fraction-erp-can-save-you-two-hours-per-da/
+image: /assets/img/blog/639b600463a1fed5d96cfd32932a6b97/planningpage.png
 ---
 
 Saving time is a challenge that most of us want to overcome.
@@ -49,7 +50,7 @@ This can save a lot of time and reduce errors.
 If you spend a lot of your time moving your production orders around (on a spreadsheet or an existing ERP system) this can really drain your time and energy.
 
 
-We've adopted a two stage [**scheduling process**](https://fractionerp.com/production-scheduling/) in Fraction ERP. First you carry out rough cut planning, dumping your production operations into week sized buckets. As you get closer to your production window, you can firm up when exactly you will undertake the operations.
+We've adopted a two stage [**scheduling process**](https://fractionerp.com/production-scheduling-software/) in Fraction ERP. First you carry out rough cut planning, dumping your production operations into week sized buckets. As you get closer to your production window, you can firm up when exactly you will undertake the operations.
 
 
 Instead of moving your orders around repeatedly, you can carry out your scheduling in two slick moves. I know from personal experience that this can save a lot of time.
@@ -81,7 +82,7 @@ When you work with your shop floor team to capture information about progress ma
 Fraction ERP has a number of shop floor tracking options. These include the high level works order view and the detailed SFDC screen (which shows you who is on what operation and how much time they have left).
 
 
-We've [**taken SFDC a step further**](https://fractionerp.com/shop-floor-data-capture/) in our subscriptions too. SFDC users are free with our paid subscriptions, so you don't have to worry about an expanding shop floor team when you sign up with Fraction ERP.
+We've [**taken SFDC a step further**](https://fractionerp.com/shopfloor-data-capture-software/) in our subscriptions too. SFDC users are free with our paid subscriptions, so you don't have to worry about an expanding shop floor team when you sign up with Fraction ERP.
 
 
 ---

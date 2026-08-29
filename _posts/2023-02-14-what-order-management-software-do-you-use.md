@@ -6,9 +6,10 @@ description: "ERP systems are excellent order management software tools. Save ti
 category: general
 author: Giles Johnston
 permalink: /blog/what-order-management-software-do-you-use/
+image: /assets/img/blog/603c12c4c74e9c034792c079f8cdd2fd/Contractsmainscreen.jpg
 ---
 
-Many people reach out to us when they realise that they need an [**order management software**](https://fractionerp.com/contracts/) solution.
+Many people reach out to us when they realise that they need an [**order management software**](https://fractionerp.com/sales-order-management-software/) solution.
 
 
 Order management is at the core of Fraction ERP.
@@ -120,7 +121,7 @@ If you choose the right system, an ERP system will simplify order management for
 
 
 
-To help you understand if [**Fraction ERP**](https://fractionerp.com/index) might be a good order management software solution for your business there are a few things you can do:
+To help you understand if [**Fraction ERP**](https://fractionerp.com/) might be a good order management software solution for your business there are a few things you can do:
 
 
 - [**Arrange a free demo with us**](https://fractionerp.com/book-a-demo/), so we can show you the system. If you like what you see, you can have a two week free trial period. During this time you can properly test it out with your own information.

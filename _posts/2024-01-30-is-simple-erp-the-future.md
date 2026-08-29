@@ -6,6 +6,7 @@ description: "Why would anyone want a simple ERP system? This article gives you 
 category: general
 author: Giles Johnston
 permalink: /blog/is-simple-erp-the-future/
+image: /assets/img/blog/d36e667203d41382347ef99c45444f29/planningpage.png
 ---
 
 Simple ERP is a term that seems to be gaining momentum. As we've been on the mission of simple ERP for years, we think it is about time!

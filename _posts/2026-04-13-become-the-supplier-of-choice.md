@@ -6,6 +6,7 @@ description: "The fastest way to grow a manufacturing business is winning more w
 category: general
 author: Fraction ERP
 permalink: /blog/become-the-supplier-of-choice/
+image: /assets/img/blog-scheduling.webp
 ---
 
 If you're in manufacturing, engineering, or fabrication, you already know the cheapest way to grow is rarely chasing brand-new customers.

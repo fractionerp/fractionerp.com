@@ -6,6 +6,7 @@ description: "Stop chasing supplier quotes through endless email threads. Fracti
 category: purchasing
 author: Giles Johnston
 permalink: /blog/how-fraction-erp-rfq-process-saves-time-and-simplifies-purchasing/
+image: /assets/img/rfq-screenshot.jpg
 ---
 
 If you're like most manufacturing or engineering businesses, you know that handling supplier quotes can quickly become a time sink. Endless email threads, spreadsheets scattered across folders, and the constant chase for updates can slow down your team and eat into valuable production time. That's why Fraction ERP's Request For Quotation (RFQ) process was built to make your life easier.

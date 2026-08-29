@@ -6,6 +6,7 @@ description: "What if an ERP system was designed by engineers / manufacturing pr
 category: erp
 author: Giles Johnston
 permalink: /blog/what-happens-when-non-techies-develop-an-erp-system/
+image: /assets/img/blog/ff60542c5a92662a7d957cca3cc588a9/fraction_erp_workflow.png
 ---
 
 It is a good question and one that we often hear. Depending on the background, experience and focus of the developers, you can experience completely different ERP systems when comparing different offerings.
@@ -62,7 +63,7 @@ So, we developed the original concept further and Fraction ERP arrived.
 
 
 
-![]({{ site.baseurl }}/assets/img/blog/ff60542c5a92662a7d957cca3cc588a9/fraction_erp_workflow.png)
+![fraction erp workflow in Fraction ERP]({{ site.baseurl }}/assets/img/blog/ff60542c5a92662a7d957cca3cc588a9/fraction_erp_workflow.png)
 
 
 

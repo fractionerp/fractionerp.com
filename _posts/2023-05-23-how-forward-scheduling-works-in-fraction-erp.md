@@ -6,9 +6,10 @@ description: "Learn about ERP scheduling approaches and how we designed Fraction
 category: production-scheduling
 author: Giles Johnston
 permalink: /blog/how-forward-scheduling-works-in-fraction-erp/
+image: /assets/img/blog/79c7aadcbdb796e27240ba7a43313ae6/capacity-management-2023-05.jpg
 ---
 
-[**Work order scheduling software**](https://fractionerp.com/production-scheduling/) is a hot topic when you search ERP on the Internet.
+[**Work order scheduling software**](https://fractionerp.com/production-scheduling-software/) is a hot topic when you search ERP on the Internet.
 
 
 At Fraction ERP we understand how important it is to get this topic right.
@@ -54,7 +55,7 @@ The schedule should feed your capacity management reports, that may force either
 
 
 
-The output of the schedule creates work to lists for your teams to follow. This, in turn, provides the basis for [**work tracking**](https://fractionerp.com/shop-floor-data-capture/) which can save hours of management time every day.
+The output of the schedule creates work to lists for your teams to follow. This, in turn, provides the basis for [**work tracking**](https://fractionerp.com/shopfloor-data-capture-software/) which can save hours of management time every day.
 
 
 I hope you can see that the scheduling function is essential to drive so many other important activities within the ERP system that ultimately lead to higher levels of productivity and profitability.
@@ -135,7 +136,7 @@ We've left you in control of your operations and given you a helping hand with a
 If you are wondering why we haven't gone for the backwards method (producing as late as possible) it is because we know what happens when you have time left and then an unexpected order comes in, making it too late to start your original order and handle the new one. Front loading has helped our scheduling issues and hopefully it will help yours too.
 
 
-To make the process of scheduling easier, we built the [**visual scheduling board**](https://fractionerp.com/production-scheduling/), which you can see in the image below. You simply click on the tiles to schedule your operations, noting any capacity hot spots as you do so.
+To make the process of scheduling easier, we built the [**visual scheduling board**](https://fractionerp.com/production-scheduling-software/), which you can see in the image below. You simply click on the tiles to schedule your operations, noting any capacity hot spots as you do so.
 
 
 

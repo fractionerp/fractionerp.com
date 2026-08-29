@@ -6,6 +6,7 @@ description: "Learn this time tested method to improve the results in your busin
 category: general
 author: Giles Johnston
 permalink: /blog/a-quick-way-to-achieve-results-with-erp/
+image: /assets/img/blog/f15427da25200c93f3d190fc8f42cfc4/dashboard-May2024.png
 ---
 
 This isn't a magic formula, but we see a big differences between the businesses that do this and those that don't.
@@ -52,7 +53,7 @@ The dashboard allows you to quickly review the status of various parts of your b
 
 
 
-![]({{ site.baseurl }}/assets/img/blog/f15427da25200c93f3d190fc8f42cfc4/dashboard-May2024.png)
+![dashboard May2024 in Fraction ERP]({{ site.baseurl }}/assets/img/blog/f15427da25200c93f3d190fc8f42cfc4/dashboard-May2024.png)
 
 
 **Fraction ERP's dashboard, with drill down tiles**
@@ -69,7 +70,7 @@ The task management tool allows you to capture these tasks, assign them and mana
 
 
 
-![]({{ site.baseurl }}/assets/img/blog/f15427da25200c93f3d190fc8f42cfc4/TaskManagement.png)
+![Task Management in Fraction ERP]({{ site.baseurl }}/assets/img/blog/f15427da25200c93f3d190fc8f42cfc4/TaskManagement.png)
 
 
 **The overall task management screen, which can be filtered by meeting type / function**

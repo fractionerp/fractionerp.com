@@ -6,6 +6,7 @@ description: "If you aren't sure how an ERP system works, read our high level ov
 category: erp
 author: Giles Johnston
 permalink: /blog/how-an-erp-system-works/
+image: /assets/img/blog/159b7385c06ad711af18f2a642f0d359/Partsscreen.jpg
 ---
 
 Moving from spreadsheets and whiteboards, to an ERP system, is a big jump for many businesses. For many, understanding how an ERP system works is still unclear.
@@ -59,7 +60,7 @@ Most ERP systems will allow you to defined parameters for your parts. These incl
 
 
 
-### [Bill of Materials (BoM) / Routing](https://fractionerp.com/bill-of-materials/)
+### [Bill of Materials (BoM) / Routing](https://fractionerp.com/bill-of-materials-software/)
 
 
 
@@ -69,7 +70,7 @@ Once you have parts in your system, you create structures and manufacturing rout
 Fraction ERP has the product structure and operations combined in one screen. This allows for instant job costing to take place as you build your BoM and route.
 
 
-### [Quotes](https://fractionerp.com/contracts/)
+### [Quotes](https://fractionerp.com/sales-order-management-software/)
 
 
 
@@ -79,7 +80,7 @@ Now you have 'products' and parts in your ERP system you can quote. This allows 
 We've built in direct email quotes to Fraction ERP. Our system also has the ability to adjust your quotes without losing the history.
 
 
-### [Sales Orders](https://fractionerp.com/contracts/)
+### [Sales Orders](https://fractionerp.com/sales-order-management-software/)
 
 
 
@@ -123,7 +124,7 @@ Works orders are your instructions to the shop floor. It should tell them what t
 From here, your ERP system will most likely have a work to list function, that tells them when to perform the operations. See next point.
 
 
-### [Scheduling ](https://fractionerp.com/production-scheduling/)
+### [Scheduling ](https://fractionerp.com/production-scheduling-software/)
 
 
 
@@ -157,7 +158,7 @@ Once you know when you are going to make your production order, you'll know when
 Fraction ERP has built in email functionality for this activity. You can send purchase orders straight to your suppliers.
 
 
-### [Shop Floor Data Collection (SFDC)](https://fractionerp.com/shop-floor-data-capture/)
+### [Shop Floor Data Collection (SFDC)](https://fractionerp.com/shopfloor-data-capture-software/)
 
 
 

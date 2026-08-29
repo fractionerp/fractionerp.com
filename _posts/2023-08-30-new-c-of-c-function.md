@@ -6,6 +6,8 @@ description: "We've added a new certificate of conformity feature to the Shipmen
 category: product-updates
 author: Giles Johnston
 permalink: /blog/new-c-of-c-function/
+sitemap: false
+image: /assets/img/blog/c3b420d6ffde84ef0ae252af4293e317/CofC.jpg
 ---
 
 We've just added a Certificate of Conformity (C of C) report to Fraction ERP.

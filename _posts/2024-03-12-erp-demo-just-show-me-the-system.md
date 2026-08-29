@@ -6,6 +6,7 @@ description: "If you are sceptical of slick sales people, you've come to the rig
 category: general
 author: Giles Johnston
 permalink: /blog/erp-demo-just-show-me-the-system/
+image: /assets/img/blog/942f7f73b3f07bd4227bb2e98544cd67/planningpage.png
 ---
 
 One of the concerns many people have, when looking for a new ERP system is the painful sales process they may have to go through. We understand that most of you don't want 'the dance' and just want a [**demo**](https://fractionerp.com/erp-online-demo/).
@@ -70,7 +71,7 @@ During the demo we'll show you Fraction ERP. Hopefully we show you what you need
 
 
 
-![]({{ site.baseurl }}/assets/img/blog/942f7f73b3f07bd4227bb2e98544cd67/planningpage.png)
+![planningpage in Fraction ERP]({{ site.baseurl }}/assets/img/blog/942f7f73b3f07bd4227bb2e98544cd67/planningpage.png)
 
 
 **We just want to keep ERP simple! This is our visual scheduling board.**

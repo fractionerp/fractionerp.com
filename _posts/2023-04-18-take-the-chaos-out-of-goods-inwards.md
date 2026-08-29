@@ -6,6 +6,7 @@ description: "If you are getting lost with your goods inward inspection duties, 
 category: inventory
 author: Giles Johnston
 permalink: /blog/take-the-chaos-out-of-goods-inwards/
+image: /assets/img/blog/9d9a112d5238f1f37036776b656a5c68/goodsin-configurepart.jpg
 ---
 
 Do you have a nightmare with your [**goods inward activity**](https://fractionerp.com/purchasing/)?

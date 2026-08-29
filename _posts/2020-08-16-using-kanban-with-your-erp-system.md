@@ -6,6 +6,7 @@ description: "Can you use Kanbans with an ERP system? Yes! Learn more with this 
 category: erp
 author: Giles Johnston
 permalink: /blog/using-kanban-with-your-erp-system/
+image: /assets/img/blog/45aaa79a47738e4bc194710bad2b0e80/kanban.jpg
 ---
 
 Whenever I used to discuss Kanban with consulting clients as part of a discussion on Lean Manufacturing their eyes would light up. For many people that I spoke with, Kanban was a standard to reach and most of them wanted it there and then.
@@ -28,7 +29,7 @@ In short, a Kanban is a visual pull system that synchronises demand and supply. 
 
 
 
-![]({{ site.baseurl }}/assets/img/blog/45aaa79a47738e4bc194710bad2b0e80/kanban.jpg)
+![kanban in Fraction ERP]({{ site.baseurl }}/assets/img/blog/45aaa79a47738e4bc194710bad2b0e80/kanban.jpg)
 
 
 

@@ -6,6 +6,7 @@ description: "Find out how the team at Fraction ERP think and the approach we to
 category: general
 author: Giles Johnston
 permalink: /blog/what-drives-fraction-erp-to-be-different/
+image: /assets/img/blog/0a787b900d0c4b16cb2fae0f2bd30143/FractionERP-VisualScheduler.png
 ---
 
 To help our readers compare our software with other ERP systems  on the market today, we looked at our competitors and realised one thing... everyone's software is amazing!
@@ -139,10 +140,10 @@ As the customer quote says on our [**home page**](https://fractionerp.com/):
 Giles has spent a lot of time with companies that have done the 'big bang' ERP implementation. If it goes well, great. If it doesn't go so well... that's where Giles get’s  called in.
 
 
-Fraction ERP allows you to use the parts of the system that you need the most.  If you are only ready to use the contracts module (**[quotes and sales orders](https://fractionerp.com/contracts/)**), then you can use just that module. If you are ready to use the [**purchasing** **function**](https://fractionerp.com/purchasing/), you can use that when you are ready.
+Fraction ERP allows you to use the parts of the system that you need the most.  If you are only ready to use the contracts module (**[quotes and sales orders](https://fractionerp.com/sales-order-management-software/)**), then you can use just that module. If you are ready to use the [**purchasing** **function**](https://fractionerp.com/purchasing/), you can use that when you are ready.
 
 
-The same goes for [**inventory management**](https://fractionerp.com/parts-and-inventory/), [**works orders**](https://fractionerp.com/works-orders/), [**scheduling**](https://fractionerp.com/production-scheduling/), [**shop floor data collection**](https://fractionerp.com/shop-floor-data-capture/) and so on.
+The same goes for [**inventory management**](https://fractionerp.com/parts-and-inventory/), [**works orders**](https://fractionerp.com/works-orders/), [**scheduling**](https://fractionerp.com/production-scheduling-software/), [**shop floor data collection**](https://fractionerp.com/shopfloor-data-capture-software/) and so on.
 
 
 You can get as sophisticated as you want to, or leave it simple. Whatever works for your business. This is how Fraction ERP is designed and how ERP should be.

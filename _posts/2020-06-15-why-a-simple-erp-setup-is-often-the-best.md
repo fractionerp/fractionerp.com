@@ -6,6 +6,7 @@ description: "ERP is meant to be simple and help your business. If it isn't and 
 category: erp
 author: Giles Johnston
 permalink: /blog/why-a-simple-erp-setup-is-often-the-best/
+image: /assets/img/blog/8dd552357022a182a8a960523959d6c2/Complexversussimple.png
 ---
 
 In our modern world complex and flashy are 'sexy'. With ERP systems it is no different...
@@ -22,7 +23,7 @@ If your ERP setup isn't simple it immediately becomes difficult to learn. This m
 
 
 
-![]({{ site.baseurl }}/assets/img/blog/8dd552357022a182a8a960523959d6c2/Complexversussimple.png)
+![Complexversussimple in Fraction ERP]({{ site.baseurl }}/assets/img/blog/8dd552357022a182a8a960523959d6c2/Complexversussimple.png)
 
 
 

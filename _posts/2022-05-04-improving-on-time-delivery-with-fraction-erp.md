@@ -6,6 +6,7 @@ description: "Discover five practical strategies you can deploy to improve your 
 category: general
 author: Giles Johnston
 permalink: /blog/improving-on-time-delivery-with-fraction-erp/
+image: /assets/img/blog/88a1fc85ac0b966a34a81d3f40f98b79/Snapshot-199.png
 ---
 
 Improving on time delivery is a focus of every business owner and manager. It is a key metric that can drive a range of positive behaviours. You can't have a sustainably high on time delivery levels without good quality, efficient processes, an effective schedule or a well trained team. On time delivery catches a lot of management activities and provides a nice summary of where you are.
@@ -86,7 +87,7 @@ There are practical actions you can take to improve on time delivery. Here we wi
 Getting a realistic grip on your capacity when loading your business is critical. Not being aware of exactly how busy you are at certain times is a recipe for disaster. Most businesses will overload their teams and find it difficult to catch up. This ongoing stress in the business really doesn't help to achieve a steady, high, on time delivery performance.
 
 
-In Fraction ERP we have deployed the [**visual scheduler**](https://fractionerp.com/production-scheduling/) and capacity planning screens. The visual scheduler also provides a capacity snapshot of your workcentres before you commit your operations.
+In Fraction ERP we have deployed the [**visual scheduler**](https://fractionerp.com/production-scheduling-software/) and capacity planning screens. The visual scheduler also provides a capacity snapshot of your workcentres before you commit your operations.
 
 
 ---
@@ -125,7 +126,7 @@ At Fraction we have worked hard to ensure that you have to input the least amoun
 If you have to track everything in your factory manually, you won't have time to focus on other management tasks and improving your operation. Exception reporting is the ability to know the few things that need to be dealt with and (effectively) ignoring anything else.
 
 
-Giles and Patrick have both spent enough time walking around factories to know that there can be better uses of time. When we developed the [**production tracking screen**](https://fractionerp.com/shop-floor-data-capture/) in Fraction ERP, we were keen to help Production Managers know exactly what they need to focus on. Late operations are just a click away from the dashboard, and combining the two approaches together is a great way to keep on top of the progress of your production orders.
+Giles and Patrick have both spent enough time walking around factories to know that there can be better uses of time. When we developed the [**production tracking screen**](https://fractionerp.com/shopfloor-data-capture-software/) in Fraction ERP, we were keen to help Production Managers know exactly what they need to focus on. Late operations are just a click away from the dashboard, and combining the two approaches together is a great way to keep on top of the progress of your production orders.
 
 
 ---
@@ -171,7 +172,7 @@ Keeping it short is key to making it effective and having data at your finger ti
 
 
 
-![]({{ site.baseurl }}/assets/img/blog/88a1fc85ac0b966a34a81d3f40f98b79/dashboard.jpg)
+![dashboard in Fraction ERP]({{ site.baseurl }}/assets/img/blog/88a1fc85ac0b966a34a81d3f40f98b79/dashboard.jpg)
 
 
 ---

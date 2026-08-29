@@ -6,6 +6,7 @@ description: "Should an ERP company change their software to suit your business 
 category: general
 author: Giles Johnston
 permalink: /blog/how-disciplined-working-in-an-erp-system-improves-results/
+image: /assets/img/blog/0a2c15a44620d74ca19a34b36b780852/dashboard-May2024.png
 ---
 
 Many businesses that look to move to an ERP system hope that they will get the benefits that they seek. Hope isn't a great strategy but disciplined working is.
@@ -37,7 +38,7 @@ Usually an ERP system is developed through best practice and so a new question a
 
 
 
-![]({{ site.baseurl }}/assets/img/blog/0a2c15a44620d74ca19a34b36b780852/dashboard-May2024.png)
+![dashboard May2024 in Fraction ERP]({{ site.baseurl }}/assets/img/blog/0a2c15a44620d74ca19a34b36b780852/dashboard-May2024.png)
 
 
 **Drill down to key data using our dashboard**
@@ -88,7 +89,7 @@ Happier customers, repeat business... you get the idea.
 
 
 
-![]({{ site.baseurl }}/assets/img/blog/0a2c15a44620d74ca19a34b36b780852/WorksOrderTracking.png)
+![Works Order Tracking in Fraction ERP]({{ site.baseurl }}/assets/img/blog/0a2c15a44620d74ca19a34b36b780852/WorksOrderTracking.png)
 
 
 **Track orders at a glance with our simplified tools**

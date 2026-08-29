@@ -6,6 +6,7 @@ description: "Discover six practical ways that an ERP system can help reduce cos
 category: management
 author: Giles Johnston
 permalink: /blog/six-ways-an-erp-system-can-reduce-costs/
+image: /assets/img/blog/c13142d53da308dc8f213ed873eba59e/simplescheduling.jpg
 ---
 
 Many businesses hope that [**implementing an ERP system**](https://fractionerp.com) will save them money. In short, it can but only if you know how it can save you money in the first place.
@@ -27,7 +28,7 @@ Better scheduling and demand visibility of your work orders helps reduce overtim
 Does your ERP system give you real time visibility of demand and available capacity? Good ERP systems will help you do both with less effort.
 
 
-![]({{ site.baseurl }}/assets/img/blog/c13142d53da308dc8f213ed873eba59e/simplescheduling.jpg)
+![simplescheduling in Fraction ERP]({{ site.baseurl }}/assets/img/blog/c13142d53da308dc8f213ed873eba59e/simplescheduling.jpg)
 
 
 **Fraction ERP helps reduce the time spent on scheduling through our unique approach**
@@ -111,7 +112,7 @@ You can save money by making better buying decisions, from having better informa
 Having good stock searching facilities and simplifying purchasing demands are essential ERP features.
 
 
-![]({{ site.baseurl }}/assets/img/blog/c13142d53da308dc8f213ed873eba59e/fastpurchasesearch.jpg)
+![fastpurchasesearch in Fraction ERP]({{ site.baseurl }}/assets/img/blog/c13142d53da308dc8f213ed873eba59e/fastpurchasesearch.jpg)
 
 
 **Fast searching of purchase orders is easy with Fraction ERP**

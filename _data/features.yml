@@ -5,7 +5,7 @@ sales_order_processing:
     icon: fa-solid fa-users
     description: Track customer relationships, sales actions and follow-ups alongside your ERP data.
   - title: Contracts
-    url: /contracts/
+    url: /sales-order-management-software/
     icon: fa-regular fa-file
     description: Manage enquiries, quotes and sales orders from the same customer record.
   - title: Parts and Inventory
@@ -15,7 +15,7 @@ sales_order_processing:
 
 production:
   - title: Bill of Materials
-    url: /bill-of-materials/
+    url: /bill-of-materials-software/
     icon: fa fa-1x fa-list
     description: Define part structure, operations and instructions for production and estimate production costs.
   - title: Works Orders
@@ -23,11 +23,11 @@ production:
     icon: fa fa-1x fa-file-lines
     description: Create, release and track production orders from demand through completion.
   - title: Production Scheduling
-    url: /production-scheduling/
+    url: /production-scheduling-software/
     icon: fa fa-1x fa-calendar-alt
     description: Automatic or manual scheduling with drag and drop scheduling tools.
   - title: Shop Floor Data Capture
-    url: /shop-floor-data-capture/
+    url: /shopfloor-data-capture-software/
     icon: fa fa-regular fa-clock
     description: Real time data collection from production to track all processes and orders.
   - title: MRP & Purchasing
@@ -138,7 +138,7 @@ workflow_stages:
       - title: CRM
         url: /crm/
       - title: Quotes & Sales Orders
-        url: /contracts/
+        url: /sales-order-management-software/
       - title: Dashboard
         url: /erp-dashboard/
   - number: "02"
@@ -151,11 +151,11 @@ workflow_stages:
       - Production Scheduling
     links:
       - title: Bill of Materials
-        url: /bill-of-materials/
+        url: /bill-of-materials-software/
       - title: MRP & Purchasing
         url: /purchasing/
       - title: Production Scheduling
-        url: /production-scheduling/
+        url: /production-scheduling-software/
   - number: "03"
     title: Make
     outcome: Release works orders and capture live progress from the shop floor.
@@ -168,7 +168,7 @@ workflow_stages:
       - title: Works Orders
         url: /works-orders/
       - title: Shop Floor Data Capture
-        url: /shop-floor-data-capture/
+        url: /shopfloor-data-capture-software/
       - title: User Management
         url: /user-management/
   - number: "04"

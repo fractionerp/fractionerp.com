@@ -6,6 +6,7 @@ description: "Fraction ERP will let you schedule workcenters, operatives or both
 category: production-scheduling
 author: Giles Johnston
 permalink: /blog/managing-operator-and-workcenter-capacity-in-one-go/
+image: /assets/img/blog/072e8819f930b49aca930955eff4d29d/assignworkcenterandoperator.png
 ---
 
 What do you do if you have certain operations that can only be carried out by skilled operatives?

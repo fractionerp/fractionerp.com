@@ -6,6 +6,7 @@ description: "Confused about the difference between ERP and MRP software? Let us
 category: general
 author: Giles Johnston
 permalink: /blog/erp-mrp-software/
+image: /assets/img/blog/a46623cf23d4372953876ceeb750dec9/ERPMRPSoftware.jpg
 ---
 
 ERP MRP software seem to be term that has interchangeable parts.
@@ -30,7 +31,7 @@ But, if you are curious let us explain the differences in this short article.
 MRP ([**Material Requirements Planning**](https://fractionerp.com/purchasing/)) and ERP (Enterprise Resource Planning) are both systems that are used to manage resources within a business, but they serve different purposes and scopes.
 
 
-MRP is primarily focused on the planning of inventory for manufacturing operations. It attempts to balance the demands of production with the supply of materials and manufacturing activity. [**Bills of materials**](https://fractionerp.com/bill-of-materials/), routes and work orders all sit comfortably in the MRP camp.
+MRP is primarily focused on the planning of inventory for manufacturing operations. It attempts to balance the demands of production with the supply of materials and manufacturing activity. [**Bills of materials**](https://fractionerp.com/bill-of-materials-software/), routes and work orders all sit comfortably in the MRP camp.
 
 
 ERP is a comprehensive business management software that typically includes the MRP functionality. The extended functions include quotations, sales order management, finance and customer relationship management.

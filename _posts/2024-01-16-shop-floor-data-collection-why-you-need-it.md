@@ -11,6 +11,7 @@ related_posts_list:
   - /blog/shop-floor-data-collection-five-great-uses/
   - /blog/shop-floor-visual-management/
   - /blog/production-scheduling-software-the-key-to-productivity/
+image: /assets/img/blog/4ab5bc736dbe9b5a4f070518ffbcc3cb/IMG_1942.jpg
 ---
 
 Shop Floor Data Collection (SFDC) is a superb ERP feature that can make your life so much easier as a production manager or business owner.
@@ -34,7 +35,7 @@ When you use Shop Floor Data Collection, you gain the ability to track your prod
 In Fraction ERP we tie this into our high level operations tracker. Shop Floor Data Capture can save you and your team hours per day. That's a pretty good reason on its own!
 
 
- ![]({{ site.baseurl }}/assets/img/blog/4ab5bc736dbe9b5a4f070518ffbcc3cb/IMG_1942.jpg)
+ ![Shop Floor Data Collection - why you need it screenshot]({{ site.baseurl }}/assets/img/blog/4ab5bc736dbe9b5a4f070518ffbcc3cb/IMG_1942.jpg)
 
 **Shop floor tracking on a tablet, using Fraction ERP**
 
@@ -77,7 +78,7 @@ Using Shop Floor Data Capture, you capture actual setup and run times. This allo
 
 
 In Fraction ERP we have a dedicated report just for this purpose.
- ![]({{ site.baseurl }}/assets/img/blog/4ab5bc736dbe9b5a4f070518ffbcc3cb/sfdclogs.jpg)
+ ![sfdclogs in Fraction ERP]({{ site.baseurl }}/assets/img/blog/4ab5bc736dbe9b5a4f070518ffbcc3cb/sfdclogs.jpg)
 
 **Shop Floor Data Capture logs, showing production variances**
 
@@ -97,7 +98,7 @@ However, knowing where we are is key to directing our continuous improvement pro
 
 
 If you plan for 100% utilisation and you only have 75%, your production schedules will be unrealistic. I'm sure you get the idea. Shop Floor Data Collection can allow you to find out this information and allow for better scheduling, which in turn can reduce your overtime bills and improve on time delivery performance (and hence customer satisfaction).
- ![]({{ site.baseurl }}/assets/img/blog/4ab5bc736dbe9b5a4f070518ffbcc3cb/planningpage.png)
+ ![planningpage in Fraction ERP]({{ site.baseurl }}/assets/img/blog/4ab5bc736dbe9b5a4f070518ffbcc3cb/planningpage.png)
 
 **Simple visual scheduling is at the heart of Fraction ERP.**
 
@@ -108,7 +109,7 @@ If you plan for 100% utilisation and you only have 75%, your production schedule
 
 
 
-I hope these four points convince you of the benefits of using [**Shop Floor Data Collection**](https://fractionerp.com/shop-floor-data-capture/). The reason we include it as part of our standard subscription is that we didn't want any of our customers to have to decide if they wanted to pay for it. We know that it is vital for a manufacturing business if they want to get the most out of their ERP system, hence our decision.
+I hope these four points convince you of the benefits of using [**Shop Floor Data Collection**](https://fractionerp.com/shopfloor-data-capture-software/). The reason we include it as part of our standard subscription is that we didn't want any of our customers to have to decide if they wanted to pay for it. We know that it is vital for a manufacturing business if they want to get the most out of their ERP system, hence our decision.
 
 
 

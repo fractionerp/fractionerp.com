@@ -6,6 +6,7 @@ description: "It doesn't have to be! Learn more about our free implementation gu
 category: general
 author: Giles Johnston
 permalink: /blog/is-it-hard-to-implement-an-erp-system/
+image: /assets/img/blog/60403fbb51eb396bd7dc6177a7028d19/Snapshot-104.png
 ---
 
 This is a challenge for any owner, operations manager or production manager that has been tasked with finding and deploying an ERP system.
@@ -20,7 +21,7 @@ Obviously, a large complex ERP system is a lot more onerous than a smaller syste
 ...but what if you don't have this in your favour?
 
 
-![]({{ site.baseurl }}/assets/img/blog/60403fbb51eb396bd7dc6177a7028d19/Snapshot-104.png)
+![Is it hard to implement an ERP system? screenshot]({{ site.baseurl }}/assets/img/blog/60403fbb51eb396bd7dc6177a7028d19/Snapshot-104.png)
 
 
 **Quick and simple: Fraction ERP's visual scheduling board**

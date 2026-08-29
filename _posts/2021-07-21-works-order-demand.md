@@ -6,6 +6,7 @@ description: "The updates to the part demand screen speeds up purchasing activit
 category: purchasing
 author: Giles Johnston
 permalink: /blog/works-order-demand/
+image: /assets/img/blog/c8453bf342f379225fa152c3850e233b/supplierdetails.png
 ---
 
 One of the recent changes we have made to [**Fraction ERP**](https://fractionerp.com/features/) speeds up purchasing activities. The change is located on the Part Demand screen.
@@ -14,7 +15,7 @@ One of the recent changes we have made to [**Fraction ERP**](https://fractionerp
 The supplier information associated with the purchasing records now pulls through to this screen. You can see this in the image below, third column from the right.
 
 
-![]({{ site.baseurl }}/assets/img/blog/c8453bf342f379225fa152c3850e233b/supplierdetails.png)
+![supplierdetails in Fraction ERP]({{ site.baseurl }}/assets/img/blog/c8453bf342f379225fa152c3850e233b/supplierdetails.png)
 
 
 This change allows users to quickly group purchasing demand by supplier. The 'create purchase order' button allows you to group together purchasing demand and speed up the ordering process.

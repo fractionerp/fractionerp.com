@@ -6,6 +6,7 @@ description: "Use your ERP dashboard and leading indicators to make better decis
 category: management
 author: Giles Johnston
 permalink: /blog/focus-on-your-dashboard-for-results/
+image: /assets/img/fraction-erp-dashboard-results.png
 ---
 
 An ERP system is designed to help you run your business. But, when our performance isn’t quite where it needs to be it is easy to take our eye off the ball. And, as we all know, taking our said eye off the said ball doesn’t lead us to where we want to be.

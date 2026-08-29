@@ -6,6 +6,7 @@ description: "If you operate a make to stock business then check out our fast wo
 category: inventory
 author: Giles Johnston
 permalink: /blog/allocate-stock-straight-to-your-sales-orders/
+image: /assets/img/blog/c74c181730ae917cf67ab3097f44769c/salesorderstockallocation.jpg
 ---
 
 In a make to order ERP environment you create a sales order, then a work order, make it, allocate it and then ship it.
@@ -27,7 +28,7 @@ Allocating stock can help you to improve production and inventory visibility, be
 To make life simpler, we also have a make to stock work order function. Yes, you can use Fraction ERP in a flexible way. If you want to operate as a make to stock manufacturer, we've got you covered. If you want to operate as make to order (or engineer to order), then we can do that too.
 
 
-![]({{ site.baseurl }}/assets/img/blog/c74c181730ae917cf67ab3097f44769c/salesorderstockallocation.jpg)
+![salesorderstockallocation in Fraction ERP]({{ site.baseurl }}/assets/img/blog/c74c181730ae917cf67ab3097f44769c/salesorderstockallocation.jpg)
 
 
 The sequence is simple. Create a sales order (or convert from a quote). Allocate your stock (see image above). Ship it and invoice it.

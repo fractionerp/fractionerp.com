@@ -6,6 +6,7 @@ description: "Discover what Fraction ERP looks like on a mobile device."
 category: general
 author: Giles Johnston
 permalink: /blog/using-fraction-erp-on-the-go/
+image: /assets/img/blog/0845a0dd1582639fc9af845405082481/FractionERPmobile-dashboard.jpg
 ---
 
 A question that runs through the mind of every software user (ERP or not) is 'how good is this on my phone?'.
@@ -31,7 +32,7 @@ Below are a series of screenshots, taken from a smartphone and a desktop PC. Hop
 The first page you come to within Fraction ERP, the dashboard, allows you to manage your business by exception reporting. Sunrise meetings / production meetings can be really easy to run, especially when you use our [**task management module**](https://fractionerp.com/erp-task-management/).
 
 
-![]({{ site.baseurl }}/assets/img/blog/0845a0dd1582639fc9af845405082481/FractionERPmobile-dashboard.jpg)
+![Fraction ERPmobile dashboard in Fraction ERP]({{ site.baseurl }}/assets/img/blog/0845a0dd1582639fc9af845405082481/FractionERPmobile-dashboard.jpg)
 
 
 **Dashboard - smartphone**
@@ -39,7 +40,7 @@ The first page you come to within Fraction ERP, the dashboard, allows you to man
 
 
 
-![]({{ site.baseurl }}/assets/img/blog/0845a0dd1582639fc9af845405082481/dashboard.jpg)
+![dashboard in Fraction ERP]({{ site.baseurl }}/assets/img/blog/0845a0dd1582639fc9af845405082481/dashboard.jpg)
 
 
 **Dashboard - PC**
@@ -60,7 +61,7 @@ The first page you come to within Fraction ERP, the dashboard, allows you to man
 Manufacturing orders can be created, modified and launched on a smartphone if the desktop version is not available. This includes editing the bill of material structure and routing.
 
 
-![]({{ site.baseurl }}/assets/img/blog/0845a0dd1582639fc9af845405082481/FractionERPmobile-worksorders.jpg)
+![Fraction ERPmobile worksorders in Fraction ERP]({{ site.baseurl }}/assets/img/blog/0845a0dd1582639fc9af845405082481/FractionERPmobile-worksorders.jpg)
 
 
 **Works Orders - smartphone**
@@ -68,7 +69,7 @@ Manufacturing orders can be created, modified and launched on a smartphone if th
 
 
 
-![]({{ site.baseurl }}/assets/img/blog/0845a0dd1582639fc9af845405082481/worksorders.jpg)
+![worksorders in Fraction ERP]({{ site.baseurl }}/assets/img/blog/0845a0dd1582639fc9af845405082481/worksorders.jpg)
 
 
 **Works Orders - PC**
@@ -89,7 +90,7 @@ Manufacturing orders can be created, modified and launched on a smartphone if th
 The graphical scheduling boards (including the capacity bars) work just as well on a mobile device as they do on a larger computer screen.
 
 
-![]({{ site.baseurl }}/assets/img/blog/0845a0dd1582639fc9af845405082481/FractionERPmobile-scheduling.jpg)
+![Fraction ERPmobile scheduling in Fraction ERP]({{ site.baseurl }}/assets/img/blog/0845a0dd1582639fc9af845405082481/FractionERPmobile-scheduling.jpg)
 
 
 **Visual scheduling - smartphone**
@@ -97,7 +98,7 @@ The graphical scheduling boards (including the capacity bars) work just as well 
 
 
 
-![]({{ site.baseurl }}/assets/img/blog/0845a0dd1582639fc9af845405082481/SchedulingBoard.jpg)
+![Scheduling Board in Fraction ERP]({{ site.baseurl }}/assets/img/blog/0845a0dd1582639fc9af845405082481/SchedulingBoard.jpg)
 
 
 **Visual scheduling - PC**
@@ -116,7 +117,7 @@ The graphical scheduling boards (including the capacity bars) work just as well 
 Despatching product can also be carried out via a smartphone. As you can see from the screenshots below, all the functionality is there!
 
 
-![]({{ site.baseurl }}/assets/img/blog/0845a0dd1582639fc9af845405082481/FractionERPmobile-shipments.jpg)
+![Fraction ERPmobile shipments in Fraction ERP]({{ site.baseurl }}/assets/img/blog/0845a0dd1582639fc9af845405082481/FractionERPmobile-shipments.jpg)
 
 
 **Shipments - smartphone**
@@ -124,7 +125,7 @@ Despatching product can also be carried out via a smartphone. As you can see fro
 
 
 
-![]({{ site.baseurl }}/assets/img/blog/0845a0dd1582639fc9af845405082481/shipmentssearch.jpg)
+![shipmentssearch in Fraction ERP]({{ site.baseurl }}/assets/img/blog/0845a0dd1582639fc9af845405082481/shipmentssearch.jpg)
 
 
 **Shipments - PC**

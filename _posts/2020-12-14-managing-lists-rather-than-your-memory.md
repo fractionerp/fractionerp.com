@@ -6,6 +6,7 @@ description: "If you use your ERP system to focus on your business processes the
 category: management
 author: Giles Johnston
 permalink: /blog/managing-lists-rather-than-your-memory/
+image: /assets/img/blog/b8220eb43c02ceb7e5b1d9b7085ee2fa/fraction_quotes.png
 ---
 
 One of the big selling points of implementing an [**ERP system**](https://fractionerp.com/) is its ability to help you manage your processes.
@@ -85,7 +86,7 @@ Here are a few examples:
 2. Track your live, overdue and complete works orders with the touch of a button
 
 
-![]({{ site.baseurl }}/assets/img/blog/b8220eb43c02ceb7e5b1d9b7085ee2fa/fraction_works_orders.png)
+![fraction works orders in Fraction ERP]({{ site.baseurl }}/assets/img/blog/b8220eb43c02ceb7e5b1d9b7085ee2fa/fraction_works_orders.png)
 
 
 
@@ -93,7 +94,7 @@ Here are a few examples:
 3. Manage your operations, by machine, by status, by week (and by operator, if required)
 
 
-![]({{ site.baseurl }}/assets/img/blog/b8220eb43c02ceb7e5b1d9b7085ee2fa/fraction_operations.png)****
+![fraction operations in Fraction ERP]({{ site.baseurl }}/assets/img/blog/b8220eb43c02ceb7e5b1d9b7085ee2fa/fraction_operations.png)****
 
 
 ****
@@ -102,7 +103,7 @@ Here are a few examples:
 4. Ensure your shipments are managed and invoiced with just a couple of clicks****
 
 
-![]({{ site.baseurl }}/assets/img/blog/b8220eb43c02ceb7e5b1d9b7085ee2fa/fraction_shipments.png)
+![fraction shipments in Fraction ERP]({{ site.baseurl }}/assets/img/blog/b8220eb43c02ceb7e5b1d9b7085ee2fa/fraction_shipments.png)
 
 
 

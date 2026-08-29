@@ -6,6 +6,7 @@ description: "Discover why growing manufacturers hit a ceiling with spreadsheets
 category: general
 author: Giles Johnston
 permalink: /blog/why-your-manufacturing-business-needs-an-erp-system/
+image: /assets/img/blog/erp-success.png
 ---
 
 ![Why your manufacturing business needs an ERP system]({{ site.baseurl }}/assets/img/blog/erp-success.png)

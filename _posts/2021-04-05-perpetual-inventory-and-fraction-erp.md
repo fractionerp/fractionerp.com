@@ -6,6 +6,7 @@ description: "Perpeptual Inventory approaches can help improve supply chain resp
 category: inventory
 author: Giles Johnston
 permalink: /blog/perpetual-inventory-and-fraction-erp/
+image: /assets/img/blog/f5416b0c20d99205dbfabebfeb183800/perpetualinventory.jpg
 ---
 
 One thing that I have learned over the years is that perpetual inventory approaches often provide better responsiveness to customer demand and management decision making than infrequent stock taking exercises.
@@ -24,7 +25,7 @@ If you haven't come across perpetual inventory (often abbreviated as PI) approac
 Whereas a normal stock take would have production stopped for a period of time where a large group of staff count every item in the business, perpetual inventory looks to do this on a 'little and often' basis. Instead of counting everything at once, you devise a programme that aims to count everything over the course of a year (or another time period to suit your business' needs).
 
 
-![]({{ site.baseurl }}/assets/img/blog/f5416b0c20d99205dbfabebfeb183800/perpetualinventory.jpg)
+![perpetualinventory in Fraction ERP]({{ site.baseurl }}/assets/img/blog/f5416b0c20d99205dbfabebfeb183800/perpetualinventory.jpg)
 
 
 **Stock adjustments within Fraction ERP**

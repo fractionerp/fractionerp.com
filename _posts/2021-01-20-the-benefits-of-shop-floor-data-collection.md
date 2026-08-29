@@ -6,6 +6,7 @@ description: "Discover the benefits of an effective SFDC system and how Fraction
 category: shop-floor
 author: Giles Johnston
 permalink: /blog/the-benefits-of-shop-floor-data-collection/
+image: /assets/img/blog/235fff3cc7e835f7b93f780b4dcec28f/SFDC_via_operations.jpg
 ---
 
 Shop Floor Data Collection (SFDC) is a great function to have. I (Giles) used to spend most of my day walking around factories that I ran the operations of, just trying to see where my production was up to. I have worked with colleagues that did the same. This is a really low return on effort, but in some cases is essential.
@@ -27,7 +28,7 @@ A good way to have an easier deployment is to have a simple SFDC system and appr
 
 
 If you are looking for a SFDC solution, or about to deploy an existing solution you have, then consider this point. Take out as many obstacles as you can before you try to engage with your shop floor teams. Opening up this conversation with key shop floor staff may help you to find additional obstacles you can chuck out before you go for a wider rollout.
- ![]({{ site.baseurl }}/assets/img/blog/235fff3cc7e835f7b93f780b4dcec28f/SFDC_via_operations.jpg)
+ ![SFDC via operations in Fraction ERP]({{ site.baseurl }}/assets/img/blog/235fff3cc7e835f7b93f780b4dcec28f/SFDC_via_operations.jpg)
 
 An example of Fraction ERP, linking directly to SFDC (right hand column) from the 'work to list'
 
@@ -75,12 +76,12 @@ You can become more economical with your time and put your energy to greater use
 
 
 Following on from the remarks made at the start of this article, in the past I have been able to either reduce my time from hours per day to minutes, or removed the need to hunt down production orders at all, all because of SFDC. Do not underestimate how powerful this information can be!
- ![]({{ site.baseurl }}/assets/img/blog/235fff3cc7e835f7b93f780b4dcec28f/wo_tracking.jpg)
+ ![wo tracking in Fraction ERP]({{ site.baseurl }}/assets/img/blog/235fff3cc7e835f7b93f780b4dcec28f/wo_tracking.jpg)
 
 [**Fraction ERP**](https://fractionerp.com/features/) offers high level production tracking
 
 
- ![]({{ site.baseurl }}/assets/img/blog/235fff3cc7e835f7b93f780b4dcec28f/wo_tracking_2.jpg)
+ ![wo tracking 2 in Fraction ERP]({{ site.baseurl }}/assets/img/blog/235fff3cc7e835f7b93f780b4dcec28f/wo_tracking_2.jpg)
 
 A low level works order tracking screen, incorporating SFDC
 

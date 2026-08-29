@@ -6,6 +6,7 @@ description: "Fraction ERP works great from a smartphone, laptop, tablet or PC!"
 category: shop-floor
 author: Giles Johnston
 permalink: /blog/shop-floor-tracking-on-your-mobile-phone/
+image: /assets/img/blog/ab663cac26096eced9d37d7f27b4d010/Screenshot_20210818-120126.png
 ---
 
 When we designed the initial version of [**Fraction ERP**](https://fractionerp.com/), we wanted something fast. **Ridiculously fast in fact!**
@@ -27,7 +28,7 @@ With this in mind, below are screenshots from a 6" smartphone screen:
 
 
 
-![]({{ site.baseurl }}/assets/img/blog/ab663cac26096eced9d37d7f27b4d010/Screenshot_20210818-120126.png)
+![Screenshot 20210818 120126 in Fraction ERP]({{ site.baseurl }}/assets/img/blog/ab663cac26096eced9d37d7f27b4d010/Screenshot_20210818-120126.png)
 
 
 **Production tracking (high level) screen**
@@ -37,7 +38,7 @@ With this in mind, below are screenshots from a 6" smartphone screen:
 
 
 
-![]({{ site.baseurl }}/assets/img/blog/ab663cac26096eced9d37d7f27b4d010/Screenshot_20210818-120208.png)
+![Screenshot 20210818 120208 in Fraction ERP]({{ site.baseurl }}/assets/img/blog/ab663cac26096eced9d37d7f27b4d010/Screenshot_20210818-120208.png)
 
 
 **Operations detail (low level) screen**

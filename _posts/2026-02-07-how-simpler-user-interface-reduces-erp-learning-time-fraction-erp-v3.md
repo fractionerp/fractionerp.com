@@ -6,6 +6,7 @@ description: "Discover how Fraction ERP V3's simplified interface cuts onboardin
 category: general
 author: Giles Johnston
 permalink: /blog/how-simpler-user-interface-reduces-erp-learning-time-fraction-erp-v3/
+image: /assets/img/blog/v3-is-here.webp
 ---
 
 ![Fraction ERP V3 is here]({{ site.baseurl }}/assets/img/blog/v3-is-here.webp){: .img-fluid .mb-4 }

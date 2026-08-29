@@ -6,6 +6,7 @@ description: "Discover how Fraction ERP can support non conformance reporting"
 category: management
 author: Giles Johnston
 permalink: /blog/non-conformance-reporting-within-erp/
+image: /assets/img/blog/97cc212b68e84b68e20989f91c8e0063/20211113woncr1.jpg
 ---
 
 When you think of non conformance reporting, it isn't often that you think of ERP systems. But, if they are an integral part of a quality production system, why not?

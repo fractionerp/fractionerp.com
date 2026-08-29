@@ -6,9 +6,10 @@ description: "Effective scheduling tools are accessible for small manufacturing 
 category: production-scheduling
 author: Giles Johnston
 permalink: /blog/manufacturing-scheduling-software-for-small-business/
+image: /assets/img/blog/8d433da122e378aec0f7520ae4be2df3/Manufacturingschedulingsoftwareforsmallbusiness.jpg
 ---
 
-It's a real challenge. Most ERP systems that provide [**effective scheduling tools**](https://fractionerp.com/production-scheduling/) are way too expensive for small businesses.
+It's a real challenge. Most ERP systems that provide [**effective scheduling tools**](https://fractionerp.com/production-scheduling-software/) are way too expensive for small businesses.
 
 
 When we started out with Fraction ERP, this is something we wanted to resolve. Low cost ERP with great tools that are simple to use.

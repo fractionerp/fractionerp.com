@@ -6,6 +6,7 @@ description: "Discover how Fraction ERP can speed up and simplify your purchasin
 category: purchasing
 author: Giles Johnston
 permalink: /blog/simple-purchase-order-management-system/
+image: /assets/img/blog/3eb8ef6d1051101420d923db273ccffb/MRP.jpg
 ---
 
 When we're organising demos with prospective customers, we often get asked if Fraction ERP is a [**purchase order system**](https://fractionerp.com/purchasing/) and is it simple.
@@ -59,7 +60,7 @@ If you repeat buy a component / material from a specific supplier you can set th
 If you want the buy without using the MRP screen, perhaps for an ad-hoc purchase, you can do this too.
 
 
-If the item later appears in the [**bill of materials**](https://fractionerp.com/bill-of-materials/) for the work order, you can link them back up manually.
+If the item later appears in the [**bill of materials**](https://fractionerp.com/bill-of-materials-software/) for the work order, you can link them back up manually.
 
 
 Fraction ERP allows you to create items 'on the fly', again speeding up the process of raising purchase orders.

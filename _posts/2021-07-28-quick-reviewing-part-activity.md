@@ -6,12 +6,13 @@ description: "Learn how you can quickly jump around Fraction ERP, via the Part A
 category: erp
 author: Giles Johnston
 permalink: /blog/quick-reviewing-part-activity/
+image: /assets/img/blog/061d441dd10bd4d84edf817d9e7c2669/partactivity.jpg
 ---
 
 The ability to review part information fast is key to any ERP system. As part of our recent update we have improved this element of [**Fraction ERP**](https://fractionerp.com/features/).
 
 
-![]({{ site.baseurl }}/assets/img/blog/061d441dd10bd4d84edf817d9e7c2669/partactivity.jpg)
+![partactivity in Fraction ERP]({{ site.baseurl }}/assets/img/blog/061d441dd10bd4d84edf817d9e7c2669/partactivity.jpg)
 
 
 If you need to interrogate parts you can do this all in one screen. This includes:

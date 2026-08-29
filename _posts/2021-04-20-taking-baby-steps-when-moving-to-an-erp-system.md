@@ -6,6 +6,7 @@ description: "Implementing an ERP system doesn't have to be an ordeal.  Find out
 category: management
 author: Giles Johnston
 permalink: /blog/taking-baby-steps-when-moving-to-an-erp-system/
+image: /assets/img/blog/6411a43a475ba419c6ca7626a4ff60dd/selfonboarding.jpg
 ---
 
 Many of the businesses that we speak to, do not have an existing ERP system. Most of them operate with a combination of paper-based systems, whiteboards and spreadsheets.
@@ -116,7 +117,7 @@ When a customer calls about an order, you can now look up in real time where the
 
 
 
-[![]({{ site.baseurl }}/assets/img/blog/6411a43a475ba419c6ca7626a4ff60dd/selfonboarding.jpg)](https://fractionerp.com/support/)
+[![selfonboarding in Fraction ERP]({{ site.baseurl }}/assets/img/blog/6411a43a475ba419c6ca7626a4ff60dd/selfonboarding.jpg)](https://fractionerp.com/support/)
 
 
 [**A full support site and walkthrough tutorials are available via the website**](https://fractionerp.com/support/)

@@ -6,9 +6,10 @@ description: "If you aren't sure what the term 'drag and drop scheduling' means,
 category: production-scheduling
 author: Giles Johnston
 permalink: /blog/drag-and-drop-scheduling/
+image: /assets/img/blog/7ce23ace213f22725cb6f01bdf92f714/scheduling.jpg
 ---
 
-[**Drag and drop scheduling**](https://fractionerp.com/production-scheduling/) was an advanced feature in ERP systems years ago.
+[**Drag and drop scheduling**](https://fractionerp.com/production-scheduling-software/) was an advanced feature in ERP systems years ago.
 
 
 With the reduction in computer processing costs and the general advance of cloud software, this isn't the case anymore.

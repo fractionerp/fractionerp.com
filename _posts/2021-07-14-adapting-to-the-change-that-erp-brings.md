@@ -6,6 +6,7 @@ description: "Embrace the change period that inevitably comes with adopting a ne
 category: erp
 author: Giles Johnston
 permalink: /blog/adapting-to-the-change-that-erp-brings/
+image: /assets/img/blog/c0898b00a363973a4e33d7ca31fd1e9e/y-curve.png
 ---
 
 Let me make this clear. For many businesses, introducing an [**ERP system**](https://fractionerp.com/features/) requires a change in approach.
@@ -24,7 +25,7 @@ But, here's the point. When you choose an ERP system that is a good fit, it will
 Let me share with you a simple graph. It is commonly known as the Y curve, or the improvement curve.
 
 
-![]({{ site.baseurl }}/assets/img/blog/c0898b00a363973a4e33d7ca31fd1e9e/y-curve.png)
+![y curve in Fraction ERP]({{ site.baseurl }}/assets/img/blog/c0898b00a363973a4e33d7ca31fd1e9e/y-curve.png)
 
 
 In short, when you introduce a new system / software tool (1), you often end up in a period of learning (2). To some degree, there is confusion.

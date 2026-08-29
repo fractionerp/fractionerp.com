@@ -6,6 +6,7 @@ description: "Learn why a good ERP dashboard can be a game changer"
 category: general
 author: Giles Johnston
 permalink: /blog/erp-dashboard-keeping-your-finger-on-the-pulse/
+image: /assets/img/blog/3bf1bcd5e9bbb8a811da378356209e14/dashboard.png
 ---
 
 An [**ERP dashboard**](https://fractionerp.com/dashboard) is an essential tool for any manager running a manufacturing business.
@@ -37,7 +38,7 @@ At Fraction, we've worked to create an ERP dashboard that allows you see where y
 
 
 
-![]({{ site.baseurl }}/assets/img/blog/3bf1bcd5e9bbb8a811da378356209e14/dashboard.png)
+![dashboard in Fraction ERP]({{ site.baseurl }}/assets/img/blog/3bf1bcd5e9bbb8a811da378356209e14/dashboard.png)
 
 
 **Fraction ERP dashboard - manage your business from one place**

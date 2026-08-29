@@ -6,6 +6,7 @@ description: "Good quality management is built into Fraction ERP - find out how 
 category: erp
 author: Giles Johnston
 permalink: /blog/non-conformance-dashboard/
+image: /assets/img/blog/cc0f67e191b2310d889fd25cf71af42b/nonconformancedashboard-NCRregister.jpg
 ---
 
 [**Non conformance dashboards**](https://fractionerp.com/quality/) can really help a manufacturing team to improve and develop their processes. At the heart of every quality management system, non conformances can revolutionise the results you can achieve.
@@ -50,7 +51,7 @@ Not here at Fraction ERP! We've built non conformance reporting (NCR) directly i
 In Fraction ERP you can raise NCRs from different places, reducing the need to hunt down a form when you need it!
 
 
-In the screenshots below you can see how NCRs are raised from [**works orders**](https://fractionerp.com/works-orders/) and via the [**production tracking**](https://fractionerp.com/shop-floor-data-capture/) screen.
+In the screenshots below you can see how NCRs are raised from [**works orders**](https://fractionerp.com/works-orders/) and via the [**production tracking**](https://fractionerp.com/shopfloor-data-capture-software/) screen.
 
 
 
@@ -123,7 +124,7 @@ This feature is part of Fraction ERP too. Assign actions from the NCR report and
 
 
 
-![]({{ site.baseurl }}/assets/img/blog/cc0f67e191b2310d889fd25cf71af42b/nonconformancedashboard-addcorrectiveactiontoNCR.jpg)
+![nonconformancedashboard addcorrectiveactionto NCR in Fraction ERP]({{ site.baseurl }}/assets/img/blog/cc0f67e191b2310d889fd25cf71af42b/nonconformancedashboard-addcorrectiveactiontoNCR.jpg)
 
 
 **Add the corrective action directly to the NCR report**
@@ -135,7 +136,7 @@ This feature is part of Fraction ERP too. Assign actions from the NCR report and
 
 
 
-![]({{ site.baseurl }}/assets/img/blog/cc0f67e191b2310d889fd25cf71af42b/nonconformancedashboard-correctiveactionregister.jpg)
+![nonconformancedashboard correctiveactionregister in Fraction ERP]({{ site.baseurl }}/assets/img/blog/cc0f67e191b2310d889fd25cf71af42b/nonconformancedashboard-correctiveactionregister.jpg)
 
 
 **Review all corrective actions in one place**

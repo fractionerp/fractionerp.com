@@ -11,6 +11,7 @@ related_posts_list:
   - /blog/erp-demo-how-it-works/
   - /blog/is-it-hard-to-implement-an-erp-system/
   - /blog/erp-system-meaning/
+image: /assets/img/blog/eb83bac9c6ead5aee34a27ca9b6ebd80/SchedulingBoard.jpg
 ---
 
 The mere thought of selecting software, any software, can put most of us off.
@@ -57,7 +58,7 @@ The core of most [ERP systems]({{ site.baseurl }}/blog/erp-system-meaning/) are 
 
 
 
-![]({{ site.baseurl }}/assets/img/blog/eb83bac9c6ead5aee34a27ca9b6ebd80/SchedulingBoard.jpg)
+![Scheduling Board in Fraction ERP]({{ site.baseurl }}/assets/img/blog/eb83bac9c6ead5aee34a27ca9b6ebd80/SchedulingBoard.jpg)
 
 
 **Fraction ERP's visual scheduling board (including capacity indicators)**

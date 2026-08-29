@@ -6,6 +6,7 @@ description: "Find out how easy ERP invoicing is with Fraction ERP"
 category: general
 author: Giles Johnston
 permalink: /blog/how-fraction-erp-s-invoicing-works/
+image: /assets/img/blog/9f35d8d0cee509284d870c15858fcce8/erpinvoicing-integrations.png
 ---
 
 One of the challenges our modern age brings us is the sheer number of apps we now have.
@@ -72,7 +73,7 @@ As you can see in the image below, the page is straightforward, so this can be d
 
 
 
-![]({{ site.baseurl }}/assets/img/blog/9f35d8d0cee509284d870c15858fcce8/erpinvoicing-setup.jpg)
+![erpinvoicing setup in Fraction ERP]({{ site.baseurl }}/assets/img/blog/9f35d8d0cee509284d870c15858fcce8/erpinvoicing-setup.jpg)
 
 
 **Configuring Fraction ERP is completed with just a few clicks**

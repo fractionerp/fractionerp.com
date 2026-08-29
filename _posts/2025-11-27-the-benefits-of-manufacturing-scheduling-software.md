@@ -6,12 +6,13 @@ description: "If you are unsure why you would use manufacturing scheduling softw
 category: production-scheduling
 author: Giles Johnston
 permalink: /blog/the-benefits-of-manufacturing-scheduling-software/
+image: /assets/img/blog/bc2eb4c85dfddcb2058314737accd217/Schedulerdraganddrop.png
 ---
 
 Despite having ERP systems installed, many manufacturing businesses still schedule their operations outside of ERP. What seems quicker to do for many people we speak to, using an ERP system for your manufacturing scheduling is often better in the long run.
 
 
-In this short article we'll run through some of benefits of using [**manufacturing scheduling software**](https://fractionerp.com/production-scheduling/) and how Fraction ERP has addressed some of the related challenges that businesses face.
+In this short article we'll run through some of benefits of using [**manufacturing scheduling software**](https://fractionerp.com/production-scheduling-software/) and how Fraction ERP has addressed some of the related challenges that businesses face.
 
 
 
@@ -27,7 +28,7 @@ In this short article we'll run through some of benefits of using [**manufacturi
 Although this can be achieved through other means, an ERP's scheduling tool can produce visual outputs that make it easy to see how the queue of operations will run through your factory.
 
 
-Mentally juggling the queues of work and the sequence of activities is enough to fry most people's brains. We've also built a feature into our [**drag and drop scheduler**](https://fractionerp.com/production-scheduling/) that allows you to see all the related operations when you click on an operation.
+Mentally juggling the queues of work and the sequence of activities is enough to fry most people's brains. We've also built a feature into our [**drag and drop scheduler**](https://fractionerp.com/production-scheduling-software/) that allows you to see all the related operations when you click on an operation.
 
 
 This visualisation helps you to speed up the scheduling process, especially when compared to many manual methods of scheduling.
@@ -53,7 +54,7 @@ This visualisation helps you to speed up the scheduling process, especially when
 
 
 
-[**Creating work to lists**](https://fractionerp.com/shop-floor-data-capture/) for your teams to follow is another chore that manufacturing scheduling software can take in its stride.
+[**Creating work to lists**](https://fractionerp.com/shopfloor-data-capture-software/) for your teams to follow is another chore that manufacturing scheduling software can take in its stride.
 
 
 In most scheduling tools, when you change a sequence of operations, the work to list is updated. The work to list is the natural output of the scheduler. If you write out manual work to lists, this could be eliminated if you used a scheduling tool for your factory.
@@ -63,7 +64,7 @@ In most scheduling tools, when you change a sequence of operations, the work to 
 
 
 
-![]({{ site.baseurl }}/assets/img/blog/bc2eb4c85dfddcb2058314737accd217/WorksOrdersList.png)
+![Works Orders List in Fraction ERP]({{ site.baseurl }}/assets/img/blog/bc2eb4c85dfddcb2058314737accd217/WorksOrdersList.png)
 
 
 **An unfiltered view of Fraction's work to list**
@@ -104,7 +105,7 @@ The one at a time schedule works with the same logic as auto schedule but you ge
 
 
 
-![]({{ site.baseurl }}/assets/img/blog/bc2eb4c85dfddcb2058314737accd217/WorksOrderTracking.png)
+![Works Order Tracking in Fraction ERP]({{ site.baseurl }}/assets/img/blog/bc2eb4c85dfddcb2058314737accd217/WorksOrderTracking.png)
 
 
 **Simplified work tracking, linked to the schedule and shop floor data capture**
@@ -117,7 +118,7 @@ The one at a time schedule works with the same logic as auto schedule but you ge
 Auto schedule can be used periodically to reset your schedule if you have notable problems with projects / breakdowns etc... We also have the ability to pin operations, if certain works orders cannot be moved around but others can.
 
 
-And, to save time making minor tweaks to your schedule when things slip, we've included a shunting function. This 'shoves' the schedule along the timeline if operations aren't being completed on time, until they are booked off by the shop floor staff. [**Shop floor user accounts are free in Fraction ERP!**](https://fractionerp.com/shop-floor-data-capture/)
+And, to save time making minor tweaks to your schedule when things slip, we've included a shunting function. This 'shoves' the schedule along the timeline if operations aren't being completed on time, until they are booked off by the shop floor staff. [**Shop floor user accounts are free in Fraction ERP!**](https://fractionerp.com/shopfloor-data-capture-software/)
 
 
 
@@ -160,4 +161,4 @@ You can download your copy using the form below.
 
 
 
-![]({{ site.baseurl }}/assets/img/blog/bc2eb4c85dfddcb2058314737accd217/ERPImplementationGuidecover.jpg)
+![ERPImplementation Guidecover in Fraction ERP]({{ site.baseurl }}/assets/img/blog/bc2eb4c85dfddcb2058314737accd217/ERPImplementationGuidecover.jpg)

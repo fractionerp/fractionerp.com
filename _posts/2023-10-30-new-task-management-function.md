@@ -6,6 +6,7 @@ description: "Our new task management module can help you to assign tasks to you
 category: product-updates
 author: Giles Johnston
 permalink: /blog/new-task-management-function/
+sitemap: false
 ---
 
 To help our users get the most out of our [**dashboard**](https://fractionerp.com/dashboard), we have introduced a simple task management function into Fraction ERP.

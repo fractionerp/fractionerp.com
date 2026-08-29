@@ -6,6 +6,7 @@ description: "We've kept our scheduling tool simple so every manufacturer can ef
 category: production-scheduling
 author: Giles Johnston
 permalink: /blog/manufacturing-scheduling-software-for-small-business-is-the-new-black/
+image: /assets/img/blog/24823175dca3e2192dd005ba02154089/planningpage.png
 ---
 
 There are many scheduling tools for small businesses. [**Fraction ERP**](https://fractionerp.com/) is one of them.
@@ -30,7 +31,7 @@ Like fashion, we think that scheduling software for manufacturers should be back
 
 
 
-Our [**visual scheduling boards**](https://fractionerp.com/production-scheduling/) require a few clicks and you're done.
+Our [**visual scheduling boards**](https://fractionerp.com/production-scheduling-software/) require a few clicks and you're done.
 
 
 There's nothing complex to organise and you can keep it as simple as you want it. We have weekly, daily and hourly scheduling options.

@@ -6,6 +6,7 @@ description: "If you have no idea where to start with ERP systems, check out thi
 category: erp
 author: Giles Johnston
 permalink: /blog/what-do-i-do-first-if-i-don-t-understand-erp-systems/
+image: /assets/img/blog/ed33785171f19385f2742856c0d1ce2e/FractionERP-VisualScheduler.png
 ---
 
 If you've arrived at our blog, you'll be like many people we speak to each week.
@@ -14,7 +15,7 @@ If you've arrived at our blog, you'll be like many people we speak to each week.
 Running a growing manufacturing business is hard enough, before you add the idea of an ERP system into the mix.
 
 
-Thankfully we've been there and have done our best to make [**Fraction ERP**](https://fractionerp.com/index) quick to learn and easy to use.
+Thankfully we've been there and have done our best to make [**Fraction ERP**](https://fractionerp.com/) quick to learn and easy to use.
 
 
 ---

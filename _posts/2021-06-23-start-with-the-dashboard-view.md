@@ -6,6 +6,7 @@ description: "Reduce your management time and increase your effectiveness with e
 category: management
 author: Giles Johnston
 permalink: /blog/start-with-the-dashboard-view/
+image: /assets/img/blog/36aa3cbb65c542ae60e2550559431cc6/dashboard.jpg
 ---
 
 Do you manage your business by exceptions?
@@ -30,7 +31,7 @@ As we believe in managing by exceptions, and that ERP systems are a productivity
 
 
 
-![]({{ site.baseurl }}/assets/img/blog/36aa3cbb65c542ae60e2550559431cc6/dashboard.jpg)
+![dashboard in Fraction ERP]({{ site.baseurl }}/assets/img/blog/36aa3cbb65c542ae60e2550559431cc6/dashboard.jpg)
 
 
 **Fraction ERP's dashboard**

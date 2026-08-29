@@ -6,6 +6,7 @@ description: "Learn how to access our support pages and tutorial videos."
 category: general
 author: Giles Johnston
 permalink: /blog/fraction-erp-support-pages-now-available/
+image: /assets/img/blog/197e26dad540090d162ba1f5e40740c3/fraction_erp_support.jpg
 ---
 
 At [**Fraction ERP**](https://fractionerp.com/features/), we pride ourselves on having designed and developed a simple cloud based ERP system. We haven't skimped on the functionality, but we have ensured that the system is as quick as possible to pick up and master.
@@ -23,7 +24,7 @@ Our new support pages are now available at **[https://fractionerp.com/support/](
 ****
 
 
-[![]({{ site.baseurl }}/assets/img/blog/197e26dad540090d162ba1f5e40740c3/fraction_erp_support.jpg)](https://fractionerp.com/support/)
+[![fraction erp support in Fraction ERP]({{ site.baseurl }}/assets/img/blog/197e26dad540090d162ba1f5e40740c3/fraction_erp_support.jpg)](https://fractionerp.com/support/)
 
 
 
@@ -39,7 +40,7 @@ All of the videos can be seen on our Vimeo channel here: **[https://vimeo.com/sh
 
 
 
-[![]({{ site.baseurl }}/assets/img/blog/197e26dad540090d162ba1f5e40740c3/fraction_erp_tutorials.jpg)](https://vimeo.com/showcase/8283149)
+[![fraction erp tutorials in Fraction ERP]({{ site.baseurl }}/assets/img/blog/197e26dad540090d162ba1f5e40740c3/fraction_erp_tutorials.jpg)](https://vimeo.com/showcase/8283149)
 
 
 

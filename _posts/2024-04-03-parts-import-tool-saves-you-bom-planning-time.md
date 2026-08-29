@@ -6,6 +6,8 @@ description: "Our new parts import function can save you hours building your Bil
 category: product-updates
 author: Giles Johnston
 permalink: /blog/parts-import-tool-saves-you-bom-planning-time/
+sitemap: false
+image: /assets/img/blog/58694977b68a60a9e3d4f00b0a7028be/PartsImport.jpg
 ---
 
 One of our latest updates for Fraction ERP is a parts import tool.
@@ -14,10 +16,10 @@ One of our latest updates for Fraction ERP is a parts import tool.
 It is something we have wrestled with for a while. How do we make our system faster for our users, when it comes to building the part structures as part of the [**Bill of Materials**](https://www.fractionerp.com/bill-of-materials) (BOM)?
 
 
-So, we've built an import function to allow the uploading of parts into our [**cloud ERP system**](https://www.fractionerp.com/index).
+So, we've built an import function to allow the uploading of parts into our [**cloud ERP system**](https://fractionerp.com/).
 
 
-![]({{ site.baseurl }}/assets/img/blog/58694977b68a60a9e3d4f00b0a7028be/PartsImport.jpg)
+![Parts Import in Fraction ERP]({{ site.baseurl }}/assets/img/blog/58694977b68a60a9e3d4f00b0a7028be/PartsImport.jpg)
 
 
 Simply click on the IMPORT button and upload the template that you have populated. Bingo, hours saved when pulling your Bill of Materials together.

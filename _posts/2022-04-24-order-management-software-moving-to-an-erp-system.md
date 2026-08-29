@@ -6,6 +6,7 @@ description: "If you are looking for an order management software solution that 
 category: general
 author: Giles Johnston
 permalink: /blog/order-management-software-moving-to-an-erp-system/
+image: /assets/img/blog/431e5f0f4327a0187225de6dffa9bbd0/Snapshot-199.png
 ---
 
 If your current order management software is a spreadsheet, then you might be wondering if it is worth moving to an [**ERP system**](https://fractionerp.com/).
@@ -74,7 +75,7 @@ Fraction ERP is quick to learn because we have kept it simple.
 
 
 
-![]({{ site.baseurl }}/assets/img/blog/431e5f0f4327a0187225de6dffa9bbd0/Snapshot-199.png)
+![Order Management Software - moving to an ERP system screenshot]({{ site.baseurl }}/assets/img/blog/431e5f0f4327a0187225de6dffa9bbd0/Snapshot-199.png)
 
 
 **Fraction's simple visual scheduling screen**

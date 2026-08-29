@@ -6,6 +6,7 @@ description: "Learn how we designed Fraction ERP to take away the effort from ma
 category: erp
 author: Giles Johnston
 permalink: /blog/5-reasons-fraction-simplifies-erp-activity/
+image: /assets/img/blog/6ad22661901432f2d292e62703dca328/simple_search.jpg
 ---
 
 How simple is your current business system to use? If you have an existing ERP system, or spreadsheets and whiteboards, one of the reasons to look for a new solution is simplicity.
@@ -56,7 +57,7 @@ Fraction has a fast and versatile search capability, meaning that you can see wh
 No more crunching your way through endless menu systems and ticking boxes just to find out what works orders are overdue, or what sales orders are going out next week.
 
 
-![]({{ site.baseurl }}/assets/img/blog/6ad22661901432f2d292e62703dca328/simple_search.jpg)
+![simple search in Fraction ERP]({{ site.baseurl }}/assets/img/blog/6ad22661901432f2d292e62703dca328/simple_search.jpg)
 
 
 Simpler viewing and accessing your data (especially when you have a lot going on) is just another good reason why Fraction can help to simplify your ERP activities.
@@ -101,7 +102,7 @@ Fraction has a simple menu system. You are only ever a couple of clicks away fro
 And, if you want even more simplicity then check out the big plus button we have in the top right corner of our layout:
 
 
-![]({{ site.baseurl }}/assets/img/blog/6ad22661901432f2d292e62703dca328/simple_menu.jpg)
+![simple menu in Fraction ERP]({{ site.baseurl }}/assets/img/blog/6ad22661901432f2d292e62703dca328/simple_menu.jpg)
 
 
 We took Pareto's advice (aka the '80/20 rule') and put the primary functions into a quick access menu.
@@ -132,7 +133,7 @@ Both outcomes lead to ineffectiveness within the system; this is not something w
 So, what did we do? You've got it - we put it all in one place and made it simple to use.
 
 
-![]({{ site.baseurl }}/assets/img/blog/6ad22661901432f2d292e62703dca328/simple_options.jpg)
+![simple options in Fraction ERP]({{ site.baseurl }}/assets/img/blog/6ad22661901432f2d292e62703dca328/simple_options.jpg)
 
 
 No more hunting around!

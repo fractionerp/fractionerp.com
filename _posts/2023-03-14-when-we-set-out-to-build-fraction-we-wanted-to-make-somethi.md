@@ -6,6 +6,7 @@ description: "Learn more about the benefits of cloud MRP software"
 category: erp
 author: Giles Johnston
 permalink: /blog/when-we-set-out-to-build-fraction-we-wanted-to-make-somethi/
+image: /assets/img/blog/fa70d521103cbe48f3b254a20a46c9d1/FractionERP-VisualScheduler.png
 ---
 
 When we set out to build Fraction, we wanted to make something that was low cost, easy to use and scalable for a growing business. We opted to create a cloud solution for a variety of reasons. In this article we'll help explain some of the reasons why cloud MRP software can offer your business advantages over server based ERP solutions.
@@ -19,7 +20,7 @@ When we set out to build Fraction, we wanted to make something that was low cost
 
 
 
-Cloud MRP software is designed to take the hassle out of [**managing production needs**](https://fractionerp.com/production-scheduling/). It is a cloud-based solution that allows businesses to store all data related to the manufacturing process in a secure server, and access it from anywhere with an internet connection.
+Cloud MRP software is designed to take the hassle out of [**managing production needs**](https://fractionerp.com/production-scheduling-software/). It is a cloud-based solution that allows businesses to store all data related to the manufacturing process in a secure server, and access it from anywhere with an internet connection.
 
 
 We've designed Fraction so that you can access it from your smartphone, if you are on the go. Most users will access the data from an Internet browser on their PC or laptop. But, with cloud technologies, any screen is viable.
@@ -81,7 +82,7 @@ All in all, cloud MRP software offers numerous advantages for businesses looking
 
 
 
-![]({{ site.baseurl }}/assets/img/blog/fa70d521103cbe48f3b254a20a46c9d1/workflow.jpg)
+![workflow in Fraction ERP]({{ site.baseurl }}/assets/img/blog/fa70d521103cbe48f3b254a20a46c9d1/workflow.jpg)
 
 
 **Fraction ERP joins up the traditional MRP functions with wider business activities**

@@ -6,6 +6,7 @@ description: "See how our cloud ERP system appears on smartphone, tablet and PC 
 category: erp
 author: Giles Johnston
 permalink: /blog/effective-cloud-erp-on-your-mobile-devices/
+image: /assets/img/blog/923f334faec2126e9db2f19e9f7f5f65/stockalertmobile.png
 ---
 
 When we designed [**Fraction ERP**](https://fractionerp.com/features/), we wanted to make sure it was [**unshackled from the confines of a server deployment**](https://fractionerp.com/blog/5-reasons-cloud-erp-makes-sense/). Developing a cloud ERP system seemed like a logical option.
@@ -21,7 +22,7 @@ The screenshots shared below show how the same screen looks on a smartphone, tab
 
 
 
-![]({{ site.baseurl }}/assets/img/blog/923f334faec2126e9db2f19e9f7f5f65/stockalertmobile.png)
+![stockalertmobile in Fraction ERP]({{ site.baseurl }}/assets/img/blog/923f334faec2126e9db2f19e9f7f5f65/stockalertmobile.png)
 
 
 **Stock alert screen shown above, on smartphone (left) and 10" tablet (right)**
@@ -31,7 +32,7 @@ The screenshots shared below show how the same screen looks on a smartphone, tab
 
 
 
-![]({{ site.baseurl }}/assets/img/blog/923f334faec2126e9db2f19e9f7f5f65/stockalertdesktop.png)
+![stockalertdesktop in Fraction ERP]({{ site.baseurl }}/assets/img/blog/923f334faec2126e9db2f19e9f7f5f65/stockalertdesktop.png)
 
 
 **Stock alert screen above, as seen on a desktop PC**
@@ -51,7 +52,7 @@ In the screenshots below, you can see how this looks in practice (left hand imag
 
 
 
-![]({{ site.baseurl }}/assets/img/blog/923f334faec2126e9db2f19e9f7f5f65/WOtrackingmobile.png)
+![WOtrackingmobile in Fraction ERP]({{ site.baseurl }}/assets/img/blog/923f334faec2126e9db2f19e9f7f5f65/WOtrackingmobile.png)
 
 
 **Production tracking screen shown above, on smartphone (left) and 10" tablet (right)**
@@ -61,7 +62,7 @@ In the screenshots below, you can see how this looks in practice (left hand imag
 
 
 
-![]({{ site.baseurl }}/assets/img/blog/923f334faec2126e9db2f19e9f7f5f65/WOtrackingdesktop.png)
+![WOtrackingdesktop in Fraction ERP]({{ site.baseurl }}/assets/img/blog/923f334faec2126e9db2f19e9f7f5f65/WOtrackingdesktop.png)
 
 
 **Production tracking screen, as seen on a desktop PC**

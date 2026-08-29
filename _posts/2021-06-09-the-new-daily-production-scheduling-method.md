@@ -6,6 +6,7 @@ description: "Find out how our daily scheduling tool works."
 category: production-scheduling
 author: Giles Johnston
 permalink: /blog/the-new-daily-production-scheduling-method/
+image: /assets/img/blog/0f3b37029eec7e3e952005d0f00efc02/daily_1.png
 ---
 
 Our updated daily scheduling function is now available within our cloud ERP system.
@@ -27,7 +28,7 @@ The daily scheduling screen follows the same visual approach we took for the wee
 
 
 
-![]({{ site.baseurl }}/assets/img/blog/0f3b37029eec7e3e952005d0f00efc02/daily_1.png)
+![daily 1 in Fraction ERP]({{ site.baseurl }}/assets/img/blog/0f3b37029eec7e3e952005d0f00efc02/daily_1.png)
 
 
 **Weekly buckets view within our scheduler, with capacity bars included**
@@ -47,7 +48,7 @@ The main difference here is that you see the days within the weeks.
 
 
 
-![]({{ site.baseurl }}/assets/img/blog/0f3b37029eec7e3e952005d0f00efc02/daily_2.png)
+![daily 2 in Fraction ERP]({{ site.baseurl }}/assets/img/blog/0f3b37029eec7e3e952005d0f00efc02/daily_2.png)
 
 
 **Daily scheduling within Fraction ERP**
@@ -85,7 +86,7 @@ Saving time scheduling is just one part of the equation. If you can quickly crea
 
 
 
-![]({{ site.baseurl }}/assets/img/blog/0f3b37029eec7e3e952005d0f00efc02/daily_3.png)
+![daily 3 in Fraction ERP]({{ site.baseurl }}/assets/img/blog/0f3b37029eec7e3e952005d0f00efc02/daily_3.png)
 
 
 **Screenshot of the work order tracking tool**

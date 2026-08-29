@@ -6,9 +6,10 @@ description: "Find out how Fraction ERP can help you to quickly see what is goin
 category: shop-floor
 author: Giles Johnston
 permalink: /blog/shop-floor-visual-management/
+image: /assets/img/blog/011e0c89d1dddf651743e9eafaf6c9d2/workcentrestatus.png
 ---
 
-[**Our recent update**](https://fractionerp.com/product-updates/) has brought with it an upgrade to our [**Shop Floor Data Collection**](https://fractionerp.com/shop-floor-data-capture/) (SFDC) tracking screens.
+[**Our recent update**](https://fractionerp.com/product-updates/) has brought with it an upgrade to our [**Shop Floor Data Collection**](https://fractionerp.com/shopfloor-data-capture-software/) (SFDC) tracking screens.
 
 
 You can now see, at a glance, which workcentres are operating, along with which team members are clocked onto a job.

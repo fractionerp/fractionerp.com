@@ -6,6 +6,7 @@ description: "Discover the new features and improvements we've made in February 
 category: product-updates
 author: Giles Johnston
 permalink: /blog/update-to-quotes-product-images/
+sitemap: false
 ---
 
 We've just made an update to Fraction ERP that now allows you to include photos / images of your products on your quotes.

@@ -6,6 +6,7 @@ description: "Discover how implementing an ERP system can free up hours each wee
 category: general
 author: Giles Johnston
 permalink: /blog/how-an-erp-system-can-save-you-time-to-grow-your-business/
+image: /assets/img/blog/erp-success.png
 ---
 
 ![ERP Success - Grow Your Business]({{ site.baseurl }}/assets/img/blog/erp-success.png){: .img-fluid .mb-4 }

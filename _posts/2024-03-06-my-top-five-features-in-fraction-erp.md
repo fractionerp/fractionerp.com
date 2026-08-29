@@ -6,6 +6,7 @@ description: "Learn which features of Fraction ERP are Giles' top five. Clue - h
 category: general
 author: Giles Johnston
 permalink: /blog/my-top-five-features-in-fraction-erp/
+image: /assets/img/blog/9efabde8d6a1399ea8748321ba33a874/dashboard.png
 ---
 
 This post is written by Giles.
@@ -39,7 +40,7 @@ To run a meeting like this effectively, you need good data. It would therefore s
 I would have loved have this data at my fingertips, rather than spending hours trawling my factory...
 
 
-![]({{ site.baseurl }}/assets/img/blog/9efabde8d6a1399ea8748321ba33a874/dashboard.png)
+![dashboard in Fraction ERP]({{ site.baseurl }}/assets/img/blog/9efabde8d6a1399ea8748321ba33a874/dashboard.png)
 
 
 ---
@@ -53,10 +54,10 @@ I would have loved have this data at my fingertips, rather than spending hours t
 Being able to consider committed capacity when loading your production orders is critical for high, consistent, on time delivery performance.
 
 
-The [**visual scheduling**](https://fractionerp.com/production-scheduling/) boards in Fraction do just this. I can see at a glance how busy a particular resource is and the best way to schedule it. We've also built this tool so it can be used iteratively. Load up the schedule with weekly buckets for items that are in the future. As you get closer, you can schedule them more accurately using the daily scheduling tool. This can save hours if your customers move their order book around.
+The [**visual scheduling**](https://fractionerp.com/production-scheduling-software/) boards in Fraction do just this. I can see at a glance how busy a particular resource is and the best way to schedule it. We've also built this tool so it can be used iteratively. Load up the schedule with weekly buckets for items that are in the future. As you get closer, you can schedule them more accurately using the daily scheduling tool. This can save hours if your customers move their order book around.
 
 
-![]({{ site.baseurl }}/assets/img/blog/9efabde8d6a1399ea8748321ba33a874/planningpage.png)
+![planningpage in Fraction ERP]({{ site.baseurl }}/assets/img/blog/9efabde8d6a1399ea8748321ba33a874/planningpage.png)
 
 
 ---
@@ -76,7 +77,7 @@ Capturing and managing tasks can be an artform but it is easier when it is built
 Our [**task system**](https://fractionerp.com/erp-task-management/) is quick to use, ties in with your dashboard and can be used to track ongoing business activities such as health and safety, maintenance and continuous improvement. In fact, if you can think of a meeting category, you can create it!
 
 
-![]({{ site.baseurl }}/assets/img/blog/9efabde8d6a1399ea8748321ba33a874/TaskManagement.png)
+![Task Management in Fraction ERP]({{ site.baseurl }}/assets/img/blog/9efabde8d6a1399ea8748321ba33a874/TaskManagement.png)
 
 
 ---
@@ -93,10 +94,10 @@ This tool would have saved me hours every day, in my production management days.
 I particularly like this screen due to the visual progress bar. This bar allows you to determine if any jobs are not progressing. It isn't a precise science but a great way to keep your finger on the pulse.
 
 
-Also, this data ties in beautifully with the exception reporting that comes from the dashboard and the information held in the [**work to lists**](https://fractionerp.com/production-scheduling/).
+Also, this data ties in beautifully with the exception reporting that comes from the dashboard and the information held in the [**work to lists**](https://fractionerp.com/production-scheduling-software/).
 
 
-![]({{ site.baseurl }}/assets/img/blog/9efabde8d6a1399ea8748321ba33a874/WorksOrderTracking.png)
+![Works Order Tracking in Fraction ERP]({{ site.baseurl }}/assets/img/blog/9efabde8d6a1399ea8748321ba33a874/WorksOrderTracking.png)
 
 
 ---
@@ -107,13 +108,13 @@ Also, this data ties in beautifully with the exception reporting that comes from
 
 
 
-I could have picked more than five items, but the [**Shop Floor Data Collection**](https://fractionerp.com/shop-floor-data-capture/) (SFDC) overview page is another one of my highlights. On this screen I can see who is working on what, and whether they have gone over their allocated time (or not).
+I could have picked more than five items, but the [**Shop Floor Data Collection**](https://fractionerp.com/shopfloor-data-capture-software/) (SFDC) overview page is another one of my highlights. On this screen I can see who is working on what, and whether they have gone over their allocated time (or not).
 
 
 The SFDC report pages are great to interrogate the plan versus actual data, but if you need to nudge the right production orders to keep everything on track this highly visual screen is a god send.
 
 
-![]({{ site.baseurl }}/assets/img/blog/9efabde8d6a1399ea8748321ba33a874/SFDClive.png)
+![SFDClive in Fraction ERP]({{ site.baseurl }}/assets/img/blog/9efabde8d6a1399ea8748321ba33a874/SFDClive.png)
 
 
 

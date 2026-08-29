@@ -44,7 +44,7 @@ In short, if you need to buy something, you'll find it in this module.
 
 
 
-To define the list of materials, components and sub-assemblies required for your production orders, our [**Bill of Materials**](https://fractionerp.com/bill-of-materials/) module deals with this.
+To define the list of materials, components and sub-assemblies required for your production orders, our [**Bill of Materials**](https://fractionerp.com/bill-of-materials-software/) module deals with this.
 
 
 Fraction ERP provides the option to create templates, carry out job costing and capture snapshots of costs.

@@ -6,6 +6,7 @@ description: "Learn how to get the most out of an ERP dashboard."
 category: general
 author: Giles Johnston
 permalink: /blog/how-to-use-an-erp-dashboard/
+image: /assets/img/blog/0b4005068b2cbb5ac0b4b0f8a554179c/dashboard1.jpg
 ---
 
 A dashboard is a key part of any modern ERP system. [**Fraction ERP**](https://fractionerp.com/features/) is no different but how you use it makes all the difference. In this article we are going to share with a few ideas to get the most out of this tool.
@@ -83,7 +84,7 @@ And, this brings me nicely to the next point.
 
 
 
-![]({{ site.baseurl }}/assets/img/blog/0b4005068b2cbb5ac0b4b0f8a554179c/dashboard2.jpg)
+![dashboard2 in Fraction ERP]({{ site.baseurl }}/assets/img/blog/0b4005068b2cbb5ac0b4b0f8a554179c/dashboard2.jpg)
 
 
 **Drilling down into exception data with a single click**

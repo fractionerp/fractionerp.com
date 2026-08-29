@@ -6,6 +6,7 @@ description: "Learn how realistic manufacturing capacity planning prevents overl
 category: production-scheduling
 author: Giles Johnston
 permalink: /blog/manufacturing-capacity/
+image: /assets/img/blog/autosave-1bdd5d96d5349a93d9f675e22bf777a9/utilisation.jpg
 ---
 
 This isn't a trick question.
@@ -67,7 +68,7 @@ If there is sickness on top of that, typically speaking, then you will expect ev
 
 
 
-![]({{ site.baseurl }}/assets/img/blog/autosave-1bdd5d96d5349a93d9f675e22bf777a9/utilisation.jpg)
+![utilisation in Fraction ERP]({{ site.baseurl }}/assets/img/blog/autosave-1bdd5d96d5349a93d9f675e22bf777a9/utilisation.jpg)
 
 
 
@@ -101,7 +102,7 @@ At Fraction ERP we decided to keep managing capacity simple:
 
 
 
-![]({{ site.baseurl }}/assets/img/blog/autosave-1bdd5d96d5349a93d9f675e22bf777a9/workcentresetup.jpg)
+![workcentresetup in Fraction ERP]({{ site.baseurl }}/assets/img/blog/autosave-1bdd5d96d5349a93d9f675e22bf777a9/workcentresetup.jpg)
 
 
 The weekly default capacity can be raised and lowered as part of the forward horizon tool we have included (if you want to decrease it for maintenance or raise it for temporary labour, for example).
@@ -109,7 +110,7 @@ The weekly default capacity can be raised and lowered as part of the forward hor
 
 
 
-![]({{ site.baseurl }}/assets/img/blog/autosave-1bdd5d96d5349a93d9f675e22bf777a9/workcentrehorizon.jpg)
+![workcentrehorizon in Fraction ERP]({{ site.baseurl }}/assets/img/blog/autosave-1bdd5d96d5349a93d9f675e22bf777a9/workcentrehorizon.jpg)
 
 
 

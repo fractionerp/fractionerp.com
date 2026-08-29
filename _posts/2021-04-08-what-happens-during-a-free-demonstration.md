@@ -6,6 +6,7 @@ description: "Find out what happens when you sign up for a free demo of our clou
 category: general
 author: Giles Johnston
 permalink: /blog/what-happens-during-a-free-demonstration/
+image: /assets/img/blog/5ba7119ca506d597d1ccb20ba96e33eb/fraction_demo.jpg
 ---
 
 If you have wondered what happens when you sign up for a free demo with us, let me tell you a little about it:
@@ -23,7 +24,7 @@ If you have wondered what happens when you sign up for a free demo with us, let 
 
 
 
-# [![cloud erp system]({{ site.baseurl }}/assets/img/blog/5ba7119ca506d597d1ccb20ba96e33eb/fraction_demo.jpg)](https://fractionerp.com/features/)
+[![Fraction ERP demonstration on a laptop]({{ site.baseurl }}/assets/img/blog/5ba7119ca506d597d1ccb20ba96e33eb/fraction_demo.jpg)](https://fractionerp.com/features/)
 
 
 

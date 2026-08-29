@@ -6,6 +6,7 @@ description: "Our development roadmap is built in partnership with our users. Do
 category: general
 author: Giles Johnston
 permalink: /blog/do-you-want-to-help-build-a-better-erp-system/
+image: /assets/img/blog/bef8d5e1953d430b2f318995798a8929/Fractionrequestnewfeature.jpg
 ---
 
 One of the things we are proud of here at Fraction ERP is our ongoing discussions with our customers.
@@ -59,7 +60,7 @@ After you have fully got to grips with Fraction, we have a feature inside our ap
 
 
 
-![]({{ site.baseurl }}/assets/img/blog/bef8d5e1953d430b2f318995798a8929/Fractionrequestnewfeature.jpg)
+![Fractionrequestnewfeature in Fraction ERP]({{ site.baseurl }}/assets/img/blog/bef8d5e1953d430b2f318995798a8929/Fractionrequestnewfeature.jpg)
 
 
 **The 'request new feature' option inside the Fraction ERP app**

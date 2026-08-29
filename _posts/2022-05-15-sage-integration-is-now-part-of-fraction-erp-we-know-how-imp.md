@@ -6,6 +6,8 @@ description: "One of our latest upgrades is integration with Sage cloud accounti
 category: product-updates
 author: Giles Johnston
 permalink: /blog/sage-integration-is-now-part-of-fraction-erp-we-know-how-imp/
+sitemap: false
+image: /assets/img/blog/230481effe676d2918034b456cb84c52/sagecloudPurchaseOrderintegration.jpg
 ---
 
 We know how important it is for an [**ERP system**](https://fractionerp.com/features/) to help streamline businesses. This is why we chose to integrate with cloud based finance systems from day one.
@@ -28,7 +30,7 @@ Our finance integration allows you to post data straight into the finance packag
 This means that your finance team can get information faster and not have to key in the data again. We all know that keying in data is where errors creep in. So, this also reduces mistakes in the business.
 
 
-![]({{ site.baseurl }}/assets/img/blog/230481effe676d2918034b456cb84c52/sagecloudPurchaseOrderintegration.jpg)
+![sagecloud Purchase Orderintegration in Fraction ERP]({{ site.baseurl }}/assets/img/blog/230481effe676d2918034b456cb84c52/sagecloudPurchaseOrderintegration.jpg)
 
 
 ---
@@ -45,7 +47,7 @@ To integrate your [**Fraction subscription**](https://fractionerp.com/pricing/) 
 Once you authorise the connection, you can pass data straight through.
 
 
-![]({{ site.baseurl }}/assets/img/blog/230481effe676d2918034b456cb84c52/sagecloudERPintegration.jpg)
+![sagecloud ERPintegration in Fraction ERP]({{ site.baseurl }}/assets/img/blog/230481effe676d2918034b456cb84c52/sagecloudERPintegration.jpg)
 
 
 ---

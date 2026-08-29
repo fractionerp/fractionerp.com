@@ -11,6 +11,7 @@ related_posts_list:
   - /blog/what-is-erp-mrp-software/
   - /blog/mrp-software-for-small-business/
   - /blog/how-to-choose-erp-software-for-your-business-without-the-pain/
+image: /assets/img/blog/482d2f1835d7d2425426c42b61380081/ERPandMRPsoftware.jpg
 ---
 
 When people talk about MRP and ERP software they often use the terms interchangeably.
@@ -101,7 +102,7 @@ In more recent times (last ten years), it seems that many more industry specific
 
 
 
-Our cloud ERP system is what we'd like to think of as a [**traditional manufacturing ERP system**](https://fractionerp.com/index). It covers the range of functions listed above (enquiries, sales orders, works orders, purchasing, scheduling, capacity planning, shop floor data capture, shipping and invoicing).
+Our cloud ERP system is what we'd like to think of as a [**traditional manufacturing ERP system**](https://fractionerp.com/). It covers the range of functions listed above (enquiries, sales orders, works orders, purchasing, scheduling, capacity planning, shop floor data capture, shipping and invoicing).
 
 
 We don't have an accounts function but we do integrate with cloud options (currently Sage, Xero and Quickbooks). You can find out more about our functions on our [**features pages**](https://fractionerp.com/features/). See how [Fraction ERP compares to MRPeasy](/mrpeasy-alternative/) and other manufacturing software options.

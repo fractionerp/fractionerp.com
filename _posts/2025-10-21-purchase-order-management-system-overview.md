@@ -6,6 +6,7 @@ description: "Fraction ERP is a purchase order management system; discover more 
 category: purchasing
 author: Giles Johnston
 permalink: /blog/purchase-order-management-system-overview/
+image: /assets/img/blog/4f8a5435cdd064396a57e4f12987202d/PODetailspage.png
 ---
 
 We often get asked if Fraction ERP is a [**purchase order management system**](https://fractionerp.com/purchasing/). The short answer is "yes!". Purchasing is at the core of our cloud ERP system, an overview of this can be seen in this short video:
@@ -66,7 +67,7 @@ Once the materials have arrived at your premises, you can book them into stock. 
 
 
 
-![]({{ site.baseurl }}/assets/img/blog/4f8a5435cdd064396a57e4f12987202d/PODetailspage.png)
+![PODetailspage in Fraction ERP]({{ site.baseurl }}/assets/img/blog/4f8a5435cdd064396a57e4f12987202d/PODetailspage.png)
 
 
 **Purchase order screen within Fraction ERP**

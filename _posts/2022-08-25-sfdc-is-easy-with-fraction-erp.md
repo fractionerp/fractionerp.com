@@ -6,9 +6,10 @@ description: "We've added a new feature to create shop floor work to lists even 
 category: shop-floor
 author: Giles Johnston
 permalink: /blog/sfdc-is-easy-with-fraction-erp/
+image: /assets/img/blog/c48d973fa2e91939255cb0e03ce8d4a1/sfdcREADY.jpg
 ---
 
-SFDC stands for [**Shop Floor Data Collection**](https://fractionerp.com/shop-floor-data-capture/). It is a function of most ERP systems that allows you to track time and progress on your production orders.
+SFDC stands for [**Shop Floor Data Collection**](https://fractionerp.com/shopfloor-data-capture-software/). It is a function of most ERP systems that allows you to track time and progress on your production orders.
 
 
 We include it for [**free with our paid subscriptions**](https://fractionerp.com/pricing/) and we've made our shop floor tools even better. We made it free so you don't have to decide whether you want it or not and potentially miss out!
@@ -21,7 +22,7 @@ Our operations screen now has a 'ready' filter. This screen, which provides the 
 
 
 
-![]({{ site.baseurl }}/assets/img/blog/c48d973fa2e91939255cb0e03ce8d4a1/sfdcREADY.jpg)
+![sfdc READY in Fraction ERP]({{ site.baseurl }}/assets/img/blog/c48d973fa2e91939255cb0e03ce8d4a1/sfdcREADY.jpg)
 
 
 **Work to lists are ready at the touch of a button**
@@ -34,7 +35,7 @@ Our operations screen now has a 'ready' filter. This screen, which provides the 
 Once the operator logs into [**Fraction ERP**](https://fractionerp.com/), they can see their live operations. They can log in and start capturing time against their jobs.
 
 
-To give you a feel for our [**SFDC system**](https://fractionerp.com/shop-floor-data-capture/), check out this video:
+To give you a feel for our [**SFDC system**](https://fractionerp.com/shopfloor-data-capture-software/), check out this video:
 
 
 ---

@@ -6,6 +6,7 @@ description: "If you think ERP scheduling has to be complicated and difficult, t
 category: production-scheduling
 author: Giles Johnston
 permalink: /blog/simple-production-scheduling-software/
+image: /assets/img/blog/4019ef3ff3a046a15759a77d4ac7e9ec/FractionERP-VisualScheduler.png
 ---
 
 We get lots of the queries from people looking for [**simple production scheduling software**](https://fractionerp.com/production-scheduling-software/).

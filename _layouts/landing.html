@@ -5,8 +5,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{{ page.title | default: site.title }}</title>
   <meta name="description" content="{{ page.description | default: site.description }}">
-  {% if page.noindex %}<meta name="robots" content="noindex, nofollow">{% endif %}
+  {% if page.noindex %}<meta name="robots" content="noindex, nofollow">{% else %}<meta name="robots" content="index, follow">{% endif %}
   <link rel="canonical" href="{{ page.url | absolute_url }}">
+  <link rel="alternate" type="text/plain" title="Fraction ERP LLM summary" href="{{ '/llms.txt' | absolute_url }}">
+  <link rel="alternate" type="text/plain" title="Fraction ERP full LLM briefing" href="{{ '/llms-full.txt' | absolute_url }}">
 
   <!-- Open Graph -->
   <meta property="og:type" content="website">
@@ -21,6 +23,31 @@
   <meta name="twitter:title" content="{{ page.title | default: site.title }}">
   <meta name="twitter:description" content="{{ page.description | default: site.description }}">
   <meta name="twitter:image" content="{{ page.og_image | default: '/assets/img/dashboard.png' | absolute_url }}">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "@id": "{{ page.url | absolute_url }}#primary",
+    "url": "{{ page.url | absolute_url }}",
+    "name": "{{ page.title | default: site.title | escape }}",
+    "description": "{{ page.description | default: site.description | escape }}",
+    "isPartOf": {
+      "@type": "WebSite",
+      "@id": "{{ site.url }}/#website",
+      "url": "{{ site.url }}",
+      "name": "Fraction ERP"
+    },
+    "about": {
+      "@type": "SoftwareApplication",
+      "@id": "{{ site.url }}/#software",
+      "name": "Fraction ERP",
+      "applicationCategory": "BusinessApplication",
+      "operatingSystem": "Web Browser"
+    },
+    "inLanguage": "en-GB"
+  }
+  </script>
 
   <!-- Favicons -->
   <link rel="icon" type="image/png" href="{{ '/assets/img/icon.png' | relative_url }}">

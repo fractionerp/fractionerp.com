@@ -6,6 +6,7 @@ description: "Learn what changes we've made to our weekly scheduling function. W
 category: production-scheduling
 author: Giles Johnston
 permalink: /blog/new-weekly-scheduling-board/
+image: /assets/img/blog/6d475e159d5a428da2b8b012a9232359/fraction_weekly_scheduler.jpg
 ---
 
 The CORE version of Fraction comes with a weekly scheduling function.
@@ -14,7 +15,7 @@ The CORE version of Fraction comes with a weekly scheduling function.
 The previous version worked well, but the new version is really something!
 
 
- ![]({{ site.baseurl }}/assets/img/blog/6d475e159d5a428da2b8b012a9232359/fraction_weekly_scheduler.jpg)
+ ![fraction weekly scheduler in Fraction ERP]({{ site.baseurl }}/assets/img/blog/6d475e159d5a428da2b8b012a9232359/fraction_weekly_scheduler.jpg)
 
 
 
@@ -36,7 +37,7 @@ The scheduling grid also includes simple visual management for reviewing capacit
 
 
 Balancing your order book is a simple affair too. From the capacity screen you can now jump straight to the list of operations scheduled for that week and re-plan directly, or adjust the capacity levels (if you decide to put overtime on or move labour).
- ![]({{ site.baseurl }}/assets/img/blog/6d475e159d5a428da2b8b012a9232359/fraction_operations_view.jpg)
+ ![fraction operations view in Fraction ERP]({{ site.baseurl }}/assets/img/blog/6d475e159d5a428da2b8b012a9232359/fraction_operations_view.jpg)
 
 We're really happy with the new scheduling system and we hope that you'll like it too.
 

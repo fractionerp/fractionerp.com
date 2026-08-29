@@ -6,6 +6,7 @@ description: "Discover the small change we have made to make Fraction ERP fully 
 category: general
 author: Giles Johnston
 permalink: /blog/fraction-erp-is-fully-mobile/
+image: /assets/img/blog/3bef8e4cee834c97aafcc18c79862d8a/Fraction_ERP_fullscreen.jpg
 ---
 
 We have made a minor tweak to our user interface on Fraction ERP and now [we're fully mobile](https://fractionerp.com/features/).
@@ -15,18 +16,18 @@ The original design of Fraction ERP was to be a simple, fast and effective tool 
 
 
 This is what the system looks like, when you first log in, on a desktop web browser.
- ![]({{ site.baseurl }}/assets/img/blog/3bef8e4cee834c97aafcc18c79862d8a/Fraction_ERP_fullscreen.jpg)
+ ![Fraction ERP fullscreen in Fraction ERP]({{ site.baseurl }}/assets/img/blog/3bef8e4cee834c97aafcc18c79862d8a/Fraction_ERP_fullscreen.jpg)
 
 The menu runs along the top and works great on a full sized screen.
 
 
 When you move to a smaller device, the menu now appears as three horizontal lines, which you can see in the top left hand corner of the image below.
- ![]({{ site.baseurl }}/assets/img/blog/3bef8e4cee834c97aafcc18c79862d8a/Fraction_ERP_small_screen.jpg)
+ ![Fraction ERP small screen in Fraction ERP]({{ site.baseurl }}/assets/img/blog/3bef8e4cee834c97aafcc18c79862d8a/Fraction_ERP_small_screen.jpg)
 
 
 
 When you click on this icon, the full menu appears and full functionality of the Fraction ERP system is in your hands.
- ![]({{ site.baseurl }}/assets/img/blog/3bef8e4cee834c97aafcc18c79862d8a/Fraction_ERP_small_screen_menu.jpg)
+ ![Fraction ERP small screen menu in Fraction ERP]({{ site.baseurl }}/assets/img/blog/3bef8e4cee834c97aafcc18c79862d8a/Fraction_ERP_small_screen_menu.jpg)
 
 
 

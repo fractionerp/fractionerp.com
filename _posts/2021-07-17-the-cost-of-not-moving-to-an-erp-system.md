@@ -6,6 +6,7 @@ description: "Sometimes it can feel easier to stay with your whiteboard than emb
 category: erp
 author: Giles Johnston
 permalink: /blog/the-cost-of-not-moving-to-an-erp-system/
+image: /assets/img/blog/61eaf6a359dec720080d469bb1ed8360/costofnotmovingtoERP.jpg
 ---
 
 When many people research ERP systems, cost is at the forefront of their mind. This is a natural consideration, especially as benefits need to outweigh the costs.

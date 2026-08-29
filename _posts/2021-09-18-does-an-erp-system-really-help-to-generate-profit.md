@@ -6,6 +6,7 @@ description: "Find out how an ERP system can help improve the profit of your bus
 category: management
 author: Giles Johnston
 permalink: /blog/does-an-erp-system-really-help-to-generate-profit/
+image: /assets/img/blog/e43ebf71f7be65130b582032559ed139/simplescheduling.jpg
 ---
 
 Many businesses hope that implementing an [**ERP system**](https://fractionerp.com/) will improve their business' profits. By magic...
@@ -21,7 +22,7 @@ It can push up profits, if you deploy it in the correct manner and realise that 
 An obvious place to improve profit is through reducing overtime. Preventing your profit margin from eroding is the job of every manager. Having a better view of your capacity levels allows you to load your business effectively. Scheduling work orders more effectively is also critical here. Good ERP systems will help you do both with less effort.
 
 
-![]({{ site.baseurl }}/assets/img/blog/e43ebf71f7be65130b582032559ed139/simplescheduling.jpg)
+![simplescheduling in Fraction ERP]({{ site.baseurl }}/assets/img/blog/e43ebf71f7be65130b582032559ed139/simplescheduling.jpg)
 
 
 **Fraction ERP's fast, visual, scheduling screen**
@@ -74,7 +75,7 @@ Examples include:
 The other key element is good communication with your customers. By having data at your fingertips, as you can with a good ERP system, you can proactively work with your customer.
 
 
-![]({{ site.baseurl }}/assets/img/blog/e43ebf71f7be65130b582032559ed139/dashboard_1.jpg)
+![dashboard 1 in Fraction ERP]({{ site.baseurl }}/assets/img/blog/e43ebf71f7be65130b582032559ed139/dashboard_1.jpg)
 
 
 **View key information with just one click, from Fraction ERP's dashboard**
@@ -90,7 +91,7 @@ Lowering your cost of production includes the material spend. Better buying deci
 An ERP system should help you to do this from day one. Having good stock searching facilities and simplifying purchasing demands are essential features. When you save money in this area, it directly improves your profit.
 
 
-![]({{ site.baseurl }}/assets/img/blog/e43ebf71f7be65130b582032559ed139/fastpurchasesearch.jpg)
+![fastpurchasesearch in Fraction ERP]({{ site.baseurl }}/assets/img/blog/e43ebf71f7be65130b582032559ed139/fastpurchasesearch.jpg)
 
 
 **Fast search tools appear throughout Fraction ERP**

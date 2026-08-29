@@ -6,12 +6,13 @@ description: "Did you know that completing operations via SFDC automatically upd
 category: shop-floor
 author: Giles Johnston
 permalink: /blog/how-shop-floor-data-capture-links-with-our-drag-and-drop-scheduler/
+image: /assets/img/blog/ad5def81a8894509d6517728e0c4e6b2/worksordersandsfdcflowchart.png
 ---
 
 One of the benefits of a [**cloud ERP system**](https://fractionerp.com/) like Fraction ERP is that is can save you a lot of time when it comes to tracking orders in your factory.
 
 
-If you have already seen our [**pricing page**](https://fractionerp.com/pricing/), you'll know that we include the [**shop floor data capture**](https://fractionerp.com/shop-floor-data-capture/) (typically abbreviated as SFDC) licenses free with paid office user licenses. The benefits of having your shop floor team logging onto Fraction include:
+If you have already seen our [**pricing page**](https://fractionerp.com/pricing/), you'll know that we include the [**shop floor data capture**](https://fractionerp.com/shopfloor-data-capture-software/) (typically abbreviated as SFDC) licenses free with paid office user licenses. The benefits of having your shop floor team logging onto Fraction include:
 
 
 - Automated tracking of production progress.
@@ -58,7 +59,7 @@ To help you understand how Fraction ERP works, at a high level, with this part o
 If you are used to walking around your shop floor to find out where your production orders are, using Fraction ERP could save you a notable amount of time every day.
 
 
-Loading a works order into Fraction allows you to [**schedule the operations**](https://fractionerp.com/production-scheduling/). If you have set up the workcentres correctly, this could be the end of the scheduling story. Realistically, you may want to move the operations around and further optimise your production schedule.
+Loading a works order into Fraction allows you to [**schedule the operations**](https://fractionerp.com/production-scheduling-software/). If you have set up the workcentres correctly, this could be the end of the scheduling story. Realistically, you may want to move the operations around and further optimise your production schedule.
 
 
 Our drag and drop scheduler allows you to simply move the operations on the screen and tweak the sequence.

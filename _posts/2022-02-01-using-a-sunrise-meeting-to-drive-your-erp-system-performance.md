@@ -6,6 +6,7 @@ description: "Discover this simple, and powerful, management approach to get the
 category: management
 author: Giles Johnston
 permalink: /blog/using-a-sunrise-meeting-to-drive-your-erp-system-performance/
+image: /assets/img/blog/6295344420f7f55c5678ae7db8e02b62/sunrisefractionerpdashboard.jpg
 ---
 
 We all know that [**implementing an ERP system**](https://fractionerp.com/features/) isn't a magic pill to cure your business' operational woes.

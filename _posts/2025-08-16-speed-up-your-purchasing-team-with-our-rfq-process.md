@@ -6,6 +6,7 @@ description: "Use Fraction ERP's RFQ process to speed up  your purchasing team."
 category: purchasing
 author: Giles Johnston
 permalink: /blog/speed-up-your-purchasing-team-with-our-rfq-process/
+image: /assets/img/blog/338b12f0fb1e395f0ace9b4f8ec7d8a7/RFQ.jpg
 ---
 
 If your purchasing team currently have to send out Request For Quotations (RFQs) manually, then Fraction ERP's RFQ process might be just what you are looking for.

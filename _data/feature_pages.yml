@@ -35,7 +35,7 @@ crm:
     text: Keep sales actions visible to the team.
   related:
   - title: Sales Orders
-    url: "/contracts/"
+    url: "/sales-order-management-software/"
   - title: Dashboard
     url: "/erp-dashboard/"
   - title: Task Management
@@ -127,7 +127,7 @@ parts-and-inventory:
   - title: Traceability
     url: "/traceability/"
   - title: Bill of Materials
-    url: "/bill-of-materials/"
+    url: "/bill-of-materials-software/"
   cta_title: Keep Parts and Stock Records Accurate
   cta_text: Manage part records, stock levels and traceability without separate stock
     spreadsheets.
@@ -168,7 +168,7 @@ bill-of-materials:
   - title: Works Orders
     url: "/works-orders/"
   - title: Production Scheduling
-    url: "/production-scheduling/"
+    url: "/production-scheduling-software/"
   - title: Parts and Inventory
     url: "/parts-and-inventory/"
   cta_title: Build BOMs Your Production Team Can Use
@@ -209,11 +209,11 @@ works-orders:
     text: Adjust operations and instructions.
   related:
   - title: Bill of Materials
-    url: "/bill-of-materials/"
+    url: "/bill-of-materials-software/"
   - title: Shop Floor Data Capture
-    url: "/shop-floor-data-capture/"
+    url: "/shopfloor-data-capture-software/"
   - title: Production Scheduling
-    url: "/production-scheduling/"
+    url: "/production-scheduling-software/"
   cta_title: See How Works Orders Run in Fraction ERP
   cta_text: 'Make-to-order or make-to-stock: create production orders, track status
     and keep linked records together.'
@@ -252,7 +252,7 @@ production-scheduling:
   - title: Works Orders
     url: "/works-orders/"
   - title: Shop Floor Data Capture
-    url: "/shop-floor-data-capture/"
+    url: "/shopfloor-data-capture-software/"
   - title: Dashboard
     url: "/erp-dashboard/"
   cta_title: Plan Production Against Real Capacity
@@ -295,7 +295,7 @@ shop-floor-data-capture:
   - title: Works Orders
     url: "/works-orders/"
   - title: Production Scheduling
-    url: "/production-scheduling/"
+    url: "/production-scheduling-software/"
   - title: KPIs
     url: "/erp-key-performance-indicators/"
   cta_title: Capture Shop Floor Progress as It Happens
@@ -711,9 +711,9 @@ inspection-data:
     text: Keep captured checks connected to the work order.
   related:
   - title: Bill of Materials
-    url: "/bill-of-materials/"
+    url: "/bill-of-materials-software/"
   - title: Shop Floor Data Capture
-    url: "/shop-floor-data-capture/"
+    url: "/shopfloor-data-capture-software/"
   - title: Non-Conformance Reports
     url: "/non-conformance-reports/"
   - title: Traceability
@@ -883,7 +883,7 @@ training-log:
   - title: User Management
     url: "/user-management/"
   - title: Shop Floor Data Capture
-    url: "/shop-floor-data-capture/"
+    url: "/shopfloor-data-capture-software/"
   cta_title: Keep Operator Training Records Under Control
   cta_text: See how Fraction ERP can help you log operator training and approve
     completion without relying on scattered spreadsheets.
@@ -922,7 +922,7 @@ invoicing:
   - title: Shipping
     url: "/shipping/"
   - title: Sales Orders
-    url: "/contracts/"
+    url: "/sales-order-management-software/"
   - title: Integrations
     url: "/integrations/"
   cta_title: Raise Invoices From Shipping Data
@@ -1000,7 +1000,7 @@ user-management:
     text: Plan capacity for key users.
   related:
   - title: Shop Floor Data Capture
-    url: "/shop-floor-data-capture/"
+    url: "/shopfloor-data-capture-software/"
   - title: SOP Software
     url: "/sop-software/"
   - title: Purchasing
@@ -1307,7 +1307,7 @@ erp-key-performance-indicators:
   - title: Reports
     url: "/reports/"
   - title: Shop Floor Data Capture
-    url: "/shop-floor-data-capture/"
+    url: "/shopfloor-data-capture-software/"
   cta_title: Track Delivery, Quality and Productivity
   cta_text: 'Use live ERP data to monitor on-time delivery, NCR rates and production
     performance.'
@@ -1349,7 +1349,7 @@ reports:
   - title: KPIs
     url: "/erp-key-performance-indicators/"
   - title: Shop Floor Data Capture
-    url: "/shop-floor-data-capture/"
+    url: "/shopfloor-data-capture-software/"
   cta_title: Review Manufacturing Data Without Rebuilding Reports
   cta_text: Drill into production, sales and quality records, then export the data
     when you need it.

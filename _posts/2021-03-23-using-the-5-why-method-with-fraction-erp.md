@@ -6,6 +6,7 @@ description: "Learn how the '5 Why' root cause problem works and how it is integ
 category: general
 author: Giles Johnston
 permalink: /blog/using-the-5-why-method-with-fraction-erp/
+image: /assets/img/blog/a04e1b5aa7c420fe220ff5223084a404/5WhyOverviewv2.jpg
 ---
 
 When we developed Fraction ERP we wanted to build in some of the best ideas we had been exposed to whilst running manufacturing operations. I (Giles) had been introduced to the 5 Why technique during a grilling from Toyota when my wiring harness production lines weren't quite meeting the grade... (we got there, by the way!)
@@ -27,7 +28,7 @@ This approach can often be overlooked because of its apparent simplicity; why do
 The diagram below gives the basic overview of the 5 Why process, which I have included an additional set of prompts, known lovingly in the engineering world as **5W1H**.
 
 
-![]({{ site.baseurl }}/assets/img/blog/a04e1b5aa7c420fe220ff5223084a404/5WhyOverviewv2.jpg)
+![5Why Overviewv2 in Fraction ERP]({{ site.baseurl }}/assets/img/blog/a04e1b5aa7c420fe220ff5223084a404/5WhyOverviewv2.jpg)
 
 
 ## What is 5W1H?
@@ -87,7 +88,7 @@ We've built the 5 Why approach into the NCR module of Fraction ERP.
 You can see that this is incorporated into the form shown below.
 
 
-![]({{ site.baseurl }}/assets/img/blog/a04e1b5aa7c420fe220ff5223084a404/NCRmodulescreenshot.jpg)
+![NCRmodulescreenshot in Fraction ERP]({{ site.baseurl }}/assets/img/blog/a04e1b5aa7c420fe220ff5223084a404/NCRmodulescreenshot.jpg)
 
 
 If you want to see how this looks 'in action' then check out the NCR module video below.

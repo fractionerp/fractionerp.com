@@ -6,6 +6,7 @@ description: "Learn how visual capacity planning helps manufacturers balance wor
 category: production-scheduling
 author: Giles Johnston
 permalink: /blog/visual-planning-for-shop-floor-capacity/
+image: /assets/img/blog/autosave-autosave-ce1dc4aada25814947106c57537095ce/Fraction_Capacity_Planning.jpg
 ---
 
 Capacity planning is a key task for any manufacturing business. If you get it right it can maximise the utilisation of your assets, maximise your turnover and allow you to achieve a high on time delivery performance for your customers. Many businesses get this wrong. Improving the visibility of your capacity plan and making the whole process more visual can help you to realise the benefits of an effective shop floor capacity plan.
@@ -59,7 +60,7 @@ Delivering on time, consistently, can be a differentiator in your marketplace an
 We've intentionally taken a simple view when developing Fraction. We wanted to make the whole thing visual and simple to manage.
 
 
-![]({{ site.baseurl }}/assets/img/blog/autosave-autosave-ce1dc4aada25814947106c57537095ce/Fraction_Capacity_Planning.jpg)
+![Fraction Capacity Planning in Fraction ERP]({{ site.baseurl }}/assets/img/blog/autosave-autosave-ce1dc4aada25814947106c57537095ce/Fraction_Capacity_Planning.jpg)
 
 
 Pick up your works order, review the available capacity and drop it into your schedule.
@@ -80,7 +81,7 @@ Once you have tidied up your order book and got a production schedule that works
 A simple way to do this is to have a dashboard that reviews the works orders, provides you with a sequence to work to and a quick way to review progress. We built this into Fraction:
 
 
-![]({{ site.baseurl }}/assets/img/blog/autosave-autosave-ce1dc4aada25814947106c57537095ce/WIP_Tracking.jpg)
+![WIP Tracking in Fraction ERP]({{ site.baseurl }}/assets/img/blog/autosave-autosave-ce1dc4aada25814947106c57537095ce/WIP_Tracking.jpg)
 
 
 So, what are you waiting for?

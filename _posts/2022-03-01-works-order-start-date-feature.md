@@ -6,6 +6,7 @@ description: "Learn why our works order start date feature is a great tool for y
 category: general
 author: Giles Johnston
 permalink: /blog/works-order-start-date-feature/
+image: /assets/img/blog/844323694183846a6c11036fb8d32208/WO_offset.png
 ---
 
 One of the recently introduced features we have added to [**Fraction ERP**](https://fractionerp.com/) is the suggested works order start date.
@@ -19,7 +20,7 @@ This feature is here to help you:
 - Control your purchasing activities.
 
 
-![]({{ site.baseurl }}/assets/img/blog/844323694183846a6c11036fb8d32208/WO_offset.png)
+![WO offset in Fraction ERP]({{ site.baseurl }}/assets/img/blog/844323694183846a6c11036fb8d32208/WO_offset.png)
 
 
 You can override the start date, so if you want to schedule it for another time, you can! This is one of the benefits of Fraction ERP, you can work flexibly through our system. You are not constrained to work in a fixed way.

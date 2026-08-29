@@ -6,6 +6,7 @@ description: "Support for Sage 50 Manufacturing ends 30th September 2021. Are yo
 category: general
 author: Giles Johnston
 permalink: /blog/sage-50-manufacturing-end-of-support/
+image: /assets/img/blog/abb484708bcf82038faf941dfe333d07/fasterp.jpg
 ---
 
 Support for Sage 50 Manufacturing ends 30th September 2021;
@@ -17,7 +18,7 @@ Are you ready for a change?
 (Honestly, we think its overdue anyway)
 
 
-[![]({{ site.baseurl }}/assets/img/blog/abb484708bcf82038faf941dfe333d07/fasterp.jpg)](https://fractionerp.com/contact/)
+[![fasterp in Fraction ERP]({{ site.baseurl }}/assets/img/blog/abb484708bcf82038faf941dfe333d07/fasterp.jpg)](https://fractionerp.com/contact/)
 
 
 In its day, Sage 50 Manufacturing was great system for small manufactures and it easily integrated with the very popular Sage accounts. Times have changed; high speed internet, mobile devices and cloud technologies have leapt forward since the hay-days of Sage and installing software from a CD-Rom.

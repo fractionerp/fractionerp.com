@@ -6,6 +6,7 @@ description: "If you are wondering if an ERP system can save your business money
 category: general
 author: Giles Johnston
 permalink: /blog/can-erp-systems-save-you-money/
+image: /assets/img/blog/3273187c7212d0fcd3776902ed77b149/planningpage.png
 ---
 
 Enterprise Resource Planning (ERP) systems are software platforms that help businesses manage and integrate their enquiries, contracts, buying, operations, reporting, manufacturing, shipping and invoicing activities. While the initial cost of implementing many ERP system may seem daunting, the long-term benefits can actually save your business money in the long run.
@@ -24,14 +25,14 @@ We've designed Fraction ERP to take away one of these major concerns; the initia
 
 
 
-One of the key benefits of an ERP system is improved efficiency and productivity. By streamlining processes and integrating different departments within your organisation, an ERP system can [eliminate manual data entry](https://fractionerp.com/contracts/), reduce errors, and improve collaboration among team members. This can save your business time and money by increasing productivity and allowing employees to focus on more strategic tasks.
+One of the key benefits of an ERP system is improved efficiency and productivity. By streamlining processes and integrating different departments within your organisation, an ERP system can [eliminate manual data entry](https://fractionerp.com/sales-order-management-software/), reduce errors, and improve collaboration among team members. This can save your business time and money by increasing productivity and allowing employees to focus on more strategic tasks.
 
 
 ---
 
 
 
-![]({{ site.baseurl }}/assets/img/blog/3273187c7212d0fcd3776902ed77b149/planningpage.png)
+![planningpage in Fraction ERP]({{ site.baseurl }}/assets/img/blog/3273187c7212d0fcd3776902ed77b149/planningpage.png)
 
 
 **Our visual scheduling boards allow for easy factory planning**

@@ -6,9 +6,10 @@ description: "If you are looking to move to ERP, or replace an existing system, 
 category: general
 author: Giles Johnston
 permalink: /blog/erp-isn-t-a-silver-bullet/
+image: /assets/img/blog/ebbc1666998dc2e14af844d42d52230e/FractionERP-VisualScheduler.png
 ---
 
-Many businesses make a basic mistake when they implement an [**ERP system**](https://fractionerp.com/index)... they stop the implementation too early. Of course, this isn't a phenomenon specific to ERP systems. This is a symptom of everybody being busy and needing to move on to their next project!
+Many businesses make a basic mistake when they implement an [**ERP system**](https://fractionerp.com/)... they stop the implementation too early. Of course, this isn't a phenomenon specific to ERP systems. This is a symptom of everybody being busy and needing to move on to their next project!
 
 
 For the purpose of this article, let's focus on ERP system implementation. If you are going to spend time and money moving from whatever you have now to an(other) ERP system, how can you make it work?
@@ -40,7 +41,7 @@ Yes, there are many benefits from implementing an ERP system that suits your bus
 
 
 
-![]({{ site.baseurl }}/assets/img/blog/ebbc1666998dc2e14af844d42d52230e/FractionERP-VisualScheduler.png)
+![Fraction ERP Visual Scheduler in Fraction ERP]({{ site.baseurl }}/assets/img/blog/ebbc1666998dc2e14af844d42d52230e/FractionERP-VisualScheduler.png)
 
 
 **Choosing a simpler, easier to learn, ERP system is a good deployment strategy**
@@ -70,7 +71,7 @@ To give you a better understanding of what I am describing, consider this generi
 
 
 
-![]({{ site.baseurl }}/assets/img/blog/ebbc1666998dc2e14af844d42d52230e/FractionERP-genericimplementationtimeline.jpg)
+![Fraction ERP genericimplementationtimeline in Fraction ERP]({{ site.baseurl }}/assets/img/blog/ebbc1666998dc2e14af844d42d52230e/FractionERP-genericimplementationtimeline.jpg)
 
 
 **A more thorough ERP implementation approach**

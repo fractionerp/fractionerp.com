@@ -6,6 +6,7 @@ description: "Stop spending hours walking the shop floor chasing updates. Fracti
 category: production-scheduling
 author: Giles Johnston
 permalink: /blog/how-fraction-erp-scheduling-saves-management-time/
+image: /assets/img/production-manager-saving-time.png
 ---
 
 If you're a production manager or operations director in a small to medium manufacturing business, you know the drill. You spend hours each day walking the shop floor with a clipboard, chasing updates, asking "where are we with the Johnson order?" and trying to piece together what's actually happening in production.

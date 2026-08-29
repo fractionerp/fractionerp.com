@@ -6,6 +6,7 @@ description: "MRP software for small business. Is it worth the effort? We say ye
 category: general
 author: Giles Johnston
 permalink: /blog/mrp-software-for-small-business/
+image: /assets/img/blog/dbae31ec1322641768bc73295f7790ff/FractionERP-VisualScheduler.png
 ---
 
 MRP selection is a puzzle that many businesses have to go through. Finding good MRP software for a small business is a different challenge in its own right.
@@ -122,7 +123,7 @@ You can find out more about the features Fraction ERP has by [**viewing our feat
 
 
 
-If you are looking for straightforward and [**low cost ERP system**](https://fractionerp.com/index) for your business then get in touch. You can organise your free demo using the form below, or from the [**main request page**](https://fractionerp.com/book-a-demo/).
+If you are looking for straightforward and [**low cost ERP system**](https://fractionerp.com/) for your business then get in touch. You can organise your free demo using the form below, or from the [**main request page**](https://fractionerp.com/book-a-demo/).
 
 
 Don't forget that [**you can download our free guide on MRP / ERP software selection**](https://fractionerp.com/erp-implementation-guide/).

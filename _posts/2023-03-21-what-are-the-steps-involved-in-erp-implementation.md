@@ -6,6 +6,7 @@ description: "Implementing an ERP system doesn't have to be a scary, difficult o
 category: management
 author: Giles Johnston
 permalink: /blog/what-are-the-steps-involved-in-erp-implementation/
+image: /assets/img/blog/36fc52a32ba2308aeb878588dacf7795/workflow.jpg
 ---
 
 There are too many stories on the Internet of difficult ERP implementations. Implementations that:

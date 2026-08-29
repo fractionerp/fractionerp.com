@@ -6,6 +6,7 @@ description: "Improve your ERP system selection with this practical advice. Free
 category: general
 author: Giles Johnston
 permalink: /blog/erp-system-selection/
+image: /assets/img/blog/d4b7b332f59fc16473c4d9c6b898f21b/ERPImplementationGuidecover.jpg
 ---
 
 Choosing an ERP system can be an onerous task. If you have been given the task of [**system selection**](https://fractionerp.com/features/), then we understand that you may be feeling anxious.
@@ -18,7 +19,7 @@ At Fraction ERP we wanted to help anyone with this predicament. If you are looki
 
 ---
 
- ![]({{ site.baseurl }}/assets/img/blog/d4b7b332f59fc16473c4d9c6b898f21b/ERPImplementationGuidecover.jpg)
+ ![ERPImplementation Guidecover in Fraction ERP]({{ site.baseurl }}/assets/img/blog/d4b7b332f59fc16473c4d9c6b898f21b/ERPImplementationGuidecover.jpg)
 
 
 {% include forms/hubspot-content.html

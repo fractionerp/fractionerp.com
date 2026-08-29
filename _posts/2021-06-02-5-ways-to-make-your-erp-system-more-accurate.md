@@ -6,6 +6,7 @@ description: "Improve the results you get from your ERP system with these practi
 category: management
 author: Giles Johnston
 permalink: /blog/5-ways-to-make-your-erp-system-more-accurate/
+image: /assets/img/blog/b0612358d702d11a319b4a3a43f927fb/fraction_erp_tutorials.jpg
 ---
 
 A lot of people think that an ERP system is good to go on day one and ready to chuck in the bin at the end of month five...
@@ -37,7 +38,7 @@ We designed Fraction ERP so that it is as easy to use as possible. We have seen 
 
 
 
-[![]({{ site.baseurl }}/assets/img/blog/b0612358d702d11a319b4a3a43f927fb/fraction_erp_tutorials.jpg)](https://vimeo.com/showcase/8283119)
+[![fraction erp tutorials in Fraction ERP]({{ site.baseurl }}/assets/img/blog/b0612358d702d11a319b4a3a43f927fb/fraction_erp_tutorials.jpg)](https://vimeo.com/showcase/8283119)
 
 
 **Step by step tutorial videos are available on our support site**
@@ -126,7 +127,7 @@ Being realistic about your capacity is the first step towards effective scheduli
 
 
 
-![]({{ site.baseurl }}/assets/img/blog/b0612358d702d11a319b4a3a43f927fb/capacitymanagement.jpg)
+![capacitymanagement in Fraction ERP]({{ site.baseurl }}/assets/img/blog/b0612358d702d11a319b4a3a43f927fb/capacitymanagement.jpg)
 
 
 **Defining standard working hours for workcentres in Fraction ERP**

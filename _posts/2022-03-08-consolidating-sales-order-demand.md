@@ -6,6 +6,7 @@ description: "Grouping sales order demand can simplify production and administra
 category: general
 author: Giles Johnston
 permalink: /blog/consolidating-sales-order-demand/
+image: /assets/img/blog/329e6e8971bf5dfa8df33a4e9f5133dd/so_demand_1.jpg
 ---
 
 Another of our recent updates in Fraction ERP is the sales order consolidation option.
@@ -23,7 +24,7 @@ First, under the Contracts menu, select Demand.
 On the demand screen, select the sales order demand that you wish to group. You can see an example in the screenshot below.
 
 
-![]({{ site.baseurl }}/assets/img/blog/329e6e8971bf5dfa8df33a4e9f5133dd/so_demand_1.jpg)
+![so demand 1 in Fraction ERP]({{ site.baseurl }}/assets/img/blog/329e6e8971bf5dfa8df33a4e9f5133dd/so_demand_1.jpg)
 
 
 After you click on the 'Raise WO' button, the next screen appears.
@@ -31,7 +32,7 @@ After you click on the 'Raise WO' button, the next screen appears.
 
 
 
-![]({{ site.baseurl }}/assets/img/blog/329e6e8971bf5dfa8df33a4e9f5133dd/so_demand_2.jpg)
+![so demand 2 in Fraction ERP]({{ site.baseurl }}/assets/img/blog/329e6e8971bf5dfa8df33a4e9f5133dd/so_demand_2.jpg)
 
 
 Here you can amend the works order further, if you need to. You can change the quantity and the start date, before you confirm the works order.
@@ -39,7 +40,7 @@ Here you can amend the works order further, if you need to. You can change the q
 
 
 
-![]({{ site.baseurl }}/assets/img/blog/329e6e8971bf5dfa8df33a4e9f5133dd/so_demand_3.jpg)
+![so demand 3 in Fraction ERP]({{ site.baseurl }}/assets/img/blog/329e6e8971bf5dfa8df33a4e9f5133dd/so_demand_3.jpg)
 
 
 When the work order is generated, you are taken to the works order page. On this screen you can amend the works order further and schedule it for production.

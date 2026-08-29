@@ -6,6 +6,7 @@ description: "If you are struggling to whittle down the vast range of ERP option
 category: general
 author: Giles Johnston
 permalink: /blog/a-fast-way-to-find-your-erp-system/
+image: /assets/img/blog/f99c0f0bf407b28022e12a702b16094d/FractionERP-VisualScheduler.png
 ---
 
 Searching for an ERP system can feel tricky for many of us. Time is often a scarce resource; looking for a new computer system on top of that can seem too much. In this article I want to give you a really quick and powerful way for you to find your next computer system (whether that is an ERP system, or not).
@@ -90,7 +91,7 @@ Playing with and using an ERP system is the best way to evaluate the software. P
 
 
 
-![]({{ site.baseurl }}/assets/img/blog/f99c0f0bf407b28022e12a702b16094d/FractionERP-VisualScheduler.png)
+![Fraction ERP Visual Scheduler in Fraction ERP]({{ site.baseurl }}/assets/img/blog/f99c0f0bf407b28022e12a702b16094d/FractionERP-VisualScheduler.png)
 
 
 **Simple, visual, scheduling tools like this are central to Fraction ERP**

@@ -6,6 +6,7 @@ description: "Using Fraction ERP can help you to speed up your costing and quoti
 category: general
 author: Giles Johnston
 permalink: /blog/save-time-with-your-estimating-with-our-price-break-tool/
+image: /assets/img/blog/9216a1514611573e69b77d6aebc3b6e4/Pricebreak.jpg
 ---
 
 If you have customers that need price breaks as part of their quotes, [**Fraction ERP**](https://fractionerp.com/features/) can help. We know that it takes time to calculate the price breaks. We also know that this information can help your customers to decide what order quantity to place. Our price break tool can help speed up the process and save you time.
@@ -34,7 +35,7 @@ The total cost can be reviewed at the bottom of the screen, margins can be adjus
 Below the costing information is the price break grid. When you are generating quotes you can view your price break data on one tab and have the quote module open on another tab in your browser. By quickly reviewing the data you can quickly generate quotations for your customers.
 
 
-![]({{ site.baseurl }}/assets/img/blog/9216a1514611573e69b77d6aebc3b6e4/Pricebreak.jpg)
+![Pricebreak in Fraction ERP]({{ site.baseurl }}/assets/img/blog/9216a1514611573e69b77d6aebc3b6e4/Pricebreak.jpg)
 
 
 **The price break calculator**
@@ -52,7 +53,7 @@ To help you produce multiple quotes, quickly, you can use our quote snapshot too
 Using the snapshots function really speeds up the quote process when you want to provide options for your customers.
 
 
-![]({{ site.baseurl }}/assets/img/blog/9216a1514611573e69b77d6aebc3b6e4/quotesnapshot.jpg)
+![quotesnapshot in Fraction ERP]({{ site.baseurl }}/assets/img/blog/9216a1514611573e69b77d6aebc3b6e4/quotesnapshot.jpg)
 
 
 **Quote snapshots being created**

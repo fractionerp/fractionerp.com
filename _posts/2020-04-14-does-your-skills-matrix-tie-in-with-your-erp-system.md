@@ -6,6 +6,7 @@ description: "Learn how connecting your skills matrix to ERP user roles can shor
 category: management
 author: Giles Johnston
 permalink: /blog/does-your-skills-matrix-tie-in-with-your-erp-system/
+image: /assets/img/blog/34ad3555a5c6236966dcba786662a89c/ERPskillsmatrix.png
 ---
 
 Do you use a skills matrix in your organisation?
@@ -23,7 +24,7 @@ When you get into supervisory, managerial and leadership levels, you might argue
 If you map out the main functions of your ERP system and then profile the skills profile required by each main user group in your business then you suddenly have an approach that can shorten the time it takes to train new recruits.
 
 
-![]({{ site.baseurl }}/assets/img/blog/34ad3555a5c6236966dcba786662a89c/ERPskillsmatrix.png)
+![ERPskillsmatrix in Fraction ERP]({{ site.baseurl }}/assets/img/blog/34ad3555a5c6236966dcba786662a89c/ERPskillsmatrix.png)
 
 
 If you want to put this idea into an even higher gear, you can link your Standard Operating Procedures (SOPs) to the skills matrix so that you have a clear standard to evaluate each user against. If you opted for the profiling of each user group in the skills matrix you will also have a clear expectation of whether that user is at the right level for their role within the business.
