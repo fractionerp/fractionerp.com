@@ -211,8 +211,8 @@ workflow_stages:
       - title: ERP Integrations
         url: /integrations/
   - number: "06"
-    title: Continuous Improvement
-    outcome: Use live dashboards, KPIs and reports to drive better decisions.
+    title: Measure & Improve
+    outcome: Use live dashboards, KPIs and reports to improve operational decisions.
     image: /assets/img/dashboard-overview.webp
     features:
       - Intelligence Centre
