@@ -6,6 +6,7 @@ description: "Learn why ERP housekeeping and clean data are essential for reliab
 category: management
 author: Giles Johnston
 permalink: /blog/erp-housekeeping-why-clean-data-matters/
+image: /assets/img/V3-Works-Order-register.webp
 related_posts_list:
   - /blog/housekeeping-getting-the-most-from-your-erp-system/
   - /blog/5-ways-to-make-your-erp-system-more-accurate/
@@ -14,6 +15,11 @@ related_posts_list:
 ---
 
 Housekeeping is an essential part of running an effective ERP system. It is also unglamorous and can look like something we shouldn't focus our time on. But if you want a single system, with no workarounds, you need to be able to rely on the data.
+
+<figure style="margin: 30px 0; text-align: center;">
+  <img src="{{ '/assets/img/V3-Works-Order-register.webp' | relative_url }}" alt="Fraction ERP works order register showing production dates, scheduling status and parts allocation" style="width: 100%; border-radius: 8px;">
+  <figcaption style="font-size: 14px; color: #888; margin-top: 10px; font-style: italic;">The Fraction ERP works order register brings production dates and scheduling information together in one place.</figcaption>
+</figure>
 
 ## Avoiding dirty data
 
