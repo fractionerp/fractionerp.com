@@ -38,10 +38,6 @@
       event_callback: completeOnce
     };
 
-    if (new URLSearchParams(window.location.search).get("ga4_debug") === "1") {
-      eventParameters.debug_mode = true;
-    }
-
     window.gtag("event", "generate_lead", eventParameters);
   }
 
