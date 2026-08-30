@@ -30,13 +30,19 @@
 
     timeoutId = window.setTimeout(completeOnce, 1000);
 
-    window.gtag("event", "generate_lead", {
+    var eventParameters = {
       method: definition.method,
       lead_source: "website_form",
       funnel_level: definition.funnelLevel,
       form_id: form.dataset.formId,
       event_callback: completeOnce
-    });
+    };
+
+    if (new URLSearchParams(window.location.search).get("ga4_debug") === "1") {
+      eventParameters.debug_mode = true;
+    }
+
+    window.gtag("event", "generate_lead", eventParameters);
   }
 
   function getCookie(name) {
