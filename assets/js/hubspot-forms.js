@@ -1,6 +1,28 @@
 (function () {
   "use strict";
 
+  var LEAD_EVENTS_BY_FORM_ID = {
+    "4a432a7b-16c2-4734-8a20-3c2b4af74246": { method: "implementation_guide", funnelLevel: "middle" },
+    "62895e64-92ee-49af-9cf0-8a491fc47e1f": { method: "manufacturing_workflow", funnelLevel: "middle" },
+    "f80f4546-168f-478a-83e3-d8515921d53a": { method: "spreadsheet_readiness_checklist", funnelLevel: "middle" },
+    "35b77591-64ce-417f-9ce9-2c0e5af30419": { method: "erp_warning_signs", funnelLevel: "middle" },
+    "072de23b-0398-4bb2-85b6-c88115fe276b": { method: "demo_request", funnelLevel: "bottom" },
+    "efc11f49-51aa-4312-bbef-4945ae45aeae": { method: "strategy_call", funnelLevel: "bottom" },
+    "63ddf8b0-3b4f-49a7-8ed2-d457c2f07ace": { method: "newsletter_signup", funnelLevel: "top" }
+  };
+
+  function trackLead(form) {
+    var definition = LEAD_EVENTS_BY_FORM_ID[form.dataset.formId];
+    if (!definition || typeof window.gtag !== "function") return;
+
+    window.gtag("event", "generate_lead", {
+      method: definition.method,
+      lead_source: "website_form",
+      funnel_level: definition.funnelLevel,
+      form_id: form.dataset.formId
+    });
+  }
+
   function getCookie(name) {
     var prefix = name + "=";
     var cookies = document.cookie ? document.cookie.split(";") : [];
@@ -115,7 +137,10 @@
 
       setSubmitting(form, true);
       submitForm(form)
-        .then(function () { completeSubmission(form); })
+        .then(function () {
+          trackLead(form);
+          completeSubmission(form);
+        })
         .catch(function (error) {
           console.error("HubSpot form submission failed", error);
           setStatus(form, "Sorry, we could not submit the form. Please check your details and try again.", "error");
