@@ -39,6 +39,7 @@ Fraction ERP is a cloud-based manufacturing ERP and MRP system for SMEs that nee
 - [Visitor Registration](https://fractionerp.com/visitor-kiosk/): Account-free tablet or desktop visitor sign-in with custom declarations, badge printing, clock-out, live dashboard visibility and host arrival emails
 - [Sales Order Management](https://fractionerp.com/sales-order-management-software/): Quote-to-invoice workflow
 - [Purchasing and Inventory](https://fractionerp.com/purchasing-inventory-software/): Purchase orders, stock control, reorder points
+- [Bar Stock Management](https://fractionerp.com/bar-stock-management-software/): Pro-plan linear stock control with individual bar and offcut identities, heat or cast traceability, kerf-aware complete-cut allocation, and piece-by-piece stock counts
 - [Cloud ERP Software](https://fractionerp.com/cloud-erp-software/): Cloud deployment and mobility
 - [Mobile ERP App](https://fractionerp.com/mobile-erp/): iOS and Android app for live inventory checks, shop floor logging, SOPs, production status and ERP task management; an active connection is required
 - [Time and Attendance](https://fractionerp.com/time-and-attendance/): Add-on for any Fraction ERP subscription plan at £3 per user per month with all Time and Attendance features included; covers leave rules and approvals, mobile and kiosk clocking, geofencing, shift and overtime tracking, Bradford Factor scores, not-in-yet alerts, SFDC closure checks and live staff availability in production scheduling

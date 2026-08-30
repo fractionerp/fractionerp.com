@@ -59,6 +59,7 @@ plans:
     inherits_label: "All advanced features plus:"
     features:
       - Batch Traceability
+      - Linear Stock Management
       - SOPs
       - Customer Returns
       - RFQ's for purchasing

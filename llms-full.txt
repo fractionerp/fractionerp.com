@@ -53,7 +53,7 @@ Fraction ERP helps manufacturers with:
 - Bill of materials: BOMs, routings, operations, templates, tooling and jigs, job costing, and revision-aware production data.
 - MRP demand planning: material requirements generated from real demand, works orders, stock, and purchasing rules.
 - Purchasing: purchase orders, RFQs, supplier workflows, approvals, and purchasing linked to stock and works order demand.
-- Inventory management: parts, stock levels, reorder points, stock adjustments, traceability, and inventory visibility.
+- Inventory management: parts, stock levels, reorder points, stock adjustments, traceability, and inventory visibility. Pro-plan linear stock management records every bar and offcut by usable length, supports heat or cast references, allocates complete cuts remnant-first with kerf, and counts pieces by measurement.
 - Works orders: production job control, routing, operation tracking, material requirements, and work-in-progress visibility.
 - Production scheduling: automatic scheduling and drag-and-drop planning with workcentre and operator capacity.
 - Shop floor data capture: operators can record live progress, labour, operation status, and production updates.
