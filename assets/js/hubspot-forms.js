@@ -11,15 +11,31 @@
     "63ddf8b0-3b4f-49a7-8ed2-d457c2f07ace": { method: "newsletter_signup", funnelLevel: "top" }
   };
 
-  function trackLead(form) {
+  function trackLead(form, complete) {
     var definition = LEAD_EVENTS_BY_FORM_ID[form.dataset.formId];
-    if (!definition || typeof window.gtag !== "function") return;
+    if (!definition || typeof window.gtag !== "function") {
+      complete();
+      return;
+    }
+
+    var completed = false;
+    var timeoutId;
+
+    function completeOnce() {
+      if (completed) return;
+      completed = true;
+      if (timeoutId) window.clearTimeout(timeoutId);
+      complete();
+    }
+
+    timeoutId = window.setTimeout(completeOnce, 1000);
 
     window.gtag("event", "generate_lead", {
       method: definition.method,
       lead_source: "website_form",
       funnel_level: definition.funnelLevel,
-      form_id: form.dataset.formId
+      form_id: form.dataset.formId,
+      event_callback: completeOnce
     });
   }
 
@@ -138,8 +154,7 @@
       setSubmitting(form, true);
       submitForm(form)
         .then(function () {
-          trackLead(form);
-          completeSubmission(form);
+          trackLead(form, function () { completeSubmission(form); });
         })
         .catch(function (error) {
           console.error("HubSpot form submission failed", error);
