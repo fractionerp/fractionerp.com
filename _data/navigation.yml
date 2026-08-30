@@ -42,6 +42,8 @@ main:
         url: /production-scheduling-software/
       - title: Improve Inventory Control
         url: /purchasing-inventory-software/
+      - title: Manage Bar Stock & Offcuts
+        url: /bar-stock-management-software/
       - title: Real-Time Visibility
         url: /shopfloor-data-capture-software/
       - title: Compare ERP Systems
@@ -121,6 +123,8 @@ footer_erp_core:
 footer_erp_specialist:
   - title: ERP Intelligence Centre
     url: /ai-in-erp/
+  - title: Bar Stock Management
+    url: /bar-stock-management-software/
   - title: Time & Attendance
     url: /time-and-attendance/
   - title: Mobile ERP
