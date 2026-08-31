@@ -145,9 +145,10 @@ permalink: /bar-stock-management-software/
           </div>
         </div>
         <div class="col-lg-6">
-          <p class="bs-kicker">One identity per physical piece</p><h3>Receive and trace every bar separately</h3>
+          <p class="bs-kicker">One identity per physical piece</p><h3>Receive, trace and sell every bar or offcut</h3>
           <p>At goods receipt, Fraction creates an individual identity for each bar. The received length, remaining usable length, stock location and receipt reference stay with that piece. Several bars can share the same heat or cast number without being collapsed into one anonymous balance.</p>
           <p>When a cut is consumed, the remaining offcut keeps the same piece identity. You retain the connection to the material received rather than creating an untraceable item on an offcut rack.</p>
+          <p>Reusable remnants do not have to remain production stock. An available bar or offcut can be transferred directly from inventory into a sales order, making it straightforward to sell surplus material while keeping the stock record connected.</p>
           <p><a href="{{ '/traceability/' | relative_url }}">See Fraction's wider traceability capabilities <i class="bi bi-arrow-right"></i></a></p>
         </div>
       </div>
@@ -204,7 +205,7 @@ permalink: /bar-stock-management-software/
           <tr><td>How much material is held?</td><td>Total length only</td><td>Total plus each physical piece</td></tr>
           <tr><td>Can the required cut be made?</td><td>Not reliably known</td><td>Checked against one suitable piece</td></tr>
           <tr><td>What happens to kerf?</td><td>Often omitted or adjusted manually</td><td>Reserved and consumed for each cut</td></tr>
-          <tr><td>Can offcuts be reused?</td><td>Dependent on a separate list or memory</td><td>Visible as measured remnants with identity</td></tr>
+          <tr><td>Can offcuts be reused or sold?</td><td>Dependent on a separate list or memory</td><td>Visible for reuse or transfer directly into a sales order</td></tr>
           <tr><td>Is heat or cast context retained?</td><td>Often only at batch-total level</td><td>Recorded against each received piece</td></tr>
           <tr><td>How is stock counted?</td><td>Reconcile one total</td><td>Measure every bar and offcut</td></tr>
         </tbody>
@@ -231,7 +232,7 @@ permalink: /bar-stock-management-software/
       <div class="row justify-content-center"><div class="col-lg-9">
         <div class="bs-faq"><h3>What is bar stock management software?</h3><p>Bar stock management software records linear raw material by physical piece and usable length. It helps an engineering business purchase bars, receive and identify them, allocate complete cuts to work orders, account for cutting loss, retain offcuts and reconcile measured stock.</p></div>
         <div class="bs-faq"><h3>Why is a total metre balance not enough?</h3><p>A total does not show whether one piece is long enough for the required component. Three offcuts can add up to more than the demand while every individual offcut is too short. Piece-level records make that constraint visible.</p></div>
-        <div class="bs-faq"><h3>How does Fraction ERP manage offcuts?</h3><p>After a cut, the remaining usable length stays against the same individually tracked piece. Fraction classifies it as a remnant, keeps its receipt and traceability context, and considers it before full bars during automatic best-fit allocation.</p></div>
+        <div class="bs-faq"><h3>How does Fraction ERP manage offcuts?</h3><p>After a cut, the remaining usable length stays against the same individually tracked piece. Fraction classifies it as a remnant, keeps its receipt and traceability context, and considers it before full bars during automatic best-fit allocation. If the remnant is surplus, it can also be transferred directly from inventory into a sales order and sold.</p></div>
         <div class="bs-faq"><h3>Does Fraction ERP include kerf in material usage?</h3><p>Yes. A default kerf can be set on the linear-stock part and overridden on a BOM or works-order line. Fraction reserves and consumes the product length plus the kerf for each complete cut.</p></div>
         <div class="bs-faq"><h3>Can Fraction retain heat or cast traceability?</h3><p>Yes. Each received bar can carry its own heat or cast reference while several bars may share the same reference. The piece remains connected to its goods-receipt and supplier context as its usable length changes.</p></div>
         <div class="bs-faq"><h3>Can I stock-count bars and offcuts individually?</h3><p>Yes. Fraction presents every active piece for measurement and records the variance against that identity and stock location. It also protects quantities reserved to open work orders.</p></div>
