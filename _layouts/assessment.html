@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+  {% include head.html %}
+  <link rel="stylesheet" href="{{ '/assets/css/erp-assessment.css' | relative_url }}">
+</head>
+<body class="assessment-body">
+  <a class="as-skip" href="#main">Skip to assessment</a>
+  <header class="as-header">
+    <a class="as-brand" href="{{ '/' | relative_url }}" aria-label="Fraction ERP home"><img src="{{ '/assets/img/logo.png' | relative_url }}" width="150" alt="Fraction ERP"></a>
+    <span class="as-header-label">THE MANUFACTURING ASSESSMENT</span>
+    <a class="as-exit" href="{{ '/' | relative_url }}">Back to Fraction <span aria-hidden="true">↗</span></a>
+  </header>
+  {{ content }}
+  <footer class="as-footer"><span>Made by Fraction ERP · Practical advice for manufacturers</span><a href="{{ '/privacy/' | relative_url }}">Privacy</a></footer>
+  {% include cookie-consent.html %}
+  {% include analytics.html %}
+  <script src="{{ '/assets/js/cookie-consent.min.js' | relative_url }}" defer></script>
+  <script src="{{ '/assets/js/hubspot-forms.min.js' | relative_url }}" defer></script>
+  <script src="{{ '/assets/js/erp-assessment-model.js' | relative_url }}" defer></script>
+  <script src="{{ '/assets/js/erp-assessment.js' | relative_url }}" defer></script>
+</body>
+</html>

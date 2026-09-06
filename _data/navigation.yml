@@ -62,6 +62,8 @@ main:
   - title: Resources
     dropdown: true
     items:
+      - title: Should You Buy an ERP?
+        url: /erp-assessment/
       - title: Features
         url: /features/
       - title: What is MRP?
@@ -157,6 +159,8 @@ footer_industries:
     url: /erp-for-fabrication/
 
 footer_resources:
+  - title: ERP Assessment
+    url: /erp-assessment/
   - title: Spreadsheet Checklist
     url: /spreadsheet-readiness-checklist/
   - title: ERP Warning Signs

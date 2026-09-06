@@ -13,6 +13,9 @@
 
   function trackLead(form, complete) {
     var definition = LEAD_EVENTS_BY_FORM_ID[form.dataset.formId];
+    if (form.id === 'assessment-review-form' && form.dataset.formId === 'efc11f49-51aa-4312-bbef-4945ae45aeae') {
+      definition = { method: 'erp_assessment', funnelLevel: 'middle' };
+    }
     if (!definition || typeof window.gtag !== "function") {
       complete();
       return;
@@ -156,6 +159,7 @@
       setSubmitting(form, true);
       submitForm(form)
         .then(function () {
+          form.dispatchEvent(new CustomEvent('fraction:submitted'));
           trackLead(form, function () { completeSubmission(form); });
         })
         .catch(function (error) {
