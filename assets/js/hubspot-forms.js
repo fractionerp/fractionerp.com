@@ -8,14 +8,12 @@
     "35b77591-64ce-417f-9ce9-2c0e5af30419": { method: "erp_warning_signs", funnelLevel: "middle" },
     "072de23b-0398-4bb2-85b6-c88115fe276b": { method: "demo_request", funnelLevel: "bottom" },
     "efc11f49-51aa-4312-bbef-4945ae45aeae": { method: "strategy_call", funnelLevel: "bottom" },
+    "7bc569f0-a87b-487d-aca2-9adf7988bac4": { method: "erp_assessment", funnelLevel: "middle" },
     "63ddf8b0-3b4f-49a7-8ed2-d457c2f07ace": { method: "newsletter_signup", funnelLevel: "top" }
   };
 
   function trackLead(form, complete) {
     var definition = LEAD_EVENTS_BY_FORM_ID[form.dataset.formId];
-    if (['assessment-review-form', 'assessment-report-form'].indexOf(form.id) !== -1 && form.dataset.formId === 'efc11f49-51aa-4312-bbef-4945ae45aeae') {
-      definition = { method: 'erp_assessment', funnelLevel: 'middle' };
-    }
     if (!definition || typeof window.gtag !== "function") {
       complete();
       return;

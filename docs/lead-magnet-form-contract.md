@@ -59,6 +59,12 @@ Both forms are rendered through `_includes/forms/hubspot-content.html` and submi
 
 Request Demo forms redirect to `/success/`. ERP Strategy Call forms redirect to `/strategy-call-success/`. Newsletter forms show a website-controlled inline completion message after HubSpot accepts the submission.
 
+## ERP Assessment
+
+The custom assessment at `/erp-assessment/` uses dedicated form `7bc569f0-a87b-487d-aca2-9adf7988bac4` in portal `9456893` (region `na1`). Website-required contact fields: `firstname`, `lastname`, `email`, `company`. Hidden on the website: multiline `message` (the report and labelled answers). These five fields match the public published form definition verified on 2026-09-07. This form does not contain `preferred_contact_method` or `lead_source_detail`: the dedicated form identifies the source and the message includes source and email preference. Do not submit unknown properties to it.
+
+Submission goes through the same Forms API handler; do not install the iframe embed. Acceptance unlocks the printable report on the same page. GA4 uses `generate_lead` with `method: erp_assessment`. See `docs/erp-assessment.md` for details.
+
 ## Newsletter
 
 The newsletter form uses form ID `63ddf8b0-3b4f-49a7-8ed2-d457c2f07ace` and submits `email` plus the hidden `lead_source_detail` placement value. It is not a lead-magnet gate and does not affect the ungated demo video.

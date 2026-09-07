@@ -20,7 +20,7 @@
   function unlocked() {return isComplete() && acceptedSignature === JSON.stringify(answers);}
   function submissionPending() {return $('assessment-report-form').querySelector('button[type=submit]').disabled && !unlocked();}
   function reportText() {
-    const lines=['Fraction Manufacturing Assessment · '+data.version,report.title,report.summary,'ERP need: '+report.need,'Fraction fit: '+report.fit,'Readiness: '+report.readiness,'','Why we think this:',...report.reasons.map(s=>'• '+s),'','Next steps:',...report.actions.map((s,i)=>(i+1)+'. '+s),'',report.fitReason,'','Answers:'];
+    const lines=['Fraction Manufacturing Assessment · '+data.version,'Source: ERP Assessment: Full report request','Preferred contact: Email',report.title,report.summary,'ERP need: '+report.need,'Fraction fit: '+report.fit,'Readiness: '+report.readiness,'','Why we think this:',...report.reasons.map(s=>'• '+s),'','Next steps:',...report.actions.map((s,i)=>(i+1)+'. '+s),'',report.fitReason,'','Answers:'];
     path().forEach(q=>{const values=Array.isArray(answers[q.id])?answers[q.id]:[answers[q.id]];lines.push(q.title+' '+model.options(q,answers,data).filter(o=>values.includes(o[0])).map(o=>o[1]).join('; '));});
     return lines.join('\n');
   }
