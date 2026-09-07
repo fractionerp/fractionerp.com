@@ -7,7 +7,7 @@
   const chapters = ['Your operation', 'Your daily reality', 'What’s changing'];
   const key = 'fraction-erp-assessment-' + data.version;
   const base = main.dataset.baseurl || '';
-  let answers = {}, step = 'intro', savedStep = null, finishedSignature = '', busy = false, report = null;
+  let answers = {}, step = 'intro', savedStep = null, finishedSignature = '', acceptedSignature = '', pendingSignature = '', busy = false, report = null;
   const node = (tag, text, cls) => {const el=document.createElement(tag);if(text)el.textContent=text;if(cls)el.className=cls;return el;};
   function track(name, params) {
     // Only controlled identifiers/categories enter analytics; never answer or contact text.
@@ -15,8 +15,10 @@
     if (typeof window.gtag === 'function') window.gtag('event',name,Object.assign({assessment_version:data.version},params || {}));
   }
   function path() {return data.questions.filter(q=>model.visible(q,answers));}
-  function save() {try{sessionStorage.setItem(key,JSON.stringify({answers,step,finishedSignature}));}catch(e){/* Assessment remains usable when storage is unavailable. */}}
+  function save() {try{sessionStorage.setItem(key,JSON.stringify({answers,step,finishedSignature,acceptedSignature}));}catch(e){/* Assessment remains usable when storage is unavailable. */}}
   function isComplete() {return path().every(q=>answers[q.id] && (!q.multi || answers[q.id].length));}
+  function unlocked() {return isComplete() && acceptedSignature === JSON.stringify(answers);}
+  function submissionPending() {return $('assessment-report-form').querySelector('button[type=submit]').disabled && !unlocked();}
   function reportText() {
     const lines=['Fraction Manufacturing Assessment · '+data.version,report.title,report.summary,'ERP need: '+report.need,'Fraction fit: '+report.fit,'Readiness: '+report.readiness,'','Why we think this:',...report.reasons.map(s=>'• '+s),'','Next steps:',...report.actions.map((s,i)=>(i+1)+'. '+s),'',report.fitReason,'','Answers:'];
     path().forEach(q=>{const values=Array.isArray(answers[q.id])?answers[q.id]:[answers[q.id]];lines.push(q.title+' '+model.options(q,answers,data).filter(o=>values.includes(o[0])).map(o=>o[1]).join('; '));});
@@ -65,18 +67,26 @@
     report=model.assess(answers);
     $('as-result-title').textContent=report.title;$('as-result-summary').textContent=report.summary;
     $('as-verdicts').replaceChildren();[['ERP need',report.need],['Fraction fit',report.fit],['Implementation',report.readiness]].forEach(pair=>{const box=node('div',null,'as-verdict');box.append(node('span',pair[0]),node('strong',pair[1]));$('as-verdicts').append(box);});
+    const granted=unlocked();
+    $('as-result-label').textContent=granted?'Your full report · By Fraction ERP':'Your initial outcome · By Fraction ERP';
+    $('as-full-report').hidden=!granted;$('as-contact').hidden=granted;
+    if(granted){
     $('as-reasons').replaceChildren(...report.reasons.map(s=>node('li',s)));
     $('as-actions').replaceChildren(...report.actions.map(s=>node('li',s)));
     $('as-priority').textContent=report.priority;$('as-fit-title').textContent=report.fit;$('as-fit-reason').textContent=report.fitReason;$('as-revisit').textContent=report.revisit;
     $('as-fit-link').href=base+(report.fit==='Strong potential fit'?report.resource:'/compare-erp/');
     $('as-fit-link').textContent=report.fit==='Strong potential fit'?'Explore the relevant capabilities →':'What to consider when comparing systems →';
     $('as-answer-list').replaceChildren();path().forEach(q=>{const values=Array.isArray(answers[q.id])?answers[q.id]:[answers[q.id]];$('as-answer-list').append(node('dt',q.title),node('dd',model.options(q,answers,data).filter(o=>values.includes(o[0])).map(o=>o[1]).join('; ')));});
-    $('as-report-message').value=reportText();
+    }else{
+      ['as-reasons','as-actions','as-answer-list'].forEach(id=>$(id).replaceChildren());
+      ['as-priority','as-fit-title','as-fit-reason','as-revisit'].forEach(id=>$(id).textContent='');
+      $('as-report-message').value='';
+    }
     const signature=JSON.stringify(answers);
     if(signature!==finishedSignature){track('assessment_complete',{outcome:report.outcome});finishedSignature=signature;save();}
   }
   async function navigate(target, push=true, direction=1){
-    if(busy)return;busy=true;
+    if(busy || submissionPending())return;busy=true;
     const old=step==='intro'?$('as-intro'):step==='result'?$('as-result'):$('as-scene');
     const reduced=window.matchMedia('(prefers-reduced-motion: reduce)').matches;
     if(!reduced && typeof old.animate==='function')await old.animate([{opacity:1,transform:'translateX(0)'},{opacity:0,transform:'translateX('+(-direction*20)+'px)'}],{duration:120,easing:'ease-in'}).finished.catch(()=>{});
@@ -89,17 +99,18 @@
     else if(step==='intro'){focus=$('as-title');focus.tabIndex=-1;}
     else{renderQuestion(path().find(q=>q.id===step));focus=$('as-question-title');track('assessment_step_view',{step_id:step});}
     document.title=(step==='intro'?'Should You Buy an ERP?':step==='result'?'Your ERP Assessment':$('as-step-count').textContent+' · '+chapters[path().find(q=>q.id===step).chapter])+' | Fraction ERP';
-    if(push)history.pushState({assessmentStep:step},'',window.location.pathname);
+    if(push)history.pushState({assessmentStep:step},'',window.location.pathname+(step==='result'&&unlocked()?'#report':''));
     save();window.scrollTo({top:0,behavior:'instant'});focus.focus({preventScroll:true});
     const incoming=step==='intro'?$('as-intro'):step==='result'?$('as-result'):$('as-scene');
     if(!reduced && typeof incoming.animate==='function')await incoming.animate([{opacity:0,transform:'translateX('+(direction*20)+'px)'},{opacity:1,transform:'translateX(0)'}],{duration:180,easing:'ease-out'}).finished.catch(()=>{});
     busy=false;
   }
   function reset(){
-    answers={};finishedSignature='';report=null;$('as-contact').hidden=true;
-    const form=$('assessment-review-form');form.reset();delete form.dataset.assessmentSubmitted;form.querySelector('button[type=submit]').disabled=false;form.querySelector('.fraction-form-status').textContent='';
+    if(submissionPending())return;
+    answers={};finishedSignature='';acceptedSignature='';pendingSignature='';report=null;$('as-contact').hidden=false;$('as-full-report').hidden=true;
+    const form=$('assessment-report-form');form.reset();form.querySelector('button[type=submit]').disabled=false;form.querySelector('.fraction-form-status').textContent='';
   }
-  try{const stored=JSON.parse(sessionStorage.getItem(key));if(stored){answers=model.sanitise(stored.answers||{},data);savedStep=stored.step;finishedSignature=typeof stored.finishedSignature==='string'?stored.finishedSignature:'';}}catch(e){/* Invalid or inaccessible session data is ignored. */}
+  try{const stored=JSON.parse(sessionStorage.getItem(key));if(stored){answers=model.sanitise(stored.answers||{},data);savedStep=stored.step;finishedSignature=typeof stored.finishedSignature==='string'?stored.finishedSignature:'';acceptedSignature=typeof stored.acceptedSignature==='string'?stored.acceptedSignature:'';}}catch(e){/* Invalid or inaccessible session data is ignored. */}
   $('as-start').hidden=false;
   if(Object.keys(answers).length){$('as-resume').hidden=false;}
   $('as-start').addEventListener('click',()=>{reset();track('assessment_start');navigate('activity');});
@@ -112,18 +123,29 @@
   });
   $('as-back').addEventListener('click',()=>{const index=path().findIndex(q=>q.id===step);navigate(index>0?path()[index-1].id:'intro',true,-1);});
   $('as-edit').addEventListener('click',()=>navigate('activity',true,-1));
+  $('as-gate-edit').addEventListener('click',()=>navigate('activity',true,-1));
   $('as-restart').addEventListener('click',()=>{if(window.confirm('Start a new assessment? This will clear the answers saved in this tab.')){reset();$('as-resume').hidden=true;navigate('intro',true,-1);}});
-  $('as-print').addEventListener('click',()=>{document.querySelector('.as-answer-details').open=true;track('assessment_report_save');window.print();});
-  $('as-open-review').addEventListener('click',()=>{$('as-contact').hidden=false;$('as-contact-title').focus();$('as-contact').scrollIntoView({behavior:window.matchMedia('(prefers-reduced-motion: reduce)').matches?'instant':'smooth'});track('assessment_review_open');});
-  const form=$('assessment-review-form');
+  $('as-print').addEventListener('click',()=>{if(!unlocked())return;document.querySelector('.as-answer-details').open=true;track('assessment_report_save');window.print();});
+  const form=$('assessment-report-form');
   form.addEventListener('submit',event=>{
-    if(form.dataset.assessmentSubmitted==='true' || form.querySelector('button[type=submit]').disabled){event.preventDefault();event.stopImmediatePropagation();return;}
+    if(unlocked() || form.querySelector('button[type=submit]').disabled){event.preventDefault();event.stopImmediatePropagation();return;}
     if(!report || !isComplete()){event.preventDefault();event.stopImmediatePropagation();return;}
     $('as-report-message').value=reportText();
+    pendingSignature=JSON.stringify(answers);
+    if(!form.querySelector('input[name=website]').value)track('assessment_report_request');
   },true);
-  form.addEventListener('fraction:submitted',()=>{form.dataset.assessmentSubmitted='true';});
-  const observer=new MutationObserver(()=>{if(form.dataset.assessmentSubmitted==='true')form.querySelector('button[type=submit]').disabled=true;});
-  observer.observe(form.querySelector('.fraction-form-status'),{childList:true,subtree:true});
-  history.replaceState({assessmentStep:'intro'},'',window.location.href);
+  form.addEventListener('fraction:submitted',()=>{
+    acceptedSignature=pendingSignature;
+    if(!unlocked())return;
+    renderResult();save();
+    history.replaceState({assessmentStep:'result'},'',window.location.pathname+'#report');
+    document.title='Your Full ERP Assessment Report | Fraction ERP';
+    window.scrollTo({top:0,behavior:'instant'});$('as-result-title').focus({preventScroll:true});
+    track('assessment_report_view');
+  });
+  const restoreReport=window.location.hash==='#report' && unlocked();
+  history.replaceState({assessmentStep:restoreReport?'result':'intro'},'',window.location.href);
+  if(restoreReport)navigate('result',false);
+  else if(window.location.hash==='#report')history.replaceState({assessmentStep:'intro'},'',window.location.pathname);
   window.addEventListener('popstate',event=>{navigate(event.state?.assessmentStep||'intro',false,-1);});
 })();

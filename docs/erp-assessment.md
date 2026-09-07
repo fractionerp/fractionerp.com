@@ -1,6 +1,6 @@
 # Manufacturing assessment
 
-Published URL: `/erp-assessment/`. Standalone Jekyll layout, explicit Back/Continue navigation, reduced-motion support, session-only answer recovery, versioned deterministic rules, printable full report. No email is needed for any result.
+Published URL: `/erp-assessment/`. Standalone Jekyll layout, explicit Back/Continue navigation, reduced-motion support, session-only answer recovery and versioned deterministic rules. Visitors see an initial outcome without providing contact details. The “Get your report” form gates the full breakdown and print view.
 
 ## Files and checks
 
@@ -26,19 +26,21 @@ These are commercial assessment rules, not empirically validated investment thre
 
 ## Lead capture and delivery
 
-There is no dedicated assessment HubSpot form or automated report delivery workflow configured in this repository. Do not promise an automatic email. The full report is available immediately and via browser Save as PDF/Print.
+There is no dedicated assessment HubSpot form or automated report delivery workflow configured in this repository. Do not promise an automatic email. The full report opens on the same page at `/erp-assessment/#report` only after the API accepts the form submission; it can then be viewed, printed or saved as PDF. The summary and three verdict labels remain ungated.
 
-The explicit “Request a review” form uses the existing strategy form (`efc11f49-51aa-4312-bbef-4945ae45aeae`) and its existing accepted properties: firstname, lastname, email, company, preferred_contact_method=Email, lead_source_detail, message. `message` contains the complete assessment, version and labelled answers. Source detail is `ERP Assessment: Review request`. Existing strategy notifications may apply; confirm how the HubSpot workflow routes that source. No unsolicited request is sent during the assessment.
+The explicit “Get my report” form uses the existing strategy form (`efc11f49-51aa-4312-bbef-4945ae45aeae`) and its existing accepted properties: firstname, lastname, email, company, preferred_contact_method=Email, lead_source_detail, message. `message` contains the complete assessment, version and labelled answers. Source detail is `ERP Assessment: Full report request`. Find the assessment in the contact’s corresponding form-submission activity, rather than relying on the latest message contact property (which later enquiries may update). Existing strategy notifications may apply; confirm how the HubSpot workflow routes that source. No answer payload is sent during the assessment. The gate explicitly explains answer storage and follow-up.
 
-The form has a distinct GA4 method `erp_assessment`, while the existing strategy form's method remains `strategy_call`. `generate_lead` fires only after the API accepts a real submission. Browser tests must intercept the API, not create fake contacts. A successful submission is disabled for that assessment to prevent repeat clicks.
+The form has a distinct GA4 method `erp_assessment`, while the existing strategy form's method remains `strategy_call`. `generate_lead` fires only after the API accepts a real submission. Browser tests must intercept the API, not create fake contacts. Invalid, failed and honeypot submissions never unlock the report. Double clicks are blocked while submitting; acceptance hides the gate.
+
+Version 1.1 adds a session-only acceptance signature matching the submitted answers. Refreshing the report in the same tab restores it. A changed assessment needs a fresh submission; an unsubmitted visit to #report does not bypass the gate. No contact details are saved in the browser or encoded into the URL. This is a client-side marketing gate, not secure authentication: the assessment runs locally, and there is no server-generated shareable report. If browser session storage is blocked, the immediate report works but cannot be recovered after reload.
 
 To enable automated email reports later: create a dedicated form with the agreed contact and assessment properties, configure and verify report email delivery for each outcome using available HubSpot capabilities, then change the website form and CTA. The browser must not contain secret credentials. Form submission success is not evidence of email delivery.
 
 ## Privacy and analytics
 
-Only selected option IDs, current step and completion dedupe state are in sessionStorage. No contact details are stored there or placed in URLs. Session storage failure does not block the tool. Restart clears the active assessment. Report text uses textContent; arbitrary persisted answer values are rejected against the option schema.
+Only selected option IDs, current step, completion dedupe state and acceptance signature are in sessionStorage. No contact details are stored there or placed in URLs. Session storage failure does not block the tool. Restart clears the active assessment. Report text uses textContent; arbitrary persisted answer values are rejected against the option schema.
 
-Optional analytics consent enables `assessment_start`, `assessment_step_view` (step_id), `assessment_complete` (outcome), `assessment_report_save`, `assessment_review_open`. Parameters include assessment_version; they never include contact fields or answer text. Register assessment_version, step_id and outcome as event-scoped GA4 custom dimensions if needed. Existing generate_lead is already marked as a key event; use method=erp_assessment to segment review leads. Do not count assessment_complete as a captured contact.
+Optional analytics consent enables `assessment_start`, `assessment_step_view` (step_id), `assessment_complete` (outcome), `assessment_report_request` (submission attempt), `assessment_report_view` (accepted submission unlock), `assessment_report_save`. Parameters include assessment_version; they never include contact fields or answer text. Register assessment_version, step_id and outcome as event-scoped GA4 custom dimensions if needed. Existing generate_lead is already marked as a key event; use method=erp_assessment to segment assessment leads. Do not count assessment_complete or a failed report request as a captured contact.
 
 ## Remaining external verification
 

@@ -13,7 +13,7 @@
 
   function trackLead(form, complete) {
     var definition = LEAD_EVENTS_BY_FORM_ID[form.dataset.formId];
-    if (form.id === 'assessment-review-form' && form.dataset.formId === 'efc11f49-51aa-4312-bbef-4945ae45aeae') {
+    if (['assessment-review-form', 'assessment-report-form'].indexOf(form.id) !== -1 && form.dataset.formId === 'efc11f49-51aa-4312-bbef-4945ae45aeae') {
       definition = { method: 'erp_assessment', funnelLevel: 'middle' };
     }
     if (!definition || typeof window.gtag !== "function") {

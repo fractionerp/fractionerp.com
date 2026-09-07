@@ -1,5 +1,5 @@
 {
-  "version": "1.0.0",
+  "version": "1.1.0",
   "questions": [
     {"id":"activity","chapter":0,"title":"What do you make?","hint":"Choose the closest match. We’ll tailor the assessment to your operation.","options":[["machining","Machined components","Precision parts, turned or milled"],["fabrication","Fabricated products","Cut, formed and welded products"],["assembly","Assemblies & electronics","Components brought together"],["moulding","Moulded or cast products","Parts made using moulds or tooling"],["bespoke","Bespoke equipment","Designed or engineered for a customer"],["process","Food, chemicals or formulations","Recipes, blends or continuous processes"],["nonmanufacturing","Mainly services or distribution","We don’t usually manufacture"],["mixed","Other or mixed","Our operation crosses categories"]]},
     {"id":"people","chapter":0,"title":"How many people work in your business?","hint":"Include the shop floor and office. Team size alone won’t decide your recommendation.","options":[["small","1–10"],["11_25","11–25"],["26_50","26–50"],["51_100","51–100"],["101_250","101–250"],["large","251+"]]},
