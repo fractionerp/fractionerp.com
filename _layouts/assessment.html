@@ -2,7 +2,7 @@
 <html lang="en-GB">
 <head>
   {% include head.html %}
-  <link rel="stylesheet" href="{{ '/assets/css/erp-assessment.css' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/assets/css/erp-assessment.css' | relative_url }}?v={{ site.time | date: '%s' }}">
 </head>
 <body class="assessment-body">
   <a class="as-skip" href="#main">Skip to assessment</a>
