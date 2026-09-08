@@ -1,0 +1,15 @@
+<aside class="assessment-cta{% if include.compact %} assessment-cta--compact{% endif %}" aria-label="Free manufacturing ERP assessment">
+  {% unless include.compact %}<div class="container">{% endunless %}
+    <div class="assessment-cta-inner">
+      <div class="assessment-cta-copy">
+        <p class="assessment-cta-label">Free manufacturing assessment</p>
+        {% if include.compact %}<h3>{% else %}<h2>{% endif %}{{ include.title | default: "Should you actually buy an ERP?" }}{% if include.compact %}</h3>{% else %}</h2>{% endif %}
+        <p>{{ include.text | default: "Find out whether ERP is worth investigating, what to improve first and whether Fraction could fit your operation. If you don’t need an ERP yet, we’ll say so." }}</p>
+      </div>
+      <div class="assessment-cta-action">
+        <a href="{{ '/erp-assessment/' | relative_url }}" data-assessment-cta="{{ include.placement | default: 'contextual' | escape }}">Take the ERP assessment <span aria-hidden="true">→</span></a>
+        <span>See your outcome first. Enter your details for the full report.</span>
+      </div>
+    </div>
+  {% unless include.compact %}</div>{% endunless %}
+</aside>

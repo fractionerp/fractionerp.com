@@ -1,0 +1,26 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebApplication",
+  "@id": "{{ page.url | absolute_url }}#assessment",
+  "name": "Fraction Manufacturing ERP Assessment",
+  "url": {{ page.url | absolute_url | jsonify }},
+  "description": {{ page.description | jsonify }},
+  "applicationCategory": "BusinessApplication",
+  "applicationSubCategory": "Manufacturing ERP needs assessment",
+  "operatingSystem": "Web Browser",
+  "browserRequirements": "Requires JavaScript and an internet connection for report submission",
+  "isAccessibleForFree": true,
+  "inLanguage": "en-GB",
+  "softwareVersion": {{ site.data.erp_assessment.version | jsonify }},
+  "dateModified": {{ page.last_modified_at | date_to_xmlschema | jsonify }},
+  "provider": { "@id": "{{ site.url }}/#organization" },
+  "mainEntityOfPage": { "@id": "{{ page.url | absolute_url }}#primary" },
+  "featureList": [
+    "Interactive questions about manufacturing complexity, current systems and operational problems",
+    "Separate conclusions on ERP need, implementation readiness and potential Fraction ERP fit",
+    "Initial outcome visible without contact details",
+    "Full report and labelled answers available to view, save or print after contact form submission"
+  ]
+}
+</script>

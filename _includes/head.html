@@ -245,8 +245,17 @@ img{max-width:100%;height:auto}
         "@id": "{{ site.url }}/#website"
       },
       "about": {
+        {% if page.layout == 'assessment' %}
+        "@type": "Thing",
+        "name": "Manufacturing ERP needs and implementation readiness"
+        {% else %}
         "@id": "{{ site.url }}/#software"
+        {% endif %}
       },
+      {% if page.layout == 'assessment' %}
+      "mainEntity": { "@id": "{{ page.url | absolute_url }}#assessment" },
+      "dateModified": {{ page.last_modified_at | date_to_xmlschema | jsonify }},
+      {% endif %}
       "publisher": {
         "@id": "{{ site.url }}/#organization"
       },
@@ -265,4 +274,5 @@ img{max-width:100%;height:auto}
 </script>
 
 {% include schema-breadcrumb.html %}
+{% if page.layout == 'assessment' %}{% include schema-assessment.html %}{% endif %}
 {% if page.layout == 'home' %}{% include schema-faq.html %}{% endif %}
