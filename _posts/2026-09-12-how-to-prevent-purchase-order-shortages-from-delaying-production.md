@@ -6,6 +6,7 @@ description: "Prevent purchase order shortages from delaying production with pra
 category: purchasing
 author: Giles Johnston
 permalink: /blog/how-to-prevent-purchase-order-shortages-from-delaying-production/
+image: /assets/img/purchase-order-shortage-cartoon.png
 related_posts_list:
   - /blog/purchase-order-management-system-overview/
   - /blog/streamline-your-purchasing-how-fraction-erp-saves-your-manufacturing-business-hours/
@@ -14,6 +15,10 @@ related_posts_list:
 ---
 
 Raising purchase orders in a manufacturing business can make or break your on-time delivery performance. There are a number of factors that you need to consider to make sure that your buying function doesn’t stop the smooth flow of production orders. Happy customers often lead to more business, so make sure that you have this part of your operation under control.
+
+<figure style="margin: 30px 0; text-align: center;">
+  <img src="{{ '/assets/img/purchase-order-shortage-cartoon.png' | relative_url }}" alt="Cartoon of a factory worker holding purchase orders beside an idle production line beneath a sign reading Production stopped – no materials" width="1200" height="896" style="width: 100%; height: auto; border-radius: 8px;">
+</figure>
 
 Putting this back into context quickly. If you run out of materials, you can’t produce your orders. There are lots of factors that can affect this, so let’s have a quick run-through of the main trip hazards that we see in a manufacturing business when it comes to purchasing.
 
