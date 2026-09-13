@@ -92,9 +92,9 @@ image: /assets/img/V3-production-tracking.webp
             {% endif %}
             {% for feature in plan.features %}
             {% assign feature_parts = feature | split: "|" %}
-            <li style="padding: 5px 0; font-size: 14px; color: #444; display: flex; align-items: flex-start; gap: 8px;">
-              <i class="bi bi-check-circle-fill" style="color: {% if plan.popular %}#47b2e4{% else %}#4caf50{% endif %}; flex-shrink: 0; margin-top: 2px;"></i>
-              <span>{{ feature_parts[0] }}{% if feature_parts[1] %}{% if feature_parts[1] == "*" %} <span style="color: #000; font-weight: 400;">*</span>{% else %} ({{ feature_parts[1] }}){% endif %}{% endif %}</span>
+            <li style="padding: 5px 0; font-size: 14px; color: {% if feature_parts[1] == '*' %}#6b7280{% else %}#444{% endif %}; display: flex; align-items: flex-start; gap: 8px;">
+              <i class="bi {% if feature_parts[1] == '*' %}bi-clock{% else %}bi-check-circle-fill{% endif %}" aria-hidden="true" style="color: {% if feature_parts[1] == '*' %}#6b7280{% elsif plan.popular %}#47b2e4{% else %}#4caf50{% endif %}; flex-shrink: 0; margin-top: 2px;"></i>
+              <span>{{ feature_parts[0] }}{% if feature_parts[1] %}{% if feature_parts[1] == "*" %}<a href="#pricing-coming-soon" aria-label="Coming soon" style="color: inherit; text-decoration: none;"><sup>*</sup></a>{% else %} ({{ feature_parts[1] }}){% endif %}{% endif %}</span>
             </li>
             {% endfor %}
           </ul>
@@ -154,7 +154,7 @@ image: /assets/img/V3-production-tracking.webp
 
     <!-- Notes -->
     <div class="text-center mt-4" style="font-size: 13px; color: #888;">
-      * Coming soon &nbsp;|&nbsp; UK Sales Subject to VAT &nbsp;|&nbsp; Minimum two standard users
+      <span id="pricing-coming-soon" style="color: #6b7280;">* Coming soon</span> &nbsp;|&nbsp; UK Sales Subject to VAT &nbsp;|&nbsp; Minimum two standard users
     </div>
 
     <script>

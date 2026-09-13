@@ -73,7 +73,8 @@ plans:
       - Risk Assessments
       - COSHH Register
       - Bar Stock Management
-      - Customer Portal (coming soon)
+      - Customer Portal|*
+      - Shipping Integration|*
 
   - name: Moulding Edition
     tagline: Built for plastic injection moulding manufacturers
