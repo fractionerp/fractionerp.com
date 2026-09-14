@@ -1,0 +1,84 @@
+---
+layout: assessment
+assessment_type: spreadsheet
+assessment_label: THE SPREADSHEET ASSESSMENT
+title: "Manufacturing Spreadsheet Assessment | Fraction ERP"
+description: "Is your manufacturing business outgrowing spreadsheets? Take a free 12-point assessment, see your biggest areas of friction and download your personalised report. No email required."
+last_modified_at: 2026-09-14
+permalink: /spreadsheet-assessment/
+---
+<main id="main" class="as-main ss-main" data-baseurl="{{ site.baseurl }}">
+  <section class="ss-intro" aria-labelledby="ss-title">
+    <div>
+      <p class="as-eyebrow"><span class="as-dot"></span> A clearer view of your business</p>
+      <h1 id="ss-title">Is your manufacturing business ready to move <em>beyond spreadsheets?</em></h1>
+      <p class="ss-lead">A practical 12-point assessment for machining, fabrication &amp; moulding businesses.</p>
+      <a class="as-button" href="#ss-assessment">Take the assessment <span aria-hidden="true">↓</span></a>
+      <p class="as-small ss-promise">Around 3 minutes · Instant results · Free PDF report<br>No email address required.</p>
+    </div>
+    <div class="ss-intro-note">
+      <p class="as-eyebrow">Familiar tools. A growing business.</p>
+      <p>Spreadsheets are how many manufacturing businesses start. They're flexible, familiar and quick to put together. For a while, they can be exactly what's needed.</p>
+      <p>But as the business grows, something often changes. The spreadsheets that once helped organise the business gradually become the system holding it together.</p>
+      <p>The question isn't whether spreadsheets are good or bad.</p>
+      <p class="ss-pullquote">Are they still helping your business run — or has your business started working around them?</p>
+    </div>
+  </section>
+
+  <section id="ss-assessment" class="ss-assessment" aria-labelledby="ss-questions-title">
+    <div class="ss-instructions">
+      <p class="as-eyebrow">01 / Your operation today</p>
+      <h2 id="ss-questions-title" tabindex="-1">Where do you recognise your business?</h2>
+      <p>Tick the statements that are true for your business today. Leave the others unticked.</p>
+      <p class="as-small">There is no perfect score to aim for. This is an honest assessment of where manual systems may be creating unnecessary time, risk and friction. Each tick adds one point.</p>
+      <noscript><p class="ss-notice">Please enable JavaScript to calculate your results and download your report. You can still read the statements below.</p></noscript>
+    </div>
+    <form id="ss-form">
+      <div class="ss-question-layout">
+        <aside class="ss-score-panel" aria-label="Your live assessment score">
+          <p class="as-eyebrow">Your score</p>
+          <p class="ss-score"><span id="ss-live-score">0</span><span> / 12</span></p>
+          <p id="ss-live-message" class="ss-live-message" role="status" aria-live="polite" aria-atomic="true">No statements ticked yet. Tick any that apply.</p>
+          <div class="ss-score-key"><span>0–3 <small>Broadly working</small></span><span>4–7 <small>Starting to outgrow</small></span><span>8–12 <small>Operational friction</small></span></div>
+          <p class="as-small">A starting point for a conversation with your team.</p>
+        </aside>
+        <div class="ss-question-sections">
+          {% for section in site.data.spreadsheet_assessment.sections %}
+          <fieldset class="ss-section" disabled>
+            <legend><span class="ss-section-number">0{{ forloop.index }}</span>{{ section.title }}</legend>
+            <p class="ss-section-hint">{{ section.hint }}</p>
+            {% for question in section.questions %}
+            <label class="as-choice ss-choice" for="ss-{{ question.id }}">
+              <input id="ss-{{ question.id }}" name="statements" type="checkbox" value="{{ question.id }}">
+              <span>{{ question.text }}</span>
+            </label>
+            {% endfor %}
+          </fieldset>
+          {% endfor %}
+        </div>
+      </div>
+      <div class="ss-submit-row"><p class="as-small">Read all 12 statements? You can see your results even if none apply.</p><button id="ss-submit" class="as-button" type="submit" hidden>See my results <span aria-hidden="true">→</span></button></div>
+    </form>
+  </section>
+
+  <!-- The report boundary is separate from calculation so a future form can precede it. -->
+  <section id="ss-results" class="ss-results" aria-labelledby="ss-result-title" hidden>
+    <div class="ss-report-heading"><p class="as-eyebrow">02 / Your spreadsheet assessment · Fraction ERP</p><p id="ss-result-date" class="as-small"></p></div>
+    <div class="ss-result-intro">
+      <div class="ss-result-score"><span id="ss-result-score">0</span><span>out of 12</span><small>statements ticked</small></div>
+      <div><p id="ss-band" class="as-eyebrow"></p><h2 id="ss-result-title" tabindex="-1"></h2><div id="ss-result-copy"></div></div>
+    </div>
+    <div class="ss-key-message"><p class="as-eyebrow">What this means</p><p id="ss-key-message"></p></div>
+    <div class="ss-report-actions"><button id="ss-download" class="as-button" type="button">Download my report (PDF) <span aria-hidden="true">↓</span></button><button id="ss-print" class="as-text-button" type="button">Print / save as PDF</button><button id="ss-edit" class="as-text-button" type="button">Review my answers ↑</button></div>
+    <p id="ss-download-status" class="as-small" role="status"></p>
+    <div class="ss-diagnosis-layout">
+      <section aria-labelledby="ss-breakdown-title"><h3 id="ss-breakdown-title">Your operational breakdown</h3><p class="as-small">Statements ticked in each area. Highlighted areas have the highest score.</p><div id="ss-breakdown"></div></section>
+      <section aria-labelledby="ss-friction-title"><h3 id="ss-friction-title"></h3><div id="ss-diagnoses"></div></section>
+    </div>
+    <section class="ss-next" aria-labelledby="ss-next-title"><p class="as-eyebrow">03 / A useful next conversation</p><h2 id="ss-next-title">What next?</h2><p>Having spreadsheet problems doesn't automatically mean you need ERP tomorrow. Before looking at software, ask yourself:</p><ul class="ss-next-questions">{% for question in site.data.spreadsheet_assessment.nextQuestions %}<li>{{ question }}</li>{% endfor %}</ul><p class="as-small">Use these prompts with your team. They do not affect your score.</p></section>
+    <details id="ss-answer-details" class="ss-answer-details"><summary>Your assessment answers</summary><div id="ss-answer-list"></div></details>
+    <p class="as-small">Based on the statements you ticked today. This assessment highlights possible process problems; it does not measure their frequency, cost or severity.</p>
+    <aside class="ss-follow-on"><p class="as-eyebrow">Go a little further</p><h3>Should you actually buy an ERP?</h3><p>Our broader manufacturing assessment explores your operation, readiness and whether Fraction could fit.</p><a href="{{ '/erp-assessment/' | relative_url }}">Take the ERP assessment <span aria-hidden="true">→</span></a><p class="as-small">See your outcome first. Enter your details for the full report.</p></aside>
+  </section>
+  <script id="ss-data" type="application/json">{{ site.data.spreadsheet_assessment | jsonify }}</script>
+</main>

@@ -1,0 +1,72 @@
+{
+  "version": "1.0.0",
+  "sections": [
+    {
+      "id": "quoting", "title": "Quoting & Job Profitability", "hint": "From the first estimate to the actual margin.",
+      "questions": [
+        {"id": "q1", "text": "We've completed jobs that turned out to be less profitable than we expected when we quoted them."},
+        {"id": "q2", "text": "Quotes depend heavily on one person's knowledge, experience or a spreadsheet only they really understand."},
+        {"id": "q3", "text": "We don't consistently compare what a job actually cost against what we originally quoted."}
+      ],
+      "diagnosis": "You may be winning work without having a reliable way to understand whether it was actually profitable.",
+      "opportunity": "Create a stronger connection between how jobs are quoted, how they are produced and what they actually cost."
+    },
+    {
+      "id": "production", "title": "Production & Scheduling", "hint": "A clear picture of capacity, priorities and progress.",
+      "questions": [
+        {"id": "q4", "text": "We've committed to delivery dates without a clear view of whether we actually had the capacity to meet them."},
+        {"id": "q5", "text": "When priorities change, updating the production plan means manually changing several spreadsheets, documents or lists."},
+        {"id": "q6", "text": "If someone asks where a job is right now, finding the answer usually involves asking around or checking several places."}
+      ],
+      "diagnosis": "Your biggest problem may be visibility. If priorities regularly change and schedules have to be manually rebuilt, you're likely spending too much time coordinating work rather than managing it.",
+      "opportunity": "Improve visibility of capacity, priorities, job progress and delivery risk."
+    },
+    {
+      "id": "inventory", "title": "Inventory & Purchasing", "hint": "The right material, in the right place, at the right time.",
+      "questions": [
+        {"id": "q7", "text": "Production has been delayed because material or components weren't available when they were needed."},
+        {"id": "q8", "text": "Our stock records don't always match what's actually on the shelf."},
+        {"id": "q9", "text": "We've bought material unnecessarily because we didn't have a reliable view of stock, demand or outstanding purchase orders."}
+      ],
+      "diagnosis": "You may have the worst of both worlds: too much money tied up in stock while still experiencing shortages.",
+      "opportunity": "Get a reliable view of what you have, what you need, what is already allocated and what is already on order."
+    },
+    {
+      "id": "information", "title": "Information, Control & Growth", "hint": "Information your whole team can trust.",
+      "questions": [
+        {"id": "q10", "text": "The same information has to be manually copied, entered or updated in more than one spreadsheet, system or document."},
+        {"id": "q11", "text": "We've made a costly mistake because someone was working from the wrong information, an outdated version or a changed spreadsheet."},
+        {"id": "q12", "text": "We're increasingly relying on specific people to remember how things work or where important information is kept."}
+      ],
+      "diagnosis": "Your biggest risk may be the system holding everything together. If information exists in several places and the business depends on people remembering how things work, growth usually makes the problem worse.",
+      "opportunity": "Create one connected source of operational information."
+    }
+  ],
+  "bands": [
+    {
+      "id": "working", "max": 3, "label": "0–3 · Broadly working",
+      "title": "Your spreadsheets are still broadly working for you",
+      "paragraphs": ["Your current system may still be appropriate for the size and complexity of your operation.", "Pay attention to the areas you ticked, particularly repeated problems with delivery, stock or profitability."],
+      "message": "You probably don't need to rush into ERP. Focus first on improving the processes causing those problems."
+    },
+    {
+      "id": "outgrowing", "max": 7, "label": "4–7 · Starting to outgrow",
+      "title": "You're starting to outgrow your current system",
+      "paragraphs": ["Your spreadsheets may still get the job done, but they're increasingly dependent on manual updates, people remembering what needs to happen, copying information between different places and individual knowledge.", "This is often the point where manufacturers start spending more time maintaining information rather than using it to make better decisions."],
+      "message": "It may be worth exploring whether a connected manufacturing system could remove some of that manual work and risk."
+    },
+    {
+      "id": "friction", "max": 12, "label": "8–12 · Operational friction",
+      "title": "Your current systems are probably creating operational friction",
+      "paragraphs": ["At this point, the issue is unlikely to be spreadsheets alone. Your business may be relying heavily on people manually coordinating information between quoting, production, inventory and purchasing.", "This can lead to avoidable delays, duplicated administration, expensive mistakes, poor visibility, unnecessary stock, missed profitability problems and dependency on key people."],
+      "message": "You should seriously consider whether your business has outgrown disconnected spreadsheets and manual processes."
+    }
+  ],
+  "nextQuestions": [
+    "Do we understand how our most important processes should work?",
+    "Can we clearly explain how information should flow from quote through to delivery?",
+    "Are we willing to stop maintaining duplicate spreadsheets once information is managed properly elsewhere?",
+    "Do the people running the business broadly agree on how key processes should work?",
+    "Are we prepared to improve the process rather than simply reproduce every existing spreadsheet inside new software?"
+  ]
+}

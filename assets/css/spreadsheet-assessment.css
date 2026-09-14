@@ -1,0 +1,119 @@
+/* Extend the shared assessment palette and controls without changing the ERP journey. */
+.ss-main { max-width: 1320px; }
+.ss-intro { display: grid; grid-template-columns: 1.2fr 1fr; gap: 8%; padding: 65px 0; align-items: center; }
+.ss-intro h1 { font-size: clamp(38px, 4.4vw, 62px); line-height: 1.06; margin: 20px 0 25px; }
+.ss-intro h1 em { color: var(--as-blue); font-style: normal; }
+.ss-lead { font-size: 18px; max-width: 490px; }
+.assessment-body .ss-intro .as-button { color: #fff; margin-top: 10px; }
+.ss-promise { margin-top: 15px !important; }
+.ss-intro-note { border-left: 1px solid var(--as-line); padding: 10px 0 10px 30px; font-size: 14px; }
+.ss-intro-note .ss-pullquote { font-family: Jost, sans-serif; font-size: 25px; line-height: 1.3; color: var(--as-blue); margin-bottom: 0; }
+.ss-assessment { border-top: 1px solid var(--as-line); padding: 45px 0; scroll-margin-top: 24px; overflow: visible; }
+.ss-instructions { max-width: 750px; margin-bottom: 35px; }
+.ss-instructions h2 { font-size: clamp(28px, 3vw, 38px); margin-bottom: 18px; }
+.ss-question-layout { display: grid; grid-template-columns: minmax(0, 1fr) 260px; gap: 5%; align-items: start; }
+.ss-question-sections { grid-column: 1; grid-row: 1; }
+.ss-question-layout > .ss-score-panel { grid-column: 2; grid-row: 1; }
+.ss-section { border: 0; padding: 0; margin: 0 0 38px; min-width: 0; }
+.ss-section legend { display: flex; align-items: baseline; gap: 15px; float: none; width: 100%; font: 500 26px/1.2 Jost, sans-serif; margin-bottom: 10px; }
+.ss-section-number { font: 600 12px 'Open Sans', sans-serif; color: var(--as-blue); }
+.ss-section-hint { margin-left: 31px !important; color: var(--as-muted); font-size: 13px; }
+.ss-choice { margin: 10px 0; padding: 19px 20px; gap: 18px; font-size: 15px; }
+.ss-choice input { width: 22px; height: 22px; min-width: 22px; }
+.ss-score-panel { position: sticky; top: 24px; padding: 26px; border: 1px solid var(--as-line); background: var(--as-soft); border-radius: 6px; }
+.ss-score-panel .ss-score { font-family: Jost, sans-serif; font-size: 62px; line-height: 1; margin-bottom: 18px; }
+.ss-score > span:last-child { font-size: 24px; color: var(--as-muted); }
+.ss-live-message { font-size: 13px; min-height: 65px; }
+.ss-score-key { display: grid; gap: 12px; padding: 18px 0; border-top: 1px solid #c1d2cc; border-bottom: 1px solid #c1d2cc; margin-bottom: 18px; font-size: 13px; }
+.ss-score-key span { display: flex; justify-content: space-between; gap: 10px; font-weight: 600; }
+.ss-score-key small { font-size: 11px; font-weight: 400; }
+.ss-score-panel > p:last-child { margin: 0; }
+.ss-submit-row { display: flex; align-items: center; justify-content: space-between; gap: 25px; border-top: 1px solid var(--as-line); padding-top: 25px; }
+.ss-submit-row p { margin: 0; max-width: 420px; }
+.ss-results { padding: 45px 0; border-top: 1px solid var(--as-line); scroll-margin-top: 24px; }
+.ss-report-heading { display: flex; justify-content: space-between; gap: 20px; }
+.ss-result-intro { display: grid; grid-template-columns: 170px 1fr; gap: 40px; margin: 28px 0; }
+.ss-result-intro h2 { font-size: clamp(30px, 3.7vw, 47px); margin-bottom: 22px; }
+.ss-result-intro p:not(.as-eyebrow) { font-size: 15px; }
+.ss-result-score { display: flex; flex-direction: column; align-items: center; justify-content: center; align-self: start; padding: 25px 12px; border-radius: 6px; background: var(--as-soft); }
+.ss-result-score > span:first-child { font: 500 80px/1 Jost, sans-serif; }
+.ss-result-score > span:nth-child(2) { font-size: 20px; }
+.ss-result-score small { margin-top: 10px; font-size: 11px; color: var(--as-muted); }
+.ss-key-message { background: var(--as-soft); border-left: 3px solid var(--as-blue); border-radius: 0 5px 5px 0; padding: 24px 28px; }
+.ss-key-message p:last-child { margin: 0; font-size: 18px; }
+.ss-report-actions { display: flex; flex-wrap: wrap; align-items: center; gap: 24px; margin: 28px 0 12px; }
+.ss-diagnosis-layout { display: grid; grid-template-columns: 1fr 1fr; gap: 7%; margin: 45px 0; }
+.ss-diagnosis-layout > section { padding: 0; }
+.ss-diagnosis-layout h3 { font-size: 27px; margin-bottom: 16px; }
+.ss-breakdown-row { margin: 22px 0; }
+.ss-breakdown-label { display: flex; justify-content: space-between; gap: 14px; font-size: 13px; margin-bottom: 10px; }
+.ss-breakdown-label strong { white-space: nowrap; }
+.ss-bar { background: var(--as-line); height: 8px; border-radius: 4px; overflow: hidden; }
+.ss-bar span { display: block; height: 100%; background: #8199a3; }
+.ss-breakdown-row.is-highest .ss-bar span { background: var(--as-blue); }
+.ss-breakdown-row.is-highest .ss-breakdown-label { color: var(--as-blue); font-weight: 600; }
+.ss-diagnosis { border-top: 1px solid var(--as-line); padding: 22px 0 0; margin-top: 22px; }
+.ss-diagnosis h4 { font: 500 22px/1.2 Jost, sans-serif; color: var(--as-blue); margin-bottom: 15px; }
+.ss-diagnosis p { font-size: 14px; }
+.ss-next { background: #fff9; border: 1px solid var(--as-line); border-radius: 6px; padding: 32px; }
+.ss-next h2 { font-size: 34px; }
+.ss-next-questions { padding-left: 22px; margin: 22px 0; }
+.ss-next-questions li { padding-left: 5px; margin-bottom: 14px; font-size: 15px; }
+.ss-next > p:last-child { margin: 0; }
+.ss-answer-details { padding: 24px 0; }
+.ss-answer-details summary { cursor: pointer; color: var(--as-blue); padding: 10px 0; }
+.ss-answer-details h3 { font-size: 22px; margin-top: 24px; }
+.ss-answer-details li { font-size: 13px; padding: 6px 0; }
+.ss-follow-on { border-top: 1px solid var(--as-line); padding: 30px 0 0; margin-top: 35px; max-width: 680px; }
+.ss-follow-on h3 { font-size: 28px; }
+.ss-follow-on p { font-size: 14px; }
+.ss-follow-on a { font-weight: 600; font-size: 14px; }
+.ss-follow-on .as-small { margin-top: 12px; font-size: 12px; }
+.ss-notice { border-left: 3px solid var(--as-blue); padding: 15px; background: var(--as-soft); }
+@media (max-width: 900px) {
+  .ss-intro { gap: 5%; }
+  .ss-question-layout { grid-template-columns: minmax(0, 1fr) 220px; gap: 25px; }
+  .ss-score-panel { padding: 20px; }
+}
+@media (max-width: 760px) {
+  .ss-intro { grid-template-columns: 1fr; padding: 36px 0; gap: 30px; }
+  .ss-intro-note { padding: 0 0 0 20px; }
+  .ss-question-layout { display: block; }
+  .ss-score-panel { top: 0; z-index: 5; display: grid; grid-template-columns: auto 1fr; column-gap: 18px; padding: 12px 16px; border-radius: 5px; margin-bottom: 25px; }
+  .ss-score-panel .as-eyebrow { margin: 0; font-size: 9px; }
+  .ss-score-panel .ss-score { grid-column: 1; margin: 0; font-size: 36px; }
+  .ss-score > span:last-child { font-size: 17px; }
+  .ss-score-panel .ss-live-message { grid-column: 2; grid-row: 1 / 3; align-self: center; margin: 0; min-height: 0; font-size: 12px; }
+  .ss-score-key, .ss-score-panel > p:last-child { display: none; }
+  .ss-choice { scroll-margin-top: 110px; }
+  .ss-section legend { font-size: 23px; gap: 10px; }
+  .ss-section-hint { margin-left: 0 !important; }
+  .ss-choice { padding: 17px 15px; font-size: 14px; gap: 14px; }
+  .ss-submit-row { align-items: stretch; flex-direction: column; gap: 18px; }
+  .ss-report-heading { display: block; }
+  .ss-result-intro { grid-template-columns: 1fr; gap: 24px; }
+  .ss-result-score { flex-direction: row; justify-content: flex-start; gap: 12px; padding: 18px 22px; }
+  .ss-result-score > span:first-child { font-size: 56px; }
+  .ss-result-score small { margin-top: 0; margin-left: auto; max-width: 75px; }
+  .ss-diagnosis-layout { grid-template-columns: 1fr; gap: 30px; }
+  .ss-report-actions { gap: 12px 22px; }
+  .ss-report-actions .as-button { width: 100%; }
+  .ss-next, .ss-key-message { padding: 22px; }
+}
+@media print {
+  .ss-intro, .ss-assessment, .ss-report-actions, .ss-follow-on, #ss-download-status { display: none !important; }
+  .ss-results { padding: 0; border: 0; }
+  .ss-result-intro { display: block; margin: 15px 0; }
+  .ss-result-score { display: block; background: none; padding: 0; margin-bottom: 15px; }
+  .ss-result-score > span:first-child { font-size: 28pt; margin-right: 10px; }
+  .ss-result-score small { margin-left: 10px; }
+  .ss-result-intro h2 { font-size: 25pt; }
+  .ss-key-message, .ss-next { padding: 15px; }
+  .ss-diagnosis-layout { display: block; margin: 25px 0; }
+  .ss-diagnosis-layout > section { margin-bottom: 25px; }
+  .ss-breakdown-row, .ss-diagnosis, .ss-key-message, .ss-next li, .ss-answer-details li { break-inside: avoid; }
+  .ss-bar { print-color-adjust: exact; -webkit-print-color-adjust: exact; }
+  .ss-results h3 { font-size: 18pt; }
+  .ss-answer-details summary { color: #000; }
+  .ss-answer-details li, .ss-next-questions li { font-size: 10pt; }
+}

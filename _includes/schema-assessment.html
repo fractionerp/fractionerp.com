@@ -3,24 +3,31 @@
   "@context": "https://schema.org",
   "@type": "WebApplication",
   "@id": "{{ page.url | absolute_url }}#assessment",
-  "name": "Fraction Manufacturing ERP Assessment",
+  "name": "{% if page.assessment_type == 'spreadsheet' %}Fraction Manufacturing Spreadsheet Assessment{% else %}Fraction Manufacturing ERP Assessment{% endif %}",
   "url": {{ page.url | absolute_url | jsonify }},
   "description": {{ page.description | jsonify }},
   "applicationCategory": "BusinessApplication",
-  "applicationSubCategory": "Manufacturing ERP needs assessment",
+  "applicationSubCategory": "{% if page.assessment_type == 'spreadsheet' %}Manufacturing spreadsheet assessment{% else %}Manufacturing ERP needs assessment{% endif %}",
   "operatingSystem": "Web Browser",
-  "browserRequirements": "Requires JavaScript and an internet connection for report submission",
+  "browserRequirements": "{% if page.assessment_type == 'spreadsheet' %}Requires JavaScript{% else %}Requires JavaScript and an internet connection for report submission{% endif %}",
   "isAccessibleForFree": true,
   "inLanguage": "en-GB",
-  "softwareVersion": {{ site.data.erp_assessment.version | jsonify }},
+  "softwareVersion": {% if page.assessment_type == 'spreadsheet' %}{{ site.data.spreadsheet_assessment.version | jsonify }}{% else %}{{ site.data.erp_assessment.version | jsonify }}{% endif %},
   "dateModified": {{ page.last_modified_at | date_to_xmlschema | jsonify }},
   "provider": { "@id": "{{ site.url }}/#organization" },
   "mainEntityOfPage": { "@id": "{{ page.url | absolute_url }}#primary" },
   "featureList": [
+    {% if page.assessment_type == 'spreadsheet' %}
+    "12-point manufacturing spreadsheet assessment with instant scoring",
+    "Operational breakdown across quoting, production, inventory and information",
+    "All highest-scoring areas highlighted, including ties",
+    "Free personalised PDF report without an email address or form submission"
+    {% else %}
     "Interactive questions about manufacturing complexity, current systems and operational problems",
     "Separate conclusions on ERP need, implementation readiness and potential Fraction ERP fit",
     "Initial outcome visible without contact details",
     "Full report and labelled answers available to view, save or print after contact form submission"
+    {% endif %}
   ]
 }
 </script>
