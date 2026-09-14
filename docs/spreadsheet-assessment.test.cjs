@@ -37,3 +37,19 @@ test('future submission snapshot is versioned with bounded allowlisted attributi
   assert.deepEqual(snapshot.utm, {utm_source: 'document', utm_campaign: 'a'.repeat(200)});
   assert(!JSON.stringify(snapshot).includes('exclude@example.com'));
 });
+test('journey state distinguishes No from unanswered and rejects invalid saved responses', () => {
+  assert.deepEqual(model.sanitiseResponses({q1: false, q2: true, q3: 'false', q4: 1, q13: true}, data), {q1: false, q2: true});
+  for (const value of [null, [], 'q1']) assert.deepEqual(model.sanitiseResponses(value, data), {});
+});
+test('analysis is ranked and only describes the friction actually identified', () => {
+  const result = model.assess(['q4', 'q5', 'q7', 'q8', 'q9', 'q10'], data);
+  const rows = model.analysis(result, data);
+  assert.deepEqual(rows.map(row => row.id), ['inventory', 'production', 'information', 'quoting']);
+  assert.deepEqual(rows.map(row => row.score), [3, 2, 1, 0]);
+  assert.deepEqual(rows[2].friction, ['Information is entered more than once.']);
+  assert.deepEqual(rows[3].friction, []);
+  assert.equal(rows[3].highest, false);
+  const tied = model.analysis(model.assess(['q1', 'q7'], data), data);
+  assert.deepEqual(tied.filter(row => row.highest).map(row => row.id), ['quoting', 'inventory']);
+  assert(model.analysis(model.assess([], data), data).every(row => !row.highest && row.friction.length === 0));
+});

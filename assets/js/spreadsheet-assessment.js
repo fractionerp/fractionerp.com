@@ -4,13 +4,12 @@
   if (!root) return;
   const data = JSON.parse(root.textContent);
   const model = window.FractionSpreadsheetAssessment;
+  const questions = data.sections.flatMap(section => section.questions.map(question => ({...question, section: section.id, category: section.title})));
   const byId = id => document.getElementById(id);
-  const form = byId('ss-form');
-  const inputs = [...form.querySelectorAll('input[name="statements"]')];
   const storageKey = 'fraction-spreadsheet-assessment-' + data.version;
-  let report = null;
-  let pdfLoader = null;
-  const answers = () => inputs.filter(input => input.checked).map(input => input.value);
+  let responses = {}, step = 0, screen = 'intro', report = null, pdfLoader = null;
+  const answers = () => questions.filter(question => responses[question.id] === true).map(question => question.id);
+  const complete = () => questions.every(question => typeof responses[question.id] === 'boolean');
   const element = (tag, text, className) => {
     const node = document.createElement(tag);
     if (text !== undefined) node.textContent = text;
@@ -18,65 +17,107 @@
     return node;
   };
   function persist() {
-    try { sessionStorage.setItem(storageKey, JSON.stringify({answers: answers(), revealed: !byId('ss-results').hidden})); } catch (_) { /* Storage is optional. */ }
+    try { sessionStorage.setItem(storageKey, JSON.stringify({responses, step, screen})); } catch (_) { /* Storage is optional. */ }
   }
-  function updateScore() {
-    const count = answers().length;
-    byId('ss-live-score').textContent = count;
-    byId('ss-live-message').textContent = count === 0
-      ? 'No statements ticked yet. Tick any that apply.'
-      : `You've identified ${count} ${count === 1 ? 'sign' : 'signs'} of possible friction in your current systems.`;
-  }
-  function focusSection(heading, section) {
-    heading.focus({preventScroll: true});
-    section.scrollIntoView({behavior: window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth', block: 'start'});
-  }
-  function renderReport() {
-    report = model.snapshot(answers(), data);
-    const band = data.bands.find(item => item.id === report.band);
-    byId('ss-result-score').textContent = report.totalScore;
-    byId('ss-band').textContent = band.label;
-    byId('ss-result-title').textContent = band.title;
-    byId('ss-result-date').textContent = new Date(report.completedAt).toLocaleDateString('en-GB', {day: 'numeric', month: 'long', year: 'numeric'});
-    byId('ss-result-copy').replaceChildren(...band.paragraphs.map(text => element('p', text)));
-    byId('ss-key-message').textContent = band.message;
-    byId('ss-breakdown').replaceChildren();
-    byId('ss-diagnoses').replaceChildren();
-    byId('ss-answer-list').replaceChildren();
-    byId('ss-friction-title').textContent = report.highestCategories.length > 1 ? 'Your areas of greatest friction' : report.totalScore > 0 ? 'Your biggest area of friction' : 'No friction identified by your answers';
-    if (report.totalScore === 0) {
-      byId('ss-diagnoses').append(element('p', 'None of these statements apply to your business today, so there is no highest-scoring problem area. Keep an eye on delivery, stock accuracy and job profitability as your operation changes.'));
+  function showScreen(next, heading, focus) {
+    screen = next;
+    byId('ss-intro').hidden = next !== 'intro';
+    byId('ss-assessment').hidden = next !== 'questions';
+    byId('ss-results').hidden = next !== 'results';
+    if (focus) {
+      // Each answer starts at the same position; no scroll through a long questionnaire.
+      window.scrollTo({top: 0, behavior: 'instant'});
+      heading.focus({preventScroll: true});
     }
-    data.sections.forEach(section => {
-      const score = report.categoryScores.find(item => item.id === section.id).score;
-      const highest = report.highestCategories.includes(section.id);
-      const row = element('div', undefined, 'ss-breakdown-row' + (highest ? ' is-highest' : ''));
-      const label = element('div', undefined, 'ss-breakdown-label');
-      label.append(element('span', section.title), element('strong', `${score} / 3`));
-      const bar = element('div', undefined, 'ss-bar');
-      bar.setAttribute('aria-hidden', 'true');
-      const fill = element('span');
-      fill.style.width = (score / 3 * 100) + '%';
-      bar.append(fill);
-      row.append(label, bar);
-      byId('ss-breakdown').append(row);
-      if (highest) {
-        const diagnosis = element('article', undefined, 'ss-diagnosis');
-        diagnosis.append(element('h4', `${section.title} — ${score} / 3`), element('p', section.diagnosis));
-        const opportunity = element('p');
-        opportunity.append(element('strong', 'The opportunity: '), document.createTextNode(section.opportunity));
-        diagnosis.append(opportunity);
-        byId('ss-diagnoses').append(diagnosis);
-      }
-      const list = element('ul');
-      section.questions.forEach(question => list.append(element('li', `${report.answers.includes(question.id) ? 'Ticked' : 'Not ticked'} — ${question.text}`)));
-      byId('ss-answer-list').append(element('h3', section.title), list);
-    });
-    byId('ss-results').hidden = false;
-    byId('ss-download-status').textContent = '';
     persist();
   }
-
+  function renderQuestion(focus = true) {
+    const question = questions[step];
+    byId('ss-question-count').textContent = `Question ${step + 1} of 12`;
+    byId('ss-category').textContent = question.category;
+    byId('ss-question-title').textContent = question.text;
+    const completed = Object.keys(responses).length;
+    byId('ss-progress-count').textContent = `${completed} of 12 answered`;
+    byId('ss-progress').value = completed;
+    byId('ss-live-score').textContent = answers().length;
+    byId('ss-stages').querySelectorAll('li').forEach(item => {
+      const section = data.sections.find(section => section.id === item.dataset.section);
+      item.querySelector('small').textContent = `${section.questions.filter(q => typeof responses[q.id] === 'boolean').length} / 3`;
+      if (section.id === question.section) item.setAttribute('aria-current', 'step');
+      else item.removeAttribute('aria-current');
+    });
+    byId('ss-choice-hint').textContent = step === 11 ? 'Choose an answer to see your results.' : 'Choose an answer to move to the next question.';
+    byId('ss-answers').replaceChildren();
+    [true, false].forEach(value => {
+      const button = element('button', value ? 'Yes, this applies' : 'No, not for us', 'ss-answer');
+      button.type = 'button';
+      button.dataset.answer = String(value);
+      button.setAttribute('aria-pressed', String(responses[question.id] === value));
+      const arrow = element('span', '→');
+      arrow.setAttribute('aria-hidden', 'true');
+      button.append(arrow);
+      button.addEventListener('click', event => {
+        // Ignore the second click of a double-click on an advancing answer.
+        if (event.detail > 1) return;
+        responses[question.id] = value;
+        if (step < questions.length - 1) { step++; renderQuestion(); }
+        else if (complete()) renderReport();
+        else { step = questions.findIndex(q => typeof responses[q.id] !== 'boolean'); renderQuestion(); }
+      });
+      byId('ss-answers').append(button);
+    });
+    byId('ss-back').textContent = step === 0 ? '← Introduction' : '← Back';
+    byId('ss-return').hidden = !complete();
+    showScreen('questions', byId('ss-question-title'), focus);
+  }
+  function conclusion(result) {
+    const band = data.bands.find(item => item.id === result.band);
+    return {title: band.title, message: result.totalScore ? band.message : 'You haven’t identified any of these issues today. There’s no need to rush into ERP. Keep an eye on delivery, stock accuracy and job profitability as your business grows.'};
+  }
+  function renderReport(focus = true) {
+    if (!complete()) return;
+    report = model.snapshot(answers(), data);
+    const thoughts = conclusion(report);
+    byId('ss-result-title').textContent = report.totalScore ? 'Where work gets harder.' : 'Your operation, at a glance.';
+    byId('ss-result-score').textContent = report.totalScore;
+    byId('ss-result-summary').textContent = report.totalScore
+      ? 'Your areas of friction, highest score first. Equal scores have equal priority.'
+      : 'You haven’t identified any of these issues today. Here’s the picture across all four areas.';
+    byId('ss-thoughts-title').textContent = thoughts.title;
+    byId('ss-thoughts-copy').textContent = thoughts.message;
+    byId('ss-result-date').textContent = new Date(report.completedAt).toLocaleDateString('en-GB', {day: 'numeric', month: 'long', year: 'numeric'});
+    byId('ss-analysis').replaceChildren();
+    model.analysis(report, data).forEach(area => {
+      const row = element('tr', undefined, area.highest ? 'is-highest' : '');
+      row.dataset.section = area.id;
+      row.setAttribute('role', 'row');
+      const title = element('th', area.title);
+      title.scope = 'row';
+      title.setAttribute('role', 'rowheader');
+      if (area.highest) title.append(element('small', report.highestCategories.length > 1 ? 'Joint highest' : 'Highest friction', 'ss-priority'));
+      const score = element('td', `${area.score} / 3`, 'ss-row-score');
+      const friction = element('td');
+      friction.dataset.label = 'Friction you identified';
+      if (area.friction.length) {
+        const list = element('ul', undefined, 'ss-friction-list');
+        area.friction.forEach(text => list.append(element('li', text)));
+        friction.append(list);
+      } else friction.textContent = 'None identified in your answers.';
+      const opportunity = element('td', area.opportunity);
+      opportunity.dataset.label = 'The opportunity';
+      [score, friction, opportunity].forEach(cell => cell.setAttribute('role', 'cell'));
+      row.append(title, score, friction, opportunity);
+      byId('ss-analysis').append(row);
+    });
+    byId('ss-answer-list').replaceChildren();
+    data.sections.forEach(section => {
+      const list = element('ul');
+      section.questions.forEach(question => list.append(element('li', `${responses[question.id] ? 'Yes' : 'No'} — ${question.text}`)));
+      byId('ss-answer-list').append(element('h3', section.title), list);
+    });
+    byId('ss-download-status').textContent = '';
+    showScreen('results', byId('ss-result-title'), focus);
+  }
   function loadPdf() {
     if (window.jspdf) return Promise.resolve(window.jspdf.jsPDF);
     if (pdfLoader) return pdfLoader;
@@ -103,9 +144,8 @@
 
   function createPdf(JsPDF, result) {
     const doc = new JsPDF({unit: 'mm', format: 'a4'});
-    const band = data.bands.find(item => item.id === result.band);
     let y = 40;
-    const clean = text => text.replace(/[‘’]/g, "'").replace(/[“”]/g, '"').replace(/[–—]/g, '-').replace(/→/g, ' to ');
+    const clean = text => text.replace(/[‘’]/g, "'").replace(/[“”]/g, '"').replace(/[–—]/g, '-');
     function newPage() { doc.addPage(); y = 40; }
     function room(height) { if (y + height > 271) newPage(); }
     function paragraph(text, size = 11, bold = false, after = 5) {
@@ -113,56 +153,60 @@
       doc.setFontSize(size);
       doc.setTextColor(32, 52, 73);
       const lines = doc.splitTextToSize(clean(text), 174);
-      const lineHeight = size * 0.45;
-      room(lines.length * lineHeight + after);
+      room(lines.length * size * 0.45 + after);
       doc.text(lines, 18, y, {lineHeightFactor: 1.27});
-      y += lines.length * lineHeight + after;
+      y += lines.length * size * 0.45 + after;
     }
     function heading(text) { room(35); paragraph(text, 17, true, 7); }
     doc.setProperties({title: 'Your Manufacturing Spreadsheet Assessment', author: 'Fraction ERP', subject: 'Personalised spreadsheet assessment report'});
-    paragraph('Your manufacturing spreadsheet assessment', 24, true, 9);
-    paragraph(`${result.totalScore} / 12 statements ticked`, 22, true, 8);
-    paragraph(band.title, 17, true, 7);
-    band.paragraphs.forEach(text => paragraph(text));
-    paragraph(band.message, 11, true, 9);
-    heading('Your operational breakdown');
-    result.categoryScores.forEach(category => {
-      const section = data.sections.find(item => item.id === category.id);
-      room(22);
-      paragraph(`${section.title}: ${category.score} / 3${result.highestCategories.includes(category.id) ? ' (highest)' : ''}`, 10, true, 2);
-      doc.setFillColor(215, 221, 216);
-      doc.roundedRect(18, y, 174, 3, 1, 1, 'F');
-      if (category.score) {
-        doc.setFillColor(19, 107, 136);
-        doc.roundedRect(18, y, 174 * category.score / 3, 3, 1, 1, 'F');
-      }
-      y += 11;
-    });
-    paragraph('Based on the statements you ticked today. This assessment highlights possible process problems; it does not measure their frequency, cost or severity.', 9);
+    paragraph(result.totalScore ? 'Where work gets harder.' : 'Your operation, at a glance.', 23, true, 7);
+    paragraph(`${result.totalScore} / 12 signs of friction identified`, 13, true, 5);
+    paragraph('Highest score first. Equal scores have equal priority.', 9, false, 7);
+    const widths = [41, 17, 58, 58];
+    function tableRow(cells, header, highest) {
+      doc.setFontSize(9);
+      const lines = cells.map((cell, i) => {
+        doc.setFont('helvetica', header || i < 2 ? 'bold' : 'normal');
+        return doc.splitTextToSize(clean(cell), widths[i] - 8);
+      });
+      const height = Math.max(...lines.map(text => text.length)) * 3.9 + 6;
+      room(height);
+      doc.setFillColor(...(header ? [32, 52, 73] : highest ? [228, 238, 235] : [247, 248, 245]));
+      doc.rect(18, y - 4, 174, height, 'F');
+      doc.setTextColor(...(header ? [255, 255, 255] : [32, 52, 73]));
+      let x = 18;
+      lines.forEach((text, i) => {
+        doc.setFont('helvetica', header || i < 2 ? 'bold' : 'normal');
+        doc.text(text, x + 4, y + 1, {lineHeightFactor: 1.23});
+        x += widths[i];
+      });
+      y += height + 1;
+    }
+    tableRow(['Area', 'Score', 'Friction identified', 'The opportunity'], true, false);
+    model.analysis(result, data).forEach(area => tableRow([
+      area.title + (area.highest ? (result.highestCategories.length > 1 ? '\nJoint highest' : '\nHighest friction') : ''),
+      `${area.score} / 3`, area.friction.length ? area.friction.join('\n') : 'None identified in your answers.', area.opportunity
+    ], false, area.highest));
+    y += 9;
+    room(53);
+    paragraph('Our thoughts', 11, true, 4);
+    const thoughts = conclusion(result);
+    paragraph(thoughts.title, 16, true, 5);
+    paragraph(thoughts.message, 10);
+    paragraph('Based on your answers today. Your score counts the issues identified, not their frequency or cost.', 8);
     newPage();
-    heading(result.highestCategories.length > 1 ? 'Your areas of greatest friction' : result.totalScore ? 'Your biggest area of friction' : 'No friction identified by your answers');
-    if (!result.totalScore) paragraph('None of these statements apply to your business today, so there is no highest-scoring problem area. Keep an eye on delivery, stock accuracy and job profitability as your operation changes.');
-    result.highestCategories.forEach(id => {
-      const section = data.sections.find(item => item.id === id);
-      const score = result.categoryScores.find(item => item.id === id).score;
-      room(50);
-      paragraph(`${section.title} - ${score} / 3`, 13, true);
-      paragraph(section.diagnosis);
-      paragraph('The opportunity: ' + section.opportunity, 11, true, 9);
-    });
-    room(120);
-    heading('What next?');
-    paragraph("Having spreadsheet problems doesn't automatically mean you need ERP tomorrow. Before looking at software, discuss these questions with your team. They do not affect your score.");
-    data.nextQuestions.forEach((text, i) => paragraph(`${i + 1}. ${text}`));
-    newPage();
-    heading('Your assessment answers');
-    paragraph('Each ticked statement adds one point. Unticked statements add no points.', 10);
+    heading('Your 12 answers');
+    paragraph('Yes adds one point. No adds no points.', 10);
     data.sections.forEach(section => {
       room(45);
       paragraph(section.title, 13, true);
-      section.questions.forEach(question => paragraph(`${result.answers.includes(question.id) ? '[Ticked]' : '[Not ticked]'} ${question.text}`, 10, false, 4));
+      section.questions.forEach(question => paragraph(`${result.answers.includes(question.id) ? '[Yes]' : '[No]'} ${question.text}`, 10, false, 4));
       y += 4;
     });
+    newPage();
+    heading('Questions to discuss with your team');
+    paragraph('Use these prompts to plan your next step. They do not affect your score.', 10);
+    data.nextQuestions.forEach((text, i) => paragraph(`${i + 1}. ${text}`));
     const pages = doc.getNumberOfPages();
     for (let page = 1; page <= pages; page++) {
       doc.setPage(page);
@@ -183,18 +227,13 @@
     }
     return doc;
   }
-
-  form.addEventListener('change', () => {
-    updateScore();
-    if (!byId('ss-results').hidden) renderReport();
-    else persist();
+  byId('ss-start').addEventListener('click', () => renderQuestion());
+  byId('ss-back').addEventListener('click', () => {
+    if (step > 0) { step--; renderQuestion(); }
+    else { byId('ss-start').textContent = 'Continue assessment →'; showScreen('intro', byId('ss-start'), true); }
   });
-  form.addEventListener('submit', event => {
-    event.preventDefault();
-    renderReport();
-    focusSection(byId('ss-result-title'), byId('ss-results'));
-  });
-  byId('ss-edit').addEventListener('click', () => focusSection(byId('ss-questions-title'), byId('ss-assessment')));
+  byId('ss-return').addEventListener('click', () => renderReport());
+  byId('ss-edit').addEventListener('click', () => { step = 0; renderQuestion(); });
   byId('ss-download').addEventListener('click', async () => {
     const button = byId('ss-download');
     button.disabled = true;
@@ -207,22 +246,29 @@
       byId('ss-download-status').textContent = 'The PDF download could not be prepared. Please try again, or use Print / save as PDF.';
     } finally { button.disabled = false; }
   });
-  let wasOpen = false;
+  const details = [byId('ss-answer-details'), byId('ss-next')];
+  let openDetails = null;
   window.addEventListener('beforeprint', () => {
-    if (!report) return;
-    wasOpen = byId('ss-answer-details').open;
-    byId('ss-answer-details').open = true;
+    if (screen !== 'results') return;
+    if (!openDetails) openDetails = details.map(item => item.open);
+    details.forEach(item => { item.open = true; });
   });
-  window.addEventListener('afterprint', () => { byId('ss-answer-details').open = wasOpen; });
+  window.addEventListener('afterprint', () => {
+    if (!openDetails) return;
+    details.forEach((item, i) => { item.open = openDetails[i]; });
+    openDetails = null;
+  });
   byId('ss-print').addEventListener('click', () => window.print());
   let saved;
   try { saved = JSON.parse(sessionStorage.getItem(storageKey)); } catch (_) { /* Recover gracefully. */ }
   if (saved && typeof saved === 'object') {
-    const selected = model.sanitise(saved.answers, data);
-    inputs.forEach(input => { input.checked = selected.includes(input.value); });
-    if (saved.revealed === true) renderReport();
+    responses = model.sanitiseResponses(saved.responses, data);
+    const firstUnanswered = questions.findIndex(q => typeof responses[q.id] !== 'boolean');
+    step = Number.isInteger(saved.step) && saved.step >= 0 && saved.step < 12 ? saved.step : Math.max(0, firstUnanswered);
+    if (firstUnanswered >= 0) step = Math.min(step, firstUnanswered);
+    if (saved.screen === 'results' && complete()) renderReport(false);
+    else if (saved.screen === 'questions' || saved.screen === 'results') renderQuestion(false);
+    if (Object.keys(responses).length) byId('ss-start').textContent = 'Continue assessment →';
   }
-  updateScore();
-  form.querySelectorAll('fieldset').forEach(fieldset => { fieldset.disabled = false; });
-  byId('ss-submit').hidden = false;
+  byId('ss-start').hidden = false;
 })();
