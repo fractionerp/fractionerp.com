@@ -95,6 +95,7 @@ parts-and-inventory:
   - Control part records, stock levels and reorder rules
   - Track goods received, issues, transfers and adjustments
   - Support batch and serial traceability where required
+  - Manage stock rotation with FIFO and batch expiry dates
   video:
     src: https://player.vimeo.com/video/532582153?h=21f581079f&badge=0&autopause=0&player_id=0&app_id=58479
     title: Fraction ERP inventory demo
@@ -105,6 +106,12 @@ parts-and-inventory:
   - title: Control stock levels
     text: Use minimum levels, locations and transaction history to keep inventory
       accurate.
+  - title: Rotate stock with FIFO
+    text: Use first-in, first-out stock management to support using older stock before
+      newer receipts, alongside your batch traceability records.
+  - title: Record batch expiry dates
+    text: Keep expiry dates against batches so your team can consider remaining
+      shelf life when reviewing stock and planning material use.
   - title: Support purchasing and planning
     text: Give MRP and purchasing the data they need for lead times, pack sizes and
       stock decisions.
@@ -724,10 +731,12 @@ inspection-data:
 traceability:
   h1: Serial and Batch Traceability for Manufacturing
   intro: Trace manufactured and purchased parts from goods received through production,
-    shipment and returns.
+    shipment and returns. Manage stock rotation with FIFO and keep batch expiry dates
+    alongside your traceability records.
   bullets:
   - Track serial numbers, batches and supplier lots
   - Connect production usage to finished goods
+  - Support first-in, first-out stock rotation and record batch expiry dates
   - Support recalls, audits and customer enquiries
   sections:
   - title: Serial number tracking
@@ -736,6 +745,14 @@ traceability:
   - title: Batch and lot traceability
     text: Manage lot-controlled inventory and keep batch records connected to stock
       movements.
+  - title: FIFO stock management
+    id: fifo-stock-management
+    text: Use first-in, first-out (FIFO) stock management to support using older stock
+      before newer receipts. Keep stock rotation connected to batch traceability.
+  - title: Batch expiry dates
+    id: batch-expiry-dates
+    text: Record expiry dates against individual batches so your team can review
+      shelf life alongside stock and traceability information when planning material use.
   - title: Supplier traceability
     text: Link purchased parts back to suppliers, batches and quality records when
       issues arise.

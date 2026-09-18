@@ -11,7 +11,7 @@ sales_order_processing:
   - title: Parts and Inventory
     url: /parts-and-inventory/
     icon: fa-solid fa-gears
-    description: Define all parts, traceability, stock levels and inspection requirements.
+    description: Manage parts, stock levels and traceability with FIFO stock rotation and batch expiry dates.
 
 production:
   - title: Bill of Materials
@@ -59,7 +59,7 @@ quality_management:
   - title: Traceability
     url: /traceability/
     icon: fa fa-1x fa-barcode
-    description: Serial and batch traceability for all manufactured and bought in parts.
+    description: Serial and batch traceability with FIFO stock management and batch expiry dates.
 
 health_safety:
   - title: Risk Assessments

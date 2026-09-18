@@ -40,6 +40,8 @@ Fraction ERP is a cloud-based manufacturing ERP and MRP system for SMEs that nee
 - [Visitor Registration](https://fractionerp.com/visitor-kiosk/): Account-free tablet or desktop visitor sign-in with custom declarations, badge printing, clock-out, live dashboard visibility and host arrival emails
 - [Sales Order Management](https://fractionerp.com/sales-order-management-software/): Quote-to-invoice workflow
 - [Purchasing and Inventory](https://fractionerp.com/purchasing-inventory-software/): Purchase orders, stock control, reorder points
+- [Parts and Inventory](https://fractionerp.com/parts-and-inventory/): Part records, stock transactions, FIFO stock management and batch expiry dates
+- [Serial and Batch Traceability](https://fractionerp.com/traceability/): Serial numbers, batches and supplier lots through production and shipment, with first-in, first-out (FIFO) stock rotation and expiry dates on batch records
 - [Bar Stock Management](https://fractionerp.com/bar-stock-management-software/): Pro-plan linear stock control with individual bar and offcut identities, heat or cast traceability, kerf-aware complete-cut allocation, and piece-by-piece stock counts
 - [Cloud ERP Software](https://fractionerp.com/cloud-erp-software/): Cloud deployment and mobility
 - [Mobile ERP App](https://fractionerp.com/mobile-erp/): iOS and Android app for live inventory checks, shop floor logging, SOPs, production status and ERP task management; an active connection is required
@@ -117,3 +119,4 @@ The initial outcome is visible without contact details. To open the full persona
 - Common alternatives considered: spreadsheets, MRPeasy, EMAX Systems, Fitfactory and Tricorn MRP, generic accounting-led ERP, and large enterprise ERP suites.
 - Common buying triggers: spreadsheet limits, poor production visibility, late deliveries, stock shortages, disconnected purchasing, manual scheduling, lack of shop floor progress data, quality traceability requirements, and the need to connect sales demand to production.
 - Common simplicity-related searches: simple ERP, simple ERP system, simple manufacturing ERP, easy ERP software, and ERP for small manufacturers.
+- Inventory and traceability searches: FIFO stock management, first-in first-out inventory, batch expiry date tracking, stock rotation, manufacturing batch traceability and serial number tracking.
