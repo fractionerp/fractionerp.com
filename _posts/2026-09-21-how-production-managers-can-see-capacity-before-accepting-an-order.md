@@ -6,6 +6,7 @@ description: "See factory capacity before accepting an order. Learn how producti
 category: production-scheduling
 author: Giles Johnston
 permalink: /blog/how-production-managers-can-see-capacity-before-accepting-an-order/
+image: /assets/img/production-manager-capacity-check-cartoon.png
 related_posts_list:
   - /blog/why-capacity-planning-is-the-missing-link-in-your-on-time-delivery-performance/
   - /blog/how-to-prevent-purchase-order-shortages-from-delaying-production/
@@ -15,6 +16,10 @@ related_posts_list:
 Accepting orders without knowing whether the factory can meet the requested delivery date creates avoidable problems. Orders pile up, schedules become difficult to manage, and last-minute changes become routine.
 
 For production managers, capacity visibility is essential. Before committing to an order, they need to see what work is already loaded into the factory and whether there is room to deliver on time.
+
+<figure style="margin: 30px 0; text-align: center;">
+  <img src="{{ '/assets/img/production-manager-capacity-check-cartoon.png' | relative_url }}" alt="Cartoon of a production manager reviewing milling, turning and assembly capacity on screen as a new order request arrives" width="1376" height="768" style="width: 100%; height: auto; border-radius: 8px;">
+</figure>
 
 ## Why is this so important?
 
