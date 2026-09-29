@@ -26,7 +26,7 @@ This feature is here to help you:
 You can override the start date, so if you want to schedule it for another time, you can! This is one of the benefits of Fraction ERP, you can work flexibly through our system. You are not constrained to work in a fixed way.
 
 
-This is just [**one of our recent updates**]({{ site.baseurl }}/product-updates/), and you can read about other updates there.
+This is one of the improvements to production scheduling in Fraction ERP.
 
 
 If you want to find out more about Fraction ERP, then [**check out our video walkthroughs**](https://fractionerp.com/blog/walkthrough-videos/), or sign up for a free demo using the form below.
