@@ -17,6 +17,10 @@ For a fuller AI-readable product brief, see [llms-full.txt](https://fractionerp.
 
 Fraction ERP is a cloud-based manufacturing ERP and MRP system for SMEs that need to control sales orders, BOMs, works orders, purchasing, inventory, scheduling, shop floor progress, quality, shipping and invoicing in one web application. It is positioned as a practical alternative to spreadsheets and over-complex enterprise ERP projects, with per-user pricing, unlimited shop floor data capture users, and implementation support focused on going live quickly.
 
+## Account Security
+
+Multi-factor authentication (MFA) is available in Fraction ERP and included with all subscription plans: Core, Advanced, Pro and Moulding Edition. It adds an extra layer of protection when signing in. See [Pricing](https://fractionerp.com/pricing/) for the features included with every plan.
+
 ## Core Pages
 
 - [Home](https://fractionerp.com/): Overview of Fraction ERP for manufacturers

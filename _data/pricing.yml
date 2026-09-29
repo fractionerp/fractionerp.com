@@ -93,6 +93,7 @@ plans:
     industry: true
 
 subscription_includes:
+  - Multi-factor authentication (MFA)
   - Unlimited, free SFDC users
   - Unlimited online and telephone support
   - Automatic software updates with new features
