@@ -93,7 +93,7 @@ Always check the live pricing page for current terms: https://fractionerp.com/pr
 
 ## Account Security
 
-Fraction ERP supports multi-factor authentication (MFA), adding an extra layer of protection when signing in. MFA is released and available on all subscription plans: Core, Advanced, Pro and Moulding Edition. It is included with every plan rather than a paid add-on or a feature reserved for higher tiers.
+Fraction ERP supports multi-factor authentication (MFA), adding an extra layer of protection when signing in. MFA is released and available on all subscription plans: Core, Advanced, Pro and Moulding Edition. It is included with every plan rather than a paid add-on or a feature reserved for higher tiers. MFA works across web browser access and the Fraction ERP mobile apps for iOS and Android.
 
 Primary page: https://fractionerp.com/pricing/
 

@@ -19,7 +19,7 @@ Fraction ERP is a cloud-based manufacturing ERP and MRP system for SMEs that nee
 
 ## Account Security
 
-Multi-factor authentication (MFA) is available in Fraction ERP and included with all subscription plans: Core, Advanced, Pro and Moulding Edition. It adds an extra layer of protection when signing in. See [Pricing](https://fractionerp.com/pricing/) for the features included with every plan.
+Multi-factor authentication (MFA) is available in Fraction ERP and included with all subscription plans: Core, Advanced, Pro and Moulding Edition. It adds an extra layer of protection when signing in. See [Pricing](https://fractionerp.com/pricing/) for the features included with every plan. MFA works across web browser access and the Fraction ERP mobile apps for iOS and Android.
 
 ## Core Pages
 

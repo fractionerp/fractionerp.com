@@ -996,6 +996,9 @@ user-management:
     src: https://player.vimeo.com/video/1167434174?badge=0&autopause=0&player_id=0&app_id=58479
     title: Fraction ERP user management demo
   sections:
+  - title: Multi-factor authentication (MFA)
+    text: Add an extra layer of protection when signing in through a web browser
+      or the iOS and Android apps. MFA is included with every Fraction ERP plan.
   - title: Scale users as you grow
     text: Add and manage users as your business changes without losing permission
       control.
