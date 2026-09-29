@@ -5,6 +5,7 @@ date: 2026-09-29 00:00:00 +0000
 description: "Make the most of your ERP demos with practical questions about configuration, support, onboarding, updates and free trials to help you compare suppliers."
 category: general
 author: Fraction ERP
+image: /assets/img/erp-demo-questions-cartoon.png
 permalink: /blog/questions-to-ask-an-erp-supplier-during-a-demo/
 ---
 
@@ -13,6 +14,10 @@ permalink: /blog/questions-to-ask-an-erp-supplier-during-a-demo/
 This article is for businesses that are looking for a new ERP system and have reached the stage of reviewing shortlisted suppliers through product demos.
 
 The aim is not to find a “perfect” system. It is to identify the best fit for your business goals, processes and priorities.
+
+<figure style="margin: 30px 0; text-align: center;">
+  <img src="{{ '/assets/img/erp-demo-questions-cartoon.png' | relative_url }}" alt="Cartoon of a business customer taking notes while an ERP supplier demonstrates dashboards and production scheduling" width="1376" height="768" style="width: 100%; height: auto; border-radius: 8px;">
+</figure>
 
 ## Prepare your problem scenarios before the demo
 
