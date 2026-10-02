@@ -5,6 +5,7 @@ date: 2026-10-02 00:00:00 +0000
 description: "Is your team ready to implement ERP? Learn how time, focus, clear expectations and visible adoption help turn the right system into everyday business practice."
 category: management
 author: Giles Johnston
+image: /assets/img/is-your-team-ready-for-erp.png
 permalink: /blog/is-your-team-ready-for-erp/
 related_posts_list:
   - /blog/why-a-skills-matrix-is-non-negotiable-for-your-erp-implementation/
@@ -15,6 +16,10 @@ related_posts_list:
 Choosing an ERP system is a big decision. But choosing the right system does not, by itself, make implementation happen. Your team still needs time and focus to learn it, configure it and make it part of everyday work.
 
 If an implementation is struggling, it is worth asking not only whether the system is right, but whether the team is ready to put it to work.
+
+<figure style="margin: 30px 0; text-align: center;">
+  <img src="{{ '/assets/img/is-your-team-ready-for-erp.png' | relative_url }}" alt="Illustration of a manager presenting an ERP dashboard to a manufacturing team, with one colleague looking uncertain" width="1376" height="768" style="width: 100%; height: auto; border-radius: 8px;">
+</figure>
 
 ## Who This Article Is For
 
