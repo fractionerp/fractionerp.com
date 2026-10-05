@@ -50,6 +50,7 @@ plans:
       - Production KPIs
       - Calibration Log
       - Serial Traceability
+      - Employee Reviews
 
   - name: Pro
     tagline: Drive performance and efficiency at scale with advanced tools
