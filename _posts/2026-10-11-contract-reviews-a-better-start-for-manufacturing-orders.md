@@ -47,6 +47,13 @@ A checklist is less useful if it can be bypassed in the rush to acknowledge an o
 
 The main contract status page also displays contract review statuses at a glance. That makes it easier to see which reviews still need attention, particularly if you work to a strict timeline after receiving a customer purchase order.
 
+<div class="video-embed">
+  <iframe src="https://player.vimeo.com/video/1234665104"
+    title="Fraction ERP - Contract Review Overview"
+    loading="lazy" allow="autoplay; fullscreen; picture-in-picture"
+    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+
 ## Start with the process, not the software
 
 Whether or not you use Fraction ERP, the question is the same: what does your team need to check before it accepts and acknowledges an order?
