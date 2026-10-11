@@ -5,6 +5,7 @@ date: 2026-10-11 00:00:00 +0000
 description: "Improve on-time delivery with contract reviews. Learn what to check before accepting manufacturing orders and how to configure the process in Fraction ERP."
 category: management
 author: Giles Johnston
+image: /assets/img/contract-review-cartoon-final.png
 permalink: /blog/contract-reviews-a-better-start-for-manufacturing-orders/
 related_posts_list:
   - /blog/how-production-managers-can-see-capacity-before-accepting-an-order/
@@ -13,6 +14,10 @@ related_posts_list:
 ---
 
 **Who this article is for:** Production managers, operations managers and senior business leaders who want to improve on-time delivery and customer satisfaction, or who are considering a new ERP system. It is especially relevant if you are reviewing what happens between receiving a customer purchase order and acknowledging it.
+
+<figure style="margin: 30px 0; text-align: center;">
+  <img src="{{ '/assets/img/contract-review-cartoon-final.png' | relative_url }}" alt="Cartoon contrasting rushed order acceptance and late delivery with a manager checking quality, tooling, capacity and scheduling before an on-time delivery, headed 'Pause. Review. Deliver on time.'" width="2400" height="1792" style="width: 100%; height: auto; border-radius: 8px;">
+</figure>
 
 ## What is a contract review?
 
