@@ -36,6 +36,8 @@ Some examples from Fraction ERP’s dashboard include:
 
 ## Pull this together with your team
 
+Alongside the daily operational exceptions, review the commercial picture. Our [manufacturing sales KPIs and analytics guide]({{ '/manufacturing-sales-analytics/' | relative_url }}) explains order intake, quote conversion and customer trends, and how they relate to the work entering production. Fraction ERP Sales Analytics is in development.
+
 So, whether you are using Fraction ERP or not, please use your ERP data to keep track of all the key numbers in your business.
 
 Holding a sunrise meeting, using an ERP dashboard as the agenda, is a great way to ensure that your team are focused on the things that count and to keep your ERP system data clean and usable.

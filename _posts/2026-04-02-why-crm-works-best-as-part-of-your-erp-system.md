@@ -109,6 +109,8 @@ You can look beyond simple sales activity and understand the wider picture, such
 
 That helps leaders make better decisions based on joined-up information, not isolated snapshots.
 
+For a practical review of order intake, quote conversion and customer trends, explore our [manufacturing sales analytics guide]({{ '/manufacturing-sales-analytics/' | relative_url }}). Fraction ERP Sales Analytics is in development; the guide explains useful measures to consider when reviewing commercial performance.
+
 ### 6. Improved customer experience
 
 Customers expect joined-up communication.

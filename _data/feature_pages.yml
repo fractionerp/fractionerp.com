@@ -1326,6 +1326,8 @@ erp-key-performance-indicators:
     title: Operational KPIs
     text: Use ERP data for decision making.
   related:
+  - title: Manufacturing Sales Analytics
+    url: "/manufacturing-sales-analytics/"
   - title: Dashboard
     url: "/erp-dashboard/"
   - title: Reports

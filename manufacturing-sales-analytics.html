@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "Manufacturing Sales Analytics Software | Fraction ERP"
-description: "Understand order intake, quote conversion and customer sales trends. Explore manufacturing sales analytics and Fraction ERP's Sales Analytics development."
+title: "Manufacturing Sales Analytics and KPIs | Fraction ERP"
+description: "Understand manufacturing sales KPIs, order intake, quote conversion and customer trends. Explore Fraction ERP Sales Analytics, currently in development."
 permalink: /manufacturing-sales-analytics/
 last_modified_at: 2026-10-16
 faqs:
@@ -13,6 +13,10 @@ faqs:
     answer: Useful starting points include order intake, open order book value, invoiced sales, quote conversion and customer concentration. Agree the date basis, included statuses and currency treatment before comparing results.
   - question: Are orders received the same as invoiced sales?
     answer: No. Order intake measures accepted work by order date, while invoiced sales measures amounts invoiced by invoice date. An order can enter the business in one month and be delivered and invoiced in another.
+  - question: How do you calculate manufacturing quote conversion?
+    answer: For a defined group of quotations with a recorded won or lost outcome, divide the number won by the total number won plus lost, then multiply by 100. Track open quotations separately, count each opportunity once and distinguish conversion by count from conversion by value.
+  - question: What should manufacturers look for in sales analytics software?
+    answer: Look for clear KPI definitions, consistent reporting periods and a way to investigate the customer, quotation and order records behind each result. Keep order intake, outstanding orders and invoiced sales separate, and consider demand alongside production capacity.
   - question: Is Fraction ERP Sales Analytics available now?
     answer: Fraction ERP Sales Analytics is in development. Contact the team to discuss your reporting needs, planned availability and which measures will be included. This guide describes useful manufacturing sales analysis rather than a confirmed list of released features.
 ---
@@ -23,7 +27,7 @@ faqs:
       <div class="feature-hero-grid">
         <div class="feature-hero-copy" data-aos="fade-up">
           <h1>Manufacturing Sales Analytics</h1>
-          <p>Understand the work you are winning, the customers driving demand and what your order book means for the factory.</p>
+          <p>Understand order intake, quote conversion and customer sales trends, with manufacturing sales KPIs that put your order book in context.</p>
           <p>A busy sales team and a full order book are only part of the picture. Sales analytics helps manufacturers ask better questions about demand, conversion and customer performance before deciding what to do next.</p>
           <div class="feature-hero-actions">
             <a class="feature-primary-btn" href="{{ '/contact/' | relative_url }}">Discuss Sales Analytics</a>
@@ -48,7 +52,7 @@ faqs:
   <section class="feature-metrics-section" aria-labelledby="development-status">
     <div class="container">
       <h2 id="development-status" style="font-size: 22px; color: #37517e;">In development: Fraction ERP Sales Analytics</h2>
-      <p class="mb-0">We are building Sales Analytics for Fraction ERP. This page explains the manufacturing sales measures and decisions it is intended to support. <a href="{{ '/contact/' | relative_url }}">Talk to us about your reporting needs and planned availability</a>.</p>
+      <p class="mb-0">We are building Sales Analytics for Fraction ERP. This guide explains useful manufacturing sales measures and the decisions they can inform. <a href="{{ '/contact/' | relative_url }}">Talk to us about your reporting needs, planned scope and availability</a>.</p>
     </div>
   </section>
 
@@ -59,6 +63,7 @@ faqs:
       <a class="scrollto" href="#customer-analysis">Customer analysis</a>
       <a class="scrollto" href="#sales-to-production">Sales and production</a>
       <a class="scrollto" href="#sales-review">Running a sales review</a>
+      <a class="scrollto" href="#sales-analytics-software">Choosing sales analytics software</a>
       <a class="scrollto" href="#faq">FAQs</a>
     </div>
   </nav>
@@ -104,6 +109,10 @@ faqs:
       <div class="feature-info-card mt-4">
         <h3>Order intake and invoiced sales answer different questions</h3>
         <p>An order accepted in October might be manufactured in November and invoiced in December. Counting it as October order intake and December invoiced sales is useful, provided the two measures stay distinct. A fall in invoicing does not automatically mean the sales team has stopped winning work, and a rise in orders does not mean the cash has arrived.</p>
+      </div>
+      <div id="quote-conversion" class="feature-info-card mt-4">
+        <h3>How to calculate quote-to-order conversion</h3>
+        <p>For a defined group of quotations with a won or lost outcome, calculate <strong>quotes won ÷ (quotes won + quotes lost) × 100</strong>. For example, 12 wins and 8 losses give a 60% conversion rate by count. Track undecided quotes separately and count each opportunity once, rather than treating revised quotations as new opportunities. Conversion by value answers a different question: it compares the value won with the total value of won and lost quotations in the same group.</p>
       </div>
     </div>
   </section>
@@ -170,13 +179,33 @@ faqs:
             <li class="mb-3"><strong>Bring in operations.</strong> Discuss capacity, materials and promised dates alongside the sales position.</li>
             <li><strong>Assign the next action.</strong> Give customer follow-ups and internal checks an owner, then review progress at the next meeting.</li>
           </ol>
-          <p class="mb-0">Accurate customer records and up-to-date quote and order statuses make the review more useful. Existing <a href="{{ '/reports/' | relative_url }}">manufacturing reports</a>, <a href="{{ '/erp-dashboard/' | relative_url }}">ERP dashboards</a> and <a href="{{ '/erp-key-performance-indicators/' | relative_url }}">KPIs</a> provide supporting views of the wider business.</p>
+          <p class="mb-0">Accurate customer records and up-to-date quote and order statuses make the review more useful. Existing <a href="{{ '/reports/' | relative_url }}">manufacturing reports</a> help teams investigate their ERP records. Use <a href="{{ '/erp-dashboard/' | relative_url }}">ERP dashboards</a> for day-to-day exceptions and <a href="{{ '/erp-key-performance-indicators/' | relative_url }}">manufacturing KPIs</a> for the wider operational review.</p>
         </div>
       </div>
     </div>
   </section>
 
-  <section id="faq" class="feature-section feature-screenshots-section">
+  <section id="sales-analytics-software" class="feature-section feature-screenshots-section">
+    <div class="container">
+      <div class="feature-section-heading">
+        <h2>What to look for in manufacturing sales analytics software</h2>
+        <p>The useful starting point is the decision you need to make. When reviewing software, ask how each figure is defined and how you can investigate the records behind it.</p>
+      </div>
+      <div class="feature-card-grid">
+        <article class="feature-info-card">
+          <h3>Clear measures and traceable records</h3>
+          <p>Check the reporting period, included statuses, currency treatment and handling of revised or cancelled orders. A chart should lead to an explanation that can be checked against customer, quotation and order records.</p>
+        </article>
+        <article class="feature-info-card">
+          <h3>A connection to the manufacturing workflow</h3>
+          <p>Review commercial demand alongside delivery commitments and capacity. CRM supports customer conversations, sales order management controls accepted work, and analytics helps the team interpret patterns across those records.</p>
+        </article>
+      </div>
+      <p class="mt-4 mb-0 text-center">For the wider workflow, explore <a href="{{ '/mrp-software/' | relative_url }}">manufacturing ERP software</a>. Read <a href="{{ '/blog/why-crm-works-best-as-part-of-your-erp-system/' | relative_url }}">why CRM works best as part of ERP</a> for the customer relationship context.</p>
+    </div>
+  </section>
+
+  <section id="faq" class="feature-section">
     <div class="container">
       <div class="feature-section-heading"><h2>Manufacturing sales analytics FAQs</h2></div>
       <div class="row justify-content-center">
@@ -224,16 +253,35 @@ faqs:
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "@id": "{{ page.url | absolute_url }}#faq",
-  "mainEntity": [
-    {% for faq in page.faqs %}
+  "@graph": [
     {
-      "@type": "Question",
-      "name": {{ faq.question | jsonify }},
-      "acceptedAnswer": { "@type": "Answer", "text": {{ faq.answer | jsonify }} }
-    }{% unless forloop.last %},{% endunless %}
-    {% endfor %}
+      "@type": "WebPage",
+      "@id": "{{ page.url | absolute_url }}#primary",
+      "dateModified": {{ page.last_modified_at | date_to_xmlschema | jsonify }},
+      "about": { "@type": "Thing", "name": "Manufacturing sales analytics" },
+      "hasPart": { "@id": "{{ page.url | absolute_url }}#faq" },
+      "relatedLink": [
+        "{{ '/crm/' | absolute_url }}",
+        "{{ '/sales-order-management-software/' | absolute_url }}",
+        "{{ '/reports/' | absolute_url }}",
+        "{{ '/erp-key-performance-indicators/' | absolute_url }}",
+        "{{ '/production-scheduling-software/' | absolute_url }}"
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "{{ page.url | absolute_url }}#faq",
+      "isPartOf": { "@id": "{{ page.url | absolute_url }}#primary" },
+      "mainEntity": [
+        {% for faq in page.faqs %}
+        {
+          "@type": "Question",
+          "name": {{ faq.question | jsonify }},
+          "acceptedAnswer": { "@type": "Answer", "text": {{ faq.answer | jsonify }} }
+        }{% unless forloop.last %},{% endunless %}
+        {% endfor %}
+      ]
+    }
   ]
 }
 </script>

@@ -8,6 +8,7 @@ author: Giles Johnston
 image: /assets/img/contract-review-cartoon-final.png
 permalink: /blog/contract-reviews-a-better-start-for-manufacturing-orders/
 related_posts_list:
+  - /manufacturing-sales-analytics/
   - /blog/how-production-managers-can-see-capacity-before-accepting-an-order/
   - /blog/why-capacity-planning-is-the-missing-link-in-your-on-time-delivery-performance/
   - /blog/how-to-prevent-purchase-order-shortages-from-delaying-production/
