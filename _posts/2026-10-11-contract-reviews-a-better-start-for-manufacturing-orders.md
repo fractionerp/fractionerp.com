@@ -1,5 +1,6 @@
 ---
 layout: post
+last_modified_at: 2026-10-16
 title: "Contract Reviews: A Better Start for Manufacturing Orders"
 date: 2026-10-11 00:00:00 +0000
 description: "Improve on-time delivery with contract reviews. Learn what to check before accepting manufacturing orders and how to configure the process in Fraction ERP."

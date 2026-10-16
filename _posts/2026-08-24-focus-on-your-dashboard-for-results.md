@@ -1,5 +1,6 @@
 ---
 layout: post
+last_modified_at: 2026-10-16
 title: "Focus on your dashboard for results!"
 date: 2026-08-24 05:32:00 +0000
 description: "Use your ERP dashboard and leading indicators to make better decisions, improve delivery performance, and keep your team focused on the data that matters."

@@ -1,5 +1,6 @@
 ---
 layout: post
+last_modified_at: 2026-10-16
 title: "Why a CRM System Works Best as Part of Your ERP System"
 date: 2026-04-02 10:00:00 +0000
 description: "Discover why having CRM built into your ERP system reduces duplication, improves visibility and creates a better customer experience for manufacturers."
