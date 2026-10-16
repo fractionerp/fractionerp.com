@@ -21,6 +21,8 @@ main:
         url: /ai-in-erp/
       - title: Sales Order Management
         url: /sales-order-management-software/
+      - title: Sales Analytics
+        url: /manufacturing-sales-analytics/
       - title: Bill of Materials
         url: /bill-of-materials-software/
       - title: SOP Software
@@ -111,6 +113,8 @@ footer_erp_core:
     url: /what-is-mrp/
   - title: Sales Order Management
     url: /sales-order-management-software/
+  - title: Sales Analytics
+    url: /manufacturing-sales-analytics/
   - title: Bill of Materials
     url: /bill-of-materials-software/
   - title: Production Scheduling

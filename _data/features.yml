@@ -108,6 +108,10 @@ people:
     description: Connect clocking, leave, sickness and staff availability directly to production scheduling.
 
 company_performance:
+  - title: Sales Analytics
+    url: /manufacturing-sales-analytics/
+    icon: fa-solid fa-chart-line
+    description: In development. Explore manufacturing sales measures, customer trends and order intake analysis.
   - title: Intelligence Centre
     url: /ai-in-erp/
     icon: fa fa-1x fa-magnifying-glass-chart
@@ -215,12 +219,15 @@ workflow_stages:
     outcome: Use live dashboards, KPIs and reports to improve operational decisions.
     image: /assets/img/dashboard-overview.webp
     features:
+      - Sales Analytics
       - Intelligence Centre
       - Dashboard
       - Key Performance Indicators
       - Reports
       - Task Management
     links:
+      - title: Sales Analytics
+        url: /manufacturing-sales-analytics/
       - title: Intelligence Centre
         url: /ai-in-erp/
       - title: Dashboard

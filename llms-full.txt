@@ -78,6 +78,13 @@ FIFO and batch expiry dates are available capabilities. FIFO describes receipt-o
 Primary page: https://fractionerp.com/traceability/
 Related inventory page: https://fractionerp.com/parts-and-inventory/
 
+## Manufacturing Sales Analytics
+
+Fraction ERP Sales Analytics is in development. Its pillar page explains manufacturing sales analysis, including order intake, open order book, invoiced sales, quote conversion, customer trends and customer concentration. These are educational measures, not a confirmed list of released features. Availability, final scope and plan inclusion should be confirmed with the Fraction ERP team.
+
+Primary page: https://fractionerp.com/manufacturing-sales-analytics/
+Related pages: https://fractionerp.com/sales-order-management-software/ and https://fractionerp.com/crm/
+
 ## Pricing Summary
 
 Fraction ERP has transparent per-user pricing. Public pricing tiers listed on the website include:

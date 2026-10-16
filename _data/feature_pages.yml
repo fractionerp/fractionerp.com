@@ -36,6 +36,8 @@ crm:
   related:
   - title: Sales Orders
     url: "/sales-order-management-software/"
+  - title: Sales Analytics
+    url: "/manufacturing-sales-analytics/"
   - title: Dashboard
     url: "/erp-dashboard/"
   - title: Task Management
@@ -1280,6 +1282,8 @@ dashboard:
       menus.
   related_title: Also in Fraction ERP
   related:
+  - title: Sales Analytics
+    url: "/manufacturing-sales-analytics/"
   - title: KPIs and Performance Tracking
     url: "/erp-key-performance-indicators/"
   - title: Reports
@@ -1364,6 +1368,8 @@ reports:
     title: Sales report
     text: Review sales and contract data.
   related:
+  - title: Sales Analytics
+    url: "/manufacturing-sales-analytics/"
   - title: Dashboard
     url: "/erp-dashboard/"
   - title: KPIs

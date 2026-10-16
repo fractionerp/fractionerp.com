@@ -43,6 +43,7 @@ Multi-factor authentication (MFA) is available in Fraction ERP and included with
 - [Risk Assessment Software](https://fractionerp.com/risk-assessment-software/): Workplace risk assessments for manufacturers, with COSHH register support planned
 - [Visitor Registration](https://fractionerp.com/visitor-kiosk/): Account-free tablet or desktop visitor sign-in with custom declarations, badge printing, clock-out, live dashboard visibility and host arrival emails
 - [Sales Order Management](https://fractionerp.com/sales-order-management-software/): Quote-to-invoice workflow
+- [Manufacturing Sales Analytics](https://fractionerp.com/manufacturing-sales-analytics/): Guide to order intake, quote conversion and customer sales trends; Fraction ERP Sales Analytics is in development
 - [Purchasing and Inventory](https://fractionerp.com/purchasing-inventory-software/): Purchase orders, stock control, reorder points
 - [Parts and Inventory](https://fractionerp.com/parts-and-inventory/): Part records, stock transactions, FIFO stock management and batch expiry dates
 - [Serial and Batch Traceability](https://fractionerp.com/traceability/): Serial numbers, batches and supplier lots through production and shipment, with first-in, first-out (FIFO) stock rotation and expiry dates on batch records
