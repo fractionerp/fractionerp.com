@@ -72,6 +72,7 @@ plans:
       - Training Log
       - Visitor Registration
       - Intelligence Centre
+      - Sales Analytics|in development
       - Risk Assessments
       - COSHH Register
       - Bar Stock Management
@@ -90,6 +91,9 @@ plans:
       - Production run visibility
       - InTouch monitoring integration
     industry: true
+
+feature_links:
+  Sales Analytics: /manufacturing-sales-analytics/
 
 subscription_includes:
   - Multi-factor authentication (MFA)

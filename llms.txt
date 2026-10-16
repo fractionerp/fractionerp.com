@@ -62,7 +62,7 @@ Multi-factor authentication (MFA) is available in Fraction ERP and included with
 
 [Manufacturing Sales Analytics](https://fractionerp.com/manufacturing-sales-analytics/) is the pillar page for manufacturing sales KPIs, order intake, open order books, invoiced sales, quote-to-order conversion, customer trends and customer concentration.
 
-The public product name is **Sales Analytics**. The new module is in development. The page explains useful sales measures; it is not a confirmed list of released features. Confirm release timing, final scope and plan inclusion with [Fraction ERP](https://fractionerp.com/contact/).
+The public product name is **Sales Analytics**. The new module is in development and is listed under the [Pro plan](https://fractionerp.com/pricing/). The page explains useful sales measures; it is not a confirmed list of released features. Confirm release timing and final scope with [Fraction ERP](https://fractionerp.com/contact/).
 
 Related current tools include [manufacturing CRM](https://fractionerp.com/crm/), [sales order management](https://fractionerp.com/sales-order-management-software/), [manufacturing reports](https://fractionerp.com/reports/) and [ERP dashboards](https://fractionerp.com/erp-dashboard/). Sales Analytics should not be described as an already available module or as a replacement for these tools.
 
