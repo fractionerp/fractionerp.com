@@ -72,7 +72,7 @@ plans:
       - Training Log
       - Visitor Registration
       - Intelligence Centre
-      - Sales Analytics|in development
+      - Sales Analytics
       - Risk Assessments
       - COSHH Register
       - Bar Stock Management
@@ -93,7 +93,44 @@ plans:
     industry: true
 
 feature_links:
+  Sales Order Management: /sales-order-management-software/
+  Bill of Materials: /bill-of-materials-software/
+  Parts: /parts-and-inventory/
+  Works Orders: /works-orders/
+  MRP Demand: /purchasing/
+  Purchasing: /purchasing-inventory-software/
+  Non Conformance Reports: /non-conformance-reports/
+  Shopfloor Data Capture: /shopfloor-data-capture-software/
+  Shipping: /shipping/
+  Invoicing: /invoicing/
+  Accounts Integrations: /accounting-integrations/
+  Dashboard: /erp-dashboard/
+  Reports: /reports/
+  Automatic Production Scheduling: /production-scheduling-software/
+  Drag and Drop Production Scheduling: /production-scheduling-software/
+  MRP Demand + Forecast: /purchasing/
+  Key Performance Indicators (KPIs): /erp-key-performance-indicators/
+  Task Management: /erp-task-management/
+  NCR Analytics: /non-conformance-reports/
+  Production KPIs: /erp-key-performance-indicators/
+  Calibration Log: /calibration-log/
+  Serial Traceability: /traceability/
+  Batch Traceability: /traceability/
+  SOPs: /sop-software/
+  Customer Returns: /customer-returns/
+  Inspection Reports: /inspection-data/
+  API Integration: /api-integrations/
+  E-commerce Integration: /ecommerce-integrations/
+  CRM: /crm/
+  Training Log: /training-log/
+  Visitor Registration: /visitor-kiosk/
+  Intelligence Centre: /ai-in-erp/
   Sales Analytics: /manufacturing-sales-analytics/
+  Risk Assessments: /risk-assessment-software/
+  COSHH Register: /health-safety-software/#coshh-register
+  Bar Stock Management: /bar-stock-management-software/
+  Mould & tool management: /erp-for-injection-moulding/
+  InTouch monitoring integration: /manufacturing-integrations/
 
 subscription_includes:
   - Multi-factor authentication (MFA)

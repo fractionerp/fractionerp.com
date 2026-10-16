@@ -27,7 +27,7 @@ image: /assets/img/V3-production-tracking.webp
 
     <!-- Currency Selector -->
     <div class="text-center mb-4">
-      <div style="display: inline-flex; background: #fff; border-radius: 50px; padding: 4px; box-shadow: 0 2px 8px rgba(0,0,0,0.08); border: 1px solid #e0e0e0;">
+      <div style="display: inline-flex; flex-wrap: wrap; justify-content: center; max-width: 100%; background: #fff; border-radius: 50px; padding: 4px; box-shadow: 0 2px 8px rgba(0,0,0,0.08); border: 1px solid #e0e0e0;">
         <button class="currency-btn active" data-currency="GBP" data-symbol="£" data-rate="1" style="border: none; background: #37517e; color: #fff; padding: 8px 20px; border-radius: 50px; font-family: 'Jost', sans-serif; font-weight: 600; font-size: 14px; cursor: pointer; transition: all 0.3s;">GBP</button>
         <button class="currency-btn" data-currency="EUR" data-symbol="€" data-rate="1.146" style="border: none; background: transparent; color: #555; padding: 8px 20px; border-radius: 50px; font-family: 'Jost', sans-serif; font-weight: 600; font-size: 14px; cursor: pointer; transition: all 0.3s;">EUR</button>
         <button class="currency-btn" data-currency="USD" data-symbol="$" data-rate="1.320" style="border: none; background: transparent; color: #555; padding: 8px 20px; border-radius: 50px; font-family: 'Jost', sans-serif; font-weight: 600; font-size: 14px; cursor: pointer; transition: all 0.3s;">USD</button>
@@ -96,7 +96,7 @@ image: /assets/img/V3-production-tracking.webp
             {% assign feature_url = site.data.pricing.feature_links[feature_name] %}
             <li style="padding: 5px 0; font-size: 14px; color: {% if feature_parts[1] == '*' %}#6b7280{% else %}#444{% endif %}; display: flex; align-items: flex-start; gap: 8px;">
               <i class="bi {% if feature_parts[1] == '*' %}bi-clock{% else %}bi-check-circle-fill{% endif %}" aria-hidden="true" style="color: {% if feature_parts[1] == '*' %}#6b7280{% elsif plan.popular %}#47b2e4{% else %}#4caf50{% endif %}; flex-shrink: 0; margin-top: 2px;"></i>
-              <span>{% if feature_url %}<a href="{{ feature_url | relative_url }}" style="color: inherit; text-decoration: underline;">{{ feature_parts[0] }}</a>{% else %}{{ feature_parts[0] }}{% endif %}{% if feature_parts[1] %}{% if feature_parts[1] == "*" %}<a href="#pricing-coming-soon" aria-label="Coming soon" style="color: inherit; text-decoration: none;"><sup>*</sup></a>{% else %} ({{ feature_parts[1] }}){% endif %}{% endif %}</span>
+              <span>{% if feature_url %}<a class="pricing-feature-link" href="{{ feature_url | relative_url }}" style="color: #277ea9; text-decoration: none;">{{ feature_parts[0] }}</a>{% else %}{{ feature_parts[0] }}{% endif %}{% if feature_parts[1] %}{% if feature_parts[1] == "*" %}<a href="#pricing-coming-soon" aria-label="Coming soon" style="color: inherit; text-decoration: none;"><sup>*</sup></a>{% else %} ({{ feature_parts[1] }}){% endif %}{% endif %}</span>
             </li>
             {% endfor %}
           </ul>
