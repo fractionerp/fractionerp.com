@@ -72,10 +72,6 @@ image: /assets/img/V3-production-tracking.webp
             </div>
             {% endif %}
 
-            {% if plan.description %}
-            <p style="font-size: 13px; color: #555; margin: 0 0 18px; line-height: 1.5;">{{ plan.description }}</p>
-            {% endif %}
-
             <div style="margin-top: auto;">
               <a href="{{ '/book-a-demo/' | relative_url }}" style="display: block; text-align: center; padding: 12px; background: {% if plan.popular %}#47b2e4{% else %}#37517e{% endif %}; color: #fff; border-radius: 50px; font-family: 'Jost', sans-serif; font-weight: 600; font-size: 15px; text-decoration: none; transition: background 0.3s;"
                  onmouseover="this.style.background='{% if plan.popular %}#3a9fd1{% else %}#2a4066{% endif %}'"
