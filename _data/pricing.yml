@@ -2,7 +2,7 @@ plans:
   - name: Core
     tagline: Run your business with a complete ERP system
     description: Everything you need to manage inventory, orders, and production in one place.
-    price: 37
+    price: 40
     currency: "£"
     period: per user/month
     inherits_label: "Core Features"
@@ -28,7 +28,7 @@ plans:
   - name: Advanced
     tagline: Take control of planning, operations and quality
     description: Add production planning, scheduling, and real-time operational visibility.
-    price: 52
+    price: 55
     currency: "£"
     period: per user/month
     popular: true

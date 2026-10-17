@@ -106,8 +106,8 @@ Enquiries: https://fractionerp.com/contact/
 
 Fraction ERP has transparent per-user pricing. Public pricing tiers listed on the website include:
 
-- Core: 37 GBP per user per month
-- Advanced: 52 GBP per user per month
+- Core: 40 GBP per user per month
+- Advanced: 55 GBP per user per month
 - Pro: 75 GBP per user per month; Sales Analytics is listed under this plan as in development
 - Moulding Edition: custom pricing for injection moulding businesses
 
