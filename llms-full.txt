@@ -108,7 +108,7 @@ Fraction ERP has transparent per-user pricing. Public pricing tiers listed on th
 
 - Core: 40 GBP per user per month
 - Advanced: 55 GBP per user per month
-- Pro: 75 GBP per user per month; Sales Analytics is listed under this plan as in development
+- Pro: 80 GBP per user per month; Sales Analytics is listed under this plan as in development
 - Moulding Edition: custom pricing for injection moulding businesses
 
 Subscription positioning includes multi-factor authentication (MFA) on all plans, unlimited shop floor data capture users, online and telephone support, automatic updates, daily backups, browser access, file storage, records, and integrations with common accounts and manufacturing systems.

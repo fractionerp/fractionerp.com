@@ -54,7 +54,7 @@ plans:
   - name: Pro
     tagline: Drive performance and efficiency at scale with advanced tools
     description: Advanced tools to optimise performance, improve accuracy, and scale operations.
-    price: 75
+    price: 80
     currency: "£"
     period: per user/month
     inherits_label: "All advanced features plus:"
