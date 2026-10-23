@@ -183,6 +183,8 @@ footer_resources:
 footer_compare:
   - title: ERP Comparisons
     url: /compare-erp/
+  - title: Statii Alternative
+    url: /statii-alternative/
   - title: MRPeasy Alternative
     url: /mrpeasy-alternative/
   - title: EMAX Alternative
