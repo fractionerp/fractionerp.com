@@ -2,8 +2,8 @@
 layout: default
 permalink: /statii-alternative/
 title: "Statii Alternative | Fraction ERP vs Statii"
-description: "Compare Fraction ERP and Statii for manufacturing. Review published pricing, shop-floor user costs, scheduling, stock control and workflow fit."
-last_modified_at: 2026-10-23
+description: "Compare Fraction ERP and Statii for manufacturing. Review calculator-based costs, plan differences, training, support and published contract terms."
+last_modified_at: 2026-10-24
 image: /assets/img/V3-production-tracking.webp
 faqs:
   - question: Is Fraction ERP an alternative to Statii?
@@ -24,6 +24,7 @@ faqs:
 ---
 
 {% assign priced_plans = site.data.pricing.plans | where_exp: "plan", "plan.price != 'custom'" %}
+{% assign statii_pricing = site.data.statii_comparison.pricing %}
 
 <main id="main" class="feature-page" style="min-width: 0;">
   <section class="feature-hero">
@@ -67,7 +68,7 @@ faqs:
     <div class="container">
       <div class="feature-section-heading">
         <h2>Statii and Fraction ERP: manufacturing features compared</h2>
-        <p>Reviewed on 23 October 2026 using the suppliers' published information. The table describes capabilities; it does not score either product or treat an unlisted feature as unavailable.</p>
+        <p>Reviewed on 24 October 2026 using the suppliers' published information. The table describes capabilities; it does not score either product or treat an unlisted feature as unavailable.</p>
       </div>
       <div class="table-responsive" role="region" aria-label="Fraction ERP and Statii feature comparison" tabindex="0">
         <table class="table table-bordered bg-white mb-0" style="min-width: 760px;">
@@ -98,7 +99,7 @@ faqs:
             </tr>
             <tr>
               <th scope="row">Traceability</th>
-              <td><a href="{{ '/traceability/' | relative_url }}">Serial and batch traceability</a>, with availability determined by the selected plan.</td>
+              <td><a href="{{ '/traceability/' | relative_url }}">Serial traceability</a> is listed on Advanced and batch traceability on Pro. See the <a href="{{ '/pricing/' | relative_url }}">current plan scope</a>.</td>
               <td>Its inventory page describes batch and serial tracking and part history. <a href="https://www.statii.co.uk/inventory">Statii traceability information</a>.</td>
             </tr>
             <tr>
@@ -112,9 +113,19 @@ faqs:
               <td>Lists Xero, Sage and QuickBooks connections, including financial document syncing and payment-status updates. <a href="https://www.statii.co.uk/accounts-integration">Statii accounts integration</a>.</td>
             </tr>
             <tr>
-              <th scope="row">Support</th>
-              <td>Unlimited online and telephone support is included. On-site training is priced separately. <a href="{{ '/pricing/' | relative_url }}">Fraction support and pricing</a>.</td>
-              <td>Its subscription page includes human support by telephone and screen-sharing, plus software updates. <a href="https://www.statii.co.uk/pricing">Statii subscription information</a>.</td>
+              <th scope="row">Onboarding and support</th>
+              <td>Unlimited online training and telephone support are included. UK on-site training is £600/day, excluding travel. <a href="{{ '/pricing/' | relative_url }}">Fraction training and pricing</a>.</td>
+              <td>Its calculator's quote text includes setup, implementation and training; confirm delivery scope and any on-site visits. <a href="https://www.statii.co.uk/terms-of-service">Support terms</a> describe telephone and online help during UK business hours.</td>
+            </tr>
+            <tr>
+              <th scope="row">Subscription terms</th>
+              <td>Published <a href="{{ '/terms/' | relative_url }}">terms, sections 6.1–6.2</a>, cover monthly or annual renewals and require at least 30 days' written notice before the billing term ends.</td>
+              <td>Publishes a rolling monthly subscription. Its <a href="https://www.statii.co.uk/terms-of-service">cancellation terms</a> require written notice acknowledged by Statii, with billing ending 30 days after acknowledgement.</td>
+            </tr>
+            <tr>
+              <th scope="row">Starting with a trial or quoting tool</th>
+              <td>An optional free trial is described in the <a href="{{ '/book-a-demo/' | relative_url }}">demo process</a>. Confirm its scope and duration with the team.</td>
+              <td>Markets <a href="https://www.statii.co.uk/statii-liite">Statii Liite</a> as free-for-life CRM and quoting software. It is a separate starting option from the full manufacturing subscription.</td>
             </tr>
           </tbody>
         </table>
@@ -126,7 +137,7 @@ faqs:
     <div class="container">
       <div class="feature-section-heading">
         <h2>Compare the subscription for your whole team</h2>
-        <p>Fraction uses tiered plans with included SFDC users. Statii publishes separate main-user and shop-floor-user subscriptions. Match permissions and functionality before comparing the totals.</p>
+        <p>Fraction uses tiered plans with included SFDC users. Statii's public calculator adds a system licence to its user charges. Match permissions and functionality before comparing the totals.</p>
       </div>
       <div class="feature-card-grid">
         <article class="feature-info-card">
@@ -141,22 +152,47 @@ faqs:
         <article class="feature-info-card">
           <h3>Statii: price by user role</h3>
           <ul>
-            <li><strong>Main user: £57.50/month</strong>, with access to all Statii features.</li>
-            <li><strong>Shop-floor user: £8.50/month</strong>, with a restricted role covering job clocking, stock withdrawal and deliveries.</li>
+            <li><strong>System licence: {% include gbp-price.html pence=statii_pricing.system_licence_pence %}/month</strong>, added by the public calculator.</li>
+            <li><strong>Main user: {% include gbp-price.html pence=statii_pricing.main_user_pence %}/month</strong>, with access to all Statii features.</li>
+            <li><strong>Shop-floor user: {% include gbp-price.html pence=statii_pricing.shop_floor_user_pence %}/month</strong>, covering job clocking, stock withdrawal and deliveries.</li>
           </ul>
-          <p>Published rates checked on 23 October 2026. Confirm the current quote and terms on <a href="https://www.statii.co.uk/pricing">Statii's pricing page</a>.</p>
+          <p>The headline cards show user rates; the system licence appears in the calculator's quote output. Checked on {{ statii_pricing.checked_on | date: "%d %B %Y" }}. Confirm the complete quote with <a href="{{ statii_pricing.source_url }}">Statii</a>.</p>
         </article>
       </div>
       <div class="feature-info-card mt-4">
-        <h3>Worked example: five main users and ten shop-floor users</h3>
-        <p class="mb-3">Using the published rates, the monthly subscription arithmetic is:</p>
-        <ul>
-          {% for plan in priced_plans %}
-          <li><strong>Fraction {{ plan.name }}: £{{ plan.price | times: 5 }}/month</strong> for five standard users, with SFDC users included.</li>
-          {% endfor %}
-          <li><strong>Statii: £372.50/month</strong> for five main users and ten shop-floor users.</li>
-        </ul>
-        <p>This is an illustration, not a like-for-like feature match or a full project quotation. Check that the user roles cover the same tasks. Confirm applicable VAT, minimum-user terms, setup, data migration and any additional services with both suppliers.</p>
+        <h3>Match the plan before comparing prices</h3>
+        <p>Fraction Core includes the main order, MRP, scheduling, SFDC and NCR workflows. Advanced adds certificates of conformance and serial traceability; Pro adds batch traceability, SOPs, training logs and inspection reports. Statii's main-user price is advertised for all its features. The columns below therefore compare subscriptions, not identical feature sets.</p>
+      </div>
+      <div class="table-responsive mt-4" role="region" aria-label="Monthly subscription examples by team size" tabindex="0">
+        <table class="table table-bordered bg-white mb-0" style="min-width: 700px;">
+          <caption>Monthly subscription examples, excluding VAT and optional services. Fraction columns use its current plan prices; Statii totals use the public calculator's licence and user rates checked on {{ statii_pricing.checked_on | date: "%d %B %Y" }}.</caption>
+          <thead class="table-light"><tr>
+            <th scope="col">Team</th>
+            {% for plan in priced_plans %}<th scope="col">Fraction {{ plan.name }}</th>{% endfor %}
+            <th scope="col">Statii calculator</th>
+          </tr></thead>
+          <tbody>
+            {% for team in site.data.statii_comparison.team_examples %}
+            {% assign statii_main_total = statii_pricing.main_user_pence | times: team.main_users %}
+            {% assign statii_floor_total = statii_pricing.shop_floor_user_pence | times: team.shop_floor_users %}
+            {% assign statii_total = statii_pricing.system_licence_pence | plus: statii_main_total | plus: statii_floor_total %}
+            <tr>
+              <th scope="row">{{ team.main_users }} office + {{ team.shop_floor_users }} shop-floor users</th>
+              {% for plan in priced_plans %}<td>£{{ plan.price | times: team.main_users }}</td>{% endfor %}
+              <td>{% include gbp-price.html pence=statii_total %}</td>
+            </tr>
+            {% endfor %}
+          </tbody>
+        </table>
+      </div>
+      <div class="feature-info-card mt-4">
+        <h3>The working behind the five-plus-ten example</h3>
+        {% assign example_main_total = statii_pricing.main_user_pence | times: 5 %}
+        {% assign example_floor_total = statii_pricing.shop_floor_user_pence | times: 10 %}
+        {% assign example_total = statii_pricing.system_licence_pence | plus: example_main_total | plus: example_floor_total %}
+        <p>Statii's calculator gives {% include gbp-price.html pence=statii_pricing.system_licence_pence %} + (5 × {% include gbp-price.html pence=statii_pricing.main_user_pence %}) + (10 × {% include gbp-price.html pence=statii_pricing.shop_floor_user_pence %}) = <strong>{% include gbp-price.html pence=example_total %}/month</strong>. Adding the user charges alone would omit the system licence.</p>
+        <p class="mt-3">There is no universal cheapest option. For five office users and no shop-floor users, Fraction Pro is higher than the Statii calculator total in the table. Select the required features and roles before comparing the cost.</p>
+        <p class="mt-3">These figures cover subscriptions. Compare onboarding scope, on-site visits, migration and optional services separately. Fraction's <a href="{{ '/time-and-attendance/' | relative_url }}">Time &amp; Attendance</a> is an optional £3/user/month add-on; included SFDC job-time capture should not be treated as the full attendance package.</p>
       </div>
     </div>
   </section>
@@ -182,7 +218,7 @@ faqs:
         </article>
         <article class="feature-info-card">
           <h3>Keep the Statii evaluation specific too</h3>
-          <p>Statii's published make-to-order focus and broad main-user access may fit your requirements. Test its job workflow, role permissions and reporting using the same examples you give Fraction. Ask Statii to demonstrate any additional requirements outside the scope of this comparison.</p>
+          <p>Statii's <a href="https://www.statii.co.uk/the-statii-name">published history</a> dates its commercial launch to 2012 and describes its manufacturing founders. Its make-to-order focus, broad main-user access and Liite quoting option may fit your requirements. Test the workflows and any additional requirements using the same examples you give Fraction.</p>
         </article>
       </div>
     </div>
@@ -234,8 +270,13 @@ faqs:
     <div class="container">
       <div class="row justify-content-center"><div class="col-lg-9">
         <h2 style="color: #37517e;">Sources and review date</h2>
-        <p>Reviewed on <time datetime="2026-10-23">23 October 2026</time>. Statii claims were checked against its own product pages, linked beside the relevant statements above. Key references are its <a href="https://www.statii.co.uk/">product overview</a>, <a href="https://www.statii.co.uk/pricing">published pricing</a>, <a href="https://www.statii.co.uk/scheduling">scheduler</a>, <a href="https://www.statii.co.uk/sfdc">SFDC</a>, <a href="https://www.statii.co.uk/quality-control-software-manufacturing">quality management</a> and <a href="https://www.statii.co.uk/accounts-integration">accounts integration</a>.</p>
+        <p>Reviewed on <time datetime="2026-10-24">24 October 2026</time>. Statii claims were checked against its own product pages, linked beside the relevant statements above. Key references are its <a href="https://www.statii.co.uk/">product overview</a>, <a href="https://www.statii.co.uk/pricing">pricing and calculator</a>, <a href="https://www.statii.co.uk/scheduling">scheduler</a>, <a href="https://www.statii.co.uk/sfdc">SFDC</a>, <a href="https://www.statii.co.uk/quality-control-software-manufacturing">quality management</a> and <a href="https://www.statii.co.uk/accounts-integration">accounts integration</a>.</p>
+        <details class="mb-3">
+          <summary>How the calculator-based system charge was checked</summary>
+          <p class="mt-2">The publicly served pricing-page code sets <code>LICENSE_FEE = 110.0</code>, <code>PRICE_MAIN = 57.5</code> and <code>PRICE_SFDC = 8.5</code>, and adds all three components to its monthly total. Its quote text also states VAT exclusion and included setup, implementation and training. Confirm current charges and service scope in your Statii quote.</p>
+        </details>
         <p>Fraction's claims can be checked against its <a href="{{ '/features/' | relative_url }}">feature directory</a> and <a href="{{ '/pricing/' | relative_url }}">current plan list</a>. Descriptions are based on published information rather than independent product testing. The demonstration checklist and worked example are Fraction's guidance.</p>
+        <p>For an implementation example, read the <a href="{{ '/case-studies/oiltech/' | relative_url }}">Oiltech Bearings case study</a>. Oiltech is an affiliated manufacturing business that uses Fraction ERP; the case study should be read in that context.</p>
         <p class="mb-0">Published by Fraction ERP, which is not affiliated with Statii. Product names belong to their respective owners. Confirm current capabilities and commercial terms with each supplier.</p>
       </div></div>
     </div>

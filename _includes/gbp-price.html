@@ -1,0 +1,4 @@
+{%- assign pounds = include.pence | divided_by: 100 -%}
+{%- assign pennies = include.pence | modulo: 100 -%}
+£{{- pounds -}}
+{%- if pennies > 0 -%}.{{- pennies | prepend: '0' | slice: -2, 2 -}}{%- endif -%}

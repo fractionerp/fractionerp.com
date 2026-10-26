@@ -1,0 +1,18 @@
+# Public pricing calculator snapshot, checked without submitting its quote form.
+# calculateCosts adds LICENSE_FEE to both user subtotals; update all rates together.
+pricing:
+  checked_on: "2026-10-24"
+  source_url: https://www.statii.co.uk/pricing
+  system_licence_pence: 11000
+  main_user_pence: 5750
+  shop_floor_user_pence: 850
+
+team_examples:
+  - main_users: 2
+    shop_floor_users: 0
+  - main_users: 2
+    shop_floor_users: 6
+  - main_users: 5
+    shop_floor_users: 0
+  - main_users: 5
+    shop_floor_users: 10
