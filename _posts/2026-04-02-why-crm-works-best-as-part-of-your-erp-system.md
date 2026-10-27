@@ -1,6 +1,6 @@
 ---
 layout: post
-last_modified_at: 2026-10-16
+last_modified_at: 2026-10-27
 title: "Why a CRM System Works Best as Part of Your ERP System"
 date: 2026-04-02 10:00:00 +0000
 description: "Discover why having CRM built into your ERP system reduces duplication, improves visibility and creates a better customer experience for manufacturers."
@@ -110,7 +110,7 @@ You can look beyond simple sales activity and understand the wider picture, such
 
 That helps leaders make better decisions based on joined-up information, not isolated snapshots.
 
-For a practical review of order intake, quote conversion and customer trends, explore our [manufacturing sales analytics guide]({{ '/manufacturing-sales-analytics/' | relative_url }}). Fraction ERP Sales Analytics is in development; the guide explains useful measures to consider when reviewing commercial performance.
+For a practical review of order intake, quote conversion and customer trends, explore our [manufacturing sales analytics guide]({{ '/manufacturing-sales-analytics/' | relative_url }}). Fraction ERP Sales Analytics is available on the Pro plan; the guide explains useful measures to consider when reviewing commercial performance.
 
 ### 6. Improved customer experience
 

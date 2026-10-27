@@ -73,7 +73,7 @@ health_safety:
   - title: COSHH Register
     url: /health-safety-software/#coshh-register
     icon: fa fa-1x fa-flask
-    description: Coming soon - organise COSHH substance records alongside operational ERP data.
+    description: Organise COSHH substance records alongside operational ERP data. Available on the Pro plan.
 
 business:
   - title: Shipping
@@ -111,7 +111,7 @@ company_performance:
   - title: Sales Analytics
     url: /manufacturing-sales-analytics/
     icon: fa-solid fa-chart-line
-    description: In development. Explore manufacturing sales measures, customer trends and order intake analysis.
+    description: Explore manufacturing sales measures, customer trends and order intake analysis. Available on the Pro plan.
   - title: Intelligence Centre
     url: /ai-in-erp/
     icon: fa fa-1x fa-magnifying-glass-chart

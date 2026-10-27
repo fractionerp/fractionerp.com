@@ -1,6 +1,6 @@
 ---
 layout: post
-last_modified_at: 2026-10-16
+last_modified_at: 2026-10-27
 title: "Focus on your dashboard for results!"
 date: 2026-08-24 05:32:00 +0000
 description: "Use your ERP dashboard and leading indicators to make better decisions, improve delivery performance, and keep your team focused on the data that matters."
@@ -37,7 +37,7 @@ Some examples from Fraction ERP’s dashboard include:
 
 ## Pull this together with your team
 
-Alongside the daily operational exceptions, review the commercial picture. Our [manufacturing sales KPIs and analytics guide]({{ '/manufacturing-sales-analytics/' | relative_url }}) explains order intake, quote conversion and customer trends, and how they relate to the work entering production. Fraction ERP Sales Analytics is in development.
+Alongside the daily operational exceptions, review the commercial picture. Our [manufacturing sales KPIs and analytics guide]({{ '/manufacturing-sales-analytics/' | relative_url }}) explains order intake, quote conversion and customer trends, and how they relate to the work entering production. Fraction ERP Sales Analytics is available on the Pro plan.
 
 So, whether you are using Fraction ERP or not, please use your ERP data to keep track of all the key numbers in your business.
 

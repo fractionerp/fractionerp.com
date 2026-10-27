@@ -39,11 +39,11 @@ Multi-factor authentication (MFA) is available in Fraction ERP and included with
 - [Production Scheduling Software](https://fractionerp.com/production-scheduling-software/): Drag-and-drop scheduling with workcentre and operator capacity
 - [Shop Floor Data Capture](https://fractionerp.com/shopfloor-data-capture-software/): Real-time tracking of production on the shop floor
 - [Bill of Materials Software](https://fractionerp.com/bill-of-materials-software/): BOM creation, templating, and version management
-- [Health and Safety Software](https://fractionerp.com/health-safety-software/): Health and safety records inside manufacturing ERP, starting with workplace risk assessments
-- [Risk Assessment Software](https://fractionerp.com/risk-assessment-software/): Workplace risk assessments for manufacturers, with COSHH register support planned
+- [Health and Safety Software](https://fractionerp.com/health-safety-software/): Workplace risk assessments and COSHH Register, available on the Pro plan
+- [Risk Assessment Software](https://fractionerp.com/risk-assessment-software/): Workplace risk assessments for manufacturers, alongside the available COSHH Register
 - [Visitor Registration](https://fractionerp.com/visitor-kiosk/): Account-free tablet or desktop visitor sign-in with custom declarations, badge printing, clock-out, live dashboard visibility and host arrival emails
 - [Sales Order Management](https://fractionerp.com/sales-order-management-software/): Quote-to-invoice workflow
-- [Manufacturing Sales Analytics](https://fractionerp.com/manufacturing-sales-analytics/): Guide to order intake, quote conversion and customer sales trends; Fraction ERP Sales Analytics is in development
+- [Manufacturing Sales Analytics](https://fractionerp.com/manufacturing-sales-analytics/): Sales Analytics is available on the Pro plan; the guide explains order intake, quote conversion and customer sales trends
 - [Purchasing and Inventory](https://fractionerp.com/purchasing-inventory-software/): Purchase orders, stock control, reorder points
 - [Parts and Inventory](https://fractionerp.com/parts-and-inventory/): Part records, stock transactions, FIFO stock management and batch expiry dates
 - [Serial and Batch Traceability](https://fractionerp.com/traceability/): Serial numbers, batches and supplier lots through production and shipment, with first-in, first-out (FIFO) stock rotation and expiry dates on batch records
@@ -58,13 +58,13 @@ Multi-factor authentication (MFA) is available in Fraction ERP and included with
 - [Ecommerce Integrations](https://fractionerp.com/ecommerce-integrations/): Ecommerce and Bluepark integration for spare parts and custom parts sales
 - [API and Data Integrations](https://fractionerp.com/api-integrations/): Power BI, Zapier, Excel, Python and REST API workflows
 
-## Manufacturing Sales Analytics — In Development
+## Manufacturing Sales Analytics
 
 [Manufacturing Sales Analytics](https://fractionerp.com/manufacturing-sales-analytics/) is the pillar page for manufacturing sales KPIs, order intake, open order books, invoiced sales, quote-to-order conversion, customer trends and customer concentration.
 
-The public product name is **Sales Analytics**. The new module is in development and is listed under the [Pro plan](https://fractionerp.com/pricing/). The page explains useful sales measures; it is not a confirmed list of released features. Confirm release timing and final scope with [Fraction ERP](https://fractionerp.com/contact/).
+The public product name is **Sales Analytics**. The module is released and available on the [Pro plan](https://fractionerp.com/pricing/). The page also explains useful sales measures and how to review manufacturing sales performance. [Book a demo](https://fractionerp.com/book-a-demo/) to see the module and discuss specific reporting requirements.
 
-Related current tools include [manufacturing CRM](https://fractionerp.com/crm/), [sales order management](https://fractionerp.com/sales-order-management-software/), [manufacturing reports](https://fractionerp.com/reports/) and [ERP dashboards](https://fractionerp.com/erp-dashboard/). Sales Analytics should not be described as an already available module or as a replacement for these tools.
+Related tools include [manufacturing CRM](https://fractionerp.com/crm/), [sales order management](https://fractionerp.com/sales-order-management-software/), [manufacturing reports](https://fractionerp.com/reports/) and [ERP dashboards](https://fractionerp.com/erp-dashboard/). Sales Analytics complements these tools.
 
 ## Industries
 

@@ -409,12 +409,12 @@ sop-software:
   cta_image: "/assets/img/V3-production-tracking.webp"
 health-safety-software:
   h1: Health and Safety Software for Manufacturing ERP
-  intro: Manage practical health and safety records inside Fraction ERP, starting
-    with workplace risk assessments for SME manufacturing teams.
+  intro: Manage workplace risk assessments and COSHH records inside Fraction ERP
+    for SME manufacturing teams.
   bullets:
   - Create and maintain workplace risk assessments
   - Keep safety records close to people, processes and operations
-  - COSHH register support is planned as the next health and safety module
+  - Organise COSHH substance records with the Pro plan
   metric_cards:
   - label: Outstanding training
     value: Open
@@ -439,9 +439,8 @@ health-safety-software:
       the people responsible for keeping work controlled.
   - id: coshh-register
     title: COSHH register
-    text: COSHH register support is coming soon, giving manufacturers a place to
-      organise substance records and chemical safety information alongside operational
-      ERP data.
+    text: The COSHH Register is available on the Pro plan. Organise substance records
+      and chemical safety information alongside operational ERP data.
   - title: A practical SME approach
     text: This is not positioned as a full enterprise EHS suite. It is a practical
       health and safety layer for manufacturers who want fewer spreadsheets and
@@ -466,7 +465,7 @@ health-safety-software:
   - title: User Management
     url: "/user-management/"
   cta_title: Bring Health and Safety Records Into ERP
-  cta_text: See how Fraction ERP can support risk assessments and future COSHH records
+  cta_text: See how Fraction ERP supports risk assessments and COSHH records
     alongside your manufacturing workflows.
 risk-assessment-software:
   h1: Workplace Risk Assessment Software for Manufacturers
@@ -500,8 +499,8 @@ risk-assessment-software:
     text: Use risk assessments for shop floor areas, stores, production activities,
       maintenance tasks and other workplace processes.
   - title: Part of a wider safety category
-    text: Risk assessments are the first module in the Health and Safety category,
-      with COSHH register support planned next.
+    text: Risk assessments and the COSHH Register are available in the Health and
+      Safety category on the Pro plan.
   screenshots:
   - image: "/assets/img/dashboard-overview.webp"
     title: Risk visibility

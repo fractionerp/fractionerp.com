@@ -73,9 +73,9 @@ plans:
       - Employee Reviews
       - Visitor Registration
       - Intelligence Centre
-      - Sales Analytics|*
+      - Sales Analytics
       - Risk Assessments
-      - COSHH Register|*
+      - COSHH Register
       - Bar Stock Management
 
   - name: Moulding Edition
