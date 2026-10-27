@@ -183,9 +183,10 @@ Key Statii sources: https://www.statii.co.uk/pricing, https://www.statii.co.uk/s
 
 ## Fitfactory Comparison Scope
 
-The Fraction ERP vs Fitfactory page compares Fraction with capabilities that Fitfactory currently publishes for Tricorn MRP and its MES modules. It distinguishes those current products from the separately named Fitfactory ERP page, which Fitfactory labels "Coming Soon". The comparison does not estimate Fitfactory pricing or present roadmap functionality as available. It directs buyers to compare written scope and total-cost proposals using the same real manufacturing workflow.
+The Fraction ERP vs Fitfactory page compares Fraction with Fitfactory ERP, Tricorn MRP and Fitfactory MES, reviewed on 27 October 2026. Fitfactory ERP is available as a browser-based cloud platform connecting sales, production, inventory, purchasing and quality. Tricorn offers cloud or on-premise deployment; MES covers scheduling, shop-floor data and machine monitoring. These are distinct products and module scopes should be confirmed in each proposal. The comparison does not estimate Fitfactory pricing. Training inclusions vary across its published offers, so compare written scope and total-cost proposals using the same real manufacturing workflow.
 
 Comparison page: https://fractionerp.com/fitfactory-alternative/
+Fitfactory ERP source: https://www.fitfactory.com/erp
 
 ## Manufacturing ERP Assessment: Should You Buy an ERP?
 

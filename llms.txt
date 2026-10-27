@@ -79,7 +79,7 @@ Related current tools include [manufacturing CRM](https://fractionerp.com/crm/),
 - [Fraction ERP vs Statii](https://fractionerp.com/statii-alternative/): Supplier-sourced comparison of manufacturing workflows, calculator-based subscription costs including the system licence, onboarding and contract terms; reviewed 24 October 2026
 - [Fraction ERP vs MRPeasy](https://fractionerp.com/mrpeasy-alternative/): MRPeasy alternative comparison
 - [Fraction ERP vs EMAX](https://fractionerp.com/emax-alternative/): EMAX Systems alternative comparison
-- [Fraction ERP vs Fitfactory](https://fractionerp.com/fitfactory-alternative/): Evidence-led comparison with Tricorn MRP and Fitfactory MES, including deployment, scheduling, SFDC and machine monitoring
+- [Fraction ERP vs Fitfactory](https://fractionerp.com/fitfactory-alternative/): Supplier-sourced comparison with the available Fitfactory ERP platform, Tricorn MRP and Fitfactory MES, including deployment, scheduling, SFDC and machine monitoring; reviewed 27 October 2026
 
 ## Educational Resources
 
