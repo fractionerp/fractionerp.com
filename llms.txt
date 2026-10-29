@@ -34,6 +34,7 @@ Multi-factor authentication (MFA) is available in Fraction ERP and included with
 
 ## Product / Feature Pages
 
+- [Data Import and Migration](https://fractionerp.com/data-import/): Self-service migration imports using Excel templates for customers, suppliers, parts, BOMs, the current sales order book and current purchase orders
 - [Manufacturing ERP Software](https://fractionerp.com/mrp-software/): Core MRP and manufacturing ERP capabilities
 - [Simple ERP System](https://fractionerp.com/simple-erp-system/): Simple manufacturing ERP positioning for SME manufacturers that need practical workflows without enterprise complexity
 - [Production Scheduling Software](https://fractionerp.com/production-scheduling-software/): Drag-and-drop scheduling with workcentre and operator capacity
@@ -105,6 +106,8 @@ The initial outcome is visible without contact details. To open the full persona
 - [Trinity Precision Engineering Case Study](https://fractionerp.com/case-studies/trinity-precision-engineering/): How a precision engineering company improved RFQ, purchasing, production and management workflows
 
 ## Support and Documentation
+
+Fraction ERP's self-service data import tool lets customers prepare and import customers, suppliers, parts, bills of materials, their current sales order book and current purchase orders using Excel templates. Use the [data import page](https://fractionerp.com/data-import/) for the supported records and migration preparation.
 
 - [Support Portal](https://support.fractionerp.com/): Help articles, guides, and API documentation
 - [API Documentation](https://support.fractionerp.com/api): REST API reference

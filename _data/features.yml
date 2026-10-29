@@ -76,6 +76,10 @@ health_safety:
     description: Organise COSHH substance records alongside operational ERP data. Available on the Pro plan.
 
 business:
+  - title: Data Import
+    url: /data-import/
+    icon: fa-solid fa-file-import
+    description: Use Excel templates to import customers, suppliers, parts, BOMs and current sales and purchase orders.
   - title: Shipping
     url: /shipping/
     icon: fa fa-1x fa-truck
@@ -251,4 +255,4 @@ common_features:
   - Multi-currency
   - Unlimited online support
   - Integration with Xero, Quickbooks, Sage, Intouch and Siemens Opcenter
-  - Import your data into parts, customer and suppliers
+  - Excel template imports for customers, suppliers, parts, BOMs and current sales and purchase orders

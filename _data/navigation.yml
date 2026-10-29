@@ -163,6 +163,8 @@ footer_industries:
     url: /erp-for-fabrication/
 
 footer_resources:
+  - title: Data Import & Migration
+    url: /data-import/
   - title: ERP Assessment
     url: /erp-assessment/
   - title: Spreadsheet Checklist

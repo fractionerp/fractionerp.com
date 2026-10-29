@@ -13,6 +13,9 @@
 - question: Is implementation going to take months, like a big ERP rollout?
   answer: No. Fraction ERP is designed to avoid the long, expensive implementations associated with traditional enterprise systems. Most customers are up and running in weeks, not months.
 
+- question: Can we import our existing data?
+  answer: Yes. Fraction ERP's self-service data import tool uses Excel templates to import customers, suppliers, parts, bills of materials, your current sales order book and current purchase orders.
+
 - question: We're a small business — is a full ERP system overkill for us?
   answer: If you're already relying on spreadsheets to track quotes, jobs, stock, or purchasing, you've already outgrown "no system" — the question is whether you want structure without the complexity. That's exactly what Fraction is built for.
 

@@ -1,0 +1,151 @@
+---
+layout: default
+permalink: /data-import/
+title: "Excel Data Import for ERP Migration | Fraction ERP"
+description: "Import customers, suppliers, parts, BOMs and current sales and purchase orders into Fraction ERP using our self-service tool and Excel templates."
+last_modified_at: 2026-10-29
+image: /assets/img/dashboard-overview.webp
+---
+
+<main id="main" class="feature-page" style="min-width: 0;">
+  <section class="feature-hero">
+    <div class="container">
+      <div class="feature-hero-grid">
+        <div class="feature-hero-copy" data-aos="fade-up">
+          <h1>Bring your existing data into Fraction ERP</h1>
+          <p>Prepare your migration with a self-service data import tool and Excel templates.</p>
+          <p>{{ site.data.data_import.summary }}</p>
+          <div class="feature-hero-actions">
+            <a class="feature-primary-btn" href="{{ '/book-a-demo/' | relative_url }}">Discuss Importing Your Data</a>
+            <a class="feature-secondary-btn scrollto" href="#supported-records">See What You Can Import</a>
+          </div>
+        </div>
+        <aside class="feature-hero-media" data-aos="fade-up" data-aos-delay="100" aria-labelledby="import-records-title">
+          <div class="feature-hero-panel">
+            <h2 id="import-records-title">Excel templates for your migration</h2>
+            <ul>
+              {% for record in site.data.data_import.records %}
+              <li{% unless forloop.last %} class="mb-3"{% endunless %}>{{ record.title }}</li>
+              {% endfor %}
+            </ul>
+          </div>
+        </aside>
+      </div>
+    </div>
+  </section>
+
+  <section id="supported-records" class="feature-section">
+    <div class="container">
+      <div class="feature-section-heading">
+        <h2>What can you import?</h2>
+        <p>Bring across the records you need to start working in Fraction ERP, including your current sales and purchasing commitments.</p>
+      </div>
+      <div class="row g-4">
+        {% for record in site.data.data_import.records %}
+        <div class="col-lg-4 col-md-6">
+          <article class="feature-info-card h-100">
+            <i class="bi {{ record.icon }}" aria-hidden="true" style="font-size: 28px; color: #277ea9;"></i>
+            <h3 class="mt-3">{{ record.title }}</h3>
+            <p class="mb-0">{{ record.description }}</p>
+          </article>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+  </section>
+
+  <section id="preparing-your-import" class="feature-section feature-screenshots-section">
+    <div class="container">
+      <div class="feature-section-heading">
+        <h2>Prepare your data for the move</h2>
+        <p>Use the import templates as part of a planned changeover from spreadsheets or an existing ERP system.</p>
+      </div>
+      <div class="row g-4">
+        <div class="col-lg-4">
+          <article class="feature-info-card h-100">
+            <h3>1. Gather your existing records</h3>
+            <p>Identify the customers, suppliers, parts, BOMs and current orders you need to carry forward. If you are leaving another ERP system, arrange the exports you need from that supplier.</p>
+          </article>
+        </div>
+        <div class="col-lg-4">
+          <article class="feature-info-card h-100">
+            <h3>2. Prepare the Excel templates</h3>
+            <p>Put your records into the relevant templates. Use this preparation to review your data and make sure it reflects what your team needs at changeover.</p>
+          </article>
+        </div>
+        <div class="col-lg-4">
+          <article class="feature-info-card h-100">
+            <h3>3. Import and review with your team</h3>
+            <p>Use the self-service tool to import your prepared data. Review the imported records with the people who will use them before making the system part of everyday work.</p>
+          </article>
+        </div>
+      </div>
+      <div class="feature-info-card mt-4">
+        <h3>Plan around the work you already have</h3>
+        <p>Your current sales order book and purchase orders matter when changing systems. Include those commitments in your migration preparation so the team can review the work being carried forward.</p>
+        <p class="mb-0">For the wider rollout, use our <a href="{{ '/erp-implementation-guide/' | relative_url }}">ERP implementation guide</a>, or <a href="{{ '/book-a-demo/' | relative_url }}">discuss your migration in a demo</a>.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="faq" class="feature-section">
+    <div class="container">
+      <div class="feature-section-heading"><h2>Data import questions</h2></div>
+      <div class="row justify-content-center">
+        <div class="col-lg-9">
+          {% for faq in site.data.data_import.faqs %}
+          <article class="feature-info-card mb-3">
+            <h3>{{ faq.question }}</h3>
+            <p>{{ faq.answer }}</p>
+          </article>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="feature-related-section">
+    <div class="container">
+      <div class="feature-related">
+        <h2>Plan your move to Fraction ERP</h2>
+        <div class="feature-related-links">
+          <a href="{{ '/replace-excel-manufacturing/' | relative_url }}">Moving from Excel</a>
+          <a href="{{ '/features/' | relative_url }}">Explore Features</a>
+          <a href="{{ '/pricing/' | relative_url }}">Pricing and Support</a>
+          <a href="{{ '/compare-erp/' | relative_url }}">Compare ERP Systems</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta" style="background: #37517e;">
+    <div class="container">
+      <div class="row align-items-center g-4">
+        <div class="col-lg-8 text-center text-lg-start">
+          <h2 style="color: #fff;">Talk through your data migration</h2>
+          <p>Tell us what you use today and which records you need to bring across. We can discuss the Excel templates and your preparation as part of a Fraction ERP demo.</p>
+        </div>
+        <div class="col-lg-4 cta-btn-container text-center">
+          <a class="cta-btn" href="{{ '/book-a-demo/' | relative_url }}">Book a Demo</a>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "@id": "{{ page.url | absolute_url }}#faq",
+  "mainEntity": [
+    {% for faq in site.data.data_import.faqs %}
+    {
+      "@type": "Question",
+      "name": {{ faq.question | jsonify }},
+      "acceptedAnswer": { "@type": "Answer", "text": {{ faq.answer | jsonify }} }
+    }{% unless forloop.last %},{% endunless %}
+    {% endfor %}
+  ]
+}
+</script>

@@ -1,0 +1,31 @@
+summary: Use Excel templates to import customers, suppliers, parts, bills of materials, your current sales order book and current purchase orders with Fraction ERP's self-service data import tool.
+faq_question: Can we import our existing data?
+faq_answer: Yes. Fraction ERP's self-service data import tool uses Excel templates to import customers, suppliers, parts, bills of materials, your current sales order book and current purchase orders.
+records:
+  - title: Customers
+    icon: bi-people
+    description: Bring your existing customer records into Fraction ERP.
+  - title: Suppliers
+    icon: bi-truck
+    description: Import the supplier records used by your purchasing team.
+  - title: Parts
+    icon: bi-box-seam
+    description: Bring across the part records your manufacturing workflows depend on.
+  - title: Bills of materials
+    icon: bi-diagram-3
+    description: Import your existing BOMs as part of preparing for production in Fraction ERP.
+  - title: Current sales order book
+    icon: bi-file-earmark-text
+    description: Carry forward the customer orders you are currently working to fulfil.
+  - title: Current purchase orders
+    icon: bi-cart
+    description: Bring across the purchase orders that are current at changeover.
+faqs:
+  - question: Can we import our data ourselves?
+    answer: Yes. Fraction ERP provides a self-service data import tool using Excel templates, so your team can prepare and import its existing records during migration.
+  - question: Which records can we import?
+    answer: The tool supports customers, suppliers, parts, bills of materials, your current sales order book and current purchase orders, using Excel templates.
+  - question: Can we use data from our existing ERP system?
+    answer: Prepare the records from your existing system in the relevant Excel templates. When planning a switch, confirm how you can export those records from your current supplier and review the data you need to carry forward.
+  - question: Can we bring across our current sales and purchase orders?
+    answer: Yes. The import tool covers your current sales order book and current purchase orders, alongside customers, suppliers, parts and BOMs.

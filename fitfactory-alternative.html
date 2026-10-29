@@ -4,7 +4,7 @@ permalink: /fitfactory-alternative/
 title: "Fraction ERP vs Fitfactory | UK Manufacturing Software"
 description: "Compare Fraction ERP and Fitfactory using verified information on ERP, MRP, MES, deployment, scheduling, shop-floor data and support for UK manufacturers."
 keywords: "Fitfactory alternative, Fraction ERP vs Fitfactory, Tricorn MRP alternative, Fitfactory comparison, manufacturing ERP comparison UK"
-last_modified_at: 2026-10-27
+last_modified_at: 2026-10-29
 image: /assets/img/V3-production-tracking.webp
 ---
 
@@ -223,6 +223,10 @@ image: /assets/img/V3-production-tracking.webp
               <h3 class="accordion-header" id="fitfactoryFaqSix"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#fitfactoryAnswerSix" aria-expanded="false" aria-controls="fitfactoryAnswerSix">Which is better for my factory?</button></h3>
               <div id="fitfactoryAnswerSix" class="accordion-collapse collapse" aria-labelledby="fitfactoryFaqSix" data-bs-parent="#fitfactoryFaq"><div class="accordion-body">That depends on requirements demonstrated against your real workflow. Fitfactory offers cloud ERP, modular MES, direct machine monitoring and on-premise Tricorn deployment options. Fraction offers a connected cloud ERP, published plans and native mobile ERP workflows. Test both with the same jobs and exceptions.</div></div>
             </div>
+            <div class="accordion-item">
+              <h3 class="accordion-header" id="fitfactoryFaqSeven"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#fitfactoryAnswerSeven" aria-expanded="false" aria-controls="fitfactoryAnswerSeven">{{ site.data.data_import.faq_question }}</button></h3>
+              <div id="fitfactoryAnswerSeven" class="accordion-collapse collapse" aria-labelledby="fitfactoryFaqSeven" data-bs-parent="#fitfactoryFaq"><div class="accordion-body">{{ site.data.data_import.faq_answer }} Confirm the exports you need from your current supplier. <a href="{{ '/data-import/' | relative_url }}">See the supported imports and preparation steps</a>.</div></div>
+            </div>
           </div>
         </div>
       </div>
@@ -306,6 +310,11 @@ image: /assets/img/V3-production-tracking.webp
       "@type": "Question",
       "name": "Which is better for my factory?",
       "acceptedAnswer": {"@type": "Answer", "text": "That depends on requirements demonstrated against your real workflow. Fitfactory offers cloud ERP, modular MES, direct machine monitoring and on-premise Tricorn deployment options. Fraction offers a connected cloud ERP, published plans and native mobile ERP workflows. Test both with the same jobs and exceptions."}
+    },
+    {
+      "@type": "Question",
+      "name": {{ site.data.data_import.faq_question | jsonify }},
+      "acceptedAnswer": {"@type": "Answer", "text": {{ site.data.data_import.faq_answer | append: ' Confirm the exports you need from your current supplier.' | jsonify }}}
     }
   ]
 }

@@ -3,7 +3,7 @@ layout: default
 permalink: /statii-alternative/
 title: "Statii Alternative | Fraction ERP vs Statii"
 description: "Compare Fraction ERP and Statii for manufacturing. Review calculator-based costs, plan differences, training, support and published contract terms."
-last_modified_at: 2026-10-24
+last_modified_at: 2026-10-29
 image: /assets/img/V3-production-tracking.webp
 faqs:
   - question: Is Fraction ERP an alternative to Statii?
@@ -20,7 +20,7 @@ faqs:
       No. The result depends on the Fraction plan, user numbers, role permissions and required functionality. Compare the total subscription for the same team, then confirm tax, onboarding, migration and any additional services with each supplier.
   - question: Can we switch from Statii to Fraction ERP?
     answer: >-
-      Start with a data and workflow review. Confirm which records can be exported, their format and any charges, then agree the import scope with Fraction. Validate sample customers, suppliers, parts, stock and open orders before planning a changeover. Migration scope depends on the exportable data and agreed import requirements.
+      Yes. Fraction ERP's self-service import tool uses Excel templates for customers, suppliers, parts, bills of materials, your current sales order book and current purchase orders. Confirm exports and any charges with your current supplier, then prepare and review the records you need for changeover.
 ---
 
 {% assign priced_plans = site.data.pricing.plans | where_exp: "plan", "plan.price != 'custom'" %}
@@ -247,7 +247,8 @@ faqs:
       </div>
       <div class="row justify-content-center">
         <div class="col-lg-8">
-          <p>List the customer, supplier, part, BOM, stock and open-order records you need to carry forward. Confirm export formats and any charges with your current supplier, then agree the import scope with Fraction. Decide how completed-job history and supporting documents will remain accessible.</p>
+          <p>{{ site.data.data_import.summary }} <a href="{{ '/data-import/' | relative_url }}">See the supported imports and preparation steps</a>.</p>
+          <p>Confirm export formats and any charges with your current supplier. Include opening stock in your preparation, and decide how completed-job history and supporting documents will remain accessible.</p>
           <p>Validate sample records, opening balances and a representative order before planning the changeover. Include the people who quote, buy, schedule and book production in that review.</p>
           <p class="mb-0">Use our <a href="{{ '/erp-implementation-guide/' | relative_url }}">ERP implementation guide</a> to structure the preparation, or <a href="{{ '/contact/' | relative_url }}">discuss your migration requirements</a> with the team.</p>
         </div>
