@@ -50,6 +50,8 @@ plans:
       - Production KPIs
       - Calibration Log
       - Serial Traceability
+      - Batch Traceability
+      - RFQ's for purchasing
       - Whiteboard
 
   - name: Pro
@@ -60,10 +62,8 @@ plans:
     period: per user/month
     inherits_label: "All advanced features plus:"
     features:
-      - Batch Traceability
       - SOPs
       - Customer Returns
-      - RFQ's for purchasing
       - Inspection Reports
       - Contract Review
       - API Integration
