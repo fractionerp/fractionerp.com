@@ -1,0 +1,22 @@
+<section class="ai-assistant-promo{% if include.launch %} ai-assistant-promo-launch{% endif %}" aria-label="Fraction ERP AI assistant">
+  <div class="container">
+    <div class="ai-assistant-promo-grid">
+      <div>
+        <p class="ai-assistant-eyebrow"><i class="bi bi-stars" aria-hidden="true"></i> New in Fraction ERP</p>
+        <h2>{{ include.title | default: 'Meet the AI assistant inside Fraction.' }}</h2>
+        <p>{{ site.data.ai_assistant.summary }}</p>
+        <p class="ai-assistant-allowance">{{ site.data.ai_assistant.allowance }}</p>
+        <a class="ai-assistant-link" href="{{ site.data.ai_assistant.url | relative_url }}">Explore the AI assistant <i class="bi bi-arrow-right" aria-hidden="true"></i></a>
+      </div>
+      {% if include.launch %}
+      <div class="ai-assistant-allowance-card">
+        <i class="bi bi-chat-dots" aria-hidden="true"></i>
+        <strong>{{ site.data.ai_assistant.monthly_free_messages }}</strong>
+        <span>free messages per month</span>
+        <p>Per customer. Every plan.</p>
+        <a href="{{ '/book-a-demo/' | relative_url }}">See it in a demo <i class="bi bi-arrow-right" aria-hidden="true"></i></a>
+      </div>
+      {% endif %}
+    </div>
+  </div>
+</section>

@@ -76,6 +76,10 @@ health_safety:
     description: Organise COSHH substance records alongside operational ERP data. Available on the Pro plan.
 
 business:
+  - title: AI Assistant
+    url: /ai-assistant/
+    icon: fa-solid fa-comments
+    description: AI assistance inside Fraction ERP, included on every plan with 100 free messages per month per customer.
   - title: Data Import
     url: /data-import/
     icon: fa-solid fa-file-import

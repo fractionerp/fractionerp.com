@@ -1,8 +1,8 @@
 ---
 layout: page
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-14
 title: "Manufacturing ERP Pricing | Fraction ERP"
-description: "Simple, scalable pricing for modern manufacturers. Start with a complete ERP system, then expand as you grow."
+description: "Compare Fraction ERP plans for manufacturers. Every plan includes an AI assistant with 100 free messages per month per customer."
 keywords: "ERP pricing, manufacturing ERP cost, MRP software pricing, cloud ERP pricing, ERP for small business"
 redirect_from:
   - /cloud-erp-software/pricing/
@@ -21,6 +21,8 @@ image: /assets/img/V3-production-tracking.webp
     </div>
   </section>
 </section>
+
+{% include ai-assistant-promo.html title="AI assistance comes with every plan." %}
 
 <!-- ======= Pricing Cards ======= -->
 <section id="pricing" style="padding: 40px 0 50px; background: #f8f9fa;">
@@ -187,6 +189,12 @@ image: /assets/img/V3-production-tracking.webp
     <div class="row justify-content-center">
       <div class="col-lg-10">
         <div class="row g-3">
+          <div class="col-md-6">
+            <div style="display: flex; align-items: flex-start; gap: 10px; padding: 10px 0;">
+              <i class="bi bi-check-circle-fill" style="color: #4caf50; font-size: 18px; flex-shrink: 0; margin-top: 2px;" aria-hidden="true"></i>
+              <span style="font-size: 15px; color: #444;"><a href="{{ site.data.ai_assistant.url | relative_url }}">AI assistant</a> — {{ site.data.ai_assistant.allowance }}</span>
+            </div>
+          </div>
           {% for item in site.data.pricing.subscription_includes %}
           <div class="col-md-6">
             <div style="display: flex; align-items: flex-start; gap: 10px; padding: 10px 0;">

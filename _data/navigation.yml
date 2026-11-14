@@ -17,6 +17,8 @@ main:
         url: /shopfloor-data-capture-software/
       - title: Time & Attendance
         url: /time-and-attendance/
+      - title: AI Assistant — Free on Every Plan
+        url: /ai-assistant/
       - title: ERP Intelligence Centre
         url: /ai-in-erp/
       - title: Sales Order Management
@@ -127,6 +129,8 @@ footer_erp_core:
     url: /cloud-erp-software/
 
 footer_erp_specialist:
+  - title: AI Assistant
+    url: /ai-assistant/
   - title: ERP Intelligence Centre
     url: /ai-in-erp/
   - title: Bar Stock Management

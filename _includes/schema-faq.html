@@ -4,6 +4,11 @@
   "@context": "https://schema.org",
   "@type": "FAQPage",
   "mainEntity": [
+    {
+      "@type": "Question",
+      "name": {{ site.data.ai_assistant.faqs[0].question | jsonify }},
+      "acceptedAnswer": { "@type": "Answer", "text": {{ site.data.ai_assistant.faqs[0].answer | jsonify }} }
+    },
     {% for item in site.data.faq %}
     {
       "@type": "Question",

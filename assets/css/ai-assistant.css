@@ -1,0 +1,149 @@
+/* AI assistant launch and shared feature promotion */
+.ai-assistant-promo {
+  padding: 44px 0;
+  background: #eef7fb;
+  color: #37517e;
+}
+
+.ai-assistant-promo-grid {
+  padding: 30px;
+  border: 1px solid #c6ddea;
+  border-radius: 18px;
+  background: #fff;
+}
+
+.ai-assistant-eyebrow,
+.feature-hero-copy p.ai-assistant-eyebrow {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 0 0 14px;
+  color: #277ea9;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 1.4px;
+  text-transform: uppercase;
+}
+
+.ai-assistant-promo h2 {
+  color: #37517e;
+  font-size: clamp(26px, 3vw, 36px);
+  font-weight: 700;
+}
+
+.ai-assistant-promo p {
+  max-width: 680px;
+  line-height: 1.7;
+}
+
+.ai-assistant-allowance {
+  font-weight: 600;
+}
+
+.ai-assistant-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  color: #277ea9;
+  font-weight: 600;
+}
+
+.ai-assistant-promo-launch {
+  background: linear-gradient(135deg, #eff8fc, #f8f9fa);
+  padding: 64px 0;
+}
+
+.ai-assistant-promo-launch .ai-assistant-promo-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1.5fr) minmax(0, 1fr);
+  align-items: center;
+  gap: 40px;
+  padding: 40px;
+  box-shadow: 0 14px 40px rgba(55, 81, 126, 0.08);
+}
+
+.ai-assistant-allowance-card {
+  padding: 36px 24px;
+  border-radius: 16px;
+  background: linear-gradient(145deg, #37517e, #233756);
+  color: #fff;
+  text-align: center;
+}
+
+.ai-assistant-allowance-card > i {
+  display: block;
+  color: #7fd5fb;
+  font-size: 30px;
+}
+
+.ai-assistant-allowance-card > strong {
+  display: block;
+  font-family: 'Jost', sans-serif;
+  font-size: clamp(64px, 8vw, 100px);
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.ai-assistant-allowance-card > span {
+  display: block;
+  font-size: 20px;
+}
+
+.ai-assistant-allowance-card p {
+  margin: 12px 0 20px;
+  color: #dae7f5;
+  font-size: 15px;
+}
+
+.ai-assistant-allowance-card a {
+  color: #a6e2fc;
+  font-weight: 600;
+}
+
+.ai-assistant-plan-list {
+  border-top: 1px solid rgba(255, 255, 255, 0.25);
+  padding-top: 18px;
+  font-size: 14px;
+  line-height: 1.8;
+}
+
+.hero-ai-announcement {
+  margin: 20px 0 0;
+  padding: 12px 16px;
+  border: 1px solid rgba(127, 213, 251, 0.4);
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.hero-ai-announcement a {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.hero-ai-announcement a:hover {
+  color: #a6e2fc;
+}
+
+.hero-ai-announcement small {
+  display: block;
+  margin-top: 4px;
+  color: #d4e6f5;
+  font-size: 12px;
+}
+
+@media (max-width: 767px) {
+  .ai-assistant-promo-launch .ai-assistant-promo-grid {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 24px;
+    padding: 24px;
+  }
+
+  .ai-assistant-promo-grid {
+    padding: 24px;
+  }
+
+  .ai-assistant-promo-launch {
+    padding: 40px 0;
+  }
+}

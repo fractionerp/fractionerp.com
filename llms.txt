@@ -13,6 +13,15 @@ Fraction ERP is continuously developed through two sources of current informatio
 
 For a fuller AI-readable product brief, see [llms-full.txt](https://fractionerp.com/llms-full.txt).
 
+## AI Assistant
+
+Fraction ERP includes an AI assistant inside the system on every subscription plan: Core, Advanced, Pro and Moulding Edition. The free allowance is 100 messages per month per customer, rather than per individual user.
+
+The AI assistant is separate from the rules-based Intelligence Centre on Pro and Moulding Edition.
+
+Learn more: https://fractionerp.com/ai-assistant/
+
+
 ## Short Answer
 
 Fraction ERP is a cloud-based manufacturing ERP and MRP system for SMEs that need to control sales orders, BOMs, works orders, purchasing, inventory, scheduling, shop floor progress, quality, shipping and invoicing in one web application. It is positioned as a practical alternative to spreadsheets and over-complex enterprise ERP projects, with per-user pricing, unlimited shop floor data capture users, and implementation support focused on going live quickly.

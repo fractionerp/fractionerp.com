@@ -1,0 +1,97 @@
+---
+layout: default
+permalink: /ai-assistant/
+title: "AI Assistant for Manufacturing ERP | Free on Every Plan | Fraction ERP"
+description: "Meet the AI assistant inside Fraction ERP. Included on every plan with 100 free messages per month per customer. See it in a demo."
+last_modified_at: 2026-11-14
+---
+
+<main id="main" class="feature-page ai-assistant-page">
+  <section class="feature-hero">
+    <div class="container">
+      <div class="feature-hero-grid">
+        <div class="feature-hero-copy">
+          <p class="ai-assistant-eyebrow"><i class="bi bi-stars" aria-hidden="true"></i> New in Fraction ERP</p>
+          <h1>Your ERP now comes with an AI assistant.</h1>
+          <p>{{ site.data.ai_assistant.summary }} Open the assistant and start a conversation while working in Fraction.</p>
+          <p><strong>{{ site.data.ai_assistant.allowance }}</strong></p>
+          <div class="feature-hero-actions">
+            <a class="feature-primary-btn" href="{{ '/book-a-demo/' | relative_url }}">See the AI Assistant in a Demo</a>
+            <a class="feature-secondary-btn" href="{{ '/pricing/' | relative_url }}">Compare Plans</a>
+          </div>
+        </div>
+        <aside class="ai-assistant-allowance-card" aria-label="Included AI assistant allowance">
+          <i class="bi bi-chat-dots" aria-hidden="true"></i>
+          <strong>{{ site.data.ai_assistant.monthly_free_messages }}</strong>
+          <span>free messages per month</span>
+          <p>Per customer. Every plan.</p>
+          <div class="ai-assistant-plan-list">Core &middot; Advanced &middot; Pro &middot; Moulding Edition</div>
+        </aside>
+      </div>
+    </div>
+  </section>
+
+  <section class="feature-section">
+    <div class="container">
+      <div class="feature-section-heading">
+        <h2>AI assistance, built into Fraction</h2>
+        <p>Available alongside the manufacturing software your team already uses.</p>
+      </div>
+      <div class="row g-4">
+        <div class="col-md-4">
+          <article class="feature-info-card h-100">
+            <h3>Inside your ERP</h3>
+            <p>Start a conversation with the AI assistant within Fraction ERP, where your team manages its day-to-day work.</p>
+          </article>
+        </div>
+        <div class="col-md-4">
+          <article class="feature-info-card h-100">
+            <h3>Included on your plan</h3>
+            <p>The free message allowance comes with Core, Advanced, Pro and Moulding Edition. You can use the assistant on the plan that suits your manufacturing business.</p>
+          </article>
+        </div>
+        <div class="col-md-4">
+          <article class="feature-info-card h-100">
+            <h3>A clear monthly allowance</h3>
+            <p>Each customer receives {{ site.data.ai_assistant.monthly_free_messages }} free messages per month. The allowance is per customer, rather than per individual user.</p>
+          </article>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="ai-assistant-faq" class="feature-section feature-screenshots-section">
+    <div class="container">
+      <div class="feature-section-heading">
+        <h2>AI assistant questions, answered</h2>
+      </div>
+      <div class="feature-card-grid">
+        {% for faq in site.data.ai_assistant.faqs %}
+        <article class="feature-info-card">
+          <h3>{{ faq.question }}</h3>
+          <p>{{ faq.answer }}</p>
+        </article>
+        {% endfor %}
+      </div>
+      <p class="mt-4">Explore the <a href="{{ '/ai-in-erp/' | relative_url }}">Intelligence Centre</a> for rules-based manufacturing exception reporting, or <a href="{{ '/features/' | relative_url }}">see all Fraction ERP features</a>.</p>
+    </div>
+  </section>
+
+  {% include cta.html title="See the AI assistant inside Fraction ERP" text="Book a demo to explore the assistant alongside your sales, production, purchasing and stock workflows. Every plan includes 100 free messages per month per customer." %}
+</main>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {% for faq in site.data.ai_assistant.faqs %}
+    {
+      "@type": "Question",
+      "name": {{ faq.question | jsonify }},
+      "acceptedAnswer": { "@type": "Answer", "text": {{ faq.answer | jsonify }} }
+    }{% unless forloop.last %},{% endunless %}
+    {% endfor %}
+  ]
+}
+</script>

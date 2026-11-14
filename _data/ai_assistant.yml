@@ -1,0 +1,14 @@
+name: AI Assistant
+url: /ai-assistant/
+monthly_free_messages: 100
+summary: Fraction ERP now includes an AI assistant inside the system, available on every plan.
+allowance: 100 free messages per month per customer, included on every plan.
+faqs:
+  - question: Does Fraction ERP include an AI assistant?
+    answer: Yes. Fraction ERP includes an AI assistant inside the system, available on every plan with 100 free messages per month per customer.
+  - question: Is the AI assistant free on every plan?
+    answer: Yes. Core, Advanced, Pro and Moulding Edition all include 100 free AI assistant messages per month per customer.
+  - question: Is the allowance per user or per customer?
+    answer: The free allowance is 100 messages per month per customer, rather than 100 messages for each user.
+  - question: Is the AI assistant the same as the Intelligence Centre?
+    answer: No. The AI assistant is available on every plan with 100 free messages per month per customer. The Intelligence Centre is a separate rules-based feature included with Pro and Moulding Edition.

@@ -18,6 +18,10 @@ layout: default
           <a href="{{ '/book-a-demo/' | relative_url }}" class="btn-get-started">See Fraction in Action</a>
           <a href="{{ '/erp-assessment/' | relative_url }}" class="hero-secondary-link" data-assessment-cta="home_hero">Do you need an ERP? Take the free assessment</a>
         </div>
+        <div class="hero-ai-announcement">
+          <a href="{{ site.data.ai_assistant.url | relative_url }}"><i class="bi bi-stars" aria-hidden="true"></i> New: AI assistant included on every plan <i class="bi bi-arrow-right" aria-hidden="true"></i></a>
+          <small>{{ site.data.ai_assistant.allowance }}</small>
+        </div>
       </div>
       <div class="col-lg-6 order-1 order-lg-2 hero-img">
         <img src="{{ '/assets/img/erp-dashboard-hero.webp' | relative_url }}" class="img-fluid" alt="Fraction ERP dashboard showing real-time manufacturing metrics and KPIs" width="1474" height="1184" loading="eager" fetchpriority="high" style="max-width: 90%;">

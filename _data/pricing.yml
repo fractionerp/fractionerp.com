@@ -7,6 +7,7 @@ plans:
     period: per user/month
     inherits_label: "Core Features"
     features:
+      - AI Assistant
       - Sales Order Management
       - Bill of Materials
       - Parts
@@ -94,6 +95,7 @@ plans:
     industry: true
 
 feature_links:
+  AI Assistant: /ai-assistant/
   Sales Order Management: /sales-order-management-software/
   Bill of Materials: /bill-of-materials-software/
   Parts: /parts-and-inventory/
