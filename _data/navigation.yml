@@ -40,58 +40,32 @@ main:
       - title: Blog
         url: /blog/
 
-# Footer navigation
-footer_erp_core:
-  - title: Manufacturing ERP
-    url: /mrp-software/
-  - title: Simple ERP
-    url: /simple-erp-system/
-  - title: MRP Software
-    url: /what-is-mrp/
-  - title: Sales Order Management
-    url: /sales-order-management-software/
-  - title: Sales Analytics
-    url: /manufacturing-sales-analytics/
-  - title: Bill of Materials
+# Footer navigation. Workflow and case-study links share the main menu data.
+footer_product_features:
+  - title: All features
+    url: /features/
+  - title: Bills of materials
     url: /bill-of-materials-software/
-  - title: Production Scheduling
-    url: /production-scheduling-software/
-  - title: Inventory & Purchasing
-    url: /purchasing-inventory-software/
-  - title: Shop Floor Data Capture
-    url: /shopfloor-data-capture-software/
-  - title: Cloud ERP
-    url: /cloud-erp-software/
-
-footer_erp_specialist:
-  - title: AI Assistant
-    url: /ai-assistant/
-  - title: ERP Intelligence Centre
-    url: /ai-in-erp/
-  - title: Bar Stock Management
+  - title: Bar stock and offcuts
     url: /bar-stock-management-software/
-  - title: Time & Attendance
+  - title: Time and attendance
     url: /time-and-attendance/
+  - title: SOPs and quality procedures
+    url: /sop-software/
+  - title: Customer returns
+    url: /customer-returns/
   - title: Mobile ERP
     url: /mobile-erp/
-  - title: SOP Software
-    url: /sop-software/
-  - title: Health & Safety
+  - title: AI assistant
+    url: /ai-assistant/
+  - title: Intelligence Centre
+    url: /ai-in-erp/
+  - title: Sales analytics
+    url: /manufacturing-sales-analytics/
+  - title: Health and safety
     url: /health-safety-software/
-  - title: Risk Assessments
+  - title: Risk assessments
     url: /risk-assessment-software/
-  - title: Customer Returns
-    url: /customer-returns/
-
-footer_solutions:
-  - title: Replace Excel
-    url: /replace-excel-manufacturing/
-  - title: Production Planning
-    url: /production-scheduling-software/
-  - title: Real-Time Visibility
-    url: /shopfloor-data-capture-software/
-  - title: Best ERP UK
-    url: /best-manufacturing-erp-uk/
 
 footer_industries:
   - title: Injection Moulding
@@ -102,59 +76,43 @@ footer_industries:
     url: /erp-for-fabrication/
 
 footer_resources:
-  - title: All Features
-    url: /features/
-  - title: Demo Video
-    url: /erp-demo-video/
-  - title: ERP Implementation Guide
-    url: /erp-implementation-guide/
-  - title: ERP Workflow
-    url: /erp-manufacturing-workflow/
-  - title: Data Import & Migration
-    url: /data-import/
-  - title: ERP Assessment
+  - title: ERP assessment
     url: /erp-assessment/
-  - title: Spreadsheet Checklist
-    url: /spreadsheet-readiness-checklist/
-  - title: ERP Warning Signs
-    url: /erp-failing-signs-checklist/
-  - title: What is MRP?
-    url: /what-is-mrp/
+  - title: Demo video
+    url: /erp-demo-video/
+  - title: Implementation guide
+    url: /erp-implementation-guide/
   - title: MRP vs ERP
     url: /mrp-vs-erp/
+  - title: ERP warning signs
+    url: /erp-failing-signs-checklist/
+  - title: Spreadsheet checklist
+    url: /spreadsheet-readiness-checklist/
+  - title: Manufacturing workflow
+    url: /erp-manufacturing-workflow/
+  - title: Data import and migration
+    url: /data-import/
+  - title: What is MRP?
+    url: /what-is-mrp/
   - title: MRP in Excel
     url: /mrp-in-excel/
-  - title: Case Studies
-    url: /case-studies/
   - title: Blog
     url: /blog/
 
 footer_compare:
-  - title: ERP Comparisons
+  - title: All comparisons
     url: /compare-erp/
-  - title: Statii Alternative
-    url: /statii-alternative/
-  - title: MRPeasy Alternative
+  - title: MRPeasy alternative
     url: /mrpeasy-alternative/
-  - title: EMAX Alternative
-    url: /emax-alternative/
-  - title: Fitfactory Alternative
+  - title: Fitfactory alternative
     url: /fitfactory-alternative/
-
-footer_company:
-  - title: About Us
-    url: /about/
-  - title: Pricing
-    url: /pricing/
-  - title: Contact
-    url: /contact/
-  - title: Privacy Policy
-    url: /privacy/
-  - title: Terms of Service
-    url: /terms/
+  - title: EMAX alternative
+    url: /emax-alternative/
+  - title: Statii alternative
+    url: /statii-alternative/
 
 footer_integrations:
-  - title: All Integrations
+  - title: All integrations
     url: /integrations/
   - title: Accounting
     url: /accounting-integrations/
@@ -162,5 +120,35 @@ footer_integrations:
     url: /ecommerce-integrations/
   - title: Manufacturing
     url: /manufacturing-integrations/
-  - title: API & Data
+  - title: API and data
     url: /api-integrations/
+
+footer_company:
+  - title: About
+    url: /about/
+  - title: Pricing
+    url: /pricing/
+  - title: Contact
+    url: /contact/
+  - title: Log in
+    app: true
+  - title: Privacy
+    url: /privacy/
+  - title: Terms
+    url: /terms/
+
+footer_seo:
+  - title: Replace Excel
+    url: /replace-excel-manufacturing/
+  - title: Manufacturing ERP
+    url: /mrp-software/
+  - title: Simple ERP
+    url: /simple-erp-system/
+  - title: Cloud ERP
+    url: /cloud-erp-software/
+  - title: Best ERP UK
+    url: /best-manufacturing-erp-uk/
+  - title: Production planning
+    url: /production-scheduling-software/
+  - title: Real-time visibility
+    url: /shopfloor-data-capture-software/

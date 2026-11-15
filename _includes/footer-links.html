@@ -1,0 +1,5 @@
+<ul class="footer-link-list{% if include.workflow %} footer-workflow-links{% endif %}">
+  {% for item in include.items %}
+  <li><a href="{% if item.app %}{{ site.app_url }}{% else %}{{ item.url | relative_url }}{% endif %}">{{ item.title }}</a></li>
+  {% endfor %}
+</ul>

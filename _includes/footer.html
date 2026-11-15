@@ -1,99 +1,65 @@
 <!-- ======= Footer ======= -->
 <footer id="footer" role="contentinfo">
-  <div class="footer-top">
-    <div class="container">
-      <div class="row">
-
-        <div class="col-lg-3 col-md-6 footer-links">
-          <h4>ERP Software</h4>
-          <ul>
-            {% for item in site.data.navigation.footer_erp_core %}
-              <li><i class="bx bx-chevron-right" aria-hidden="true"></i> <a href="{{ item.url | relative_url }}">{{ item.title }}</a></li>
-            {% endfor %}
-          </ul>
-
-          <h4 class="mt-4">Features</h4>
-          <ul>
-            {% for item in site.data.navigation.footer_erp_specialist %}
-              <li><i class="bx bx-chevron-right" aria-hidden="true"></i> <a href="{{ item.url | relative_url }}">{{ item.title }}</a></li>
-            {% endfor %}
-          </ul>
-        </div>
-
-        <div class="col-lg-2 col-md-6 footer-links">
-          <h4>Solutions</h4>
-          <ul>
-            {% for item in site.data.navigation.footer_solutions %}
-              <li><i class="bx bx-chevron-right" aria-hidden="true"></i> <a href="{{ item.url | relative_url }}">{{ item.title }}</a></li>
-            {% endfor %}
-          </ul>
-
-          <h4 class="mt-4">Industries</h4>
-          <ul>
-            {% for item in site.data.navigation.footer_industries %}
-              <li><i class="bx bx-chevron-right" aria-hidden="true"></i> <a href="{{ item.url | relative_url }}">{{ item.title }}</a></li>
-            {% endfor %}
-          </ul>
-        </div>
-
-        <div class="col-lg-2 col-md-6 footer-links">
-          <h4>Resources</h4>
-          <ul>
-            {% for item in site.data.navigation.footer_resources %}
-              <li><i class="bx bx-chevron-right" aria-hidden="true"></i> <a href="{{ item.url | relative_url }}"{% if item.external %} target="_blank" rel="noopener noreferrer"{% endif %}>{{ item.title }}{% if item.external %}<span class="visually-hidden">(opens in new tab)</span>{% endif %}</a></li>
-            {% endfor %}
-          </ul>
-          <h4 class="mt-4">Integrations</h4>
-          <ul>
-            {% for item in site.data.navigation.footer_integrations %}
-              <li><i class="bx bx-chevron-right" aria-hidden="true"></i> <a href="{{ item.url | relative_url }}">{{ item.title }}</a></li>
-            {% endfor %}
-          </ul>
-        </div>
-
-        <div class="col-lg-2 col-md-6 footer-links">
-          <h4>Compare</h4>
-          <ul>
-            {% for item in site.data.navigation.footer_compare %}
-              <li><i class="bx bx-chevron-right" aria-hidden="true"></i> <a href="{{ item.url | relative_url }}">{{ item.title }}</a></li>
-            {% endfor %}
-          </ul>
-
-          <h4 class="mt-4">Company</h4>
-          <ul>
-            {% for item in site.data.navigation.footer_company %}
-              <li><i class="bx bx-chevron-right" aria-hidden="true"></i> <a href="{{ item.url | relative_url }}">{{ item.title }}</a></li>
-            {% endfor %}
-          </ul>
-        </div>
-
-        <div class="col-lg-2 col-md-6 offset-lg-1 footer-links">
-          <h4>Connect with Us</h4>
-          <div>
-            {% unless page.footer_phone == false %}
-            <a href="tel:{{ site.phone_link }}" aria-label="Call us at {{ site.phone }}">{{ site.phone }}</a><br><br>
-            {% endunless %}
-            <a href="mailto:{{ site.email }}" aria-label="Email us at {{ site.email }}">{{ site.email }}</a><br>
-          </div>
-          <div>
-            <br>
-            <a href="{{ '/book-a-demo/' | relative_url }}" style="display: inline-block; padding: 8px 24px; background: #47b2e4; color: #fff; border-radius: 50px; font-family: 'Jost', sans-serif; font-weight: 500; font-size: 14px; text-decoration: none;">Book a Demo</a>
-          </div>
-          <div class="social-links mt-4">
-            <a href="{{ site.linkedin }}" class="linkedin" target="_blank" rel="noopener noreferrer" aria-label="Follow Fraction ERP on LinkedIn"><i class="fa-brands fa-linkedin-in" aria-hidden="true"></i></a>
-          </div>
-          <div class="mt-4">
-            <iframe src="https://registry.blockmarktech.com/certificates/a432e1bc-e014-4ed7-a98e-58b6b3528a24/widget/?tooltip_position=top_left&amp;theme=transparent&amp;hover=t" title="Fraction ERP Cyber Essentials certification" style="border:none;height:120px;width:120px;" loading="lazy"></iframe>
-          </div>
-        </div>
-
-      </div>
+  <div class="container">
+    <div class="footer-closing">
+      <p>Bring a real job. We’ll show you how Fraction handles it.</p>
+      <a class="footer-demo-button" href="{{ '/book-a-demo/' | relative_url }}">Book a demo</a>
     </div>
-  </div>
 
-  <div class="container footer-bottom clearfix">
-    <div class="copyright text-center">
-      &copy; Copyright 2026 <strong>Fraction ERP Ltd.</strong> All Rights Reserved. Various trademarks held by their respective owners.
+    {% assign footer_product = site.data.navigation.main | where: "title", "Product" | first %}
+    {% assign footer_customers = site.data.navigation.main | where: "title", "Customers" | first %}
+    {% assign footer_studies = footer_customers.groups | where: "title", "Customer case studies" | first %}
+    <nav class="footer-columns" aria-label="Footer navigation">
+      <div class="footer-column">
+        <h2>Product</h2>
+        {% include footer-links.html items=footer_product.items workflow=true %}
+        <h3>More product features</h3>
+        {% include footer-links.html items=site.data.navigation.footer_product_features %}
+      </div>
+
+      <div class="footer-column">
+        <h2>Customers</h2>
+        <h3>Industries</h3>
+        {% include footer-links.html items=site.data.navigation.footer_industries %}
+        <h3>Case studies</h3>
+        {% include footer-links.html items=footer_studies.items %}
+      </div>
+
+      <div class="footer-column">
+        <h2>Resources</h2>
+        {% include footer-links.html items=site.data.navigation.footer_resources %}
+      </div>
+
+      <div class="footer-column">
+        <h2>Compare and connect</h2>
+        {% include footer-links.html items=site.data.navigation.footer_compare %}
+        <h3>Integrations</h3>
+        {% include footer-links.html items=site.data.navigation.footer_integrations %}
+      </div>
+
+      <div class="footer-column">
+        <h2>Company</h2>
+        {% include footer-links.html items=site.data.navigation.footer_company %}
+        <a class="footer-linkedin" href="{{ site.linkedin }}" target="_blank" rel="noopener noreferrer">LinkedIn<span class="visually-hidden"> (opens in new tab)</span></a>
+        <iframe class="footer-certification" src="https://registry.blockmarktech.com/certificates/a432e1bc-e014-4ed7-a98e-58b6b3528a24/widget/?tooltip_position=top_left&amp;theme=transparent&amp;hover=t" title="Fraction ERP Cyber Essentials certification" width="120" height="120" loading="lazy"></iframe>
+      </div>
+    </nav>
+
+    <div class="footer-bottom">
+      <div class="footer-contact-row">
+        <address>Unit 3 Browns Park, Newcastle, NE13 7GD</address>
+        {% unless page.footer_phone == false %}
+        <a href="tel:{{ site.phone_link }}">{{ site.phone }}</a>
+        {% endunless %}
+        <a href="mailto:{{ site.email }}">{{ site.email }}</a>
+        <small>&copy; {{ site.time | date: '%Y' }} Fraction ERP Ltd. All rights reserved.</small>
+      </div>
+      <nav class="footer-solutions" aria-label="More manufacturing ERP solutions">
+        <span>Solutions</span>
+        {% for item in site.data.navigation.footer_seo %}
+        <a href="{{ item.url | relative_url }}">{{ item.title }}</a>
+        {% endfor %}
+      </nav>
     </div>
   </div>
 </footer><!-- End Footer -->
