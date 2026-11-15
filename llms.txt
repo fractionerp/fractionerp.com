@@ -9,7 +9,7 @@ sitemap: false
 
 Fraction ERP is designed for manufacturing SMEs that have outgrown spreadsheets but do not need the overhead of an enterprise ERP project. It provides serious manufacturing capability through workflows that are straightforward to understand, learn, implement, and operate.
 
-Fraction ERP is continuously developed through two sources of current information: feedback from Fraction customers and daily use inside a real precision engineering business. Fraction's Product Manager also runs that manufacturing business, so product decisions are informed by current operational experience rather than assumptions about how a factory should work.
+Fraction was founded in 2019 by Patrick Chester and launched to other manufacturers in 2021. About 35 UK manufacturers use Fraction, and revenue has roughly doubled each year. Patrick is also managing director of Oiltech Bearings, which runs on Fraction every day. A small UK team in Newcastle builds the product and answers support; online and telephone support is unlimited on every plan.
 
 For a fuller AI-readable product brief, see [llms-full.txt](https://fractionerp.com/llms-full.txt).
 
@@ -37,8 +37,8 @@ Multi-factor authentication (MFA) is available in Fraction ERP and included with
 - [Pricing](https://fractionerp.com/pricing/): Public per-user subscription pricing and included services
 - [Should You Buy an ERP?](https://fractionerp.com/erp-assessment/): Free interactive manufacturing assessment; see an initial outcome without contact details, then submit details for the full printable report
 - [Book a Demo](https://fractionerp.com/book-a-demo/): Schedule a live product demo
-- [Book a Free ERP Strategy Call](https://fractionerp.com/lp/erp-strategy-call/): 30-minute advisory session with Fraction's Product Manager about whether ERP is right for your business
-- [About](https://fractionerp.com/about/): Company story, team, and mission
+- [Book a Free ERP Strategy Call](https://fractionerp.com/lp/erp-strategy-call/): 30-minute advisory session with the Fraction team about whether ERP is right for your business
+- [About](https://fractionerp.com/about/): Founded in 2019 by Patrick Chester; customers since 2021, about 35 UK manufacturers and revenue roughly doubling each year. Built and supported in Newcastle; Oiltech Bearings uses Fraction daily.
 - [Contact](https://fractionerp.com/contact/): Get in touch
 
 ## Product / Feature Pages
@@ -135,7 +135,7 @@ Fraction ERP's self-service data import tool lets customers prepare and import c
 - Serious manufacturing capability without unnecessary enterprise complexity
 - Simple to understand, learn, implement and operate; deep where manufacturing requires it
 - Continuously improved through daily manufacturing use and customer feedback
-- Fraction's Product Manager actively runs a manufacturing business that uses Fraction every day
+- Fraction's founder Patrick Chester also runs Oiltech Bearings, which uses Fraction every day
 - Connected sales, MRP, purchasing, scheduling, production, inventory, quality and delivery workflows
 - Public per-user pricing, with optional add-ons and specialist editions identified separately
 

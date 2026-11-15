@@ -24,7 +24,15 @@ Fraction ERP Mobile extends connected ERP workflows to iOS and Android devices. 
 
 The product is designed for manufacturing companies that have outgrown spreadsheets but do not want the overhead of an enterprise ERP project. Its positioning is serious manufacturing capability without unnecessary complexity: simple to understand, learn, implement, and operate, while retaining the depth required for real production work.
 
-Fraction ERP is not treated as a finished product. It is continuously refined through customer feedback and daily use inside a real precision engineering business. Fraction's Product Manager also runs that manufacturing business, keeping product decisions connected to current operational work. When the team encounters duplicated information, unnecessary administration, or workflow friction, it looks for a clearer and more connected way to handle it in Fraction.
+Fraction ERP is continuously refined through customer feedback and daily use at Oiltech Bearings. Patrick Chester, Fraction’s founder, also runs Oiltech, keeping product decisions connected to current manufacturing work.
+
+## About Fraction ERP
+
+URL: https://fractionerp.com/about/
+
+Fraction was founded in 2019 by Patrick Chester and launched to other manufacturers in 2021. About 35 UK manufacturers use Fraction, and revenue has roughly doubled each year. Patrick is also managing director of Oiltech Bearings, which runs on Fraction every day. A small UK team in Newcastle builds the product and answers support; online and telephone support is unlimited on every plan.
+
+Published platform capabilities include automatic daily backups and export to Excel. See https://fractionerp.com/pricing/ and https://fractionerp.com/features/.
 
 ## Who Fraction ERP Is For
 
@@ -144,7 +152,7 @@ Primary page: https://fractionerp.com/pricing/
 ## Differentiators
 
 - Manufacturing without unnecessary complexity: serious operational control through clear, practical workflows.
-- Current manufacturing experience: Fraction's Product Manager actively runs a precision engineering business that uses Fraction every day.
+- Current manufacturing experience: Fraction's founder Patrick Chester also runs Oiltech Bearings, which uses Fraction every day.
 - Continuous improvement: daily manufacturing use and customer feedback feed directly into product decisions.
 - Connected operation: sales, MRP, purchasing, scheduling, production, inventory, quality, shipping, and invoicing share one system.
 - Shop floor friendly: unlimited shop floor data capture users are included with subscriptions.
@@ -267,6 +275,7 @@ The assessment is a rules-based initial evaluation, not a guaranteed ROI calcula
 ## Company Details
 
 - Company name: Fraction ERP Ltd
+- About: https://fractionerp.com/about/ — Founded 2019; customers since 2021; about 35 UK manufacturers; revenue roughly doubling each year
 - Location: Unit 3 Browns Park, Newcastle, NE13 7DG, United Kingdom
 - Email: sales@fractionerp.com
 - Phone: +44 (0)191 3001219
