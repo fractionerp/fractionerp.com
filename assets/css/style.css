@@ -4254,13 +4254,28 @@ section {
   font-weight: 500;
 }
 #footer .footer-linkedin {
-  display: inline-block;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: #47b2e4;
+  color: #fff;
+  font-size: 18px;
   margin-top: 10px;
+}
+#footer .footer-linkedin:hover {
+  background: #209dd8;
+  color: #fff;
+  text-decoration: none;
 }
 #footer .footer-certification {
   border: 0;
   display: block;
-  margin-top: 18px;
+  width: 80px;
+  height: 80px;
+  margin-top: 14px;
   max-width: 100%;
 }
 #footer .footer-bottom {
