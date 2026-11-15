@@ -11,14 +11,29 @@
           {% if item.dropdown %}
             <li class="dropdown">
               <button type="button" class="nav-dropdown-toggle" aria-expanded="false" aria-controls="nav-menu-{{ forloop.index }}"><span>{{ item.title }}</span> <i class="bi bi-chevron-down" aria-hidden="true"></i></button>
-              <ul id="nav-menu-{{ forloop.index }}">
-                {% for subitem in item.items %}
-                  <li>
-                    <a href="{{ subitem.url | relative_url }}"{% if subitem.external %} target="_blank" rel="noopener noreferrer"{% endif %}>
-                      {{ subitem.title }}{% if subitem.external %} <i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i><span class="visually-hidden">(opens in new tab)</span>{% endif %}
-                    </a>
-                  </li>
-                {% endfor %}
+              <ul id="nav-menu-{{ forloop.index }}"{% if item.groups %} class="nav-dropdown-columns"{% endif %}>
+                {% if item.groups %}
+                  {% for group in item.groups %}
+                    {% assign group_items = group.items %}
+                    {% if group.navigation %}{% assign group_items = site.data.navigation[group.navigation] %}{% endif %}
+                    <li class="nav-dropdown-column">
+                      <p class="nav-group-title">{{ group.title }}</p>
+                      <ul class="nav-column-links" aria-label="{{ group.title }}">
+                        {% for subitem in group_items %}
+                        <li><a href="{{ subitem.url | relative_url }}">{{ subitem.title }}</a></li>
+                        {% endfor %}
+                      </ul>
+                    </li>
+                  {% endfor %}
+                {% else %}
+                  {% for subitem in item.items %}
+                    <li>
+                      <a href="{{ subitem.url | relative_url }}"{% if subitem.external %} target="_blank" rel="noopener noreferrer"{% endif %}>
+                        {{ subitem.title }}{% if subitem.external %} <i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i><span class="visually-hidden">(opens in new tab)</span>{% endif %}
+                      </a>
+                    </li>
+                  {% endfor %}
+                {% endif %}
               </ul>
             </li>
           {% elsif item.cta %}

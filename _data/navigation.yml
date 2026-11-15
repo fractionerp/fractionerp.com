@@ -14,7 +14,22 @@ main:
       - title: Despatch and invoicing
         url: /shipping/
   - title: Customers
-    url: /case-studies/
+    dropdown: true
+    groups:
+      - title: Industries
+        navigation: footer_industries
+      - title: Customer case studies
+        items:
+          - title: Trinity Precision Engineering
+            url: /case-studies/trinity-precision-engineering/
+          - title: Cambridge Rapid
+            url: /case-studies/cambridge-rapid/
+          - title: Oiltech Bearings
+            url: /case-studies/oiltech/
+          - title: All case studies
+            url: /case-studies/
+          - title: Customer quotes
+            url: /case-studies/#customer-quotes
   - title: Pricing
     url: /pricing/
   - title: Resources
