@@ -28,8 +28,6 @@ main:
             url: /case-studies/oiltech/
           - title: All case studies
             url: /case-studies/
-          - title: Customer quotes
-            url: /case-studies/#customer-quotes
   - title: Pricing
     url: /pricing/
   - title: Resources
