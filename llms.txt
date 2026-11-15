@@ -124,7 +124,7 @@ Fraction ERP's self-service data import tool lets customers prepare and import c
 ## Company Information
 
 - **Company**: Fraction ERP Ltd
-- **Location**: Unit 3 Browns Park, Newcastle, NE13 7DG, United Kingdom
+- **Location**: Unit 3 Browns Park, Newcastle, NE13 7GD, United Kingdom
 - **Email**: sales@fractionerp.com
 - **Phone**: +44 (0)191 3001219
 - **LinkedIn**: https://www.linkedin.com/company/67678664
