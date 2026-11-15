@@ -91,7 +91,7 @@ faqs:
         <h3>{{ faq.question }}</h3>
         <p>{{ faq.answer }}</p>
         {% if forloop.last %}
-        <p class="mt-3"><a href="{{ '/pricing/' | relative_url }}">What’s included on every plan</a> · <a href="{{ '/features/' | relative_url }}">Published platform capabilities</a></p>
+        <p class="mt-3"><a href="{{ '/pricing/' | relative_url }}">What’s included on every plan</a></p>
         {% endif %}
       </article>
       {% endfor %}
