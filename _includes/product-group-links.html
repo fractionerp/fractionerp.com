@@ -1,0 +1,14 @@
+{% assign product_group = site.data.product_groups[include.group] %}
+<section class="feature-related-section">
+  <div class="container">
+    <div class="feature-related">
+      <h2>{{ product_group.title }}</h2>
+      <div class="feature-related-links">
+        {% for feature in product_group.links %}
+        <a href="{{ feature.url | relative_url }}">{{ feature.title }}</a>
+        {% endfor %}
+        <a href="{{ '/features/' | relative_url }}">All features</a>
+      </div>
+    </div>
+  </div>
+</section>

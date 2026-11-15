@@ -817,6 +817,8 @@ shipping:
     url: "/customer-returns/"
   - title: Traceability
     url: "/traceability/"
+  - title: Accounting Integrations
+    url: "/accounting-integrations/"
   cta_title: Connect Despatch, Stock and Invoicing
   cta_text: Create shipments, update stock records and raise invoices from the same
     despatch workflow.

@@ -10,8 +10,8 @@
         {% for item in site.data.navigation.main %}
           {% if item.dropdown %}
             <li class="dropdown">
-              <a href="#" aria-haspopup="true" aria-expanded="false"><span>{{ item.title }}</span> <i class="bi bi-chevron-down" aria-hidden="true"></i></a>
-              <ul>
+              <button type="button" class="nav-dropdown-toggle" aria-expanded="false" aria-controls="nav-menu-{{ forloop.index }}"><span>{{ item.title }}</span> <i class="bi bi-chevron-down" aria-hidden="true"></i></button>
+              <ul id="nav-menu-{{ forloop.index }}">
                 {% for subitem in item.items %}
                   <li>
                     <a href="{{ subitem.url | relative_url }}"{% if subitem.external %} target="_blank" rel="noopener noreferrer"{% endif %}>
@@ -27,7 +27,8 @@
             <li><a class="nav-link" href="{{ item.url | relative_url }}">{{ item.title }}</a></li>
           {% endif %}
         {% endfor %}
-        <li><a class="login-link scrollto" href="{{ site.app_url }}" rel="noopener">Login</a></li>
+        <li><a class="login-link" href="{{ site.app_url }}" rel="noopener">Log in</a></li>
+        <li><a class="getstarted" href="{{ '/book-a-demo/' | relative_url }}">Book a demo</a></li>
       </ul>
       <button class="mobile-nav-toggle" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="navbar">
         <i class="bi bi-list" aria-hidden="true"></i>

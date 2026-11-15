@@ -73,7 +73,7 @@ permalink: /case-studies/
             <div style="padding: clamp(32px, 5vw, 56px);">
               <p style="font-family: 'Poppins', sans-serif; font-size: 12px; letter-spacing: 1.5px; text-transform: uppercase; color: #47b2e4; font-weight: 600; margin-bottom: 12px;">Fraction in daily use &middot; Precision Engineering</p>
               <h2 style="font-family: 'Jost', sans-serif; font-weight: 700; color: #37517e; font-size: clamp(25px, 3vw, 34px); line-height: 1.25; margin-bottom: 16px;">Oiltech Bearings</h2>
-              <p style="font-size: 16px; color: #555; line-height: 1.75; margin-bottom: 24px;">Oiltech is the affiliated precision engineering business where Fraction's Product Manager uses the system every day. See how that operation eliminates duplicate admin, maintains accurate stock and helps keep product decisions grounded in manufacturing reality.</p>
+              <p style="font-size: 16px; color: #555; line-height: 1.75; margin-bottom: 24px;">Oiltech is the affiliated precision engineering business where Fraction's founder Patrick Chester uses the system every day. See how that operation eliminates duplicate admin, maintains accurate stock and helps keep product decisions grounded in manufacturing reality.</p>
               <div class="d-flex flex-wrap" style="gap: 10px; margin-bottom: 28px;">
                 <span style="display: inline-block; padding: 7px 14px; background: #eef7fb; color: #37517e; border-radius: 50px; font-size: 13px; font-weight: 600;">Zero duplicate admin</span>
                 <span style="display: inline-block; padding: 7px 14px; background: #eef7fb; color: #37517e; border-radius: 50px; font-size: 13px; font-weight: 600;">Accurate stock control</span>
@@ -87,6 +87,25 @@ permalink: /case-studies/
         </div>
       </div>
     </div>
+  </div>
+</section>
+
+<section id="customer-quotes" class="feature-section">
+  <div class="container">
+    <div class="feature-section-heading">
+      <h2>What customers say</h2>
+      <p>Manufacturers describe using Fraction in their own words.</p>
+    </div>
+    {% assign black_hills = site.data.testimonials | where: "name", "Dave Crossman" | first %}
+    {% assign atelier = site.data.testimonials | where: "name", "Sarah Borman" | first %}
+    {% for customer in site.data.testimonials %}
+      {% if customer.name == black_hills.name or customer.name == atelier.name %}
+      <figure class="feature-info-card mb-4" data-aos="fade-up">
+        <blockquote><p>“{{ customer.quote }}”</p></blockquote>
+        <figcaption><strong>{{ customer.name }}</strong><br>{{ customer.title }}</figcaption>
+      </figure>
+      {% endif %}
+    {% endfor %}
   </div>
 </section>
 

@@ -107,29 +107,80 @@
   }
 
   /**
-   * Mobile nav toggle
+   * Header menus: pointer, keyboard and mobile navigation.
    */
-  on('click', '.mobile-nav-toggle', function (e) {
-    select('#navbar').classList.toggle('navbar-mobile')
-    let icon = this.querySelector('i')
-    if (icon.classList.contains('bi-list')) {
-      icon.classList.remove('bi-list')
-      icon.classList.add('bi-x')
-    } else {
-      icon.classList.remove('bi-x')
-      icon.classList.add('bi-list')
-    }
-  })
+  const navbar = select('#navbar')
+  const navToggle = select('.mobile-nav-toggle')
+  const dropdownToggles = select('#navbar .nav-dropdown-toggle', true)
+  const desktopNav = window.matchMedia('(min-width: 992px)')
 
-  /**
-   * Mobile nav dropdowns activate
-   */
-  on('click', '.navbar .dropdown > a', function (e) {
-    if (select('#navbar').classList.contains('navbar-mobile')) {
-      e.preventDefault()
-      this.nextElementSibling.classList.toggle('dropdown-active')
-    }
-  }, true)
+  const setDropdown = (button, expanded) => {
+    button.setAttribute('aria-expanded', String(expanded))
+    button.parentElement.classList.toggle('dropdown-open', expanded)
+    button.nextElementSibling.classList.toggle('dropdown-active', expanded)
+  }
+  const closeDropdowns = (except) => {
+    dropdownToggles.forEach(button => {
+      if (button !== except) setDropdown(button, false)
+    })
+  }
+  const setMobileNav = (expanded) => {
+    if (!navbar || !navToggle) return
+    navbar.classList.toggle('navbar-mobile', expanded)
+    navToggle.setAttribute('aria-expanded', String(expanded))
+    const icon = navToggle.querySelector('i')
+    icon.classList.toggle('bi-list', !expanded)
+    icon.classList.toggle('bi-x', expanded)
+    if (!expanded) closeDropdowns()
+  }
+
+  if (navbar && navToggle) {
+    navToggle.addEventListener('click', () => {
+      setMobileNav(!navbar.classList.contains('navbar-mobile'))
+    })
+    dropdownToggles.forEach(button => {
+      const dropdown = button.parentElement
+      button.addEventListener('click', event => {
+        const expanded = desktopNav.matches && event.detail > 0
+          ? true
+          : button.getAttribute('aria-expanded') !== 'true'
+        closeDropdowns(button)
+        setDropdown(button, expanded)
+      })
+      dropdown.addEventListener('pointerenter', event => {
+        if (desktopNav.matches && event.pointerType === 'mouse') {
+          closeDropdowns(button)
+          setDropdown(button, true)
+        }
+      })
+      dropdown.addEventListener('pointerleave', () => {
+        if (desktopNav.matches && !dropdown.contains(document.activeElement)) {
+          setDropdown(button, false)
+        }
+      })
+      dropdown.addEventListener('focusout', event => {
+        if (desktopNav.matches && !dropdown.contains(event.relatedTarget)) setDropdown(button, false)
+      })
+    })
+    document.addEventListener('click', event => {
+      if (!navbar.contains(event.target) || event.target === navbar) {
+        closeDropdowns()
+        setMobileNav(false)
+      }
+    })
+    document.addEventListener('keydown', event => {
+      if (event.key !== 'Escape') return
+      const expanded = dropdownToggles.find(button => button.getAttribute('aria-expanded') === 'true')
+      if (expanded) {
+        setDropdown(expanded, false)
+        expanded.focus()
+      } else if (navbar.classList.contains('navbar-mobile')) {
+        setMobileNav(false)
+        navToggle.focus()
+      }
+    })
+    desktopNav.addEventListener('change', () => setMobileNav(false))
+  }
 
   /**
    * Scrool with ofset on links with a class name .scrollto

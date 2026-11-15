@@ -1,0 +1,58 @@
+quoting:
+  title: Explore quoting and sales
+  links:
+    - title: CRM
+      url: /crm/
+    - title: Sales analytics
+      url: /manufacturing-sales-analytics/
+    - title: Customer order workflow
+      url: /erp-manufacturing-workflow/
+planning:
+  title: Explore planning and scheduling
+  links:
+    - title: Bills of materials
+      url: /bill-of-materials-software/
+    - title: MRP demand planning
+      url: /purchasing/
+    - title: Works orders
+      url: /works-orders/
+    - title: Dashboard
+      url: /erp-dashboard/
+    - title: KPIs
+      url: /erp-key-performance-indicators/
+    - title: Intelligence Centre
+      url: /ai-in-erp/
+    - title: AI assistant
+      url: /ai-assistant/
+    - title: Reports
+      url: /reports/
+shop_floor:
+  title: Explore the shop floor
+  links:
+    - title: Time and attendance
+      url: /time-and-attendance/
+    - title: Mobile ERP
+      url: /mobile-erp/
+    - title: Standard operating procedures
+      url: /sop-software/
+    - title: Training log
+      url: /training-log/
+    - title: Inspection data
+      url: /inspection-data/
+    - title: Non-conformance reports
+      url: /non-conformance-reports/
+    - title: Health and safety
+      url: /health-safety-software/
+    - title: Risk assessments
+      url: /risk-assessment-software/
+stock:
+  title: Explore stock and purchasing
+  links:
+    - title: Parts and inventory
+      url: /parts-and-inventory/
+    - title: Purchasing
+      url: /purchasing/
+    - title: Serial and batch traceability
+      url: /traceability/
+    - title: Bar stock and offcuts
+      url: /bar-stock-management-software/

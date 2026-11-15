@@ -43,6 +43,12 @@
               <li><i class="bx bx-chevron-right" aria-hidden="true"></i> <a href="{{ item.url | relative_url }}"{% if item.external %} target="_blank" rel="noopener noreferrer"{% endif %}>{{ item.title }}{% if item.external %}<span class="visually-hidden">(opens in new tab)</span>{% endif %}</a></li>
             {% endfor %}
           </ul>
+          <h4 class="mt-4">Integrations</h4>
+          <ul>
+            {% for item in site.data.navigation.footer_integrations %}
+              <li><i class="bx bx-chevron-right" aria-hidden="true"></i> <a href="{{ item.url | relative_url }}">{{ item.title }}</a></li>
+            {% endfor %}
+          </ul>
         </div>
 
         <div class="col-lg-2 col-md-6 footer-links">

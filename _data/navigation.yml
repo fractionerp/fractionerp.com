@@ -1,109 +1,31 @@
-# Main navigation
+# Main navigation: five product stages, customer proof and two direct routes.
 main:
-  - title: ERP Software
+  - title: Product
     dropdown: true
     items:
-      - title: Manufacturing ERP Software
-        url: /mrp-software/
-      - title: Simple ERP System
-        url: /simple-erp-system/
-      - title: MRP Software
-        url: /what-is-mrp/
-      - title: Production Scheduling
-        url: /production-scheduling-software/
-      - title: Inventory & Purchasing
-        url: /purchasing-inventory-software/
-      - title: Shop Floor Data Capture
-        url: /shopfloor-data-capture-software/
-      - title: Time & Attendance
-        url: /time-and-attendance/
-      - title: AI Assistant — Free on Every Plan
-        url: /ai-assistant/
-      - title: ERP Intelligence Centre
-        url: /ai-in-erp/
-      - title: Sales Order Management
+      - title: Quoting and sales
         url: /sales-order-management-software/
-      - title: Sales Analytics
-        url: /manufacturing-sales-analytics/
-      - title: Bill of Materials
-        url: /bill-of-materials-software/
-      - title: SOP Software
-        url: /sop-software/
-      - title: Health & Safety
-        url: /health-safety-software/
-      - title: Risk Assessments
-        url: /risk-assessment-software/
-      - title: Cloud ERP
-        url: /cloud-erp-software/
-      - title: Mobile ERP
-        url: /mobile-erp/
-  - title: Solutions
-    dropdown: true
-    items:
-      - title: Replace Excel in Manufacturing
-        url: /replace-excel-manufacturing/
-      - title: Improve Production Planning
+      - title: Planning and scheduling
         url: /production-scheduling-software/
-      - title: Improve Inventory Control
-        url: /purchasing-inventory-software/
-      - title: Manage Bar Stock & Offcuts
-        url: /bar-stock-management-software/
-      - title: Real-Time Visibility
+      - title: Shop floor
         url: /shopfloor-data-capture-software/
-      - title: Compare ERP Systems
-        url: /compare-erp/
-  - title: Industries
-    dropdown: true
-    items:
-      - title: ERP for Injection Moulding
-        url: /erp-for-injection-moulding/
-      - title: ERP for Engineering
-        url: /erp-for-engineering/
-      - title: ERP for Fabrication
-        url: /erp-for-fabrication/
-      - title: Best Manufacturing ERP UK
-        url: /best-manufacturing-erp-uk/
+      - title: Stock and purchasing
+        url: /purchasing-inventory-software/
+      - title: Despatch and invoicing
+        url: /shipping/
+  - title: Customers
+    url: /case-studies/
+  - title: Pricing
+    url: /pricing/
   - title: Resources
     dropdown: true
     items:
-      - title: Should You Buy an ERP?
+      - title: ERP assessment
         url: /erp-assessment/
-      - title: Features
-        url: /features/
-      - title: What is MRP?
-        url: /what-is-mrp/
-      - title: MRP vs ERP
-        url: /mrp-vs-erp/
-      - title: MRP in Excel
-        url: /mrp-in-excel/
-      - title: ERP Implementation Guide
-        url: /erp-implementation-guide/
-      - title: ERP Workflow
-        url: /erp-manufacturing-workflow/
-      - title: Spreadsheet Readiness Checklist
-        url: /spreadsheet-readiness-checklist/
-      - title: ERP Warning Signs Checklist
-        url: /erp-failing-signs-checklist/
-      - title: Case Studies
-        url: /case-studies/
+      - title: Demo video
+        url: /erp-demo-video/
       - title: Blog
         url: /blog/
-  - title: Integrations
-    dropdown: true
-    items:
-      - title: Accounting — Xero, Sage, QuickBooks
-        url: /accounting-integrations/
-      - title: Ecommerce — Bluepark
-        url: /ecommerce-integrations/
-      - title: Manufacturing — Intouch Monitoring
-        url: /manufacturing-integrations/
-      - title: API & Data — Power BI, Zapier, Excel, Python
-        url: /api-integrations/
-  - title: Pricing
-    url: /pricing/
-  - title: Book a Demo
-    url: /book-a-demo/
-    cta: true
 
 # Footer navigation
 footer_erp_core:
@@ -167,6 +89,14 @@ footer_industries:
     url: /erp-for-fabrication/
 
 footer_resources:
+  - title: All Features
+    url: /features/
+  - title: Demo Video
+    url: /erp-demo-video/
+  - title: ERP Implementation Guide
+    url: /erp-implementation-guide/
+  - title: ERP Workflow
+    url: /erp-manufacturing-workflow/
   - title: Data Import & Migration
     url: /data-import/
   - title: ERP Assessment
@@ -209,3 +139,15 @@ footer_company:
     url: /privacy/
   - title: Terms of Service
     url: /terms/
+
+footer_integrations:
+  - title: All Integrations
+    url: /integrations/
+  - title: Accounting
+    url: /accounting-integrations/
+  - title: Ecommerce
+    url: /ecommerce-integrations/
+  - title: Manufacturing
+    url: /manufacturing-integrations/
+  - title: API & Data
+    url: /api-integrations/
