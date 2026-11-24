@@ -57,6 +57,8 @@ Current Tier 2 HubSpot form mapping:
 
 Both forms are rendered through `_includes/forms/hubspot-content.html` and submitted through the API. Keep their HubSpot field definitions aligned with the schema above and include the hidden `lead_source_detail` property. The `company_size` option values and `preferred_contact_method` values in HubSpot must match the values rendered by the include.
 
+The website requires a country on demo requests. The dropdown uses the ISO 3166-1 list in `_data/demo_countries.yml`. The selected name appears on the first line of the published HubSpot demo form’s comments field (`what_would_you_like_to_see__other_comments`), followed by any comments the visitor entered.
+
 Request Demo forms redirect to `/success/`. ERP Strategy Call forms redirect to `/strategy-call-success/`. Newsletter forms show a website-controlled inline completion message after HubSpot accepts the submission.
 
 ## ERP Assessment

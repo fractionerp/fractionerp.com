@@ -74,6 +74,17 @@
   function buildFields(form) {
     var fields = [];
     var data = new FormData(form);
+    var country = data.get("country");
+
+    if (country && form.classList.contains("fraction-hubspot-form--demo")) {
+      var message = data.get("message");
+      var comments = "Country: " + country;
+      if (message) comments += "\n\n" + message;
+
+      // The published demo form includes a comments field for the enquiry.
+      data.set("what_would_you_like_to_see__other_comments", comments);
+      data.delete("country");
+    }
 
     data.forEach(function (value, name) {
       if (name === "website" || value === "") return;

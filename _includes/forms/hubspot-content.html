@@ -56,6 +56,18 @@
   {% endunless %}
   {% if is_tier_two %}</div>{% endif %}
 
+  {% if form_type == "demo" %}
+  <div class="fraction-form-field">
+    <label for="{{ form_target }}-country">Country <span aria-hidden="true">*</span></label>
+    <select id="{{ form_target }}-country" name="country" autocomplete="country-name" required>
+      <option value="" disabled selected>Select your country</option>
+      {% for country in site.data.demo_countries %}
+      <option>{{ country[1] | escape }}</option>
+      {% endfor %}
+    </select>
+  </div>
+  {% endif %}
+
   {% if is_tier_two %}
   <div class="fraction-form-grid">
     <div class="fraction-form-field">
